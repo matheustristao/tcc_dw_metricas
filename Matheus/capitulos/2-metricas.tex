@@ -6,14 +6,24 @@
 A \citeonline{ISO:15939} define medição como a união de operações cujo objetivo é atribuir um valor a uma métrica. Ainda segundo a \citeonline{ISO:15939}, o processo de medição é a chave primária para a gerência de um software e suas atividades no seu ciclo de vida, além disso, um processo de melhoria contínua requer mudanças evolutivas e mudanças evolutivas requerem um processo de medição.
 	Complementando o conceito levantado anteriormente, é possível afirmar de acordo com a ISO/IEC 9126-1 (REFEÊNCIA 2)  que a medição é a utilização de uma métrica para  atribuir um valor, que pode ser um número ou uma categoria, obtido a partir de uma escala a um atributo de uma entidade.
 	A escala, citada anteriormente, pode ser definida como um conjunto de categorias para as quais os atributos estão mapeados, de modo que um atributo de medição está associado a uma escala \citeonline{ISO:15939}. Essas escalas podem ser divididas em:	
-	- Nominal: A ordem não possui significado na interpretação dos valores \cite{Meirelles2013}
-	- Ordinal: A ordem dos valores possui significado, porém a distância entre os valores não. \cite{Meirelles2013}
-	-  Intervalo:  A ordem dos valores possui significado e a distância entre os valores também. Porém, a proporção entre os valores não necessariamente possui significado. \cite{Meirelles2013}
-	- Racional: Semelhante a a medida com escala do tipo intervalo, porém a proporção possui significado. \cite{Meirelles2013}
-	A \citeonline{ISO:15939} divide o processo de medição em dois métodos diferentes, que se distinguem pela natureza do que é quantificado:
-	- Subjetiva: Quantificação envolvendo julgamento de um humano
-	- Objetiva: Quantificação baseada em regras numéricas. Essas regras podem ser implementadas por um humano.
 
+	\begin{easylist}[itemize]	
+	
+	& \textbf{Nominal:} A ordem não possui significado na interpretação dos valores \cite{Meirelles2013}
+	& \textbf{Ordinal:} A ordem dos valores possui significado, porém a distância entre os valores não. \cite{Meirelles2013}
+	& \textbf{Intervalo:}  A ordem dos valores possui significado e a distância entre os valores também. Porém, a proporção entre os valores não necessariamente possui significado. \cite{Meirelles2013}
+	& \textbf{Racional:} Semelhante a a medida com escala do tipo intervalo, porém a proporção possui significado. \cite{Meirelles2013}
+
+	\end{easylist}	
+	
+	A \citeonline{ISO:15939} divide o processo de medição em dois métodos diferentes, que se distinguem pela natureza do que é quantificado:
+	
+	\begin{easylist}[itemize]
+
+	& \textbf{Subjetiva:} Quantificação envolvendo julgamento de um humano
+	& \textbf{Objetiva:} Quantificação baseada em regras numéricas. Essas regras podem ser implementadas por um humano.
+
+	\end{easylist}
 
 
 %---------------------------------------------------------------------------------------------------------------------%
@@ -22,10 +32,25 @@ A \citeonline{ISO:15939} define medição como a união de operações cujo obje
 
 \citeonline{Fenton98}, mostraram que o termo métricas de software abrange muitas atividades, as quais estão envolvidas em um certo grau de medição de um software, como por exemplo estimativa de custo, estimativa de esforço e capacidade de reaproveitamento de elementos do software. Nesse contexto ISO/IEC 9126-1 categoriza as seguintes métricas de acordo com os diferentes tipos de medição:
 
-- Métricas internas: Aplicadas em um produto de software não executável, como código fonte. Oferecem aos usuários, desenvolvedores ou avaliadores o benefício de poder avaliar a qualidade do produto antes que ele seja executável.
-- Métrica externas: Aplicadas a um produto de software executável, medindo o comportamento do sistema do qual o software é uma parte através de teste, operação ou mesmo obervação. Oferecem aos usuários, desenvolvedores ou avaliadores o benefício de poder avaliar a qualidade do produto durante seu processo de teste ou operação.
-- Métricas de qualidade em uso: Aplicadas para medir o quanto um produto atende as necessidades de um usuário para que sejam atingidas metas especificadas como eficácia, produtividade, segurança e satisfação.
+\begin{easylist}[itemize]
+
+ & \textbf{Métricas internas:} Aplicadas em um produto de software não executável, como código fonte. Oferecem aos usuários, desenvolvedores ou avaliadores o benefício de poder avaliar a qualidade do produto antes que ele seja executável.
+& \textbf{Métricas externas:} Aplicadas a um produto de software executável, medindo o comportamento do sistema do qual o software é uma parte através de teste, operação ou mesmo obervação. Oferecem aos usuários, desenvolvedores ou avaliadores o benefício de poder avaliar a qualidade do produto durante seu processo de teste ou operação.
+& \textbf{Métricas de qualidade em uso:} Aplicadas para medir o quanto um produto atende as necessidades de um usuário para que sejam atingidas metas especificadas como eficácia, produtividade, segurança e satisfação.
+
+\end{easylist}
+
 A figura abaixo reflete como as métricas influenciam nos contextos em que elas estão envolvidas, seja em relação ao software propriamente dito (tanto internamente quanto externamente) ou ao efeito produzido pelo uso de software:
+
+	
+\begin{figure}[h!]
+\centering
+\includegraphics[keepaspectratio=false,scale=1.00]{figuras/figuras_matheus/tipos_medidas_INGLES.eps}
+\caption{Modelo de Qualidade do Produto da ISO 25023 adaptado da 
+\citeonline{ISO25023}}
+\label{modelodequalidade}
+\end{figure}
+\FloatBarrier
 
 %---------------------------------------------------------------------------------------------------------------------%
 
@@ -36,7 +61,56 @@ Serão utilizadas nesse trabalho de conclusão de curso métricas de código fon
 %--------------------------------------------
 \subsection{Métricas de tamanho e complexidade}
 
+\begin{easylist}[itemize]
+
+	& \textbf{LOC} (\textit{Lines of Code})
+		
+	& \textbf{ACCM} (\textit{Average Cyclomatic Complexity per Method}
+
+	& \textbf{AMLOC} (\textit{Average Method Lines of Code}
+	
+\end{easylist}
+
+
+
 \subsection{Métricas de Orientação a Objetos}
+
+
+\begin{easylist}
+	
+	%--------------------------
+	& \textbf{ACC} (\textit{Afferent Connections per Class} - Conexões Aferentes por Classe) 
+	
+	%--------------------------
+	& \textbf{ANPM} (\textit{Average Number of Parameters per Method} - Média do Número de Parâmetros por Método) 
+
+	%--------------------------
+	& \textbf{CBO} (\textit{Coupling Between Objects} - Acoplamento entre Objetos)
+
+	%-----------------------------
+	& \textbf{DIT} (\textit{Depth of Inheritance Tree} - Profundidade da 
+	Árvore de Herança) 
+
+	%--------------------------
+	& \textbf{LCOM4} (\textit{Lack of Cohesion in Methods} - Falta de Coesão
+	entre Métodos)
+
+	%--------------------------
+	& \textbf{NOC} (\textit{Number of Children} - Número de Filhos)
+	
+	%-----------------------------
+	& \textbf{NOM} (\textit{Number of Methods} - Número de Métodos)
+
+	%-----------------------------
+	& \textbf{NPA} (\textit{Number of Public Attributes} - Número de Atributos Públicos) 
+
+	%-----------------------------
+	& \textbf{RFC} (\textit{Response For a Class} - Respostas para uma Classe)
+
+
+
+\end{easylist}
+	
 
 %---------------------------------------------------------------------------------------------------------------------%
 
