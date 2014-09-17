@@ -25,21 +25,21 @@
 \contentsline {figure}{\numberline {24}{\ignorespaces Taxa de Aproveitamento de Oportunidades de Melhoria de C\IeC {\'o}digo-Fonte\relax }}{62}{figure.caption.56}
 \contentsline {figure}{\numberline {25}{\ignorespaces Gr\IeC {\'a}fico da Taxa de Aproveitamento de Oportunidades de Melhoria de C\IeC {\'o}digo-Fonte\relax }}{62}{figure.caption.57}
 \contentsline {figure}{\numberline {26}{\ignorespaces Crescimento do n\IeC {\'u}mero de Classes do Projeto SICG\relax }}{63}{figure.caption.58}
-\contentsline {figure}{\numberline {27}{\ignorespaces Componentes do Kettle que foram utilizadas nas Transforma\IeC {\c c}\IeC {\~o}es\relax }}{71}{figure.caption.63}
-\contentsline {figure}{\numberline {28}{\ignorespaces Primeira Transforma\IeC {\c c}\IeC {\~a}o realizada no Kettle\relax }}{71}{figure.caption.64}
-\contentsline {figure}{\numberline {29}{\ignorespaces Segunda Transforma\IeC {\c c}\IeC {\~a}o realizada no Kettle\relax }}{72}{figure.caption.65}
-\contentsline {figure}{\numberline {30}{\ignorespaces Terceira Transforma\IeC {\c c}\IeC {\~a}o realizada no Kettle\relax }}{83}{figure.caption.66}
-\contentsline {figure}{\numberline {31}{\ignorespaces Componentes do Kettle que foram utilizadas nos \textit {Jobs}\relax }}{89}{figure.caption.67}
-\contentsline {figure}{\numberline {32}{\ignorespaces \textit {Job} deste Trabalho\relax }}{90}{figure.caption.68}
-\contentsline {figure}{\numberline {33}{\ignorespaces Intepreta\IeC {\c c}\IeC {\~a}o dos Valores Percentis da M\IeC {\'e}trica ACC\relax }}{92}{figure.caption.69}
-\contentsline {figure}{\numberline {34}{\ignorespaces Intepreta\IeC {\c c}\IeC {\~a}o dos Valores Percentis da M\IeC {\'e}trica ACCM\relax }}{93}{figure.caption.70}
-\contentsline {figure}{\numberline {35}{\ignorespaces Intepreta\IeC {\c c}\IeC {\~a}o dos Valores Percentis da M\IeC {\'e}trica AMLOC\relax }}{94}{figure.caption.71}
-\contentsline {figure}{\numberline {36}{\ignorespaces Intepreta\IeC {\c c}\IeC {\~a}o dos Valores Percentis da M\IeC {\'e}trica ANPM\relax }}{95}{figure.caption.72}
-\contentsline {figure}{\numberline {37}{\ignorespaces Intepreta\IeC {\c c}\IeC {\~a}o dos Valores Percentis da M\IeC {\'e}trica CBO\relax }}{96}{figure.caption.73}
-\contentsline {figure}{\numberline {38}{\ignorespaces Intepreta\IeC {\c c}\IeC {\~a}o dos Valores Percentis da M\IeC {\'e}trica DIT\relax }}{97}{figure.caption.74}
-\contentsline {figure}{\numberline {39}{\ignorespaces Intepreta\IeC {\c c}\IeC {\~a}o dos Valores Percentis da M\IeC {\'e}trica LCOM4\relax }}{98}{figure.caption.75}
-\contentsline {figure}{\numberline {40}{\ignorespaces Intepreta\IeC {\c c}\IeC {\~a}o dos Valores Percentis da M\IeC {\'e}trica LOC\relax }}{99}{figure.caption.76}
-\contentsline {figure}{\numberline {41}{\ignorespaces Intepreta\IeC {\c c}\IeC {\~a}o dos Valores Percentis da M\IeC {\'e}trica NOC\relax }}{100}{figure.caption.77}
-\contentsline {figure}{\numberline {42}{\ignorespaces Intepreta\IeC {\c c}\IeC {\~a}o dos Valores Percentis da M\IeC {\'e}trica NOM\relax }}{101}{figure.caption.78}
-\contentsline {figure}{\numberline {43}{\ignorespaces Intepreta\IeC {\c c}\IeC {\~a}o dos Valores Percentis da M\IeC {\'e}trica NPA\relax }}{102}{figure.caption.79}
-\contentsline {figure}{\numberline {44}{\ignorespaces Intepreta\IeC {\c c}\IeC {\~a}o dos Valores Percentis da M\IeC {\'e}trica RFC\relax }}{103}{figure.caption.80}
+\contentsline {figure}{\numberline {27}{\ignorespaces Componentes do Kettle que foram utilizadas nas Transforma\IeC {\c c}\IeC {\~o}es\relax }}{75}{figure.caption.65}
+\contentsline {figure}{\numberline {28}{\ignorespaces Primeira Transforma\IeC {\c c}\IeC {\~a}o realizada no Kettle\relax }}{75}{figure.caption.66}
+\contentsline {figure}{\numberline {29}{\ignorespaces Segunda Transforma\IeC {\c c}\IeC {\~a}o realizada no Kettle\relax }}{76}{figure.caption.67}
+\contentsline {figure}{\numberline {30}{\ignorespaces Terceira Transforma\IeC {\c c}\IeC {\~a}o realizada no Kettle\relax }}{87}{figure.caption.68}
+\contentsline {figure}{\numberline {31}{\ignorespaces Componentes do Kettle que foram utilizadas nos \textit {Jobs}\relax }}{93}{figure.caption.69}
+\contentsline {figure}{\numberline {32}{\ignorespaces \textit {Job} deste Trabalho\relax }}{94}{figure.caption.70}
+\contentsline {figure}{\numberline {33}{\ignorespaces Intepreta\IeC {\c c}\IeC {\~a}o dos Valores Percentis da M\IeC {\'e}trica ACC\relax }}{96}{figure.caption.71}
+\contentsline {figure}{\numberline {34}{\ignorespaces Intepreta\IeC {\c c}\IeC {\~a}o dos Valores Percentis da M\IeC {\'e}trica ACCM\relax }}{97}{figure.caption.72}
+\contentsline {figure}{\numberline {35}{\ignorespaces Intepreta\IeC {\c c}\IeC {\~a}o dos Valores Percentis da M\IeC {\'e}trica AMLOC\relax }}{98}{figure.caption.73}
+\contentsline {figure}{\numberline {36}{\ignorespaces Intepreta\IeC {\c c}\IeC {\~a}o dos Valores Percentis da M\IeC {\'e}trica ANPM\relax }}{99}{figure.caption.74}
+\contentsline {figure}{\numberline {37}{\ignorespaces Intepreta\IeC {\c c}\IeC {\~a}o dos Valores Percentis da M\IeC {\'e}trica CBO\relax }}{100}{figure.caption.75}
+\contentsline {figure}{\numberline {38}{\ignorespaces Intepreta\IeC {\c c}\IeC {\~a}o dos Valores Percentis da M\IeC {\'e}trica DIT\relax }}{101}{figure.caption.76}
+\contentsline {figure}{\numberline {39}{\ignorespaces Intepreta\IeC {\c c}\IeC {\~a}o dos Valores Percentis da M\IeC {\'e}trica LCOM4\relax }}{102}{figure.caption.77}
+\contentsline {figure}{\numberline {40}{\ignorespaces Intepreta\IeC {\c c}\IeC {\~a}o dos Valores Percentis da M\IeC {\'e}trica LOC\relax }}{103}{figure.caption.78}
+\contentsline {figure}{\numberline {41}{\ignorespaces Intepreta\IeC {\c c}\IeC {\~a}o dos Valores Percentis da M\IeC {\'e}trica NOC\relax }}{104}{figure.caption.79}
+\contentsline {figure}{\numberline {42}{\ignorespaces Intepreta\IeC {\c c}\IeC {\~a}o dos Valores Percentis da M\IeC {\'e}trica NOM\relax }}{105}{figure.caption.80}
+\contentsline {figure}{\numberline {43}{\ignorespaces Intepreta\IeC {\c c}\IeC {\~a}o dos Valores Percentis da M\IeC {\'e}trica NPA\relax }}{106}{figure.caption.81}
+\contentsline {figure}{\numberline {44}{\ignorespaces Intepreta\IeC {\c c}\IeC {\~a}o dos Valores Percentis da M\IeC {\'e}trica RFC\relax }}{107}{figure.caption.82}

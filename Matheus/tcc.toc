@@ -9,7 +9,7 @@
 \contentsline {chapter}{\chapternumberline {1}\MakeTextUppercase {Introdu\IeC {\c c}\IeC {\~a}o}}{17}{chapter.1}
 \contentsline {section}{\numberline {1.1}Contexto}{17}{section.1.1}
 \contentsline {section}{\numberline {1.2}Problema}{17}{section.1.2}
-\contentsline {section}{\numberline {1.3}Quest\IeC {\~a}o de Pesquisa}{17}{section.1.3}
+\contentsline {section}{\numberline {1.3}Quest\IeC {\~a}o de Pesquisa}{18}{section.1.3}
 \contentsline {section}{\numberline {1.4}Objetivos}{18}{section.1.4}
 \contentsline {section}{\numberline {1.5}Hip\IeC {\'o}tese}{19}{section.1.5}
 \contentsline {section}{\numberline {1.6}Organiza\IeC {\c c}\IeC {\~a}o do Trabalho}{20}{section.1.6}
@@ -28,7 +28,7 @@
 \contentsline {section}{\numberline {3.2}\textit {Data Warehouse}}{26}{section.3.2}
 \contentsline {subsection}{\numberline {3.2.1}Metodologia do Projeto do \textit {Data Warehouse}}{28}{subsection.3.2.1}
 \contentsline {section}{\numberline {3.3}\textit {On-Line Analytical Processing} (OLAP)}{29}{section.3.3}
-\contentsline {section}{\numberline {3.4}Visualiza\IeC {\c c}\IeC {\~a}o de Dados}{32}{section.3.4}
+\contentsline {section}{\numberline {3.4}Visualiza\IeC {\c c}\IeC {\~a}o de Dados}{33}{section.3.4}
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
 \contentsline {chapter}{\chapternumberline {4}\MakeTextUppercase {Ambiente de \textit {Data Warehousing} para M\IeC {\'e}tricas de C\IeC {\'o}digo-Fonte}}{34}{chapter.4}
 \contentsline {section}{\numberline {4.1}Arquitetura do Ambiente \textit {Data Warehousing} para M\IeC {\'e}tricas de C\IeC {\'o}digo-Fonte}{34}{section.4.1}
@@ -58,20 +58,22 @@
 \contentsline {section}{\numberline {6.1}Limita\IeC {\c c}\IeC {\~o}es}{68}{section.6.1}
 \contentsline {section}{\numberline {6.2}Trabalhos Futuros}{68}{section.6.2}
 \vspace {\cftbeforechapterskip }
+\setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
+\contentsline {chapter}{Refer\^encias}{70}{section*.64}
 \renewcommand *{\cftappendixname }{AP\^ENDICE \space }
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
 \cftinsert {A}
-\contentsline {appendix}{\chapternumberline {A}\MakeTextUppercase {Descri\IeC {\c c}\IeC {\~a}o do Processo de ETL no Kettle}}{70}{appendix.A}
-\contentsline {section}{\numberline {A.1}Implementa\IeC {\c c}\IeC {\~o}es das \textit {Transformations}}{70}{section.A.1}
-\contentsline {section}{\numberline {A.2}Implementa\IeC {\c c}\IeC {\~a}o do \textit {Job}}{89}{section.A.2}
+\contentsline {appendix}{\chapternumberline {A}\MakeTextUppercase {Descri\IeC {\c c}\IeC {\~a}o do Processo de ETL no Kettle}}{74}{appendix.A}
+\contentsline {section}{\numberline {A.1}Implementa\IeC {\c c}\IeC {\~o}es das \textit {Transformations}}{74}{section.A.1}
+\contentsline {section}{\numberline {A.2}Implementa\IeC {\c c}\IeC {\~a}o do \textit {Job}}{93}{section.A.2}
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
 \cftinsert {A}
-\contentsline {appendix}{\chapternumberline {B}\MakeTextUppercase {Gr\IeC {\'a}ficos e Tabelas dos Percentis de M\IeC {\'e}tricas de C\IeC {\'o}digo-Fonte}}{91}{appendix.B}
+\contentsline {appendix}{\chapternumberline {B}\MakeTextUppercase {Gr\IeC {\'a}ficos e Tabelas dos Percentis de M\IeC {\'e}tricas de C\IeC {\'o}digo-Fonte}}{95}{appendix.B}
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
 \cftinsert {A}
-\contentsline {appendix}{\chapternumberline {C}\MakeTextUppercase {Cen\IeC {\'a}rios de Limpeza de C\IeC {\'o}digo-Fonte}}{104}{appendix.C}
+\contentsline {appendix}{\chapternumberline {C}\MakeTextUppercase {Cen\IeC {\'a}rios de Limpeza de C\IeC {\'o}digo-Fonte}}{108}{appendix.C}
 \cftinsert {AAA}
 \renewcommand *{\cftappendixname }{ANEXO \space }
