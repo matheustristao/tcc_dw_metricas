@@ -1,0 +1,38 @@
+\select@language {brazil}
+\contentsline {table}{\numberline {1}{\ignorespaces Objetivos Espec\IeC {\'\i }ficos do Trabalho\relax }}{19}{table.caption.11}
+\contentsline {table}{\numberline {2}{\ignorespaces Objetivos Espec\IeC {\'\i }fico OE6\relax }}{20}{table.caption.12}
+\contentsline {table}{\numberline {3}{\ignorespaces Modelo de Informa\IeC {\c c}\IeC {\~a}o para m\IeC {\'e}tricas de c\IeC {\'o}digo-fonte com base na \citeonline {ISO:15939}\relax }}{22}{table.caption.14}
+\contentsline {table}{\numberline {4}{\ignorespaces Percentis para m\IeC {\'e}trica NOM extra\IeC {\'\i }dos de \citeonline {Meirelles2013}\relax }}{28}{table.caption.16}
+\contentsline {table}{\numberline {5}{\ignorespaces Nome dos Intervalos de Frequ\IeC {\^e}ncia\relax }}{29}{table.caption.17}
+\contentsline {table}{\numberline {6}{\ignorespaces Configura\IeC {\c c}\IeC {\~o}es para os Intervalos das M\IeC {\'e}tricas para Java\relax }}{30}{table.caption.18}
+\contentsline {table}{\numberline {7}{\ignorespaces Conceitos de Limpeza extra\IeC {\'\i }dos de \citeonline {Machini2010}\relax }}{32}{table.caption.19}
+\contentsline {table}{\numberline {8}{\ignorespaces Cen\IeC {\'a}rios de Limpeza\relax }}{34}{table.caption.21}
+\contentsline {table}{\numberline {9}{\ignorespaces Diferen\IeC {\c c}as entre OLAP e OLTP extra\IeC {\'\i }das de \citeonline {valeria2012}, \citeonline {andre2000} e \citeonline {hilmer2002}\relax }}{41}{table.caption.27}
+\contentsline {table}{\numberline {10}{\ignorespaces Exemplo do Total de Vendas de uma Rede de Lojas no m\IeC {\^e}s de Novembro\relax }}{42}{table.caption.28}
+\contentsline {table}{\numberline {11}{\ignorespaces Exemplo do Total de Vendas de uma rede de lojas no m\IeC {\^e}s de novembro com a dimens\IeC {\~a}o Produto\relax }}{42}{table.caption.29}
+\contentsline {table}{\numberline {12}{\ignorespaces Exemplo do Total de vendas da Loja Norte no m\IeC {\^e}s de novembro\relax }}{42}{table.caption.30}
+\contentsline {table}{\numberline {13}{\ignorespaces Exemplo de Vendas por produto de uma rede de lojas nos meses de novembro e dezembro\relax }}{43}{table.caption.31}
+\contentsline {table}{\numberline {14}{\ignorespaces Exemplo de Vendas do Produto A na rede de Lojas\relax }}{43}{table.caption.32}
+\contentsline {table}{\numberline {15}{\ignorespaces Exemplo de Vendas por Loja para cada um dos Produtos nos meses de Novembro e Dezembro\relax }}{44}{table.caption.33}
+\contentsline {table}{\numberline {16}{\ignorespaces Crit\IeC {\'e}rios Gerais de sele\IeC {\c c}\IeC {\~a}o de ferramentas\relax }}{46}{table.caption.35}
+\contentsline {table}{\numberline {17}{\ignorespaces Crit\IeC {\'e}rios Espec\IeC {\'\i }ficos para Ferramenta de An\IeC {\'a}lise Est\IeC {\'a}tica de C\IeC {\'o}digo-Fonte\relax }}{46}{table.caption.36}
+\contentsline {table}{\numberline {18}{\ignorespaces Caracter\IeC {\'\i }sticas do SonarQube e do Analizo\relax }}{47}{table.caption.37}
+\contentsline {table}{\numberline {19}{\ignorespaces An\IeC {\'a}lise do SonarQube e do Analizo quanto aos crit\IeC {\'e}rios gerais e quanto aos crit\IeC {\'e}rios espec\IeC {\'\i }ficos de ferramentas de an\IeC {\'a}lise est\IeC {\'a}tica\relax }}{48}{table.caption.38}
+\contentsline {table}{\numberline {20}{\ignorespaces Requisitos de Neg\IeC {\'o}cio da Avalia\IeC {\c c}\IeC {\~a}o dos Valores Percentis das M\IeC {\'e}tricas de C\IeC {\'o}digo-Fonte conforme as configura\IeC {\c c}\IeC {\~o}es especificadas na Tabela \ref {tab:good-metrics}\relax }}{49}{table.caption.39}
+\contentsline {table}{\numberline {21}{\ignorespaces Requisitos de Neg\IeC {\'o}cio da Avalia\IeC {\c c}\IeC {\~a}o de Cen\IeC {\'a}rios de Limpeza de C\IeC {\'o}digo-Fonte e Avalia\IeC {\c c}\IeC {\~a}o de Taxa de Aproveitamento de Oportunidades de Melhoria de C\IeC {\'o}digo-Fonte conforme a Tabela \ref {tab:cenarios}\relax }}{50}{table.caption.40}
+\contentsline {table}{\numberline {22}{\ignorespaces Fatos e Dimens\IeC {\~o}es do \textit {Projeto de Data Warehouse} \relax }}{51}{table.caption.41}
+\contentsline {table}{\numberline {23}{\ignorespaces Caracter\IeC {\'\i }sticas do Kettle e avalia\IeC {\c c}\IeC {\~a}o quanto aos crit\IeC {\'e}rios gerais de sele\IeC {\c c}\IeC {\~a}o de ferramentas\relax }}{57}{table.caption.48}
+\contentsline {table}{\numberline {24}{\ignorespaces Caracter\IeC {\'\i }sticas do Pentaho BI Platform e avalia\IeC {\c c}\IeC {\~a}o quanto aos crit\IeC {\'e}rios gerais de sele\IeC {\c c}\IeC {\~a}o de ferramentas\relax }}{58}{table.caption.49}
+\contentsline {table}{\numberline {25}{\ignorespaces Caracter\IeC {\'\i }sticas do Saiku Analytics e avalia\IeC {\c c}\IeC {\~a}o quanto aos crit\IeC {\'e}rios gerais de sele\IeC {\c c}\IeC {\~a}o de ferramentas\relax }}{59}{table.caption.51}
+\contentsline {table}{\numberline {26}{\ignorespaces Objetivos Espec\IeC {\'\i }ficos de Estudo de Caso\relax }}{62}{table.caption.54}
+\contentsline {table}{\numberline {27}{\ignorespaces Crit\IeC {\'e}rios de Sele\IeC {\c c}\IeC {\~a}o de Objeto do Estudo de Caso\relax }}{62}{table.caption.55}
+\contentsline {table}{\numberline {28}{\ignorespaces Dados a serem analisados no Estudo de Caso\relax }}{65}{table.caption.56}
+\contentsline {table}{\numberline {29}{\ignorespaces Compara\IeC {\c c}\IeC {\~a}o entre este trabalho e o relat\IeC {\'o}rio de auditoria de c\IeC {\'o}digo-fonte\relax }}{75}{table.caption.67}
+\contentsline {table}{\numberline {30}{\ignorespaces Tempo de Execu\IeC {\c c}\IeC {\~a}o de cada passo automatizado no processo de medi\IeC {\c c}\IeC {\~a}o de m\IeC {\'e}tricas de c\IeC {\'o}digo-fonte\relax }}{77}{table.caption.68}
+\contentsline {table}{\numberline {31}{\ignorespaces Total de Consultas OLAP realizadas\relax }}{78}{table.caption.69}
+\contentsline {table}{\numberline {32}{\ignorespaces Classes com Cen\IeC {\'a}rio de Limpeza: Classe com m\IeC {\'e}todos muito grandes e/ou muitos condicionais\relax }}{120}{table.caption.91}
+\contentsline {table}{\numberline {33}{\ignorespaces Classes com Cen\IeC {\'a}rio de Limpeza: Classe com muitos filhos\relax }}{120}{table.caption.92}
+\contentsline {table}{\numberline {34}{\ignorespaces Classes com Cen\IeC {\'a}rio de Limpeza: Classe com muita exposi\IeC {\c c}\IeC {\~a}o\relax }}{120}{table.caption.93}
+\contentsline {table}{\numberline {35}{\ignorespaces Classes com Cen\IeC {\'a}rio de Limpeza: Classe Pouco Coesa\relax }}{121}{table.caption.94}
+\contentsline {table}{\numberline {36}{\ignorespaces Classes com Cen\IeC {\'a}rio de Limpeza: Complexidade Estrutural\relax }}{122}{table.caption.95}
+\contentsline {table}{\numberline {37}{\ignorespaces Classes com Cen\IeC {\'a}rio de Limpeza: Interface dos M\IeC {\'e}todos\relax }}{123}{table.caption.96}
