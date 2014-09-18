@@ -10,6 +10,12 @@
 {BASILI, V.~R.; CALDIERA, G.; ROMBACH, H.~D. \emph{{The Goal Question Metric
   Approach}}. [S.l.]: Encyclopedia of Software Engineering, 1996.}
 
+\bibitem[Basili e Rombach 1987]{Basili1987}
+\abntrefinfo{Basili e Rombach}{BASILI; ROMBACH}{1987}
+{BASILI, V.~R.; ROMBACH, H.~D. \emph{{TAME: Integrating Measurement into
+  Software Environments}}. 1987.
+Dispon{\'\i}vel em: \url{http://drum.lib.umd.edu//handle/1903/7517}.}
+
 \bibitem[Beck 1999]{beckarticle1999}
 \abntrefinfo{Beck}{BECK}{1999a}
 {BECK, K. Embracing change with extreme programming.
@@ -145,12 +151,22 @@ ISBN 0471569607.}
   Measurement of system and software product quality}.
 [S.l.], 2011.}
 
+\bibitem[Kan 2002]{metricsandmodels}
+\abntrefinfo{Kan}{KAN}{2002}
+{KAN, S.~H. \emph{Metrics and models in software quality engineering}. [S.l.]:
+  Addison Wesley, 2002.}
+
 \bibitem[Kimball e Ross 2002]{Kimball2002}
 \abntrefinfo{Kimball e Ross}{KIMBALL; ROSS}{2002}
 {KIMBALL, R.; ROSS, M. \emph{The Data Warehouse Toolkit: The Complete Guide to
   Dimensional Modeling}. 2nd. ed. New York, NY, USA: John Wiley \& Sons, Inc.,
   2002.
 ISBN 0471200247, 9780471200246.}
+
+\bibitem[Laird 2006]{softwaremeasurementandestimation}
+\abntrefinfo{Laird}{LAIRD}{2006}
+{LAIRD, M. C.~B. L.~M. \emph{Software measurement and estimation: A practical
+  approach}. [S.l.]: Wiley-IEEE Computer Society Press, 2006.}
 
 \bibitem[Marinescu 2005]{marinescu2005measurement}
 \abntrefinfo{Marinescu}{MARINESCU}{2005}
@@ -163,6 +179,12 @@ ISBN 0471200247, 9780471200246.}
 {MARINESCU, R.; RATIU, D. Quantifying the quality of object-oriented design:
   The factor-strategy model. In:  IEEE. \emph{Reverse Engineering, 2004.
   Proceedings. 11th Working Conference on}. [S.l.], 2004. p. 192--201.}
+
+\bibitem[McCabe 1976]{McCabe76}
+\abntrefinfo{McCabe}{MCCABE}{1976}
+{MCCABE, T.~J. {A Complexity Measure}.
+\emph{IEEE Transactions Software Engineering}, v.~2, n.~4, p. 308--320,
+  December 1976.}
 
 \bibitem[Meirelles 2013]{Meirelles2013}
 \abntrefinfo{Meirelles}{MEIRELLES}{2013}

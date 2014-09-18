@@ -45,7 +45,7 @@ A figura abaixo reflete como as métricas influenciam nos contextos em que elas 
 	
 \begin{figure}[h!]
 \centering
-\includegraphics[keepaspectratio=false,scale=1.00]{figuras/figuras_matheus/tipos_medidas_INGLES.eps}
+\includegraphics[keepaspectratio=false,scale=0.90]{figuras/figuras_matheus/tipos_medidas_INGLES.eps}
 \caption{Modelo de Qualidade do Produto da ISO 25023 adaptado da 
 \citeonline{ISO25023}}
 \label{modelodequalidade}
@@ -63,54 +63,48 @@ Serão utilizadas nesse trabalho de conclusão de curso métricas de código fon
 
 \begin{easylist}[itemize]
 
-	& \textbf{LOC} (\textit{Lines of Code})
+	& \textbf{LOC} (\textit{Lines of Code}): Métrica simples em que são contadas as linhas executáveis de um código, desconsiderando linhas em branco e comentários.  \cite{metricsandmodels} 
 		
-	& \textbf{ACCM} (\textit{Average Cyclomatic Complexity per Method}
+	& \textbf{ACCM} (\textit{Average Cyclomatic Complexity per Method}): Mede a complexidade do programa, podendo ser representada através de um grafo de fluxo de controle. \cite{McCabe76}
 
-	& \textbf{AMLOC} (\textit{Average Method Lines of Code}
+	& \textbf{AMLOC} (\textit{Average Method Lines of Code}): Indica a distribuição de código entre os métodos. Quanto maior o valor da métrica, mais pesado é o método. É preferível que haja muitos métodos com pequenas operações do que um método grande e de entendimento complexo. \cite{Meirelles2013}
 	
 \end{easylist}
 
-
-
 \subsection{Métricas de Orientação a Objetos}
-
 
 \begin{easylist}
 	
 	%--------------------------
-	& \textbf{ACC} (\textit{Afferent Connections per Class} - Conexões Aferentes por Classe) 
+	& \textbf{ACC} (\textit{Afferent Connections per Class} - Conexões Aferentes por Classe): Mede a conectividade entre as classes. Quanto maior a conectividade entre elas, maior o potencial de impacto que uma alteração pode gerar. \cite{Meirelles2013}
 	
 	%--------------------------
-	& \textbf{ANPM} (\textit{Average Number of Parameters per Method} - Média do Número de Parâmetros por Método) 
+	& \textbf{ANPM} (\textit{Average Number of Parameters per Method} - Média do Número de Parâmetros por Método): Indica a média de parâmetros que os métodos possuem. Um valor muito alto para quantidade de parâmetros pode indicar que o método está tendo mais de uma responsabilidade. \cite{Basili1987}
 
 	%--------------------------
-	& \textbf{CBO} (\textit{Coupling Between Objects} - Acoplamento entre Objetos)
-
+	& \textbf{CBO} (\textit{Coupling Between Objects} - Acoplamento entre Objetos): Essa é uma métrica que diz respeito a quantas outras classes dependem de uma classe. É a conta das classes às quais uma classe está acoplada. 		Duas classes estão acopladas quando métodos de uma delas utilizam métodos ou variáveis de outra. Altos 			valores dessa métrica aumentam a complexidade e diminuem a manutenibilidade.  \cite{softwaremeasurementandestimation}.
+  		 
 	%-----------------------------
 	& \textbf{DIT} (\textit{Depth of Inheritance Tree} - Profundidade da 
-	Árvore de Herança) 
+	Árvore de Herança): Responsável por medir quantas camadas de herança compõem uma determinada hierarquia 		de classes \cite{softwaremeasurementandestimation}. Segundo \cite{Meirelles2013}, quanto maior o valor 			de DIT, maior o número de métodos e atributos herdados, portanto maior a complexidade.
 
 	%--------------------------
 	& \textbf{LCOM4} (\textit{Lack of Cohesion in Methods} - Falta de Coesão
-	entre Métodos)
+	entre Métodos): A coesão de uma classe é indicada por quão próximas as variáveis locais estão relacionadas com variáveis de instância locais. Alta coesão indica uma boa subdivisão de classes. A LCOM mede a falta de coesão através dissimilaridade dos métodos de uma classe pelo emprego de variáveis de instância.\cite{metricsandmodels}. A métrica LCOM foi revista e passou a ser conhecida como LCOM4, sendo necessário para seu cálculo a construção de um gráfico não-orientado em que os nós são os atributos e métodos de uma classe. Para cada método deve haver uma aresta entre ele e outro método ou variável. O valor da LCOM4 é o número de componentes fracamente conectados a esse gráfico \cite{Meirelles2013}
 
 	%--------------------------
-	& \textbf{NOC} (\textit{Number of Children} - Número de Filhos)
+	& \textbf{NOC} (\textit{Number of Children} - Número de Filhos): É o número de sucessores imediatos,  (portanto filhos) de uma classe. Segundo \cite{softwaremeasurementandestimation}, altos valores indicam que a abstração da super classe foi diluída e uma reorganização da arquitetura deve ser considerada.
 	
 	%-----------------------------
-	& \textbf{NOM} (\textit{Number of Methods} - Número de Métodos)
+	& \textbf{NOM} (\textit{Number of Methods} - Número de Métodos): Indica a quantidade de métodos de uma classe, medindo seu tamanho. Classes com muitos métodos são mais difíceis de serem reutilizadas pois são propensas a serem menos coesas. \cite{Meirelles2013}  
 
 	%-----------------------------
-	& \textbf{NPA} (\textit{Number of Public Attributes} - Número de Atributos Públicos) 
+	& \textbf{NPA} (\textit{Number of Public Attributes} - Número de Atributos Públicos): Mede o encapsulamento de uma classe, através da medição dos atributos públicos. O número ideal para essa métrica é zero \cite{Meirelles2013}
 
 	%-----------------------------
-	& \textbf{RFC} (\textit{Response For a Class} - Respostas para uma Classe)
+	& \textbf{RFC} (\textit{Response For a Class} - Respostas para uma Classe): \cite{metricsandmodels} define essa métrica como o número de métodos que podem ser executados em respostas a uma mensagem recebida por um objeto da classe.
 
-
-
-\end{easylist}
-	
+\end{easylist}	
 
 %---------------------------------------------------------------------------------------------------------------------%
 

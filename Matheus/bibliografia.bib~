@@ -26,6 +26,17 @@
 	author = {Linda M. Laird, M. Carol Brennan},
 	year = {2006},
 	publisher = {Wiley-IEEE Computer Society Press}
+}
+
+
+@inproceedings{ragab_object_2010,
+	title = {Object oriented design metrics and tools a survey},
+	booktitle = {2010 The 7th International Conference on Informatics and Systems ({INFOS})},
+	author = {Ragab, S.R. and Ammar, H.H.},
+	month = mar,
+	year = {2010},
+}
+
 
 @book{yin2011applications,
   title={Applications of case study research},
