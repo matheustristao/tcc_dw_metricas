@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.9.14)  18 SEP 2014 00:02
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.9.14)  19 SEP 2014 00:42
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1466,10 +1466,10 @@ File: t1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
 LaTeX Font Info:    Font shape `T1/lmss/bx/it' in size <20.74> not available
 (Font)              Font shape `T1/lmss/bx/sl' tried instead on input line 12.
 Package epstopdf Info: Source file: <figuras/capa.eps>
-(epstopdf)                    date: 2014-09-02 23:07:54
+(epstopdf)                    date: 2014-09-18 16:49:41
 (epstopdf)                    size: 661293 bytes
 (epstopdf)             Output file: <figuras/capa-eps-converted-to.pdf>
-(epstopdf)                    date: 2014-09-02 23:07:54
+(epstopdf)                    date: 2014-09-18 16:49:41
 (epstopdf)                    size: 105957 bytes
 (epstopdf)             Command: <repstopdf --outfile=figuras/capa-eps-converted
 -to.pdf figuras/capa.eps>
@@ -1767,11 +1767,11 @@ LaTeX Font Info:    Font shape `OMS/lmr/m/n' in size <12> not available
 ]
 Package epstopdf Info: Source file: <figuras/figuras_matheus/tipos_medidas_INGL
 ES.eps>
-(epstopdf)                    date: 2014-09-15 23:52:33
+(epstopdf)                    date: 2014-09-18 16:49:43
 (epstopdf)                    size: 941906 bytes
 (epstopdf)             Output file: <figuras/figuras_matheus/tipos_medidas_INGL
 ES-eps-converted-to.pdf>
-(epstopdf)                    date: 2014-09-16 00:07:39
+(epstopdf)                    date: 2014-09-18 16:49:43
 (epstopdf)                    size: 25481 bytes
 (epstopdf)             Command: <repstopdf --outfile=figuras/figuras_matheus/ti
 pos_medidas_INGLES-eps-converted-to.pdf figuras/figuras_matheus/tipos_medidas_I
@@ -1779,7 +1779,7 @@ NGLES.eps>
 (epstopdf)             \includegraphics on input line 48.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/figuras_matheus/tipos_medidas_INGLES-eps-converted-to.pdf, id=568, 499
+<figuras/figuras_matheus/tipos_medidas_INGLES-eps-converted-to.pdf, id=573, 499
 .8675pt x 174.6525pt>
 File: figuras/figuras_matheus/tipos_medidas_INGLES-eps-converted-to.pdf Graphic
  file (type pdf)
@@ -1794,17 +1794,17 @@ rted-to.pdf used on input line 48.
 LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <24.88> not available
 (Font)              Font shape `T1/lmss/m/sl' tried instead on input line 1.
 Package epstopdf Info: Source file: <figuras/Dwing.eps>
-(epstopdf)                    date: 2014-09-02 23:07:54
+(epstopdf)                    date: 2014-09-18 16:49:38
 (epstopdf)                    size: 279881 bytes
 (epstopdf)             Output file: <figuras/Dwing-eps-converted-to.pdf>
-(epstopdf)                    date: 2014-09-02 23:07:54
+(epstopdf)                    date: 2014-09-18 16:49:38
 (epstopdf)                    size: 195993 bytes
 (epstopdf)             Command: <repstopdf --outfile=figuras/Dwing-eps-converte
 d-to.pdf figuras/Dwing.eps>
 (epstopdf)             \includegraphics on input line 20.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/Dwing-eps-converted-to.pdf, id=637, 1967.35pt x 1957.3125pt>
+<figuras/Dwing-eps-converted-to.pdf, id=654, 1967.35pt x 1957.3125pt>
 File: figuras/Dwing-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figuras/Dwing-eps-converted-to.pdf>
@@ -1822,17 +1822,17 @@ LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <17.28> not available
 (Font)              Font shape `T1/lmss/m/sl' tried instead on input line 26.
  [26 <./figuras/Dwing-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <figuras/star_schema.eps>
-(epstopdf)                    date: 2014-09-02 23:07:56
+(epstopdf)                    date: 2014-09-18 16:49:48
 (epstopdf)                    size: 12564130 bytes
 (epstopdf)             Output file: <figuras/star_schema-eps-converted-to.pdf>
-(epstopdf)                    date: 2014-09-02 23:07:56
+(epstopdf)                    date: 2014-09-18 16:49:48
 (epstopdf)                    size: 141356 bytes
 (epstopdf)             Command: <repstopdf --outfile=figuras/star_schema-eps-co
 nverted-to.pdf figuras/star_schema.eps>
 (epstopdf)             \includegraphics on input line 67.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/star_schema-eps-converted-to.pdf, id=680, 1731.46875pt x 1202.4925pt>
+<figuras/star_schema-eps-converted-to.pdf, id=697, 1731.46875pt x 1202.4925pt>
 File: figuras/star_schema-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figuras/star_schema-eps-converted-to.pdf>
@@ -1841,17 +1841,17 @@ Package pdftex.def Info: figuras/star_schema-eps-converted-to.pdf used on input
 (pdftex.def)             Requested size: 346.28761pt x 240.49423pt.
  [27]
 Package epstopdf Info: Source file: <figuras/cube.eps>
-(epstopdf)                    date: 2014-09-02 23:07:54
+(epstopdf)                    date: 2014-09-18 16:49:42
 (epstopdf)                    size: 11908 bytes
 (epstopdf)             Output file: <figuras/cube-eps-converted-to.pdf>
-(epstopdf)                    date: 2014-09-02 23:07:54
+(epstopdf)                    date: 2014-09-18 16:49:42
 (epstopdf)                    size: 11791 bytes
 (epstopdf)             Command: <repstopdf --outfile=figuras/cube-eps-converted
 -to.pdf figuras/cube.eps>
 (epstopdf)             \includegraphics on input line 76.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/cube-eps-converted-to.pdf, id=691, 386.44376pt x 303.1325pt>
+<figuras/cube-eps-converted-to.pdf, id=708, 386.44376pt x 303.1325pt>
 File: figuras/cube-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figuras/cube-eps-converted-to.pdf>
@@ -1863,17 +1863,17 @@ Package pdftex.def Info: figuras/cube-eps-converted-to.pdf used on input line 7
 LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <14.4> not available
 (Font)              Font shape `T1/lmss/m/sl' tried instead on input line 87.
 Package epstopdf Info: Source file: <figuras/dw-kimball.eps>
-(epstopdf)                    date: 2014-09-02 23:07:55
+(epstopdf)                    date: 2014-09-18 16:49:42
 (epstopdf)                    size: 5390654 bytes
 (epstopdf)             Output file: <figuras/dw-kimball-eps-converted-to.pdf>
-(epstopdf)                    date: 2014-09-02 23:07:55
+(epstopdf)                    date: 2014-09-18 16:49:42
 (epstopdf)                    size: 121134 bytes
 (epstopdf)             Command: <repstopdf --outfile=figuras/dw-kimball-eps-con
 verted-to.pdf figuras/dw-kimball.eps>
 (epstopdf)             \includegraphics on input line 94.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/dw-kimball-eps-converted-to.pdf, id=710, 2371.86125pt x 376.40625pt>
+<figuras/dw-kimball-eps-converted-to.pdf, id=727, 2371.86125pt x 376.40625pt>
 File: figuras/dw-kimball-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figuras/dw-kimball-eps-converted-to.pdf>
@@ -1881,17 +1881,17 @@ Package pdftex.def Info: figuras/dw-kimball-eps-converted-to.pdf used on input
 line 94.
 (pdftex.def)             Requested size: 450.65833pt x 71.51793pt.
 Package epstopdf Info: Source file: <figuras/arvore.eps>
-(epstopdf)                    date: 2014-09-02 23:07:54
+(epstopdf)                    date: 2014-09-18 16:49:40
 (epstopdf)                    size: 603532 bytes
 (epstopdf)             Output file: <figuras/arvore-eps-converted-to.pdf>
-(epstopdf)                    date: 2014-09-02 23:07:54
+(epstopdf)                    date: 2014-09-18 16:49:40
 (epstopdf)                    size: 10720 bytes
 (epstopdf)             Command: <repstopdf --outfile=figuras/arvore-eps-convert
 ed-to.pdf figuras/arvore.eps>
 (epstopdf)             \includegraphics on input line 109.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/arvore-eps-converted-to.pdf, id=720, 672.5125pt x 440.64626pt>
+<figuras/arvore-eps-converted-to.pdf, id=737, 672.5125pt x 440.64626pt>
 File: figuras/arvore-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figuras/arvore-eps-converted-to.pdf>
@@ -1923,18 +1923,18 @@ n/12 )$
 (./tabelas/after-slice.ltx) (./tabelas/after-pivoting.ltx) [33])
 (./capitulos/4-arquitetura.tex [34]
 Package epstopdf Info: Source file: <figuras/arquitetura-dwing.eps>
-(epstopdf)                    date: 2014-09-02 23:07:54
+(epstopdf)                    date: 2014-09-18 16:49:40
 (epstopdf)                    size: 23113364 bytes
 (epstopdf)             Output file: <figuras/arquitetura-dwing-eps-converted-to
 .pdf>
-(epstopdf)                    date: 2014-09-02 23:07:54
+(epstopdf)                    date: 2014-09-18 16:49:40
 (epstopdf)                    size: 179921 bytes
 (epstopdf)             Command: <repstopdf --outfile=figuras/arquitetura-dwing-
 eps-converted-to.pdf figuras/arquitetura-dwing.eps>
 (epstopdf)             \includegraphics on input line 9.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/arquitetura-dwing-eps-converted-to.pdf, id=822, 1957.3125pt x 1957.312
+<figuras/arquitetura-dwing-eps-converted-to.pdf, id=839, 1957.3125pt x 1957.312
 5pt>
 File: figuras/arquitetura-dwing-eps-converted-to.pdf Graphic file (type pdf)
  <use figuras/arquitetura-dwing-eps-converted-to.pdf>
@@ -1956,17 +1956,17 @@ LaTeX Warning: Reference `tab:good-metrics' on page 36 undefined on input line
 
 ) (./tabelas/ferramentas.ltx
 Package epstopdf Info: Source file: <figuras/analizo.eps>
-(epstopdf)                    date: 2014-09-02 23:07:54
+(epstopdf)                    date: 2014-09-18 16:49:40
 (epstopdf)                    size: 52812 bytes
 (epstopdf)             Output file: <figuras/analizo-eps-converted-to.pdf>
-(epstopdf)                    date: 2014-09-02 23:07:54
+(epstopdf)                    date: 2014-09-18 16:49:40
 (epstopdf)                    size: 4933 bytes
 (epstopdf)             Command: <repstopdf --outfile=figuras/analizo-eps-conver
 ted-to.pdf figuras/analizo.eps>
 (epstopdf)             \includegraphics on input line 9.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/analizo-eps-converted-to.pdf, id=837, 184.69pt x 42.1575pt>
+<figuras/analizo-eps-converted-to.pdf, id=855, 184.69pt x 42.1575pt>
 File: figuras/analizo-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figuras/analizo-eps-converted-to.pdf>
@@ -1974,17 +1974,17 @@ Package pdftex.def Info: figuras/analizo-eps-converted-to.pdf used on input lin
 e 9.
 (pdftex.def)             Requested size: 88.65018pt x 20.23535pt.
 Package epstopdf Info: Source file: <figuras/sonarqube.eps>
-(epstopdf)                    date: 2014-09-02 23:07:56
+(epstopdf)                    date: 2014-09-18 16:49:48
 (epstopdf)                    size: 64188 bytes
 (epstopdf)             Output file: <figuras/sonarqube-eps-converted-to.pdf>
-(epstopdf)                    date: 2014-09-02 23:07:56
+(epstopdf)                    date: 2014-09-18 16:49:48
 (epstopdf)                    size: 3847 bytes
 (epstopdf)             Command: <repstopdf --outfile=figuras/sonarqube-eps-conv
 erted-to.pdf figuras/sonarqube.eps>
 (epstopdf)             \includegraphics on input line 18.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/sonarqube-eps-converted-to.pdf, id=838, 200.75pt x 48.18pt>
+<figuras/sonarqube-eps-converted-to.pdf, id=856, 200.75pt x 48.18pt>
 File: figuras/sonarqube-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figuras/sonarqube-eps-converted-to.pdf>
@@ -2018,10 +2018,10 @@ Underfull \hbox (badness 2689) in paragraph at lines 55--55
 
 ) [36] (./tabelas/compare.ltx
 Package epstopdf Info: Source file: <figuras/analizo.eps>
-(epstopdf)                    date: 2014-09-02 23:07:54
+(epstopdf)                    date: 2014-09-18 16:49:40
 (epstopdf)                    size: 52812 bytes
 (epstopdf)             Output file: <figuras/analizo-eps-converted-to.pdf>
-(epstopdf)                    date: 2014-09-02 23:07:54
+(epstopdf)                    date: 2014-09-18 16:49:40
 (epstopdf)                    size: 4933 bytes
 (epstopdf)             Command: <repstopdf --outfile=figuras/analizo-eps-conver
 ted-to.pdf figuras/analizo.eps>
@@ -2033,10 +2033,10 @@ Package pdftex.def Info: figuras/analizo-eps-converted-to.pdf used on input lin
 e 9.
 (pdftex.def)             Requested size: 88.65018pt x 20.23535pt.
 Package epstopdf Info: Source file: <figuras/sonarqube.eps>
-(epstopdf)                    date: 2014-09-02 23:07:56
+(epstopdf)                    date: 2014-09-18 16:49:48
 (epstopdf)                    size: 64188 bytes
 (epstopdf)             Output file: <figuras/sonarqube-eps-converted-to.pdf>
-(epstopdf)                    date: 2014-09-02 23:07:56
+(epstopdf)                    date: 2014-09-18 16:49:48
 (epstopdf)                    size: 3847 bytes
 (epstopdf)             Command: <repstopdf --outfile=figuras/sonarqube-eps-conv
 erted-to.pdf figuras/sonarqube.eps>
@@ -2087,18 +2087,18 @@ Overfull \hbox (9.39131pt too wide) in paragraph at lines 1--100
 
 [40]
 Package epstopdf Info: Source file: <figuras/percentil-arvore.eps>
-(epstopdf)                    date: 2014-09-02 23:07:56
+(epstopdf)                    date: 2014-09-18 16:49:47
 (epstopdf)                    size: 9240990 bytes
 (epstopdf)             Output file: <figuras/percentil-arvore-eps-converted-to.
 pdf>
-(epstopdf)                    date: 2014-09-02 23:07:56
+(epstopdf)                    date: 2014-09-18 16:49:47
 (epstopdf)                    size: 191720 bytes
 (epstopdf)             Command: <repstopdf --outfile=figuras/percentil-arvore-e
 ps-converted-to.pdf figuras/percentil-arvore.eps>
 (epstopdf)             \includegraphics on input line 109.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/percentil-arvore-eps-converted-to.pdf, id=908, 2823.54875pt x 1626.075
+<figuras/percentil-arvore-eps-converted-to.pdf, id=925, 2823.54875pt x 1626.075
 pt>
 File: figuras/percentil-arvore-eps-converted-to.pdf Graphic file (type pdf)
  <use figuras/percentil-arvore-eps-converted-to.pdf>
@@ -2111,18 +2111,18 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 [41]
 Package epstopdf Info: Source file: <figuras/cenario-arvore.eps>
-(epstopdf)                    date: 2014-09-02 23:07:54
+(epstopdf)                    date: 2014-09-18 16:49:41
 (epstopdf)                    size: 4881344 bytes
 (epstopdf)             Output file: <figuras/cenario-arvore-eps-converted-to.pd
 f>
-(epstopdf)                    date: 2014-09-02 23:07:54
+(epstopdf)                    date: 2014-09-18 16:49:41
 (epstopdf)                    size: 110441 bytes
 (epstopdf)             Command: <repstopdf --outfile=figuras/cenario-arvore-eps
 -converted-to.pdf figuras/cenario-arvore.eps>
 (epstopdf)             \includegraphics on input line 118.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/cenario-arvore-eps-converted-to.pdf, id=913, 2146.0175pt x 1129.21875p
+<figuras/cenario-arvore-eps-converted-to.pdf, id=930, 2146.0175pt x 1129.21875p
 t>
 File: figuras/cenario-arvore-eps-converted-to.pdf Graphic file (type pdf)
  <use figuras/cenario-arvore-eps-converted-to.pdf>
@@ -2130,17 +2130,17 @@ Package pdftex.def Info: figuras/cenario-arvore-eps-converted-to.pdf used on in
 put line 118.
 (pdftex.def)             Requested size: 429.19589pt x 225.83975pt.
 Package epstopdf Info: Source file: <figuras/taxa-arvore.eps>
-(epstopdf)                    date: 2014-09-02 23:07:56
+(epstopdf)                    date: 2014-09-18 16:49:48
 (epstopdf)                    size: 6474452 bytes
 (epstopdf)             Output file: <figuras/taxa-arvore-eps-converted-to.pdf>
-(epstopdf)                    date: 2014-09-02 23:07:56
+(epstopdf)                    date: 2014-09-18 16:49:48
 (epstopdf)                    size: 106465 bytes
 (epstopdf)             Command: <repstopdf --outfile=figuras/taxa-arvore-eps-co
 nverted-to.pdf figuras/taxa-arvore.eps>
 (epstopdf)             \includegraphics on input line 127.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/taxa-arvore-eps-converted-to.pdf, id=914, 2070.73625pt x 1552.80125pt>
+<figuras/taxa-arvore-eps-converted-to.pdf, id=931, 2070.73625pt x 1552.80125pt>
 File: figuras/taxa-arvore-eps-converted-to.pdf Graphic file (type pdf)
 <use figuras/taxa-arvore-eps-converted-to.pdf>
 Package pdftex.def Info: figuras/taxa-arvore-eps-converted-to.pdf used on input
@@ -2149,17 +2149,17 @@ Package pdftex.def Info: figuras/taxa-arvore-eps-converted-to.pdf used on input
  [42 <./figuras/percentil-arvore-eps-converted-to.pdf> <./figuras/cenario-arvor
 e-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <figuras/modelo-dw.eps>
-(epstopdf)                    date: 2014-09-02 23:07:56
+(epstopdf)                    date: 2014-09-18 16:49:45
 (epstopdf)                    size: 5114561 bytes
 (epstopdf)             Output file: <figuras/modelo-dw-eps-converted-to.pdf>
-(epstopdf)                    date: 2014-09-15 23:28:31
+(epstopdf)                    date: 2014-09-18 16:49:45
 (epstopdf)                    size: 196162 bytes
 (epstopdf)             Command: <repstopdf --outfile=figuras/modelo-dw-eps-conv
 erted-to.pdf figuras/modelo-dw.eps>
 (epstopdf)             \includegraphics on input line 139.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/modelo-dw-eps-converted-to.pdf, id=927, 906.38625pt x 934.49126pt>
+<figuras/modelo-dw-eps-converted-to.pdf, id=944, 906.38625pt x 934.49126pt>
 File: figuras/modelo-dw-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figuras/modelo-dw-eps-converted-to.pdf>
@@ -2168,17 +2168,17 @@ ine 139.
 (pdftex.def)             Requested size: 444.13315pt x 457.90472pt.
  [43 <./figuras/taxa-arvore-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <figuras/metadados.eps>
-(epstopdf)                    date: 2014-09-02 23:07:55
+(epstopdf)                    date: 2014-09-18 16:49:45
 (epstopdf)                    size: 2265894 bytes
 (epstopdf)             Output file: <figuras/metadados-eps-converted-to.pdf>
-(epstopdf)                    date: 2014-09-02 23:07:55
+(epstopdf)                    date: 2014-09-18 16:49:45
 (epstopdf)                    size: 60898 bytes
 (epstopdf)             Command: <repstopdf --outfile=figuras/metadados-eps-conv
 erted-to.pdf figuras/metadados.eps>
 (epstopdf)             \includegraphics on input line 152.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/metadados-eps-converted-to.pdf, id=938, 677.53125pt x 553.06625pt>
+<figuras/metadados-eps-converted-to.pdf, id=955, 677.53125pt x 553.06625pt>
 File: figuras/metadados-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figuras/metadados-eps-converted-to.pdf>
@@ -2196,18 +2196,18 @@ LaTeX Warning: Reference `tab:cenarios' on page 45 undefined on input line 159.
 
 [45 <./figuras/metadados-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <figuras/data-integration.eps>
-(epstopdf)                    date: 2014-09-02 23:07:55
+(epstopdf)                    date: 2014-09-18 16:49:42
 (epstopdf)                    size: 4837933 bytes
 (epstopdf)             Output file: <figuras/data-integration-eps-converted-to.
 pdf>
-(epstopdf)                    date: 2014-09-15 23:28:34
+(epstopdf)                    date: 2014-09-18 16:49:42
 (epstopdf)                    size: 98516 bytes
 (epstopdf)             Command: <repstopdf --outfile=figuras/data-integration-e
 ps-converted-to.pdf figuras/data-integration.eps>
 (epstopdf)             \includegraphics on input line 180.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/data-integration-eps-converted-to.pdf, id=957, 1218.5525pt x 657.45625
+<figuras/data-integration-eps-converted-to.pdf, id=975, 1218.5525pt x 657.45625
 pt>
 File: figuras/data-integration-eps-converted-to.pdf Graphic file (type pdf)
  <use figuras/data-integration-eps-converted-to.pdf>
@@ -2221,17 +2221,17 @@ Overfull \hbox (8.05476pt too wide) in paragraph at lines 180--181
 
 (./tabelas/kettle.ltx
 Package epstopdf Info: Source file: <figuras/kettle.eps>
-(epstopdf)                    date: 2014-09-02 23:07:55
+(epstopdf)                    date: 2014-09-18 16:49:45
 (epstopdf)                    size: 68926 bytes
 (epstopdf)             Output file: <figuras/kettle-eps-converted-to.pdf>
-(epstopdf)                    date: 2014-09-02 23:07:55
+(epstopdf)                    date: 2014-09-18 16:49:45
 (epstopdf)                    size: 8701 bytes
 (epstopdf)             Command: <repstopdf --outfile=figuras/kettle-eps-convert
 ed-to.pdf figuras/kettle.eps>
 (epstopdf)             \includegraphics on input line 10.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/kettle-eps-converted-to.pdf, id=958, 160.6pt x 65.24374pt>
+<figuras/kettle-eps-converted-to.pdf, id=976, 160.6pt x 65.24374pt>
 File: figuras/kettle-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figuras/kettle-eps-converted-to.pdf>
@@ -2296,18 +2296,18 @@ T1/lmr/m/it/12 Extraction-Transformation-
 
 (./tabelas/biserver.ltx
 Package epstopdf Info: Source file: <figuras/pentaho_logo.eps>
-(epstopdf)                    date: 2014-09-02 23:07:56
+(epstopdf)                    date: 2014-09-18 16:49:46
 (epstopdf)                    size: 135981 bytes
 (epstopdf)             Output file: <figuras/pentaho_logo-eps-converted-to.pdf>
 
-(epstopdf)                    date: 2014-09-02 23:07:56
+(epstopdf)                    date: 2014-09-18 16:49:46
 (epstopdf)                    size: 6088 bytes
 (epstopdf)             Command: <repstopdf --outfile=figuras/pentaho_logo-eps-c
 onverted-to.pdf figuras/pentaho_logo.eps>
 (epstopdf)             \includegraphics on input line 6.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/pentaho_logo-eps-converted-to.pdf, id=973, 249.93375pt x 86.3225pt>
+<figuras/pentaho_logo-eps-converted-to.pdf, id=990, 249.93375pt x 86.3225pt>
 File: figuras/pentaho_logo-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figuras/pentaho_logo-eps-converted-to.pdf>
@@ -2366,17 +2366,17 @@ Underfull \hbox (badness 10000) in paragraph at lines 1--209
 
 [47 <./figuras/kettle-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <figuras/bi.eps>
-(epstopdf)                    date: 2014-09-02 23:07:54
+(epstopdf)                    date: 2014-09-18 16:49:41
 (epstopdf)                    size: 4409120 bytes
 (epstopdf)             Output file: <figuras/bi-eps-converted-to.pdf>
-(epstopdf)                    date: 2014-09-02 23:07:54
+(epstopdf)                    date: 2014-09-18 23:06:28
 (epstopdf)                    size: 327375 bytes
 (epstopdf)             Command: <repstopdf --outfile=figuras/bi-eps-converted-t
 o.pdf figuras/bi.eps>
 (epstopdf)             \includegraphics on input line 218.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/bi-eps-converted-to.pdf, id=982, 1262.7175pt x 578.16pt>
+<figuras/bi-eps-converted-to.pdf, id=999, 1262.7175pt x 578.16pt>
 File: figuras/bi-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figuras/bi-eps-converted-to.pdf>
@@ -2385,19 +2385,19 @@ Package pdftex.def Info: figuras/bi-eps-converted-to.pdf used on input line 218
 (pdftex.def)             Requested size: 441.95775pt x 202.35902pt.
  (./tabelas/saiku.ltx
 Package epstopdf Info: Source file: <figuras/saiku_olap_logo.eps>
-(epstopdf)                    date: 2014-09-02 23:07:56
+(epstopdf)                    date: 2014-09-18 16:49:48
 (epstopdf)                    size: 270529 bytes
 (epstopdf)             Output file: <figuras/saiku_olap_logo-eps-converted-to.p
 df>
-(epstopdf)                    date: 2014-09-02 23:07:56
-(epstopdf)                    size: 9782 bytes
+(epstopdf)                    date: 2014-09-18 23:06:28
+(epstopdf)                    size: 21716 bytes
 (epstopdf)             Command: <repstopdf --outfile=figuras/saiku_olap_logo-ep
 s-converted-to.pdf figuras/saiku_olap_logo.eps>
 (epstopdf)             \includegraphics on input line 8.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/saiku_olap_logo-eps-converted-to.pdf, id=984, 358.33875pt x 122.4575pt
->
+<figuras/saiku_olap_logo-eps-converted-to.pdf, id=1001, 358.33875pt x 122.4575p
+t>
 File: figuras/saiku_olap_logo-eps-converted-to.pdf Graphic file (type pdf)
  <use figuras/saiku_olap_logo-eps-converted-to.pdf>
 Package pdftex.def Info: figuras/saiku_olap_logo-eps-converted-to.pdf used on i
@@ -2463,18 +2463,18 @@ LaTeX Font Info:    Try loading font information for T1+lmtt on input line 241.
 File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 ) [49 <./figuras/saiku_olap_logo-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <figuras/pentaho-tools.eps>
-(epstopdf)                    date: 2014-09-02 23:07:56
+(epstopdf)                    date: 2014-09-18 16:49:46
 (epstopdf)                    size: 25592633 bytes
 (epstopdf)             Output file: <figuras/pentaho-tools-eps-converted-to.pdf
 >
-(epstopdf)                    date: 2014-09-02 23:07:56
+(epstopdf)                    date: 2014-09-18 16:49:46
 (epstopdf)                    size: 187756 bytes
 (epstopdf)             Command: <repstopdf --outfile=figuras/pentaho-tools-eps-
 converted-to.pdf figuras/pentaho-tools.eps>
 (epstopdf)             \includegraphics on input line 260.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/pentaho-tools-eps-converted-to.pdf, id=1015, 2012.51875pt x 2107.875pt
+<figuras/pentaho-tools-eps-converted-to.pdf, id=1032, 2012.51875pt x 2107.875pt
 >
 File: figuras/pentaho-tools-eps-converted-to.pdf Graphic file (type pdf)
  <use figuras/pentaho-tools-eps-converted-to.pdf>
@@ -2485,18 +2485,18 @@ ut line 260.
 (./capitulos/5-estudo-de-caso.tex [50 <./figuras/pentaho-tools-eps-converted-to
 .pdf>]
 Package epstopdf Info: Source file: <figuras/metodologia-estudo-caso.eps>
-(epstopdf)                    date: 2014-09-02 23:07:55
+(epstopdf)                    date: 2014-09-18 16:49:45
 (epstopdf)                    size: 14946246 bytes
 (epstopdf)             Output file: <figuras/metodologia-estudo-caso-eps-conver
 ted-to.pdf>
-(epstopdf)                    date: 2014-09-02 23:07:55
+(epstopdf)                    date: 2014-09-18 16:49:45
 (epstopdf)                    size: 163470 bytes
 (epstopdf)             Command: <repstopdf --outfile=figuras/metodologia-estudo
 -caso-eps-converted-to.pdf figuras/metodologia-estudo-caso.eps>
 (epstopdf)             \includegraphics on input line 9.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/metodologia-estudo-caso-eps-converted-to.pdf, id=1027, 2823.54875pt x 
+<figuras/metodologia-estudo-caso-eps-converted-to.pdf, id=1044, 2823.54875pt x 
 877.2775pt>
 File: figuras/metodologia-estudo-caso-eps-converted-to.pdf Graphic file (type p
 df)
@@ -2622,18 +2622,18 @@ Underfull \hbox (badness 1052) in paragraph at lines 17--17
 
 ) [55]
 Package epstopdf Info: Source file: <figuras/repositorio-iphan.eps>
-(epstopdf)                    date: 2014-09-02 23:07:56
+(epstopdf)                    date: 2014-09-18 16:49:47
 (epstopdf)                    size: 1796867 bytes
 (epstopdf)             Output file: <figuras/repositorio-iphan-eps-converted-to
 .pdf>
-(epstopdf)                    date: 2014-09-02 23:07:56
+(epstopdf)                    date: 2014-09-18 16:49:47
 (epstopdf)                    size: 20658 bytes
 (epstopdf)             Command: <repstopdf --outfile=figuras/repositorio-iphan-
 eps-converted-to.pdf figuras/repositorio-iphan.eps>
 (epstopdf)             \includegraphics on input line 141.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/repositorio-iphan-eps-converted-to.pdf, id=1098, 571.13374pt x 519.942
+<figuras/repositorio-iphan-eps-converted-to.pdf, id=1115, 571.13374pt x 519.942
 5pt>
 File: figuras/repositorio-iphan-eps-converted-to.pdf Graphic file (type pdf)
  <use figuras/repositorio-iphan-eps-converted-to.pdf>
@@ -2646,18 +2646,18 @@ LaTeX Warning: Reference `tab:good-metrics' on page 57 undefined on input line
 154.
 
 Package epstopdf Info: Source file: <figuras/total-OpenJDK.eps>
-(epstopdf)                    date: 2014-09-02 23:07:56
+(epstopdf)                    date: 2014-09-18 16:49:49
 (epstopdf)                    size: 2894129 bytes
 (epstopdf)             Output file: <figuras/total-OpenJDK-eps-converted-to.pdf
 >
-(epstopdf)                    date: 2014-09-02 23:07:56
+(epstopdf)                    date: 2014-09-18 16:49:49
 (epstopdf)                    size: 176625 bytes
 (epstopdf)             Command: <repstopdf --outfile=figuras/total-OpenJDK-eps-
 converted-to.pdf figuras/total-OpenJDK.eps>
 (epstopdf)             \includegraphics on input line 159.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/total-OpenJDK-eps-converted-to.pdf, id=1108, 1010.77625pt x 473.77pt>
+<figuras/total-OpenJDK-eps-converted-to.pdf, id=1125, 1010.77625pt x 473.77pt>
 File: figuras/total-OpenJDK-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figuras/total-OpenJDK-eps-converted-to.pdf>
@@ -2667,18 +2667,18 @@ ut line 159.
  [57 <./figuras/repositorio-iphan-eps-converted-to.pdf>] [58 <./figuras/total-O
 penJDK-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <figuras/total-tomcat.eps>
-(epstopdf)                    date: 2014-09-02 23:07:56
+(epstopdf)                    date: 2014-09-18 16:49:49
 (epstopdf)                    size: 2810080 bytes
 (epstopdf)             Output file: <figuras/total-tomcat-eps-converted-to.pdf>
 
-(epstopdf)                    date: 2014-09-02 23:07:56
+(epstopdf)                    date: 2014-09-18 16:49:49
 (epstopdf)                    size: 176159 bytes
 (epstopdf)             Command: <repstopdf --outfile=figuras/total-tomcat-eps-c
 onverted-to.pdf figuras/total-tomcat.eps>
 (epstopdf)             \includegraphics on input line 167.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/total-tomcat-eps-converted-to.pdf, id=1123, 1015.795pt x 457.71pt>
+<figuras/total-tomcat-eps-converted-to.pdf, id=1140, 1015.795pt x 457.71pt>
 File: figuras/total-tomcat-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figuras/total-tomcat-eps-converted-to.pdf>
@@ -2699,18 +2699,18 @@ LaTeX Warning: Reference `tab:cenarios' on page 61 undefined on input line 192.
 
 
 Package epstopdf Info: Source file: <figuras/total-cenario-tipo.eps>
-(epstopdf)                    date: 2014-09-02 23:07:56
+(epstopdf)                    date: 2014-09-18 16:49:49
 (epstopdf)                    size: 1016457 bytes
 (epstopdf)             Output file: <figuras/total-cenario-tipo-eps-converted-t
 o.pdf>
-(epstopdf)                    date: 2014-09-02 23:07:56
+(epstopdf)                    date: 2014-09-18 16:49:49
 (epstopdf)                    size: 22945 bytes
 (epstopdf)             Command: <repstopdf --outfile=figuras/total-cenario-tipo
 -eps-converted-to.pdf figuras/total-cenario-tipo.eps>
 (epstopdf)             \includegraphics on input line 197.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/total-cenario-tipo-eps-converted-to.pdf, id=1140, 993.7125pt x 168.63p
+<figuras/total-cenario-tipo-eps-converted-to.pdf, id=1157, 993.7125pt x 168.63p
 t>
 File: figuras/total-cenario-tipo-eps-converted-to.pdf Graphic file (type pdf)
  <use figuras/total-cenario-tipo-eps-converted-to.pdf>
@@ -2723,18 +2723,18 @@ Overfull \hbox (12.04494pt too wide) in paragraph at lines 197--198
  []
 
 Package epstopdf Info: Source file: <figuras/total-cenarios-release.eps>
-(epstopdf)                    date: 2014-09-02 23:07:56
+(epstopdf)                    date: 2014-09-18 16:49:49
 (epstopdf)                    size: 288028 bytes
 (epstopdf)             Output file: <figuras/total-cenarios-release-eps-convert
 ed-to.pdf>
-(epstopdf)                    date: 2014-09-02 23:07:56
+(epstopdf)                    date: 2014-09-18 16:49:49
 (epstopdf)                    size: 9597 bytes
 (epstopdf)             Command: <repstopdf --outfile=figuras/total-cenarios-rel
 ease-eps-converted-to.pdf figuras/total-cenarios-release.eps>
 (epstopdf)             \includegraphics on input line 208.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/total-cenarios-release-eps-converted-to.pdf, id=1142, 951.555pt x 49.1
+<figuras/total-cenarios-release-eps-converted-to.pdf, id=1159, 951.555pt x 49.1
 8375pt>
 File: figuras/total-cenarios-release-eps-converted-to.pdf Graphic file (type pd
 f)
@@ -2748,16 +2748,16 @@ Overfull \hbox (1.74121pt too wide) in paragraph at lines 208--209
  []
 
 Package epstopdf Info: Source file: <figuras/10-worst.eps>
-(epstopdf)                    date: 2014-09-02 23:07:54
+(epstopdf)                    date: 2014-09-18 16:49:38
 (epstopdf)                    size: 1551022 bytes
 (epstopdf)             Output file: <figuras/10-worst-eps-converted-to.pdf>
-(epstopdf)                    date: 2014-09-02 23:07:54
+(epstopdf)                    date: 2014-09-18 16:49:38
 (epstopdf)                    size: 39419 bytes
 (epstopdf)             Command: <repstopdf --outfile=figuras/10-worst-eps-conve
 rted-to.pdf figuras/10-worst.eps>
 (epstopdf)             \includegraphics on input line 224.
 Package epstopdf Info: Output file is already uptodate.
-<figuras/10-worst-eps-converted-to.pdf, id=1149, 693.59125pt x 369.38pt>
+<figuras/10-worst-eps-converted-to.pdf, id=1166, 693.59125pt x 369.38pt>
 File: figuras/10-worst-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figuras/10-worst-eps-converted-to.pdf>
@@ -2767,17 +2767,17 @@ ne 224.
  [61 <./figuras/total-cenario-tipo-eps-converted-to.pdf> <./figuras/total-cenar
 ios-release-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <figuras/10-best.eps>
-(epstopdf)                    date: 2014-09-02 23:07:54
+(epstopdf)                    date: 2014-09-18 16:49:38
 (epstopdf)                    size: 1538818 bytes
 (epstopdf)             Output file: <figuras/10-best-eps-converted-to.pdf>
-(epstopdf)                    date: 2014-09-02 23:07:54
+(epstopdf)                    date: 2014-09-18 16:49:38
 (epstopdf)                    size: 120935 bytes
 (epstopdf)             Command: <repstopdf --outfile=figuras/10-best-eps-conver
 ted-to.pdf figuras/10-best.eps>
 (epstopdf)             \includegraphics on input line 232.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/10-best-eps-converted-to.pdf, id=1160, 682.55pt x 372.39125pt>
+<figuras/10-best-eps-converted-to.pdf, id=1177, 682.55pt x 372.39125pt>
 File: figuras/10-best-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figuras/10-best-eps-converted-to.pdf>
@@ -2787,18 +2787,18 @@ e 232.
  [62 <./figuras/10-worst-eps-converted-to.pdf> <./figuras/10-best-eps-converted
 -to.pdf>]
 Package epstopdf Info: Source file: <figuras/taxa-parcial.eps>
-(epstopdf)                    date: 2014-09-02 23:07:56
+(epstopdf)                    date: 2014-09-18 16:49:48
 (epstopdf)                    size: 2673264 bytes
 (epstopdf)             Output file: <figuras/taxa-parcial-eps-converted-to.pdf>
 
-(epstopdf)                    date: 2014-09-02 23:07:56
+(epstopdf)                    date: 2014-09-18 16:49:48
 (epstopdf)                    size: 39908 bytes
 (epstopdf)             Command: <repstopdf --outfile=figuras/taxa-parcial-eps-c
 onverted-to.pdf figuras/taxa-parcial.eps>
 (epstopdf)             \includegraphics on input line 257.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/taxa-parcial-eps-converted-to.pdf, id=1180, 947.54pt x 466.74374pt>
+<figuras/taxa-parcial-eps-converted-to.pdf, id=1198, 947.54pt x 466.74374pt>
 File: figuras/taxa-parcial-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figuras/taxa-parcial-eps-converted-to.pdf>
@@ -2806,18 +2806,18 @@ Package pdftex.def Info: figuras/taxa-parcial-eps-converted-to.pdf used on inpu
 t line 257.
 (pdftex.def)             Requested size: 454.81403pt x 224.03444pt.
 Package epstopdf Info: Source file: <figuras/taxa-grafico.eps>
-(epstopdf)                    date: 2014-09-02 23:07:56
+(epstopdf)                    date: 2014-09-18 16:49:48
 (epstopdf)                    size: 2016318 bytes
 (epstopdf)             Output file: <figuras/taxa-grafico-eps-converted-to.pdf>
 
-(epstopdf)                    date: 2014-09-02 23:07:56
+(epstopdf)                    date: 2014-09-18 16:49:48
 (epstopdf)                    size: 19357 bytes
 (epstopdf)             Command: <repstopdf --outfile=figuras/taxa-grafico-eps-c
 onverted-to.pdf figuras/taxa-grafico.eps>
 (epstopdf)             \includegraphics on input line 266.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/taxa-grafico-eps-converted-to.pdf, id=1181, 962.59625pt x 346.29375pt>
+<figuras/taxa-grafico-eps-converted-to.pdf, id=1199, 962.59625pt x 346.29375pt>
 File: figuras/taxa-grafico-eps-converted-to.pdf Graphic file (type pdf)
 <use figuras/taxa-grafico-eps-converted-to.pdf>
 Package pdftex.def Info: figuras/taxa-grafico-eps-converted-to.pdf used on inpu
@@ -2829,18 +2829,18 @@ Overfull \hbox (7.04095pt too wide) in paragraph at lines 266--267
  []
 
 Package epstopdf Info: Source file: <figuras/crescimento-projeto.eps>
-(epstopdf)                    date: 2014-09-02 23:07:54
+(epstopdf)                    date: 2014-09-18 16:49:42
 (epstopdf)                    size: 2019296 bytes
 (epstopdf)             Output file: <figuras/crescimento-projeto-eps-converted-
 to.pdf>
-(epstopdf)                    date: 2014-09-02 23:07:54
+(epstopdf)                    date: 2014-09-18 16:49:42
 (epstopdf)                    size: 15519 bytes
 (epstopdf)             Command: <repstopdf --outfile=figuras/crescimento-projet
 o-eps-converted-to.pdf figuras/crescimento-projeto.eps>
 (epstopdf)             \includegraphics on input line 274.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/crescimento-projeto-eps-converted-to.pdf, id=1182, 947.54pt x 352.3162
+<figuras/crescimento-projeto-eps-converted-to.pdf, id=1200, 947.54pt x 352.3162
 5pt>
 File: figuras/crescimento-projeto-eps-converted-to.pdf Graphic file (type pdf)
  <use figuras/crescimento-projeto-eps-converted-to.pdf>
@@ -2910,18 +2910,18 @@ LaTeX Font Info:    Font shape `T1/lmtt/bx/n' in size <10> not available
 (Font)              Font shape `T1/lmtt/b/n' tried instead on input line 5.
 )
 Package epstopdf Info: Source file: <figuras/components-transformation.eps>
-(epstopdf)                    date: 2014-09-02 23:07:54
+(epstopdf)                    date: 2014-09-18 16:49:42
 (epstopdf)                    size: 481695 bytes
 (epstopdf)             Output file: <figuras/components-transformation-eps-conv
 erted-to.pdf>
-(epstopdf)                    date: 2014-09-02 23:07:54
+(epstopdf)                    date: 2014-09-18 23:06:30
 (epstopdf)                    size: 20759 bytes
 (epstopdf)             Command: <repstopdf --outfile=figuras/components-transfo
 rmation-eps-converted-to.pdf figuras/components-transformation.eps>
 (epstopdf)             \includegraphics on input line 22.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/components-transformation-eps-converted-to.pdf, id=1381, 714.67pt x 11
+<figuras/components-transformation-eps-converted-to.pdf, id=1403, 714.67pt x 11
 0.4125pt>
 File: figuras/components-transformation-eps-converted-to.pdf Graphic file (type
  pdf)
@@ -2933,18 +2933,18 @@ Package pdftex.def Info: figuras/components-transformation-eps-converted-to.pdf
 
 ]
 Package epstopdf Info: Source file: <figuras/first-transformation.eps>
-(epstopdf)                    date: 2014-09-02 23:07:55
+(epstopdf)                    date: 2014-09-18 16:49:43
 (epstopdf)                    size: 720477 bytes
 (epstopdf)             Output file: <figuras/first-transformation-eps-converted
 -to.pdf>
-(epstopdf)                    date: 2014-09-02 23:07:55
+(epstopdf)                    date: 2014-09-18 16:49:43
 (epstopdf)                    size: 24120 bytes
 (epstopdf)             Command: <repstopdf --outfile=figuras/first-transformati
 on-eps-converted-to.pdf figuras/first-transformation.eps>
 (epstopdf)             \includegraphics on input line 36.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/first-transformation-eps-converted-to.pdf, id=1406, 435.6275pt x 272.0
+<figuras/first-transformation-eps-converted-to.pdf, id=1428, 435.6275pt x 272.0
 1625pt>
 File: figuras/first-transformation-eps-converted-to.pdf Graphic file (type pdf)
 
@@ -2955,18 +2955,18 @@ Package pdftex.def Info: figuras/first-transformation-eps-converted-to.pdf used
  [76 <./figuras/components-transformation-eps-converted-to.pdf> <./figuras/firs
 t-transformation-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <figuras/second-transformation.eps>
-(epstopdf)                    date: 2014-09-02 23:07:56
+(epstopdf)                    date: 2014-09-18 16:49:48
 (epstopdf)                    size: 655224 bytes
 (epstopdf)             Output file: <figuras/second-transformation-eps-converte
 d-to.pdf>
-(epstopdf)                    date: 2014-09-02 23:07:56
+(epstopdf)                    date: 2014-09-18 16:49:48
 (epstopdf)                    size: 18727 bytes
 (epstopdf)             Command: <repstopdf --outfile=figuras/second-transformat
 ion-eps-converted-to.pdf figuras/second-transformation.eps>
 (epstopdf)             \includegraphics on input line 46.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/second-transformation-eps-converted-to.pdf, id=1418, 696.6025pt x 154.
+<figuras/second-transformation-eps-converted-to.pdf, id=1440, 696.6025pt x 154.
 5775pt>
 File: figuras/second-transformation-eps-converted-to.pdf Graphic file (type pdf
 )
@@ -2981,18 +2981,18 @@ File: lstlang1.sty 2013/08/26 1.5b listings language file
 (./codigos/project-fact.sql [77 <./figuras/second-transformation-eps-converted-
 to.pdf>] [78] [79] [80] [81] [82] [83] [84] [85] [86] [87])
 Package epstopdf Info: Source file: <figuras/third-transformation.eps>
-(epstopdf)                    date: 2014-09-02 23:07:56
+(epstopdf)                    date: 2014-09-18 16:49:49
 (epstopdf)                    size: 534681 bytes
 (epstopdf)             Output file: <figuras/third-transformation-eps-converted
 -to.pdf>
-(epstopdf)                    date: 2014-09-02 23:07:56
+(epstopdf)                    date: 2014-09-18 16:49:49
 (epstopdf)                    size: 17300 bytes
 (epstopdf)             Command: <repstopdf --outfile=figuras/third-transformati
 on-eps-converted-to.pdf figuras/third-transformation.eps>
 (epstopdf)             \includegraphics on input line 61.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/third-transformation-eps-converted-to.pdf, id=1823, 682.55pt x 128.48p
+<figuras/third-transformation-eps-converted-to.pdf, id=1845, 682.55pt x 128.48p
 t>
 File: figuras/third-transformation-eps-converted-to.pdf Graphic file (type pdf)
 
@@ -3004,18 +3004,18 @@ Package pdftex.def Info: figuras/third-transformation-eps-converted-to.pdf used
 ct.sql [89] [90]
 [91] [92] [93])
 Package epstopdf Info: Source file: <figuras/componentes-job.eps>
-(epstopdf)                    date: 2014-09-02 23:07:54
+(epstopdf)                    date: 2014-09-18 16:49:41
 (epstopdf)                    size: 479674 bytes
 (epstopdf)             Output file: <figuras/componentes-job-eps-converted-to.p
 df>
-(epstopdf)                    date: 2014-09-02 23:07:54
+(epstopdf)                    date: 2014-09-18 16:49:41
 (epstopdf)                    size: 8265 bytes
 (epstopdf)             Command: <repstopdf --outfile=figuras/componentes-job-ep
 s-converted-to.pdf figuras/componentes-job.eps>
 (epstopdf)             \includegraphics on input line 78.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/componentes-job-eps-converted-to.pdf, id=2058, 468.75125pt x 167.62625
+<figuras/componentes-job-eps-converted-to.pdf, id=2081, 468.75125pt x 167.62625
 pt>
 File: figuras/componentes-job-eps-converted-to.pdf Graphic file (type pdf)
  <use figuras/componentes-job-eps-converted-to.pdf>
@@ -3023,17 +3023,17 @@ Package pdftex.def Info: figuras/componentes-job-eps-converted-to.pdf used on i
 nput line 78.
 (pdftex.def)             Requested size: 281.25291pt x 100.5765pt.
 Package epstopdf Info: Source file: <figuras/job.eps>
-(epstopdf)                    date: 2014-09-02 23:07:55
+(epstopdf)                    date: 2014-09-18 16:49:45
 (epstopdf)                    size: 690561 bytes
 (epstopdf)             Output file: <figuras/job-eps-converted-to.pdf>
-(epstopdf)                    date: 2014-09-02 23:07:55
+(epstopdf)                    date: 2014-09-18 16:49:45
 (epstopdf)                    size: 16077 bytes
 (epstopdf)             Command: <repstopdf --outfile=figuras/job-eps-converted-
 to.pdf figuras/job.eps>
 (epstopdf)             \includegraphics on input line 90.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/job-eps-converted-to.pdf, id=2060, 844.15375pt x 134.5025pt>
+<figuras/job-eps-converted-to.pdf, id=2083, 844.15375pt x 134.5025pt>
 File: figuras/job-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figuras/job-eps-converted-to.pdf>
@@ -3048,17 +3048,17 @@ Overfull \hbox (51.49615pt too wide) in paragraph at lines 90--91
 [94 <./figuras/componentes-job-eps-converted-to.pdf>] [95 <./figuras/job-eps-co
 nverted-to.pdf>]
 Package epstopdf Info: Source file: <figuras/acc-grafico.eps>
-(epstopdf)                    date: 2014-09-02 23:07:54
+(epstopdf)                    date: 2014-09-18 16:49:39
 (epstopdf)                    size: 1695340 bytes
 (epstopdf)             Output file: <figuras/acc-grafico-eps-converted-to.pdf>
-(epstopdf)                    date: 2014-09-02 23:07:54
+(epstopdf)                    date: 2014-09-18 16:49:39
 (epstopdf)                    size: 14748 bytes
 (epstopdf)             Command: <repstopdf --outfile=figuras/acc-grafico-eps-co
 nverted-to.pdf figuras/acc-grafico.eps>
 (epstopdf)             \includegraphics on input line 106.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/acc-grafico-eps-converted-to.pdf, id=2089, 982.67125pt x 285.065pt>
+<figuras/acc-grafico-eps-converted-to.pdf, id=2111, 982.67125pt x 285.065pt>
 File: figuras/acc-grafico-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figuras/acc-grafico-eps-converted-to.pdf>
@@ -3066,17 +3066,17 @@ Package pdftex.def Info: figuras/acc-grafico-eps-converted-to.pdf used on input
  line 106.
 (pdftex.def)             Requested size: 687.86519pt x 199.54413pt.
 Package epstopdf Info: Source file: <figuras/acc-tabela.eps>
-(epstopdf)                    date: 2014-09-02 23:07:54
+(epstopdf)                    date: 2014-09-18 16:49:39
 (epstopdf)                    size: 457676 bytes
 (epstopdf)             Output file: <figuras/acc-tabela-eps-converted-to.pdf>
-(epstopdf)                    date: 2014-09-02 23:07:54
+(epstopdf)                    date: 2014-09-18 16:49:39
 (epstopdf)                    size: 12716 bytes
 (epstopdf)             Command: <repstopdf --outfile=figuras/acc-tabela-eps-con
 verted-to.pdf figuras/acc-tabela.eps>
 (epstopdf)             \includegraphics on input line 107.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/acc-tabela-eps-converted-to.pdf, id=2090, 1008.76875pt x 74.2775pt>
+<figuras/acc-tabela-eps-converted-to.pdf, id=2112, 1008.76875pt x 74.2775pt>
 File: figuras/acc-tabela-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figuras/acc-tabela-eps-converted-to.pdf>
@@ -3088,17 +3088,17 @@ line 107.
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 Package epstopdf Info: Source file: <figuras/accm-grafico.eps>
-(epstopdf)                    date: 2014-09-02 23:07:54
+(epstopdf)                    date: 2014-09-18 16:49:39
 (epstopdf)                    size: 1812407 bytes
 (epstopdf)             Output file: <figuras/accm-grafico-eps-converted-to.pdf>
 
-(epstopdf)                    date: 2014-09-02 23:07:54
+(epstopdf)                    date: 2014-09-18 16:49:39
 (epstopdf)                    size: 17720 bytes
 (epstopdf)             Command: <repstopdf --outfile=figuras/accm-grafico-eps-c
 onverted-to.pdf figuras/accm-grafico.eps>
 (epstopdf)             \includegraphics on input line 115.
 Package epstopdf Info: Output file is already uptodate.
-<figuras/accm-grafico-eps-converted-to.pdf, id=2091, 994.71625pt x 301.125pt>
+<figuras/accm-grafico-eps-converted-to.pdf, id=2113, 994.71625pt x 301.125pt>
 File: figuras/accm-grafico-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figuras/accm-grafico-eps-converted-to.pdf>
@@ -3106,17 +3106,17 @@ Package pdftex.def Info: figuras/accm-grafico-eps-converted-to.pdf used on inpu
 t line 115.
 (pdftex.def)             Requested size: 696.29663pt x 210.78606pt.
 Package epstopdf Info: Source file: <figuras/accm-tabela.eps>
-(epstopdf)                    date: 2014-09-02 23:07:54
+(epstopdf)                    date: 2014-09-18 16:49:39
 (epstopdf)                    size: 464240 bytes
 (epstopdf)             Output file: <figuras/accm-tabela-eps-converted-to.pdf>
-(epstopdf)                    date: 2014-09-02 23:07:54
+(epstopdf)                    date: 2014-09-18 16:49:39
 (epstopdf)                    size: 12093 bytes
 (epstopdf)             Command: <repstopdf --outfile=figuras/accm-tabela-eps-co
 nverted-to.pdf figuras/accm-tabela.eps>
 (epstopdf)             \includegraphics on input line 116.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/accm-tabela-eps-converted-to.pdf, id=2092, 1009.7725pt x 75.28125pt>
+<figuras/accm-tabela-eps-converted-to.pdf, id=2114, 1009.7725pt x 75.28125pt>
 File: figuras/accm-tabela-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figuras/accm-tabela-eps-converted-to.pdf>
@@ -3128,18 +3128,18 @@ Package pdftex.def Info: figuras/accm-tabela-eps-converted-to.pdf used on input
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 Package epstopdf Info: Source file: <figuras/amloc-grafico.eps>
-(epstopdf)                    date: 2014-09-02 23:07:54
+(epstopdf)                    date: 2014-09-18 16:49:40
 (epstopdf)                    size: 1725538 bytes
 (epstopdf)             Output file: <figuras/amloc-grafico-eps-converted-to.pdf
 >
-(epstopdf)                    date: 2014-09-02 23:07:54
+(epstopdf)                    date: 2014-09-18 16:49:40
 (epstopdf)                    size: 15277 bytes
 (epstopdf)             Command: <repstopdf --outfile=figuras/amloc-grafico-eps-
 converted-to.pdf figuras/amloc-grafico.eps>
 (epstopdf)             \includegraphics on input line 124.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/amloc-grafico-eps-converted-to.pdf, id=2093, 996.72375pt x 286.06876pt
+<figuras/amloc-grafico-eps-converted-to.pdf, id=2115, 996.72375pt x 286.06876pt
 >
 File: figuras/amloc-grafico-eps-converted-to.pdf Graphic file (type pdf)
  <use figuras/amloc-grafico-eps-converted-to.pdf>
@@ -3147,18 +3147,18 @@ Package pdftex.def Info: figuras/amloc-grafico-eps-converted-to.pdf used on inp
 ut line 124.
 (pdftex.def)             Requested size: 697.70187pt x 200.24675pt.
 Package epstopdf Info: Source file: <figuras/amloc-tabela.eps>
-(epstopdf)                    date: 2014-09-02 23:07:54
+(epstopdf)                    date: 2014-09-18 16:49:40
 (epstopdf)                    size: 481633 bytes
 (epstopdf)             Output file: <figuras/amloc-tabela-eps-converted-to.pdf>
 
-(epstopdf)                    date: 2014-09-02 23:07:54
+(epstopdf)                    date: 2014-09-18 16:49:40
 (epstopdf)                    size: 12377 bytes
 (epstopdf)             Command: <repstopdf --outfile=figuras/amloc-tabela-eps-c
 onverted-to.pdf figuras/amloc-tabela.eps>
 (epstopdf)             \includegraphics on input line 125.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/amloc-tabela-eps-converted-to.pdf, id=2094, 1007.765pt x 78.2925pt>
+<figuras/amloc-tabela-eps-converted-to.pdf, id=2116, 1007.765pt x 78.2925pt>
 File: figuras/amloc-tabela-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figuras/amloc-tabela-eps-converted-to.pdf>
@@ -3170,17 +3170,17 @@ t line 125.
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 Package epstopdf Info: Source file: <figuras/anpm-completo.eps>
-(epstopdf)                    date: 2014-09-02 23:07:54
+(epstopdf)                    date: 2014-09-18 16:49:40
 (epstopdf)                    size: 1921768 bytes
 (epstopdf)             Output file: <figuras/anpm-completo-eps-converted-to.pdf
 >
-(epstopdf)                    date: 2014-09-02 23:07:54
+(epstopdf)                    date: 2014-09-18 16:49:40
 (epstopdf)                    size: 17875 bytes
 (epstopdf)             Command: <repstopdf --outfile=figuras/anpm-completo-eps-
 converted-to.pdf figuras/anpm-completo.eps>
 (epstopdf)             \includegraphics on input line 133.
 Package epstopdf Info: Output file is already uptodate.
-<figuras/anpm-completo-eps-converted-to.pdf, id=2095, 947.54pt x 335.2525pt>
+<figuras/anpm-completo-eps-converted-to.pdf, id=2117, 947.54pt x 335.2525pt>
 File: figuras/anpm-completo-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figuras/anpm-completo-eps-converted-to.pdf>
@@ -3188,18 +3188,18 @@ Package pdftex.def Info: figuras/anpm-completo-eps-converted-to.pdf used on inp
 ut line 133.
 (pdftex.def)             Requested size: 710.65324pt x 251.43875pt.
 Package epstopdf Info: Source file: <figuras/anpm-projeto.eps>
-(epstopdf)                    date: 2014-09-02 23:07:54
+(epstopdf)                    date: 2014-09-18 16:49:40
 (epstopdf)                    size: 469431 bytes
 (epstopdf)             Output file: <figuras/anpm-projeto-eps-converted-to.pdf>
 
-(epstopdf)                    date: 2014-09-02 23:07:54
+(epstopdf)                    date: 2014-09-18 16:49:40
 (epstopdf)                    size: 12065 bytes
 (epstopdf)             Command: <repstopdf --outfile=figuras/anpm-projeto-eps-c
 onverted-to.pdf figuras/anpm-projeto.eps>
 (epstopdf)             \includegraphics on input line 134.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/anpm-projeto-eps-converted-to.pdf, id=2096, 1007.765pt x 76.285pt>
+<figuras/anpm-projeto-eps-converted-to.pdf, id=2118, 1007.765pt x 76.285pt>
 File: figuras/anpm-projeto-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figuras/anpm-projeto-eps-converted-to.pdf>
@@ -3215,17 +3215,17 @@ Overfull \hbox (2.65324pt too wide) in paragraph at lines 133--135
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 Package epstopdf Info: Source file: <figuras/cbo-grafico.eps>
-(epstopdf)                    date: 2014-09-02 23:07:54
+(epstopdf)                    date: 2014-09-18 16:49:41
 (epstopdf)                    size: 1691153 bytes
 (epstopdf)             Output file: <figuras/cbo-grafico-eps-converted-to.pdf>
-(epstopdf)                    date: 2014-09-02 23:07:54
+(epstopdf)                    date: 2014-09-18 16:49:41
 (epstopdf)                    size: 14570 bytes
 (epstopdf)             Command: <repstopdf --outfile=figuras/cbo-grafico-eps-co
 nverted-to.pdf figuras/cbo-grafico.eps>
 (epstopdf)             \includegraphics on input line 142.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/cbo-grafico-eps-converted-to.pdf, id=2097, 990.70125pt x 282.05376pt>
+<figuras/cbo-grafico-eps-converted-to.pdf, id=2119, 990.70125pt x 282.05376pt>
 File: figuras/cbo-grafico-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figuras/cbo-grafico-eps-converted-to.pdf>
@@ -3233,17 +3233,17 @@ Package pdftex.def Info: figuras/cbo-grafico-eps-converted-to.pdf used on input
  line 142.
 (pdftex.def)             Requested size: 693.48616pt x 197.43626pt.
 Package epstopdf Info: Source file: <figuras/cbo-tabela.eps>
-(epstopdf)                    date: 2014-09-02 23:07:54
+(epstopdf)                    date: 2014-09-18 16:49:41
 (epstopdf)                    size: 474594 bytes
 (epstopdf)             Output file: <figuras/cbo-tabela-eps-converted-to.pdf>
-(epstopdf)                    date: 2014-09-02 23:07:54
+(epstopdf)                    date: 2014-09-18 16:49:41
 (epstopdf)                    size: 14722 bytes
 (epstopdf)             Command: <repstopdf --outfile=figuras/cbo-tabela-eps-con
 verted-to.pdf figuras/cbo-tabela.eps>
 (epstopdf)             \includegraphics on input line 143.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/cbo-tabela-eps-converted-to.pdf, id=2098, 1005.7575pt x 77.28876pt>
+<figuras/cbo-tabela-eps-converted-to.pdf, id=2120, 1005.7575pt x 77.28876pt>
 File: figuras/cbo-tabela-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figuras/cbo-tabela-eps-converted-to.pdf>
@@ -3255,16 +3255,16 @@ line 143.
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 Package epstopdf Info: Source file: <figuras/dit-grafico.eps>
-(epstopdf)                    date: 2014-09-02 23:07:55
+(epstopdf)                    date: 2014-09-18 16:49:42
 (epstopdf)                    size: 1644391 bytes
 (epstopdf)             Output file: <figuras/dit-grafico-eps-converted-to.pdf>
-(epstopdf)                    date: 2014-09-02 23:07:55
+(epstopdf)                    date: 2014-09-18 16:49:42
 (epstopdf)                    size: 16560 bytes
 (epstopdf)             Command: <repstopdf --outfile=figuras/dit-grafico-eps-co
 nverted-to.pdf figuras/dit-grafico.eps>
 (epstopdf)             \includegraphics on input line 151.
 Package epstopdf Info: Output file is already uptodate.
-<figuras/dit-grafico-eps-converted-to.pdf, id=2099, 980.66376pt x 277.035pt>
+<figuras/dit-grafico-eps-converted-to.pdf, id=2121, 980.66376pt x 277.035pt>
 File: figuras/dit-grafico-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figuras/dit-grafico-eps-converted-to.pdf>
@@ -3272,17 +3272,17 @@ Package pdftex.def Info: figuras/dit-grafico-eps-converted-to.pdf used on input
  line 151.
 (pdftex.def)             Requested size: 686.45995pt x 193.92317pt.
 Package epstopdf Info: Source file: <figuras/dit-tabela.eps>
-(epstopdf)                    date: 2014-09-02 23:07:55
+(epstopdf)                    date: 2014-09-18 16:49:42
 (epstopdf)                    size: 471738 bytes
 (epstopdf)             Output file: <figuras/dit-tabela-eps-converted-to.pdf>
-(epstopdf)                    date: 2014-09-02 23:07:55
+(epstopdf)                    date: 2014-09-18 16:49:42
 (epstopdf)                    size: 11928 bytes
 (epstopdf)             Command: <repstopdf --outfile=figuras/dit-tabela-eps-con
 verted-to.pdf figuras/dit-tabela.eps>
 (epstopdf)             \includegraphics on input line 152.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/dit-tabela-eps-converted-to.pdf, id=2100, 1012.78375pt x 76.285pt>
+<figuras/dit-tabela-eps-converted-to.pdf, id=2122, 1012.78375pt x 76.285pt>
 File: figuras/dit-tabela-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figuras/dit-tabela-eps-converted-to.pdf>
@@ -3298,18 +3298,18 @@ Overfull \hbox (0.9438pt too wide) in paragraph at lines 151--153
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 Package epstopdf Info: Source file: <figuras/lcom4-projeto.eps>
-(epstopdf)                    date: 2014-09-02 23:07:55
+(epstopdf)                    date: 2014-09-18 16:49:45
 (epstopdf)                    size: 5184248 bytes
 (epstopdf)             Output file: <figuras/lcom4-projeto-eps-converted-to.pdf
 >
-(epstopdf)                    date: 2014-09-02 23:07:55
+(epstopdf)                    date: 2014-09-18 16:49:45
 (epstopdf)                    size: 36491 bytes
 (epstopdf)             Command: <repstopdf --outfile=figuras/lcom4-projeto-eps-
 converted-to.pdf figuras/lcom4-projeto.eps>
 (epstopdf)             \includegraphics on input line 162.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/lcom4-projeto-eps-converted-to.pdf, id=2101, 1524.69624pt x 563.10374p
+<figuras/lcom4-projeto-eps-converted-to.pdf, id=2123, 1524.69624pt x 563.10374p
 t>
 File: figuras/lcom4-projeto-eps-converted-to.pdf Graphic file (type pdf)
  <use figuras/lcom4-projeto-eps-converted-to.pdf>
@@ -3317,18 +3317,18 @@ Package pdftex.def Info: figuras/lcom4-projeto-eps-converted-to.pdf used on inp
 ut line 162.
 (pdftex.def)             Requested size: 686.10698pt x 253.39435pt.
 Package epstopdf Info: Source file: <figuras/lcom4-completo.eps>
-(epstopdf)                    date: 2014-09-02 23:07:55
+(epstopdf)                    date: 2014-09-18 16:49:45
 (epstopdf)                    size: 821778 bytes
 (epstopdf)             Output file: <figuras/lcom4-completo-eps-converted-to.pd
 f>
-(epstopdf)                    date: 2014-09-02 23:07:55
+(epstopdf)                    date: 2014-09-18 16:49:45
 (epstopdf)                    size: 15090 bytes
 (epstopdf)             Command: <repstopdf --outfile=figuras/lcom4-completo-eps
 -converted-to.pdf figuras/lcom4-completo.eps>
 (epstopdf)             \includegraphics on input line 163.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/lcom4-completo-eps-converted-to.pdf, id=2102, 1142.2675pt x 118.4425pt
+<figuras/lcom4-completo-eps-converted-to.pdf, id=2124, 1142.2675pt x 118.4425pt
 >
 File: figuras/lcom4-completo-eps-converted-to.pdf Graphic file (type pdf)
  <use figuras/lcom4-completo-eps-converted-to.pdf>
@@ -3340,16 +3340,16 @@ put line 163.
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 Package epstopdf Info: Source file: <figuras/loc-grafico.eps>
-(epstopdf)                    date: 2014-09-02 23:07:55
+(epstopdf)                    date: 2014-09-18 16:49:45
 (epstopdf)                    size: 1847482 bytes
 (epstopdf)             Output file: <figuras/loc-grafico-eps-converted-to.pdf>
-(epstopdf)                    date: 2014-09-02 23:07:55
+(epstopdf)                    date: 2014-09-18 16:49:45
 (epstopdf)                    size: 15710 bytes
 (epstopdf)             Command: <repstopdf --outfile=figuras/loc-grafico-eps-co
 nverted-to.pdf figuras/loc-grafico.eps>
 (epstopdf)             \includegraphics on input line 172.
 Package epstopdf Info: Output file is already uptodate.
-<figuras/loc-grafico-eps-converted-to.pdf, id=2103, 987.69pt x 309.155pt>
+<figuras/loc-grafico-eps-converted-to.pdf, id=2125, 987.69pt x 309.155pt>
 File: figuras/loc-grafico-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figuras/loc-grafico-eps-converted-to.pdf>
@@ -3357,17 +3357,17 @@ Package pdftex.def Info: figuras/loc-grafico-eps-converted-to.pdf used on input
  line 172.
 (pdftex.def)             Requested size: 691.3783pt x 216.40701pt.
 Package epstopdf Info: Source file: <figuras/loc-tabela.eps>
-(epstopdf)                    date: 2014-09-02 23:07:55
+(epstopdf)                    date: 2014-09-18 16:49:45
 (epstopdf)                    size: 458126 bytes
 (epstopdf)             Output file: <figuras/loc-tabela-eps-converted-to.pdf>
-(epstopdf)                    date: 2014-09-02 23:07:55
+(epstopdf)                    date: 2014-09-18 16:49:45
 (epstopdf)                    size: 13357 bytes
 (epstopdf)             Command: <repstopdf --outfile=figuras/loc-tabela-eps-con
 verted-to.pdf figuras/loc-tabela.eps>
 (epstopdf)             \includegraphics on input line 173.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/loc-tabela-eps-converted-to.pdf, id=2104, 1009.7725pt x 74.2775pt>
+<figuras/loc-tabela-eps-converted-to.pdf, id=2126, 1009.7725pt x 74.2775pt>
 File: figuras/loc-tabela-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figuras/loc-tabela-eps-converted-to.pdf>
@@ -3379,16 +3379,16 @@ line 173.
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 Package epstopdf Info: Source file: <figuras/noc-grafico.eps>
-(epstopdf)                    date: 2014-09-02 23:07:56
+(epstopdf)                    date: 2014-09-18 16:49:45
 (epstopdf)                    size: 1721142 bytes
 (epstopdf)             Output file: <figuras/noc-grafico-eps-converted-to.pdf>
-(epstopdf)                    date: 2014-09-02 23:07:56
+(epstopdf)                    date: 2014-09-18 16:49:45
 (epstopdf)                    size: 16714 bytes
 (epstopdf)             Command: <repstopdf --outfile=figuras/noc-grafico-eps-co
 nverted-to.pdf figuras/noc-grafico.eps>
 (epstopdf)             \includegraphics on input line 181.
 Package epstopdf Info: Output file is already uptodate.
-<figuras/noc-grafico-eps-converted-to.pdf, id=2105, 990.70125pt x 287.0725pt>
+<figuras/noc-grafico-eps-converted-to.pdf, id=2127, 990.70125pt x 287.0725pt>
 File: figuras/noc-grafico-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figuras/noc-grafico-eps-converted-to.pdf>
@@ -3396,17 +3396,17 @@ Package pdftex.def Info: figuras/noc-grafico-eps-converted-to.pdf used on input
  line 181.
 (pdftex.def)             Requested size: 693.48616pt x 200.94937pt.
 Package epstopdf Info: Source file: <figuras/noc-tabela.eps>
-(epstopdf)                    date: 2014-09-02 23:07:56
+(epstopdf)                    date: 2014-09-18 16:49:46
 (epstopdf)                    size: 481157 bytes
 (epstopdf)             Output file: <figuras/noc-tabela-eps-converted-to.pdf>
-(epstopdf)                    date: 2014-09-02 23:07:56
+(epstopdf)                    date: 2014-09-18 23:06:31
 (epstopdf)                    size: 12036 bytes
 (epstopdf)             Command: <repstopdf --outfile=figuras/noc-tabela-eps-con
 verted-to.pdf figuras/noc-tabela.eps>
 (epstopdf)             \includegraphics on input line 182.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/noc-tabela-eps-converted-to.pdf, id=2106, 1006.76125pt x 78.2925pt>
+<figuras/noc-tabela-eps-converted-to.pdf, id=2128, 1006.76125pt x 78.2925pt>
 File: figuras/noc-tabela-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figuras/noc-tabela-eps-converted-to.pdf>
@@ -3418,16 +3418,16 @@ line 182.
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 Package epstopdf Info: Source file: <figuras/nom-grafico.eps>
-(epstopdf)                    date: 2014-09-02 23:07:56
+(epstopdf)                    date: 2014-09-18 16:49:46
 (epstopdf)                    size: 1736323 bytes
 (epstopdf)             Output file: <figuras/nom-grafico-eps-converted-to.pdf>
-(epstopdf)                    date: 2014-09-02 23:07:56
+(epstopdf)                    date: 2014-09-18 16:49:46
 (epstopdf)                    size: 15516 bytes
 (epstopdf)             Command: <repstopdf --outfile=figuras/nom-grafico-eps-co
 nverted-to.pdf figuras/nom-grafico.eps>
 (epstopdf)             \includegraphics on input line 190.
 Package epstopdf Info: Output file is already uptodate.
-<figuras/nom-grafico-eps-converted-to.pdf, id=2107, 985.6825pt x 291.0875pt>
+<figuras/nom-grafico-eps-converted-to.pdf, id=2129, 985.6825pt x 291.0875pt>
 File: figuras/nom-grafico-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figuras/nom-grafico-eps-converted-to.pdf>
@@ -3435,17 +3435,17 @@ Package pdftex.def Info: figuras/nom-grafico-eps-converted-to.pdf used on input
  line 190.
 (pdftex.def)             Requested size: 689.97304pt x 203.75984pt.
 Package epstopdf Info: Source file: <figuras/nom-tabela.eps>
-(epstopdf)                    date: 2014-09-02 23:07:56
+(epstopdf)                    date: 2014-09-18 16:49:46
 (epstopdf)                    size: 586507 bytes
 (epstopdf)             Output file: <figuras/nom-tabela-eps-converted-to.pdf>
-(epstopdf)                    date: 2014-09-02 23:07:56
+(epstopdf)                    date: 2014-09-18 16:49:46
 (epstopdf)                    size: 14256 bytes
 (epstopdf)             Command: <repstopdf --outfile=figuras/nom-tabela-eps-con
 verted-to.pdf figuras/nom-tabela.eps>
 (epstopdf)             \includegraphics on input line 191.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/nom-tabela-eps-converted-to.pdf, id=2108, 1009.7725pt x 95.35625pt>
+<figuras/nom-tabela-eps-converted-to.pdf, id=2130, 1009.7725pt x 95.35625pt>
 File: figuras/nom-tabela-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figuras/nom-tabela-eps-converted-to.pdf>
@@ -3457,16 +3457,16 @@ line 191.
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 Package epstopdf Info: Source file: <figuras/npa-grafico.eps>
-(epstopdf)                    date: 2014-09-02 23:07:56
+(epstopdf)                    date: 2014-09-18 16:49:46
 (epstopdf)                    size: 1806936 bytes
 (epstopdf)             Output file: <figuras/npa-grafico-eps-converted-to.pdf>
-(epstopdf)                    date: 2014-09-02 23:07:56
+(epstopdf)                    date: 2014-09-18 16:49:46
 (epstopdf)                    size: 11507 bytes
 (epstopdf)             Command: <repstopdf --outfile=figuras/npa-grafico-eps-co
 nverted-to.pdf figuras/npa-grafico.eps>
 (epstopdf)             \includegraphics on input line 199.
 Package epstopdf Info: Output file is already uptodate.
-<figuras/npa-grafico-eps-converted-to.pdf, id=2109, 991.705pt x 301.125pt>
+<figuras/npa-grafico-eps-converted-to.pdf, id=2131, 991.705pt x 301.125pt>
 File: figuras/npa-grafico-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figuras/npa-grafico-eps-converted-to.pdf>
@@ -3474,17 +3474,17 @@ Package pdftex.def Info: figuras/npa-grafico-eps-converted-to.pdf used on input
  line 199.
 (pdftex.def)             Requested size: 694.18878pt x 210.78606pt.
 Package epstopdf Info: Source file: <figuras/npa-tabela.eps>
-(epstopdf)                    date: 2014-09-02 23:07:56
+(epstopdf)                    date: 2014-09-18 16:49:46
 (epstopdf)                    size: 463784 bytes
 (epstopdf)             Output file: <figuras/npa-tabela-eps-converted-to.pdf>
-(epstopdf)                    date: 2014-09-02 23:07:56
+(epstopdf)                    date: 2014-09-18 16:49:46
 (epstopdf)                    size: 12363 bytes
 (epstopdf)             Command: <repstopdf --outfile=figuras/npa-tabela-eps-con
 verted-to.pdf figuras/npa-tabela.eps>
 (epstopdf)             \includegraphics on input line 200.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/npa-tabela-eps-converted-to.pdf, id=2110, 1008.76875pt x 75.28125pt>
+<figuras/npa-tabela-eps-converted-to.pdf, id=2132, 1008.76875pt x 75.28125pt>
 File: figuras/npa-tabela-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figuras/npa-tabela-eps-converted-to.pdf>
@@ -3496,16 +3496,16 @@ line 200.
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 Package epstopdf Info: Source file: <figuras/rfc-grafico.eps>
-(epstopdf)                    date: 2014-09-02 23:07:56
+(epstopdf)                    date: 2014-09-18 16:49:47
 (epstopdf)                    size: 1713413 bytes
 (epstopdf)             Output file: <figuras/rfc-grafico-eps-converted-to.pdf>
-(epstopdf)                    date: 2014-09-02 23:07:56
+(epstopdf)                    date: 2014-09-18 16:49:47
 (epstopdf)                    size: 15195 bytes
 (epstopdf)             Command: <repstopdf --outfile=figuras/rfc-grafico-eps-co
 nverted-to.pdf figuras/rfc-grafico.eps>
 (epstopdf)             \includegraphics on input line 208.
 Package epstopdf Info: Output file is already uptodate.
-<figuras/rfc-grafico-eps-converted-to.pdf, id=2111, 972.63374pt x 291.0875pt>
+<figuras/rfc-grafico-eps-converted-to.pdf, id=2133, 972.63374pt x 291.0875pt>
 File: figuras/rfc-grafico-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figuras/rfc-grafico-eps-converted-to.pdf>
@@ -3513,17 +3513,17 @@ Package pdftex.def Info: figuras/rfc-grafico-eps-converted-to.pdf used on input
  line 208.
 (pdftex.def)             Requested size: 680.83897pt x 203.75984pt.
 Package epstopdf Info: Source file: <figuras/rfc-tabela.eps>
-(epstopdf)                    date: 2014-09-02 23:07:56
+(epstopdf)                    date: 2014-09-18 16:49:47
 (epstopdf)                    size: 470353 bytes
 (epstopdf)             Output file: <figuras/rfc-tabela-eps-converted-to.pdf>
-(epstopdf)                    date: 2014-09-02 23:07:56
+(epstopdf)                    date: 2014-09-18 16:49:47
 (epstopdf)                    size: 13546 bytes
 (epstopdf)             Command: <repstopdf --outfile=figuras/rfc-tabela-eps-con
 verted-to.pdf figuras/rfc-tabela.eps>
 (epstopdf)             \includegraphics on input line 209.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/rfc-tabela-eps-converted-to.pdf, id=2112, 1009.7725pt x 76.285pt>
+<figuras/rfc-tabela-eps-converted-to.pdf, id=2134, 1009.7725pt x 76.285pt>
 File: figuras/rfc-tabela-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figuras/rfc-tabela-eps-converted-to.pdf>
@@ -3599,7 +3599,7 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 45.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 45.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 45.
 Package rerunfilecheck Info: File `tcc.brf' has not changed.
-(rerunfilecheck)             Checksum: DE5E32252466AB940FA68E634E98E65D;7639.
+(rerunfilecheck)             Checksum: F27D6C7ECE5464D47740BDF95FCA19D8;8035.
 
 
 LaTeX Warning: There were undefined references.
@@ -3610,10 +3610,10 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 45.
  ) 
 Here is how much of TeX's memory you used:
- 28208 strings out of 493304
- 469417 string characters out of 6139871
- 888314 words of memory out of 5000000
- 29924 multiletter control sequences out of 15000+600000
+ 28241 strings out of 493304
+ 470035 string characters out of 6139871
+ 889179 words of memory out of 5000000
+ 29954 multiletter control sequences out of 15000+600000
  107259 words of font info for 80 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
  63i,17n,78p,1253b,2304s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -3640,10 +3640,10 @@ b></usr/share/texmf/fonts/type1/public/lm/lmtk10.pfb></usr/share/texmf/fonts/ty
 pe1/public/lm/lmtt10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsf
 onts/symbols/msam10.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/zapfding
 /uzdr.pfb>
-Output written on tcc.pdf (113 pages, 4039677 bytes).
+Output written on tcc.pdf (113 pages, 4052626 bytes).
 PDF statistics:
- 2722 PDF objects out of 2984 (max. 8388607)
- 2411 compressed objects within 25 object streams
- 908 named destinations out of 1000 (max. 500000)
+ 2744 PDF objects out of 2984 (max. 8388607)
+ 2433 compressed objects within 25 object streams
+ 911 named destinations out of 1000 (max. 500000)
  847 words of extra memory for PDF output out of 10000 (max. 10000000)
 

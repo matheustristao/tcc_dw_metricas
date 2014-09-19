@@ -116,6 +116,11 @@ ISBN 1-891706-20-9.}
 {GARDNER, S.~R. Building the.
 \emph{Communications of the ACM}, v.~41, n.~9, p.~53, 1998.}
 
+\bibitem[Gilmore 2008]{phpmysql}
+\abntrefinfo{Gilmore}{GILMORE}{2008}
+{GILMORE, W.~J. \emph{Dominando PHP e MySql}. [S.l.]: STARLIN ALTA CONSULT,
+  2008.}
+
 \bibitem[Golfarelli, Maio e Rizzi 1998]{Golfarelli1998}
 \abntrefinfo{Golfarelli, Maio e Rizzi}{GOLFARELLI; MAIO; RIZZI}{1998}
 {GOLFARELLI, M.; MAIO, D.; RIZZI, S. {Conceptual Design of Data Warehouses from
@@ -150,6 +155,12 @@ ISBN 0471569607.}
   Systems and software Quality Requirements and Evaluation (SQuaRE) -
   Measurement of system and software product quality}.
 [S.l.], 2011.}
+
+\bibitem[{ISO/IEC 9126} 2001]{ISO:9126}
+\abntrefinfo{{ISO/IEC 9126}}{{ISO/IEC 9126}}{2001}
+{{ISO/IEC 9126}. \emph{{ISO/IEC} 9126-1: Software Engineering - Product
+  Quality}.
+[S.l.], 2001.}
 
 \bibitem[Kan 2002]{metricsandmodels}
 \abntrefinfo{Kan}{KAN}{2002}
@@ -245,6 +256,14 @@ ISBN 3540654100.}
 {RAO, A.~A.; REDDY, K.~N. Detecting bad smells in object oriented design using
   design change propagation probability matrix 1.
 Citeseer, 2007.}
+
+\bibitem[R\^{e}go 2014]{rego_monitoramento_2014}
+\abntrefinfo{R\^{e}go}{R\^{e}GO}{2014}
+{R\^{e}GO, G.~B. Monitoramento de métricas de código-fonte com suporte de um
+  ambiente de data warehousing: um estudo de caso em uma autarquia da
+  administração pública federal.
+2014.
+Dispon{\'\i}vel em: \url{http://bdm.unb.br/handle/10483/8069}.}
 
 \bibitem[Rocha 2000]{andre2000}
 \abntrefinfo{Rocha}{ROCHA}{2000}

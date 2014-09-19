@@ -4,7 +4,7 @@
 \section{Processo de Medição}
 
 A \citeonline{ISO:15939} define medição como a união de operações cujo objetivo é atribuir um valor a uma métrica. Ainda segundo a \citeonline{ISO:15939}, o processo de medição é a chave primária para a gerência de um software e suas atividades no seu ciclo de vida, além disso, um processo de melhoria contínua requer mudanças evolutivas e mudanças evolutivas requerem um processo de medição.
-	Complementando o conceito levantado anteriormente, é possível afirmar de acordo com a ISO/IEC 9126-1 (REFEÊNCIA 2)  que a medição é a utilização de uma métrica para  atribuir um valor, que pode ser um número ou uma categoria, obtido a partir de uma escala a um atributo de uma entidade.
+	Complementando o conceito levantado anteriormente, é possível afirmar de acordo com a \citeonline{ISO:9126} que a medição é a utilização de uma métrica para  atribuir um valor, que pode ser um número ou uma categoria, obtido a partir de uma escala a um atributo de uma entidade.
 	A escala, citada anteriormente, pode ser definida como um conjunto de categorias para as quais os atributos estão mapeados, de modo que um atributo de medição está associado a uma escala \citeonline{ISO:15939}. Essas escalas podem ser divididas em:	
 
 	\begin{easylist}[itemize]	
@@ -30,7 +30,7 @@ A \citeonline{ISO:15939} define medição como a união de operações cujo obje
 
 \section{Definição das métricas de software}
 
-\citeonline{Fenton98}, mostraram que o termo métricas de software abrange muitas atividades, as quais estão envolvidas em um certo grau de medição de um software, como por exemplo estimativa de custo, estimativa de esforço e capacidade de reaproveitamento de elementos do software. Nesse contexto ISO/IEC 9126-1 categoriza as seguintes métricas de acordo com os diferentes tipos de medição:
+\citeonline{Fenton98}, mostraram que o termo métricas de software abrange muitas atividades, as quais estão envolvidas em um certo grau de medição de um software, como por exemplo estimativa de custo, estimativa de esforço e capacidade de reaproveitamento de elementos do software. Nesse contexto \citeonline{ISO:9126} categoriza as seguintes métricas de acordo com os diferentes tipos de medição:
 
 \begin{easylist}[itemize]
 
@@ -56,10 +56,12 @@ A figura abaixo reflete como as métricas influenciam nos contextos em que elas 
 
 \section{Métricas de código fonte}
 
-Serão utilizadas nesse trabalho de conclusão de curso métricas de código fonte, que segundo \cite{Meirelles2013} são métricas do tipo objetiva calculadas a partir da análise estática do código fonte de um software. As métricas de código fonte serão divididas em duas categorias, seguindo a categorização adotada por (BAUFAKER, 2013) (REFEÊNCIA 5): Métricas de tamanho e complexidade e métricas de orientação a objetos.
+Serão utilizadas nesse trabalho de conclusão de curso métricas de código fonte, que segundo \citeonline{Meirelles2013} são métricas do tipo objetiva calculadas a partir da análise estática do código fonte de um software. As métricas de código fonte serão divididas em duas categorias, seguindo a categorização adotada por \citeonline{rego_monitoramento_2014}: Métricas de tamanho e complexidade e métricas de orientação a objetos.
 
 %--------------------------------------------
 \subsection{Métricas de tamanho e complexidade}
+
+Segundo \citeonline{rego_monitoramento_2014}, o tamanho do código-fonte de um sistema foi um dos primeiros conceitos mensuráveis de software, uma vez que softwares podiam ocupar espaço tanto em forma de cartão perfurado quanto em forma de papel quando o código era impresso. Vale ressaltar que na programação em Assembler uma linha física de código era o mesmo que uma instrução, logo, quanto maior o tamanho do código, maior era sua complexidade \cite{metricsandmodels}. A seguir são apresentadas algumas métricas de tamanho e complexidade.
 
 \begin{easylist}[itemize]
 
@@ -72,6 +74,10 @@ Serão utilizadas nesse trabalho de conclusão de curso métricas de código fon
 \end{easylist}
 
 \subsection{Métricas de Orientação a Objetos}
+
+O surgimento da programação orientada a objetos representou uma importante mudança na estratégia de desenvolvimento, focalizando a atenção para conceitos mais próximos ao negócio modelado. \cite{phpmysql}  
+
+Métricas de orientação a objetos foram adotadas devido à grande utilização desse paradigma no desenvolvimento de software. Serão adotadas as seguintes métricas já selecionadas por \citeonline{rego_monitoramento_2014}:  
 
 \begin{easylist}
 	
@@ -86,14 +92,14 @@ Serão utilizadas nesse trabalho de conclusão de curso métricas de código fon
   		 
 	%-----------------------------
 	& \textbf{DIT} (\textit{Depth of Inheritance Tree} - Profundidade da 
-	Árvore de Herança): Responsável por medir quantas camadas de herança compõem uma determinada hierarquia 		de classes \cite{softwaremeasurementandestimation}. Segundo \cite{Meirelles2013}, quanto maior o valor 			de DIT, maior o número de métodos e atributos herdados, portanto maior a complexidade.
+	Árvore de Herança): Responsável por medir quantas camadas de herança compõem uma determinada hierarquia 		de classes \cite{softwaremeasurementandestimation}. Segundo \citeonline{Meirelles2013}, quanto maior o valor de DIT, maior o número de métodos e atributos herdados, portanto maior a complexidade.
 
 	%--------------------------
 	& \textbf{LCOM4} (\textit{Lack of Cohesion in Methods} - Falta de Coesão
 	entre Métodos): A coesão de uma classe é indicada por quão próximas as variáveis locais estão relacionadas com variáveis de instância locais. Alta coesão indica uma boa subdivisão de classes. A LCOM mede a falta de coesão através dissimilaridade dos métodos de uma classe pelo emprego de variáveis de instância.\cite{metricsandmodels}. A métrica LCOM foi revista e passou a ser conhecida como LCOM4, sendo necessário para seu cálculo a construção de um gráfico não-orientado em que os nós são os atributos e métodos de uma classe. Para cada método deve haver uma aresta entre ele e outro método ou variável. O valor da LCOM4 é o número de componentes fracamente conectados a esse gráfico \cite{Meirelles2013}
 
 	%--------------------------
-	& \textbf{NOC} (\textit{Number of Children} - Número de Filhos): É o número de sucessores imediatos,  (portanto filhos) de uma classe. Segundo \cite{softwaremeasurementandestimation}, altos valores indicam que a abstração da super classe foi diluída e uma reorganização da arquitetura deve ser considerada.
+	& \textbf{NOC} (\textit{Number of Children} - Número de Filhos): É o número de sucessores imediatos,  (portanto filhos) de uma classe. Segundo \citeonline{softwaremeasurementandestimation}, altos valores indicam que a abstração da super classe foi diluída e uma reorganização da arquitetura deve ser considerada.
 	
 	%-----------------------------
 	& \textbf{NOM} (\textit{Number of Methods} - Número de Métodos): Indica a quantidade de métodos de uma classe, medindo seu tamanho. Classes com muitos métodos são mais difíceis de serem reutilizadas pois são propensas a serem menos coesas. \cite{Meirelles2013}  
@@ -102,7 +108,7 @@ Serão utilizadas nesse trabalho de conclusão de curso métricas de código fon
 	& \textbf{NPA} (\textit{Number of Public Attributes} - Número de Atributos Públicos): Mede o encapsulamento de uma classe, através da medição dos atributos públicos. O número ideal para essa métrica é zero \cite{Meirelles2013}
 
 	%-----------------------------
-	& \textbf{RFC} (\textit{Response For a Class} - Respostas para uma Classe): \cite{metricsandmodels} define essa métrica como o número de métodos que podem ser executados em respostas a uma mensagem recebida por um objeto da classe.
+	& \textbf{RFC} (\textit{Response For a Class} - Respostas para uma Classe): \citeonline{metricsandmodels} define essa métrica como o número de métodos que podem ser executados em respostas a uma mensagem recebida por um objeto da classe.
 
 \end{easylist}	
 
