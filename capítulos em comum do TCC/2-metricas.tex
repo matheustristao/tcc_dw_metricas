@@ -61,7 +61,7 @@ Serão utilizadas nesse trabalho de conclusão de curso métricas de código fon
 %--------------------------------------------
 \subsection{Métricas de tamanho e complexidade}
 
-Segundo \citeonline{rego_monitoramento_2014}, o tamanho do código-fonte de um sistema foi um dos primeiros conceitos mensuráveis de software, uma vez que softwares podiam ocupar espaço tanto em forma de cartão perfurado quanto em forma de papel quando o código era impresso. Vale ressaltar que na programação em Assembler uma linha física de código era o mesmo que uma instrução, logo, quanto maior o tamanho do código, maior era sua complexidade \cite{metricsandmodels}. A seguir são apresentadas algumas métricas de tamanho e complexidade.
+O tamanho do código-fonte de um sistema foi um dos primeiros conceitos mensuráveis de software, uma vez que softwares podiam ocupar espaço tanto em forma de cartão perfurado quanto em forma de papel quando o código era impresso. Na programação em Assembler, por exemplo, uma linha física de código era o mesmo que uma instrução, logo, quanto maior o tamanho do código, maior era sua complexidade \cite{metricsandmodels}. A seguir são apresentadas algumas métricas de tamanho e complexidade.
 
 \begin{easylist}[itemize]
 
@@ -115,6 +115,34 @@ Métricas de orientação a objetos foram adotadas devido à grande utilização
 %---------------------------------------------------------------------------------------------------------------------%
 
 \section{Configurações de qualidade para métricas de código fonte} 
+
+Em sua tese de doutorado, \citeonline{Meirelles2013} buscou responder as seguintes questões de pesquisa:
+\begin{easylist}[itemize]
+
+	& \textbf{QP1 -} Métricas de código-fonte podem influir na atratividade de projetos de software livre? 
+	& \textbf{QP1 -} Quais métricas devem ser controladas ao longo do tempo?		
+	& \textbf{QP3 -} As métricas de código-fonte melhoram com o amadurecimento do projeto?	
+	
+\end{easylist}
+
+Para responder essas questões, sua pesquisa concentrou-se em alguns objetivos tecnológicos e científicos, fazendo uso da técnica estatística descritiva percentil para identificação das distribuições dos valores de métricas em 38 projetos de software livre, observando os valores frequentes dessas métricas de modo a servirem de referência para projetos futuros. 
+
+A tabela \ref{tab:percentil} abaixo pôde ser criada graças ao uso da técnica estatística citada:
+	
+	\begin{table}[!ht]
+	\begin{center}
+	
+	\input{tabelas/tabelasMatheus/percentis.ltx} 
+	\caption{Percentis para métrica RFC em projetos Java extraídos de  
+	\citeonline{Meirelles2013}}
+	\label{tab:percentil}
+	\end{center}
+	\end{table}	
+	\FloatBarrier	
+
+Através dos resultados obtidos para cada métrica, \citeonline{Meirelles2013} observou que era possível identificar valores frequentes analisando os percentis. Na \ref{tab:percentil}, por exemplo, foram observados no projeto \textbf{Open JDK8} valores de 0 a 9 como muito frequentes, de 10 a 26 como frequente, de 27 a 59 como pouco frequente e acima de 59, que representa apenas 10\% do código-fonte do projeto, como não frequente \cite{Meirelles2013}.
+
+   
 
 %---------------------------------------------------------------------------------------------------------------------%
 
