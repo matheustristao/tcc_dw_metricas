@@ -127,6 +127,8 @@ Em sua tese de doutorado, \citeonline{Meirelles2013} buscou responder as seguint
 
 Para responder essas questões, sua pesquisa concentrou-se em alguns objetivos tecnológicos e científicos, fazendo uso da técnica estatística descritiva percentil para identificação das distribuições dos valores de métricas em 38 projetos de software livre, observando os valores frequentes dessas métricas de modo a servirem de referência para projetos futuros. 
 
+O percentil são pontos estimativos de uma distribuição de frequência que determinam a porcentagem de elementos que se encontram abaixo deles. Por exemplo, quando se diz que o valor 59,0 da métrica rfc do projeto \textbf{Open JDK8} está no percentil 90, significa dizer que 90\% dos valores identificados para essa métrica estão abaixo de 59,0. 
+
 A tabela \ref{tab:percentil} abaixo pôde ser criada graças ao uso da técnica estatística citada:
 	
 	\begin{table}[!ht]
@@ -141,6 +143,7 @@ A tabela \ref{tab:percentil} abaixo pôde ser criada graças ao uso da técnica 
 	\FloatBarrier	
 
 Através dos resultados obtidos para cada métrica, \citeonline{Meirelles2013} observou que era possível identificar valores frequentes analisando os percentis. Na \ref{tab:percentil}, por exemplo, foram observados no projeto \textbf{Open JDK8} valores de 0 a 9 como muito frequentes, de 10 a 26 como frequente, de 27 a 59 como pouco frequente e acima de 59, que representa apenas 10\% do código-fonte do projeto, como não frequente \cite{Meirelles2013}.
+
 
    
 
