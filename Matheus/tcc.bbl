@@ -5,6 +5,14 @@
 \providecommand{\abntbstabout}[1]{}
 \abntbstabout{v-1.9.2 }
 
+\bibitem[Almeida e Miranda 2010]{almeida_codigo}
+\abntrefinfo{Almeida e Miranda}{ALMEIDA; MIRANDA}{2010}
+{ALMEIDA, L.~T.; MIRANDA, J.~M. de. Código limpo e seu mapeamento para
+  métricas de código fonte.
+2010.
+Dispon{\'\i}vel em:
+  \url{http://ccsl.ime.usp.br/pt-br/system/files/relatorio-codigo-limpo.pdf}.}
+
 \bibitem[Basili, Caldiera e Rombach 1996]{Basili96b}
 \abntrefinfo{Basili, Caldiera e Rombach}{BASILI; CALDIERA; ROMBACH}{1996}
 {BASILI, V.~R.; CALDIERA, G.; ROMBACH, H.~D. \emph{{The Goal Question Metric
@@ -32,8 +40,13 @@ ISSN 0018-9162.}
   Professional, 2003.}
 
 \bibitem[Beck 2007]{beck2007implementation}
-\abntrefinfo{Beck}{BECK}{2007}
+\abntrefinfo{Beck}{BECK}{2007a}
 {BECK, K. \emph{Implementation patterns}. [S.l.]: Pearson Education, 2007.}
+
+\bibitem[Beck 2007]{Beck2007}
+\abntrefinfo{Beck}{BECK}{2007b}
+{BECK, K. \emph{{Implementation Patterns}}. 1. ed. [S.l.]: Addison-Wesley
+  Professional, 2007.}
 
 \bibitem[Becker et al. 2006]{Becker2006}
 \abntrefinfo{Becker et al.}{BECKER et al.}{2006}

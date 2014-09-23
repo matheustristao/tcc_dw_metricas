@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.9.14)  22 SEP 2014 12:27
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.9.14)  22 SEP 2014 23:21
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1606,11 +1606,7 @@ con-fi-gu-ra-ção "OpenJDK8
 
 [9
 
-]) [10] (./tcc.lot
-
-LaTeX Warning: Reference `tab:cenarios' on page 11 undefined on input line 19.
-
-[11
+]) [10] (./tcc.lot [11
 
 ]) [12]) (./editaveis/abreviaturas.tex [13
 
@@ -1630,13 +1626,18 @@ a-rehou-sing \T1/lmss/bx/n/12 para Mé-tri-cas de Código-
 [15
 
 ]
+Overfull \hbox (1.5877pt too wide) detected at line 69
+ \T1/lmss/bx/n/12 102
+ []
+
+
 Overfull \hbox (1.5877pt too wide) detected at line 73
- \T1/lmss/bx/n/12 100
+ \T1/lmss/bx/n/12 104
  []
 
 
 Overfull \hbox (1.5877pt too wide) detected at line 77
- \T1/lmss/bx/n/12 113
+ \T1/lmss/bx/n/12 117
  []
 
 ) [16]) (./capitulos/1-introducao.tex [17
@@ -1780,7 +1781,7 @@ NGLES.eps>
 (epstopdf)             \includegraphics on input line 48.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/figuras_matheus/tipos_medidas_INGLES-eps-converted-to.pdf, id=589, 499
+<figuras/figuras_matheus/tipos_medidas_INGLES-eps-converted-to.pdf, id=602, 499
 .8675pt x 174.6525pt>
 File: figuras/figuras_matheus/tipos_medidas_INGLES-eps-converted-to.pdf Graphic
  file (type pdf)
@@ -1804,9 +1805,294 @@ Overfull \hbox (9.37761pt too wide) in paragraph at lines 3--139
 
 LaTeX Warning: Float too large for page by 59.66628pt on input line 165.
 
-[26] [27]) (./capitulos/3-dwing.tex [28
+[26] [27] (./tabelas/tabelasMatheus/conceitos-limpeza.ltx
+Underfull \hbox (badness 1762) in paragraph at lines 9--10
+[]| []\T1/lmr/m/n/12 Menos Ope-ra-ções por
+ []
 
-]
+
+Underfull \hbox (badness 10000) in paragraph at lines 10--11
+[] []\T1/lmr/m/n/12 Mais Pa-râ-me-tros de
+ []
+
+
+Underfull \hbox (badness 1852) in paragraph at lines 16--16
+[]|\T1/lmr/m/n/12 Utilizar a com-po-si-ção de
+ []
+
+
+Underfull \hbox (badness 4739) in paragraph at lines 16--16
+\T1/lmr/m/n/12 quan-ti-dade de es-tru-tu-ras
+ []
+
+
+Underfull \hbox (badness 1642) in paragraph at lines 20--21
+[] []\T1/lmr/m/n/12 Benefícios do Uso de
+ []
+
+
+Underfull \hbox (badness 1478) in paragraph at lines 20--21
+\T1/lmr/m/n/12 Com-po-si-ção de Mé-to-
+ []
+
+
+Underfull \hbox (badness 3417) in paragraph at lines 27--27
+[]|\T1/lmr/m/n/12 Quebrar uma classe que
+ []
+
+
+Underfull \hbox (badness 2529) in paragraph at lines 27--27
+\T1/lmr/m/n/12 res-pon-sa-bi-li-dade, ou seja,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 32--33
+[] []\T1/lmr/m/n/12 Menos Mé-to-dos em
+ []
+
+
+Underfull \hbox (badness 7344) in paragraph at lines 33--34
+[] []\T1/lmr/m/n/12 Menos Atri-bu-tos em
+ []
+
+
+Underfull \hbox (badness 2970) in paragraph at lines 37--37
+[]|\T1/lmr/m/n/12 Localizar pa-râ-me-tros que
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 40--41
+[]| []\T1/lmr/m/n/12 Menos Pa-râ-me-tros
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 40--41
+\T1/lmr/m/n/12 sendo pas-sa-dos para
+ []
+
+
+Underfull \hbox (badness 3039) in paragraph at lines 55--55
+[]|\T1/lmr/m/n/12 Uso Ex-ces-sivo de He-
+ []
+
+
+Underfull \hbox (badness 2608) in paragraph at lines 65--65
+[]|\T1/lmr/m/n/12 Exposição Pú-blica Ex-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 65--65
+[]|\T1/lmr/m/n/12 Localizar uso ex-ces-sivo
+ []
+
+
+Underfull \hbox (badness 1406) in paragraph at lines 65--65
+\T1/lmr/m/n/12 de pa-râ-me-tros pú-bli-cos e
+ []
+
+
+Underfull \hbox (badness 1097) in paragraph at lines 65--65
+\T1/lmr/m/n/12 transformá-lo em pa-râ-me-
+ []
+
+)
+Overfull \hbox (3.70084pt too wide) in paragraph at lines 1--190
+ [][] 
+ []
+
+
+LaTeX Warning: Float too large for page by 32.4995pt on input line 192.
+
+[28
+
+] [29] (./tabelas/tabelasMatheus/cenarios.ltx
+Underfull \hbox (badness 5893) in paragraph at lines 3--3
+[]|\T1/lmr/m/n/12 Forma de De-tec-ção
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3--3
+\T1/lmr/m/n/12 pe-las Mé-tri-cas de
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 6--6
+[]|\T1/lmr/m/n/12 Classe Pouco
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 6--6
+\T1/lmr/m/n/12 gru-pos de mé-to-dos
+ []
+
+
+Underfull \hbox (badness 1527) in paragraph at lines 6--6
+[]|\T1/lmr/m/n/12 Reduzir a subd-vi-são
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 6--6
+[]|\T1/lmr/m/n/12 Intervalos Re-gu-la-res
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 6--6
+\T1/lmr/m/it/12 bi-li-ties, Me-di-a-tor,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 9--9
+[]|\T1/lmr/m/n/12 Interface dos
+ []
+
+
+Underfull \hbox (badness 2478) in paragraph at lines 9--9
+[]|\T1/lmr/m/n/12 Objetos como Pa-râ-
+ []
+
+
+Underfull \hbox (badness 7759) in paragraph at lines 9--9
+\T1/lmr/m/n/12 me-tro e Pa-râ-me-tro
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 9--9
+\T1/lmr/m/n/12 râ-me-tros re-pas-sa-dos
+ []
+
+
+Underfull \hbox (badness 1365) in paragraph at lines 9--9
+[]|\T1/lmr/m/n/12 Minimizar o nú-mero
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 9--9
+[]|\T1/lmr/m/it/12 Facade, Tem-plate
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 9--9
+\T1/lmr/m/it/12 Method, Stra-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 9--9
+\T1/lmr/m/it/12 tegy, Com-mand,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 12--12
+[]|\T1/lmr/m/n/12 Classes com
+ []
+
+
+Underfull \hbox (badness 5711) in paragraph at lines 12--12
+[]|\T1/lmr/m/n/12 Muitas So-bre-es-cri-tas
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 12--12
+[]|\T1/lmr/m/it/12 Composite, Pro-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 12--12
+\T1/lmr/m/it/12 totype, De-co-ra-tor,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 15--15
+\T1/lmr/m/n/12 to-dos gran-des
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 15--15
+\T1/lmr/m/n/12 e/ou mui-tos
+ []
+
+
+Underfull \hbox (badness 3701) in paragraph at lines 15--15
+\T1/lmr/m/n/12 En-ca-de-a-das Com-ple-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 15--15
+[]|\T1/lmr/m/n/12 Reduzir LOC da
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 15--15
+\T1/lmr/m/n/12 Classe e de seus
+ []
+
+
+Underfull \hbox (badness 4595) in paragraph at lines 15--15
+\T1/lmr/m/n/12 mé-to-dos, Re-du-zir a
+ []
+
+
+Underfull \hbox (badness 4713) in paragraph at lines 15--15
+\T1/lmr/m/n/12 Com-ple-xi-dade Ci-clo-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 15--15
+[]|\T1/lmr/m/n/12 Intervalos Re-gu-la-res
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 15--15
+\T1/lmr/m/it/12 bi-li-ties, Me-di-a-tor,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 18--18
+[]|\T1/lmr/m/n/12 Classe com
+ []
+
+
+Underfull \hbox (badness 6173) in paragraph at lines 18--18
+[]|\T1/lmr/m/n/12 Grande Nú-mero de
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 21--21
+[]|\T1/lmr/m/n/12 Complexidade
+ []
+
+
+Underfull \hbox (badness 1708) in paragraph at lines 21--21
+[]|\T1/lmr/m/n/12 Grande Aco-pla-mento
+ []
+
+
+Underfull \hbox (badness 1286) in paragraph at lines 21--21
+[]|\T1/lmr/m/n/12 Reduzir a a quan-ti-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 21--21
+[]|\T1/lmr/m/n/12 Intervalos Re-gu-la-res
+ []
+
+
+Underfull \hbox (badness 1852) in paragraph at lines 21--21
+\T1/lmr/m/n/12 e Ruins de CBO e
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 21--21
+\T1/lmr/m/it/12 bi-li-ties, Me-di-a-tor,
+ []
+
+)
+Overfull \hbox (6.98694pt too wide) in paragraph at lines 1--203
+ [][] 
+ []
+
+) (./capitulos/3-dwing.tex [30
+
+] [31]
 LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <24.88> not available
 (Font)              Font shape `T1/lmss/m/sl' tried instead on input line 1.
 Package epstopdf Info: Source file: <figuras/Dwing.eps>
@@ -1820,7 +2106,7 @@ d-to.pdf figuras/Dwing.eps>
 (epstopdf)             \includegraphics on input line 20.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/Dwing-eps-converted-to.pdf, id=710, 1967.35pt x 1957.3125pt>
+<figuras/Dwing-eps-converted-to.pdf, id=767, 1967.35pt x 1957.3125pt>
 File: figuras/Dwing-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figuras/Dwing-eps-converted-to.pdf>
@@ -1831,12 +2117,12 @@ Package pdftex.def Info: figuras/Dwing-eps-converted-to.pdf used on input line
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[29
+[32
 
 ]
 LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <17.28> not available
 (Font)              Font shape `T1/lmss/m/sl' tried instead on input line 26.
- [30 <./figuras/Dwing-eps-converted-to.pdf>]
+ [33 <./figuras/Dwing-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <figuras/star_schema.eps>
 (epstopdf)                    date: 2014-09-18 16:49:48
 (epstopdf)                    size: 12564130 bytes
@@ -1848,14 +2134,14 @@ nverted-to.pdf figuras/star_schema.eps>
 (epstopdf)             \includegraphics on input line 67.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/star_schema-eps-converted-to.pdf, id=754, 1731.46875pt x 1202.4925pt>
+<figuras/star_schema-eps-converted-to.pdf, id=810, 1731.46875pt x 1202.4925pt>
 File: figuras/star_schema-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figuras/star_schema-eps-converted-to.pdf>
 Package pdftex.def Info: figuras/star_schema-eps-converted-to.pdf used on input
  line 67.
 (pdftex.def)             Requested size: 346.28761pt x 240.49423pt.
- [31]
+ [34]
 Package epstopdf Info: Source file: <figuras/cube.eps>
 (epstopdf)                    date: 2014-09-18 16:49:42
 (epstopdf)                    size: 11908 bytes
@@ -1867,14 +2153,14 @@ Package epstopdf Info: Source file: <figuras/cube.eps>
 (epstopdf)             \includegraphics on input line 76.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/cube-eps-converted-to.pdf, id=766, 386.44376pt x 303.1325pt>
+<figuras/cube-eps-converted-to.pdf, id=821, 386.44376pt x 303.1325pt>
 File: figuras/cube-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figuras/cube-eps-converted-to.pdf>
 Package pdftex.def Info: figuras/cube-eps-converted-to.pdf used on input line 7
 6.
 (pdftex.def)             Requested size: 328.47874pt x 257.66383pt.
- [32 <./figuras/star_schema-eps-converted-to.pdf> <./figuras/cube-eps-converted
+ [35 <./figuras/star_schema-eps-converted-to.pdf> <./figuras/cube-eps-converted
 -to.pdf>]
 LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <14.4> not available
 (Font)              Font shape `T1/lmss/m/sl' tried instead on input line 87.
@@ -1889,7 +2175,7 @@ verted-to.pdf figuras/dw-kimball.eps>
 (epstopdf)             \includegraphics on input line 94.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/dw-kimball-eps-converted-to.pdf, id=785, 2371.86125pt x 376.40625pt>
+<figuras/dw-kimball-eps-converted-to.pdf, id=840, 2371.86125pt x 376.40625pt>
 File: figuras/dw-kimball-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figuras/dw-kimball-eps-converted-to.pdf>
@@ -1907,14 +2193,14 @@ ed-to.pdf figuras/arvore.eps>
 (epstopdf)             \includegraphics on input line 109.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/arvore-eps-converted-to.pdf, id=795, 672.5125pt x 440.64626pt>
+<figuras/arvore-eps-converted-to.pdf, id=850, 672.5125pt x 440.64626pt>
 File: figuras/arvore-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figuras/arvore-eps-converted-to.pdf>
 Package pdftex.def Info: figuras/arvore-eps-converted-to.pdf used on input line
  109.
 (pdftex.def)             Requested size: 336.25542pt x 220.32259pt.
- [33 <./figuras/dw-kimball-eps-converted-to.pdf>] (./tabelas/olapxoltp.ltx
+ [36 <./figuras/dw-kimball-eps-converted-to.pdf>] (./tabelas/olapxoltp.ltx
 Underfull \hbox (badness 10000) in paragraph at lines 4--4
 []|\T1/lmr/m/n/12 Modelagem Di-men-si-o-nal
  []
@@ -1924,7 +2210,7 @@ Underfull \hbox (badness 3746) in paragraph at lines 9--9
 []|\T1/lmr/m/n/12 Estrutura de ti-pi-ca-mente
  []
 
-) [34 <./figuras/arvore-eps-converted-to.pdf>]
+) [37 <./figuras/arvore-eps-converted-to.pdf>]
 Overfull \hbox (24.59918pt too wide) in paragraph at lines 145--146
 \OT1/lmr/m/n/12 (1 \OMS/lmsy/m/n/12 ^^T \OML/lmm/m/it/12 i \OMS/lmsy/m/n/12 ^^T
  \OML/lmm/m/it/12 p\OT1/lmr/m/n/12 )$ \T1/lmr/m/n/12 re-pre-sen-tando uma fun-ç
@@ -1934,10 +2220,10 @@ Overfull \hbox (24.59918pt too wide) in paragraph at lines 145--146
 n/12 )$
  []
 
-[35] (./tabelas/total-de-vendas.ltx) (./tabelas/dimensao.ltx)
-(./tabelas/tabela-novembro.ltx) [36] (./tabelas/before-slice.ltx)
-(./tabelas/after-slice.ltx) (./tabelas/after-pivoting.ltx) [37])
-(./capitulos/4-arquitetura.tex [38]
+[38] (./tabelas/total-de-vendas.ltx) (./tabelas/dimensao.ltx)
+(./tabelas/tabela-novembro.ltx) [39] (./tabelas/before-slice.ltx)
+(./tabelas/after-slice.ltx) (./tabelas/after-pivoting.ltx) [40])
+(./capitulos/4-arquitetura.tex [41]
 Package epstopdf Info: Source file: <figuras/arquitetura-dwing.eps>
 (epstopdf)                    date: 2014-09-18 16:49:40
 (epstopdf)                    size: 23113364 bytes
@@ -1950,7 +2236,7 @@ eps-converted-to.pdf figuras/arquitetura-dwing.eps>
 (epstopdf)             \includegraphics on input line 9.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/arquitetura-dwing-eps-converted-to.pdf, id=897, 1957.3125pt x 1957.312
+<figuras/arquitetura-dwing-eps-converted-to.pdf, id=952, 1957.3125pt x 1957.312
 5pt>
 File: figuras/arquitetura-dwing-eps-converted-to.pdf Graphic file (type pdf)
  <use figuras/arquitetura-dwing-eps-converted-to.pdf>
@@ -1963,7 +2249,7 @@ Overfull \hbox (6.11658pt too wide) in paragraph at lines 1--21
  [] 
  []
 
-[39
+[42
 
  <./figuras/arquitetura-dwing-eps-converted-to.pdf>] (./tabelas/specific.ltx) (
 ./tabelas/ferramentas.ltx
@@ -1978,7 +2264,7 @@ ted-to.pdf figuras/analizo.eps>
 (epstopdf)             \includegraphics on input line 9.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/analizo-eps-converted-to.pdf, id=913, 184.69pt x 42.1575pt>
+<figuras/analizo-eps-converted-to.pdf, id=969, 184.69pt x 42.1575pt>
 File: figuras/analizo-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figuras/analizo-eps-converted-to.pdf>
@@ -1996,7 +2282,7 @@ erted-to.pdf figuras/sonarqube.eps>
 (epstopdf)             \includegraphics on input line 18.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/sonarqube-eps-converted-to.pdf, id=914, 200.75pt x 48.18pt>
+<figuras/sonarqube-eps-converted-to.pdf, id=970, 200.75pt x 48.18pt>
 File: figuras/sonarqube-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figuras/sonarqube-eps-converted-to.pdf>
@@ -2028,7 +2314,7 @@ Underfull \hbox (badness 2689) in paragraph at lines 55--55
 \T1/lmr/m/n/12 Ita-li-ano, Chi-nês, Fran-cês,
  []
 
-) [40] (./tabelas/compare.ltx
+) [43] (./tabelas/compare.ltx
 Package epstopdf Info: Source file: <figuras/analizo.eps>
 (epstopdf)                    date: 2014-09-18 16:49:40
 (epstopdf)                    size: 52812 bytes
@@ -2060,7 +2346,7 @@ File: figuras/sonarqube-eps-converted-to.pdf Graphic file (type pdf)
 Package pdftex.def Info: figuras/sonarqube-eps-converted-to.pdf used on input l
 ine 15.
 (pdftex.def)             Requested size: 96.35889pt x 23.12611pt.
-) [41 <./figuras/analizo-eps-converted-to.pdf> <./figuras/sonarqube-eps-convert
+) [44 <./figuras/analizo-eps-converted-to.pdf> <./figuras/sonarqube-eps-convert
 ed-to.pdf>]
 Underfull \hbox (badness 10000) in paragraph at lines 63--63
  [] [] [][]\T1/lmr/m/n/10 CoreMetrics do So-narQube: [][]$<[]https : / / github
@@ -2068,27 +2354,20 @@ Underfull \hbox (badness 10000) in paragraph at lines 63--63
  []
 
 
-LaTeX Warning: Reference `sec:clean-code' on page 42 undefined on input line 63
+LaTeX Warning: Reference `sec:clean-code' on page 45 undefined on input line 63
 .
 
-(./tabelas/requisitos-percentis.ltx) [42] (./tabelas/requisitos-cenarios.ltx
+(./tabelas/requisitos-percentis.ltx) [45] (./tabelas/requisitos-cenarios.ltx
 Underfull \hbox (badness 1661) in paragraph at lines 20--20
 []|\T1/lmr/m/n/12 Acompanhar a \T1/lmr/bx/n/12 Taxa de Apro-vei-ta-mento de
  []
 
-)
-
-LaTeX Warning: Reference `tab:cenarios' on page 43 undefined on input line 85.
-
-
-LaTeX Warning: Reference `tab:cenarios' on page 43 undefined on input line 85.
-
-[43] (./tabelas/dimensoes-fato.ltx)
+) [46] (./tabelas/dimensoes-fato.ltx)
 Overfull \hbox (9.39131pt too wide) in paragraph at lines 1--100
  [][] 
  []
 
-[44]
+[47]
 Package epstopdf Info: Source file: <figuras/percentil-arvore.eps>
 (epstopdf)                    date: 2014-09-18 16:49:47
 (epstopdf)                    size: 9240990 bytes
@@ -2101,8 +2380,8 @@ ps-converted-to.pdf figuras/percentil-arvore.eps>
 (epstopdf)             \includegraphics on input line 109.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/percentil-arvore-eps-converted-to.pdf, id=986, 2823.54875pt x 1626.075
-pt>
+<figuras/percentil-arvore-eps-converted-to.pdf, id=1043, 2823.54875pt x 1626.07
+5pt>
 File: figuras/percentil-arvore-eps-converted-to.pdf Graphic file (type pdf)
  <use figuras/percentil-arvore-eps-converted-to.pdf>
 Package pdftex.def Info: figuras/percentil-arvore-eps-converted-to.pdf used on 
@@ -2112,7 +2391,7 @@ input line 109.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[45]
+[48]
 Package epstopdf Info: Source file: <figuras/cenario-arvore.eps>
 (epstopdf)                    date: 2014-09-18 16:49:41
 (epstopdf)                    size: 4881344 bytes
@@ -2125,8 +2404,8 @@ f>
 (epstopdf)             \includegraphics on input line 118.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/cenario-arvore-eps-converted-to.pdf, id=991, 2146.0175pt x 1129.21875p
-t>
+<figuras/cenario-arvore-eps-converted-to.pdf, id=1049, 2146.0175pt x 1129.21875
+pt>
 File: figuras/cenario-arvore-eps-converted-to.pdf Graphic file (type pdf)
  <use figuras/cenario-arvore-eps-converted-to.pdf>
 Package pdftex.def Info: figuras/cenario-arvore-eps-converted-to.pdf used on in
@@ -2143,13 +2422,14 @@ nverted-to.pdf figuras/taxa-arvore.eps>
 (epstopdf)             \includegraphics on input line 127.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/taxa-arvore-eps-converted-to.pdf, id=992, 2070.73625pt x 1552.80125pt>
+<figuras/taxa-arvore-eps-converted-to.pdf, id=1050, 2070.73625pt x 1552.80125pt
+>
 File: figuras/taxa-arvore-eps-converted-to.pdf Graphic file (type pdf)
-<use figuras/taxa-arvore-eps-converted-to.pdf>
+ <use figuras/taxa-arvore-eps-converted-to.pdf>
 Package pdftex.def Info: figuras/taxa-arvore-eps-converted-to.pdf used on input
  line 127.
 (pdftex.def)             Requested size: 414.13992pt x 310.55475pt.
- [46 <./figuras/percentil-arvore-eps-converted-to.pdf> <./figuras/cenario-arvor
+ [49 <./figuras/percentil-arvore-eps-converted-to.pdf> <./figuras/cenario-arvor
 e-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <figuras/modelo-dw.eps>
 (epstopdf)                    date: 2014-09-18 16:49:45
@@ -2162,14 +2442,14 @@ erted-to.pdf figuras/modelo-dw.eps>
 (epstopdf)             \includegraphics on input line 139.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/modelo-dw-eps-converted-to.pdf, id=1004, 906.38625pt x 934.49126pt>
+<figuras/modelo-dw-eps-converted-to.pdf, id=1062, 906.38625pt x 934.49126pt>
 File: figuras/modelo-dw-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figuras/modelo-dw-eps-converted-to.pdf>
 Package pdftex.def Info: figuras/modelo-dw-eps-converted-to.pdf used on input l
 ine 139.
 (pdftex.def)             Requested size: 444.13315pt x 457.90472pt.
- [47 <./figuras/taxa-arvore-eps-converted-to.pdf>]
+ [50 <./figuras/taxa-arvore-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <figuras/metadados.eps>
 (epstopdf)                    date: 2014-09-18 16:49:45
 (epstopdf)                    size: 2265894 bytes
@@ -2181,19 +2461,15 @@ erted-to.pdf figuras/metadados.eps>
 (epstopdf)             \includegraphics on input line 152.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/metadados-eps-converted-to.pdf, id=1015, 677.53125pt x 553.06625pt>
+<figuras/metadados-eps-converted-to.pdf, id=1073, 677.53125pt x 553.06625pt>
 File: figuras/metadados-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figuras/metadados-eps-converted-to.pdf>
 Package pdftex.def Info: figuras/metadados-eps-converted-to.pdf used on input l
 ine 152.
 (pdftex.def)             Requested size: 338.76479pt x 276.53244pt.
- [48 <./figuras/modelo-dw-eps-converted-to.pdf>]
-
-LaTeX Warning: Reference `tab:cenarios' on page 49 undefined on input line 159.
-
-
-[49 <./figuras/metadados-eps-converted-to.pdf>]
+ [51 <./figuras/modelo-dw-eps-converted-to.pdf>] [52 <./figuras/metadados-eps-c
+onverted-to.pdf>]
 Package epstopdf Info: Source file: <figuras/data-integration.eps>
 (epstopdf)                    date: 2014-09-18 16:49:42
 (epstopdf)                    size: 4837933 bytes
@@ -2206,7 +2482,7 @@ ps-converted-to.pdf figuras/data-integration.eps>
 (epstopdf)             \includegraphics on input line 180.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/data-integration-eps-converted-to.pdf, id=1036, 1218.5525pt x 657.4562
+<figuras/data-integration-eps-converted-to.pdf, id=1095, 1218.5525pt x 657.4562
 5pt>
 File: figuras/data-integration-eps-converted-to.pdf Graphic file (type pdf)
  <use figuras/data-integration-eps-converted-to.pdf>
@@ -2230,7 +2506,7 @@ ed-to.pdf figuras/kettle.eps>
 (epstopdf)             \includegraphics on input line 10.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/kettle-eps-converted-to.pdf, id=1037, 160.6pt x 65.24374pt>
+<figuras/kettle-eps-converted-to.pdf, id=1096, 160.6pt x 65.24374pt>
 File: figuras/kettle-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figuras/kettle-eps-converted-to.pdf>
@@ -2287,7 +2563,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1--189
 
  []
 
-[50 <./figuras/data-integration-eps-converted-to.pdf>]
+[53 <./figuras/data-integration-eps-converted-to.pdf>]
 Overfull \hbox (1.59859pt too wide) in paragraph at lines 197--198
 []\T1/lmr/m/n/12 A des-cri-ção com-pleta da im-ple-men-ta-ção do pro-cesso de \
 T1/lmr/m/it/12 Extraction-Transformation-
@@ -2306,7 +2582,7 @@ onverted-to.pdf figuras/pentaho_logo.eps>
 (epstopdf)             \includegraphics on input line 6.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/pentaho_logo-eps-converted-to.pdf, id=1051, 249.93375pt x 86.3225pt>
+<figuras/pentaho_logo-eps-converted-to.pdf, id=1110, 249.93375pt x 86.3225pt>
 File: figuras/pentaho_logo-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figuras/pentaho_logo-eps-converted-to.pdf>
@@ -2363,7 +2639,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1--209
 
  []
 
-[51 <./figuras/kettle-eps-converted-to.pdf>]
+[54 <./figuras/kettle-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <figuras/bi.eps>
 (epstopdf)                    date: 2014-09-18 16:49:41
 (epstopdf)                    size: 4409120 bytes
@@ -2375,7 +2651,7 @@ o.pdf figuras/bi.eps>
 (epstopdf)             \includegraphics on input line 218.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/bi-eps-converted-to.pdf, id=1060, 1262.7175pt x 578.16pt>
+<figuras/bi-eps-converted-to.pdf, id=1120, 1262.7175pt x 578.16pt>
 File: figuras/bi-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figuras/bi-eps-converted-to.pdf>
@@ -2395,7 +2671,7 @@ s-converted-to.pdf figuras/saiku_olap_logo.eps>
 (epstopdf)             \includegraphics on input line 8.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/saiku_olap_logo-eps-converted-to.pdf, id=1062, 358.33875pt x 122.4575p
+<figuras/saiku_olap_logo-eps-converted-to.pdf, id=1122, 358.33875pt x 122.4575p
 t>
 File: figuras/saiku_olap_logo-eps-converted-to.pdf Graphic file (type pdf)
  <use figuras/saiku_olap_logo-eps-converted-to.pdf>
@@ -2452,7 +2728,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1--230
 
  []
 
-[52 <./figuras/pentaho_logo-eps-converted-to.pdf> <./figuras/bi-eps-converted-t
+[55 <./figuras/pentaho_logo-eps-converted-to.pdf> <./figuras/bi-eps-converted-t
 o.pdf>]
 Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on i
 nput line 241.
@@ -2460,7 +2736,7 @@ LaTeX Font Info:    Try loading font information for T1+lmtt on input line 241.
 
  (/usr/share/texmf/tex/latex/lm/t1lmtt.fd
 File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
-) [53 <./figuras/saiku_olap_logo-eps-converted-to.pdf>]
+) [56 <./figuras/saiku_olap_logo-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <figuras/pentaho-tools.eps>
 (epstopdf)                    date: 2014-09-18 16:49:46
 (epstopdf)                    size: 25592633 bytes
@@ -2473,7 +2749,7 @@ converted-to.pdf figuras/pentaho-tools.eps>
 (epstopdf)             \includegraphics on input line 260.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/pentaho-tools-eps-converted-to.pdf, id=1093, 2012.51875pt x 2107.875pt
+<figuras/pentaho-tools-eps-converted-to.pdf, id=1152, 2012.51875pt x 2107.875pt
 >
 File: figuras/pentaho-tools-eps-converted-to.pdf Graphic file (type pdf)
  <use figuras/pentaho-tools-eps-converted-to.pdf>
@@ -2481,7 +2757,7 @@ Package pdftex.def Info: figuras/pentaho-tools-eps-converted-to.pdf used on inp
 ut line 260.
 (pdftex.def)             Requested size: 402.49663pt x 421.56754pt.
 )
-(./capitulos/5-estudo-de-caso.tex [54 <./figuras/pentaho-tools-eps-converted-to
+(./capitulos/5-estudo-de-caso.tex [57 <./figuras/pentaho-tools-eps-converted-to
 .pdf>]
 Package epstopdf Info: Source file: <figuras/metodologia-estudo-caso.eps>
 (epstopdf)                    date: 2014-09-18 16:49:45
@@ -2495,7 +2771,7 @@ ted-to.pdf>
 (epstopdf)             \includegraphics on input line 9.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/metodologia-estudo-caso-eps-converted-to.pdf, id=1106, 2823.54875pt x 
+<figuras/metodologia-estudo-caso-eps-converted-to.pdf, id=1164, 2823.54875pt x 
 877.2775pt>
 File: figuras/metodologia-estudo-caso-eps-converted-to.pdf Graphic file (type p
 df)
@@ -2509,10 +2785,10 @@ Underfull \hbox (badness 1824) in paragraph at lines 9--9
 []|\T1/lmr/m/n/12 Quantificar as vi-su-a-li-za-ções as con-sul-tas
  []
 
-) [55
+) [58
 
  <./figuras/metodologia-estudo-caso-eps-converted-to.pdf>]
-(./tabelas/criterios-estudo.ltx) [56] [57] [58] (./tabelas/dados-estudo.ltx
+(./tabelas/criterios-estudo.ltx) [59] [60] [61] (./tabelas/dados-estudo.ltx
 Underfull \hbox (badness 1859) in paragraph at lines 6--6
 []|\T1/lmr/m/n/12 Valores Per-cen-tis de
  []
@@ -2588,9 +2864,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 13--13
  []
 
 
-LaTeX Warning: Reference `tab:cenarios' on page 59 undefined on input line 13.
-
-
 Underfull \hbox (badness 5161) in paragraph at lines 14--14
 []|\T1/lmr/m/n/12 Taxa de Apro-vei-ta-
  []
@@ -2610,7 +2883,7 @@ Underfull \hbox (badness 1052) in paragraph at lines 17--17
 []|\T1/lmr/m/n/12 Consultas OLAP re-
  []
 
-) [59]
+) [62]
 Package epstopdf Info: Source file: <figuras/repositorio-iphan.eps>
 (epstopdf)                    date: 2014-09-18 16:49:47
 (epstopdf)                    size: 1796867 bytes
@@ -2623,14 +2896,14 @@ eps-converted-to.pdf figuras/repositorio-iphan.eps>
 (epstopdf)             \includegraphics on input line 141.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/repositorio-iphan-eps-converted-to.pdf, id=1177, 571.13374pt x 519.942
+<figuras/repositorio-iphan-eps-converted-to.pdf, id=1238, 571.13374pt x 519.942
 5pt>
 File: figuras/repositorio-iphan-eps-converted-to.pdf Graphic file (type pdf)
  <use figuras/repositorio-iphan-eps-converted-to.pdf>
 Package pdftex.def Info: figuras/repositorio-iphan-eps-converted-to.pdf used on
  input line 141.
 (pdftex.def)             Requested size: 285.56618pt x 259.97061pt.
- [60]
+ [63]
 Package epstopdf Info: Source file: <figuras/total-OpenJDK.eps>
 (epstopdf)                    date: 2014-09-18 16:49:49
 (epstopdf)                    size: 2894129 bytes
@@ -2643,14 +2916,14 @@ converted-to.pdf figuras/total-OpenJDK.eps>
 (epstopdf)             \includegraphics on input line 159.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/total-OpenJDK-eps-converted-to.pdf, id=1189, 1010.77625pt x 473.77pt>
+<figuras/total-OpenJDK-eps-converted-to.pdf, id=1249, 1010.77625pt x 473.77pt>
 File: figuras/total-OpenJDK-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figuras/total-OpenJDK-eps-converted-to.pdf>
 Package pdftex.def Info: figuras/total-OpenJDK-eps-converted-to.pdf used on inp
 ut line 159.
 (pdftex.def)             Requested size: 707.53854pt x 331.63673pt.
- [61 <./figuras/repositorio-iphan-eps-converted-to.pdf>] [62 <./figuras/total-O
+ [64 <./figuras/repositorio-iphan-eps-converted-to.pdf>] [65 <./figuras/total-O
 penJDK-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <figuras/total-tomcat.eps>
 (epstopdf)                    date: 2014-09-18 16:49:49
@@ -2664,7 +2937,7 @@ onverted-to.pdf figuras/total-tomcat.eps>
 (epstopdf)             \includegraphics on input line 167.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/total-tomcat-eps-converted-to.pdf, id=1205, 1015.795pt x 457.71pt>
+<figuras/total-tomcat-eps-converted-to.pdf, id=1264, 1015.795pt x 457.71pt>
 File: figuras/total-tomcat-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figuras/total-tomcat-eps-converted-to.pdf>
@@ -2676,14 +2949,10 @@ Overfull \hbox (3.05167pt too wide) in paragraph at lines 167--168
  [][] 
  []
 
-[63 <./figuras/total-tomcat-eps-converted-to.pdf>] [64
+[66 <./figuras/total-tomcat-eps-converted-to.pdf>] [67
 
 
 ]
-
-LaTeX Warning: Reference `tab:cenarios' on page 65 undefined on input line 192.
-
-
 Package epstopdf Info: Source file: <figuras/total-cenario-tipo.eps>
 (epstopdf)                    date: 2014-09-18 16:49:49
 (epstopdf)                    size: 1016457 bytes
@@ -2696,7 +2965,7 @@ o.pdf>
 (epstopdf)             \includegraphics on input line 197.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/total-cenario-tipo-eps-converted-to.pdf, id=1221, 993.7125pt x 168.63p
+<figuras/total-cenario-tipo-eps-converted-to.pdf, id=1282, 993.7125pt x 168.63p
 t>
 File: figuras/total-cenario-tipo-eps-converted-to.pdf Graphic file (type pdf)
  <use figuras/total-cenario-tipo-eps-converted-to.pdf>
@@ -2720,7 +2989,7 @@ ease-eps-converted-to.pdf figuras/total-cenarios-release.eps>
 (epstopdf)             \includegraphics on input line 208.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/total-cenarios-release-eps-converted-to.pdf, id=1223, 951.555pt x 49.1
+<figuras/total-cenarios-release-eps-converted-to.pdf, id=1284, 951.555pt x 49.1
 8375pt>
 File: figuras/total-cenarios-release-eps-converted-to.pdf Graphic file (type pd
 f)
@@ -2743,14 +3012,14 @@ Package epstopdf Info: Source file: <figuras/10-worst.eps>
 rted-to.pdf figuras/10-worst.eps>
 (epstopdf)             \includegraphics on input line 224.
 Package epstopdf Info: Output file is already uptodate.
-<figuras/10-worst-eps-converted-to.pdf, id=1230, 693.59125pt x 369.38pt>
+<figuras/10-worst-eps-converted-to.pdf, id=1291, 693.59125pt x 369.38pt>
 File: figuras/10-worst-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figuras/10-worst-eps-converted-to.pdf>
 Package pdftex.def Info: figuras/10-worst-eps-converted-to.pdf used on input li
 ne 224.
 (pdftex.def)             Requested size: 416.15796pt x 221.6297pt.
- [65 <./figuras/total-cenario-tipo-eps-converted-to.pdf> <./figuras/total-cenar
+ [68 <./figuras/total-cenario-tipo-eps-converted-to.pdf> <./figuras/total-cenar
 ios-release-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <figuras/10-best.eps>
 (epstopdf)                    date: 2014-09-18 16:49:38
@@ -2763,14 +3032,14 @@ ted-to.pdf figuras/10-best.eps>
 (epstopdf)             \includegraphics on input line 232.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/10-best-eps-converted-to.pdf, id=1241, 682.55pt x 372.39125pt>
+<figuras/10-best-eps-converted-to.pdf, id=1302, 682.55pt x 372.39125pt>
 File: figuras/10-best-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figuras/10-best-eps-converted-to.pdf>
 Package pdftex.def Info: figuras/10-best-eps-converted-to.pdf used on input lin
 e 232.
 (pdftex.def)             Requested size: 409.53316pt x 223.43646pt.
- [66 <./figuras/10-worst-eps-converted-to.pdf> <./figuras/10-best-eps-converted
+ [69 <./figuras/10-worst-eps-converted-to.pdf> <./figuras/10-best-eps-converted
 -to.pdf>]
 Package epstopdf Info: Source file: <figuras/taxa-parcial.eps>
 (epstopdf)                    date: 2014-09-18 16:49:48
@@ -2784,7 +3053,7 @@ onverted-to.pdf figuras/taxa-parcial.eps>
 (epstopdf)             \includegraphics on input line 257.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/taxa-parcial-eps-converted-to.pdf, id=1262, 947.54pt x 466.74374pt>
+<figuras/taxa-parcial-eps-converted-to.pdf, id=1323, 947.54pt x 466.74374pt>
 File: figuras/taxa-parcial-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figuras/taxa-parcial-eps-converted-to.pdf>
@@ -2803,7 +3072,7 @@ onverted-to.pdf figuras/taxa-grafico.eps>
 (epstopdf)             \includegraphics on input line 266.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/taxa-grafico-eps-converted-to.pdf, id=1263, 962.59625pt x 346.29375pt>
+<figuras/taxa-grafico-eps-converted-to.pdf, id=1324, 962.59625pt x 346.29375pt>
 File: figuras/taxa-grafico-eps-converted-to.pdf Graphic file (type pdf)
 <use figuras/taxa-grafico-eps-converted-to.pdf>
 Package pdftex.def Info: figuras/taxa-grafico-eps-converted-to.pdf used on inpu
@@ -2826,16 +3095,16 @@ o-eps-converted-to.pdf figuras/crescimento-projeto.eps>
 (epstopdf)             \includegraphics on input line 274.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/crescimento-projeto-eps-converted-to.pdf, id=1264, 947.54pt x 352.3162
+<figuras/crescimento-projeto-eps-converted-to.pdf, id=1325, 947.54pt x 352.3162
 5pt>
 File: figuras/crescimento-projeto-eps-converted-to.pdf Graphic file (type pdf)
  <use figuras/crescimento-projeto-eps-converted-to.pdf>
 Package pdftex.def Info: figuras/crescimento-projeto-eps-converted-to.pdf used 
 on input line 274.
 (pdftex.def)             Requested size: 454.81403pt x 169.10988pt.
- [67 <./figuras/taxa-parcial-eps-converted-to.pdf> <./figuras/taxa-grafico-eps-
+ [70 <./figuras/taxa-parcial-eps-converted-to.pdf> <./figuras/taxa-grafico-eps-
 converted-to.pdf>])
-(./capitulos/6-conclusao.tex [68 <./figuras/crescimento-projeto-eps-converted-t
+(./capitulos/6-conclusao.tex [71 <./figuras/crescimento-projeto-eps-converted-t
 o.pdf>] (./tabelas/resultado-comparacao.ltx
 Underfull \hbox (badness 4279) in paragraph at lines 5--5
 []|\T1/lmr/m/n/12 Técnica Es-ta-tís-tica Uti-li-
@@ -2846,7 +3115,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 6--6
 \T1/lmr/m/n/12 LCOM4, NOM, NOC,
  []
 
-) [69
+) [72
 
 ] (./tabelas/tempo-execucao.ltx
 Underfull \hbox (badness 1975) in paragraph at lines 5--5
@@ -2858,7 +3127,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 9--9
 \T1/lmr/m/n/12 de Apro-vei-ta-mento de
  []
 
-) [70] [71] (./tabelas/resultados-olap.ltx
+) [73] [74] (./tabelas/resultados-olap.ltx
 Underfull \hbox (badness 10000) in paragraph at lines 4--4
 \T1/lmr/m/n/12 cen-tis de Mé-tri-cas de
  []
@@ -2868,23 +3137,15 @@ Underfull \hbox (badness 1424) in paragraph at lines 5--5
 []|\T1/lmr/m/n/12 Avaliação de Ce-ná-rios de
  []
 
-) [72]
-
-LaTeX Warning: Reference `tab:cenarios' on page 73 undefined on input line 75.
-
-
-LaTeX Warning: Reference `tab:conceitos' on page 73 undefined on input line 75.
-
-
-) [73] (./tcc.bbl (./tcc.brf)
+) [75]) [76] (./tcc.bbl (./tcc.brf)
 \tf@brf=\write6
 \openout6 = `tcc.brf'.
 
- [74]
+ [77]
 bibitemlist
-[75
+[78
 
-] [76] [77]) (./apendices/apendices.tex [78]
+] [79] [80] [81]) (./apendices/apendices.tex [82]
 (/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2013/08/26 1.5b listings language file
 )
@@ -2907,7 +3168,7 @@ rmation-eps-converted-to.pdf figuras/components-transformation.eps>
 (epstopdf)             \includegraphics on input line 22.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/components-transformation-eps-converted-to.pdf, id=1475, 714.67pt x 11
+<figuras/components-transformation-eps-converted-to.pdf, id=1552, 714.67pt x 11
 0.4125pt>
 File: figuras/components-transformation-eps-converted-to.pdf Graphic file (type
  pdf)
@@ -2915,7 +3176,7 @@ File: figuras/components-transformation-eps-converted-to.pdf Graphic file (type
 Package pdftex.def Info: figuras/components-transformation-eps-converted-to.pdf
  used on input line 22.
 (pdftex.def)             Requested size: 428.8053pt x 66.248pt.
- [79
+ [83
 
 ]
 Package epstopdf Info: Source file: <figuras/first-transformation.eps>
@@ -2930,7 +3191,7 @@ on-eps-converted-to.pdf figuras/first-transformation.eps>
 (epstopdf)             \includegraphics on input line 36.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/first-transformation-eps-converted-to.pdf, id=1500, 435.6275pt x 272.0
+<figuras/first-transformation-eps-converted-to.pdf, id=1578, 435.6275pt x 272.0
 1625pt>
 File: figuras/first-transformation-eps-converted-to.pdf Graphic file (type pdf)
 
@@ -2938,7 +3199,7 @@ File: figuras/first-transformation-eps-converted-to.pdf Graphic file (type pdf)
 Package pdftex.def Info: figuras/first-transformation-eps-converted-to.pdf used
  on input line 36.
 (pdftex.def)             Requested size: 283.15451pt x 176.80846pt.
- [80 <./figuras/components-transformation-eps-converted-to.pdf> <./figuras/firs
+ [84 <./figuras/components-transformation-eps-converted-to.pdf> <./figuras/firs
 t-transformation-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <figuras/second-transformation.eps>
 (epstopdf)                    date: 2014-09-18 16:49:48
@@ -2952,7 +3213,7 @@ ion-eps-converted-to.pdf figuras/second-transformation.eps>
 (epstopdf)             \includegraphics on input line 46.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/second-transformation-eps-converted-to.pdf, id=1512, 696.6025pt x 154.
+<figuras/second-transformation-eps-converted-to.pdf, id=1591, 696.6025pt x 154.
 5775pt>
 File: figuras/second-transformation-eps-converted-to.pdf Graphic file (type pdf
 )
@@ -2964,8 +3225,8 @@ d on input line 46.
 (/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2013/08/26 1.5b listings language file
 )
-(./codigos/project-fact.sql [81 <./figuras/second-transformation-eps-converted-
-to.pdf>] [82] [83] [84] [85] [86] [87] [88] [89] [90] [91])
+(./codigos/project-fact.sql [85 <./figuras/second-transformation-eps-converted-
+to.pdf>] [86] [87] [88] [89] [90] [91] [92] [93] [94] [95])
 Package epstopdf Info: Source file: <figuras/third-transformation.eps>
 (epstopdf)                    date: 2014-09-18 16:49:49
 (epstopdf)                    size: 534681 bytes
@@ -2978,7 +3239,7 @@ on-eps-converted-to.pdf figuras/third-transformation.eps>
 (epstopdf)             \includegraphics on input line 61.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/third-transformation-eps-converted-to.pdf, id=1917, 682.55pt x 128.48p
+<figuras/third-transformation-eps-converted-to.pdf, id=1994, 682.55pt x 128.48p
 t>
 File: figuras/third-transformation-eps-converted-to.pdf Graphic file (type pdf)
 
@@ -2986,9 +3247,9 @@ File: figuras/third-transformation-eps-converted-to.pdf Graphic file (type pdf)
 Package pdftex.def Info: figuras/third-transformation-eps-converted-to.pdf used
  on input line 61.
 (pdftex.def)             Requested size: 443.65225pt x 83.511pt.
- [92 <./figuras/third-transformation-eps-converted-to.pdf>] (./codigos/class-fa
-ct.sql [93] [94]
-[95] [96] [97])
+ [96 <./figuras/third-transformation-eps-converted-to.pdf>] (./codigos/class-fa
+ct.sql [97] [98]
+[99] [100] [101])
 Package epstopdf Info: Source file: <figuras/componentes-job.eps>
 (epstopdf)                    date: 2014-09-18 16:49:41
 (epstopdf)                    size: 479674 bytes
@@ -3001,7 +3262,7 @@ s-converted-to.pdf figuras/componentes-job.eps>
 (epstopdf)             \includegraphics on input line 78.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/componentes-job-eps-converted-to.pdf, id=2152, 468.75125pt x 167.62625
+<figuras/componentes-job-eps-converted-to.pdf, id=2230, 468.75125pt x 167.62625
 pt>
 File: figuras/componentes-job-eps-converted-to.pdf Graphic file (type pdf)
  <use figuras/componentes-job-eps-converted-to.pdf>
@@ -3019,7 +3280,7 @@ to.pdf figuras/job.eps>
 (epstopdf)             \includegraphics on input line 90.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/job-eps-converted-to.pdf, id=2154, 844.15375pt x 134.5025pt>
+<figuras/job-eps-converted-to.pdf, id=2232, 844.15375pt x 134.5025pt>
 File: figuras/job-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figuras/job-eps-converted-to.pdf>
@@ -3031,8 +3292,8 @@ Overfull \hbox (51.49615pt too wide) in paragraph at lines 90--91
  [][] 
  []
 
-[98 <./figuras/componentes-job-eps-converted-to.pdf>] [99 <./figuras/job-eps-co
-nverted-to.pdf>]
+[102 <./figuras/componentes-job-eps-converted-to.pdf>] [103 <./figuras/job-eps-
+converted-to.pdf>]
 Package epstopdf Info: Source file: <figuras/acc-grafico.eps>
 (epstopdf)                    date: 2014-09-18 16:49:39
 (epstopdf)                    size: 1695340 bytes
@@ -3044,7 +3305,7 @@ nverted-to.pdf figuras/acc-grafico.eps>
 (epstopdf)             \includegraphics on input line 106.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/acc-grafico-eps-converted-to.pdf, id=2182, 982.67125pt x 285.065pt>
+<figuras/acc-grafico-eps-converted-to.pdf, id=2261, 982.67125pt x 285.065pt>
 File: figuras/acc-grafico-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figuras/acc-grafico-eps-converted-to.pdf>
@@ -3062,7 +3323,7 @@ verted-to.pdf figuras/acc-tabela.eps>
 (epstopdf)             \includegraphics on input line 107.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/acc-tabela-eps-converted-to.pdf, id=2183, 1008.76875pt x 74.2775pt>
+<figuras/acc-tabela-eps-converted-to.pdf, id=2262, 1008.76875pt x 74.2775pt>
 File: figuras/acc-tabela-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figuras/acc-tabela-eps-converted-to.pdf>
@@ -3084,7 +3345,7 @@ Package epstopdf Info: Source file: <figuras/accm-grafico.eps>
 onverted-to.pdf figuras/accm-grafico.eps>
 (epstopdf)             \includegraphics on input line 115.
 Package epstopdf Info: Output file is already uptodate.
-<figuras/accm-grafico-eps-converted-to.pdf, id=2184, 994.71625pt x 301.125pt>
+<figuras/accm-grafico-eps-converted-to.pdf, id=2263, 994.71625pt x 301.125pt>
 File: figuras/accm-grafico-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figuras/accm-grafico-eps-converted-to.pdf>
@@ -3102,7 +3363,7 @@ nverted-to.pdf figuras/accm-tabela.eps>
 (epstopdf)             \includegraphics on input line 116.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/accm-tabela-eps-converted-to.pdf, id=2185, 1009.7725pt x 75.28125pt>
+<figuras/accm-tabela-eps-converted-to.pdf, id=2264, 1009.7725pt x 75.28125pt>
 File: figuras/accm-tabela-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figuras/accm-tabela-eps-converted-to.pdf>
@@ -3125,7 +3386,7 @@ converted-to.pdf figuras/amloc-grafico.eps>
 (epstopdf)             \includegraphics on input line 124.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/amloc-grafico-eps-converted-to.pdf, id=2186, 996.72375pt x 286.06876pt
+<figuras/amloc-grafico-eps-converted-to.pdf, id=2265, 996.72375pt x 286.06876pt
 >
 File: figuras/amloc-grafico-eps-converted-to.pdf Graphic file (type pdf)
  <use figuras/amloc-grafico-eps-converted-to.pdf>
@@ -3144,7 +3405,7 @@ onverted-to.pdf figuras/amloc-tabela.eps>
 (epstopdf)             \includegraphics on input line 125.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/amloc-tabela-eps-converted-to.pdf, id=2187, 1007.765pt x 78.2925pt>
+<figuras/amloc-tabela-eps-converted-to.pdf, id=2266, 1007.765pt x 78.2925pt>
 File: figuras/amloc-tabela-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figuras/amloc-tabela-eps-converted-to.pdf>
@@ -3166,7 +3427,7 @@ Package epstopdf Info: Source file: <figuras/anpm-completo.eps>
 converted-to.pdf figuras/anpm-completo.eps>
 (epstopdf)             \includegraphics on input line 133.
 Package epstopdf Info: Output file is already uptodate.
-<figuras/anpm-completo-eps-converted-to.pdf, id=2188, 947.54pt x 335.2525pt>
+<figuras/anpm-completo-eps-converted-to.pdf, id=2267, 947.54pt x 335.2525pt>
 File: figuras/anpm-completo-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figuras/anpm-completo-eps-converted-to.pdf>
@@ -3185,7 +3446,7 @@ onverted-to.pdf figuras/anpm-projeto.eps>
 (epstopdf)             \includegraphics on input line 134.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/anpm-projeto-eps-converted-to.pdf, id=2189, 1007.765pt x 76.285pt>
+<figuras/anpm-projeto-eps-converted-to.pdf, id=2268, 1007.765pt x 76.285pt>
 File: figuras/anpm-projeto-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figuras/anpm-projeto-eps-converted-to.pdf>
@@ -3211,7 +3472,7 @@ nverted-to.pdf figuras/cbo-grafico.eps>
 (epstopdf)             \includegraphics on input line 142.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/cbo-grafico-eps-converted-to.pdf, id=2190, 990.70125pt x 282.05376pt>
+<figuras/cbo-grafico-eps-converted-to.pdf, id=2269, 990.70125pt x 282.05376pt>
 File: figuras/cbo-grafico-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figuras/cbo-grafico-eps-converted-to.pdf>
@@ -3229,7 +3490,7 @@ verted-to.pdf figuras/cbo-tabela.eps>
 (epstopdf)             \includegraphics on input line 143.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/cbo-tabela-eps-converted-to.pdf, id=2191, 1005.7575pt x 77.28876pt>
+<figuras/cbo-tabela-eps-converted-to.pdf, id=2270, 1005.7575pt x 77.28876pt>
 File: figuras/cbo-tabela-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figuras/cbo-tabela-eps-converted-to.pdf>
@@ -3250,7 +3511,7 @@ Package epstopdf Info: Source file: <figuras/dit-grafico.eps>
 nverted-to.pdf figuras/dit-grafico.eps>
 (epstopdf)             \includegraphics on input line 151.
 Package epstopdf Info: Output file is already uptodate.
-<figuras/dit-grafico-eps-converted-to.pdf, id=2192, 980.66376pt x 277.035pt>
+<figuras/dit-grafico-eps-converted-to.pdf, id=2271, 980.66376pt x 277.035pt>
 File: figuras/dit-grafico-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figuras/dit-grafico-eps-converted-to.pdf>
@@ -3268,7 +3529,7 @@ verted-to.pdf figuras/dit-tabela.eps>
 (epstopdf)             \includegraphics on input line 152.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/dit-tabela-eps-converted-to.pdf, id=2193, 1012.78375pt x 76.285pt>
+<figuras/dit-tabela-eps-converted-to.pdf, id=2272, 1012.78375pt x 76.285pt>
 File: figuras/dit-tabela-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figuras/dit-tabela-eps-converted-to.pdf>
@@ -3295,7 +3556,7 @@ converted-to.pdf figuras/lcom4-projeto.eps>
 (epstopdf)             \includegraphics on input line 162.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/lcom4-projeto-eps-converted-to.pdf, id=2194, 1524.69624pt x 563.10374p
+<figuras/lcom4-projeto-eps-converted-to.pdf, id=2273, 1524.69624pt x 563.10374p
 t>
 File: figuras/lcom4-projeto-eps-converted-to.pdf Graphic file (type pdf)
  <use figuras/lcom4-projeto-eps-converted-to.pdf>
@@ -3314,7 +3575,7 @@ f>
 (epstopdf)             \includegraphics on input line 163.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/lcom4-completo-eps-converted-to.pdf, id=2195, 1142.2675pt x 118.4425pt
+<figuras/lcom4-completo-eps-converted-to.pdf, id=2274, 1142.2675pt x 118.4425pt
 >
 File: figuras/lcom4-completo-eps-converted-to.pdf Graphic file (type pdf)
  <use figuras/lcom4-completo-eps-converted-to.pdf>
@@ -3335,7 +3596,7 @@ Package epstopdf Info: Source file: <figuras/loc-grafico.eps>
 nverted-to.pdf figuras/loc-grafico.eps>
 (epstopdf)             \includegraphics on input line 172.
 Package epstopdf Info: Output file is already uptodate.
-<figuras/loc-grafico-eps-converted-to.pdf, id=2196, 987.69pt x 309.155pt>
+<figuras/loc-grafico-eps-converted-to.pdf, id=2275, 987.69pt x 309.155pt>
 File: figuras/loc-grafico-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figuras/loc-grafico-eps-converted-to.pdf>
@@ -3353,7 +3614,7 @@ verted-to.pdf figuras/loc-tabela.eps>
 (epstopdf)             \includegraphics on input line 173.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/loc-tabela-eps-converted-to.pdf, id=2197, 1009.7725pt x 74.2775pt>
+<figuras/loc-tabela-eps-converted-to.pdf, id=2276, 1009.7725pt x 74.2775pt>
 File: figuras/loc-tabela-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figuras/loc-tabela-eps-converted-to.pdf>
@@ -3374,7 +3635,7 @@ Package epstopdf Info: Source file: <figuras/noc-grafico.eps>
 nverted-to.pdf figuras/noc-grafico.eps>
 (epstopdf)             \includegraphics on input line 181.
 Package epstopdf Info: Output file is already uptodate.
-<figuras/noc-grafico-eps-converted-to.pdf, id=2198, 990.70125pt x 287.0725pt>
+<figuras/noc-grafico-eps-converted-to.pdf, id=2277, 990.70125pt x 287.0725pt>
 File: figuras/noc-grafico-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figuras/noc-grafico-eps-converted-to.pdf>
@@ -3392,7 +3653,7 @@ verted-to.pdf figuras/noc-tabela.eps>
 (epstopdf)             \includegraphics on input line 182.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/noc-tabela-eps-converted-to.pdf, id=2199, 1006.76125pt x 78.2925pt>
+<figuras/noc-tabela-eps-converted-to.pdf, id=2278, 1006.76125pt x 78.2925pt>
 File: figuras/noc-tabela-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figuras/noc-tabela-eps-converted-to.pdf>
@@ -3413,7 +3674,7 @@ Package epstopdf Info: Source file: <figuras/nom-grafico.eps>
 nverted-to.pdf figuras/nom-grafico.eps>
 (epstopdf)             \includegraphics on input line 190.
 Package epstopdf Info: Output file is already uptodate.
-<figuras/nom-grafico-eps-converted-to.pdf, id=2200, 985.6825pt x 291.0875pt>
+<figuras/nom-grafico-eps-converted-to.pdf, id=2279, 985.6825pt x 291.0875pt>
 File: figuras/nom-grafico-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figuras/nom-grafico-eps-converted-to.pdf>
@@ -3431,7 +3692,7 @@ verted-to.pdf figuras/nom-tabela.eps>
 (epstopdf)             \includegraphics on input line 191.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/nom-tabela-eps-converted-to.pdf, id=2201, 1009.7725pt x 95.35625pt>
+<figuras/nom-tabela-eps-converted-to.pdf, id=2280, 1009.7725pt x 95.35625pt>
 File: figuras/nom-tabela-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figuras/nom-tabela-eps-converted-to.pdf>
@@ -3452,7 +3713,7 @@ Package epstopdf Info: Source file: <figuras/npa-grafico.eps>
 nverted-to.pdf figuras/npa-grafico.eps>
 (epstopdf)             \includegraphics on input line 199.
 Package epstopdf Info: Output file is already uptodate.
-<figuras/npa-grafico-eps-converted-to.pdf, id=2202, 991.705pt x 301.125pt>
+<figuras/npa-grafico-eps-converted-to.pdf, id=2281, 991.705pt x 301.125pt>
 File: figuras/npa-grafico-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figuras/npa-grafico-eps-converted-to.pdf>
@@ -3470,7 +3731,7 @@ verted-to.pdf figuras/npa-tabela.eps>
 (epstopdf)             \includegraphics on input line 200.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/npa-tabela-eps-converted-to.pdf, id=2203, 1008.76875pt x 75.28125pt>
+<figuras/npa-tabela-eps-converted-to.pdf, id=2282, 1008.76875pt x 75.28125pt>
 File: figuras/npa-tabela-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figuras/npa-tabela-eps-converted-to.pdf>
@@ -3491,7 +3752,7 @@ Package epstopdf Info: Source file: <figuras/rfc-grafico.eps>
 nverted-to.pdf figuras/rfc-grafico.eps>
 (epstopdf)             \includegraphics on input line 208.
 Package epstopdf Info: Output file is already uptodate.
-<figuras/rfc-grafico-eps-converted-to.pdf, id=2204, 972.63374pt x 291.0875pt>
+<figuras/rfc-grafico-eps-converted-to.pdf, id=2283, 972.63374pt x 291.0875pt>
 File: figuras/rfc-grafico-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figuras/rfc-grafico-eps-converted-to.pdf>
@@ -3509,7 +3770,7 @@ verted-to.pdf figuras/rfc-tabela.eps>
 (epstopdf)             \includegraphics on input line 209.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/rfc-tabela-eps-converted-to.pdf, id=2205, 1009.7725pt x 76.285pt>
+<figuras/rfc-tabela-eps-converted-to.pdf, id=2284, 1009.7725pt x 76.285pt>
 File: figuras/rfc-tabela-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figuras/rfc-tabela-eps-converted-to.pdf>
@@ -3520,55 +3781,55 @@ line 209.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[100
+[104
 
-] [101 <./figuras/acc-grafico-eps-converted-to.pdf> <./figuras/acc-tabela-eps-c
-onverted-to.pdf>] [102
+] [105 <./figuras/acc-grafico-eps-converted-to.pdf> <./figuras/acc-tabela-eps-c
+onverted-to.pdf>] [106
 
  <./figuras/accm-grafico-eps-converted-to.pdf> <./figuras/accm-tabela-eps-conve
-rted-to.pdf>] [103
+rted-to.pdf>] [107
 
  <./figuras/amloc-grafico-eps-converted-to.pdf> <./figuras/amloc-tabela-eps-con
-verted-to.pdf>] [104
+verted-to.pdf>] [108
 
  <./figuras/anpm-completo-eps-converted-to.pdf> <./figuras/anpm-projeto-eps-con
-verted-to.pdf>] [105
+verted-to.pdf>] [109
 
  <./figuras/cbo-grafico-eps-converted-to.pdf> <./figuras/cbo-tabela-eps-convert
-ed-to.pdf>] [106
-
- <./figuras/dit-grafico-eps-converted-to.pdf> <./figuras/dit-tabela-eps-convert
-ed-to.pdf>] [107
-
- <./figuras/lcom4-projeto-eps-converted-to.pdf> <./figuras/lcom4-completo-eps-c
-onverted-to.pdf>] [108
-
- <./figuras/loc-grafico-eps-converted-to.pdf> <./figuras/loc-tabela-eps-convert
-ed-to.pdf>] [109
-
- <./figuras/noc-grafico-eps-converted-to.pdf> <./figuras/noc-tabela-eps-convert
 ed-to.pdf>] [110
 
- <./figuras/nom-grafico-eps-converted-to.pdf> <./figuras/nom-tabela-eps-convert
+ <./figuras/dit-grafico-eps-converted-to.pdf> <./figuras/dit-tabela-eps-convert
 ed-to.pdf>] [111
 
+ <./figuras/lcom4-projeto-eps-converted-to.pdf> <./figuras/lcom4-completo-eps-c
+onverted-to.pdf>] [112
+
+ <./figuras/loc-grafico-eps-converted-to.pdf> <./figuras/loc-tabela-eps-convert
+ed-to.pdf>] [113
+
+ <./figuras/noc-grafico-eps-converted-to.pdf> <./figuras/noc-tabela-eps-convert
+ed-to.pdf>] [114
+
+ <./figuras/nom-grafico-eps-converted-to.pdf> <./figuras/nom-tabela-eps-convert
+ed-to.pdf>] [115
+
  <./figuras/npa-grafico-eps-converted-to.pdf> <./figuras/npa-tabela-eps-convert
-ed-to.pdf>] [112
+ed-to.pdf>] [116
 
  <./figuras/rfc-grafico-eps-converted-to.pdf> <./figuras/rfc-tabela-eps-convert
 ed-to.pdf>]
 (./tabelas/resultados-cenarios-metodo-grande.ltx)
 (./tabelas/resultados-cenarios-filhos.ltx)
 (./tabelas/resultados-cenarios-exposicao.ltx)
-(./tabelas/resultados-cenarios-coesao.ltx) [113
+(./tabelas/resultados-cenarios-coesao.ltx) [117
 
 ]
-(./tabelas/resultados-cenarios-complexidade-estrutural.ltx) [114]
-(./tabelas/resultados-cenarios-interface.ltx) [115]) (./editaveis/anexos.tex)
+(./tabelas/resultados-cenarios-complexidade-estrutural.ltx) [118]
+(./tabelas/resultados-cenarios-interface.ltx) [119]) (./editaveis/anexos.tex)
 No file tcc.ind.
 
 AED: lastpage setting LastPage
-[116]
+[120]
 \tf@lof=\write7
 \openout7 = `tcc.lof'.
 
@@ -3584,7 +3845,7 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 45.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 45.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 45.
 Package rerunfilecheck Info: File `tcc.brf' has not changed.
-(rerunfilecheck)             Checksum: 6CF872053ED2179BEEF0111003E21F77;8677.
+(rerunfilecheck)             Checksum: EAF40182FF42BE38E80D249ECDAB3DF2;9477.
 
 
 LaTeX Warning: There were undefined references.
@@ -3595,10 +3856,10 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 45.
  ) 
 Here is how much of TeX's memory you used:
- 28285 strings out of 493304
- 470899 string characters out of 6139871
- 890907 words of memory out of 5000000
- 29970 multiletter control sequences out of 15000+600000
+ 28325 strings out of 493304
+ 471722 string characters out of 6139871
+ 893894 words of memory out of 5000000
+ 29995 multiletter control sequences out of 15000+600000
  117266 words of font info for 87 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
  63i,17n,78p,1253b,2304s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -3625,10 +3886,10 @@ type1/public/lm/lmsso12.pfb></usr/share/texmf/fonts/type1/public/lm/lmsso17.pfb
 e1/public/lm/lmtk10.pfb></usr/share/texmf/fonts/type1/public/lm/lmtt10.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr
 /share/texlive/texmf-dist/fonts/type1/urw/zapfding/uzdr.pfb>
-Output written on tcc.pdf (117 pages, 4088943 bytes).
+Output written on tcc.pdf (121 pages, 4100022 bytes).
 PDF statistics:
- 2819 PDF objects out of 2984 (max. 8388607)
- 2496 compressed objects within 25 object streams
- 918 named destinations out of 1000 (max. 500000)
+ 2900 PDF objects out of 2984 (max. 8388607)
+ 2565 compressed objects within 26 object streams
+ 927 named destinations out of 1000 (max. 500000)
  847 words of extra memory for PDF output out of 10000 (max. 10000000)
 

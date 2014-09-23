@@ -169,4 +169,41 @@ Através dos resultados obtidos para cada métrica, \citeonline{Meirelles2013} o
 %---------------------------------------------------------------------------------------------------------------------%
 
 \section{Cenários de limpeza} 
+
+Em seu livro Implementation Patterns, \citeonline{Beck2007} destaca três valores que um código limpo precisa ter: Comunicabilidade , simplicidade e flexibilidade.
 	
+\begin{easylist}[itemize]
+
+	& \textbf{Comunicabilidade:} Um código se expressa bem quando alguém que o lê é capaz de compreendê-lo e modificá-lo. \citeonline{Beck2007} destaca que quando foi necessário modificar um código, ele gastou muito mais tempo lendo o que já havia sido feito do que escrevendo sua modificação 
+		
+	& \textbf{Simplicidade:} Eliminar o excesso de complexidade faz com que aqueles que estejam lendo o código a entendê-lo mais rapidamente. O excesso de complexidade faz com que seja maior a probabilidade de erro e com que seja mais difícil fazer uma manutenção no futuro.Buscar simplicidade é também buscar inovação: \textit{Junit} é muito mais simples que muitas ferramentas de teste que ele substituiu.
+
+	& \textbf{Flexibilidade:} Capacidade de estender a aplicação alterando o mínimo possível a estrutura já criada.
+		
+\end{easylist}	
+
+Buscando levantar conceitos que fizessem com que um código atendesse os valores citados acima, tornando-se assim um código limpo, \citeonline{almeida_codigo} levantaram em seu trabalho conceitos de limpeza, evidenciando as contribuições e consequências que o uso da técnica pode causar no código. Serão citadas a seguir técnicas levantadas por \citeonline{almeida_codigo} que ganharam destaque no trabalho de \citeonline{rego_monitoramento_2014}:
+
+ \begin{table}[!ht]
+\centering
+\input{tabelas/tabelasMatheus/conceitos-limpeza.ltx}
+\caption{Conceitos de Limpeza levantados por \citeonline{almeida_codigo} extraídos de \citeonline{rego_monitoramento_2014}}
+\label{tab:conceitos}
+\end{table}
+\FloatBarrier
+
+Após o levantamento dos conceitos de limpeza, \citeonline{almeida_codigo} criaram um mapeamento os relacionando com métricas de código, definindo cenários de limpeza. O objetivo, como ressaltado pelo autor, não era classificar um código como limpo ou não, mas sim facilitar melhorias de implementação através da aproximação dos valores das métricas com os esperados nos contextos de interpretação.
+
+Aproveitando inicialmente os cenários \textbf{Classe pouco coesa} e \textbf{Interface dos métodos} extraídos de  \citeonline{almeida_codigo}, \citeonline{rego_monitoramento_2014} elaborou mais alguns cenários de limpeza, utilizando como referência a configuracão do \textbf{Open JDK8}, considerando como valores altos os valores obtidos pelos intervalos  Regular e Ruim para esse sistema. O resultado dessa atividade pode ser vista na tabela abaixo:
+
+\begin{sidewaystable}
+\begin{table}[H]
+\centering
+\input{tabelas/tabelasMatheus/cenarios.ltx}
+\caption{Cenários de Limpeza extraídos de \citeonline{rego_monitoramento_2014}}
+\label{tab:cenarios}
+\end{table}
+\FloatBarrier
+\end{sidewaystable}  
+
+  
