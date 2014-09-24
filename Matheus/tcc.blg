@@ -1,70 +1,9 @@
-This is BibTeX, Version 0.99d (TeX Live 2013/Debian)
-Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
-The top-level auxiliary file: tcc.aux
+This is BibTeX, Version 0.99dThe top-level auxiliary file: tcc.aux
 The style file: abntex2-alf.bst
-Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
-Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
 Database file #1: abntex2-options.bib
 Database file #2: bibliografia.bib
-Warning--entry type for "hilmer2002" isn't style-file defined
---line 87 of file bibliografia.bib
-Warning--entry type for "andre2000" isn't style-file defined
---line 362 of file bibliografia.bib
-Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated glb_str_ptr (elt_size=4) to 20 items from 10.
-Reallocated global_strs (elt_size=20001) to 20 items from 10.
-Reallocated glb_str_end (elt_size=4) to 20 items from 10.
 +---------------------------------------------------------+
 | Estilo bibliográfico abntex2-alf.bst versão v-1.9.2           |
 | Em caso de dúvidas ou problemas com este estilo procure |
 | http://abntex2.googlecode.com                           |
 +---------------------------------------------------------+
-You've used 55 entries,
-            6711 wiz_defined-function locations,
-            1528 strings with 18957 characters,
-and the built_in function-call counts, 53282 in all, are:
-= -- 4957
-> -- 1549
-< -- 602
-+ -- 1176
-- -- 472
-* -- 3609
-:= -- 6984
-add.period$ -- 219
-call.type$ -- 55
-change.case$ -- 541
-chr.to.int$ -- 89
-cite$ -- 54
-duplicate$ -- 3732
-empty$ -- 3380
-format.name$ -- 2252
-if$ -- 11903
-int.to.chr$ -- 2
-int.to.str$ -- 0
-missing$ -- 989
-newline$ -- 262
-num.names$ -- 270
-pop$ -- 1277
-preamble$ -- 1
-purify$ -- 212
-quote$ -- 0
-skip$ -- 3900
-stack$ -- 1
-substring$ -- 1987
-swap$ -- 1520
-text.length$ -- 45
-text.prefix$ -- 0
-top$ -- 0
-type$ -- 9
-warning$ -- 0
-while$ -- 383
-width$ -- 0
-write$ -- 850
-(There were 2 warnings)
