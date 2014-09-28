@@ -1,72 +1,9 @@
 \chapter{Introdução}
 
-
 \section {Contexto}
-A qualidade do software depende da qualidade do código-fonte, pois um bom código-fonte é um bom indicador de qualidade interna do produto de software \cite{beck2003test} \cite{ISO25023}. Portanto, decisões errôneas de desenvolvedores podem gerar, por exemplo, trechos de código não coesos, que venham a "degradar" com o tempo e que aumentam exponencialmente a chance de manutenções corretivas onerosas \cite{beck2007implementation} \cite{beck1999}.
-
-
-Entre as formas de analisar a qualidade do código-fonte, há a análise estática de código-fonte que é uma análise automatizada das estruturas internas do código, que permite obter métricas de código-fonte \cite{Emanuelsson2008} \cite{Wichmann95}  \cite{Nielson:1999} \cite{Sommerville10}. Alguns trabalhos como \citeonline{marinescu2004quantifying}, \citeonline{marinescu2005measurement}, \citeonline{moha2006automatic}, \citeonline{moha2008domain}, \citeonline{moha2010decor} e \citeonline{rao2007detecting} mostraram que é possível, a partir da análise de métricas de código-fonte, obter indicadores de pedaços não coesos e com alto acoplamento. Estes trechos são passíveis de eliminação com a refatoração, que é a técnica de modificação das estruturas internas do código-fonte sem modificação do comportamento externo observável \cite{fowler1999refactoring}.
-
-
 \section{Problema}
-
-
-Embora a refatoração seja uma prática bastante documentada e utilizada principalmente nos processos de desenvolvimento que utilizam métodos ágeis \cite{beck1999}, a decisão de aplicação, quer seja em uma classe, módulo ou projeto, envolve a avaliação de fatores como custo, prazo, risco e qualidade do código-fonte \cite{yamashita2013assessing}.  
-
-Este último fator, que pode ser determinante para decisão de refatorar, normalmente, é difícil de ser avaliado. Isso ocorre, pois as ferramentas de análise estática de código-fonte, normalmente, não apresentam associação entre as medidas numéricas e a forma de interpretá-los, isto é, as métricas frequentemente mostram apenas valores numéricos isolados \cite{Meirelles2013}. Além disso, os resultados obtidos a partir de ferramentas de análise estática de código-fonte são apresentados em longos arquivos (planilhas, arquivos JSON, XML), ou seja, sem mecanismos de separação, agregação e formas de visualização de dados que permitam a fácil identificação de um ponto de melhoria no código-fonte.
-
-
-%-----------------------------------------------------------------------------%
-
 \section{Questão de Pesquisa}
-
-Tendo em vista que este problema afeta a avaliação de projetos de software, pois é crucial que informações sobre o desenvolvimento de software sejam coletadas e compartilhadas entre projetos e pessoas em uma visão organizacional unificada, para que determinada organização possa compreender o processo de medição e monitoramento de projetos de software e, consequentemente, se tornar mais hábil e eficiente em realizar atividades técnicas relacionadas ao processo de desenvolvimento de software \cite{Chulani2003}, foi elaborada a seguinte questão de pesquisa:
-
-\textit{\textbf{Como aumentar a
-visibilidade e facilitar interpretação das 
-métricas de código-fonte
-a fim de apoiar a decisão de refatoração
-do ponto de vista de uma equipe de desenvolvimento?}}
-
-
 \section{Objetivos}
-
-Colocando a resolução da questão de pesquisa como objetivo geral do trabalho, foram elaborados objetivos específicos utilizando o GQM \cite{Basili96b}. Nesta abordagem cada objetivo específico derivou uma série de questões específicas que são respondidas com métricas específicas, tal como se mostra na Tabela \ref{tbl:obj}. 
- 
-
-
-\begin{table}[ht]
-\centering
-\input{tabelas/objetivos.ltx}
-\caption{Objetivos Específicos do Trabalho}
-\label{tbl:obj} 
-\end{table}
-\FloatBarrier
-
-A Taxa de Aproveitamento de Oportunidades de Melhoria de Código, em uma release, é calculada como: $$ T_r =   \frac{{\sum_{i=1}^{n}{Ce_i}}}{\sum_{i=1}^{n}{Cl_i}} $$
-
-onde $ Ce $ é o total de cenários de limpezas identificados e $ Cl $ é total de classes em uma release.
-
 \section{Hipótese}
-
-Visando atingir os objetivos específicos estabelecidos na Tabela \ref{tbl:obj}, realizou-se uma revisão bibliográfica da literatura em busca de ambientes de informação que visassem à automação de processos e exposição de informações em âmbito gerencial.
-Alguns trabalhos, como \citeonline{Palza2003}, \citeonline{Ruiz2005}, \citeonline{Castellanos2005}, \citeonline{Becker2006}, \citeonline{Folleco2007}, \citeonline{Silveira2010}, evidenciaram que ambientes de \textit{Data Warehousing} são boas soluções para adoção de um programa de métricas em processos de desenvolvimento de software.
-
-Em conformidade com o referencial teórico enunciado anteriormente, foi formulada a hipótese H0:
-
-\textbf{H0: A construção de um ambiente de \textit{Data Warehousing} traz automação necessária ao processo de medição de métricas de código-fonte, a possibilidade de criação de um campo de conhecimento semântico para facilitar a interpretação de métricas de código-fonte e a visibilidade necessária às métricas de código-fonte, bem como a possibilidade de inferência de outras informações advindas destas.} 
-
-Tendo em vista a adoção da hipótese, adicionou-se o objetivo OE6:
-\begin{table}[H]
-\centering
-\input{tabelas/objetivo6.ltx}
-\caption{Objetivos Específico OE6}
-\label{tbl:obj} 
-\end{table}
-\FloatBarrier
-
-%------------------------------------------------------------------------------%
-
 \section{Organização do Trabalho}
 
-Após a leitura da introdução, encontrar-se-á adiante, no Capítulo 2, as métricas de software, processo de medição da ISO 15939, as métricas de código-fonte, código-limpo e os cenários de limpeza de código-fonte; O Capítulo 3 que apresenta conceitualmente o ambiente de \textit{Data Warehousing}. O Capítulo 4 que apresenta o projeto e a implementação do ambiente de \textit{Data Warehousing} para métricas de código-fonte e cenários de código limpo construído neste trabalho. O capítulo 5 apresenta o projeto de estudo de caso do uso como forma de validar a utilização do ambiente. Por fim, o capítulo 6 descreve os resultados obtidos com aplicação do ambiente em forma de estudo de caso, onde as 24 \textit{releases} do software SICG (Sistema Integrado de Conhecimento e Gestão) do Instituto de Patrimônio Histórico e Artístico Nacional (IPHAN), foram analisadas. Adicionalmente no capítulo 6, são discutidos as conclusões, limitações do trabalho e trabalhos futuros.   
