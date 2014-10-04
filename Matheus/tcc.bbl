@@ -13,87 +13,21 @@
 Dispon{\'\i}vel em:
   \url{http://ccsl.ime.usp.br/pt-br/system/files/relatorio-codigo-limpo.pdf}.}
 
-\bibitem[Basili, Caldiera e Rombach 1996]{Basili96b}
-\abntrefinfo{Basili, Caldiera e Rombach}{BASILI; CALDIERA; ROMBACH}{1996}
-{BASILI, V.~R.; CALDIERA, G.; ROMBACH, H.~D. \emph{{The Goal Question Metric
-  Approach}}. [S.l.]: Encyclopedia of Software Engineering, 1996.}
-
 \bibitem[Basili e Rombach 1987]{Basili1987}
 \abntrefinfo{Basili e Rombach}{BASILI; ROMBACH}{1987}
 {BASILI, V.~R.; ROMBACH, H.~D. \emph{{TAME: Integrating Measurement into
   Software Environments}}. 1987.
 Dispon{\'\i}vel em: \url{http://drum.lib.umd.edu//handle/1903/7517}.}
 
-\bibitem[Beck 1999]{beck1999}
-\abntrefinfo{Beck}{BECK}{1999}
-{BECK, K. \emph{Extreme Programming Explained}. [S.l.]: Addison Wesley, 1999.}
-
-\bibitem[Beck 2003]{beck2003test}
-\abntrefinfo{Beck}{BECK}{2003}
-{BECK, K. \emph{Test-driven development: by example}. [S.l.]: Addison-Wesley
-  Professional, 2003.}
-
-\bibitem[Beck 2007]{beck2007implementation}
-\abntrefinfo{Beck}{BECK}{2007a}
-{BECK, K. \emph{Implementation patterns}. [S.l.]: Pearson Education, 2007.}
-
 \bibitem[Beck 2007]{Beck2007}
-\abntrefinfo{Beck}{BECK}{2007b}
+\abntrefinfo{Beck}{BECK}{2007}
 {BECK, K. \emph{{Implementation Patterns}}. 1. ed. [S.l.]: Addison-Wesley
   Professional, 2007.}
-
-\bibitem[Becker et al. 2006]{Becker2006}
-\abntrefinfo{Becker et al.}{BECKER et al.}{2006}
-{BECKER, K. et al. Spdw: A software development process performance data
-  warehousing environment. In:  \emph{Proceedings of the 30th Annual IEEE/NASA
-  Software Engineering Workshop}. Washington, DC, USA: IEEE Computer Society,
-  2006.  (SEW '06), p. 107--118.
-ISBN 0-7695-2624-1. Dispon{\'\i}vel em:
-  \url{http://dx.doi.org/10.1109/SEW.2006.31}.}
-
-\bibitem[Castellanos et al. 2005]{Castellanos2005}
-\abntrefinfo{Castellanos et al.}{CASTELLANOS et al.}{2005}
-{CASTELLANOS, M. et al. ibom: A platform for intelligent business operation
-  management. In:  \emph{Proceedings of the 21st International Conference on
-  Data Engineering}. Washington, DC, USA: IEEE Computer Society, 2005.  (ICDE
-  '05), p. 1084--1095.
-ISBN 0-7695-2285-8. Dispon{\'\i}vel em:
-  \url{http://dx.doi.org/10.1109/ICDE.2005.73}.}
-
-\bibitem[Chulani et al. 2003]{Chulani2003}
-\abntrefinfo{Chulani et al.}{CHULANI et al.}{2003}
-{CHULANI, S. et al. Metrics for managing customer view of software quality. In:
-   \emph{Proceedings of the 9th International Symposium on Software Metrics}.
-  Washington, DC, USA: IEEE Computer Society, 2003.  (METRICS '03), p. 189--.
-ISBN 0-7695-1987-3. Dispon{\'\i}vel em:
-  \url{http://dl.acm.org/citation.cfm?id=942804.943748}.}
-
-\bibitem[Emanuelsson e Nilsson 2008]{Emanuelsson2008}
-\abntrefinfo{Emanuelsson e Nilsson}{EMANUELSSON; NILSSON}{2008}
-{EMANUELSSON, P.; NILSSON, U. A comparative study of industrial static analysis
-  tools.
-\emph{Electron. Notes Theor. Comput. Sci.}, Elsevier Science Publishers B. V.,
-  Amsterdam, The Netherlands, The Netherlands, v.~217, p. 5--21, jul. 2008.
-ISSN 1571-0661.}
 
 \bibitem[Fenton e Pfleeger 1998]{Fenton98}
 \abntrefinfo{Fenton e Pfleeger}{FENTON; PFLEEGER}{1998}
 {FENTON, N.~E.; PFLEEGER, S.~L. \emph{{Software Metrics: A Rigorous and
   Practical Approach}}. 2 edition. ed. [S.l.]: Course Technology, 1998. 656~p.}
-
-\bibitem[Folleco et al. 2007]{Folleco2007}
-\abntrefinfo{Folleco et al.}{FOLLECO et al.}{2007}
-{FOLLECO, A. et al. Learning from software quality data with class imbalance
-  and noise. In:  \emph{Proceedings of the Nineteenth International Conference
-  on Software Engineering \& Knowledge Engineering (SEKE 2007), Boston,
-  Massachusetts, USA, July 9-11, 2007}. [S.l.]: Knowledge Systems Institute
-  Graduate School, 2007. p.~487.
-ISBN 1-891706-20-9.}
-
-\bibitem[Fowler 1999]{fowler1999refactoring}
-\abntrefinfo{Fowler}{FOWLER}{1999}
-{FOWLER, M. \emph{Refactoring: improving the design of existing code}. [S.l.]:
-  Addison-Wesley Professional, 1999.}
 
 \bibitem[Gilmore 2008]{phpmysql}
 \abntrefinfo{Gilmore}{GILMORE}{2008}
@@ -129,18 +63,6 @@ ISBN 1-891706-20-9.}
 {LAIRD, M. C.~B. L.~M. \emph{Software measurement and estimation: A practical
   approach}. [S.l.]: Wiley-IEEE Computer Society Press, 2006.}
 
-\bibitem[Marinescu 2005]{marinescu2005measurement}
-\abntrefinfo{Marinescu}{MARINESCU}{2005}
-{MARINESCU, R. Measurement and quality in object-oriented design. In:  IEEE.
-  \emph{Software Maintenance, 2005. ICSM'05. Proceedings of the 21st IEEE
-  International Conference on}. [S.l.], 2005. p. 701--704.}
-
-\bibitem[Marinescu e Ratiu 2004]{marinescu2004quantifying}
-\abntrefinfo{Marinescu e Ratiu}{MARINESCU; RATIU}{2004}
-{MARINESCU, R.; RATIU, D. Quantifying the quality of object-oriented design:
-  The factor-strategy model. In:  IEEE. \emph{Reverse Engineering, 2004.
-  Proceedings. 11th Working Conference on}. [S.l.], 2004. p. 192--201.}
-
 \bibitem[McCabe 1976]{McCabe76}
 \abntrefinfo{McCabe}{MCCABE}{1976}
 {MCCABE, T.~J. {A Complexity Measure}.
@@ -155,46 +77,6 @@ ISBN 1-891706-20-9.}
 Tese (Doutorado) --- Instituto de Matemática e Estátistica -- Universidade de
   São Paulo (IME/USP), 2013.}
 
-\bibitem[Moha et al. 2010]{moha2010decor}
-\abntrefinfo{Moha et al.}{MOHA et al.}{2010}
-{MOHA, N. et al. Decor: A method for the specification and detection of code
-  and design smells.
-\emph{Software Engineering, IEEE Transactions on}, IEEE, v.~36, n.~1, p.
-  20--36, 2010.}
-
-\bibitem[Moha, Gu{\'e}h{\'e}neuc e Leduc 2006]{moha2006automatic}
-\abntrefinfo{Moha, Gu{\'e}h{\'e}neuc e Leduc}{MOHA; GU{\'E}H{\'E}NEUC;
-  LEDUC}{2006}
-{MOHA, N.; GU{\'E}H{\'E}NEUC, Y.-G.; LEDUC, P. Automatic generation of
-  detection algorithms for design defects. In:  IEEE. \emph{Automated Software
-  Engineering, 2006. ASE'06. 21st IEEE/ACM International Conference on}.
-  [S.l.], 2006. p. 297--300.}
-
-\bibitem[Moha et al. 2008]{moha2008domain}
-\abntrefinfo{Moha et al.}{MOHA et al.}{2008}
-{MOHA, N. et al. A domain analysis to specify design defects and generate
-  detection algorithms. In:  \emph{Fundamental Approaches to Software
-  Engineering}. [S.l.]: Springer, 2008. p. 276--291.}
-
-\bibitem[Nielson, Nielson e Hankin 1999]{Nielson:1999}
-\abntrefinfo{Nielson, Nielson e Hankin}{NIELSON; NIELSON; HANKIN}{1999}
-{NIELSON, F.; NIELSON, H.~R.; HANKIN, C. \emph{Principles of Program Analysis}.
-  Secaucus, NJ, USA: Springer-Verlag New York, Inc., 1999.
-ISBN 3540654100.}
-
-\bibitem[Palza, Fuhrman e Abran 2003]{Palza2003}
-\abntrefinfo{Palza, Fuhrman e Abran}{PALZA; FUHRMAN; ABRAN}{2003}
-{PALZA, E.; FUHRMAN, C.; ABRAN, A. Establishing a generic and multidimensional
-  measurement repository in cmmi context. In:  IEEE. \emph{Software Engineering
-  Workshop, 2003. Proceedings. 28th Annual NASA Goddard}. [S.l.], 2003. p.
-  12--20.}
-
-\bibitem[Rao e Reddy 2007]{rao2007detecting}
-\abntrefinfo{Rao e Reddy}{RAO; REDDY}{2007}
-{RAO, A.~A.; REDDY, K.~N. Detecting bad smells in object oriented design using
-  design change propagation probability matrix 1.
-Citeseer, 2007.}
-
 \bibitem[R\^{e}go 2014]{rego_monitoramento_2014}
 \abntrefinfo{R\^{e}go}{R\^{e}GO}{2014}
 {R\^{e}GO, G.~B. Monitoramento de métricas de código-fonte com suporte de um
@@ -202,39 +84,5 @@ Citeseer, 2007.}
   administração pública federal.
 2014.
 Dispon{\'\i}vel em: \url{http://bdm.unb.br/handle/10483/8069}.}
-
-\bibitem[Ruiz et al. 2005]{Ruiz2005}
-\abntrefinfo{Ruiz et al.}{RUIZ et al.}{2005}
-{RUIZ, D. D.~A. et al. A data warehousing environment to monitor metrics in
-  software development processes. In:  \emph{16th International Workshop on
-  Database and Expert Systems Applications (DEXA 2005), 22-26 August 2005,
-  Copenhagen, Denmark}. [S.l.]: IEEE Computer Society, 2005. p. 936--940.
-ISBN 0-7695-2424-9.}
-
-\bibitem[Silveira, Becker e Ruiz 2010]{Silveira2010}
-\abntrefinfo{Silveira, Becker e Ruiz}{SILVEIRA; BECKER; RUIZ}{2010}
-{SILVEIRA, P.~S.; BECKER, K.; RUIZ, D.~D. Spdw+: a seamless approach for
-  capturing quality metrics in software development environments.
-\emph{Software Quality Control}, Kluwer Academic Publishers, Hingham, MA, USA,
-  v.~18, n.~2, p. 227--268, jun. 2010.
-ISSN 0963-9314.
-Dispon{\'\i}vel em: \url{http://dx.doi.org/10.1007/s11219-009-9092-9}.}
-
-\bibitem[Sommerville 2010]{Sommerville10}
-\abntrefinfo{Sommerville}{SOMMERVILLE}{2010}
-{SOMMERVILLE, I. \emph{Software Engineering}. 9. ed. Harlow, England:
-  Addison-Wesley, 2010.
-ISBN 978-0-13-703515-1.}
-
-\bibitem[Wichmann et al. 1995]{Wichmann95}
-\abntrefinfo{Wichmann et al.}{WICHMANN et al.}{1995}
-{WICHMANN, B. et al. Industrial perspective on static analysis.
-\emph{Software Engineering Journal}, 1995.}
-
-\bibitem[Yamashita 2013]{yamashita2013assessing}
-\abntrefinfo{Yamashita}{YAMASHITA}{2013}
-{YAMASHITA, A. {Assessing the capability of code smells to explain maintenance
-  problems: an empirical study combining quantitative and qualitative data}.
-\emph{Empirical Software Engineering}, Springer, p. 1--33, 2013.}
 
 \end{thebibliography}

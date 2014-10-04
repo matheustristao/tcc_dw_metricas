@@ -8,11 +8,12 @@
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
 \contentsline {chapter}{\chapternumberline {1}\MakeTextUppercase {Introdu\IeC {\c c}\IeC {\~a}o}}{14}{chapter.1}
 \contentsline {section}{\numberline {1.1}Contexto}{14}{section.1.1}
-\contentsline {section}{\numberline {1.2}Problema}{14}{section.1.2}
-\contentsline {section}{\numberline {1.3}Quest\IeC {\~a}o de Pesquisa}{14}{section.1.3}
-\contentsline {section}{\numberline {1.4}Objetivos}{14}{section.1.4}
-\contentsline {section}{\numberline {1.5}Hip\IeC {\'o}tese}{14}{section.1.5}
-\contentsline {section}{\numberline {1.6}Organiza\IeC {\c c}\IeC {\~a}o do Trabalho}{14}{section.1.6}
+\contentsline {section}{\numberline {1.2}Justificativa}{14}{section.1.2}
+\contentsline {section}{\numberline {1.3}Problema}{14}{section.1.3}
+\contentsline {section}{\numberline {1.4}Quest\IeC {\~a}o de Pesquisa}{14}{section.1.4}
+\contentsline {section}{\numberline {1.5}Objetivos}{14}{section.1.5}
+\contentsline {section}{\numberline {1.6}Hip\IeC {\'o}tese ou Metodologia de pesquisa}{14}{section.1.6}
+\contentsline {section}{\numberline {1.7}Organiza\IeC {\c c}\IeC {\~a}o do Trabalho}{14}{section.1.7}
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
 \contentsline {chapter}{\chapternumberline {2}\MakeTextUppercase {M\IeC {\'e}tricas de Software}}{15}{chapter.2}
 \contentsline {section}{\numberline {2.1}Processo de Medi\IeC {\c c}\IeC {\~a}o}{15}{section.2.1}
@@ -37,14 +38,14 @@
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
 \cftinsert {A}
-\contentsline {appendix}{\chapternumberline {A}\MakeTextUppercase {Descri\IeC {\c c}\IeC {\~a}o do Processo de ETL no Kettle}}{33}{appendix.A}
+\contentsline {appendix}{\chapternumberline {A}\MakeTextUppercase {Descri\IeC {\c c}\IeC {\~a}o do Processo de ETL no Kettle}}{31}{appendix.A}
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
 \cftinsert {A}
-\contentsline {appendix}{\chapternumberline {B}\MakeTextUppercase {Gr\IeC {\'a}ficos e Tabelas dos Percentis de M\IeC {\'e}tricas de C\IeC {\'o}digo-Fonte}}{34}{appendix.B}
+\contentsline {appendix}{\chapternumberline {B}\MakeTextUppercase {Gr\IeC {\'a}ficos e Tabelas dos Percentis de M\IeC {\'e}tricas de C\IeC {\'o}digo-Fonte}}{32}{appendix.B}
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
 \cftinsert {A}
-\contentsline {appendix}{\chapternumberline {C}\MakeTextUppercase {Cen\IeC {\'a}rios de Limpeza de C\IeC {\'o}digo-Fonte}}{35}{appendix.C}
+\contentsline {appendix}{\chapternumberline {C}\MakeTextUppercase {Cen\IeC {\'a}rios de Limpeza de C\IeC {\'o}digo-Fonte}}{33}{appendix.C}
 \cftinsert {AAA}
 \renewcommand *{\cftappendixname }{ANEXO \space }
