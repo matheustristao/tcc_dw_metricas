@@ -1,46 +1,20 @@
 \select@language {brazil}
-\contentsline {figure}{\numberline {1}{\ignorespaces Modelo de Informa\IeC {\c c}\IeC {\~a}o da ISO 15939\relax }}{22}{figure.caption.13}
-\contentsline {figure}{\numberline {2}{\ignorespaces Modelo de Qualidade do Produto da ISO 25023 adaptado da \citeonline {ISO25023}\relax }}{23}{figure.caption.15}
-\contentsline {figure}{\numberline {3}{\ignorespaces Arquitetura de um ambiente de \textit {Data Warehousing}\relax }}{36}{figure.caption.22}
-\contentsline {figure}{\numberline {4}{\ignorespaces Exemplo de Esquema Estrela adaptado de \citeonline {valeria2012}\relax }}{38}{figure.caption.23}
-\contentsline {figure}{\numberline {5}{\ignorespaces Exemplo de Cubo de Dados\relax }}{38}{figure.caption.24}
-\contentsline {figure}{\numberline {6}{\ignorespaces Metodologia de Projeto de \textit {Data Warehouse} proposta por \citeonline {Kimball2002}\relax }}{39}{figure.caption.25}
-\contentsline {figure}{\numberline {7}{\ignorespaces Diagrama Dimensional de \IeC {\'A}rvore adaptado de \citeonline {Golfarelli1998} e \citeonline {Marcos2007}\relax }}{40}{figure.caption.26}
-\contentsline {figure}{\numberline {8}{\ignorespaces Arquitetura do Ambiente de \textit {Data Warehousing} para M\IeC {\'e}tricas de C\IeC {\'o}digo-Fonte\relax }}{45}{figure.caption.34}
-\contentsline {figure}{\numberline {9}{\ignorespaces Diagrama de \IeC {\'A}rvore para Valor Percentil das M\IeC {\'e}tricas de C\IeC {\'o}digo-Fonte\relax }}{52}{figure.caption.42}
-\contentsline {figure}{\numberline {10}{\ignorespaces Diagrama de \IeC {\'A}rvore para Avalia\IeC {\c c}\IeC {\~a}o de Cen\IeC {\'a}rios de Limpeza de C\IeC {\'o}digo-Fonte\relax }}{52}{figure.caption.43}
-\contentsline {figure}{\numberline {11}{\ignorespaces Diagrama de \IeC {\'A}rvore para avalia\IeC {\c c}\IeC {\~a}o da Taxa de Aproveitamento de Oportunidade de Melhoria de C\IeC {\'o}digo-Fonte\relax }}{53}{figure.caption.44}
-\contentsline {figure}{\numberline {12}{\ignorespaces Projeto F\IeC {\'\i }sico do \textit {Data Warehouse}\relax }}{54}{figure.caption.45}
-\contentsline {figure}{\numberline {13}{\ignorespaces Metadados do \textit {Data Warehouse}\relax }}{55}{figure.caption.46}
-\contentsline {figure}{\numberline {14}{\ignorespaces Interface do Kettle\relax }}{56}{figure.caption.47}
-\contentsline {figure}{\numberline {15}{\ignorespaces Interface Gr\IeC {\'a}fica do Pentaho BI Platform\relax }}{58}{figure.caption.50}
-\contentsline {figure}{\numberline {16}{\ignorespaces Arquitetura Ambiente de \textit {Data Warehousing} para M\IeC {\'e}tricas de C\IeC {\'o}digo-Fonte\relax }}{60}{figure.caption.52}
-\contentsline {figure}{\numberline {17}{\ignorespaces Metodologia de Estudo de Caso proposta por \citeonline {wohlin2012experimentation}\relax }}{61}{figure.caption.53}
-\contentsline {figure}{\numberline {18}{\ignorespaces Informa\IeC {\c c}\IeC {\~o}es do Reposit\IeC {\'o}rio de C\IeC {\'o}digo-Fonte\relax }}{67}{figure.caption.57}
-\contentsline {figure}{\numberline {19}{\ignorespaces Interpreta\IeC {\c c}\IeC {\~a}o dos valores percentis conforme a configura\IeC {\c c}\IeC {\~a}o "OpenJDK8 Metrics"\relax }}{68}{figure.caption.58}
-\contentsline {figure}{\numberline {20}{\ignorespaces Interpreta\IeC {\c c}\IeC {\~a}o dos valores percentis conforme a configura\IeC {\c c}\IeC {\~a}o "Tomcat Metrics"\relax }}{69}{figure.caption.59}
-\contentsline {figure}{\numberline {21}{\ignorespaces Total de Cen\IeC {\'a}rios de Limpeza de C\IeC {\'o}digo-Fonte identificados por cen\IeC {\'a}rio e \textit {Release}\relax }}{71}{figure.caption.60}
-\contentsline {figure}{\numberline {22}{\ignorespaces Total de Cen\IeC {\'a}rios de Limpeza de C\IeC {\'o}digo-Fonte por Release\relax }}{71}{figure.caption.61}
-\contentsline {figure}{\numberline {23}{\ignorespaces As 10 classes com menor n\IeC {\'u}mero de C\IeC {\'e}narios de Limpeza\relax }}{72}{figure.caption.62}
-\contentsline {figure}{\numberline {24}{\ignorespaces As 10 classes com maior n\IeC {\'u}mero de C\IeC {\'e}narios de Limpeza\relax }}{72}{figure.caption.63}
-\contentsline {figure}{\numberline {25}{\ignorespaces Taxa de Aproveitamento de Oportunidades de Melhoria de C\IeC {\'o}digo-Fonte\relax }}{73}{figure.caption.64}
-\contentsline {figure}{\numberline {26}{\ignorespaces Gr\IeC {\'a}fico da Taxa de Aproveitamento de Oportunidades de Melhoria de C\IeC {\'o}digo-Fonte\relax }}{73}{figure.caption.65}
-\contentsline {figure}{\numberline {27}{\ignorespaces Crescimento do n\IeC {\'u}mero de Classes do Projeto SICG\relax }}{74}{figure.caption.66}
-\contentsline {figure}{\numberline {28}{\ignorespaces Componentes do Kettle que foram utilizadas nas Transforma\IeC {\c c}\IeC {\~o}es\relax }}{87}{figure.caption.73}
-\contentsline {figure}{\numberline {29}{\ignorespaces Primeira Transforma\IeC {\c c}\IeC {\~a}o realizada no Kettle\relax }}{87}{figure.caption.74}
-\contentsline {figure}{\numberline {30}{\ignorespaces Segunda Transforma\IeC {\c c}\IeC {\~a}o realizada no Kettle\relax }}{88}{figure.caption.75}
-\contentsline {figure}{\numberline {31}{\ignorespaces Terceira Transforma\IeC {\c c}\IeC {\~a}o realizada no Kettle\relax }}{99}{figure.caption.76}
-\contentsline {figure}{\numberline {32}{\ignorespaces Componentes do Kettle que foram utilizadas nos \textit {Jobs}\relax }}{105}{figure.caption.77}
-\contentsline {figure}{\numberline {33}{\ignorespaces \textit {Job} deste Trabalho\relax }}{106}{figure.caption.78}
-\contentsline {figure}{\numberline {34}{\ignorespaces Intepreta\IeC {\c c}\IeC {\~a}o dos Valores Percentis da M\IeC {\'e}trica ACC\relax }}{108}{figure.caption.79}
-\contentsline {figure}{\numberline {35}{\ignorespaces Intepreta\IeC {\c c}\IeC {\~a}o dos Valores Percentis da M\IeC {\'e}trica ACCM\relax }}{109}{figure.caption.80}
-\contentsline {figure}{\numberline {36}{\ignorespaces Intepreta\IeC {\c c}\IeC {\~a}o dos Valores Percentis da M\IeC {\'e}trica AMLOC\relax }}{110}{figure.caption.81}
-\contentsline {figure}{\numberline {37}{\ignorespaces Intepreta\IeC {\c c}\IeC {\~a}o dos Valores Percentis da M\IeC {\'e}trica ANPM\relax }}{111}{figure.caption.82}
-\contentsline {figure}{\numberline {38}{\ignorespaces Intepreta\IeC {\c c}\IeC {\~a}o dos Valores Percentis da M\IeC {\'e}trica CBO\relax }}{112}{figure.caption.83}
-\contentsline {figure}{\numberline {39}{\ignorespaces Intepreta\IeC {\c c}\IeC {\~a}o dos Valores Percentis da M\IeC {\'e}trica DIT\relax }}{113}{figure.caption.84}
-\contentsline {figure}{\numberline {40}{\ignorespaces Intepreta\IeC {\c c}\IeC {\~a}o dos Valores Percentis da M\IeC {\'e}trica LCOM4\relax }}{114}{figure.caption.85}
-\contentsline {figure}{\numberline {41}{\ignorespaces Intepreta\IeC {\c c}\IeC {\~a}o dos Valores Percentis da M\IeC {\'e}trica LOC\relax }}{115}{figure.caption.86}
-\contentsline {figure}{\numberline {42}{\ignorespaces Intepreta\IeC {\c c}\IeC {\~a}o dos Valores Percentis da M\IeC {\'e}trica NOC\relax }}{116}{figure.caption.87}
-\contentsline {figure}{\numberline {43}{\ignorespaces Intepreta\IeC {\c c}\IeC {\~a}o dos Valores Percentis da M\IeC {\'e}trica NOM\relax }}{117}{figure.caption.88}
-\contentsline {figure}{\numberline {44}{\ignorespaces Intepreta\IeC {\c c}\IeC {\~a}o dos Valores Percentis da M\IeC {\'e}trica NPA\relax }}{118}{figure.caption.89}
-\contentsline {figure}{\numberline {45}{\ignorespaces Intepreta\IeC {\c c}\IeC {\~a}o dos Valores Percentis da M\IeC {\'e}trica RFC\relax }}{119}{figure.caption.90}
+\contentsline {figure}{\numberline {1}{\ignorespaces Modelo de Qualidade do Produto da ISO 25023 adaptado da \citeonline {ISO25023}\relax }}{18}{figure.caption.11}
+\contentsline {figure}{\numberline {2}{\ignorespaces Componentes do Kettle que foram utilizadas nas Transforma\IeC {\c c}\IeC {\~o}es\relax }}{32}{figure.caption.18}
+\contentsline {figure}{\numberline {3}{\ignorespaces Primeira Transforma\IeC {\c c}\IeC {\~a}o realizada no Kettle\relax }}{32}{figure.caption.19}
+\contentsline {figure}{\numberline {4}{\ignorespaces Segunda Transforma\IeC {\c c}\IeC {\~a}o realizada no Kettle\relax }}{33}{figure.caption.20}
+\contentsline {figure}{\numberline {5}{\ignorespaces Terceira Transforma\IeC {\c c}\IeC {\~a}o realizada no Kettle\relax }}{44}{figure.caption.21}
+\contentsline {figure}{\numberline {6}{\ignorespaces Componentes do Kettle que foram utilizadas nos \textit {Jobs}\relax }}{50}{figure.caption.22}
+\contentsline {figure}{\numberline {7}{\ignorespaces \textit {Job} deste Trabalho\relax }}{51}{figure.caption.23}
+\contentsline {figure}{\numberline {8}{\ignorespaces Intepreta\IeC {\c c}\IeC {\~a}o dos Valores Percentis da M\IeC {\'e}trica ACC\relax }}{53}{figure.caption.24}
+\contentsline {figure}{\numberline {9}{\ignorespaces Intepreta\IeC {\c c}\IeC {\~a}o dos Valores Percentis da M\IeC {\'e}trica ACCM\relax }}{54}{figure.caption.25}
+\contentsline {figure}{\numberline {10}{\ignorespaces Intepreta\IeC {\c c}\IeC {\~a}o dos Valores Percentis da M\IeC {\'e}trica AMLOC\relax }}{55}{figure.caption.26}
+\contentsline {figure}{\numberline {11}{\ignorespaces Intepreta\IeC {\c c}\IeC {\~a}o dos Valores Percentis da M\IeC {\'e}trica ANPM\relax }}{56}{figure.caption.27}
+\contentsline {figure}{\numberline {12}{\ignorespaces Intepreta\IeC {\c c}\IeC {\~a}o dos Valores Percentis da M\IeC {\'e}trica CBO\relax }}{57}{figure.caption.28}
+\contentsline {figure}{\numberline {13}{\ignorespaces Intepreta\IeC {\c c}\IeC {\~a}o dos Valores Percentis da M\IeC {\'e}trica DIT\relax }}{58}{figure.caption.29}
+\contentsline {figure}{\numberline {14}{\ignorespaces Intepreta\IeC {\c c}\IeC {\~a}o dos Valores Percentis da M\IeC {\'e}trica LCOM4\relax }}{59}{figure.caption.30}
+\contentsline {figure}{\numberline {15}{\ignorespaces Intepreta\IeC {\c c}\IeC {\~a}o dos Valores Percentis da M\IeC {\'e}trica LOC\relax }}{60}{figure.caption.31}
+\contentsline {figure}{\numberline {16}{\ignorespaces Intepreta\IeC {\c c}\IeC {\~a}o dos Valores Percentis da M\IeC {\'e}trica NOC\relax }}{61}{figure.caption.32}
+\contentsline {figure}{\numberline {17}{\ignorespaces Intepreta\IeC {\c c}\IeC {\~a}o dos Valores Percentis da M\IeC {\'e}trica NOM\relax }}{62}{figure.caption.33}
+\contentsline {figure}{\numberline {18}{\ignorespaces Intepreta\IeC {\c c}\IeC {\~a}o dos Valores Percentis da M\IeC {\'e}trica NPA\relax }}{63}{figure.caption.34}
+\contentsline {figure}{\numberline {19}{\ignorespaces Intepreta\IeC {\c c}\IeC {\~a}o dos Valores Percentis da M\IeC {\'e}trica RFC\relax }}{64}{figure.caption.35}
