@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.9.14)  11 OCT 2014 19:47
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.9.14)  12 OCT 2014 01:48
 entering extended mode
 **tcc.tex
 (C:\Users\Matheus\Documents\GitHub\tcc_dw_metricas\Matheus\tcc.tex
@@ -1685,25 +1685,26 @@ as.tex [11
 (C:\Users\Matheus\Documents\GitHub\tcc_dw_metricas\Matheus\fixos/indiceAutomati
 co.tex (C:\Users\Matheus\Documents\GitHub\tcc_dw_metricas\Matheus\tcc.toc
 LaTeX Font Info:    Font shape `T1/lmss/bx/it' in size <12> not available
-(Font)              Font shape `T1/lmss/bx/sl' tried instead on input line 27.
-)
+(Font)              Font shape `T1/lmss/bx/sl' tried instead on input line 26.
+
 [13
 
-])
+]) [14])
 (C:\Users\Matheus\Documents\GitHub\tcc_dw_metricas\Matheus\capitulos/1-introduc
-ao.tex [14
-
-
-])
+ao.tex)
 (C:\Users\Matheus\Documents\GitHub\tcc_dw_metricas\Matheus\capitulos/2-metricas
-.tex [15]
-LaTeX Font Info:    Try loading font information for OMS+lmr on input line 12.
+.tex [15
+
+
+] [16]
+LaTeX Font Info:    Try loading font information for OMS+lmr on input line 15.
  ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\lm\omslmr.fd"
 File: omslmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Font shape `OMS/lmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 12.
- [16
+(Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 15.
+
+[17
 
 ]
 Package epstopdf Info: Source file: <figuras/figuras_matheus/tipos_medidas_INGL
@@ -1717,39 +1718,39 @@ ES-eps-converted-to.pdf>
 (epstopdf)             Command: <epstopdf --outfile=figuras/figuras_matheus/tip
 os_medidas_INGLES-eps-converted-to.pdf figuras/figuras_matheus/tipos_medidas_IN
 GLES.eps>
-(epstopdf)             \includegraphics on input line 48.
+(epstopdf)             \includegraphics on input line 51.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/figuras_matheus/tipos_medidas_INGLES-eps-converted-to.pdf, id=243, 499
+<figuras/figuras_matheus/tipos_medidas_INGLES-eps-converted-to.pdf, id=259, 499
 .8675pt x 174.6525pt>
 File: figuras/figuras_matheus/tipos_medidas_INGLES-eps-converted-to.pdf Graphic
  file (type pdf)
 
 <use figuras/figuras_matheus/tipos_medidas_INGLES-eps-converted-to.pdf>
 Package pdftex.def Info: figuras/figuras_matheus/tipos_medidas_INGLES-eps-conve
-rted-to.pdf used on input line 48.
+rted-to.pdf used on input line 51.
 (pdftex.def)             Requested size: 449.87659pt x 157.18579pt.
 
-[17 <C:/Users/Matheus/Documents/GitHub/tcc_dw_metricas/Matheus/figuras/figuras_
-matheus/tipos_medidas_INGLES-eps-converted-to.pdf>] [18] [19]
+[18 <C:/Users/Matheus/Documents/GitHub/tcc_dw_metricas/Matheus/figuras/figuras_
+matheus/tipos_medidas_INGLES-eps-converted-to.pdf>] [19] [20]
 (C:\Users\Matheus\Documents\GitHub\tcc_dw_metricas\Matheus\tabelas/tabelasMathe
 us/percentis.ltx
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <9> on input line 3.
 )
-Overfull \hbox (9.37761pt too wide) in paragraph at lines 3--139
+Overfull \hbox (9.37761pt too wide) in paragraph at lines 3--142
  [] 
  []
 
-
+[21]
 (C:\Users\Matheus\Documents\GitHub\tcc_dw_metricas\Matheus\tabelas/tabelasMathe
-us/intervalos.ltx) [20]
+us/intervalos.ltx)
 (C:\Users\Matheus\Documents\GitHub\tcc_dw_metricas\Matheus\tabelas/tabelasMathe
 us/metricas.ltx)
 
-LaTeX Warning: Float too large for page by 59.66628pt on input line 165.
+LaTeX Warning: Float too large for page by 59.66628pt on input line 168.
 
-[21] [22]
+[22] [23]
 (C:\Users\Matheus\Documents\GitHub\tcc_dw_metricas\Matheus\tabelas/tabelasMathe
 us/conceitos-limpeza.ltx
 Underfull \hbox (badness 1762) in paragraph at lines 9--10
@@ -1842,16 +1843,16 @@ Underfull \hbox (badness 1097) in paragraph at lines 65--65
  []
 
 )
-Overfull \hbox (3.70084pt too wide) in paragraph at lines 1--190
+Overfull \hbox (3.70084pt too wide) in paragraph at lines 1--193
  [][] 
  []
 
 
-LaTeX Warning: Float too large for page by 32.4995pt on input line 192.
+LaTeX Warning: Float too large for page by 32.4995pt on input line 195.
 
-[23
+[24
 
-] [24]
+] [25]
 (C:\Users\Matheus\Documents\GitHub\tcc_dw_metricas\Matheus\tabelas/tabelasMathe
 us/cenarios.ltx
 Underfull \hbox (badness 5893) in paragraph at lines 3--3
@@ -2034,43 +2035,43 @@ Underfull \hbox (badness 10000) in paragraph at lines 21--21
  []
 
 )
-Overfull \hbox (6.98694pt too wide) in paragraph at lines 1--203
+Overfull \hbox (6.98694pt too wide) in paragraph at lines 1--206
  [][] 
  []
 
 )
 (C:\Users\Matheus\Documents\GitHub\tcc_dw_metricas\Matheus\capitulos/3-dwing.te
-x [25
+x [26
 
-] [26]
+] [27]
 LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <24.88> not available
 (Font)              Font shape `T1/lmss/m/sl' tried instead on input line 1.
 )
 (C:\Users\Matheus\Documents\GitHub\tcc_dw_metricas\Matheus\capitulos/4-arquitet
-ura.tex [27
+ura.tex [28
 
 ])
-(C:\Users\Matheus\Documents\GitHub\tcc_dw_metricas\Matheus\capitulos/5-estudo-d
-e-caso.tex [28
+(C:\Users\Matheus\Documents\GitHub\tcc_dw_metricas\Matheus\capitulos/5-projeto-
+de-estudo-de-caso.tex [29
 
-])
+] [30
+
+] [31])
 (C:\Users\Matheus\Documents\GitHub\tcc_dw_metricas\Matheus\capitulos/6-conclusa
-o.tex [29
-
-]) (C:\Users\Matheus\Documents\GitHub\tcc_dw_metricas\Matheus\tcc.bbl
+o.tex [32]) (C:\Users\Matheus\Documents\GitHub\tcc_dw_metricas\Matheus\tcc.bbl
 (C:\Users\Matheus\Documents\GitHub\tcc_dw_metricas\Matheus\tcc.brf)
 \tf@brf=\write7
- [30
+ [33
 
 ]
 bibitemlist
-)
+[34
+
+])
 (C:\Users\Matheus\Documents\GitHub\tcc_dw_metricas\Matheus\apendices/apendices.
-tex [31
+tex [35] [36
 
-] [32
-
-] [33
+] [37
 
 ])
 (C:\Users\Matheus\Documents\GitHub\tcc_dw_metricas\Matheus\editaveis/anexos.tex
@@ -2078,7 +2079,7 @@ tex [31
 No file tcc.ind.
 
 AED: lastpage setting LastPage
-[34
+[38
 
 ]
 \tf@lof=\write8
@@ -2089,27 +2090,22 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 45.
  (C:\Users\Matheus\Documents\GitHub\tcc_dw_metricas\Matheus\tcc.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 45.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 45.
+Package rerunfilecheck Info: File `tcc.brf' has not changed.
+(rerunfilecheck)             Checksum: A18C10B36D233C398BFD4F86CE64A1E6;3937.
 
-
-Package rerunfilecheck Warning: File `tcc.brf' has changed.
-(rerunfilecheck)                Rerun to get bibliographical references right.
-
-Package rerunfilecheck Info: Checksums for `tcc.brf':
-(rerunfilecheck)             Before: C9202597E32A49C42123AA4D45606231;3662
-(rerunfilecheck)             After:  5CA1446E2B2F6E5F9F32363A34F738EC;3713.
 
 LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 45.
  ) 
 Here is how much of TeX's memory you used:
- 27113 strings out of 493921
- 477795 string characters out of 3144870
- 581667 words of memory out of 3000000
- 29620 multiletter control sequences out of 15000+200000
+ 27151 strings out of 493921
+ 478507 string characters out of 3144870
+ 581666 words of memory out of 3000000
+ 29646 multiletter control sequences out of 15000+200000
  99114 words of font info for 78 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 68i,14n,75p,917b,600s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 68i,14n,75p,991b,614s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ec.enc}{C:/Program F
 iles (x86)/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathsy.enc}<C:/Program Files (x86)/
 MiKTeX 2.9/fonts/type1/public/lm/lmbx12.pfb><C:/Program Files (x86)/MiKTeX 2.9/
@@ -2123,9 +2119,9 @@ fonts/type1/public/lm/lmss17.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1
 /public/lm/lmssbo10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/l
 m/lmssbx10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmsso17
 .pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmsy10.pfb>
-Output written on tcc.pdf (35 pages, 573437 bytes).
+Output written on tcc.pdf (39 pages, 587840 bytes).
 PDF statistics:
- 650 PDF objects out of 1000 (max. 8388607)
- 104 named destinations out of 1000 (max. 500000)
- 331 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 716 PDF objects out of 1000 (max. 8388607)
+ 116 named destinations out of 1000 (max. 500000)
+ 379 words of extra memory for PDF output out of 10000 (max. 10000000)
 
