@@ -31,6 +31,11 @@ v.~2, n.~1994, p. 528--532, 1994.
 Dispon{\'\i}vel em:
   \url{http://www.csri.utoronto.ca/~sme/CSC444F/handouts/GQM-paper.pdf}.}
 
+\bibitem[Chaudhuri e Dayal 1997]{chaudhuri1997}
+\abntrefinfo{Chaudhuri e Dayal}{CHAUDHURI; DAYAL}{1997}
+{CHAUDHURI, S.; DAYAL, U. An overview of data warehousing and olap technology.
+\emph{ACM Sigmod record}, ACM, v.~26, n.~1, p. 65--74, 1997.}
+
 \bibitem[Fenton e Pfleeger 1998]{Fenton98}
 \abntrefinfo{Fenton e Pfleeger}{FENTON; PFLEEGER}{1998}
 {FENTON, N.~E.; PFLEEGER, S.~L. \emph{{Software Metrics: A Rigorous and
@@ -40,6 +45,11 @@ Dispon{\'\i}vel em:
 \abntrefinfo{Gilmore}{GILMORE}{2008}
 {GILMORE, W.~J. \emph{Dominando PHP e MySql}. [S.l.]: STARLIN ALTA CONSULT,
   2008.}
+
+\bibitem[Inmon 2002]{Inmon2002}
+\abntrefinfo{Inmon}{INMON}{2002}
+{INMON, W.~H. \emph{Building the Data Warehouse}. 3rd. ed. New York, NY, USA:
+  John Wiley \& Sons, Inc., 2002.}
 
 \bibitem[{ISO/IEC 15939} 2002]{ISO:15939}
 \abntrefinfo{{ISO/IEC 15939}}{{ISO/IEC 15939}}{2002}
@@ -97,6 +107,11 @@ Dispon{\'\i}vel em: \url{http://bdm.unb.br/handle/10483/8069}.}
 {SCHRAMM, W. Notes on case studies of instructional media projects.
 1971.
 Dispon{\'\i}vel em: \url{http://eric.ed.gov/?id=ED092145}.}
+
+\bibitem[Sharma 2011]{neeraj_sharma_2011}
+\abntrefinfo{Sharma}{SHARMA}{2011}
+{SHARMA, N. \emph{Getting started with data warehousing}. [S.l.]: {IBM}
+  Redbooks, 2011.}
 
 \bibitem[Yin 2001]{yin2001estudo}
 \abntrefinfo{Yin}{YIN}{2001}

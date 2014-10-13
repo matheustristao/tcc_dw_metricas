@@ -23,7 +23,8 @@
 \contentsline {section}{\numberline {2.4}Configura\IeC {\c c}\IeC {\~o}es de qualidade para m\IeC {\'e}tricas de c\IeC {\'o}digo fonte}{21}{section.2.4}
 \contentsline {section}{\numberline {2.5}Cen\IeC {\'a}rios de limpeza}{24}{section.2.5}
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {3}\MakeTextUppercase {\textit {Data Warehousing}}}{28}{chapter.3}
+\contentsline {chapter}{\chapternumberline {3}\MakeTextUppercase {\textit {Data Warehouse}}}{28}{chapter.3}
+\contentsline {section}{\numberline {3.1}Arquitetura de um ambiente de \textit {Data Warehousing}}{28}{section.3.1}
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
 \contentsline {chapter}{\chapternumberline {4}\MakeTextUppercase {Ambiente de \textit {Data Warehousing} para M\IeC {\'e}tricas de C\IeC {\'o}digo-Fonte}}{29}{chapter.4}
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
