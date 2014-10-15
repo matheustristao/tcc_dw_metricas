@@ -75,6 +75,13 @@ Dispon{\'\i}vel em:
 {KAN, S.~H. \emph{Metrics and models in software quality engineering}. [S.l.]:
   Addison Wesley, 2002.}
 
+\bibitem[Kimball e Ross 2002]{Kimball2002}
+\abntrefinfo{Kimball e Ross}{KIMBALL; ROSS}{2002}
+{KIMBALL, R.; ROSS, M. \emph{The Data Warehouse Toolkit: The Complete Guide to
+  Dimensional Modeling}. 2nd. ed. New York, NY, USA: John Wiley \& Sons, Inc.,
+  2002.
+ISBN 0471200247, 9780471200246.}
+
 \bibitem[Laird 2006]{softwaremeasurementandestimation}
 \abntrefinfo{Laird}{LAIRD}{2006}
 {LAIRD, M. C.~B. L.~M. \emph{Software measurement and estimation: A practical
@@ -112,6 +119,11 @@ Dispon{\'\i}vel em: \url{http://eric.ed.gov/?id=ED092145}.}
 \abntrefinfo{Sharma}{SHARMA}{2011}
 {SHARMA, N. \emph{Getting started with data warehousing}. [S.l.]: {IBM}
   Redbooks, 2011.}
+
+\bibitem[Times 2012]{valeria2012}
+\abntrefinfo{Times}{TIMES}{2012}
+{TIMES, V.~C. \emph{Sistemas de DW}. 2012. Universidade Federal de Pernambuco -
+  UFPE. Dispon{\'\i}vel em: \url{www.cin.ufpe.br/~if695/bda\_dw.pdf}.}
 
 \bibitem[Yin 2001]{yin2001estudo}
 \abntrefinfo{Yin}{YIN}{2001}
