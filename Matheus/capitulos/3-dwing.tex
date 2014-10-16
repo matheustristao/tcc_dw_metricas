@@ -30,15 +30,26 @@ Um modelo dimensional é composto por tabelas fatos e tabelas dimensões, que qu
 \begin{figure}[h!]
 \centering
 \includegraphics[keepaspectratio=false,scale=0.50]{figuras/figuras_matheus/star.eps}
-\caption{Esquema estrela adaptado de \citeonline{valeria2012}}
+\caption{Esquema estrela extraído de \citeonline{valeria2012}}
 \label{fig:estrela}
 \end{figure}
 \FloatBarrier
  
+\subsection{OLAP \textit{On-Line Analytic Processing}}
 
+A atividade que consiste em buscar e apresentar os dados de um \textit{Data Warehouse}, sendo essa busca quase sempre baseada em um cubo multidimensional de dados, é chamada de \textit{On-Line Analytic Processing} (OLAP) \cite{Kimball2002}. A consulta OLAP difere da consulta do tipo \textit{On-Line Transaction Processing} (OLTP) pelo fato dos seus dados terem passado por um processo de ETL, de modo que sua performance foi melhorada para uma análise mais fácil e rápida, enquanto na consulta do tipo OLTP o sistema foi modelo de modo a capacitar inserções, atualizações e remoções de dados obedecendo regras de normalização. A tabela \ref{tab:hilmer} evidencia as diferenças entre aplicações OLTP e OLAP extraídas do trabalho de \citeonline{hilmer2002}: 
 
-\subsection{Consultas OLAP}
+\begin{table}[!ht]
+	\begin{center}
+	
+	\input{tabelas/tabelasMatheus/hilmer_olap_oltp.ltx} 
+	\caption{Diferenças entre OLTP e OLAP extraídas de \cite{hilmer2002}}
+	\label{tab:hilmer}
+	\end{center}
+	\end{table}	
+	\FloatBarrier	
 
+	
 
 
 

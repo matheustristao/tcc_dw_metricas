@@ -101,6 +101,12 @@ ISBN 0471200247, 9780471200246.}
 Tese (Doutorado) --- Instituto de Matemática e Estátistica -- Universidade de
   São Paulo (IME/USP), 2013.}
 
+\bibitem[Neri 2002]{hilmer2002}
+\abntrefinfo{Neri}{NERI}{2002}
+{NERI, H.~R. \emph{Análise, Projeto e Implementação de um Esquema MOLAP de
+  Data Warehouse utilizando SGBD-OR Oracle 8.1}. Universidade Federal da
+  Paraíba - UFPB: [s.n.], 2002.}
+
 \bibitem[R\^{e}go 2014]{rego_monitoramento_2014}
 \abntrefinfo{R\^{e}go}{R\^{e}GO}{2014}
 {R\^{e}GO, G.~B. Monitoramento de métricas de código-fonte com suporte de um

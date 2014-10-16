@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.9.14)  15 OCT 2014 03:40
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.9.14)  16 OCT 2014 02:33
 entering extended mode
 **tcc.tex
 (C:\Users\Matheus\Documents\GitHub\tcc_dw_metricas\Matheus\tcc.tex
@@ -1670,11 +1670,8 @@ ex [8
 
 ])
 (C:\Users\Matheus\Documents\GitHub\tcc_dw_metricas\Matheus\fixos/listasAutomati
-cas.tex (C:\Users\Matheus\Documents\GitHub\tcc_dw_metricas\Matheus\tcc.lof
-
-LaTeX Warning: Citation `valeria2012' on page 9 undefined on input line 3.
-
-) [9
+cas.tex (C:\Users\Matheus\Documents\GitHub\tcc_dw_metricas\Matheus\tcc.lof)
+[9
 
 ] (C:\Users\Matheus\Documents\GitHub\tcc_dw_metricas\Matheus\tcc.lot)
 [10
@@ -1726,7 +1723,7 @@ GLES.eps>
 (epstopdf)             \includegraphics on input line 51.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/figuras_matheus/tipos_medidas_INGLES-eps-converted-to.pdf, id=270, 499
+<figuras/figuras_matheus/tipos_medidas_INGLES-eps-converted-to.pdf, id=278, 499
 .8675pt x 174.6525pt>
 File: figuras/figuras_matheus/tipos_medidas_INGLES-eps-converted-to.pdf Graphic
  file (type pdf)
@@ -2070,7 +2067,7 @@ r-eps-converted-to.pdf figuras/figuras_matheus/star.eps>
 (epstopdf)             \includegraphics on input line 32.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/figuras_matheus/star-eps-converted-to.pdf, id=452, 593.21625pt x 378.4
+<figuras/figuras_matheus/star-eps-converted-to.pdf, id=460, 593.21625pt x 378.4
 1376pt>
 File: figuras/figuras_matheus/star-eps-converted-to.pdf Graphic file (type pdf)
 
@@ -2080,15 +2077,11 @@ Package pdftex.def Info: figuras/figuras_matheus/star-eps-converted-to.pdf used
 (pdftex.def)             Requested size: 296.60739pt x 189.2064pt.
 
 
-LaTeX Warning: Citation `valeria2012' on page 29 undefined on input line 33.
-
-
-LaTeX Warning: Citation `valeria2012' on page 29 undefined on input line 33.
-
-
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[29])
+[29]
+(C:\Users\Matheus\Documents\GitHub\tcc_dw_metricas\Matheus\tabelas/tabelasMathe
+us/hilmer_olap_oltp.ltx))
 (C:\Users\Matheus\Documents\GitHub\tcc_dw_metricas\Matheus\capitulos/4-arquitet
 ura.tex [30 <C:/Users/Matheus/Documents/GitHub/tcc_dw_metricas/Matheus/figuras/
 figuras_matheus/star-eps-converted-to.pdf>])
@@ -2131,16 +2124,8 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 45.
  (C:\Users\Matheus\Documents\GitHub\tcc_dw_metricas\Matheus\tcc.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 45.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 45.
-
-
-Package rerunfilecheck Warning: File `tcc.brf' has changed.
-(rerunfilecheck)                Rerun to get bibliographical references right.
-
-Package rerunfilecheck Info: Checksums for `tcc.brf':
-(rerunfilecheck)             Before: EDB603B33B398D90245594DEF4D50ABB;4499
-(rerunfilecheck)             After:  B321525E8D96F83806377202946D82BB;4552.
-
-LaTeX Warning: There were undefined references.
+Package rerunfilecheck Info: File `tcc.brf' has not changed.
+(rerunfilecheck)             Checksum: DE32E867E4AC7E041F94F0A43CB6252C;4767.
 
 
 LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
@@ -2148,10 +2133,10 @@ LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 45.
  ) 
 Here is how much of TeX's memory you used:
- 27232 strings out of 493921
- 480003 string characters out of 3144870
- 582456 words of memory out of 3000000
- 29711 multiletter control sequences out of 15000+200000
+ 27250 strings out of 493921
+ 480520 string characters out of 3144870
+ 582908 words of memory out of 3000000
+ 29724 multiletter control sequences out of 15000+200000
  107557 words of font info for 81 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
  68i,14n,75p,1284b,617s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -2169,9 +2154,9 @@ fonts/type1/public/lm/lmss17.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1
 m/lmssbx10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmsso12
 .pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmsso17.pfb><C:/P
 rogram Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmsy10.pfb>
-Output written on tcc.pdf (41 pages, 669377 bytes).
+Output written on tcc.pdf (41 pages, 677541 bytes).
 PDF statistics:
- 791 PDF objects out of 1000 (max. 8388607)
- 128 named destinations out of 1000 (max. 500000)
+ 815 PDF objects out of 1000 (max. 8388607)
+ 130 named destinations out of 1000 (max. 500000)
  416 words of extra memory for PDF output out of 10000 (max. 10000000)
 

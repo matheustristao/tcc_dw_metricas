@@ -6,6 +6,7 @@
 \backcite {almeida_codigo}{{10}{(document)}{Doc-Start}}
 \backcite {rego_monitoramento_2014}{{10}{(document)}{Doc-Start}}
 \backcite {rego_monitoramento_2014}{{10}{(document)}{Doc-Start}}
+\backcite {hilmer2002}{{10}{(document)}{Doc-Start}}
 \backcite {Fenton98}{{15}{1.1}{section.1.1}}
 \backcite {rego_monitoramento_2014}{{15}{1.1}{section.1.1}}
 \backcite {rego_monitoramento_2014}{{15}{1.1}{section.1.1}}
@@ -73,6 +74,9 @@
 \backcite {Kimball2002}{{29}{3.2}{section.3.2}}
 \backcite {Kimball2002}{{29}{3.2}{section.3.2}}
 \backcite {valeria2012}{{30}{2}{figure.caption.18}}
+\backcite {Kimball2002}{{30}{3.2.1}{subsection.3.2.1}}
+\backcite {hilmer2002}{{30}{3.2.1}{subsection.3.2.1}}
+\backcite {hilmer2002}{{30}{6}{table.caption.19}}
 \backcite {yin2001estudo}{{32}{5.1}{section.5.1}}
 \backcite {yin2001estudo}{{32}{5.1}{section.5.1}}
 \backcite {schramm_notes_1971}{{32}{5.1}{section.5.1}}

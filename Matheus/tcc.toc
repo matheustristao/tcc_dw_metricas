@@ -27,7 +27,7 @@
 \contentsline {section}{\numberline {3.1}Ciclo de vida de um \textit {Data Warehousing}}{28}{section.3.1}
 \contentsline {subsection}{\numberline {3.1.1}\textit {Extraction-Transformation-Load}}{28}{subsection.3.1.1}
 \contentsline {section}{\numberline {3.2}Modelagem Dimensional}{29}{section.3.2}
-\contentsline {subsection}{\numberline {3.2.1}Consultas OLAP}{30}{subsection.3.2.1}
+\contentsline {subsection}{\numberline {3.2.1}OLAP \textit {On-Line Analytic Processing}}{30}{subsection.3.2.1}
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
 \contentsline {chapter}{\chapternumberline {4}\MakeTextUppercase {Ambiente de \textit {Data Warehousing} para M\IeC {\'e}tricas de C\IeC {\'o}digo-Fonte}}{31}{chapter.4}
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
@@ -44,7 +44,7 @@
 \contentsline {chapter}{\chapternumberline {6}\MakeTextUppercase {Conclus\IeC {\~a}o}}{35}{chapter.6}
 \vspace {\cftbeforechapterskip }
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
-\contentsline {chapter}{Refer\^encias}{36}{section*.21}
+\contentsline {chapter}{Refer\^encias}{36}{section*.22}
 \renewcommand *{\cftappendixname }{AP\^ENDICE \space }
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
