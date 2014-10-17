@@ -43,7 +43,7 @@ A \citeonline{ISO:15939} define medição como a união de operações cujo obje
 
 \end{easylist}
 
-A figura abaixo reflete como as métricas influenciam nos contextos em que elas estão envolvidas, seja em relação ao software propriamente dito (tanto internamente quanto externamente) ou ao efeito produzido pelo uso de software:
+A figura \ref{fig:modelodequalidade} reflete como as métricas influenciam nos contextos em que elas estão envolvidas, seja em relação ao software propriamente dito (tanto internamente quanto externamente) ou ao efeito produzido pelo uso de software:
 
 	
 \begin{figure}[h!]
@@ -51,7 +51,7 @@ A figura abaixo reflete como as métricas influenciam nos contextos em que elas 
 \includegraphics[keepaspectratio=false,scale=0.90]{figuras/figuras_matheus/tipos_medidas_INGLES.eps}
 \caption{Modelo de Qualidade do Produto da ISO 25023 adaptado da 
 \citeonline{ISO25023}}
-\label{modelodequalidade}
+\label{fig:modelodequalidade}
 \end{figure}
 \FloatBarrier
 
@@ -145,7 +145,7 @@ A tabela \ref{tab:percentil} abaixo pôde ser criada graças ao uso da técnica 
 	\end{table}	
 	\FloatBarrier	
 
-Através dos resultados obtidos para cada métrica, \citeonline{Meirelles2013} observou que era possível identificar valores frequentes analisando os percentis. Na \ref{tab:percentil}, por exemplo, foram observados no projeto \textbf{Open JDK8} valores de 0 a 9 como muito frequentes, de 10 a 26 como frequente, de 27 a 59 como pouco frequente e acima de 59, que representa apenas 10\% do código-fonte do projeto, como não frequente \cite{Meirelles2013}. A seguinte tabela foi extraída do trabalho de conclusão de curso de \citeonline{rego_monitoramento_2014} para que fosse criada uma relação entre o intervalo de frequência e o intervalo qualitativo de uma métrica, afim de facilitar sua interpretação:
+Através dos resultados obtidos para cada métrica, \citeonline{Meirelles2013} observou que era possível identificar valores frequentes analisando os percentis. Na \ref{tab:percentil}, por exemplo, foram observados no projeto \textbf{Open JDK8} valores de 0 a 9 como muito frequentes, de 10 a 26 como frequente, de 27 a 59 como pouco frequente e acima de 59, que representa apenas 10\% do código-fonte do projeto, como não frequente \cite{Meirelles2013}. A tabela \ref{tab:nomes} foi extraída do trabalho de conclusão de curso de \citeonline{rego_monitoramento_2014} para que fosse criada uma relação entre o intervalo de frequência e o intervalo qualitativo de uma métrica, afim de facilitar sua interpretação:
 
 \begin{table}[!ht]
 	\begin{center}
@@ -157,7 +157,7 @@ Através dos resultados obtidos para cada métrica, \citeonline{Meirelles2013} o
 	\FloatBarrier
 	
 	 
-\citeonline{Meirelles2013} destaca na avaliação dos resultados a maneira como o \textbf{Open JDK8} demonstrou um equilíbrio no valor das métricas em relação aos demais projetos Java, de modo que seus valores são frequentemente usados como referência na interpretação dos valores das métricas. Se de um lado o  \textbf{Open JDK8} demonstrou os menores valores percentis, os valores mais altos foram identificados no \textbf{Tomcat}. \citeonline{rego_monitoramento_2014} considerou então os dois cenários para que as referências de valores para as métricas fossem criadas. O resultado dessa análise gerou em seu trabalho a seguinte tabela:
+\citeonline{Meirelles2013} destaca na avaliação dos resultados a maneira como o \textbf{Open JDK8} demonstrou um equilíbrio no valor das métricas em relação aos demais projetos Java, de modo que seus valores são frequentemente usados como referência na interpretação dos valores das métricas. Se de um lado o  \textbf{Open JDK8} demonstrou os menores valores percentis, os valores mais altos foram identificados no \textbf{Tomcat}. \citeonline{rego_monitoramento_2014} considerou então os dois cenários para que as referências de valores para as métricas fossem criadas. O resultado dessa análise gerou em seu trabalho a tabela \ref{tab:good-metrics}:
 
 \begin{table}[!ht]
 	\begin{center}
@@ -185,7 +185,7 @@ Em seu livro Implementation Patterns, \citeonline{Beck2007} destaca três valore
 		
 \end{easylist}	
 
-Buscando levantar conceitos que fizessem com que um código atendesse os valores citados acima, tornando-se assim um código limpo, \citeonline{almeida_codigo} levantaram em seu trabalho conceitos de limpeza, evidenciando as contribuições e consequências que o uso da técnica pode causar no código. Serão citadas a seguir técnicas levantadas por \citeonline{almeida_codigo} que ganharam destaque no trabalho de \citeonline{rego_monitoramento_2014}:
+Buscando levantar conceitos que fizessem com que um código atendesse os valores citados acima, tornando-se assim um código limpo, \citeonline{almeida_codigo} levantaram em seu trabalho conceitos de limpeza, evidenciando as contribuições e consequências que o uso da técnica pode causar no código. Serão citadas na tabela \ref{tab:conceitos} técnicas levantadas por \citeonline{almeida_codigo} que ganharam destaque no trabalho de \citeonline{rego_monitoramento_2014}:
 
  \begin{table}[!ht]
 \centering
@@ -197,7 +197,7 @@ Buscando levantar conceitos que fizessem com que um código atendesse os valores
 
 Após o levantamento dos conceitos de limpeza, \citeonline{almeida_codigo} criaram um mapeamento os relacionando com métricas de código, definindo cenários de limpeza. O objetivo, como ressaltado pelo autor, não era classificar um código como limpo ou não, mas sim facilitar melhorias de implementação através da aproximação dos valores das métricas com os esperados nos contextos de interpretação.
 
-Aproveitando inicialmente os cenários \textbf{Classe pouco coesa} e \textbf{Interface dos métodos} extraídos de  \citeonline{almeida_codigo}, \citeonline{rego_monitoramento_2014} elaborou mais alguns cenários de limpeza, utilizando como referência a configuracão do \textbf{Open JDK8}, considerando como valores altos os valores obtidos pelos intervalos  Regular e Ruim para esse sistema. O resultado dessa atividade pode ser vista na tabela abaixo:
+Aproveitando inicialmente os cenários \textbf{Classe pouco coesa} e \textbf{Interface dos métodos} extraídos de  \citeonline{almeida_codigo}, \citeonline{rego_monitoramento_2014} elaborou mais alguns cenários de limpeza, utilizando como referência a configuracão do \textbf{Open JDK8}, considerando como valores altos os valores obtidos pelos intervalos  Regular e Ruim para esse sistema. O resultado dessa atividade pode ser vista na tabela \ref{tab:cenarios}:
 
 \begin{sidewaystable}
 \begin{table}[H]

@@ -35,7 +35,7 @@ Um modelo dimensional é composto por tabelas fatos e tabelas dimensões, que qu
 \end{figure}
 \FloatBarrier
  
-\subsection{OLAP \textit{On-Line Analytic Processing}}
+\subsection{OLAP \textit{(On-Line Analytic Processing)}}
 
 A atividade que consiste em buscar e apresentar os dados de um \textit{Data Warehouse}, sendo essa busca quase sempre baseada em um cubo multidimensional de dados, é chamada de \textit{On-Line Analytic Processing} (OLAP) \cite{Kimball2002}. A consulta OLAP difere da consulta do tipo \textit{On-Line Transaction Processing} (OLTP) pelo fato dos seus dados terem passado por um processo de ETL, de modo que sua performance foi melhorada para uma análise mais fácil e rápida, enquanto na consulta do tipo OLTP o sistema foi modelo de modo a capacitar inserções, atualizações e remoções de dados obedecendo regras de normalização. A tabela \ref{tab:hilmer} evidencia as diferenças entre aplicações OLTP e OLAP extraídas do trabalho de \citeonline{hilmer2002}: 
 
@@ -49,9 +49,39 @@ A atividade que consiste em buscar e apresentar os dados de um \textit{Data Ware
 	\end{table}	
 	\FloatBarrier	
 
+A modelagem multidimensional adotada pelo OLAP é associada de maneira metafórica na literatura a um cubo de dados, cujas arestas definem as dimensões dos dados e as células do cubo contém valores de medida \cite{Kimball2002}. Os cubos de dados têm um foco nas necessidades de negócio e podem ser exemplificados como na figura \ref{fig:cubo}:
+
+\begin{figure}[h!]
+\centering
+\includegraphics[keepaspectratio=false,scale=0.50]{figuras/figuras_matheus/cubo.eps}
+\caption{Cubo de dados com o fato Venda e dimensões Produto, Funcionário e Tempo}
+\label{fig:cubo}
+\end{figure}
+\FloatBarrier
+
+A figura \ref{fig:cubo} reflete uma análise em um cubo de dados para o esquema estrela da figura \ref{fig:estrela}. Essas análises podem ser divididas em alguns tipos diferentes, entre eles:
+
+\begin{easylist}[itemize]
+
+	& \textbf{\textit{Drill Down:}} Busca aumentar o nível de detalhamento, partindo de um certo nível de dados para um nível mais detalhado \cite{neeraj_sharma_2011}.  
+	& \textbf{\textit{Rol Up:}} Ao contrário da operação \textit{Drill Down}, a \textit{Roll Up} parte de um nível mais detalhado para um nível menos detalhado  \cite{neeraj_sharma_2011}.
+	& \textbf{\textit{Slice and Dice:}} Técnica com filosofia parecida à cláusula \textit{where} usada em \textit{SQL}. Permite que sejam criadas restrições na análise dos dados. \cite{valeria2012} 
+	& \textbf{\textit{Drill Across:}} Permite que diferentes cubos sejam concatenados \cite{hilmer2002}. Uma operação do tipo \textit{Drill Across} irá simplesmente unir diferentes tabelas fato através de dimensões correspondentes \cite{kimball1998data}. 
+	& \textbf{\textit{Pivoting:}} Metaforicamente, significa rotacionar o cubo. Essa técnica altera a ordenação das tabelas dimensionais \cite{hilmer2002}. 
 	
 
+	\end{easylist}
+	
 
+A imagem \ref{fig:drill}, extraída do do livro \textit{Getting Started With Data Warehousing}, do autor \cite{neeraj_sharma_2011}, mostra o fluxo percorrido pelo \textit{Drill Down} e \textit{Drill Up}:
+
+\begin{figure}[h!]
+\centering
+\includegraphics[keepaspectratio=false,scale=0.70]{figuras/figuras_matheus/drill.eps}
+\caption{Cubo de dados com o fato Venda e dimensões Produto, Funcionário e Tempo}
+\label{fig:drill}
+\end{figure}
+\FloatBarrier
 
 
 

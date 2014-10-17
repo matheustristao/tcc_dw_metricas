@@ -27,36 +27,36 @@
 \contentsline {section}{\numberline {3.1}Ciclo de vida de um \textit {Data Warehousing}}{28}{section.3.1}
 \contentsline {subsection}{\numberline {3.1.1}\textit {Extraction-Transformation-Load}}{28}{subsection.3.1.1}
 \contentsline {section}{\numberline {3.2}Modelagem Dimensional}{29}{section.3.2}
-\contentsline {subsection}{\numberline {3.2.1}OLAP \textit {On-Line Analytic Processing}}{30}{subsection.3.2.1}
+\contentsline {subsection}{\numberline {3.2.1}OLAP \textit {(On-Line Analytic Processing)}}{30}{subsection.3.2.1}
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {4}\MakeTextUppercase {Ambiente de \textit {Data Warehousing} para M\IeC {\'e}tricas de C\IeC {\'o}digo-Fonte}}{31}{chapter.4}
+\contentsline {chapter}{\chapternumberline {4}\MakeTextUppercase {Ambiente de \textit {Data Warehousing} para M\IeC {\'e}tricas de C\IeC {\'o}digo-Fonte}}{32}{chapter.4}
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {5}\MakeTextUppercase {Projeto de estudo de Caso}}{32}{chapter.5}
-\contentsline {section}{\numberline {5.1}Defini\IeC {\c c}\IeC {\~a}o sobre estudo de caso}{32}{section.5.1}
-\contentsline {section}{\numberline {5.2}Modelagem do estudo de caso}{32}{section.5.2}
-\contentsline {section}{\numberline {5.3}Problema}{32}{section.5.3}
-\contentsline {section}{\numberline {5.4}Quest\IeC {\~a}o de Pesquisa}{33}{section.5.4}
-\contentsline {subsection}{\numberline {5.4.1}Objetivos, quest\IeC {\~o}es e m\IeC {\'e}tricas}{33}{subsection.5.4.1}
-\contentsline {section}{\numberline {5.5}Fonte dos dados coletados}{33}{section.5.5}
-\contentsline {section}{\numberline {5.6}M\IeC {\'e}todo de coleta dos dados}{34}{section.5.6}
-\contentsline {section}{\numberline {5.7}Conclus\IeC {\~a}o do cap\IeC {\'\i }tulo}{34}{section.5.7}
+\contentsline {chapter}{\chapternumberline {5}\MakeTextUppercase {Projeto de estudo de Caso}}{33}{chapter.5}
+\contentsline {section}{\numberline {5.1}Defini\IeC {\c c}\IeC {\~a}o sobre estudo de caso}{33}{section.5.1}
+\contentsline {section}{\numberline {5.2}Modelagem do estudo de caso}{33}{section.5.2}
+\contentsline {section}{\numberline {5.3}Problema}{33}{section.5.3}
+\contentsline {section}{\numberline {5.4}Quest\IeC {\~a}o de Pesquisa}{34}{section.5.4}
+\contentsline {subsection}{\numberline {5.4.1}Objetivos, quest\IeC {\~o}es e m\IeC {\'e}tricas}{34}{subsection.5.4.1}
+\contentsline {section}{\numberline {5.5}Fonte dos dados coletados}{34}{section.5.5}
+\contentsline {section}{\numberline {5.6}M\IeC {\'e}todo de coleta dos dados}{35}{section.5.6}
+\contentsline {section}{\numberline {5.7}Conclus\IeC {\~a}o do cap\IeC {\'\i }tulo}{35}{section.5.7}
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {6}\MakeTextUppercase {Conclus\IeC {\~a}o}}{35}{chapter.6}
+\contentsline {chapter}{\chapternumberline {6}\MakeTextUppercase {Conclus\IeC {\~a}o}}{36}{chapter.6}
 \vspace {\cftbeforechapterskip }
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
-\contentsline {chapter}{Refer\^encias}{36}{section*.22}
+\contentsline {chapter}{Refer\^encias}{37}{section*.24}
 \renewcommand *{\cftappendixname }{AP\^ENDICE \space }
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
 \cftinsert {A}
-\contentsline {appendix}{\chapternumberline {A}\MakeTextUppercase {Descri\IeC {\c c}\IeC {\~a}o do Processo de ETL no Kettle}}{38}{appendix.A}
+\contentsline {appendix}{\chapternumberline {A}\MakeTextUppercase {Descri\IeC {\c c}\IeC {\~a}o do Processo de ETL no Kettle}}{39}{appendix.A}
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
 \cftinsert {A}
-\contentsline {appendix}{\chapternumberline {B}\MakeTextUppercase {Gr\IeC {\'a}ficos e Tabelas dos Percentis de M\IeC {\'e}tricas de C\IeC {\'o}digo-Fonte}}{39}{appendix.B}
+\contentsline {appendix}{\chapternumberline {B}\MakeTextUppercase {Gr\IeC {\'a}ficos e Tabelas dos Percentis de M\IeC {\'e}tricas de C\IeC {\'o}digo-Fonte}}{40}{appendix.B}
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
 \cftinsert {A}
-\contentsline {appendix}{\chapternumberline {C}\MakeTextUppercase {Cen\IeC {\'a}rios de Limpeza de C\IeC {\'o}digo-Fonte}}{40}{appendix.C}
+\contentsline {appendix}{\chapternumberline {C}\MakeTextUppercase {Cen\IeC {\'a}rios de Limpeza de C\IeC {\'o}digo-Fonte}}{41}{appendix.C}
 \cftinsert {AAA}
 \renewcommand *{\cftappendixname }{ANEXO \space }
