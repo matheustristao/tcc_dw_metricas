@@ -1,3 +1,35 @@
+% INICIO PERSONALIZACAO Nilton
+
+@misc{SonarQube,
+  title = {{SonarQube} Kernel Description SonarQube},
+  year = 2014,
+  howpublished = {\url{http://www.sonarqube.org/}},
+  note = {Accessed: 2014-10-10}
+}
+
+
+@article{guiaimplementação,
+	title = {{MPS}. {BR}-Guia de Implementação – Parte 2: Fundamentação para Implementação do Nível F do MR-MPS-SV:2012},
+	url = {http://www.softex.br/wp-content/uploads/2013/07/MPS.BR_Guia_de_Implementacao_SV_Parte_2_20132.pdf},
+	urldate = {2014-10-15},
+	author = {2013, SOFTEX},
+	year = {2013},
+}
+
+@manual{IN4,
+	address={Brasil},
+	month={setembro},
+	organization={Poder Executivo Federal},
+	subtitle={Standard Test Method for Density and Relative Density of Liquids by Digital Density Meter},
+	title={{PEF} INSTRUÇÃO NORMATIVA N° 4},
+	year={2014}
+}
+
+
+%FIM PERSONLIZACAO Nilton
+
+% INICIO PERSONALIZACAO Matheus
+
 @techreport{ISO:15939,
     author = {{ISO/IEC 15939}},
     institution = {International Organization for Standardization and International Electrotechnical Commission},
@@ -6,6 +38,159 @@
     type = {International Standard},
     year = {2002}
 }
+
+@techreport{ISO:9126,
+    author = {{ISO/IEC 9126}},
+    year = {2001},	
+    institution = {International Organization for Standardization and International Electrotechnical Commission},
+    number = {9126},
+    title = {{ISO/IEC} 9126-1: Software Engineering - Product Quality}},
+    type = {International Standard}
+}
+
+@techreport{ISO25023,
+    author = {{ISO/IEC 25023}},
+    institution = {International Organization for Standardization and International Electrotechnical Commission},
+    number = {25023},
+    title = {{ISO/IEC} 25023: Systems and software engineering - Systems and software Quality Requirements and Evaluation (SQuaRE) - Measurement  of system and software product quality},
+    type = {International Standard},
+    year = {2011}
+}
+
+
+@article{caldiera_goal_1994,
+  title = {The goal question metric approach},
+  volume = {2},
+  url = {http://www.csri.utoronto.ca/~sme/CSC444F/handouts/GQM-paper.pdf},
+  pages = {528--532},
+  number = {1994},
+  journaltitle = {Encyclopedia of software engineering},
+  author = {Caldiera, {VRBG} and Rombach, H. Dieter},
+  urldate = {2014-10-12},
+  year = {1994}
+}
+
+
+@article{schramm_notes_1971,
+  title = {Notes on Case Studies of Instructional Media Projects.},
+  url = {http://eric.ed.gov/?id=ED092145},
+  author = {Schramm, Wilbur},
+  urldate = {2014-10-11},
+  year = {1971}
+}
+
+@book{yin2001estudo,
+  title={Estudo de caso: planejamento e m{\'e}todos},
+  author={Yin, R.K.},
+  year={2001},
+  publisher={Bookman}
+}
+
+
+@book{Beck2007,
+    author = {Beck, Kent},
+    edition = {1},
+    keywords = {design, encapsulation},
+    month = nov,
+    publisher = {Addison-Wesley Professional},
+    title = {{Implementation Patterns}},
+    year = {2007}
+}
+
+% INICIO DATA Warehouse
+
+@book{Kimball2002,
+ author = {Kimball, Ralph and Ross, Margy},
+ title = {The Data Warehouse Toolkit: The Complete Guide to Dimensional Modeling},
+ year = {2002},
+ isbn = {0471200247, 9780471200246},
+ edition = {2nd},
+ publisher = {John Wiley \& Sons, Inc.},
+ address = {New York, NY, USA},
+}
+
+@book{neeraj_sharma_2011,
+	title = {Getting started with data warehousing},
+	publisher = {{IBM} Redbooks},
+	author = {Sharma, Neeraj},
+	year = {2011},
+	}
+
+@book{Inmon2002,
+ author = {Inmon, William H.},
+ title = {Building the Data Warehouse},
+ edition = {3rd},
+ year = {2002},
+ publisher = {John Wiley \& Sons, Inc.},
+ address = {New York, NY, USA},
+}
+
+@article{chaudhuri1997,
+  title={An overview of data warehousing and OLAP technology},
+  author={Chaudhuri, Surajit and Dayal, Umeshwar},
+  journal={ACM Sigmod record},
+  volume={26},
+  number={1},
+  pages={65--74},
+  year={1997},
+  publisher={ACM}
+}
+	
+% FIM DATA WAREHOUSE
+	
+@article{rego_monitoramento_2014,
+  title = {Monitoramento de Métricas de Código-Fonte com suporte de um ambiente de Data Warehousing: um Estudo de Caso em uma Autarquia da Administração Pública Federal},
+  shorttitle = {Monitoramento de Métricas de Código-Fonte com suporte de um ambiente de Data Warehousing},
+  url = {http://bdm.unb.br/handle/10483/8069},
+  urldate = {2014-09-06},
+  author = {R\^{e}go, Guilherme Baufaker},
+  year = {2014}
+}
+
+@book{phpmysql,
+  title = {Dominando PHP e MySql},
+  author = {W. Jason Gilmore},
+  year = {2008},
+  publisher={STARLIN ALTA CONSULT}
+}
+
+
+@book{metricsandmodels,
+  title = {Metrics and models in software quality engineering},
+  author = {Stephen H. Kan},
+  year = {2002},
+  publisher = {Addison Wesley}
+}
+
+@book{softwaremeasurementandestimation,
+  title = {Software measurement and estimation: A practical approach},
+  author = {Linda M. Laird, M. Carol Brennan},
+  year = {2006},
+  publisher = {Wiley-IEEE Computer Society Press}
+}
+
+
+
+@book{Fenton98,
+  title = {{Software Metrics: A Rigorous and Practical Approach}},
+  publisher = {Course Technology},
+  year = {1998},
+  author = {Norman E. Fenton and Shari Lawrence Pfleeger},
+  pages = {656},
+  edition = {2 edition},
+  month = {February}
+}
+
+%FIM PERSONLIZACAO MATHEUS
+
+@article{almeida_codigo,
+	title = {Código Limpo e seu Mapeamento para Métricas de Código Fonte},
+	url = {http://ccsl.ime.usp.br/pt-br/system/files/relatorio-codigo-limpo.pdf},
+	year = {2010},
+	author = {Almeida, Lucianna Thomaz and de Miranda, João Machini},
+	file = {monografia.pdf:/home/matheus/.zotero/zotero/rffbgk8b.default/zotero/storage/RRKMXTK7/monografia.pdf:application/pdf}
+}
+
 @masterthesis{manuela2011,
   Author = {Maria Manuela Pôpas Gomes},
   Title  = {Métricas e medição no processo de desenvolvimento de software: estudo de caso},
@@ -14,19 +199,12 @@
   
 }
 
-@book{yin2011applications,
-  title={Applications of case study research},
-  author={Yin, Robert K},
-  year={2011},
-  publisher={Sage}
-}
 
-@MastersThesis{hilmer2002,
+@masterthesis{hilmer2002,
   Author = {Hilmer Rodrigues Neri},
   Title  = {Análise, Projeto e Implementação de um Esquema MOLAP de Data Warehouse utilizando SGBD-OR Oracle 8.1},
   Address= {Universidade Federal da Paraíba - UFPB},
   Year   = {2002},
-  school   = {}
   
 }
 
@@ -55,16 +233,6 @@
   keywords = {dblp},
 }
 
-
-@book{Fenton98,
-  title = {{Software Metrics: A Rigorous and Practical Approach}},
-  publisher = {Course Technology},
-  year = {1998},
-  author = {Norman E. Fenton and Shari Lawrence Pfleeger},
-  pages = {656},
-  edition = {2 edition},
-  month = {February}
-}
 @book{Gil2008,
   title = {{Métodos e técnicas de pesquisa social}},
   publisher = {Atlas},
@@ -74,14 +242,7 @@
 }
 
 
-@techreport{ISO25023,
-    author = {{ISO/IEC 25023}},
-    institution = {International Organization for Standardization and International Electrotechnical Commission},
-    number = {25023},
-    title = {{ISO/IEC} 25023: Systems and software engineering - Systems and software Quality Requirements and Evaluation (SQuaRE) - Measurement  of system and software product quality},
-    type = {International Standard},
-    year = {2011}
-}
+
 
 
 
@@ -229,24 +390,6 @@ year = {2008}
  keywords = {Metrics data warehousing, Metrics repository, Software development environments, Software metrics analysis and monitoring, Software quality metrics},
 }
 
-@book{Inmon1992,
- author = {Inmon, William H.},
- title = {Building the Data Warehouse},
- year = {1992},
- isbn = {0471569607},
- publisher = {John Wiley \& Sons, Inc.},
- address = {New York, NY, USA},
-}
-
-@book{Kimball2002,
- author = {Kimball, Ralph and Ross, Margy},
- title = {The Data Warehouse Toolkit: The Complete Guide to Dimensional Modeling},
- year = {2002},
- isbn = {0471200247, 9780471200246},
- edition = {2nd},
- publisher = {John Wiley \& Sons, Inc.},
- address = {New York, NY, USA},
-}
 
 @book{kimball1998data,
   title={The data warehouse lifecycle toolkit: expert methods for designing, 
@@ -276,17 +419,6 @@ year = {2008}
 }
 
 
-@article{chaudhuri1997,
-  title={An overview of data warehousing and OLAP technology},
-  author={Chaudhuri, Surajit and Dayal, Umeshwar},
-  journal={ACM Sigmod record},
-  volume={26},
-  number={1},
-  pages={65--74},
-  year={1997},
-  publisher={ACM}
-}
-
 @article{gardner1998,
   title={BUILDING the},
   author={Gardner, Stephen R},
@@ -297,12 +429,11 @@ year = {2008}
   year={1998}
 }
 
-@MastersThesis{andre2000,
+@masterthesis{andre2000,
   author = {André Barbosa Rocha},
   title  = {Guardando Históricos de Dimensões em Data Warehouses },
   address = {Universidade Federal da Paraíba - Centro de Ciências e Tecnologia},
-  year   = {2000},
-school   = {}
+  year   = {2000}
 }
 
 @booklet{valeria2012,

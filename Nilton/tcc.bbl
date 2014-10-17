@@ -11,6 +11,28 @@
   Software Environments}}. 1987.
 Dispon{\'\i}vel em: \url{http://drum.lib.umd.edu//handle/1903/7517}.}
 
+\bibitem[Beck 1999]{beck1999}
+\abntrefinfo{Beck}{BECK}{1999}
+{BECK, K. \emph{Extreme Programming Explained}. [S.l.]: Addison Wesley, 1999.}
+
+\bibitem[BRASIL 2011]{Acordao381_2011}
+\abntrefinfo{BRASIL}{BRASIL}{2011}
+{BRASIL. \emph{{Acórdão}-381/2011-TCU-Plenário}.
+[S.l.], 2011. Dispon{\'\i}vel em:
+  \url{https://contas.tcu.gov.br/juris/SvlHighLight?key=ACORDAO-LEGADO-89657&texto=2b4e554d41434f5244414f2533413338312b414e442b2b4e554d414e4f41434f5244414f25334132303131&sort=&ordem=&bases=ACORDAO-LEGADO;RELACAO-LEGADO;DECISAO-LEGADO;SIDOC;ACORDAO-RELACAO-LEGADO;}.}
+
+\bibitem[Brasil 2014]{Normativa4}
+\abntrefinfo{Brasil}{BRASIL}{2014}
+{BRASIL. Instrução normativa número 4.
+2014.}
+
+\bibitem[Caldiera e Rombach 1994]{caldiera_goal_1994}
+\abntrefinfo{Caldiera e Rombach}{CALDIERA; ROMBACH}{1994}
+{CALDIERA, V.; ROMBACH, H.~D. The goal question metric approach.
+v.~2, n.~1994, p. 528--532, 1994.
+Dispon{\'\i}vel em:
+  \url{http://www.csri.utoronto.ca/~sme/CSC444F/handouts/GQM-paper.pdf}.}
+
 \bibitem[Fenton e Pfleeger 1998]{Fenton98}
 \abntrefinfo{Fenton e Pfleeger}{FENTON; PFLEEGER}{1998}
 {FENTON, N.~E.; PFLEEGER, S.~L. \emph{{Software Metrics: A Rigorous and
@@ -20,6 +42,11 @@ Dispon{\'\i}vel em: \url{http://drum.lib.umd.edu//handle/1903/7517}.}
 \abntrefinfo{Fonseca e Simoes}{FONSECA; SIMOES}{2007}
 {FONSECA, R.; SIMOES, A. Alternativas ao xml: Yaml e json.
 2007.}
+
+\bibitem[Fowler 1999]{fowler1999refactoring}
+\abntrefinfo{Fowler}{FOWLER}{1999}
+{FOWLER, M. \emph{Refactoring: improving the design of existing code}. [S.l.]:
+  Addison-Wesley Professional, 1999.}
 
 \bibitem[Gilmore 2008]{phpmysql}
 \abntrefinfo{Gilmore}{GILMORE}{2008}
@@ -55,6 +82,13 @@ Dispon{\'\i}vel em: \url{http://drum.lib.umd.edu//handle/1903/7517}.}
 {LAIRD, M. C.~B. L.~M. \emph{Software measurement and estimation: A practical
   approach}. [S.l.]: Wiley-IEEE Computer Society Press, 2006.}
 
+\bibitem[Leite 1997]{leite_terceirizacao}
+\abntrefinfo{Leite}{LEITE}{1997}
+{LEITE, J.~C. Terceirização em informática sob a ótica do prestador de
+  serviços.
+\emph{Revista de Administração de Empresas}, v.~37, n.~4, 1997.
+Dispon{\'\i}vel em: \url{http://www.scielo.br/pdf/rae/v37n4/a08v37n4}.}
+
 \bibitem[McCabe 1976]{McCabe76}
 \abntrefinfo{McCabe}{MCCABE}{1976}
 {MCCABE, T.~J. {A Complexity Measure}.
@@ -69,12 +103,40 @@ Dispon{\'\i}vel em: \url{http://drum.lib.umd.edu//handle/1903/7517}.}
 Tese (Doutorado) --- Instituto de Matemática e Estátistica -- Universidade de
   São Paulo (IME/USP), 2013.}
 
-\bibitem[R\^{e}go 2014]{rego_monitoramento_2014}
-\abntrefinfo{R\^{e}go}{R\^{e}GO}{2014}
-{R\^{e}GO, G.~B. Monitoramento de métricas de código-fonte com suporte de um
+\bibitem[R\^{E}go 2014]{rego_monitoramento_2014}
+\abntrefinfo{R\^{E}go}{R\^{E}GO}{2014}
+{R\^{E}GO, G.~B. Monitoramento de métricas de código-fonte com suporte de um
   ambiente de data warehousing: um estudo de caso em uma autarquia da
   administração pública federal.
 2014.
 Dispon{\'\i}vel em: \url{http://bdm.unb.br/handle/10483/8069}.}
+
+\bibitem[Schramm 1971]{schramm_notes_1971}
+\abntrefinfo{Schramm}{SCHRAMM}{1971}
+{SCHRAMM, W. Notes on case studies of instructional media projects.
+1971.
+Dispon{\'\i}vel em: \url{http://eric.ed.gov/?id=ED092145}.}
+
+\bibitem[SOFTEX 2013]{GuiaAquisicao}
+\abntrefinfo{SOFTEX}{SOFTEX}{2013}
+{SOFTEX. \emph{{MPS}. {BR}-Guia de Aquisição}.
+[S.l.], 2013. Dispon{\'\i}vel em:
+  \url{http://www.softex.br/wp-content/uploads/2013/07/MPS.BR\_Guia\_de\_Implementacao\_SV\_Parte\_2\_20132.pdf}.}
+
+\bibitem[{SonarQube} Kernel Description SonarQube 2014]{SonarQube}
+\abntrefinfo{{SonarQube}\ldots}{{SonarQube}\ldots}{2014}
+{{SonarQube} Kernel Description SonarQube. 2014.
+  \url{http://www.sonarqube.org/}.
+Accessed: 2014-10-10.}
+
+\bibitem[WILLCOCKS e LACITY 2001]{WillcocksTercerizacao}
+\abntrefinfo{WILLCOCKS e LACITY}{WILLCOCKS; LACITY}{2001}
+{WILLCOCKS, L.; LACITY, M. \emph{Global information technology outsourcing}.
+  [S.l.: s.n.], 2001.}
+
+\bibitem[Yin 2001]{yin2001estudo}
+\abntrefinfo{Yin}{YIN}{2001}
+{YIN, R. \emph{Estudo de caso: planejamento e m{\'e}todos}. [S.l.]: Bookman,
+  2001.}
 
 \end{thebibliography}

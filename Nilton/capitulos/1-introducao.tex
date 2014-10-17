@@ -2,33 +2,59 @@
 
 \section{Contexto}
 
-Medir a qualidade do código-fonte  de um software é um processo fundamental no desenvolvimento de um software, pois daí surgem indicadores sobre os efeitos que uma alteração no código irá causar ou sobre os efeitos gerados na qualidade do software após a adesão de uma nova prática na equipe de desenvolvimento \cite{Fenton98}.
+Segundo\cite{WillcocksTercerizacao} a terceirização é uma prática cada vez mais adotada por organizações. A terceirização de atividades, ou seja, o ato de transferir para fora da organização uma parte do seu processo produtivo, não é uma prática recente, desde há muitos anos que as atividades e processos que eram muito específicos dentro de uma organização foram transferidos, de uma forma parcial ou total, para outras organizações ou agentes externo \cite{leite_terceirizacao}.
 
-O processo de medição, porém, ganha sentido apenas quando há interpretação dos resultados. Usaremos nesse trabalho uma solução desenvolvida por \citeonline{rego_monitoramento_2014} cujo objetivo é atender essa proposta. Para isso, \citeonline{rego_monitoramento_2014} elaborou a seguinte questão de pesquisa: 
+Uma das motivações para a terceirização é a qualidade do serviço prometida pelas empresas fornecedoras. No entanto, existem vários riscos associados à decisão pela terceirização, que podem comprometer a qualidade esperada, como: as expectativas de serviço e a resposta rápida não serem atendidas adequadamente; o serviço prestado apresentar qualidade inferior ao existente anteriormente; e as tecnologias utilizadas não corresponderem ao esperado\cite{WillcocksTercerizacao}. Segundo o \cite{GuiaAquisicao} a aquisição de um \textit {software} é um processo complexo, principalmente no que diz respeito à caracterização dos requisitos necessários ao \textit {software} e às condições envolvidas na contratação como a qualidade esperada. 
+ 
+Acompanhando o ritmo da terceirização o cenário com empresas terceirizadas contratadas para o desenvolvimento de \textit {software} está cada vez maior em organizações públicas. Tais organizações não são diretamente responsáveis pelo desenvolvimento do \textit {software} mas são responsáveis  pelo processo de verificação de sua qualidade conforme a norma \citeonline{Normativa4} que será explicada no capítulo 3 deste trabalho.
 
-\textit{\textbf{Como aumentar a
-visibilidade e facilitar interpretação das 
-métricas de código-fonte
-a fim de apoiar a decisão de refatoração
-do ponto de vista de uma equipe de desenvolvimento?}}
-
-\citeonline{rego_monitoramento_2014} desenvolveu um ambiente de Data Warehousing para armazenamento das métricas de código-fonte extraídas do uso da ferramenta de análise  automatizada Analizo buscando atender essa questão de pesquisa. Essa solução tem como objetivo facilitar a interpretação das métricas de código fonte e avaliar indicadores de código limpo no projeto, entre outros objetivos específicos.
 
 \section{Justificativa}
 
-Valores absolutos de métricas não dizem respeito a nada. Solução proposta por Baufaker pode solucionar a interpretação desse valores, automatizando a coleta dos cenários porém
+Segundo \cite{beck1999}\cite{fowler1999refactoring} a qualidade de \textit{software} é medida pela qualidade de seu código-fonte. Conforme a \cite{ISO:15939} medição é uma ferramenta primordial para avaliar a qualidade dos produtos e a capacidade de processos organizacionais, portanto o Órgão Público contratante pode fazer uso do monitoramento de métricas de código-fonte para assistir ao processo de aferição de qualidade do \textit{software} desenvolvido pela contratada.
 
+\cite{rego_monitoramento_2014} propôs uma solução para o monitoramento de métricas de código-fonte com suporte de um ambiente de \textit{Data Warehousing} que será explicada no capítulo 5. Uma das principais contribuições desse trabalho será evidenciar a eficácia e a eficiência da proposta por \citeonline{rego_monitoramento_2014} no aferimento de qualidade do software adquirido de uma empresa terceirizada para equipe responsável do Órgão público e seus demais envolvidos.
 
 \section{Problema}
 
-Não há uma definiçao concreta a respeito da eficácia e eficiência da solução proposta pelo aluno \citeonline{rego_monitoramento_2014} para monitoramento das métricas de código-fonte no órgão X sendo possível uma substituição do uso do Sonar por essa solução.
+Com foco na avaliação de controles gerais de Tecnologia da Informação nos órgãos públicos, em 2011, o TCU detectou, por meio de auditorias de governança de TI, em diversos órgãos uma considerável frequência de irregularidades relacionadas à inexistência, deficiências e a falhas de processos de \textit{software} que comprometem a eficácia e eficiência das contratações de desenvolvimento de sistemas \cite{Acordao381_2011}. 
 
-\section{Questão de Pesquisa}
+A inexistência de parâmetros de aferição de qualidade para contratação de desenvolvimento de sistemas e a deficiência no processo de contratação, decorrente da inexistência de metodologia que assegure boa contratação de desenvolvimento de sistemas foram listados nas auditorias como consequências da inexistência e falha de processos de \textit{software} nos órgãos públicos. Os critérios indicados pelo TCU no acórdão \cite{Acordao381_2011} foram:Constituição Federal, art. 37, caput; Instrução Normativa 4/2008, SLTI/MPOG, art. 12, inciso II; Lei 8666/1993, art. 6º, inciso IX; Norma Técnica - ITGI - Cobit 4.1, PO8.3 - Padrões de desenvolvimento e de aquisições; Norma Técnica - NBR ISO/IEC - 12.207 e 15.504;e Resolução 90/2009, CNJ, art. 10. 
 
-O Monitoramento de métricas de código-fonte com suporte de um ambiente de Data Warehousing é eficaz e eficiente?
+A auditoria do acordão \cite{Acordao381_2011} reforça o problema da falta de capacidade da administração pública de aferir a qualidade interna dos produtos de software desenvolvido por terceirizadas. A partir desse problema e da solução para monitoramento de métricas de código-fonte com suporte de um ambiente de \textit{Data Warehousing} proposta por \citeonline{rego_monitoramento_2014} , foi formulada a questão de pesquisa geral deste trabalho que é:
+
+\textbf{O uso de DW para o monitoramento de métricas de código fonte para assistir ao processo de aferição de qualidade interna dos produtos de software desenvolvido por terceirizadas, do ponto de vista da equipe de qualidade no desenvolvimento de software na CAIXA, é eficaz e eficiente?}
+
 
 \section{Objetivos}
 
-\section{Hipótese ou Metodologia de pesquisa}
+O objetivo geral deste trabalho é realizar um estudo de caso onde será analisado
+a eficácia e a eficiência no uso de DW para o monitoramento de métricas de código fonte para assistir ao processo de aferição de qualidade interna dos produtos de software desenvolvido por uma empresa terceirizada para uma organização pública brasileira a partir das métricas e cenários de limpeza coletados pelo código-fonte do \textit{software} desenvolvido, de questionário aos principais envolvidos no processo de verificação de qualidade e da observação em campo. Dentre os objetivos específicos deste trabalho estão:
+
+\begin{easylist}[itemize]
+& Avaliar a eficácia e eficiência da Solução de DW no processo de aferição de qualidade interna dos produtos de software desenvolvido por terceirizadas.
+& Definir, projetar e caracterizar o estudo de caso.
+& Coletar métricas e cenários de limpeza a partir código-fonte do \textit{software} adquirido pela organização selecionada;
+& Realizar análise dos dados coletados.
+& Relatar os resultados obtidos.
+\end{easylist}
+
+\section{Metodologia de pesquisa}
+
+Nessa seção apresenta-se a metodologia de pesquisa adotada neste trabalho. Para
+isso, foram definidos: a natureza da pesquisa; o tipo de metodologia de pesquisa; o tipo de abordagem de pesquisa; os métodos de procedimentos de pesquisa e os tipos de técnicas
+de coletas de dados.
+
+Os procedimentos de pesquisa selecionados foram pesquisa bibliográfica, documental, levantamento e estudo de caso. As técnicas de coleta de dados selecionadas foram
+entrevistas, questionários e registro de observação na vida real. A seleção metodológica é apresentada na Fig. 1.
+
+\begin{figure}[h!]
+\centering
+\includegraphics[keepaspectratio=false,scale=0.5]{figuras/figuras_nilton/selecaoMetodologica.eps}
+\caption{Metodologia de Pesquisa}
+\label{7eixosqualidade}
+\end{figure}
+
+Segundo \cite{yin2001estudo} o estudo de caso é um conjunto de procedimentos pré-especificados para se obter uma investigação empírica que investiga um fenômeno contemporâneo dentro de seu contexto da vida real, especialmente quando os limites entre o fenômeno e o contexto não estão claramente definidos. Uma grande vantagem do estudo de caso é a sua capacidade de lidar com uma ampla variedade de evidências - documentos, artefatos, entrevistas e observações - além do que pode estar disponível no estudo histórico convencional. Além disso, em algumas situações, como na observação participante, pode ocorrer manipulação informal.
 
 \section{Organização do Trabalho}

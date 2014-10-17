@@ -13,8 +13,6 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
 Database file #1: abntex2-options.bib
 Database file #2: bibliografia.bib
-Warning--I didn't find a database entry for "almeida_codigo"
-Warning--I didn't find a database entry for "Beck2007"
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated glb_str_ptr (elt_size=4) to 20 items from 10.
 Reallocated global_strs (elt_size=20001) to 20 items from 10.
@@ -24,45 +22,44 @@ Reallocated glb_str_end (elt_size=4) to 20 items from 10.
 | Em caso de dúvidas ou problemas com este estilo procure |
 | http://abntex2.googlecode.com                           |
 +---------------------------------------------------------+
-You've used 13 entries,
+You've used 24 entries,
             6711 wiz_defined-function locations,
-            1272 strings with 11197 characters,
-and the built_in function-call counts, 9756 in all, are:
-= -- 941
-> -- 233
-< -- 83
-+ -- 205
-- -- 75
-* -- 601
-:= -- 1404
-add.period$ -- 40
-call.type$ -- 13
-change.case$ -- 91
-chr.to.int$ -- 19
-cite$ -- 12
-duplicate$ -- 618
-empty$ -- 679
-format.name$ -- 348
-if$ -- 2175
+            1323 strings with 12653 characters,
+and the built_in function-call counts, 26451 in all, are:
+= -- 3044
+> -- 419
+< -- 585
++ -- 789
+- -- 135
+* -- 1549
+:= -- 3430
+add.period$ -- 79
+call.type$ -- 24
+change.case$ -- 170
+chr.to.int$ -- 36
+cite$ -- 23
+duplicate$ -- 2454
+empty$ -- 1284
+format.name$ -- 626
+if$ -- 5432
 int.to.chr$ -- 0
 int.to.str$ -- 0
-missing$ -- 213
-newline$ -- 66
-num.names$ -- 60
-pop$ -- 273
+missing$ -- 401
+newline$ -- 120
+num.names$ -- 110
+pop$ -- 526
 preamble$ -- 1
-purify$ -- 42
+purify$ -- 77
 quote$ -- 0
-skip$ -- 721
+skip$ -- 2664
 stack$ -- 1
-substring$ -- 349
-swap$ -- 228
-text.length$ -- 5
+substring$ -- 1096
+swap$ -- 857
+text.length$ -- 15
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 2
+type$ -- 14
 warning$ -- 0
-while$ -- 77
+while$ -- 148
 width$ -- 0
-write$ -- 181
-(There were 2 warnings)
+write$ -- 342
