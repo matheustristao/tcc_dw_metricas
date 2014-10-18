@@ -33,33 +33,31 @@
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
 \contentsline {chapter}{\chapternumberline {5}\MakeTextUppercase {Projeto de estudo de Caso}}{32}{chapter.5}
 \contentsline {section}{\numberline {5.1}Defini\IeC {\c c}\IeC {\~a}o sobre estudo de caso}{32}{section.5.1}
-\contentsline {section}{\numberline {5.2}Modelagem do estudo de caso}{32}{section.5.2}
-\contentsline {section}{\numberline {5.3}Problema}{32}{section.5.3}
-\contentsline {section}{\numberline {5.4}Quest\IeC {\~a}o de Pesquisa}{33}{section.5.4}
-\contentsline {subsection}{\numberline {5.4.1}Objetivos, quest\IeC {\~o}es e m\IeC {\'e}tricas}{33}{subsection.5.4.1}
-\contentsline {section}{\numberline {5.5}\textit {Background}}{33}{section.5.5}
-\contentsline {section}{\numberline {5.6}Sele\IeC {\c c}\IeC {\~a}o}{33}{section.5.6}
-\contentsline {section}{\numberline {5.7}Fonte dos dados coletados}{34}{section.5.7}
-\contentsline {section}{\numberline {5.8}Amea\IeC {\c c}as a validade do estudo de caso}{34}{section.5.8}
-\contentsline {section}{\numberline {5.9}Processo de an\IeC {\'a}lise dos dados}{34}{section.5.9}
-\contentsline {section}{\numberline {5.10}Conclus\IeC {\~a}o do cap\IeC {\'\i }tulo}{34}{section.5.10}
+\contentsline {subsection}{\numberline {5.1.1}Problema}{32}{subsection.5.1.1}
+\contentsline {subsection}{\numberline {5.1.2}Quest\IeC {\~a}o de Pesquisa}{33}{subsection.5.1.2}
+\contentsline {section}{\numberline {5.2}\textit {Background}}{33}{section.5.2}
+\contentsline {section}{\numberline {5.3}Sele\IeC {\c c}\IeC {\~a}o}{33}{section.5.3}
+\contentsline {section}{\numberline {5.4}Fonte dos dados coletados}{34}{section.5.4}
+\contentsline {section}{\numberline {5.5}Amea\IeC {\c c}as a validade do estudo de caso}{34}{section.5.5}
+\contentsline {section}{\numberline {5.6}Processo de an\IeC {\'a}lise dos dados}{34}{section.5.6}
+\contentsline {section}{\numberline {5.7}Conclus\IeC {\~a}o do cap\IeC {\'\i }tulo}{35}{section.5.7}
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {6}\MakeTextUppercase {Conclus\IeC {\~a}o}}{35}{chapter.6}
+\contentsline {chapter}{\chapternumberline {6}\MakeTextUppercase {Conclus\IeC {\~a}o}}{36}{chapter.6}
 \vspace {\cftbeforechapterskip }
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
-\contentsline {chapter}{Refer\^encias}{36}{section*.24}
+\contentsline {chapter}{Refer\^encias}{37}{section*.24}
 \renewcommand *{\cftappendixname }{AP\^ENDICE \space }
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
 \cftinsert {A}
-\contentsline {appendix}{\chapternumberline {A}\MakeTextUppercase {Descri\IeC {\c c}\IeC {\~a}o do Processo de ETL no Kettle}}{38}{appendix.A}
+\contentsline {appendix}{\chapternumberline {A}\MakeTextUppercase {Descri\IeC {\c c}\IeC {\~a}o do Processo de ETL no Kettle}}{39}{appendix.A}
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
 \cftinsert {A}
-\contentsline {appendix}{\chapternumberline {B}\MakeTextUppercase {Gr\IeC {\'a}ficos e Tabelas dos Percentis de M\IeC {\'e}tricas de C\IeC {\'o}digo-Fonte}}{39}{appendix.B}
+\contentsline {appendix}{\chapternumberline {B}\MakeTextUppercase {Gr\IeC {\'a}ficos e Tabelas dos Percentis de M\IeC {\'e}tricas de C\IeC {\'o}digo-Fonte}}{40}{appendix.B}
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
 \cftinsert {A}
-\contentsline {appendix}{\chapternumberline {C}\MakeTextUppercase {Cen\IeC {\'a}rios de Limpeza de C\IeC {\'o}digo-Fonte}}{40}{appendix.C}
+\contentsline {appendix}{\chapternumberline {C}\MakeTextUppercase {Cen\IeC {\'a}rios de Limpeza de C\IeC {\'o}digo-Fonte}}{41}{appendix.C}
 \cftinsert {AAA}
 \renewcommand *{\cftappendixname }{ANEXO \space }

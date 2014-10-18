@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.9.14)  18 OCT 2014 01:37
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.9.14)  18 OCT 2014 02:07
 entering extended mode
 **tcc.tex
 (C:\Users\Matheus\Documents\GitHub\tcc_dw_metricas\Matheus\tcc.tex
@@ -1722,7 +1722,7 @@ GLES.eps>
 (epstopdf)             \includegraphics on input line 51.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/figuras_matheus/tipos_medidas_INGLES-eps-converted-to.pdf, id=273, 499
+<figuras/figuras_matheus/tipos_medidas_INGLES-eps-converted-to.pdf, id=279, 499
 .8675pt x 174.6525pt>
 File: figuras/figuras_matheus/tipos_medidas_INGLES-eps-converted-to.pdf Graphic
  file (type pdf)
@@ -2066,7 +2066,7 @@ r-eps-converted-to.pdf figuras/figuras_matheus/star.eps>
 (epstopdf)             \includegraphics on input line 32.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/figuras_matheus/star-eps-converted-to.pdf, id=459, 593.21625pt x 378.4
+<figuras/figuras_matheus/star-eps-converted-to.pdf, id=465, 593.21625pt x 378.4
 1376pt>
 File: figuras/figuras_matheus/star-eps-converted-to.pdf Graphic file (type pdf)
 
@@ -2093,7 +2093,7 @@ o-eps-converted-to.pdf figuras/figuras_matheus/cubo.eps>
 (epstopdf)             \includegraphics on input line 56.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/figuras_matheus/cubo-eps-converted-to.pdf, id=480, 748.7975pt x 378.41
+<figuras/figuras_matheus/cubo-eps-converted-to.pdf, id=486, 748.7975pt x 378.41
 376pt>
 File: figuras/figuras_matheus/cubo-eps-converted-to.pdf Graphic file (type pdf)
 
@@ -2107,10 +2107,6 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [29 <C:/Users/Matheus/Documents/GitHub/tcc_dw_metricas/Matheus/figuras/figuras_
 matheus/star-eps-converted-to.pdf>]
-
-LaTeX Warning: Citation `kimball1998data' on page 30 undefined on input line 69
-.
-
 Package epstopdf Info: Source file: <figuras/figuras_matheus/drill.eps>
 (epstopdf)                    date: 2014-10-17 01:53:10
 (epstopdf)                    size: 1095921 bytes
@@ -2123,7 +2119,7 @@ ll-eps-converted-to.pdf figuras/figuras_matheus/drill.eps>
 (epstopdf)             \includegraphics on input line 80.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/figuras_matheus/drill-eps-converted-to.pdf, id=503, 608.2725pt x 166.6
+<figuras/figuras_matheus/drill-eps-converted-to.pdf, id=511, 608.2725pt x 166.6
 225pt>
 File: figuras/figuras_matheus/drill-eps-converted-to.pdf Graphic file (type pdf
 )
@@ -2141,22 +2137,22 @@ de-estudo-de-caso.tex [31
 
 ] [32
 
-] [33])
+] [33] [34])
 (C:\Users\Matheus\Documents\GitHub\tcc_dw_metricas\Matheus\capitulos/6-conclusa
-o.tex [34]) (C:\Users\Matheus\Documents\GitHub\tcc_dw_metricas\Matheus\tcc.bbl
+o.tex [35]) (C:\Users\Matheus\Documents\GitHub\tcc_dw_metricas\Matheus\tcc.bbl
 (C:\Users\Matheus\Documents\GitHub\tcc_dw_metricas\Matheus\tcc.brf)
 \tf@brf=\write7
- [35
+ [36
 
 ]
 bibitemlist
-[36
+[37
 
 ])
 (C:\Users\Matheus\Documents\GitHub\tcc_dw_metricas\Matheus\apendices/apendices.
-tex [37] [38
+tex [38] [39
 
-] [39
+] [40
 
 ])
 (C:\Users\Matheus\Documents\GitHub\tcc_dw_metricas\Matheus\editaveis/anexos.tex
@@ -2164,7 +2160,7 @@ tex [37] [38
 No file tcc.ind.
 
 AED: lastpage setting LastPage
-[40
+[41
 
 ]
 \tf@lof=\write8
@@ -2181,11 +2177,8 @@ Package rerunfilecheck Warning: File `tcc.brf' has changed.
 (rerunfilecheck)                Rerun to get bibliographical references right.
 
 Package rerunfilecheck Info: Checksums for `tcc.brf':
-(rerunfilecheck)             Before: 8FC8B86027D659868E778148B86085D3;5227
-(rerunfilecheck)             After:  580D39740792A1E176340B2C76ED8ED0;4983.
-
-LaTeX Warning: There were undefined references.
-
+(rerunfilecheck)             Before: 580D39740792A1E176340B2C76ED8ED0;4983
+(rerunfilecheck)             After:  EA5C5CDBDE4CEE7BCB8C654B3E5593C5;5109.
 
 LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
@@ -2193,14 +2186,23 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 45.
  ) 
 Here is how much of TeX's memory you used:
  27284 strings out of 493921
- 481350 string characters out of 3144870
- 583290 words of memory out of 3000000
- 29749 multiletter control sequences out of 15000+200000
+ 481370 string characters out of 3144870
+ 583462 words of memory out of 3000000
+ 29747 multiletter control sequences out of 15000+200000
  107557 words of font info for 81 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
  68i,14n,75p,1284b,617s stack positions out of 5000i,500n,10000p,200000b,50000s
-pdfTeX warning (dest): name{page.41} has been referenced but does not exist, 
-replaced by a fixed one
+pdfTeX warning (dest): name{section.5.10} has been referenced but does not ex
+ist, replaced by a fixed one
+
+pdfTeX warning (dest): name{section.5.9} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{section.5.8} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.5.4.1} has been referenced but does not 
+exist, replaced by a fixed one
 
 {C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ec.enc}{C:/Program Fil
 es (x86)/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathsy.enc}<C:/Program Files (x86)/Mi
@@ -2216,9 +2218,9 @@ ublic/lm/lmssbo10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/
 lmssbx10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmsso12.p
 fb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmsso17.pfb><C:/Pro
 gram Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmsy10.pfb>
-Output written on tcc.pdf (41 pages, 744165 bytes).
+Output written on tcc.pdf (42 pages, 748721 bytes).
 PDF statistics:
- 863 PDF objects out of 1000 (max. 8388607)
- 137 named destinations out of 1000 (max. 500000)
- 450 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 871 PDF objects out of 1000 (max. 8388607)
+ 139 named destinations out of 1000 (max. 500000)
+ 434 words of extra memory for PDF output out of 10000 (max. 10000000)
 
