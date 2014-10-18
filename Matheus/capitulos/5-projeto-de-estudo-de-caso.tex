@@ -5,7 +5,7 @@ Esse capítulo irá tratar da estratégia de pesquisa adotada durante o trabalho
 
 \section{Definição sobre estudo de caso}
 
-O estudo de caso é uma estratégia de pesquisa utilizada para investigar um tópico de manira empírica através de um conjunto de procedimentos pré-especificados \cite{yin2001estudo}. Buscando diferenciar o estudo de caso de outras estratégias de pesquisa, \citeonline{yin2001estudo} esclarece que um estudo de caso deve focalizar acontecimentos contemporâneos, não havendo assim exigência quanto ao controle sobre os eventos comportamentais. Dessa forma, o estudo de caso difere de um experimento pelo motivo que neste há controle e manipulação sobre os eventos, diferentemente do estudo de caso, que não os manipula. Em suma, \citeonline{schramm_notes_1971} define que a essência de qualquer estudo de caso reside em esclarecer uma decisão ou um conjunto de decisões, considerando o motivo pelo qual elas foram tomadas e qual os resultados das suas implementações \cite{schramm_notes_1971}. 
+O estudo de caso é uma estratégia de pesquisa utilizada para investigar um tópico de manira empírica através de um conjunto de procedimentos pré-especificados \cite{yin2001estudo}. Buscando diferenciar o estudo de caso de outras estratégias de pesquisa, \citeonline{yin2001estudo} esclarece que um estudo de caso deve focalizar acontecimentos contemporâneos, não havendo assim exigência quanto ao controle sobre os eventos comportamentais. Dessa forma, o estudo de caso difere de um experimento pelo motivo que neste há controle e manipulação sobre os eventos, diferentemente do estudo de caso, que não os manipula. Em suma, a essência de qualquer estudo de caso reside em esclarecer uma decisão ou um conjunto de decisões, considerando o motivo pelo qual elas foram tomadas e qual os resultados das suas implementações \cite{schramm_notes_1971}. 
 
 Buscando maior entendimento a respeito do estudo de caso proposto por esse trabalho, foram criadas algumas perguntas que são fundamentais para o seu entendimento:
 
@@ -15,12 +15,20 @@ Buscando maior entendimento a respeito do estudo de caso proposto por esse traba
 	& Qual a questão de pesquisa relacionada a esse problema?
 	& Quais são os objetivos a serem alcançados nessa pesquisa?	
 	& Como foi a seleção do estudo de caso?
-	& Qual fonte dos dados coletados nessa pesquisa?
-	& Qual o método de coleta de dados?
+	& Qual fonte dos dados coletados nessa pesquisa e qual o método de coleta?
+	
 	
 	\end{easylist}	
 	
-As perguntas acima serão respondidas nas próximas seções, de modo que o estudo de caso possa ser compreendido como um projeto de pesquisa e então ser executado
+As perguntas acima serão respondidas nas próximas seções, de modo que o estudo de caso possa ser compreendido como um projeto de pesquisa e então ser executado. Para tanto a seguinte estrutura será adotada no projeto de pesquisa:
+
+\begin{figure}[h!]
+\centering
+\includegraphics[keepaspectratio=false,scale=0.40]{figuras/figuras_matheus/projeto_de_pesquisa.eps}
+\caption{Estrutura do estudo de caso}
+\label{fig:pesquisa}
+\end{figure}
+\FloatBarrier
 
 \subsection{Problema}
 
@@ -36,38 +44,94 @@ Segundo \citeonline{caldiera_goal_1994}, a questão de pesquisa deve ser capaz d
 Para atender a questão de pesquisa foi utilizado o mecanismo goal-question-metrics (GQM), usado para definir e interpretar um software operacional e mensurável. O GQM combina em si muitas das técnicas de medição e as generaliza para incorporar processos, produtos ou recursos, o que torna seu uso adaptável a ambientes diferentes \cite{caldiera_goal_1994}. 
 
 
-\textbf{Objetivo 01:} (ESCREVER)
+\textbf{Objetivo 01:} Avaliar a eficácia e eficiência do uso de \textit{Data Warehouse} para monitoramento de métricas de código fonte.
 
-\textbf{Questão específica 01:} (ESCREVER)
+% Questão 01
 
-\textbf{Fonte:} (ESCREVER)
+\textbf{QE01:} Quantas tomadas de decisão foram realizadas pela equipe baseando-se no uso da solução desenvolvida em um <período de tempo>?
 
-\textbf{Métrica:} (ESCREVER)
+\textbf{Fonte:} Registro de observação em campo.
 
-\textbf{Questão específica 02:} (ESCREVER)
+\textbf{Métrica:} Número de decisões tomadas/tempo.
 
-\textbf{Fonte:} (ESCREVER)
+% Questão 02
 
-\textbf{Métrica:} (ESCREVER)
+\textbf{QE02: } Quantas tomadas de decisão ao todo foram realizadas pela equipe baseando-se no uso da solução desenvolvida?
 
-\textbf{Objetivo 02:} (ESCREVER)
+\textbf{Fonte:} Registro de observação em campo.
 
-\textbf{Questão específica 03:} (ESCREVER)
+\textbf{Métrica:} Número de decisões tomadas.
 
-\textbf{Fonte:} (ESCREVER)
+% Questão 03
 
-\textbf{Métrica:} (ESCREVER)
+\textbf{QE03: } Qual a avaliação da equipe de qualidade quanto a detecção de cenários de limpeza de código?
+
+\textbf{Fonte:} Questionário com equipe de qualidade.
+
+\textbf{Métrica:} muito bom, bom, regular, ruim, muito ruim.
+
+% Questão 04
+
+\textbf{QE04: } Com que frequência a equipe de qualidade encontra falhas relacionados à utilização da ferramenta em um determinado intervalo de tempo?
+
+\textbf{Fonte:} Registro de observação em campo.
+
+\textbf{Métrica:} Quantidade de falha / tempo (release, sprint).
+
+\textbf{Interpretação da métrica:} Quanto mais próximo de zero melhor 0=<X
+
+% Questão 05
+
+\textbf{QE05: } Qual a quantidade total de falhas encontradas pela equipe de qualidade relacionadas à utilização da ferramenta?
+
+\textbf{Fonte:} Registro de observação em campo (áudio/vídeo).
+
+\textbf{Métrica:} Quantidade de falhas.
+
+% Questão 06
+
+\textbf{QE06: } Qual a proporção do uso da ferramenta para tomada de decisões?
+
+\textbf{Fonte:} Questionário com equipe de qualidade.
+
+\textbf{Métrica:} Número de decisões tomadas / número de vezes que a solução foi usada.
 
 
-\textbf{Questão específica 04:} (ESCREVER)
+% Questão 07
 
-\textbf{Fonte:} (ESCREVER)
+\textbf{QE07: } Qual a quantidade de cenários que foram corrigidos após utilização da solução?
 
-\textbf{Métrica:} (ESCREVER)
+\textbf{Fonte:} Código fonte.
+
+\textbf{Métrica:} Números de cenários corrigidos / número de cenários encontrados.
+
+% Questão 08
+
+\textbf{QE08: } Qual o nível de satisfação do uso da solução em comparação à solução anterior? 
+
+\textbf{Fonte:} Equipe de qualidade.
+
+\textbf{Métrica:} Muito satisfeito, Satisfeito, Neutro, Insatisfeito, Muito Insatisfeito.
+
+% Questão 09
+
+\textbf{QE09: } Qual a taxa de oportunidade de melhoria de código da solução em uma intervalo de tempo (sprint, release)? 
+
+\textbf{Fonte:} Código fonte.
+
+\textbf{Métrica:} Taxa de oportunidade de melhoria de código: FÓRMULA, onde Ce é o total de cenários de limpezas identificados e C1 é o total de classes em um intervalo de tempo (sprint, release).
+
+\textbf{Interpretação da métrica: } 
+
+\begin{easylist}[itemize]	
+	& Número de classes crescente e constante, Número de oportunidade de melhoria estável: Projeto cresceu mais dos 	que o cenários, cenários podem ou não estar sendo tratados.
+	& Número de classes crescente e constante, Número de oportunidade de melhoria crescendo: Projeto cresce junto 		com cenários que não são tratados com eficiência ou não são tratados
+	& Número de classes crescente ou não, mas constante, número de oportunidade de melhoria diminuindo: Projeto 		cresce e cenários são tratados com eficiência.	
+	\end{easylist}	
 
 \section{\textit{Background}}
 
-Soluçao do Baufaker + alguma o que tiver
+No que se refere ao contexto desse trabalho, o principal \textit{background} é o trabalho desenvolvido por \citeonline{rego_monitoramento_2014}, no qual a solução para monitoramento de métricas de código fonte utilizando \textit{Data Warehouse} foi desenvolvida. Alguns autores, como \cite{noveloo_uma_2006} utilizaram \textit{Data Warehouse} para monitoramento de métricas no processo de desenvolvimento de software, porém não eram de código fonte. Não foram encontrados outros trabalhos que usassem \textit{Data Warehouse} para aferir qualidade do que está sendo desenvolvido relacionando métricas de código fonte a cenários de limpeza, tal qual foi feito por \citeonline{rego_monitoramento_2014}
 
 \section{Seleção}
 

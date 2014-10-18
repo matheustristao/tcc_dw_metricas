@@ -64,7 +64,7 @@ A figura \ref{fig:cubo} reflete uma análise em um cubo de dados para o esquema 
 \begin{easylist}[itemize]
 
 	& \textbf{\textit{Drill Down:}} Busca aumentar o nível de detalhamento, partindo de um certo nível de dados para um nível mais detalhado \cite{neeraj_sharma_2011}.  
-	& \textbf{\textit{Rol Up:}} Ao contrário da operação \textit{Drill Down}, a \textit{Roll Up} parte de um nível mais detalhado para um nível menos detalhado  \cite{neeraj_sharma_2011}.
+	& \textbf{\textit{Drill Up:}} Ao contrário da operação \textit{Drill Down}, a \textit{Roll Up} parte de um nível mais detalhado para um nível menos detalhado  \cite{neeraj_sharma_2011}.
 	& \textbf{\textit{Slice and Dice:}} Técnica com filosofia parecida à cláusula \textit{where} usada em \textit{SQL}. Permite que sejam criadas restrições na análise dos dados. \cite{valeria2012} 
 	& \textbf{\textit{Drill Across:}} Permite que diferentes cubos sejam concatenados \cite{hilmer2002}. Uma operação do tipo \textit{Drill Across} irá simplesmente unir diferentes tabelas fato através de dimensões correspondentes \cite{kimball1998data}. 
 	& \textbf{\textit{Pivoting:}} Metaforicamente, significa rotacionar o cubo. Essa técnica altera a ordenação das tabelas dimensionais \cite{hilmer2002}. 
@@ -73,12 +73,12 @@ A figura \ref{fig:cubo} reflete uma análise em um cubo de dados para o esquema 
 	\end{easylist}
 	
 
-A imagem \ref{fig:drill}, extraída do do livro \textit{Getting Started With Data Warehousing}, do autor \cite{neeraj_sharma_2011}, mostra o fluxo percorrido pelo \textit{Drill Down} e \textit{Drill Up}:
+A figura \ref{fig:drill}, extraída do do livro \textit{Getting Started With Data Warehousing}, do autor \cite{neeraj_sharma_2011}, mostra o fluxo percorrido pelo \textit{Drill Down} e \textit{Drill Up}:
 
 \begin{figure}[h!]
 \centering
 \includegraphics[keepaspectratio=false,scale=0.70]{figuras/figuras_matheus/drill.eps}
-\caption{Cubo de dados com o fato Venda e dimensões Produto, Funcionário e Tempo}
+\caption{Diferença entre o fluxo seguido pelo Drill Up e pelo Drill Down, extraída de  \textit{Getting Started With Data Warehousing}}
 \label{fig:drill}
 \end{figure}
 \FloatBarrier

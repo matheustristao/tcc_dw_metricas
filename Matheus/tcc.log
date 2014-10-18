@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.9.14)  18 OCT 2014 02:07
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.9.14)  18 OCT 2014 15:46
 entering extended mode
 **tcc.tex
 (C:\Users\Matheus\Documents\GitHub\tcc_dw_metricas\Matheus\tcc.tex
@@ -1722,7 +1722,7 @@ GLES.eps>
 (epstopdf)             \includegraphics on input line 51.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/figuras_matheus/tipos_medidas_INGLES-eps-converted-to.pdf, id=279, 499
+<figuras/figuras_matheus/tipos_medidas_INGLES-eps-converted-to.pdf, id=277, 499
 .8675pt x 174.6525pt>
 File: figuras/figuras_matheus/tipos_medidas_INGLES-eps-converted-to.pdf Graphic
  file (type pdf)
@@ -2066,7 +2066,7 @@ r-eps-converted-to.pdf figuras/figuras_matheus/star.eps>
 (epstopdf)             \includegraphics on input line 32.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/figuras_matheus/star-eps-converted-to.pdf, id=465, 593.21625pt x 378.4
+<figuras/figuras_matheus/star-eps-converted-to.pdf, id=463, 593.21625pt x 378.4
 1376pt>
 File: figuras/figuras_matheus/star-eps-converted-to.pdf Graphic file (type pdf)
 
@@ -2093,7 +2093,7 @@ o-eps-converted-to.pdf figuras/figuras_matheus/cubo.eps>
 (epstopdf)             \includegraphics on input line 56.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/figuras_matheus/cubo-eps-converted-to.pdf, id=486, 748.7975pt x 378.41
+<figuras/figuras_matheus/cubo-eps-converted-to.pdf, id=484, 748.7975pt x 378.41
 376pt>
 File: figuras/figuras_matheus/cubo-eps-converted-to.pdf Graphic file (type pdf)
 
@@ -2119,7 +2119,7 @@ ll-eps-converted-to.pdf figuras/figuras_matheus/drill.eps>
 (epstopdf)             \includegraphics on input line 80.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/figuras_matheus/drill-eps-converted-to.pdf, id=511, 608.2725pt x 166.6
+<figuras/figuras_matheus/drill-eps-converted-to.pdf, id=509, 608.2725pt x 166.6
 225pt>
 File: figuras/figuras_matheus/drill-eps-converted-to.pdf Graphic file (type pdf
 )
@@ -2127,32 +2127,80 @@ File: figuras/figuras_matheus/drill-eps-converted-to.pdf Graphic file (type pdf
 Package pdftex.def Info: figuras/figuras_matheus/drill-eps-converted-to.pdf use
 d on input line 80.
 (pdftex.def)             Requested size: 425.78786pt x 116.63495pt.
-)
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[30 <C:/Users/Matheus/Documents/GitHub/tcc_dw_metricas/Matheus/figuras/figuras_
+matheus/cubo-eps-converted-to.pdf>])
 (C:\Users\Matheus\Documents\GitHub\tcc_dw_metricas\Matheus\capitulos/4-arquitet
-ura.tex [30 <C:/Users/Matheus/Documents/GitHub/tcc_dw_metricas/Matheus/figuras/
-figuras_matheus/cubo-eps-converted-to.pdf> <C:/Users/Matheus/Documents/GitHub/t
-cc_dw_metricas/Matheus/figuras/figuras_matheus/drill-eps-converted-to.pdf>])
+ura.tex [31 <C:/Users/Matheus/Documents/GitHub/tcc_dw_metricas/Matheus/figuras/
+figuras_matheus/drill-eps-converted-to.pdf>])
 (C:\Users\Matheus\Documents\GitHub\tcc_dw_metricas\Matheus\capitulos/5-projeto-
-de-estudo-de-caso.tex [31
+de-estudo-de-caso.tex [32
 
-] [32
+]
+Package epstopdf Info: Source file: <figuras/figuras_matheus/projeto_de_pesquis
+a.eps>
+(epstopdf)                    date: 2014-10-18 13:43:48
+(epstopdf)                    size: 7287593 bytes
+(epstopdf)             Output file: <figuras/figuras_matheus/projeto_de_pesquis
+a-eps-converted-to.pdf>
+(epstopdf)                    date: 2014-10-18 13:44:32
+(epstopdf)                    size: 68888 bytes
+(epstopdf)             Command: <epstopdf --outfile=figuras/figuras_matheus/pro
+jeto_de_pesquisa-eps-converted-to.pdf figuras/figuras_matheus/projeto_de_pesqui
+sa.eps>
+(epstopdf)             \includegraphics on input line 27.
+Package epstopdf Info: Output file is already uptodate.
 
-] [33] [34])
+<figuras/figuras_matheus/projeto_de_pesquisa-eps-converted-to.pdf, id=536, 1272
+.755pt x 948.54375pt>
+File: figuras/figuras_matheus/projeto_de_pesquisa-eps-converted-to.pdf Graphic 
+file (type pdf)
+
+<use figuras/figuras_matheus/projeto_de_pesquisa-eps-converted-to.pdf>
+Package pdftex.def Info: figuras/figuras_matheus/projeto_de_pesquisa-eps-conver
+ted-to.pdf used on input line 27.
+(pdftex.def)             Requested size: 509.09299pt x 379.41077pt.
+
+Overfull \hbox (54.09299pt too wide) in paragraph at lines 27--28
+ [][] 
+ []
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[33
+
+] [34 <C:/Users/Matheus/Documents/GitHub/tcc_dw_metricas/Matheus/figuras/figura
+s_matheus/projeto_de_pesquisa-eps-converted-to.pdf>]
+Overfull \hbox (4.74597pt too wide) in paragraph at lines 59--60
+[]\T1/lmr/bx/n/12 QE02:  \T1/lmr/m/n/12 Quan-tas to-ma-das de de-ci-são ao todo
+ fo-ram re-a-li-za-das pela equipe baseando-
+ []
+
+[35]
+
+LaTeX Warning: Citation `noveloo_uma_2006' on page 36 undefined on input line 1
+34.
+
+[36] [37])
 (C:\Users\Matheus\Documents\GitHub\tcc_dw_metricas\Matheus\capitulos/6-conclusa
-o.tex [35]) (C:\Users\Matheus\Documents\GitHub\tcc_dw_metricas\Matheus\tcc.bbl
+o.tex [38]) (C:\Users\Matheus\Documents\GitHub\tcc_dw_metricas\Matheus\tcc.bbl
 (C:\Users\Matheus\Documents\GitHub\tcc_dw_metricas\Matheus\tcc.brf)
 \tf@brf=\write7
- [36
+ [39
 
 ]
 bibitemlist
-[37
+[40
 
 ])
 (C:\Users\Matheus\Documents\GitHub\tcc_dw_metricas\Matheus\apendices/apendices.
-tex [38] [39
+tex [41] [42
 
-] [40
+] [43
 
 ])
 (C:\Users\Matheus\Documents\GitHub\tcc_dw_metricas\Matheus\editaveis/anexos.tex
@@ -2160,7 +2208,7 @@ tex [38] [39
 No file tcc.ind.
 
 AED: lastpage setting LastPage
-[41
+[44
 
 ]
 \tf@lof=\write8
@@ -2177,50 +2225,41 @@ Package rerunfilecheck Warning: File `tcc.brf' has changed.
 (rerunfilecheck)                Rerun to get bibliographical references right.
 
 Package rerunfilecheck Info: Checksums for `tcc.brf':
-(rerunfilecheck)             Before: 580D39740792A1E176340B2C76ED8ED0;4983
-(rerunfilecheck)             After:  EA5C5CDBDE4CEE7BCB8C654B3E5593C5;5109.
+(rerunfilecheck)             Before: 3B7DB413C1BE959AD4D55A287F612F61;5109
+(rerunfilecheck)             After:  D292C4AC07F526D4B15A1474AC4DD834;5229.
+
+LaTeX Warning: There were undefined references.
+
 
 LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 45.
  ) 
 Here is how much of TeX's memory you used:
- 27284 strings out of 493921
- 481370 string characters out of 3144870
- 583462 words of memory out of 3000000
- 29747 multiletter control sequences out of 15000+200000
+ 27292 strings out of 493921
+ 481718 string characters out of 3144870
+ 584646 words of memory out of 3000000
+ 29754 multiletter control sequences out of 15000+200000
  107557 words of font info for 81 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
  68i,14n,75p,1284b,617s stack positions out of 5000i,500n,10000p,200000b,50000s
-pdfTeX warning (dest): name{section.5.10} has been referenced but does not ex
-ist, replaced by a fixed one
-
-pdfTeX warning (dest): name{section.5.9} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{section.5.8} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.5.4.1} has been referenced but does not 
-exist, replaced by a fixed one
-
-{C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ec.enc}{C:/Program Fil
-es (x86)/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathsy.enc}<C:/Program Files (x86)/Mi
-KTeX 2.9/fonts/type1/public/lm/lmbx12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fo
-nts/type1/public/lm/lmbx9.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/pu
-blic/lm/lmbxi10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lm
-r10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmr12.pfb><C:/
-Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmri10.pfb><C:/Program Fil
-es (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmri12.pfb><C:/Program Files (x86)/Mi
-KTeX 2.9/fonts/type1/public/lm/lmss12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fo
-nts/type1/public/lm/lmss17.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/p
-ublic/lm/lmssbo10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/
-lmssbx10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmsso12.p
-fb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmsso17.pfb><C:/Pro
-gram Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmsy10.pfb>
-Output written on tcc.pdf (42 pages, 748721 bytes).
+{C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ec.enc}{C:/Program F
+iles (x86)/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathsy.enc}<C:/Program Files (x86)/
+MiKTeX 2.9/fonts/type1/public/lm/lmbx12.pfb><C:/Program Files (x86)/MiKTeX 2.9/
+fonts/type1/public/lm/lmbx9.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/
+public/lm/lmbxi10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/
+lmr10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmr12.pfb><C
+:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmri10.pfb><C:/Program F
+iles (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmri12.pfb><C:/Program Files (x86)/
+MiKTeX 2.9/fonts/type1/public/lm/lmss12.pfb><C:/Program Files (x86)/MiKTeX 2.9/
+fonts/type1/public/lm/lmss17.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1
+/public/lm/lmssbo10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/l
+m/lmssbx10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmsso12
+.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmsso17.pfb><C:/P
+rogram Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmsy10.pfb>
+Output written on tcc.pdf (45 pages, 821580 bytes).
 PDF statistics:
- 871 PDF objects out of 1000 (max. 8388607)
+ 888 PDF objects out of 1000 (max. 8388607)
  139 named destinations out of 1000 (max. 500000)
- 434 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 439 words of extra memory for PDF output out of 10000 (max. 10000000)
 

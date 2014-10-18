@@ -4,9 +4,10 @@ Database file #1: abntex2-options.bib
 Database file #2: bibliografia.bib
 Warning--entry type for "hilmer2002" isn't style-file defined
 --line 72 of file bibliografia.bib
+Warning--I didn't find a database entry for "noveloo_uma_2006"
 +---------------------------------------------------------+
 | Estilo bibliográfico abntex2-alf.bst versão v-1.9.2           |
 | Em caso de dúvidas ou problemas com este estilo procure |
 | http://abntex2.googlecode.com                           |
 +---------------------------------------------------------+
-(There was 1 warning)
+(There were 2 warnings)
