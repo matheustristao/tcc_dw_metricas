@@ -1,5 +1,5 @@
 \chapter{\textit{Data Warehouse}} 
-
+\label{chap:arquitetura}
 
 \textit{Data Warehouse} é uma base de dados que armazena suas informações de maneira orientada a satisfazer solicitações de tomadas de decisão \cite{chaudhuri1997}. A diferença entre um típico banco de dados transacional e um  \textit{Data Warehouse}, porém, consiste na maneira como esses dados são armazenados. Em vez de existirem múltiplos ambientes de decisão operando de forma independente, o que com frequência traz informações conflituosas, um \textit{Data Warehouse} unifica as fontes de informações relevantes, de maneira que a integridade  qualidade dos dados são garantidas. \cite{neeraj_sharma_2011}. Dessa forma,\citeonline{chaudhuri1997} afirma que o ambiente de \textit{Data Warehousing} possibilita que seu usuário realize buscas complexas de maneira mais amigável diretamente em um só ambiente, em vez de acessar informações através de relatórios gerados por especialistas. 
 
@@ -90,6 +90,16 @@ A figura \ref{fig:drill}, extraída do do livro \textit{Getting Started With Dat
 \includegraphics[keepaspectratio=false,scale=0.70]{figuras/figuras_matheus/drill.eps}
 \caption{Diferença entre o fluxo seguido pelo Drill Up e pelo Drill Down, extraída de  \textit{Getting Started With Data Warehousing}}
 \label{fig:drill}
+\end{figure}
+\FloatBarrier
+
+\section{Ambiente de \textit{Data Warehousing} para Métricas de Código-Fonte}
+
+\begin{figure}[h!]
+\centering
+\includegraphics[keepaspectratio=false,scale=0.50]{figuras/figuras_matheus/arquitetura_solucao.eps}
+\caption{Arquitetura do ambiente de \textit{Data Warehousing} para métricas de código}
+\label{fig:arquitetura_solucao}
 \end{figure}
 \FloatBarrier
 

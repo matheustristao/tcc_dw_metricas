@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.9.14)  18 OCT 2014 20:25
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.9.14)  18 OCT 2014 21:05
 entering extended mode
 **tcc.tex
 (C:\Users\Matheus\Documents\GitHub\tcc_dw_metricas\Matheus\tcc.tex
@@ -1722,7 +1722,7 @@ GLES.eps>
 (epstopdf)             \includegraphics on input line 51.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/figuras_matheus/tipos_medidas_INGLES-eps-converted-to.pdf, id=279, 499
+<figuras/figuras_matheus/tipos_medidas_INGLES-eps-converted-to.pdf, id=280, 499
 .8675pt x 174.6525pt>
 File: figuras/figuras_matheus/tipos_medidas_INGLES-eps-converted-to.pdf Graphic
  file (type pdf)
@@ -2066,7 +2066,7 @@ to.pdf>
 (epstopdf)             \includegraphics on input line 26.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/figuras_matheus/etl-eps-converted-to.pdf, id=459, 732.7375pt x 846.161
+<figuras/figuras_matheus/etl-eps-converted-to.pdf, id=460, 732.7375pt x 846.161
 25pt>
 File: figuras/figuras_matheus/etl-eps-converted-to.pdf Graphic file (type pdf)
  <use figuras/figuras_matheus/etl-eps-converted-to.pdf>
@@ -2087,7 +2087,7 @@ r-eps-converted-to.pdf figuras/figuras_matheus/star.eps>
 (epstopdf)             \includegraphics on input line 42.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/figuras_matheus/star-eps-converted-to.pdf, id=474, 593.21625pt x 378.4
+<figuras/figuras_matheus/star-eps-converted-to.pdf, id=475, 593.21625pt x 378.4
 1376pt>
 File: figuras/figuras_matheus/star-eps-converted-to.pdf Graphic file (type pdf)
 
@@ -2111,7 +2111,7 @@ o-eps-converted-to.pdf figuras/figuras_matheus/cubo.eps>
 (epstopdf)             \includegraphics on input line 66.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/figuras_matheus/cubo-eps-converted-to.pdf, id=498, 748.7975pt x 378.41
+<figuras/figuras_matheus/cubo-eps-converted-to.pdf, id=499, 748.7975pt x 378.41
 376pt>
 File: figuras/figuras_matheus/cubo-eps-converted-to.pdf Graphic file (type pdf)
 
@@ -2133,7 +2133,7 @@ ll-eps-converted-to.pdf figuras/figuras_matheus/drill.eps>
 (epstopdf)             \includegraphics on input line 90.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/figuras_matheus/drill-eps-converted-to.pdf, id=524, 608.2725pt x 166.6
+<figuras/figuras_matheus/drill-eps-converted-to.pdf, id=525, 608.2725pt x 166.6
 225pt>
 File: figuras/figuras_matheus/drill-eps-converted-to.pdf Graphic file (type pdf
 )
@@ -2141,14 +2141,38 @@ File: figuras/figuras_matheus/drill-eps-converted-to.pdf Graphic file (type pdf
 Package pdftex.def Info: figuras/figuras_matheus/drill-eps-converted-to.pdf use
 d on input line 90.
 (pdftex.def)             Requested size: 425.78786pt x 116.63495pt.
-)
-(C:\Users\Matheus\Documents\GitHub\tcc_dw_metricas\Matheus\capitulos/4-arquitet
-ura.tex [31 <C:/Users/Matheus/Documents/GitHub/tcc_dw_metricas/Matheus/figuras/
-figuras_matheus/drill-eps-converted-to.pdf>])
-(C:\Users\Matheus\Documents\GitHub\tcc_dw_metricas\Matheus\capitulos/5-projeto-
-de-estudo-de-caso.tex [32
+Package epstopdf Info: Source file: <figuras/figuras_matheus/arquitetura_soluca
+o.eps>
+(epstopdf)                    date: 2014-10-18 20:56:16
+(epstopdf)                    size: 6533941 bytes
+(epstopdf)             Output file: <figuras/figuras_matheus/arquitetura_soluca
+o-eps-converted-to.pdf>
+(epstopdf)                    date: 2014-10-18 20:56:58
+(epstopdf)                    size: 76728 bytes
+(epstopdf)             Command: <epstopdf --outfile=figuras/figuras_matheus/arq
+uitetura_solucao-eps-converted-to.pdf figuras/figuras_matheus/arquitetura_soluc
+ao.eps>
+(epstopdf)             \includegraphics on input line 100.
+Package epstopdf Info: Output file is already uptodate.
 
-]
+<figuras/figuras_matheus/arquitetura_solucao-eps-converted-to.pdf, id=526, 722.
+7pt x 842.14626pt>
+File: figuras/figuras_matheus/arquitetura_solucao-eps-converted-to.pdf Graphic 
+file (type pdf)
+
+<use figuras/figuras_matheus/arquitetura_solucao-eps-converted-to.pdf>
+Package pdftex.def Info: figuras/figuras_matheus/arquitetura_solucao-eps-conver
+ted-to.pdf used on input line 100.
+(pdftex.def)             Requested size: 361.3491pt x 421.0721pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[31 <C:/Users/Matheus/Documents/GitHub/tcc_dw_metricas/Matheus/figuras/figuras_
+matheus/drill-eps-converted-to.pdf>])
+(C:\Users\Matheus\Documents\GitHub\tcc_dw_metricas\Matheus\capitulos/4-projeto-
+de-estudo-de-caso.tex [32 <C:/Users/Matheus/Documents/GitHub/tcc_dw_metricas/Ma
+theus/figuras/figuras_matheus/arquitetura_solucao-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <figuras/figuras_matheus/projeto_de_pesquis
 a.eps>
 (epstopdf)                    date: 2014-10-18 13:43:48
@@ -2163,7 +2187,7 @@ sa.eps>
 (epstopdf)             \includegraphics on input line 26.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/figuras_matheus/projeto_de_pesquisa-eps-converted-to.pdf, id=543, 1272
+<figuras/figuras_matheus/projeto_de_pesquisa-eps-converted-to.pdf, id=548, 1272
 .755pt x 948.54375pt>
 File: figuras/figuras_matheus/projeto_de_pesquisa-eps-converted-to.pdf Graphic 
 file (type pdf)
@@ -2195,7 +2219,7 @@ LaTeX Warning: Citation `noveloo_uma_2006' on page 36 undefined on input line 1
 33.
 
 [36] [37])
-(C:\Users\Matheus\Documents\GitHub\tcc_dw_metricas\Matheus\capitulos/6-conclusa
+(C:\Users\Matheus\Documents\GitHub\tcc_dw_metricas\Matheus\capitulos/5-conclusa
 o.tex [38]) (C:\Users\Matheus\Documents\GitHub\tcc_dw_metricas\Matheus\tcc.bbl
 (C:\Users\Matheus\Documents\GitHub\tcc_dw_metricas\Matheus\tcc.brf)
 \tf@brf=\write7
@@ -2223,32 +2247,27 @@ AED: lastpage setting LastPage
 \tf@lof=\write8
 \tf@lot=\write9
 \tf@toc=\write10
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 45.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 45.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 44.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 44.
  (C:\Users\Matheus\Documents\GitHub\tcc_dw_metricas\Matheus\tcc.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 45.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 45.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 44.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 44.
+Package rerunfilecheck Info: File `tcc.brf' has not changed.
+(rerunfilecheck)             Checksum: B33CF6B8419946882A001F6FDE5F84BE;5392.
 
-
-Package rerunfilecheck Warning: File `tcc.brf' has changed.
-(rerunfilecheck)                Rerun to get bibliographical references right.
-
-Package rerunfilecheck Info: Checksums for `tcc.brf':
-(rerunfilecheck)             Before: B8A81F048B5EF6A3F7E65B8E212E57D4;5392
-(rerunfilecheck)             After:  8F5342B0CDA1D4F9A97D8955C3B7241A;5392.
 
 LaTeX Warning: There were undefined references.
 
 
 LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 45.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 44.
  ) 
 Here is how much of TeX's memory you used:
- 27304 strings out of 493921
- 482063 string characters out of 3144870
- 584804 words of memory out of 3000000
- 29764 multiletter control sequences out of 15000+200000
+ 27306 strings out of 493921
+ 482164 string characters out of 3144870
+ 583895 words of memory out of 3000000
+ 29767 multiletter control sequences out of 15000+200000
  107557 words of font info for 81 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
  68i,14n,75p,1284b,617s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -2266,9 +2285,9 @@ fonts/type1/public/lm/lmss17.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1
 m/lmssbx10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmsso12
 .pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmsso17.pfb><C:/P
 rogram Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmsy10.pfb>
-Output written on tcc.pdf (45 pages, 868413 bytes).
+Output written on tcc.pdf (45 pages, 942920 bytes).
 PDF statistics:
- 906 PDF objects out of 1000 (max. 8388607)
- 140 named destinations out of 1000 (max. 500000)
- 444 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 910 PDF objects out of 1000 (max. 8388607)
+ 141 named destinations out of 1000 (max. 500000)
+ 449 words of extra memory for PDF output out of 10000 (max. 10000000)
 
