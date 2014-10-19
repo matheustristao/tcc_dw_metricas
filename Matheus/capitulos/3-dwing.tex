@@ -83,17 +83,19 @@ A figura \ref{fig:cubo} reflete uma análise em um cubo de dados para o esquema 
 	\end{easylist}
 	
 
-A figura \ref{fig:drill}, extraída do do livro \textit{Getting Started With Data Warehousing}, do autor \cite{neeraj_sharma_2011}, mostra o fluxo percorrido pelo \textit{Drill Down} e \textit{Drill Up}:
+A figura \ref{fig:drill}, extraída de \citeonline{neeraj_sharma_2011}, mostra o fluxo percorrido pelo \textit{Drill Down} e pelo \textit{Drill Up} nas consultas OLAP:
 
 \begin{figure}[h!]
 \centering
 \includegraphics[keepaspectratio=false,scale=0.70]{figuras/figuras_matheus/drill.eps}
-\caption{Diferença entre o fluxo seguido pelo Drill Up e pelo Drill Down, extraída de  \textit{Getting Started With Data Warehousing}}
+\caption{Diferença entre o fluxo seguido pelo Drill Up e pelo Drill Down, extraída de \cite{neeraj_sharma_2011}}
 \label{fig:drill}
 \end{figure}
 \FloatBarrier
 
 \section{Ambiente de \textit{Data Warehousing} para Métricas de Código-Fonte}
+
+A figura \ref{fig:etl} descreve a arquitetura de um ambiente de \textit{Data Warehousing}. O nível mais baixo, de onde se faz a extração, foi chamado de fonte externa de dados. Para fazer uso de um ambiente de \textit{Data Warehousing} para armazenamento de métricas, \citeonline{rego_monitoramento_2014} modelou a arquitura da solução de modo que a fonte externa de dados seriam arquivos contendo métricas de software, como pode ser visto na figura \ref{fig:arquitetura_solucao}:
 
 \begin{figure}[h!]
 \centering
@@ -103,5 +105,47 @@ A figura \ref{fig:drill}, extraída do do livro \textit{Getting Started With Dat
 \end{figure}
 \FloatBarrier
 
+Seguindo a metodologia apresentada por \citeonline{Kimball2002}, \citeonline{rego_monitoramento_2014} definiu os seguintes requisitos de negócios que a sua solução deveria suportar:
 
+\begin{easylist}[itemize]
+
+	& \textbf{Requisito 1:} Visualizar o intervalo qualitativo obtido para cada métrica de código-fonte em uma determinada release do projeto para a configuração Open JDK8 Metrics.
+	 
+	& \textbf{Requisito 2:} Comparar o intervalo qualitativo obtido para cada métrica de código-fonte ao longo de todas as releases de um projeto para a configuração Open JDK8 Metrics 
+
+	& \textbf{Requisito 3:} Visualizar o o valor pecentil obtida para cada métrica de código-fonte em uma determinada release do projeto para a configuração Open JDK8 Metrics
+	
+	& \textbf{Requisito 4:} Comparar o o valor pecentil a para cada métrica de código-fonte ao longo de todas as releases para a configuração Open JDK8 Metrics.
+	
+	& \textbf{Requisito 5:} Visualizar o intervalo qualitativo obtido para cada métrica de código-fonte em uma determinada release do projeto para a configuração Tomcat Metrics.
+	
+	& \textbf{Requisito 6:} Comparar o intervalo qualitativo obtido para cada métrica de código-fonte ao longo de todas as releases de um projeto para a configuração Tomcat Metrics
+	
+	& \textbf{Requisito 7:} Visualizar a medida obtida para cada métrica de código-fonte em uma determinada release do projeto para a configuração Tomcat Metrics
+	
+	& \textbf{Requisito 8:} Comparar o valor percentil obtido para cada métrica de código-fonte ao longo de todas as releases para a configuração Tomcat Metrics
+	
+	& \textbf{Requisito 9:} Visualizar a quantidade de cenários de limpeza identificados por tipo de cenários de limpeza de código-fonte em cada classe ao longo de cada release de um projeto.
+	
+	& \textbf{Requisito 10:} Comparar a quantidade de cenários de limpeza por tipo de cenários de limpeza de código-fonte em uma release de um projeto.
+	
+	& \textbf{Requisito 11:} Visualizar o total de cenários de limpeza em uma determinada release de um projeto.
+	
+	& \textbf{Requisito 12:} Visualizar cada uma das classes com um determinado cenário de limpeza de código-fonte ao longo das releases do projeto.
+	
+	& \textbf{Requisito 13:} Visualizar as 10 classes de um projeto com menor número de cenários de limpeza identificados.
+	
+	& \textbf{Requisito 14:} Visualizar as 10 classes de um projeto com maior número de cenários de limpeza identificados.
+	
+	& \textbf{Requisito 15:} Acompanhar a Taxa de Aproveitamento de Oportunidades de Melhoria de Código-Fonte que é a divisão do total de cenários de limpeza identificados em uma release e o o número total de classes da mesma release de um projeto
+
+	\end{easylist}
+	
+
+Para alcançar os requisitos definidos, \citeonline{rego_monitoramento_2014} elaborou os seguintes fatos e dimensões:
+
+
+Uma vez que as tabelas fato e dimensão foram definidas, \citeonline{rego_monitoramento_2014} elaborou o seguinte modelo:
+
+ 
 
