@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=latex 2014.9.6)  17 OCT 2014 17:52
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=latex 2014.9.6)  18 OCT 2014 20:39
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1579,7 +1579,7 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 (./editaveis/abstract.tex [8
 
 ]) (./fixos/listasAutomaticas.tex (./tcc.lof
-Overfull \hbox (61.68492pt too wide) in paragraph at lines 3--3
+Overfull \hbox (61.68492pt too wide) in paragraph at lines 4--4
  [][] [] []  
  []
 
@@ -1651,23 +1651,21 @@ LaTeX Font Info:    Font shape `OMS/lmr/m/n' in size <12> not available
  [16]
 File: figuras/figuras_nilton/selecaoMetodologica.eps Graphic file (type eps)
 
-<figuras/figuras_nilton/selecaoMetodologica.eps>
-Overfull \hbox (13.13518pt too wide) in paragraph at lines 58--59
-[]\T1/lmr/m/n/12 Segundo ([][][][][][], [][][][][][][]) o es-tudo de caso um co
-n-junto de-pro-ce-di-men-tos pré-especificados
- []
+<figuras/figuras_nilton/selecaoMetodologica.eps> [17]
+File: figuras/figuras_nilton/passosEstudoCaso.eps Graphic file (type eps)
 
-[17]) (./capitulos/2-metricas.tex [18]
+<figuras/figuras_nilton/passosEstudoCaso.eps> [18]) (./capitulos/2-metricas.tex
+[19]
 Overfull \hbox (7.60492pt too wide) in paragraph at lines 12--13
 [] []\T1/lmr/bx/n/12 Nominal: \T1/lmr/m/n/12 A or-dem não pos-sui sig-ni-fi-cad
 o na in-ter-pre-ta-ção dos va-lo-res ([][][][][][],
  []
 
-[19
+[20
 
 ]
 File: figuras/figuras_matheus/tipos_medidas_INGLES.eps Graphic file (type eps)
- <figuras/figuras_matheus/tipos_medidas_INGLES.eps> [20] [21] [22]
+ <figuras/figuras_matheus/tipos_medidas_INGLES.eps> [21] [22] [23]
 (./tabelas/tabelasMatheus/percentis.ltx
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <9> on input line 3.
@@ -1676,15 +1674,15 @@ Overfull \hbox (9.37761pt too wide) in paragraph at lines 3--139
  [] 
  []
 
-(./tabelas/tabelasMatheus/intervalos.ltx) [23]
+(./tabelas/tabelasMatheus/intervalos.ltx) [24]
 (./tabelas/tabelasMatheus/metricas.ltx)
 
 LaTeX Warning: Float too large for page by 60.0583pt on input line 165.
 
-[24] [25]) (./capitulos/3-contratacao-fornecedores-desenvolvimento-software.tex
-[26
+[25] [26]) (./capitulos/3-contratacao-fornecedores-desenvolvimento-software.tex
+[27
 
-]) (./capitulos/4-dwing.tex [27
+]) (./capitulos/4-dwing.tex [28
 
 ]
 LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <24.88> not available
@@ -1693,12 +1691,12 @@ LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <17.28> not available
 (Font)              Font shape `T1/lmss/m/sl' tried instead on input line 5.
 LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <14.4> not available
 (Font)              Font shape `T1/lmss/m/sl' tried instead on input line 9.
-) (./capitulos/5-arquitetura.tex [28
+) (./capitulos/5-arquitetura.tex [29
 
 ])
-(./capitulos/6-projeto-estudo-de-caso.tex [29
+(./capitulos/6-projeto-estudo-de-caso.tex [30
 
-] [30
+] [31
 
 ]
 Overfull \hbox (59.15402pt too wide) in paragraph at lines 39--40
@@ -1706,7 +1704,7 @@ Overfull \hbox (59.15402pt too wide) in paragraph at lines 39--40
 i-en-tes di-fe-ren-tes ([][][][][][],
  []
 
-[31]) (./capitulos/7-conclusao.tex [32]) (./capitulos/8-SonarQube.tex [33
+[32]) (./capitulos/7-conclusao.tex [33]) (./capitulos/8-SonarQube.tex [34
 
 ]
 File: figuras/figuras_nilton/eixosqualidade.eps Graphic file (type eps)
@@ -1715,7 +1713,7 @@ File: figuras/figuras_nilton/eixosqualidade.eps Graphic file (type eps)
 \tf@brf=\write6
 \openout6 = `tcc.brf'.
 
- [34
+ [35
 
 ]
 bibitemlist
@@ -1741,9 +1739,9 @@ Underfull \hbox (badness 3354) in paragraph at lines 23--23
 [][][][][][][][][][][][][][][] 
  []
 
-[35
+[36
 
-]) (./apendices/apendices.tex [36]
+]) (./apendices/apendices.tex [37]
 (/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2013/08/26 1.5b listings language file
 )
@@ -1762,22 +1760,22 @@ LaTeX Font Info:    Font shape `T1/lmtt/bx/n' in size <10> not available
 )
 File: figuras/components-transformation.eps Graphic file (type eps)
 
-<figuras/components-transformation.eps> [37
+<figuras/components-transformation.eps> [38
 
 ]
 File: figuras/first-transformation.eps Graphic file (type eps)
 
-<figuras/first-transformation.eps> [38]
+<figuras/first-transformation.eps> [39]
 File: figuras/second-transformation.eps Graphic file (type eps)
  <figuras/second-transformation.eps>
 (/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2013/08/26 1.5b listings language file
 )
-(./codigos/project-fact.sql [39] [40] [41] [42] [43] [44] [45] [46] [47]
-[48] [49])
+(./codigos/project-fact.sql [40] [41] [42] [43] [44] [45] [46] [47] [48]
+[49] [50])
 File: figuras/third-transformation.eps Graphic file (type eps)
- <figuras/third-transformation.eps> [50] (./codigos/class-fact.sql
-[51] [52] [53] [54] [55])
+ <figuras/third-transformation.eps> [51] (./codigos/class-fact.sql
+[52] [53] [54] [55] [56])
 File: figuras/componentes-job.eps Graphic file (type eps)
  <figuras/componentes-job.eps>
 File: figuras/job.eps Graphic file (type eps)
@@ -1786,7 +1784,7 @@ Overfull \hbox (51.49739pt too wide) in paragraph at lines 90--91
  [][] 
  []
 
-[56] [57]
+[57] [58]
 File: figuras/acc-grafico.eps Graphic file (type eps)
  <figuras/acc-grafico.eps>
 File: figuras/acc-tabela.eps Graphic file (type eps)
@@ -1879,11 +1877,9 @@ File: figuras/rfc-tabela.eps Graphic file (type eps)
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[58
+[59
 
-] [59] [60
-
-] [61
+] [60] [61
 
 ] [62
 
@@ -1903,18 +1899,20 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 ] [70
 
+] [71
+
 ]
 (./tabelas/resultados-cenarios-metodo-grande.ltx)
 (./tabelas/resultados-cenarios-filhos.ltx)
 (./tabelas/resultados-cenarios-exposicao.ltx)
-(./tabelas/resultados-cenarios-coesao.ltx) [71
+(./tabelas/resultados-cenarios-coesao.ltx) [72
 
 ]
-(./tabelas/resultados-cenarios-complexidade-estrutural.ltx) [72]
-(./tabelas/resultados-cenarios-interface.ltx) [73]) (./editaveis/anexos.tex)
+(./tabelas/resultados-cenarios-complexidade-estrutural.ltx) [73]
+(./tabelas/resultados-cenarios-interface.ltx) [74]) (./editaveis/anexos.tex)
 (./tcc.ind) 
 AED: lastpage setting LastPage
-[74]
+[75]
 \tf@lof=\write7
 \openout7 = `tcc.lof'.
 
@@ -1933,7 +1931,7 @@ Package atveryend Info: Executing hook `AfterLastShipout' on input line 47.
 Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 47.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 47.
 Package rerunfilecheck Info: File `tcc.brf' has not changed.
-(rerunfilecheck)             Checksum: 883625734B4C7A521B59C0AA3757CE0D;3750.
+(rerunfilecheck)             Checksum: 8C5BB8D075A1938AF1F5BD524D4E419F;3954.
 
 
 LaTeX Warning: There were multiply-defined labels.
@@ -1941,12 +1939,12 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 47.
  ) 
 Here is how much of TeX's memory you used:
- 26142 strings out of 493305
- 431448 string characters out of 6139898
- 848967 words of memory out of 5000000
- 28909 multiletter control sequences out of 15000+600000
+ 26155 strings out of 493305
+ 431841 string characters out of 6139898
+ 849434 words of memory out of 5000000
+ 28921 multiletter control sequences out of 15000+600000
  107233 words of font info for 84 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
  63i,13n,78p,988b,2302s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on tcc.dvi (76 pages, 755028 bytes).
+Output written on tcc.dvi (77 pages, 762312 bytes).
