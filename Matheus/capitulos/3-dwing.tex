@@ -5,7 +5,7 @@
 
 \section{Ciclo de vida de um \textit{Data Warehousing}}
 
-\citeonline{Inmon2002} descreve que o \textit{Data Warehouse} é uma coleção de dados que tem como característica ser orientada a assunto, integrada, não volátil e temporal. Por dados orientados a assunto, podemos entender que... . O fato do ambiente ser integrado remete ao fato dele ser alimentado com dados que têm como origem de múltiplas fontes, integrando esses dados de maneira a construir uma única orientação. Como um conjunto não volátil e temporal de dados, é entendido que a informação carregada remete a um determinado momento da aplicação, possibilitando assim acesso a diferentes intervalos de tempo, não havendo como modificá-los atualizando em tempo real.
+\citeonline{Inmon2002} descreve que o \textit{Data Warehouse} é uma coleção de dados que tem como característica ser orientada a assunto, integrada, não volátil e temporal. Por orientação a assunto, podemos entender como um foco em algum aspecto específico da organização, como por exemplo as vendas de uma loja. O fato do ambiente ser integrado remete ao fato dele ser alimentado com dados que têm como origem de múltiplas fontes, integrando esses dados de maneira a construir uma única orientação. Como um conjunto não volátil e temporal de dados, é entendido que a informação carregada remete a um determinado momento da aplicação, possibilitando assim acesso a diferentes intervalos de tempo, não havendo como modificá-los atualizando em tempo real.
 
 \subsection{\textit{Extraction-Transformation-Load}}
 
@@ -53,7 +53,7 @@ A atividade que consiste em buscar e apresentar os dados de um \textit{Data Ware
 	\begin{center}
 	
 	\input{tabelas/tabelasMatheus/hilmer_olap_oltp.ltx} 
-	\caption{Diferenças entre OLTP e OLAP extraídas de \cite{hilmer2002}}
+	\caption{Diferenças entre OLTP e OLAP extraídas de \citeonline{hilmer2002}}
 	\label{tab:hilmer}
 	\end{center}
 	\end{table}	
@@ -141,11 +141,31 @@ Seguindo a metodologia apresentada por \citeonline{Kimball2002}, \citeonline{reg
 
 	\end{easylist}
 	
+Para alcançar os requisitos definidos, \citeonline{rego_monitoramento_2014} identificou os seguintes fatos e dimensões no contexto de monitoramento de métricas:
 
-Para alcançar os requisitos definidos, \citeonline{rego_monitoramento_2014} elaborou os seguintes fatos e dimensões:
+\begin{table}[!ht]
+	\begin{center}
+	
+	\input{tabelas/tabelasMatheus/fatos-dimensoes.ltx} 
+	\caption{Fatos e dimensões identificadas por \citeonline{rego_monitoramento_2014}}
+	\label{tab:fatos-dimensoes}
+	\end{center}
+	\end{table}	
+	\FloatBarrier
 
 
-Uma vez que as tabelas fato e dimensão foram definidas, \citeonline{rego_monitoramento_2014} elaborou o seguinte modelo:
+A partir da identificação de fatos e dimensões expostos na tabela \ref{tab:fatos-dimensoes},  \citeonline{rego_monitoramento_2014} traduziu esses elementos em tabelas fato e tabelas dimensão. O resultado disso pode ser verificado na tabela \ref{tab:tabelas-fatos-dimensoes}:
+
+\begin{table}[!ht]
+	\begin{center}
+	
+	\input{tabelas/tabelasMatheus/tabelas-fatos-tabelas-dimensoes.ltx} 
+	\caption{Fatos e dimensões identificadas por \citeonline{rego_monitoramento_2014}}
+	\label{tab:tabelas-fatos-dimensoes}
+	\end{center}
+	\end{table}	
+	\FloatBarrier
+
 
  
 
