@@ -1,15 +1,17 @@
 \chapter{\textit{Data Warehouse}} 
 \label{chap:arquitetura}
 
-\textit{Data Warehouse} é uma base de dados que armazena suas informações de maneira orientada a satisfazer solicitações de tomadas de decisão \cite{chaudhuri1997}. A diferença entre um típico banco de dados transacional e um  \textit{Data Warehouse}, porém, consiste na maneira como esses dados são armazenados. Em vez de existirem múltiplos ambientes de decisão operando de forma independente, o que com frequência traz informações conflituosas, um \textit{Data Warehouse} unifica as fontes de informações relevantes, de maneira que a integridade  qualidade dos dados são garantidas. \cite{neeraj_sharma_2011}. Dessa forma,\citeonline{chaudhuri1997} afirma que o ambiente de \textit{Data Warehousing} possibilita que seu usuário realize buscas complexas de maneira mais amigável diretamente em um só ambiente, em vez de acessar informações através de relatórios gerados por especialistas. 
+Neste capítulo será apresentada a maneira como foi desenvolvido o ambiente de \textit{Data Warehouse} para armazenamento de métricas de código fonte, sobre o qual esse trabalho busca analisar a eficácia e eficiência no monitoramento de métricas. Serão apresentados anteriormente conceitos teóricos sobre \textit{Data Warehouse}, para então relacionar seu uso dentro do contexto de métricas. 
 
-\section{Ciclo de vida de um \textit{Data Warehousing}}
+\section{Definição}
+
+\textit{Data Warehouse} é uma base de dados que armazena suas informações de maneira orientada a satisfazer solicitações de tomadas de decisão \cite{chaudhuri1997}. A diferença entre um típico banco de dados transacional e um  \textit{Data Warehouse}, porém, consiste na maneira como esses dados são armazenados. Em vez de existirem múltiplos ambientes de decisão operando de forma independente, o que com frequência traz informações conflituosas, um \textit{Data Warehouse} unifica as fontes de informações relevantes, de maneira que a integridade  qualidade dos dados são garantidas. \cite{neeraj_sharma_2011}. Dessa forma,\citeonline{chaudhuri1997} afirma que o ambiente de \textit{Data Warehousing} possibilita que seu usuário realize buscas complexas de maneira mais amigável diretamente em um só ambiente, em vez de acessar informações através de relatórios gerados por especialistas. 
 
 \citeonline{Inmon2002} descreve que o \textit{Data Warehouse} é uma coleção de dados que tem como característica ser orientada a assunto, integrada, não volátil e temporal. Por orientação a assunto, podemos entender como um foco em algum aspecto específico da organização, como por exemplo as vendas de uma loja. O fato do ambiente ser integrado remete ao fato dele ser alimentado com dados que têm como origem de múltiplas fontes, integrando esses dados de maneira a construir uma única orientação. Como um conjunto não volátil e temporal de dados, é entendido que a informação carregada remete a um determinado momento da aplicação, possibilitando assim acesso a diferentes intervalos de tempo, não havendo como modificá-los atualizando em tempo real.
 
-\subsection{\textit{Extraction-Transformation-Load}}
+\section{\textit{Extraction-Transformation-Load}}
 
- Para alcançar as características descritas, o ambiente de Data Warehousing segue o processo que consiste na extração, transformação e carga dos dados, conhecido como \textit{Extraction-Transformation-Load} (ETL). Cada um dos passos recebe a seguinte descrição:
+ Para alcançar as características descritas na definição, o ambiente de Data Warehousing segue o processo que consiste na extração, transformação e carga dos dados, conhecido como \textit{Extraction-Transformation-Load} (ETL). Cada um dos passos recebe a seguinte descrição:
 
 \begin{easylist}[itemize]
 
@@ -28,7 +30,6 @@ A figura \ref{fig:etl} descreve a arquitetura de um ambiente de \textit{Data War
 \label{fig:etl}
 \end{figure}
 \FloatBarrier
-
 
 
 \section{Modelagem Dimensional}
@@ -160,12 +161,30 @@ A partir da identificação de fatos e dimensões expostos na tabela \ref{tab:fa
 	\begin{center}
 	
 	\input{tabelas/tabelasMatheus/tabelas-fatos-tabelas-dimensoes.ltx} 
-	\caption{Fatos e dimensões identificadas por \citeonline{rego_monitoramento_2014}}
+	\caption{Tabelas fatos e tabelas dimensões elaboradas por \citeonline{rego_monitoramento_2014}}
 	\label{tab:tabelas-fatos-dimensoes}
 	\end{center}
 	\end{table}	
 	\FloatBarrier
 
 
- 
+Utilizando a ferramenta MySql Workbench, \citeonline{rego_monitoramento_2014} elaborou o seguinte modelo físico baseado nos fatos e dimensões já identificados:
 
+
+Com o intuito de representar os dados que representam os próprios dados dos processos de negócio, \citeonline{rego_monitoramento_2014} criou uma área de metadados visando facilitar o processo de \textit{Extraction-Transformation-Load}, sendo essa uma vantagem apresentada por \cite{Kimball2002}. A área de metadados desenvolvida possui as seguintes tabelas:
+
+\begin{easylist}[itemize]
+
+	& \textbf{\textit{Meta\_Metric\_Ranges:}} Contém cada configuração de intervalo qualitativo para cada métrica de código fonte.
+	& \textbf{\textit{Meta\_Scenario:}} Contém os cenários de limpeza de código e suas recomendações.
+	& \textbf{\textit{Meta\_Metric\_Ranges\_Meta\_Scenario:}} Como a cardinalidade entre \textit{Meta\_Scenario} e \textit{Meta\_Metric\_Ranges} seria de \textit{n} para \textit{n}, essa tabela foi criada contendo os registros únicos dessas duas tabelas.
+	
+	\end{easylist}
+
+A figura X retrata o ambiente de metadados criado:
+
+COLOCAR FIGURA
+
+\section{Considerações finais do capítulo}
+
+Nesse capítulo foi apresentada a solução proposta no trabalho de \citeonline{rego_monitoramento_2014}, bem como a base teórica para se chegar nessa solução. No próximo capítulo será apresentado o projeto de estudo de caso que irá visar a análise da eficácia e eficiência da solução proposta nesse capítulo.
