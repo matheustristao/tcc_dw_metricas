@@ -113,6 +113,14 @@ Tese (Doutorado) --- Instituto de Matemática e Estátistica -- Universidade de
   Data Warehouse utilizando SGBD-OR Oracle 8.1}. Universidade Federal da
   Paraíba - UFPB: [s.n.], 2002.}
 
+\bibitem[Novello 2006]{novello_uma_2006}
+\abntrefinfo{Novello}{NOVELLO}{2006}
+{NOVELLO, T.~C.
+\emph{Uma abordagem de Data Warehouse para análise de processos de
+  desenvolvimento de software}.
+phdthesis, 2006.
+Dispon{\'\i}vel em: \url{http://tardis.pucrs.br/dspace/handle/10923/1570}.}
+
 \bibitem[R\^{e}go 2014]{rego_monitoramento_2014}
 \abntrefinfo{R\^{e}go}{R\^{e}GO}{2014}
 {R\^{e}GO, G.~B. Monitoramento de métricas de código-fonte com suporte de um
