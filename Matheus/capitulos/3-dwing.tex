@@ -170,6 +170,13 @@ A partir da identificação de fatos e dimensões expostos na tabela \ref{tab:fa
 
 Utilizando a ferramenta MySql Workbench, \citeonline{rego_monitoramento_2014} elaborou o seguinte modelo físico baseado nos fatos e dimensões já identificados:
 
+\begin{figure}[h!]
+\centering
+\includegraphics[keepaspectratio=false,scale=0.50]{figuras/figuras_matheus/modelo-dw-baufaker.eps}
+\caption{Projeto físico do \textit{Data Warehouse} extraído de \citeonline{rego_monitoramento_2014}}
+\label{fig:arquitetura_solucao}
+\end{figure}
+\FloatBarrier
 
 Com o intuito de representar os dados que representam os próprios dados dos processos de negócio, \citeonline{rego_monitoramento_2014} criou uma área de metadados visando facilitar o processo de \textit{Extraction-Transformation-Load}, sendo essa uma vantagem apresentada por \cite{Kimball2002}. A área de metadados desenvolvida possui as seguintes tabelas:
 
@@ -177,13 +184,21 @@ Com o intuito de representar os dados que representam os próprios dados dos pro
 
 	& \textbf{\textit{Meta\_Metric\_Ranges:}} Contém cada configuração de intervalo qualitativo para cada métrica de código fonte.
 	& \textbf{\textit{Meta\_Scenario:}} Contém os cenários de limpeza de código e suas recomendações.
-	& \textbf{\textit{Meta\_Metric\_Ranges\_Meta\_Scenario:}} Como a cardinalidade entre \textit{Meta\_Scenario} e \textit{Meta\_Metric\_Ranges} seria de \textit{n} para \textit{n}, essa tabela foi criada contendo os registros únicos dessas duas tabelas.
+	& \textbf{\textit{Meta\_Metric\_Ranges\_Meta\_Scenario:}} Como a cardinalidade entre as tabelas \textit{Meta\_Scenario} e \textit{Meta\_Metric\_Ranges} seria de \textit{n} para \textit{n}, essa tabela foi criada contendo os registros únicos dessas duas tabelas.
 	
 	\end{easylist}
 
-A figura X retrata o ambiente de metadados criado:
+A figura \ref{fig:metadados} retrata o ambiente de metadados criado:
 
-COLOCAR FIGURA
+\begin{figure}[h!]
+\centering
+\includegraphics[keepaspectratio=false,scale=0.6]{figuras/figuras_matheus/metadados-baufaker.eps}
+\caption{Projeto físico do \textit{Data Warehouse} extraído de \citeonline{rego_monitoramento_2014}}
+\label{fig:metadados}
+\end{figure}
+\FloatBarrier
+
+
 
 \section{Considerações finais do capítulo}
 
