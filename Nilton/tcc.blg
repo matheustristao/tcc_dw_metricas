@@ -13,6 +13,7 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
 Database file #1: abntex2-options.bib
 Database file #2: bibliografia.bib
+Warning--I didn't find a database entry for "novello_uma_2006"
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated glb_str_ptr (elt_size=4) to 20 items from 10.
 Reallocated global_strs (elt_size=20001) to 20 items from 10.
@@ -22,44 +23,45 @@ Reallocated glb_str_end (elt_size=4) to 20 items from 10.
 | Em caso de dúvidas ou problemas com este estilo procure |
 | http://abntex2.googlecode.com                           |
 +---------------------------------------------------------+
-You've used 25 entries,
+You've used 22 entries,
             6711 wiz_defined-function locations,
-            1328 strings with 12849 characters,
-and the built_in function-call counts, 27315 in all, are:
-= -- 3106
-> -- 460
-< -- 585
-+ -- 805
-- -- 147
-* -- 1615
-:= -- 3549
-add.period$ -- 82
-call.type$ -- 25
-change.case$ -- 183
-chr.to.int$ -- 37
-cite$ -- 24
-duplicate$ -- 2493
-empty$ -- 1346
-format.name$ -- 687
-if$ -- 5640
+            1315 strings with 12525 characters,
+and the built_in function-call counts, 23225 in all, are:
+= -- 2557
+> -- 431
+< -- 485
++ -- 674
+- -- 137
+* -- 1397
+:= -- 3054
+add.period$ -- 70
+call.type$ -- 22
+change.case$ -- 161
+chr.to.int$ -- 31
+cite$ -- 21
+duplicate$ -- 2114
+empty$ -- 1188
+format.name$ -- 640
+if$ -- 4775
 int.to.chr$ -- 0
 int.to.str$ -- 0
-missing$ -- 421
-newline$ -- 124
-num.names$ -- 115
-pop$ -- 554
+missing$ -- 374
+newline$ -- 106
+num.names$ -- 105
+pop$ -- 481
 preamble$ -- 1
-purify$ -- 82
+purify$ -- 73
 quote$ -- 0
-skip$ -- 2708
+skip$ -- 2222
 stack$ -- 1
-substring$ -- 1113
-swap$ -- 873
-text.length$ -- 15
+substring$ -- 903
+swap$ -- 744
+text.length$ -- 10
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 14
+type$ -- 2
 warning$ -- 0
-while$ -- 154
+while$ -- 134
 width$ -- 0
-write$ -- 356
+write$ -- 312
+(There was 1 warning)

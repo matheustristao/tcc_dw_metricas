@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=latex 2014.9.6)  18 OCT 2014 20:39
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=latex 2014.9.6)  23 OCT 2014 03:04
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1400,12 +1400,6 @@ Writing index file tcc.idx
 
 LaTeX Warning: Label `chap:metricas' multiply defined.
 
-
-LaTeX Warning: Label `estudo de caso' multiply defined.
-
-
-LaTeX Warning: Label `7eixosqualidade' multiply defined.
-
 )
 \openout1 = `tcc.aux'.
 
@@ -1591,12 +1585,7 @@ Overfull \hbox (16.0938pt too wide) in paragraph at lines 2--2
  []
 
 
-Overfull \hbox (53.26852pt too wide) in paragraph at lines 4--4
- [][] [] []  
- []
-
-
-Overfull \hbox (116.47156pt too wide) in paragraph at lines 5--5
+Overfull \hbox (50.496pt too wide) in paragraph at lines 4--4
  [][] [] []  
  []
 
@@ -1620,20 +1609,10 @@ LaTeX Font Info:    Font shape `T1/lmss/bx/it' in size <12> not available
 (Font)              Font shape `T1/lmss/bx/sl' tried instead on input line 31.
 LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <12> not available
 (Font)              Font shape `T1/lmss/m/sl' tried instead on input line 33.
-
-Overfull \hbox (79.22514pt too wide) in paragraph at lines 37--37
- [][] [] []  
- []
-
 [13
 
 ]
-Overfull \hbox (12.43976pt too wide) in paragraph at lines 60--60
- [][] [] []  
- []
-
-
-Overfull \hbox (174.3044pt too wide) in paragraph at lines 66--66
+Overfull \hbox (12.43976pt too wide) in paragraph at lines 56--56
  [][] [] []  
  []
 
@@ -1654,18 +1633,18 @@ File: figuras/figuras_nilton/selecaoMetodologica.eps Graphic file (type eps)
 <figuras/figuras_nilton/selecaoMetodologica.eps> [17]
 File: figuras/figuras_nilton/passosEstudoCaso.eps Graphic file (type eps)
 
-<figuras/figuras_nilton/passosEstudoCaso.eps> [18]) (./capitulos/2-metricas.tex
-[19]
+<figuras/figuras_nilton/passosEstudoCaso.eps> [18] [19])
+(./capitulos/2-metricas.tex [20]
 Overfull \hbox (7.60492pt too wide) in paragraph at lines 12--13
 [] []\T1/lmr/bx/n/12 Nominal: \T1/lmr/m/n/12 A or-dem não pos-sui sig-ni-fi-cad
 o na in-ter-pre-ta-ção dos va-lo-res ([][][][][][],
  []
 
-[20
+[21
 
 ]
 File: figuras/figuras_matheus/tipos_medidas_INGLES.eps Graphic file (type eps)
- <figuras/figuras_matheus/tipos_medidas_INGLES.eps> [21] [22] [23]
+ <figuras/figuras_matheus/tipos_medidas_INGLES.eps> [22] [23] [24]
 (./tabelas/tabelasMatheus/percentis.ltx
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <9> on input line 3.
@@ -1674,15 +1653,15 @@ Overfull \hbox (9.37761pt too wide) in paragraph at lines 3--139
  [] 
  []
 
-(./tabelas/tabelasMatheus/intervalos.ltx) [24]
+(./tabelas/tabelasMatheus/intervalos.ltx) [25]
 (./tabelas/tabelasMatheus/metricas.ltx)
 
-LaTeX Warning: Float too large for page by 60.0583pt on input line 165.
+LaTeX Warning: Float too large for page by 59.66628pt on input line 165.
 
-[25] [26]) (./capitulos/3-contratacao-fornecedores-desenvolvimento-software.tex
-[27
+[26] [27]) (./capitulos/3-contratacao-fornecedores-desenvolvimento-software.tex
+[28
 
-]) (./capitulos/4-dwing.tex [28
+]) (./capitulos/4-dwing.tex [29
 
 ]
 LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <24.88> not available
@@ -1691,228 +1670,83 @@ LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <17.28> not available
 (Font)              Font shape `T1/lmss/m/sl' tried instead on input line 5.
 LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <14.4> not available
 (Font)              Font shape `T1/lmss/m/sl' tried instead on input line 9.
-) (./capitulos/5-arquitetura.tex [29
-
-])
-(./capitulos/6-projeto-estudo-de-caso.tex [30
-
-] [31
+) (./capitulos/5-projeto-estudo-de-caso.tex
+[30
 
 ]
-Overfull \hbox (59.15402pt too wide) in paragraph at lines 39--40
-\T1/lmr/m/n/12 pro-du-tos ou re-cur-sos, o que torna seu uso adap-tá-vel a am-b
-i-en-tes di-fe-ren-tes ([][][][][][],
+File: figuras/figuras_nilton/EscopoEstudoCaso.eps Graphic file (type eps)
+ <figuras/figuras_nilton/EscopoEstudoCaso.eps>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[31
+
+]
+File: figuras/figuras_nilton/EstruturaEstudoCaso.eps Graphic file (type eps)
+ <figuras/figuras_nilton/EstruturaEstudoCaso.eps>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[32]
+Overfull \hbox (0.65685pt too wide) in paragraph at lines 56--57
+[]\T1/lmr/m/n/12 Para aten-der a ques-tão de pes-quisa foi uti-li-zado o me-ca-
+nismo \T1/lmr/m/it/12 goal-question-metrics\T1/lmr/m/n/12 .
  []
 
-[32]) (./capitulos/7-conclusao.tex [33]) (./capitulos/8-SonarQube.tex [34
+[33]
+Overfull \hbox (4.74597pt too wide) in paragraph at lines 70--71
+[]\T1/lmr/bx/n/12 QE02:  \T1/lmr/m/n/12 Quan-tas to-ma-das de de-ci-são ao todo
+ fo-ram re-a-li-za-das pela equipe baseando-
+ []
 
-]
-File: figuras/figuras_nilton/eixosqualidade.eps Graphic file (type eps)
+[34]
 
-<figuras/figuras_nilton/eixosqualidade.eps>) (./tcc.bbl (./tcc.brf)
+LaTeX Warning: Citation `novello_uma_2006' on page 35 undefined on input line 1
+46.
+
+[35]
+
+LaTeX Warning: Reference `chap:arquitetura' on page 36 undefined on input line 
+171.
+
+[36]) (./capitulos/6-conclusao.tex [37] [38]) (./tcc.bbl (./tcc.brf)
 \tf@brf=\write6
 \openout6 = `tcc.brf'.
 
- [35
+ [39
 
 ]
 bibitemlist
 
-Underfull \hbox (badness 1107) in paragraph at lines 23--23
+Underfull \hbox (badness 1107) in paragraph at lines 28--28
 []\T1/lmr/m/n/12 BRASIL. \T1/lmr/m/it/12 Acórdão-381/2011-TCU-Plenário\T1/lmr/m
 /n/12 . [S.l.], 2011. Dis- 
  []
 
 
-Underfull \hbox (badness 1383) in paragraph at lines 23--23
+Underfull \hbox (badness 1383) in paragraph at lines 28--28
 \T1/lmr/m/n/12 po-ní-vel em: [][][][][][][][][][][][][][][][][][][][][][][][][]
 [][][][][][][][][][][] 
  []
 
 
-Overfull \hbox (515.53125pt too wide) in paragraph at lines 23--23
+Overfull \hbox (515.53125pt too wide) in paragraph at lines 28--28
 [][][][][] 
  []
 
 
-Underfull \hbox (badness 3354) in paragraph at lines 23--23
+Underfull \hbox (badness 3354) in paragraph at lines 28--28
 [][][][][][][][][][][][][][][] 
  []
 
-[36
+[40
 
-]) (./apendices/apendices.tex [37]
-(/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
-File: lstlang1.sty 2013/08/26 1.5b listings language file
-)
-(/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang2.sty
-File: lstlang2.sty 2013/08/26 1.5b listings language file
-)
-Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on i
-nput line 10.
-LaTeX Font Info:    Try loading font information for T1+lmtt on input line 10.
+]) (./apendices/apendices.tex [41]) (./editaveis/anexos.tex) (./tcc.ind)
 
-(/usr/share/texmf/tex/latex/lm/t1lmtt.fd
-File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
-) (./codigos/parser.rb
-LaTeX Font Info:    Font shape `T1/lmtt/bx/n' in size <10> not available
-(Font)              Font shape `T1/lmtt/b/n' tried instead on input line 5.
-)
-File: figuras/components-transformation.eps Graphic file (type eps)
-
-<figuras/components-transformation.eps> [38
-
-]
-File: figuras/first-transformation.eps Graphic file (type eps)
-
-<figuras/first-transformation.eps> [39]
-File: figuras/second-transformation.eps Graphic file (type eps)
- <figuras/second-transformation.eps>
-(/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
-File: lstlang1.sty 2013/08/26 1.5b listings language file
-)
-(./codigos/project-fact.sql [40] [41] [42] [43] [44] [45] [46] [47] [48]
-[49] [50])
-File: figuras/third-transformation.eps Graphic file (type eps)
- <figuras/third-transformation.eps> [51] (./codigos/class-fact.sql
-[52] [53] [54] [55] [56])
-File: figuras/componentes-job.eps Graphic file (type eps)
- <figuras/componentes-job.eps>
-File: figuras/job.eps Graphic file (type eps)
- <figuras/job.eps>
-Overfull \hbox (51.49739pt too wide) in paragraph at lines 90--91
- [][] 
- []
-
-[57] [58]
-File: figuras/acc-grafico.eps Graphic file (type eps)
- <figuras/acc-grafico.eps>
-File: figuras/acc-tabela.eps Graphic file (type eps)
- <figuras/acc-tabela.eps>
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-File: figuras/accm-grafico.eps Graphic file (type eps)
-<figuras/accm-grafico.eps>
-File: figuras/accm-tabela.eps Graphic file (type eps)
- <figuras/accm-tabela.eps>
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-File: figuras/amloc-grafico.eps Graphic file (type eps)
-<figuras/amloc-grafico.eps>
-File: figuras/amloc-tabela.eps Graphic file (type eps)
- <figuras/amloc-tabela.eps>
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-File: figuras/anpm-completo.eps Graphic file (type eps)
-<figuras/anpm-completo.eps>
-File: figuras/anpm-projeto.eps Graphic file (type eps)
- <figuras/anpm-projeto.eps>
-Overfull \hbox (2.65498pt too wide) in paragraph at lines 133--135
- [][] 
- []
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-File: figuras/cbo-grafico.eps Graphic file (type eps)
-<figuras/cbo-grafico.eps>
-File: figuras/cbo-tabela.eps Graphic file (type eps)
- <figuras/cbo-tabela.eps>
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-File: figuras/dit-grafico.eps Graphic file (type eps)
-<figuras/dit-grafico.eps>
-File: figuras/dit-tabela.eps Graphic file (type eps)
- <figuras/dit-tabela.eps>
-Overfull \hbox (0.94551pt too wide) in paragraph at lines 151--153
- [] 
- []
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-File: figuras/lcom4-projeto.eps Graphic file (type eps)
-<figuras/lcom4-projeto.eps>
-File: figuras/lcom4-completo.eps Graphic file (type eps)
- <figuras/lcom4-completo.eps>
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-File: figuras/loc-grafico.eps Graphic file (type eps)
-<figuras/loc-grafico.eps>
-File: figuras/loc-tabela.eps Graphic file (type eps)
- <figuras/loc-tabela.eps>
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-File: figuras/noc-grafico.eps Graphic file (type eps)
-<figuras/noc-grafico.eps>
-File: figuras/noc-tabela.eps Graphic file (type eps)
- <figuras/noc-tabela.eps>
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-File: figuras/nom-grafico.eps Graphic file (type eps)
-<figuras/nom-grafico.eps>
-File: figuras/nom-tabela.eps Graphic file (type eps)
- <figuras/nom-tabela.eps>
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-File: figuras/npa-grafico.eps Graphic file (type eps)
-<figuras/npa-grafico.eps>
-File: figuras/npa-tabela.eps Graphic file (type eps)
- <figuras/npa-tabela.eps>
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-File: figuras/rfc-grafico.eps Graphic file (type eps)
-<figuras/rfc-grafico.eps>
-File: figuras/rfc-tabela.eps Graphic file (type eps)
- <figuras/rfc-tabela.eps>
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[59
-
-] [60] [61
-
-] [62
-
-] [63
-
-] [64
-
-] [65
-
-] [66
-
-] [67
-
-] [68
-
-] [69
-
-] [70
-
-] [71
-
-]
-(./tabelas/resultados-cenarios-metodo-grande.ltx)
-(./tabelas/resultados-cenarios-filhos.ltx)
-(./tabelas/resultados-cenarios-exposicao.ltx)
-(./tabelas/resultados-cenarios-coesao.ltx) [72
-
-]
-(./tabelas/resultados-cenarios-complexidade-estrutural.ltx) [73]
-(./tabelas/resultados-cenarios-interface.ltx) [74]) (./editaveis/anexos.tex)
-(./tcc.ind) 
 AED: lastpage setting LastPage
-[75]
+[42
+
+]
 \tf@lof=\write7
 \openout7 = `tcc.lof'.
 
@@ -1922,29 +1756,32 @@ AED: lastpage setting LastPage
 \tf@toc=\write9
 \openout9 = `tcc.toc'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 47.
-Package atveryend Info: Executing hook `AfterLastShipout' on input line 47.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 45.
+Package atveryend Info: Executing hook `AfterLastShipout' on input line 45.
 \BKM@file=\write10
 \openout10 = `tcc.out.ps'.
 
  (./tcc.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 47.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 47.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 45.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 45.
 Package rerunfilecheck Info: File `tcc.brf' has not changed.
-(rerunfilecheck)             Checksum: 8C5BB8D075A1938AF1F5BD524D4E419F;3954.
+(rerunfilecheck)             Checksum: 4C03C2BE272C8974705EB0ACD16F7EFE;4142.
+
+
+LaTeX Warning: There were undefined references.
 
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 47.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 45.
  ) 
 Here is how much of TeX's memory you used:
- 26155 strings out of 493305
- 431841 string characters out of 6139898
- 849434 words of memory out of 5000000
- 28921 multiletter control sequences out of 15000+600000
- 107233 words of font info for 84 fonts, out of 8000000 for 9000
+ 25087 strings out of 493305
+ 417373 string characters out of 6139898
+ 548050 words of memory out of 5000000
+ 27934 multiletter control sequences out of 15000+600000
+ 106278 words of font info for 81 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
- 63i,13n,78p,988b,2302s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 63i,13n,75p,932b,645s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on tcc.dvi (77 pages, 762312 bytes).
+Output written on tcc.dvi (44 pages, 219636 bytes).

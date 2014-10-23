@@ -1,23 +1,6 @@
 \select@language {brazil}
 \contentsline {figure}{\numberline {1}{\ignorespaces Metodologia de Pesquisa\relax }}{17}{figure.caption.11}
-\contentsline {figure}{\numberline {2}{\ignorespaces Passos Estudo de Caso\relax }}{18}{figure.caption.12}
-\contentsline {figure}{\numberline {3}{\ignorespaces Modelo de Qualidade do Produto da ISO 25023 adaptado da \citeonline {ISO25023}\relax }}{21}{figure.caption.13}
-\contentsline {figure}{\numberline {4}{\ignorespaces 7 eixos da qualidade de software \citeonline {SonarQube}\relax }}{35}{figure.caption.17}
-\contentsline {figure}{\numberline {5}{\ignorespaces Componentes do Kettle que foram utilizadas nas Transforma\IeC {\c c}\IeC {\~o}es\relax }}{39}{figure.caption.21}
-\contentsline {figure}{\numberline {6}{\ignorespaces Primeira Transforma\IeC {\c c}\IeC {\~a}o realizada no Kettle\relax }}{39}{figure.caption.22}
-\contentsline {figure}{\numberline {7}{\ignorespaces Segunda Transforma\IeC {\c c}\IeC {\~a}o realizada no Kettle\relax }}{40}{figure.caption.23}
-\contentsline {figure}{\numberline {8}{\ignorespaces Terceira Transforma\IeC {\c c}\IeC {\~a}o realizada no Kettle\relax }}{51}{figure.caption.24}
-\contentsline {figure}{\numberline {9}{\ignorespaces Componentes do Kettle que foram utilizadas nos \textit {Jobs}\relax }}{57}{figure.caption.25}
-\contentsline {figure}{\numberline {10}{\ignorespaces \textit {Job} deste Trabalho\relax }}{58}{figure.caption.26}
-\contentsline {figure}{\numberline {11}{\ignorespaces Intepreta\IeC {\c c}\IeC {\~a}o dos Valores Percentis da M\IeC {\'e}trica ACC\relax }}{60}{figure.caption.27}
-\contentsline {figure}{\numberline {12}{\ignorespaces Intepreta\IeC {\c c}\IeC {\~a}o dos Valores Percentis da M\IeC {\'e}trica ACCM\relax }}{61}{figure.caption.28}
-\contentsline {figure}{\numberline {13}{\ignorespaces Intepreta\IeC {\c c}\IeC {\~a}o dos Valores Percentis da M\IeC {\'e}trica AMLOC\relax }}{62}{figure.caption.29}
-\contentsline {figure}{\numberline {14}{\ignorespaces Intepreta\IeC {\c c}\IeC {\~a}o dos Valores Percentis da M\IeC {\'e}trica ANPM\relax }}{63}{figure.caption.30}
-\contentsline {figure}{\numberline {15}{\ignorespaces Intepreta\IeC {\c c}\IeC {\~a}o dos Valores Percentis da M\IeC {\'e}trica CBO\relax }}{64}{figure.caption.31}
-\contentsline {figure}{\numberline {16}{\ignorespaces Intepreta\IeC {\c c}\IeC {\~a}o dos Valores Percentis da M\IeC {\'e}trica DIT\relax }}{65}{figure.caption.32}
-\contentsline {figure}{\numberline {17}{\ignorespaces Intepreta\IeC {\c c}\IeC {\~a}o dos Valores Percentis da M\IeC {\'e}trica LCOM4\relax }}{66}{figure.caption.33}
-\contentsline {figure}{\numberline {18}{\ignorespaces Intepreta\IeC {\c c}\IeC {\~a}o dos Valores Percentis da M\IeC {\'e}trica LOC\relax }}{67}{figure.caption.34}
-\contentsline {figure}{\numberline {19}{\ignorespaces Intepreta\IeC {\c c}\IeC {\~a}o dos Valores Percentis da M\IeC {\'e}trica NOC\relax }}{68}{figure.caption.35}
-\contentsline {figure}{\numberline {20}{\ignorespaces Intepreta\IeC {\c c}\IeC {\~a}o dos Valores Percentis da M\IeC {\'e}trica NOM\relax }}{69}{figure.caption.36}
-\contentsline {figure}{\numberline {21}{\ignorespaces Intepreta\IeC {\c c}\IeC {\~a}o dos Valores Percentis da M\IeC {\'e}trica NPA\relax }}{70}{figure.caption.37}
-\contentsline {figure}{\numberline {22}{\ignorespaces Intepreta\IeC {\c c}\IeC {\~a}o dos Valores Percentis da M\IeC {\'e}trica RFC\relax }}{71}{figure.caption.38}
+\contentsline {figure}{\numberline {2}{\ignorespaces Passos do Estudo de Caso\relax }}{18}{figure.caption.12}
+\contentsline {figure}{\numberline {3}{\ignorespaces Modelo de Qualidade do Produto da ISO 25023 adaptado da \citeonline {ISO25023}\relax }}{22}{figure.caption.13}
+\contentsline {figure}{\numberline {4}{\ignorespaces Escopo do Estudo de Caso\relax }}{32}{figure.caption.17}
+\contentsline {figure}{\numberline {5}{\ignorespaces Estrutura do Estudo de Caso\relax }}{33}{figure.caption.18}
