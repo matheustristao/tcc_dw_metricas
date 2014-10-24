@@ -5,7 +5,7 @@ Esse capítulo será responsável pela explicação teórica a respeito do que s
 
 \section{Processo de Medição}
 
-A \citeonline{ISO:15939} define medição como a união de operações cujo objetivo é atribuir um valor a uma métrica. Ainda segundo a \citeonline{ISO:15939}, o processo de medição é a chave primária para a gerência de um software e suas atividades no seu ciclo de vida, além disso, um processo de melhoria contínua requer mudanças evolutivas e mudanças evolutivas requerem um processo de medição.
+A \citeonline{ISO:15939} define medição como a união de operações cujo objetivo é atribuir um valor a uma métrica. Graças ao processo de medição é possível entender e controlar o que está acontecendo durante o processo de desenvolvimento e manutenção de um sistema \citeonline{Fenton98}. Ainda segundo a \citeonline{ISO:15939}, o processo de medição é a chave primária para a gerência de um software e suas atividades no seu ciclo de vida, além disso, um processo de melhoria contínua requer mudanças evolutivas e mudanças evolutivas requerem um processo de medição.
 	Complementando o conceito levantado anteriormente, é possível afirmar de acordo com a \citeonline{ISO:9126} que a medição é a utilização de uma métrica para  atribuir um valor, que pode ser um número ou uma categoria, obtido a partir de uma escala a um atributo de uma entidade.
 	A escala, citada anteriormente, pode ser definida como um conjunto de categorias para as quais os atributos estão mapeados, de modo que um atributo de medição está associado a uma escala \citeonline{ISO:15939}. Essas escalas podem ser divididas em:	
 
@@ -30,7 +30,7 @@ A \citeonline{ISO:15939} define medição como a união de operações cujo obje
 
 %---------------------------------------------------------------------------------------------------------------------%
 
-\section{Definição das métricas de software}
+\section{Definição das Métricas de Software}
 
 \citeonline{Fenton98}, mostraram que o termo métricas de software abrange muitas atividades, as quais estão envolvidas em um certo grau de medição de um software, como por exemplo estimativa de custo, estimativa de esforço e capacidade de reaproveitamento de elementos do software. Nesse contexto \citeonline{ISO:9126} categoriza as seguintes métricas de acordo com os diferentes tipos de medição:
 
@@ -48,7 +48,7 @@ A figura \ref{fig:modelodequalidade} reflete como as métricas influenciam nos c
 \begin{figure}[h!]
 \centering
 \includegraphics[keepaspectratio=false,scale=0.90]{figuras/figuras_matheus/tipos_medidas_INGLES.eps}
-\caption{Modelo de Qualidade do Produto da ISO 25023 adaptado da 
+\caption{Modelo de Qualidade do Produto adaptado da 
 \citeonline{ISO25023}}
 \label{fig:modelodequalidade}
 \end{figure}
@@ -56,12 +56,12 @@ A figura \ref{fig:modelodequalidade} reflete como as métricas influenciam nos c
 
 %---------------------------------------------------------------------------------------------------------------------%
 
-\section{Métricas de código fonte}
+\section{Métricas de Código Fonte}
 
 Serão utilizadas nesse trabalho de conclusão de curso métricas de código fonte, que segundo \citeonline{Meirelles2013} são métricas do tipo objetiva calculadas a partir da análise estática do código fonte de um software. As métricas de código fonte serão divididas em duas categorias, seguindo a categorização adotada por \citeonline{rego_monitoramento_2014}: Métricas de tamanho e complexidade e métricas de orientação a objetos.
 
 %--------------------------------------------
-\subsection{Métricas de tamanho e complexidade}
+\subsection{Métricas de Tamanho e Complexidade}
 
 O tamanho do código-fonte de um sistema foi um dos primeiros conceitos mensuráveis de software, uma vez que softwares podiam ocupar espaço tanto em forma de cartão perfurado quanto em forma de papel quando o código era impresso. Na programação em Assembler, por exemplo, uma linha física de código era o mesmo que uma instrução, logo, quanto maior o tamanho do código, maior era sua complexidade \cite{metricsandmodels}. A seguir são apresentadas algumas métricas de tamanho e complexidade.
 
@@ -116,7 +116,7 @@ Métricas de orientação a objetos foram adotadas devido à grande utilização
 
 %---------------------------------------------------------------------------------------------------------------------%
 
-\section{Configurações de qualidade para métricas de código fonte} 
+\section{Configurações de Qualidade para Métricas de Código Fonte} 
 
 Em sua tese de doutorado, \citeonline{Meirelles2013} buscou responder as seguintes questões de pesquisa:
 \begin{easylist}[itemize]
@@ -170,7 +170,7 @@ Através dos resultados obtidos para cada métrica, \citeonline{Meirelles2013} o
 
 %---------------------------------------------------------------------------------------------------------------------%
 
-\section{Cenários de limpeza} 
+\section{Cenários de Limpeza} 
 
 Em seu livro Implementation Patterns, \citeonline{Beck2007} destaca três valores que um código limpo precisa ter: Comunicabilidade , simplicidade e flexibilidade.
 	
@@ -208,4 +208,6 @@ Aproveitando inicialmente os cenários \textbf{Classe pouco coesa} e \textbf{Int
 \FloatBarrier
 \end{sidewaystable}  
 
-  
+\section{Considerações Finais do Capítulo}  
+
+Esse capítulo apresentou a fundamentação teórica sobre aquilo que é medido e monitorado pela solução proposta. Além de uma definição sobre o que são métricas de código fonte e quais são seus intervalos qualitativos, também foi apresentada nesse capítulo a maneira como elas foram relacionadas a cenários de limpeza. O próximo capítulo será responsável por apresentar a teoria acerca de \textit{Data Warehousing} e como seu uso pode servir no monitoramento das métricas apresentadas nesse capítulo.

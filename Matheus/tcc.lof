@@ -1,10 +1,10 @@
 \select@language {brazil}
-\contentsline {figure}{\numberline {1}{\ignorespaces Modelo de Qualidade do Produto da ISO 25023 adaptado da \citeonline {ISO25023}\relax }}{18}{figure.caption.11}
-\contentsline {figure}{\numberline {2}{\ignorespaces Arquitetura de um ambiente de Data Warehousing\relax }}{30}{figure.caption.18}
-\contentsline {figure}{\numberline {3}{\ignorespaces Esquema estrela extra\IeC {\'\i }do de \citeonline {valeria2012}\relax }}{31}{figure.caption.19}
-\contentsline {figure}{\numberline {4}{\ignorespaces Cubo de dados com o fato Venda e dimens\IeC {\~o}es Produto, Funcion\IeC {\'a}rio e Tempo\relax }}{32}{figure.caption.21}
-\contentsline {figure}{\numberline {5}{\ignorespaces Diferen\IeC {\c c}a entre o fluxo seguido pelo Drill Up e pelo Drill Down, extra\IeC {\'\i }da de \cite {neeraj_sharma_2011}\relax }}{33}{figure.caption.22}
-\contentsline {figure}{\numberline {6}{\ignorespaces Arquitetura do ambiente de \textit {Data Warehousing} para m\IeC {\'e}tricas de c\IeC {\'o}digo\relax }}{34}{figure.caption.23}
-\contentsline {figure}{\numberline {7}{\ignorespaces Projeto f\IeC {\'\i }sico do \textit {Data Warehouse} extra\IeC {\'\i }do de \citeonline {rego_monitoramento_2014}\relax }}{38}{figure.caption.26}
-\contentsline {figure}{\numberline {8}{\ignorespaces Projeto f\IeC {\'\i }sico do \textit {Data Warehouse} extra\IeC {\'\i }do de \citeonline {rego_monitoramento_2014}\relax }}{39}{figure.caption.27}
-\contentsline {figure}{\numberline {9}{\ignorespaces Estrutura do estudo de caso\relax }}{41}{figure.caption.28}
+\contentsline {figure}{\numberline {1}{\ignorespaces Modelo de Qualidade do Produto adaptado da \citeonline {ISO25023}\relax }}{20}{figure.caption.11}
+\contentsline {figure}{\numberline {2}{\ignorespaces Arquitetura de um ambiente de Data Warehousing\relax }}{32}{figure.caption.18}
+\contentsline {figure}{\numberline {3}{\ignorespaces Esquema estrela extra\IeC {\'\i }do de \citeonline {valeria2012}\relax }}{33}{figure.caption.19}
+\contentsline {figure}{\numberline {4}{\ignorespaces Cubo de dados com o fato Venda e dimens\IeC {\~o}es Produto, Funcion\IeC {\'a}rio e Tempo\relax }}{34}{figure.caption.21}
+\contentsline {figure}{\numberline {5}{\ignorespaces Diferen\IeC {\c c}a entre o fluxo seguido pelo Drill Up e pelo Drill Down, extra\IeC {\'\i }da de \cite {neeraj_sharma_2011}\relax }}{35}{figure.caption.22}
+\contentsline {figure}{\numberline {6}{\ignorespaces Arquitetura do ambiente de \textit {Data Warehousing} para m\IeC {\'e}tricas de c\IeC {\'o}digo\relax }}{36}{figure.caption.23}
+\contentsline {figure}{\numberline {7}{\ignorespaces Projeto f\IeC {\'\i }sico do \textit {Data Warehouse} extra\IeC {\'\i }do de \citeonline {rego_monitoramento_2014}\relax }}{40}{figure.caption.26}
+\contentsline {figure}{\numberline {8}{\ignorespaces Projeto f\IeC {\'\i }sico do \textit {Data Warehouse} extra\IeC {\'\i }do de \citeonline {rego_monitoramento_2014}\relax }}{41}{figure.caption.27}
+\contentsline {figure}{\numberline {9}{\ignorespaces Estrutura do estudo de caso\relax }}{43}{figure.caption.28}
