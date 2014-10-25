@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.9.14)  24 OCT 2014 19:33
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.9.14)  25 OCT 2014 11:11
 entering extended mode
 **tcc.tex
 (C:\Users\Matheus\Documents\GitHub\tcc_dw_metricas\Matheus\tcc.tex
@@ -2319,20 +2319,10 @@ bibitemlist
 [50
 
 ])
-(C:\Users\Matheus\Documents\GitHub\tcc_dw_metricas\Matheus\apendices/apendices.
-tex [51] [52
-
-] [53
-
-])
-(C:\Users\Matheus\Documents\GitHub\tcc_dw_metricas\Matheus\editaveis/anexos.tex
-)
 No file tcc.ind.
 
 AED: lastpage setting LastPage
-[54
-
-]
+[51]
 \tf@lof=\write8
 \tf@lot=\write9
 \tf@toc=\write10
@@ -2350,36 +2340,48 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 44.
  ) 
 Here is how much of TeX's memory you used:
- 27369 strings out of 493921
- 484408 string characters out of 3144870
- 594931 words of memory out of 3000000
- 29802 multiletter control sequences out of 15000+200000
+ 27353 strings out of 493921
+ 483875 string characters out of 3144870
+ 595017 words of memory out of 3000000
+ 29794 multiletter control sequences out of 15000+200000
  107557 words of font info for 81 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
  68i,14n,75p,1284b,617s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/lm/lm-rm.enc}{C:/Program F
-iles (x86)/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathex.enc}{C:/Program Files (x86)/
-MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathit.enc}{C:/Program Files (x86)/MiKTeX 2.9/
-fonts/enc/dvips/lm/lm-ec.enc}{C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips
-/lm/lm-mathsy.enc}<C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmbx
-12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmbx9.pfb><C:/P
-rogram Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmbxi10.pfb><C:/Program Fil
-es (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmex10.pfb><C:/Program Files (x86)/Mi
-KTeX 2.9/fonts/type1/public/lm/lmmi12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fo
-nts/type1/public/lm/lmmi8.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/pu
-blic/lm/lmr10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmr1
-2.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmr8.pfb><C:/Pro
-gram Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmri10.pfb><C:/Program Files 
-(x86)/MiKTeX 2.9/fonts/type1/public/lm/lmri12.pfb><C:/Program Files (x86)/MiKTe
-X 2.9/fonts/type1/public/lm/lmss12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts
-/type1/public/lm/lmss17.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/publ
-ic/lm/lmssbo10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lms
-sbx10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmsso12.pfb>
-<C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmsso17.pfb><C:/Progra
-m Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmsy10.pfb>
-Output written on tcc.pdf (55 pages, 1144349 bytes).
+pdfTeX warning (dest): name{appendix.C} has been referenced but does not exis
+t, replaced by a fixed one
+
+pdfTeX warning (dest): name{appendix.B} has been referenced but does not exist,
+ replaced by a fixed one
+
+pdfTeX warning (dest): name{appendix.A} has been referenced but does not exist,
+ replaced by a fixed one
+
+pdfTeX warning (dest): name{page.54} has been referenced but does not exist, re
+placed by a fixed one
+
+{C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/lm/lm-rm.enc}{C:/Program Fil
+es (x86)/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathex.enc}{C:/Program Files (x86)/Mi
+KTeX 2.9/fonts/enc/dvips/lm/lm-mathit.enc}{C:/Program Files (x86)/MiKTeX 2.9/fo
+nts/enc/dvips/lm/lm-ec.enc}{C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/l
+m/lm-mathsy.enc}<C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmbx12
+.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmbx9.pfb><C:/Pro
+gram Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmbxi10.pfb><C:/Program Files
+ (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmex10.pfb><C:/Program Files (x86)/MiKT
+eX 2.9/fonts/type1/public/lm/lmmi12.pfb><C:/Program Files (x86)/MiKTeX 2.9/font
+s/type1/public/lm/lmmi8.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/publ
+ic/lm/lmr10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmr12.
+pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmr8.pfb><C:/Progr
+am Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmri10.pfb><C:/Program Files (x
+86)/MiKTeX 2.9/fonts/type1/public/lm/lmri12.pfb><C:/Program Files (x86)/MiKTeX 
+2.9/fonts/type1/public/lm/lmss12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/t
+ype1/public/lm/lmss17.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public
+/lm/lmssbo10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmssb
+x10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmsso12.pfb><C
+:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmsso17.pfb><C:/Program 
+Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmsy10.pfb>
+Output written on tcc.pdf (52 pages, 1140982 bytes).
 PDF statistics:
- 1107 PDF objects out of 1200 (max. 8388607)
- 160 named destinations out of 1000 (max. 500000)
- 480 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1086 PDF objects out of 1200 (max. 8388607)
+ 158 named destinations out of 1000 (max. 500000)
+ 456 words of extra memory for PDF output out of 10000 (max. 10000000)
 

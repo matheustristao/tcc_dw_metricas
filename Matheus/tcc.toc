@@ -47,18 +47,3 @@
 \vspace {\cftbeforechapterskip }
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
 \contentsline {chapter}{Refer\^encias}{50}{section*.32}
-\renewcommand *{\cftappendixname }{AP\^ENDICE \space }
-\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
-\cftinsert {A}
-\contentsline {appendix}{\chapternumberline {A}\MakeTextUppercase {Descri\IeC {\c c}\IeC {\~a}o do Processo de ETL no Kettle}}{52}{appendix.A}
-\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
-\cftinsert {A}
-\contentsline {appendix}{\chapternumberline {B}\MakeTextUppercase {Gr\IeC {\'a}ficos e Tabelas dos Percentis de M\IeC {\'e}tricas de C\IeC {\'o}digo-Fonte}}{53}{appendix.B}
-\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
-\cftinsert {A}
-\contentsline {appendix}{\chapternumberline {C}\MakeTextUppercase {Cen\IeC {\'a}rios de Limpeza de C\IeC {\'o}digo-Fonte}}{54}{appendix.C}
-\cftinsert {AAA}
-\renewcommand *{\cftappendixname }{ANEXO \space }
