@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=latex 2014.9.6)  27 OCT 2014 03:38
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=latex 2014.9.6)  27 OCT 2014 19:42
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1689,18 +1689,63 @@ Overfull \hbox (0.65685pt too wide) in paragraph at lines 56--57
 nismo \T1/lmr/m/it/12 goal-question-metrics\T1/lmr/m/n/12 .
  []
 
+
+Underfull \hbox (badness 10000) in paragraph at lines 58--59
+
+ []
+
 [34]
-Overfull \hbox (4.74597pt too wide) in paragraph at lines 70--71
+Underfull \hbox (badness 10000) in paragraph at lines 67--68
+
+ []
+
+
+Overfull \hbox (4.74597pt too wide) in paragraph at lines 72--73
 []\T1/lmr/bx/n/12 QE02:  \T1/lmr/m/n/12 Quan-tas to-ma-das de de-ci-são ao todo
  fo-ram re-a-li-za-das pela equipe baseando-
  []
 
-[35] [36]
 
-LaTeX Warning: Reference `chap:arquitetura' on page 37 undefined on input line 
-171.
+Underfull \hbox (badness 10000) in paragraph at lines 76--77
 
-[37]) (./capitulos/6-conclusao.tex [38] [39]) (./tcc.bbl (./tcc.brf)
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 85--86
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 96--97
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 105--106
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 114--115
+
+ []
+
+[35]
+Underfull \hbox (badness 10000) in paragraph at lines 124--125
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 133--134
+
+ []
+
+[36] [37]
+
+LaTeX Warning: Reference `chap:arquitetura' on page 38 undefined on input line 
+181.
+
+) (./capitulos/6-conclusao.tex [38] [39]) (./tcc.bbl (./tcc.brf)
 \tf@brf=\write6
 \openout6 = `tcc.brf'.
 
@@ -1756,7 +1801,7 @@ Package atveryend Info: Executing hook `AfterLastShipout' on input line 45.
 Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 45.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 45.
 Package rerunfilecheck Info: File `tcc.brf' has not changed.
-(rerunfilecheck)             Checksum: D5F3374D219E3A18FC7BDC234709C146;4205.
+(rerunfilecheck)             Checksum: 6DCFB403DFF039653E4C009D971E9522;4205.
 
 
 LaTeX Warning: There were undefined references.
@@ -1769,10 +1814,10 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 45.
 Here is how much of TeX's memory you used:
  25130 strings out of 493305
  418205 string characters out of 6139898
- 547189 words of memory out of 5000000
+ 547242 words of memory out of 5000000
  27978 multiletter control sequences out of 15000+600000
  106278 words of font info for 81 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
  63i,13n,75p,932b,645s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on tcc.dvi (44 pages, 231628 bytes).
+Output written on tcc.dvi (44 pages, 232304 bytes).
