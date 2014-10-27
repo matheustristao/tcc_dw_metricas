@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=latex 2014.9.6)  24 OCT 2014 14:54
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=latex 2014.9.6)  27 OCT 2014 03:38
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1396,11 +1396,7 @@ Package hyperref Info: Option `colorlinks' set `true' on input line 15.
 
 
 Writing index file tcc.idx 
-(./tcc.aux
-
-LaTeX Warning: Label `chap:metricas' multiply defined.
-
-)
+(./tcc.aux)
 \openout1 = `tcc.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 9.
@@ -1471,7 +1467,7 @@ LaTeX Font Info:    Font shape `T1/lmss/bx/it' in size <20.74> not available
 File: figuras/capa.eps Graphic file (type eps)
 <figuras/capa.eps> [1
 
-] [2]
+]
 LaTeX Font Info:    Font shape `T1/lmss/bx/it' in size <17.28> not available
 (Font)              Font shape `T1/lmss/bx/sl' tried instead on input line 14.
 LaTeX Font Info:    Try loading font information for OT1+lmr on input line 14.
@@ -1572,12 +1568,8 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 ])
 (./editaveis/abstract.tex [8
 
-]) (./fixos/listasAutomaticas.tex (./tcc.lof
-Overfull \hbox (61.68492pt too wide) in paragraph at lines 4--4
- [][] [] []  
- []
-
-) [9
+]) (./fixos/listasAutomaticas.tex (./tcc.lof)
+[9
 
 ] (./tcc.lot
 Overfull \hbox (16.0938pt too wide) in paragraph at lines 2--2
@@ -1643,25 +1635,29 @@ o na in-ter-pre-ta-ção dos va-lo-res ([][][][][][],
 [21
 
 ]
-File: figuras/figuras_matheus/tipos_medidas_INGLES.eps Graphic file (type eps)
- <figuras/figuras_matheus/tipos_medidas_INGLES.eps> [22] [23] [24]
-(./tabelas/tabelasMatheus/percentis.ltx
+File: figuras/figuras_nilton/modeloqualidade.eps Graphic file (type eps)
+ <figuras/figuras_nilton/modeloqualidade.eps>
+Overfull \hbox (61.07321pt too wide) in paragraph at lines 49--50
+ [][] 
+ []
+
+[22] [23] [24] [25] (./tabelas/tabelasMatheus/percentis.ltx
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <9> on input line 3.
 )
-Overfull \hbox (9.37761pt too wide) in paragraph at lines 3--139
+Overfull \hbox (9.37761pt too wide) in paragraph at lines 3--156
  [] 
  []
 
-(./tabelas/tabelasMatheus/intervalos.ltx) [25]
+(./tabelas/tabelasMatheus/intervalos.ltx) [26]
 (./tabelas/tabelasMatheus/metricas.ltx)
 
-LaTeX Warning: Float too large for page by 59.66628pt on input line 165.
+LaTeX Warning: Float too large for page by 59.66628pt on input line 182.
 
-[26] [27]) (./capitulos/3-contratacao-fornecedores-desenvolvimento-software.tex
-[28
+[27] [28]) (./capitulos/3-contratacao-fornecedores-desenvolvimento-software.tex
+[29
 
-]) (./capitulos/4-dwing.tex [29
+]) (./capitulos/4-dwing.tex [30
 
 ]
 LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <24.88> not available
@@ -1671,7 +1667,7 @@ LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <17.28> not available
 LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <14.4> not available
 (Font)              Font shape `T1/lmss/m/sl' tried instead on input line 9.
 ) (./capitulos/5-projeto-estudo-de-caso.tex
-[30
+[31
 
 ]
 File: figuras/figuras_nilton/EscopoEstudoCaso.eps Graphic file (type eps)
@@ -1679,7 +1675,7 @@ File: figuras/figuras_nilton/EscopoEstudoCaso.eps Graphic file (type eps)
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[31
+[32
 
 ]
 File: figuras/figuras_nilton/EstruturaEstudoCaso.eps Graphic file (type eps)
@@ -1687,33 +1683,28 @@ File: figuras/figuras_nilton/EstruturaEstudoCaso.eps Graphic file (type eps)
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[32]
+[33]
 Overfull \hbox (0.65685pt too wide) in paragraph at lines 56--57
 []\T1/lmr/m/n/12 Para aten-der a ques-tão de pes-quisa foi uti-li-zado o me-ca-
 nismo \T1/lmr/m/it/12 goal-question-metrics\T1/lmr/m/n/12 .
  []
 
-[33]
+[34]
 Overfull \hbox (4.74597pt too wide) in paragraph at lines 70--71
 []\T1/lmr/bx/n/12 QE02:  \T1/lmr/m/n/12 Quan-tas to-ma-das de de-ci-são ao todo
  fo-ram re-a-li-za-das pela equipe baseando-
  []
 
-[34]
+[35] [36]
 
-LaTeX Warning: Citation `novello_uma_2006' on page 35 undefined on input line 1
-46.
-
-[35]
-
-LaTeX Warning: Reference `chap:arquitetura' on page 36 undefined on input line 
+LaTeX Warning: Reference `chap:arquitetura' on page 37 undefined on input line 
 171.
 
-[36]) (./capitulos/6-conclusao.tex [37] [38]) (./tcc.bbl (./tcc.brf)
+[37]) (./capitulos/6-conclusao.tex [38] [39]) (./tcc.bbl (./tcc.brf)
 \tf@brf=\write6
 \openout6 = `tcc.brf'.
 
- [39
+ [40
 
 ]
 bibitemlist
@@ -1739,12 +1730,12 @@ Underfull \hbox (badness 3354) in paragraph at lines 28--28
 [][][][][][][][][][][][][][][] 
  []
 
-[40
+[41
 
-]) (./apendices/apendices.tex [41]) (./editaveis/anexos.tex) (./tcc.ind)
+]) (./apendices/apendices.tex [42]) (./editaveis/anexos.tex) (./tcc.ind)
 
 AED: lastpage setting LastPage
-[42
+[43
 
 ]
 \tf@lof=\write7
@@ -1765,23 +1756,23 @@ Package atveryend Info: Executing hook `AfterLastShipout' on input line 45.
 Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 45.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 45.
 Package rerunfilecheck Info: File `tcc.brf' has not changed.
-(rerunfilecheck)             Checksum: 4C03C2BE272C8974705EB0ACD16F7EFE;4142.
+(rerunfilecheck)             Checksum: D5F3374D219E3A18FC7BDC234709C146;4205.
 
 
 LaTeX Warning: There were undefined references.
 
 
-LaTeX Warning: There were multiply-defined labels.
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 45.
  ) 
 Here is how much of TeX's memory you used:
- 25087 strings out of 493305
- 417373 string characters out of 6139898
- 548051 words of memory out of 5000000
- 27934 multiletter control sequences out of 15000+600000
+ 25130 strings out of 493305
+ 418205 string characters out of 6139898
+ 547189 words of memory out of 5000000
+ 27978 multiletter control sequences out of 15000+600000
  106278 words of font info for 81 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
  63i,13n,75p,932b,645s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on tcc.dvi (44 pages, 219636 bytes).
+Output written on tcc.dvi (44 pages, 231628 bytes).
