@@ -46,18 +46,30 @@ Dispon{\'\i}vel em: \url{http://drum.lib.umd.edu//handle/1903/7517}.}
 {GILMORE, W.~J. \emph{Dominando PHP e MySql}. [S.l.]: STARLIN ALTA CONSULT,
   2008.}
 
+\bibitem[Harman 2010]{harman}
+\abntrefinfo{Harman}{HARMAN}{2010}
+{HARMAN, M. Why source code analysis and manipulation will always be important.
+  In:  IEEE. \emph{Source Code Analysis and Manipulation (SCAM), 2010 10th IEEE
+  Working Conference on}. [S.l.], 2010.}
+
+\bibitem[Honglei, Wei e Yanan 2009]{honglei_research_2009}
+\abntrefinfo{Honglei, Wei e Yanan}{HONGLEI; WEI; YANAN}{2009}
+{HONGLEI, T.; WEI, S.; YANAN, Z. The research on software metrics and software
+  complexity metrics. In:  . {IEEE}, 2009.
+ISBN 978-1-4244-5422-8, 978-0-7695-3930-0. Dispon{\'\i}vel em:
+  \url{http://ieeexplore.ieee.org/lpdocs/epic03/wrapper.htm?arnumber=5385114}.}
+
 \bibitem[{ISO/IEC 15939} 2002]{ISO:15939}
 \abntrefinfo{{ISO/IEC 15939}}{{ISO/IEC 15939}}{2002}
 {{ISO/IEC 15939}. \emph{{ISO/IEC} 15939: {S}oftware {E}ngineering - {S}oftware
   {M}easurement {P}rocess}.
 [S.l.], 2002.}
 
-\bibitem[{ISO/IEC 25023} 2011]{ISO25023}
-\abntrefinfo{{ISO/IEC 25023}}{{ISO/IEC 25023}}{2011}
-{{ISO/IEC 25023}. \emph{{ISO/IEC} 25023: Systems and software engineering -
-  Systems and software Quality Requirements and Evaluation (SQuaRE) -
-  Measurement of system and software product quality}.
-[S.l.], 2011.}
+\bibitem[{ISO/IEC 15939} 2008]{ISO:12207}
+\abntrefinfo{{ISO/IEC 15939}}{{ISO/IEC 15939}}{2008}
+{{ISO/IEC 15939}. \emph{{ISO/IEC} 12207: {S}ystem and {S}oftware {E}ngineering
+  - {S}oftware {L}ife {C}ycle {P}rocesses}.
+[S.l.], 2008.}
 
 \bibitem[{ISO/IEC 9126} 2001]{ISO:9126}
 \abntrefinfo{{ISO/IEC 9126}}{{ISO/IEC 9126}}{2001}
@@ -96,6 +108,21 @@ Dispon{\'\i}vel em: \url{http://www.scielo.br/pdf/rae/v37n4/a08v37n4}.}
 Tese (Doutorado) --- Instituto de Matemática e Estátistica -- Universidade de
   São Paulo (IME/USP), 2013.}
 
+\bibitem[Mills 1999]{Mills:1999}
+\abntrefinfo{Mills}{MILLS}{1999}
+{MILLS, E.~E. Metrics in the software engineering curriculum.
+\emph{Ann. Softw. Eng.}, J. C. Baltzer AG, Science Publishers, Red Bank, NJ,
+  USA, v.~6, n.~1-4, abr. 1999.
+ISSN 1022-7091.}
+
+\bibitem[Novello 2006]{novello_uma_2006}
+\abntrefinfo{Novello}{NOVELLO}{2006}
+{NOVELLO, T.~C.
+\emph{Uma abordagem de Data Warehouse para análise de processos de
+  desenvolvimento de software}.
+phdthesis --- Pontifícia Universidade Católica do Rio Grande do Sul, 2006.
+Dispon{\'\i}vel em: \url{http://tardis.pucrs.br/dspace/handle/10923/1570}.}
+
 \bibitem[R\^{e}go 2014]{rego_monitoramento_2014}
 \abntrefinfo{R\^{e}go}{R\^{e}GO}{2014}
 {R\^{e}GO, G.~B. Monitoramento de métricas de código-fonte com suporte de um
@@ -105,10 +132,16 @@ Tese (Doutorado) --- Instituto de Matemática e Estátistica -- Universidade de
 Dispon{\'\i}vel em: \url{http://bdm.unb.br/handle/10483/8069}.}
 
 \bibitem[SOFTEX 2013]{GuiaAquisicao}
-\abntrefinfo{SOFTEX}{SOFTEX}{2013}
+\abntrefinfo{SOFTEX}{SOFTEX}{2013a}
 {SOFTEX. \emph{{MPS}. {BR}-Guia de Aquisição}.
 [S.l.], 2013. Dispon{\'\i}vel em:
   \url{http://www.softex.br/wp-content/uploads/2013/07/MPS.BR\_Guia\_de\_Implementacao\_SV\_Parte\_2\_20132.pdf}.}
+
+\bibitem[SOFTEX 2013]{Guiaimplementacao}
+\abntrefinfo{SOFTEX}{SOFTEX}{2013b}
+{SOFTEX. {MPS} {BR}-guia de implementação – parte 2: Fundamentação para
+  implementação do nível f do mr-mps-sv:2012.
+2013.}
 
 \bibitem[WILLCOCKS e LACITY 2001]{WillcocksTercerizacao}
 \abntrefinfo{WILLCOCKS e LACITY}{WILLCOCKS; LACITY}{2001}

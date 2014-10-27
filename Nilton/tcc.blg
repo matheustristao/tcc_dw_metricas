@@ -13,7 +13,6 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
 Database file #1: abntex2-options.bib
 Database file #2: bibliografia.bib
-Warning--I didn't find a database entry for "novello_uma_2006"
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated glb_str_ptr (elt_size=4) to 20 items from 10.
 Reallocated global_strs (elt_size=20001) to 20 items from 10.
@@ -23,45 +22,44 @@ Reallocated glb_str_end (elt_size=4) to 20 items from 10.
 | Em caso de dúvidas ou problemas com este estilo procure |
 | http://abntex2.googlecode.com                           |
 +---------------------------------------------------------+
-You've used 22 entries,
+You've used 27 entries,
             6711 wiz_defined-function locations,
-            1315 strings with 12525 characters,
-and the built_in function-call counts, 23225 in all, are:
-= -- 2557
-> -- 431
-< -- 485
-+ -- 674
-- -- 137
-* -- 1397
-:= -- 3054
-add.period$ -- 70
-call.type$ -- 22
-change.case$ -- 161
-chr.to.int$ -- 31
-cite$ -- 21
-duplicate$ -- 2114
-empty$ -- 1188
-format.name$ -- 640
-if$ -- 4775
-int.to.chr$ -- 0
+            1343 strings with 13374 characters,
+and the built_in function-call counts, 28622 in all, are:
+= -- 3125
+> -- 543
+< -- 606
++ -- 833
+- -- 172
+* -- 1740
+:= -- 3755
+add.period$ -- 92
+call.type$ -- 27
+change.case$ -- 204
+chr.to.int$ -- 38
+cite$ -- 26
+duplicate$ -- 2619
+empty$ -- 1454
+format.name$ -- 802
+if$ -- 5871
+int.to.chr$ -- 1
 int.to.str$ -- 0
-missing$ -- 374
-newline$ -- 106
-num.names$ -- 105
-pop$ -- 481
+missing$ -- 454
+newline$ -- 133
+num.names$ -- 130
+pop$ -- 577
 preamble$ -- 1
-purify$ -- 73
+purify$ -- 90
 quote$ -- 0
-skip$ -- 2222
+skip$ -- 2733
 stack$ -- 1
-substring$ -- 903
-swap$ -- 744
-text.length$ -- 10
+substring$ -- 1096
+swap$ -- 920
+text.length$ -- 14
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 2
+type$ -- 7
 warning$ -- 0
-while$ -- 134
+while$ -- 165
 width$ -- 0
-write$ -- 312
-(There was 1 warning)
+write$ -- 393

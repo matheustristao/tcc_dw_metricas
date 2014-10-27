@@ -3,20 +3,21 @@
 
 \section{Processo de Medição}
 
-A \citeonline{ISO:15939} define medição como a união de operações cujo objetivo é atribuir um valor a uma métrica. Ainda segundo a \citeonline{ISO:15939}, o processo de medição é a chave primária para a gerência de um software e suas atividades no seu ciclo de vida, além disso, um processo de melhoria contínua requer mudanças evolutivas e mudanças evolutivas requerem um processo de medição.
-	Complementando o conceito levantado anteriormente, é possível afirmar de acordo com a \citeonline{ISO:9126} que a medição é a utilização de uma métrica para  atribuir um valor, que pode ser um número ou uma categoria, obtido a partir de uma escala a um atributo de uma entidade.
-	A escala, citada anteriormente, pode ser definida como um conjunto de categorias para as quais os atributos estão mapeados, de modo que um atributo de medição está associado a uma escala \citeonline{ISO:15939}. Essas escalas podem ser divididas em:	
+Segundo o \cite{Guiaimplementacao} o processo Medição é um processo que apoia os processos de gerência e melhoria de processo e de produto, sendo um dos processos principais para gerenciar as atividades do ciclo de vida do trabalho e avaliar a viabilidade dos planos de trabalho. O propósito da Medição é coletar e analisar os dados relativos aos produtos desenvolvidos e aos processos implementados na organização e em seus trabalhos, de forma a apoiar o efetivo gerenciamento dos processos e demonstrar objetivamente a qualidade dos produtos\cite{ISO:12207}.
 
-	\begin{easylist}[itemize]	
+Ainda segundo o \cite{Guiaimplementacao} Entende-se por método de medição uma sequência lógica de operações, descritas genericamente, usadas para quantificar um atributo com respeito a uma escala especificada. Esta escala pode ser nominal, ordinal ou de razão (de proporção), bem como definida em um intervalo. 
+
+\begin{easylist}[itemize]	
 	
 	& \textbf{Nominal:} A ordem não possui significado na interpretação dos valores \cite{Meirelles2013}
 	& \textbf{Ordinal:} A ordem dos valores possui significado, porém a distância entre os valores não. \cite{Meirelles2013}
 	& \textbf{Intervalo:}  A ordem dos valores possui significado e a distância entre os valores também. Porém, a proporção entre os valores não necessariamente possui significado. \cite{Meirelles2013}
 	& \textbf{Racional:} Semelhante a a medida com escala do tipo intervalo, porém a proporção possui significado. \cite{Meirelles2013}
 
-	\end{easylist}	
+	\end{easylist}
+
 	
-	A \citeonline{ISO:15939} divide o processo de medição em dois métodos diferentes, que se distinguem pela natureza do que é quantificado:
+	A \citeonline{ISO:15939} também divide o processo de medição em dois métodos diferentes, que se distinguem pela natureza do que é quantificado:
 	
 	\begin{easylist}[itemize]
 
@@ -30,7 +31,28 @@ A \citeonline{ISO:15939} define medição como a união de operações cujo obje
 
 \section{Definição das métricas de software}
 
-\citeonline{Fenton98}, mostraram que o termo métricas de software abrange muitas atividades, as quais estão envolvidas em um certo grau de medição de um software, como por exemplo estimativa de custo, estimativa de esforço e capacidade de reaproveitamento de elementos do software. Nesse contexto \citeonline{ISO:9126} categoriza as seguintes métricas de acordo com os diferentes tipos de medição:
+As métricas de software são medidas resultantes da medição do produto ou do processo do \textit{software} pelo qual é desenvolvido, sendo que o produto de \textit{software} deve ser visto como um objeto abstrato que se desenvolveu a partir de uma declaração inicial da necessidade de um sistema para um software finalizado, incluindo o código-fonte e as várias formas de documentação produzida durante o desenvolvimento \citeonline{Mills:1999}. Estas medidas resultantes podem ser estudas para serem utilizadas para medir a produtividade e a qualidade do produto. 
+
+
+\cite{Mills:1999} classifica as métricas de software como métricas de produtos ou métricas de processo, essa divisão pode ser vista na figura \ref{modelodequalidade}. 
+
+\begin{easylist}[itemize]	
+
+& \textbf{Métricas de produtos:} são as medidas do produto de software em qualquer fase do seu desenvolvimento, a partir dos requisitos do sistema. Métricas de produto podem medir a complexidade da arquitetura do software, o tamanho do programa(código-fonte), ou o número de páginas de documentos produzidos. 
+
+& \textbf{Métricas de processo:} são as medidas do processo de desenvolvimento de software, como o tempo de desenvolvimento global, o tipo de metodologia utilizada, ou o nível médio da experiência da equipe de programação.
+
+\end{easylist}
+
+\begin{figure}[h!]
+\centering
+\includegraphics[keepaspectratio=false,scale=0.65]{figuras/figuras_nilton/modeloqualidade.eps}
+\caption{Modelo de Qualidade do Produto da \citeonline{ISO:9126}}
+\label{modelodequalidade}
+\end{figure}
+\FloatBarrier
+
+A figura \ref{modelodequalidade} também pode ser notado a classificação das métricas de acordo com os diferentes tipos de medição, refletindo como as métricas influenciam nos contextos em que elas estão envolvidas, A qualidade do produto de software pode ser avaliada medindo-se os atributos internos (tipicamente medidas estáticas de produtos intermediários), os atributos externos (tipicamente pela medição do comportamento do código quando executado) ou os atributos de qualidade em uso \cite{ISO:9126}.
 
 \begin{easylist}[itemize]
 
@@ -40,28 +62,23 @@ A \citeonline{ISO:15939} define medição como a união de operações cujo obje
 
 \end{easylist}
 
-A figura abaixo reflete como as métricas influenciam nos contextos em que elas estão envolvidas, seja em relação ao software propriamente dito (tanto internamente quanto externamente) ou ao efeito produzido pelo uso de software:
-
-	
-\begin{figure}[h!]
-\centering
-\includegraphics[keepaspectratio=false,scale=0.90]{figuras/figuras_matheus/tipos_medidas_INGLES.eps}
-\caption{Modelo de Qualidade do Produto da ISO 25023 adaptado da 
-\citeonline{ISO25023}}
-\label{modelodequalidade}
-\end{figure}
-\FloatBarrier
 
 %---------------------------------------------------------------------------------------------------------------------%
 
 \section{Métricas de código fonte}
 
-Serão utilizadas nesse trabalho de conclusão de curso métricas de código fonte, que segundo \citeonline{Meirelles2013} são métricas do tipo objetiva calculadas a partir da análise estática do código fonte de um software. As métricas de código fonte serão divididas em duas categorias, seguindo a categorização adotada por \citeonline{rego_monitoramento_2014}: Métricas de tamanho e complexidade e métricas de orientação a objetos.
+A definição de código-fonte segundo a SCAM é qualquer descrição executável de um sistema de software sendo incluído código de máquina, linguagens de alto nível e por representações gráficas executáveis \cite{harman}.
+
+Segundo \cite{Mills:1999} a maior parte do trabalho inicial em métricas de produto analisaram as características do código-fonte. A partir da experiência com métricas e modelos, tornou-se cada vez mais evidente que as informações de métricas obtidas anteriormente do ciclo de desenvolvimento pode ser de grande valor no controle do processo e dos resultados, o que sucedeu uma série de trabalhos tratando sobre o tamanho ou complexidade do software. 
+
+Neste capítulo será evidenciado em duas categorias as métricas de código-fonte que serão utilizadas neste trabalho de conclusão de curso, métricas de tamanho e complexidade e métricas de orientação a objetos. Estas métricas são objetivas e serão calculadas a partir da análise estática do código-fonte de um software. 
 
 %--------------------------------------------
 \subsection{Métricas de tamanho e complexidade}
 
-O tamanho do código-fonte de um sistema foi um dos primeiros conceitos mensuráveis de software, uma vez que softwares podiam ocupar espaço tanto em forma de cartão perfurado quanto em forma de papel quando o código era impresso. Na programação em Assembler, por exemplo, uma linha física de código era o mesmo que uma instrução, logo, quanto maior o tamanho do código, maior era sua complexidade \cite{metricsandmodels}. A seguir são apresentadas algumas métricas de tamanho e complexidade.
+Cada produto do desenvolvimento de software é uma entidade física, como tal, pode ser descrito em termos de tamanho. Desde outros objetos físicos são facilmente mensuráveis (em comprimento, volume, massa, ou outra medida padrão), medir o tamanho do software deve ser relativamente simples e coerente de acordo com os princípios da teoria da medição. No entanto, na prática, a medição de tamanho apresenta grandes dificuldades\cite{Fenton98}. 
+
+Segundo \cite{honglei_research_2009} as métricas de complexidade \textit{software} pertencem as principais medições de software e é o principal método para assegurar a qualidade do \textit{software}. Quanto menor a complexidade dos programas, melhor eles são, as métricas de complexidade também podem ser usadas para prever os defeitos ou erros. A seguir são apresentadas algumas métricas de tamanho e complexidade.
 
 \begin{easylist}[itemize]
 
