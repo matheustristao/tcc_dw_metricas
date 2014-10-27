@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.9.14)  27 OCT 2014 10:02
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.9.14)  27 OCT 2014 17:10
 entering extended mode
 **tcc.tex
 (C:\Users\Matheus\Documents\GitHub\tcc_dw_metricas\Matheus\tcc.tex
@@ -2342,7 +2342,7 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 44.
 Here is how much of TeX's memory you used:
  27346 strings out of 493921
  483792 string characters out of 3144870
- 593785 words of memory out of 3000000
+ 594785 words of memory out of 3000000
  29791 multiletter control sequences out of 15000+200000
  107557 words of font info for 81 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
@@ -2367,7 +2367,7 @@ ic/lm/lmssbo10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lms
 sbx10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmsso12.pfb>
 <C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmsso17.pfb><C:/Progra
 m Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmsy10.pfb>
-Output written on tcc.pdf (52 pages, 1140011 bytes).
+Output written on tcc.pdf (52 pages, 1141613 bytes).
 PDF statistics:
  1076 PDF objects out of 1200 (max. 8388607)
  154 named destinations out of 1000 (max. 500000)
