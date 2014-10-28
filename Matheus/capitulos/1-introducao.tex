@@ -9,19 +9,20 @@ Através do processo de medição da qualidade interna do software é possível 
 
 \section{Justificativa}
 
-Buscando facilitar a interpretação das métricas de código fonte, bem como apoiar as decisões de refatoração a serem tomadas, \citeonline{rego_monitoramento_2014} elaborou um ambiente de \textit{Data Warehouse} para armazenamento de métricas, sobre o qual esse trabalho irá analisar sua eficácia e eficiência no monitoramento da qualidade interna do software, sendo essa sua maior contribuição. Essa análise poderá ajudar equipes de desenvolvimento de software na escolha de uma maneira de aferir a qualidade interna do seu produto e tomar as decisões corretas sobre o que refatorar.
+Buscando facilitar a interpretação das métricas de código fonte, bem como apoiar as decisões de refatoração a serem tomadas, \citeonline{rego_monitoramento_2014} elaborou um ambiente de \textit{Data Warehouse} para armazenamento de métricas, sobre o qual este trabalho irá analisar sua eficácia e eficiência no monitoramento da qualidade interna do software, sendo essa sua maior contribuição. Essa análise poderá ajudar equipes de desenvolvimento de software na escolha de uma maneira de aferir a qualidade interna do seu produto e tomar as decisões corretas sobre o que refatorar.
 
 \section{Problema}
+\label{intro_problema}
 
-ESCREVER PROBLEMA
+Apesar de métricas de código fonte serem coletadas facilmente através de ferramentas como o \textit{Sonar} e o \textit{Analizo}, sua interpretação ainda pode ser um desafio que se não for superado pode tornar essa coleta algo sem muito valor significativo. Ferramentas de análise de métricas frequentemente exportam seu resultado como valores numéricos isolados \cite{Meirelles2013} e números isolados a respeito do código não trazem consigo definições sobre o que deve ser refatorado. Surge a partir desse fato a necessidade de uma solução que apoie a tomada de decisão, associando esses valores numéricos a elementos mais fáceis de serem interpretados, como cenários de limpeza. 
 
-Baseando-se no problema descrito, foi criada a seguinte questão geral de pesquisa:
+Baseando-se no problema descrito e aproveitando a solução já desenvolvida, que utiliza um ambiente de \textit{Data Warehousing} para o monitoramento de métricas de código fonte, foi criada a seguinte questão geral de pesquisa:
 
 \textbf{\textit{O uso de \textit{Data Warehousing} é eficaz e eficiente no monitoramento de métricas de código fonte, facilitando a interpretação dos resultados da análise estática e apoiando decisões de refatoração?} }
 
 \section{Objetivos}
 
-O objetivo geral desse trabalho consiste na análise da eficácia e eficiência do uso de \textit{Data Warehousing} no monitoramento de métricas de código fonte. Como esse trabalho é dividido em duas partes, seus objetivos também foram divididos dessa forma, sendo os objetivos da primeira parte:
+O objetivo geral deste trabalho consiste na análise da eficácia e eficiência do uso de \textit{Data Warehousing} no monitoramento de métricas de código fonte. Como este trabalho é dividido em duas partes, seus objetivos também foram divididos dessa forma, sendo os objetivos da primeira parte:
 
 \begin{easylist}[itemize]	
 	
@@ -31,7 +32,7 @@ O objetivo geral desse trabalho consiste na análise da eficácia e eficiência 
 	
 	\end{easylist}	
 
-A segunda parte desse trabalho, a ser desenvolvida no primeiro semestre de 2015, terá os seguintes objetivos:	
+A segunda parte deste trabalho, a ser desenvolvida no primeiro semestre de 2015, terá os seguintes objetivos:	
 
 \begin{easylist}[itemize]	
 	
@@ -55,12 +56,12 @@ Segundo \citeonline{wohlin2012experimentation} a condução de um estudo de caso
 \end{figure}
 \FloatBarrier
 
-Projetar o estudo de caso e preparar a coleta de dados são etapas que consistem em uma macro atividade chamada de planejamento do estudo de caso. Nesse planejamento serão identificados elementos como o problema a ser resolvido e a questão de pesquisa a ser respondida, de modo que o protocolo de estudo de caso possa ser elaborado já determinando qual o método e a fonte da coleta dos dados. Coletar dados é uma atividade a ser executada em seguida, feita através de pesquisas bibliográficas e documentais além dos resultados extraídos da própria solução para monitoramento de código fonte a ser analisada durante o estudo de caso. Analisar os dados coletados diz respeito à interpretação dos dados coletados compreendendo não só análises quantitativas como também qualitativas. A etapa chamada de compartilhar os resultados, por sua vez, indica que os resultados coletados e interpretados são expostos nesse trabalho a quem desejar fazer sua leitura. 
+Projetar o estudo de caso e preparar a coleta de dados são etapas que consistem em uma macro atividade chamada de planejamento do estudo de caso. Nesse planejamento serão identificados elementos como o problema a ser resolvido e a questão de pesquisa a ser respondida, de modo que o protocolo de estudo de caso possa ser elaborado já determinando qual o método e a fonte da coleta dos dados. Coletar dados é uma atividade a ser executada em seguida, feita através de pesquisas bibliográficas e documentais além dos resultados extraídos da própria solução para monitoramento de código fonte a ser analisada durante o estudo de caso. Analisar os dados coletados diz respeito à interpretação dos dados coletados compreendendo não só análises quantitativas como também qualitativas. A etapa chamada de compartilhar os resultados, por sua vez, indica que os resultados coletados e interpretados são expostos neste trabalho a quem desejar fazer sua leitura. 
 
 
 \section{Organização do Trabalho}
 
-Esse trabalho está dividido em 5 capítulos:
+Este trabalho está dividido em 5 capítulos:
 
 	\begin{easylist}[itemize]	
 	

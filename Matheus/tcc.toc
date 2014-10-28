@@ -36,10 +36,10 @@
 \contentsline {section}{\numberline {4.1}Defini\IeC {\c c}\IeC {\~a}o sobre estudo de caso}{43}{section.4.1}
 \contentsline {subsection}{\numberline {4.1.1}Problema}{44}{subsection.4.1.1}
 \contentsline {subsection}{\numberline {4.1.2}Quest\IeC {\~a}o de Pesquisa}{44}{subsection.4.1.2}
-\contentsline {section}{\numberline {4.2}\textit {Background}}{46}{section.4.2}
+\contentsline {section}{\numberline {4.2}\textit {Background}}{47}{section.4.2}
 \contentsline {section}{\numberline {4.3}Sele\IeC {\c c}\IeC {\~a}o}{47}{section.4.3}
 \contentsline {section}{\numberline {4.4}Fonte dos dados coletados e m\IeC {\'e}todo de coleta}{47}{section.4.4}
-\contentsline {section}{\numberline {4.5}Amea\IeC {\c c}as a validade do estudo de caso}{47}{section.4.5}
+\contentsline {section}{\numberline {4.5}Amea\IeC {\c c}as a validade do estudo de caso}{48}{section.4.5}
 \contentsline {section}{\numberline {4.6}Processo de an\IeC {\'a}lise dos dados}{48}{section.4.6}
 \contentsline {section}{\numberline {4.7}Considera\IeC {\c c}\IeC {\~o}es finais do cap\IeC {\'\i }tulo}{49}{section.4.7}
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
