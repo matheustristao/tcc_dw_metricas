@@ -20,19 +20,20 @@
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
 \contentsline {chapter}{\chapternumberline {4}\MakeTextUppercase {Projeto de Estudo de Caso}}{17}{chapter.4}
 \contentsline {section}{\numberline {4.1}Defini\IeC {\c c}\IeC {\~a}o}{17}{section.4.1}
-\contentsline {section}{\numberline {4.2}Background}{19}{section.4.2}
-\contentsline {section}{\numberline {4.3}Design}{19}{section.4.3}
-\contentsline {section}{\numberline {4.4}Sele\IeC {\c c}\IeC {\~a}o}{19}{section.4.4}
-\contentsline {section}{\numberline {4.5}Fonte e M\IeC {\'e}todo de Coleta de Dados}{19}{section.4.5}
-\contentsline {section}{\numberline {4.6}Validade}{19}{section.4.6}
-\contentsline {section}{\numberline {4.7}Trabalho de Campo}{20}{section.4.7}
-\contentsline {section}{\numberline {4.8}An\IeC {\'a}lise}{20}{section.4.8}
-\contentsline {section}{\numberline {4.9}Considera\IeC {\c c}\IeC {\~o}es Finais do Cap\IeC {\'\i }tulo}{20}{section.4.9}
+\contentsline {section}{\numberline {4.2}Background}{18}{section.4.2}
+\contentsline {subsection}{\numberline {4.2.1}Outros Trabaleos}{18}{subsection.4.2.1}
+\contentsline {section}{\numberline {4.3}Design}{20}{section.4.3}
+\contentsline {section}{\numberline {4.4}Sele\IeC {\c c}\IeC {\~a}o}{20}{section.4.4}
+\contentsline {section}{\numberline {4.5}Fonte e M\IeC {\'e}todo de Coleta de Dados}{20}{section.4.5}
+\contentsline {section}{\numberline {4.6}An\IeC {\'a}lise}{20}{section.4.6}
+\contentsline {section}{\numberline {4.7}Validade}{20}{section.4.7}
+\contentsline {section}{\numberline {4.8}Cronograma}{21}{section.4.8}
+\contentsline {section}{\numberline {4.9}Considera\IeC {\c c}\IeC {\~o}es Finais do Cap\IeC {\'\i }tulo}{21}{section.4.9}
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
 \contentsline {chapter}{\chapternumberline {5}\MakeTextUppercase {Conclus\IeC {\~a}o}}{22}{chapter.5}
 \vspace {\cftbeforechapterskip }
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
-\contentsline {chapter}{Refer\^encias}{23}{section*.15}
+\contentsline {chapter}{Refer\^encias}{23}{section*.14}
 \renewcommand *{\cftappendixname }{AP\^ENDICE \space }
 \cftinsert {AAA}
 \renewcommand *{\cftappendixname }{ANEXO \space }

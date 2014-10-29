@@ -5,6 +5,17 @@
 \providecommand{\abntbstabout}[1]{}
 \abntbstabout{v-1.9.2 }
 
+\bibitem[Brereton, Kitchenham e Budgen 2008]{case-study-template-2008}
+\abntrefinfo{Brereton, Kitchenham e Budgen}{BRERETON; KITCHENHAM; BUDGEN}{2008}
+{BRERETON, P.; KITCHENHAM, B.; BUDGEN, D. Using a protocol template for case
+  study planning. In:  \emph{Proceedings of EASE 2008}. [S.l.]: BCS-eWiC,
+  2008.}
+
+\bibitem[Gil 2008]{gil-estudo}
+\abntrefinfo{Gil}{GIL}{2008}
+{GIL, A.~C. \emph{Como elaborar projetos de pesquisa}. Sao Paulo: Atlas, 2008.
+ISBN 9788522431694 8522431698.}
+
 \bibitem[Yin 2001]{yin2001estudo}
 \abntrefinfo{Yin}{YIN}{2001}
 {YIN, R.~K. \emph{Estudo de caso: planejamento e metodos}. Porto Alegre:

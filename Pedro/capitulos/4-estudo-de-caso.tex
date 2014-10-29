@@ -1,50 +1,70 @@
 \chapter{Projeto de Estudo de Caso}
 \label{chap:proj-est-caso}
 
-BREVE INTRODUCAO DO CAPITULO \cite{yin2001estudo} 123
+%TODO ESCREVER BREVE INTRODUCAO DO CAPITULO 
 
-\section{Definição}
+BREVE INTRODUCAO DO CAPITULO 
 
-O estudo de caso representa uma maneira de se investigar um tópico empírico seguindo-se um conjunto de procedimentos pré-especificados \citeonline{yin2001estudo}. Um estudo de caso tem a vantagem de prover respostas que vão além das questões de ``O que''
+% @sec:Definição
+\section{Definição}\label{sec:Definição}
 
-Consiste no estudo profundo e exaustivo de um ou poucos objetos, de maneira que permita seu amplo e detalhado conhecimento, tarefa praticamente impossível mediante outros delineamentos já considerados
+Um estudo de caso consiste no estudo profundo e exaustivo de um ou poucos objetos, de maneira que permita seu amplo e detalhado conhecimento \cite{gil-estudo}, assim representa uma maneira de se investigar um tópico empírico seguindo-se um conjunto de procedimentos pré-especificados \cite{yin2001estudo}.
+
+% Um estudo de caso tem a vantagem de prover respostas que vão além das questões de ``O que''
+% TODO Protocolo
 
 \begin{figure}[h!]
 \centering
-\includegraphics[keepaspectratio=false,scale=0.75]{figuras/figuras_pedro/estrut-estudo-caso.eps}
+\includegraphics[keepaspectratio=false,scale=0.53]{figuras/figuras_pedro/estrut-estudo-caso.eps}
 \caption{ Legenda }
 \label{fig:estrut-est-caso}
 \end{figure}
 \FloatBarrier
 
-%GQM
+
+A estrutura do protocolo de estudo de caso prosposta se baseia em \citeonline{case-study-template-2008} e se apresenta dividido nos seguintes tópicos, cada um com seu objetivo específico:
+
+\begin{easylist}[itemize]
+
+& \textbf{Background} Seção \ref{sec:Background}: Identificar outras estudos acerca do tópico, define o questão de pesquisa principal que será abordado por este estudo.
+
+& \textbf{Design} Seção \ref{sec:Design}: Identificar se é um caso único ou múltiplo, seu propósito geral e quais, também descreve o objeto de estudo e as proposições  derivadas da questão de pesquisa.
+
+& \textbf{Seleção} Seção \ref{sec:Seleção}: Critérios para a seleção do caso.
+
+& \textbf{Fonte e Método de Coleta de Dados} Seção \ref{sec:Fonte e Método de Coleta de Dados}: Identificar os dados que serão coletados, definindo um plano para a coleta e como a informação será armazenada.
+
+& \textbf{Análise} Seção \ref{sec:Análise}: Identificar os critérios para interpretação dos resultados do estudo de caso, relacionar os dados com a questão de pesquisa e elaborar a explicação do encontrado.
+
+& \textbf{Validade} Seção \ref{sec:Validade}: Se baseia nos tipos de validades aplicáveis a um estudo de caso por \citeonline{yin2001estudo}, sendo elas: constructo, interna, externa e confiabiliade.
+
+& \textbf{Cronograma} Seção \ref{sec:Cronograma}: Cronograma com as estimativas de tempo para as grandes estapas: planejamento, coleta de dados, análise, relatórios.
+
+\end{easylist}
+
+ 
+
+% @sec:Background
+\section{Background}\label{sec:Background}
+
+\subsection{Outros Trabalhos}
+
+\subsection{Problema}
 
 \textbf{Objetivo 01} Avaliar a eficácia e eficiência da solução de \textit{Data Warehousing} do ponto de vista da <equipe de qualidede> no contexto de desenvolvimento de software. \newline
-
-\begin{comment}
-	\textbf{Finalidade:} Avaliar
-
-	\textbf{Issue:} a eficácia e eficiência
-
-	\textbf{Objeto:} S
-
-	\textbf{Ponto de Vista:} equipe de qualidade
-
-	\textbf{Contexto:} desenvolvimento de software (interno e/ou contratado?) em organizações públicas
-\end{comment}
 
 
 \textbf{Questão 01:} Quantas tomadas de decisão foram realizadas pela equipe baseado no uso da solução?
 
 \textbf{Fonte:} Observação em campo
 
-\textbf{Métrica:} número de decisões tomadas \newline
+\textbf{Métrica:} número de decisões tomadas. \newline
 
 \textbf{Questão 02:} Quantas tomadas de decisão foram realizadas pela equipe baseado no uso da solução em um <período de tempo>?
 
-\textbf{Fonte:} Observação em campo (audio/video)
+\textbf{Fonte:} Observação em campo (áudio/vídeo)
 
-\textbf{Métrica:} número de decisões tomadas/tempo \newline
+\textbf{Métrica:} número de decisões tomadas/tempo. \newline
 
 
 \textbf{Questão 03:} Qual a avaliação da equipe de qualidade quanto a detecção de cenarios de limpeza de codigo?
@@ -56,18 +76,16 @@ Consiste no estudo profundo e exaustivo de um ou poucos objetos, de maneira que 
 
 \textbf{Questão 04:} Com que frequência a equipe de qualidade encontra falhas relacionados à utilização da ferramenta?
 
-\textbf{Fonte:} Observação em campo (audio/video)
+\textbf{Fonte:} Observação em campo (áudio/vídeo)
 
-\textbf{Métrica:} quantidade de falhas \newline
+\textbf{Métrica:} quantidade de falhas. \newline
 
-
-%COMENTÁRIO MATHEUS:Aqui não seria qual a quantidade? Por que se for perguntar frequencia fica igual ao outro, além de frequencia indicar tempo que é eficiência
 
 \textbf{Questão 05:} Com que frequência a equipe de qualidade encontra falhas relacionados à utilização da ferramenta por tempo?
 
-\textbf{Fonte:} Registro de Observação em campo (audio/video)
+\textbf{Fonte:} Registro de Observação em campo (áudio/vídeo)
 
-\textbf{Métrica:} quantidade de falha / tempo \newline
+\textbf{Métrica:} quantidade de falha / tempo. \newline
 
 
 
@@ -86,7 +104,7 @@ Consiste no estudo profundo e exaustivo de um ou poucos objetos, de maneira que 
 
 \textbf{Fonte:} código fonte
 
-\textbf{Métrica:} números de cenários corrigidos por release / número de cenários encontrados por release \newline
+\textbf{Métrica:} números de cenários corrigidos por release / número de cenários encontrados por release. \newline
 
 
 
@@ -110,15 +128,32 @@ onde $ Ce $ é o total de cenários de limpezas identificados e $ Cl $ é total 
 %TODO Interpretação do valor da métrica
 \textbf{Interpretação do valor da métrica:} ----  \newline
 
-\section{Background}
+% @sec:Design
+\section{Design}\label{sec:Design}
 
-\section{Design}
+% @sec:Seleção
+\section{Seleção}\label{sec:Seleção}
 
-\section{Seleção}
+% @sec:Fonte e Método de Coleta de Dados
+\section{Fonte e Método de Coleta de Dados}\label{sec:Fonte e Método de Coleta de Dados}
 
-\section{Fonte e Método de Coleta de Dados}
+% @sec:Análise
+\section{Análise}\label{sec:Análise}
 
-\section{Validade}
+\begin{easylist}[itemize]
+
+& Categorização: Organização dos dados em duas categorias: Qualitativos e quantitativos. Os dados qualitativos referem-se aos questionários realizados. Os dados quantitativos, por sua vez, referem-se aos valores numéricos da solução de DW para monitoramento de métricas 
+
+& Exibição: Consiste na organização dos dados coletados para serem exibidos através de gráficos, tabelas e texto para poderem ser analisados. 
+
+& Verificação: Atestar padrões, tendências e aspectos específicos dos significados dos dados. Procurando assim gerar uma discussão e interpretação de cada dado exibido.
+
+& Conclusão: Agrupamento dos resultados mais relevantes das discussões e interpretações dos dados anteriormente apresentados.
+
+\end{easylist}
+
+% @sec:Validade
+\section{Validade}\label{sec:Validade}
 
 \begin{easylist}[itemize]
 
@@ -137,37 +172,8 @@ O fato deste trabalho ser o primeiro a utilizar a solução para o estudo de cas
 
 \end{easylist}
 
-\section{Trabalho de Campo}
+% @sec:Cronograma
+\section{Cronograma}\label{sec:Cronograma}
 
-\section{Análise}
-
-\begin{easylist}[itemize]
-
-& Categorização: Organização dos dados em duas categorias: Qualitativos e quantitativos. Os dados qualitativos referem-se aos questionários realizados. Os dados quantitativos, por sua vez, referem-se aos valores numéricos da solução de DW para monitoramento de métricas 
-
-& Exibição: Consiste na organização dos dados coletados para serem exibidos através de gráficos, tabelas e texto para poderem ser analisados. 
-
-& Verificação: Atestar padrões, tendências e aspectos específicos dos significados dos dados. Procurando assim gerar uma discussão e interpretação de cada dado exibido.
-
-& Conclusão: Agrupamento dos resultados mais relevantes das discussões e interpretações dos dados anteriormente apresentados.
-
-\end{easylist}
-
-\section{Considerações Finais do Capítulo}
-
-
-% Table generated by Excel2LaTeX from sheet 'Sheet1'
-\begin{table}[htbp]
-  \centering
-  \caption{Add caption}
-    \begin{tabular}{rrr}
-    \toprule
-    coluna qualquer & valor & valor \\
-    \midrule
-    A     & 1     & 3 \\
-    B     & 2     & 4 \\
-    \bottomrule
-    \end{tabular}%
-  \label{tab:addlabel}%
-\end{table}%
-
+% @sec:Considerações Finais do Capítulo
+\section{Considerações Finais do Capítulo}\label{sec:Considerações Finais do Capítulo}
