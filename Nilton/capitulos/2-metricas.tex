@@ -66,6 +66,7 @@ A figura \ref{modelodequalidade} também pode ser notado a classificação das m
 %---------------------------------------------------------------------------------------------------------------------%
 
 \section{Métricas de código fonte}
+\label{sec:metricascodigo}
 
 A definição de código-fonte segundo a SCAM é qualquer descrição executável de um sistema de software sendo incluído código de máquina, linguagens de alto nível e por representações gráficas executáveis \cite{harman}.
 
@@ -92,9 +93,12 @@ Segundo \cite{honglei_research_2009} as métricas de complexidade \textit{softwa
 
 \subsection{Métricas de Orientação a Objetos}
 
-O surgimento da programação orientada a objetos representou uma importante mudança na estratégia de desenvolvimento, focalizando a atenção para conceitos mais próximos ao negócio modelado. \cite{phpmysql}  
+Segundo \cite{budd_introduction_2002} a programação orientada a objetos tornou-se extremamente popular nos últimos anos, inúmeros livros e edições especiais de revistas acadêmicas e comerciais têm surgido sobre o assunto. A julgar por essa atividade frenética, programação orientada a objeto está sendo recebido com ainda mais entusiasmo do que vimos em ideias revolucionárias mais antigas, tais como programação estruturada "ou sistemas especialistas." 
 
-Métricas de orientação a objetos foram adotadas devido à grande utilização desse paradigma no desenvolvimento de software. Serão adotadas as seguintes métricas já selecionadas por \citeonline{rego_monitoramento_2014}:  
+Há uma série de razões importantes pelas quais nas últimas duas décadas a  
+programação orientada a objetos tornou-se o paradigma de programação dominante. A programação orientada a objeto possui uma ótima escala, desde o mais trivial dos problemas para a maioria das tarefas complexas. Ele fornece uma forma de abstração que reflete em técnicas de como pessoas usam para resolver problemas em sua vida cotidiana. E para a maioria da linguagens orientadas a objeto dominante há um número cada vez maior de bibliotecas que auxiliam no desenvolvimento de aplicações para muitos domínios \cite{budd_introduction_2002}.
+
+Serão adotadas neste trabalho as seguintes métricas de orientação a objetos:
 
 \begin{easylist}
 	
@@ -133,49 +137,44 @@ Métricas de orientação a objetos foram adotadas devido à grande utilização
 
 \section{Configurações de qualidade para métricas de código fonte} 
 
-Em sua tese de doutorado, \citeonline{Meirelles2013} buscou responder as seguintes questões de pesquisa:
-\begin{easylist}[itemize]
+\citeonline{Meirelles2013} apresentou uma abordagem para a observação das métricas de código-fonte em seu doutorado, onde estas métricas foram estudadas através de suas distribuições e associações. Foram avaliados a distribuição e correlações dos valores das métricas de 38 projetos de software livre, sendo coletado e analisado valores para cada métrica em mais de 344.872 classes e módulos. Segundo o próprio \citeonline{Meirelles2013} entre as principais contribuições de sua tese foi a análise detalhada, em relação ao comportamento, valores e estudos de caso, de 15 métricas de código-fonte. 
 
-	& \textbf{QP1 -} Métricas de código-fonte podem influir na atratividade de projetos de software livre? 
-	& \textbf{QP1 -} Quais métricas devem ser controladas ao longo do tempo?		
-	& \textbf{QP3 -} As métricas de código-fonte melhoram com o amadurecimento do projeto?	
-	
-\end{easylist}
+Dentre os objetivos científicos da tese de \citeonline{Meirelles2013} o mais crucial para este trabalho de conclusão de curso é o objetivo OC4 que trata das distribuições estatísticas dos valores de métricas em 38 projetos de software livre, a fim de compreender qual a abordagem estatística mais informativa para o monitoramento dessas métricas, bem como observar os valores frequentes para essas métricas, de forma a servirem de referência para projetos futuros.
 
-Para responder essas questões, sua pesquisa concentrou-se em alguns objetivos tecnológicos e científicos, fazendo uso da técnica estatística descritiva percentil para identificação das distribuições dos valores de métricas em 38 projetos de software livre, observando os valores frequentes dessas métricas de modo a servirem de referência para projetos futuros. 
+\cite{Meirelles2013} para conduzir o seu estudo qualitativo utilizou-se da técnica de estatística descritiva: percentil. O percentil separa os dados em cem grupos que apresentam o mesmo número de valores, sendo a definição do percentil de ordem px100(0<p<1), em um conjunto de dados de tamanho n, é o valor da variável que ocupa a posição px(n+1) do conjunto de dados ordenados. O percentil de ordem p (ou p-quantil) deixa px100\% das observações abaixo dele na amostra ordenada. O Percentil 25 recebe o nome de primeiro quartil, o percentil 50 de segundo quartil ou mediana, e o percentil 75 de terceiro quartil. Uma das hipóteses que \citeonline{Meirelles2013} utiliza é que só a partir do terceiro quartil será possível obter dados informativos sobre as métricas.
 
-O percentil são pontos estimativos de uma distribuição de frequência que determinam a porcentagem de elementos que se encontram abaixo deles. Por exemplo, quando se diz que o valor 59,0 da métrica rfc do projeto \textbf{Open JDK8} está no percentil 90, significa dizer que 90\% dos valores identificados para essa métrica estão abaixo de 59,0. 
-
-A tabela \ref{tab:percentil} abaixo pôde ser criada graças ao uso da técnica estatística citada:
+Após a aplicação da técnica percentil na série de dados das métricas de código-fonte obtidos da análise estática do código-fonte dos projetos de software livre, tabelas apresentando os valores percentis de cada métrica nos 38 projetos avaliados foram criadas, como a Tabela \ref{tab:percentil}, que mostra os percentis para a métrica NOC.  
 	
 	\begin{table}[!ht]
 	\begin{center}
 	
-	\input{tabelas/tabelasMatheus/percentis.ltx} 
-	\caption{Percentis para métrica RFC em projetos Java extraídos de  
+	\input{tabelas/tabelasNilton/percentis.ltx} 
+	\caption{Percentis para métrica NOC em projetos Java extraídos de  
 	\citeonline{Meirelles2013}}
 	\label{tab:percentil}
 	\end{center}
 	\end{table}	
 	\FloatBarrier	
 
-Através dos resultados obtidos para cada métrica, \citeonline{Meirelles2013} observou que era possível identificar valores frequentes analisando os percentis. Na \ref{tab:percentil}, por exemplo, foram observados no projeto \textbf{Open JDK8} valores de 0 a 9 como muito frequentes, de 10 a 26 como frequente, de 27 a 59 como pouco frequente e acima de 59, que representa apenas 10\% do código-fonte do projeto, como não frequente \cite{Meirelles2013}. A seguinte tabela foi extraída do trabalho de conclusão de curso de \citeonline{rego_monitoramento_2014} para que fosse criada uma relação entre o intervalo de frequência e o intervalo qualitativo de uma métrica, afim de facilitar sua interpretação:
+Através dos resultados obtidos para cada métrica, \citeonline{Meirelles2013} observou que era possível identificar valores frequentes analisando os percentis. Na tabela \ref{tab:percentil}, por exemplo, considerando o projeto \textbf{Open JDK8} como referência foram observados os intervalos de valores de 0, como muito frequente, 1 e 2 como frequente, 3 como pouco frequente e acima de 3 como não frequente \cite{Meirelles2013}. 
+
+\cite{rego_monitoramento_2014} observando o trabalho de análise de percentis de \cite{Meirelles2013} percebeu que é possível utilizar os intervalos de frequência obtidos como uma evidência empírica de qualidade do código-fonte. \cite{rego_monitoramento_2014} também renomeou os intervalos de frequência obtidos por \cite{Meirelles2013}, como na Tabela \ref{tab:nomes}, a fim de facilitar a interpretação de métricas de código-fonte. 
 
 \begin{table}[!ht]
 	\begin{center}
-	\input{tabelas/tabelasMatheus/intervalos.ltx}
+	\input{tabelas/tabelasNilton/intervalos.ltx}
 	\caption{Nome dos Intervalos de Frequência extraídos de \citeonline{rego_monitoramento_2014}}
 	\label{tab:nomes}
 	\end{center}
 	\end{table}
 	\FloatBarrier
 	
-	 
-\citeonline{Meirelles2013} destaca na avaliação dos resultados a maneira como o \textbf{Open JDK8} demonstrou um equilíbrio no valor das métricas em relação aos demais projetos Java, de modo que seus valores são frequentemente usados como referência na interpretação dos valores das métricas. Se de um lado o  \textbf{Open JDK8} demonstrou os menores valores percentis, os valores mais altos foram identificados no \textbf{Tomcat}. \citeonline{rego_monitoramento_2014} considerou então os dois cenários para que as referências de valores para as métricas fossem criadas. O resultado dessa análise gerou em seu trabalho a seguinte tabela:
+\cite{rego_monitoramento_2014} observando a diferença dos valores das métricas entre os projetos analisados e na tentativa de diminuir tamanha diferença, considerou dois cenários. Foi utilizado dois \textit{softwares} como referências para cada uma das
+métricas na linguagem de programação Java. Em um primeiro cenário, foi analisado o \textit{Open JDK8}, software que contia os menores valores percentis para as métricas. Já em um segundo cenário, foi considerado o Tomcat contendo os valores percentis mais altos. A tabela \ref{tab:good-metrics} mostra o resultado desta análise:
 
 \begin{table}[!ht]
 	\begin{center}
-	\input{tabelas/tabelasMatheus/metricas.ltx}	
+	\input{tabelas/tabelasNilton/metricas.ltx}	
 	\caption{Configurações para os Intervalos das Métricas para Java extraídas de \citeonline{rego_monitoramento_2014}}
 	\label{tab:good-metrics}
 	\end{center}
@@ -186,4 +185,73 @@ Através dos resultados obtidos para cada métrica, \citeonline{Meirelles2013} o
 %---------------------------------------------------------------------------------------------------------------------%
 
 \section{Cenários de limpeza} 
+
+\cite{Machini2010} apresenta uma maneira de interpretar os valores das métricas através de cenários problemáticos e suas possíveis melhorias, para que as métricas possam ser mais facilmente incorporadas no cotidiano dos programadores. \citeonline{Machini2010} também apresenta um estilo de programação baseado no paradigma da Orientação a Objetos que busca o que denominamos de “Código Limpo”, concebido e aplicado por renomados desenvolvedores de software como Robert C. Martin \cite{Martin2008} e Kent Beck \cite{Beck2007}	
+	
+Segundo \cite{Beck2007} um código limpo está inserido em um estilo de programação que busca a proximidade a três valores: expressividade, simplicidade e flexibilidade.	
+
+\begin{easylist}[itemize]
+
+	& \textbf{Expressividade:} Um código se expressa bem quando alguém que o lê é capaz de compreendê-lo e modificá-lo. \citeonline{Beck2007} destaca que quando foi necessário modificar um código, ele gastou muito mais tempo lendo o que já havia sido feito do que escrevendo sua modificação. 
+		
+	& \textbf{Simplicidade:} Um código é expressivo quando pode ser facilmente lido nas diferentes camadas de abstração, havendo uma redução da quantidade de informação que o leitor deve compreender para fazer alterações. Eliminar o excesso de complexidade faz com que aqueles que estejam lendo o código o entenda mais rapidamente. 
+
+	& \textbf{Flexibilidade:} Capacidade de estender a aplicação alterando o mínimo possível a estrutura já criada.
+		
+\end{easylist}
+
+\cite{Machini2010} apresenta em seu trabalho diversas técnicas para a obtenção de um código limpo, um resumo destas técnicas são apresentadas nas tabelas \ref{tab:conceitos1}, \ref{tab:conceitos2}, \ref{tab:conceitos3} e \ref{tab:conceitos4}.
+
+
+\begin{table}[!ht]
+\centering
+\input{tabelas/tabelasNilton/conceitos-limpeza-parte1.ltx}
+\caption{Conceitos de Limpeza levantados por \citeonline{Machini2010} e adaptados por \citeonline{rego_monitoramento_2014} parte 1.}
+\label{tab:conceitos1}
+\end{table}
+\FloatBarrier
+
+\begin{table}[!ht]
+\centering
+\input{tabelas/tabelasNilton/conceitos-limpeza-parte2.ltx}
+\caption{Conceitos de Limpeza levantados por \citeonline{Machini2010} e adaptados por \citeonline{rego_monitoramento_2014} parte 2.}
+\label{tab:conceitos2}
+\end{table}
+\FloatBarrier
+
+\begin{table}[!ht]
+\centering
+\input{tabelas/tabelasNilton/conceitos-limpeza-parte3.ltx}
+\caption{Conceitos de Limpeza levantados por \citeonline{Machini2010} e adaptados por \citeonline{rego_monitoramento_2014} parte 3.} 
+\label{tab:conceitos3}
+\end{table}
+\FloatBarrier
+
+\begin{table}[!ht]
+\centering
+\input{tabelas/tabelasNilton/conceitos-limpeza-parte4.ltx}
+\caption{Conceitos de Limpeza levantados por \citeonline{Machini2010} e adaptados por \citeonline{rego_monitoramento_2014} parte 4.} 
+\label{tab:conceitos4}
+\end{table}
+\FloatBarrier
+
+Após apresentar as técnicas para obtenção de um código limpo \citeonline{Machini2010}   adota uma abordagem baseada em cenários para identificar trechos de código com características indesejáveis, onde estes cenários devem possuir um contexto criado a partir de poucos conceitos de código limpo no qual um pequeno conjunto de métricas é analisado e interpretado através da combinação de seus valores. A ideia principal desta abordagem é facilitar melhorias de implementação e a procura por problemas quanto a limpeza de código através da aproximação dos valores das métricas com os esperados nos contextos de interpretação \cite{Machini2010}.
+
+\cite{rego_monitoramento_2014} utiliza a mesma abordagem de cenários que \citeonline{Machini2010} onde algumas técnicas de limpeza de código apresentadas nas tabelas \ref{tab:conceitos1}, \ref{tab:conceitos2}, \ref{tab:conceitos3} e \ref{tab:conceitos4} são correlacionadas com as métricas da Seção \ref{sec:metricascodigo} e utiliza a configuração do \textit{ Open JDK8 } considerando como valores altos os valores obtidos pelos intervalos Regular e Ruim tal como mostrados na Tabela \ref{tab:good-metrics}.
+
+Aproveitando inicialmente os cenários \textbf{Classe pouco coesa} e \textbf{Interface dos métodos} extraídos de  \citeonline{Machini2010}, \citeonline{rego_monitoramento_2014} elaborou mais alguns cenários de limpeza. O resultado dessa atividade pode ser visto na tabela \ref{tab:cenarios}:
+
+\begin{sidewaystable}
+\begin{table}[H]
+\centering
+\input{tabelas/tabelasNilton/cenarios.ltx}
+\caption{Cenários de Limpeza extraídos de \citeonline{rego_monitoramento_2014}}
+\label{tab:cenarios}
+\end{table}
+\FloatBarrier
+\end{sidewaystable}  
+
+\section{Considerações Finais do Capítulo}  
+
+Esse capítulo apresentou a fundamentação teórica sobre métricas de código fonte, quais são seus intervalos qualitativos e também foi apresentada a maneira como elas foram relacionadas a cenários de limpeza. O próximo capítulo será responsável por apresentar a teoria acerca de \textit{Data Warehousing} e como seu uso pode servir no monitoramento das métricas apresentadas nesse capítulo.
 	

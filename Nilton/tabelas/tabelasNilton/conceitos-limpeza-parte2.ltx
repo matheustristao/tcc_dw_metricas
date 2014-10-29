@@ -1,0 +1,48 @@
+\begin{tabular}{|p{3.0cm}|p{4.0cm}|p{4.0cm}|p{4.0cm}|}
+    \hline
+    Técnicas de Limpeza  & Descrição  & Contribuições & Consequências  \\ \hline
+    
+    Cláusulas Guarda & Criar um retorno logo no inicio de um método ao invés da criação de estruturas encadeadas com if sem else. 
+	& 
+	
+    \begin{easylist}
+    & Estruturas de condicionais mais simples.
+    & Leitor não espera por uma contrapartida do condicional(ex:if sem else).          
+   
+    \end{easylist}
+
+	&
+	
+	\begin{easylist}
+    & Menos estruturas encadeadas na classe.
+    \end{easylist}
+    \\ \hline
+    Objeto Método & Criar uma classe que encapsule uma operação complexa simplificando a original(cliente). 
+    & 
+    \begin{easylist}
+    & O código cliente terá um método bastante simples.
+    & Nova classe poderá ser refatorada sem preocupações com alterações no código cliente.
+    & Nova classe poderá ter testes separados.
+    \end{easylist}
+	
+	&
+	\begin{easylist}
+    & Menos operações no método cliente.
+    & Menos responsabilidades da classe cliente.
+    & Mais classes.
+    & Mais acoplamento da classe cliente com a nova classe.
+    \end{easylist}
+    \\ \hline
+    
+    Evitar \textit{Flags} como Argumentos & Ao invés de criar um método que recebe uma flag e tem diversos comportamentos, criar um método para cada comportamento.
+    &
+    \begin{easylist}
+    & Leitor não precisará entender um método com muitos condicionais.
+    & Testes de unidade independentes.
+    \end{easylist}
+    &
+    \begin{easylist}
+    & Mais métodos na classe.
+    \end{easylist}
+    \\ \hline
+\end{tabular}

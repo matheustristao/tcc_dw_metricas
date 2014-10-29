@@ -1,0 +1,75 @@
+\begin{tabular}{|p{3.0cm}|p{4.0cm}|p{4.0cm}|p{4.0cm}|}
+    \hline
+    Técnicas de Limpeza  & Descrição  & Contribuições & Consequências  \\ \hline
+    
+    Composição de Métodos & Compor os métodos em chamadas para outros rigorosamente no mesmo nível de abstração abaixo. 
+    
+    & 
+    
+    \begin{easylist}
+
+    & Facilidade de entendimento de métodos menores
+    & Criação de métodos menores com nomes explicativos     
+
+    \end{easylist}
+    
+     &  
+
+    \begin{easylist}
+
+    & Menos Operações por Método 
+    & Mais Parâmetros de Classe
+    & Mais Métodos na Classe       
+
+    \end{easylist}
+    \\ \hline
+	Métodos Explicativos & Criar um método que encapsule uma operação pouco clara geralmente associada a um comentário 
+	
+	& 
+	\begin{easylist}
+
+    & O código cliente do método novo terá uma operação com nome que melhor se encaixa no contexto.  
+
+    \end{easylist}
+    
+    &
+    \begin{easylist}
+
+    & Mais métodos na classe.    
+
+    \end{easylist}
+	  \\ \hline
+	Métodos como Condicionais & Criar um método que encapsule uma expressão booleana para obter condicionais mais claros. 
+	&
+	\begin{easylist}
+
+    & Facilidade na leitura de condicionais no código cliente.
+    & Encapsulamento de uma expressão booleana.    
+
+    \end{easylist}
+    
+    & 
+    
+    \begin{easylist}
+
+    & Mais métodos na classe. 
+
+    \end{easylist}
+	\\ \hline
+    Evitar Estruturas Encadeadas & Utilizar a composição de métodos para minimizar a quantidade de estruturas encadeadas em cada método (if, else).  
+	&
+	  \begin{easylist}
+    & Facilidade para a criação de testes.
+    & Cada método terá estruturas mais simples e fáceis de serem compreendidas.        
+   
+    \end{easylist}  
+    
+    & 
+
+    \begin{easylist}
+    & Menos Estruturas encadeadas por método (if e else)
+    & Benefícios do Uso de Composição de Métodos          
+   
+    \end{easylist}
+    \\ \hline
+\end{tabular}

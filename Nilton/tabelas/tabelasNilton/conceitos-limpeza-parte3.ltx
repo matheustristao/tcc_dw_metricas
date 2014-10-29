@@ -1,0 +1,60 @@
+\begin{tabular}{|p{3.0cm}|p{4.0cm}|p{4.0cm}|p{4.0cm}|}
+    \hline
+    Técnicas de Limpeza  & Descrição  & Contribuições & Consequências  \\ \hline
+    
+ Maximizar a Coesão & Quebrar uma classe que não segue o Princípio da Responsabilidade Única: as classes devem ter uma única responsabilidade, ou seja, ter uma única razão para mudar. 
+	&    
+    \begin{easylist}
+    & Cada classe terá uma única responsabilidade.  
+    & Cada classe terá seus testes independentes.
+    & Sem interferências na implementação das responsabilidades.
+    \end{easylist}
+    & 
+
+
+    \begin{easylist}
+    & Mais Classes  
+    & Menos Métodos em cada Classe
+    & Menos Atributos em cada Classe   
+    \end{easylist}
+    \\ \hline
+    
+    Objeto como Parâmetro & Localizar parâmetros que formam uma unidade e criar uma classe que os encapsule.           
+	&
+	  \begin{easylist}
+    & Menor número de parâmetros facilita testes e legibilidade.
+    & Criação de uma classe que poderá ser reutilizada em outras partes do sistema.
+    \end{easylist}  
+    & 
+
+   \begin{easylist}
+    & Menos Parâmetros sendo passados para Métodos
+    & Mais Classes  
+    \end{easylist}
+    \\ \hline    
+    
+    Parâmetros como Variável de Instância & Localizar parâmetro muito utilizado pelos métodos de uma classe e transformá-lo em variável de instância. 
+	&   
+	\begin{easylist}
+    & Não haverá a necessidade de passar longas listas de parâmetro através de todos os métodos.
+    \end{easylist} 
+    
+     & 
+
+    \begin{easylist}
+    & Menos Parâmetros passados pela Classe
+    & Possível diminuição na coesão    
+    \end{easylist}
+    \\ \hline
+ 
+ 	Uso de Exceções & Criar um fluxo normal separado do fluxo de tratamento de erros utilizando exceções ao invés de valores de retornos e condicionais. 
+ 	&
+ 	\begin{easylist}
+    & Clareza do fluxo normal sem tratamento de erros através de valores de retornos e condicionais.   
+    \end{easylist}
+&
+ 	\begin{easylist}
+    & Menos Estruturas encadeadas.  
+    \end{easylist}
+    \\ \hline
+\end{tabular}
