@@ -41,6 +41,11 @@ Dispon{\'\i}vel em:
 {FENTON, N.~E.; PFLEEGER, S.~L. \emph{{Software Metrics: A Rigorous and
   Practical Approach}}. 2 edition. ed. [S.l.]: Course Technology, 1998. 656~p.}
 
+\bibitem[Gil 2002]{gil_como_2002}
+\abntrefinfo{Gil}{GIL}{2002}
+{GIL, A.~C. \emph{Como elaborar projetos de pesquisa}. [S.l.]: Atlas, 2002.
+ISBN 9788522431694 8522431698.}
+
 \bibitem[Gilmore 2008]{phpmysql}
 \abntrefinfo{Gilmore}{GILMORE}{2008}
 {GILMORE, W.~J. \emph{Dominando PHP e MySql}. [S.l.]: STARLIN ALTA CONSULT,
@@ -139,6 +144,14 @@ Dispon{\'\i}vel em: \url{http://eric.ed.gov/?id=ED092145}.}
 \abntrefinfo{Sharma}{SHARMA}{2011}
 {SHARMA, N. \emph{Getting started with data warehousing}. [S.l.]: {IBM}
   Redbooks, 2011.}
+
+\bibitem[Silva e Menezes 2005]{metodologia_edna}
+\abntrefinfo{Silva e Menezes}{SILVA; MENEZES}{2005}
+{SILVA, E.; MENEZES, E. Metodologia da pesquisa e elaboração de
+  dissertação.
+2005.
+Dispon{\'\i}vel em:
+  \url{https://projetos.inf.ufsc.br/arquivos/Metodologia\_de\_pesquisa\_e\_elaboracao\_de\_teses\_e\_dissertacoes\_4ed.pdf}.}
 
 \bibitem[Times 2012]{valeria2012}
 \abntrefinfo{Times}{TIMES}{2012}

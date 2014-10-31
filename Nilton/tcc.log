@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=latex 2014.9.6)  27 OCT 2014 19:42
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=latex 2014.9.6)  29 OCT 2014 18:55
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1572,12 +1572,32 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 [9
 
 ] (./tcc.lot
-Overfull \hbox (16.0938pt too wide) in paragraph at lines 2--2
+Overfull \hbox (18.0522pt too wide) in paragraph at lines 2--2
  [][] [] []  
  []
 
 
 Overfull \hbox (50.496pt too wide) in paragraph at lines 4--4
+ [][] [] []  
+ []
+
+
+Overfull \hbox (128.31169pt too wide) in paragraph at lines 5--5
+ [][] [] []  
+ []
+
+
+Overfull \hbox (128.31169pt too wide) in paragraph at lines 6--6
+ [][] [] []  
+ []
+
+
+Overfull \hbox (128.31169pt too wide) in paragraph at lines 7--7
+ [][] [] []  
+ []
+
+
+Overfull \hbox (128.31169pt too wide) in paragraph at lines 8--8
  [][] [] []  
  []
 
@@ -1588,23 +1608,23 @@ Overfull \hbox (50.496pt too wide) in paragraph at lines 4--4
 
 ] [12]) (./fixos/indiceAutomatico.tex
 (./tcc.toc
-Overfull \hbox (98.27309pt too wide) in paragraph at lines 26--26
+Overfull \hbox (98.27309pt too wide) in paragraph at lines 27--27
  [][] [] []  
  []
 
 
-Overfull \hbox (54.30429pt too wide) in paragraph at lines 27--27
+Overfull \hbox (54.30429pt too wide) in paragraph at lines 28--28
  [][] [] []  
  []
 
 LaTeX Font Info:    Font shape `T1/lmss/bx/it' in size <12> not available
-(Font)              Font shape `T1/lmss/bx/sl' tried instead on input line 31.
+(Font)              Font shape `T1/lmss/bx/sl' tried instead on input line 32.
 LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <12> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 33.
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 34.
 [13
 
 ]
-Overfull \hbox (12.43976pt too wide) in paragraph at lines 56--56
+Overfull \hbox (12.43976pt too wide) in paragraph at lines 57--57
  [][] [] []  
  []
 
@@ -1641,23 +1661,830 @@ Overfull \hbox (61.07321pt too wide) in paragraph at lines 49--50
  [][] 
  []
 
-[22] [23] [24] [25] (./tabelas/tabelasMatheus/percentis.ltx
+[22] [23] [24] [25] (./tabelas/tabelasNilton/percentis.ltx
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <9> on input line 3.
-)
-Overfull \hbox (9.37761pt too wide) in paragraph at lines 3--156
- [] 
+) [26]
+(./tabelas/tabelasNilton/intervalos.ltx) (./tabelas/tabelasNilton/metricas.ltx)
+
+LaTeX Warning: Float too large for page by 59.66628pt on input line 181.
+
+[27] [28] (./tabelas/tabelasNilton/conceitos-limpeza-parte1.ltx
+Underfull \hbox (badness 6658) in paragraph at lines 5--5
+[]|\T1/lmr/m/n/12 Composição de
  []
 
-(./tabelas/tabelasMatheus/intervalos.ltx) [26]
-(./tabelas/tabelasMatheus/metricas.ltx)
 
-LaTeX Warning: Float too large for page by 59.66628pt on input line 182.
+Underfull \hbox (badness 2326) in paragraph at lines 5--6
+[]|\T1/lmr/m/n/12 Compor os mé-to-dos
+ []
 
-[27] [28]) (./capitulos/3-contratacao-fornecedores-desenvolvimento-software.tex
+
+Underfull \hbox (badness 10000) in paragraph at lines 11--12
+[]| []\T1/lmr/m/n/12 Facilidade de
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 11--12
+\T1/lmr/m/n/12 en-ten-di-mento
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 11--12
+\T1/lmr/m/n/12 de mé-to-dos
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 12--13
+\T1/lmr/m/n/12 to-dos me-no-res
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 12--13
+\T1/lmr/m/n/12 com no-mes
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 20--21
+[]| []\T1/lmr/m/n/12 Menos Ope-ra-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 21--22
+[] []\T1/lmr/m/n/12 Mais Pa-râ-me-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 22--23
+[] []\T1/lmr/m/n/12 Mais Mé-to-dos
+ []
+
+
+Underfull \hbox (badness 3612) in paragraph at lines 26--26
+[]|\T1/lmr/m/n/12 Métodos Ex-pli-
+ []
+
+
+Underfull \hbox (badness 2334) in paragraph at lines 31--32
+\T1/lmr/m/n/12 ção com nome
+ []
+
+
+Underfull \hbox (badness 4013) in paragraph at lines 31--32
+\T1/lmr/m/n/12 que me-lhor se
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 38--39
+[]| []\T1/lmr/m/n/12 Mais mé-to-dos
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 42--42
+[]|\T1/lmr/m/n/12 Métodos como
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 46--47
+[]| []\T1/lmr/m/n/12 Facilidade na
+ []
+
+
+Underfull \hbox (badness 1609) in paragraph at lines 46--47
+\T1/lmr/m/n/12 lei-tura de con-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 46--47
+\T1/lmr/m/n/12 di-ci-o-nais no
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 47--48
+[] []\T1/lmr/m/n/12 Encapsulamento
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 55--56
+[]| []\T1/lmr/m/n/12 Mais mé-to-dos
+ []
+
+
+Underfull \hbox (badness 2409) in paragraph at lines 59--59
+[]|\T1/lmr/m/n/12 Evitar Es-tru-tu-
+ []
+
+
+Underfull \hbox (badness 2617) in paragraph at lines 62--63
+[]| []\T1/lmr/m/n/12 Facilidade para
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 63--64
+[] []\T1/lmr/m/n/12 Cada mé-todo
+ []
+
+
+Underfull \hbox (badness 8038) in paragraph at lines 63--64
+\T1/lmr/m/n/12 terá es-tru-tu-ras
+ []
+
+
+Underfull \hbox (badness 1838) in paragraph at lines 63--64
+\T1/lmr/m/n/12 mais sim-ples e
+ []
+
+
+Underfull \hbox (badness 6316) in paragraph at lines 70--71
+\T1/lmr/m/n/12 ras en-ca-de-a-das
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 71--72
+[] []\T1/lmr/m/n/12 Benefícios do
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 71--72
+\T1/lmr/m/n/12 Uso de Com-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 71--72
+\T1/lmr/m/n/12 po-si-ção de
+ []
+
+)
+Overfull \hbox (21.79129pt too wide) in paragraph at lines 1--209
+ [][] 
+ []
+
 [29
 
-]) (./capitulos/4-dwing.tex [30
+] (./tabelas/tabelasNilton/conceitos-limpeza-parte2.ltx
+Underfull \hbox (badness 10000) in paragraph at lines 5--5
+[]|\T1/lmr/m/n/12 Cláusulas
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 9--10
+[]| []\T1/lmr/m/n/12 Estruturas de
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 9--10
+\T1/lmr/m/n/12 con-di-ci-o-nais
+ []
+
+
+Underfull \hbox (badness 4168) in paragraph at lines 10--11
+[] []\T1/lmr/m/n/12 Leitor não es-
+ []
+
+
+Underfull \hbox (badness 5022) in paragraph at lines 10--11
+\T1/lmr/m/n/12 pera por uma
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 10--11
+\T1/lmr/m/n/12 con-tra-par-tida
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 10--11
+\T1/lmr/m/n/12 do con-di-ci-o-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 10--11
+\T1/lmr/m/n/12 nal(ex:if sem
+ []
+
+
+Underfull \hbox (badness 4229) in paragraph at lines 17--18
+[]| []\T1/lmr/m/n/12 Menos es-tru-tu-
+ []
+
+
+Underfull \hbox (badness 6316) in paragraph at lines 17--18
+\T1/lmr/m/n/12 ras en-ca-de-a-das
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 20--21
+[]|\T1/lmr/m/n/12 Criar uma classe
+ []
+
+
+Underfull \hbox (badness 7888) in paragraph at lines 20--21
+\T1/lmr/m/n/12 que en-cap-sule uma
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 20--21
+\T1/lmr/m/n/12 ope-ra-ção com-plexa
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 23--24
+\T1/lmr/m/n/12 terá um mé-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 23--24
+\T1/lmr/m/n/12 todo bas-tante
+ []
+
+
+Underfull \hbox (badness 4316) in paragraph at lines 24--25
+\T1/lmr/m/n/12 rada sem pre-
+ []
+
+
+Underfull \hbox (badness 6477) in paragraph at lines 24--25
+\T1/lmr/m/n/12 o-cu-pa-ções com
+ []
+
+
+Underfull \hbox (badness 2253) in paragraph at lines 25--26
+\T1/lmr/m/n/12 derá ter tes-tes
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 30--31
+[]| []\T1/lmr/m/n/12 Menos ope-ra-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 31--32
+[] []\T1/lmr/m/n/12 Menos res-pon-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 31--32
+\T1/lmr/m/n/12 sa-bi-li-da-des da
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 33--34
+[] []\T1/lmr/m/n/12 Mais aco-pla-
+ []
+
+
+Underfull \hbox (badness 7814) in paragraph at lines 33--34
+\T1/lmr/m/n/12 cli-ente com a
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 37--37
+[]|\T1/lmr/m/n/12 Evitar \T1/lmr/m/it/12 Flags
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 37--38
+\T1/lmr/m/n/12 mé-todo que re-cebe
+ []
+
+
+Underfull \hbox (badness 3746) in paragraph at lines 37--38
+\T1/lmr/m/n/12 sos com-por-ta-men-tos,
+ []
+
+
+Underfull \hbox (badness 4353) in paragraph at lines 40--41
+\T1/lmr/m/n/12 ci-sará en-ten-der
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 41--42
+[] []\T1/lmr/m/n/12 Testes de
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 41--42
+\T1/lmr/m/n/12 uni-dade in-de-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 45--46
+[]| []\T1/lmr/m/n/12 Mais mé-to-dos
+ []
+
+)
+Overfull \hbox (21.79129pt too wide) in paragraph at lines 1--217
+ [][] 
+ []
+
+[30] [31] (./tabelas/tabelasNilton/conceitos-limpeza-parte3.ltx
+Underfull \hbox (badness 3240) in paragraph at lines 5--6
+[]|\T1/lmr/m/n/12 Quebrar uma classe
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 5--6
+\T1/lmr/m/n/12 que não se-gue o
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 5--6
+\T1/lmr/m/n/12 Prin-cí-pio da Res-
+ []
+
+
+Underfull \hbox (badness 3989) in paragraph at lines 5--6
+\T1/lmr/m/n/12 pon-sa-bi-li-dade Única:
+ []
+
+
+Underfull \hbox (badness 1028) in paragraph at lines 8--9
+\T1/lmr/m/n/12 uma única res-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 10--11
+[] []\T1/lmr/m/n/12 Sem in-ter-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 10--11
+\T1/lmr/m/n/12 fe-rên-cias na
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 10--11
+\T1/lmr/m/n/12 im-ple-men-ta-ção
+ []
+
+
+Underfull \hbox (badness 2158) in paragraph at lines 10--11
+\T1/lmr/m/n/12 das res-pon-sa-bi-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 18--19
+[] []\T1/lmr/m/n/12 Menos Atri-bu-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 18--19
+\T1/lmr/m/n/12 tos em cada
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 22--23
+[]|\T1/lmr/m/n/12 Localizar pa-râ-me-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 22--23
+\T1/lmr/m/n/12 tros que for-mam
+ []
+
+
+Underfull \hbox (badness 5652) in paragraph at lines 22--23
+\T1/lmr/m/n/12 uma classe que os
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 25--26
+[]| []\T1/lmr/m/n/12 Menor nú-mero
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 25--26
+\T1/lmr/m/n/12 de pa-râ-me-tros
+ []
+
+
+Underfull \hbox (badness 3668) in paragraph at lines 26--27
+\T1/lmr/m/n/12 classe que po-
+ []
+
+
+Underfull \hbox (badness 7099) in paragraph at lines 26--27
+\T1/lmr/m/n/12 par-tes do sis-
+ []
+
+
+Underfull \hbox (badness 1168) in paragraph at lines 31--32
+[]| []\T1/lmr/m/n/12 Menos Pa-râ-me-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 36--36
+[]|\T1/lmr/m/n/12 Parâmetros
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 36--36
+\T1/lmr/m/n/12 como Va-riá-vel
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 36--37
+[]|\T1/lmr/m/n/12 Localizar pa-râ-me-tro
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 36--37
+\T1/lmr/m/n/12 mé-to-dos de uma
+ []
+
+
+Underfull \hbox (badness 2951) in paragraph at lines 36--37
+\T1/lmr/m/n/12 classe e transformá-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 36--37
+\T1/lmr/m/n/12 lo em va-riá-vel de
+ []
+
+
+Underfull \hbox (badness 7362) in paragraph at lines 39--40
+[]| []\T1/lmr/m/n/12 Não ha-verá a
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 39--40
+\T1/lmr/m/n/12 ne-ces-si-dade de
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 39--40
+\T1/lmr/m/n/12 pas-sar lon-gas
+ []
+
+
+Underfull \hbox (badness 2671) in paragraph at lines 39--40
+\T1/lmr/m/n/12 lis-tas de pa-râ-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 39--40
+\T1/lmr/m/n/12 me-tro atra-vés
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 39--40
+\T1/lmr/m/n/12 de to-dos os
+ []
+
+
+Underfull \hbox (badness 1168) in paragraph at lines 45--46
+[]| []\T1/lmr/m/n/12 Menos Pa-râ-me-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 45--46
+\T1/lmr/m/n/12 tros pas-sa-dos
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 46--47
+[] []\T1/lmr/m/n/12 Possível di-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 46--47
+\T1/lmr/m/n/12 mi-nui-ção na
+ []
+
+
+Underfull \hbox (badness 1067) in paragraph at lines 50--51
+[]|\T1/lmr/m/n/12 Criar um fluxo nor-
+ []
+
+)
+Overfull \hbox (21.79129pt too wide) in paragraph at lines 1--225
+ [][] 
+ []
+
+(./tabelas/tabelasNilton/conceitos-limpeza-parte4.ltx
+Underfull \hbox (badness 10000) in paragraph at lines 5--5
+[]|\T1/lmr/m/n/12 Delegação de
+ []
+
+
+Underfull \hbox (badness 5133) in paragraph at lines 8--9
+\T1/lmr/m/n/12 pla-mento en-tre
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 9--10
+[] []\T1/lmr/m/n/12 Proximidade
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 9--10
+\T1/lmr/m/n/12 dos mé-to-dos
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 9--10
+\T1/lmr/m/n/12 e da-dos so-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 9--10
+\T1/lmr/m/n/12 bre os quais
+ []
+
+
+Underfull \hbox (badness 1248) in paragraph at lines 13--14
+[]| []\T1/lmr/m/n/12 Menos mé-to-dos
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 14--15
+[] []\T1/lmr/m/n/12 Mais mé-to-dos
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 14--15
+\T1/lmr/m/n/12 na classe que
+ []
+
+
+Underfull \hbox (badness 5022) in paragraph at lines 14--15
+\T1/lmr/m/n/12 re-cebe o novo
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 21--22
+[] []\T1/lmr/m/n/12 Redução do
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 21--22
+\T1/lmr/m/n/12 classe cli-ente
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 26--27
+[]| []\T1/lmr/m/n/12 Menos ope-ra-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 27--28
+[] []\T1/lmr/m/n/12 Menos res-pon-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 27--28
+\T1/lmr/m/n/12 sa-bi-li-da-des da
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 29--30
+[] []\T1/lmr/m/n/12 Mais aco-pla-
+ []
+
+
+Underfull \hbox (badness 7814) in paragraph at lines 29--30
+\T1/lmr/m/n/12 cli-ente com a
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 34--35
+[]|\T1/lmr/m/n/12 Localizar uso ex-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 34--35
+\T1/lmr/m/n/12 ces-sivo de he-rança
+ []
+
+
+Underfull \hbox (badness 7888) in paragraph at lines 34--35
+\T1/lmr/m/n/12 e transformá-lo em
+ []
+
+
+Underfull \hbox (badness 7522) in paragraph at lines 43--44
+[] []\T1/lmr/m/n/12 Menor Aco-pla-
+ []
+
+
+Underfull \hbox (badness 1028) in paragraph at lines 43--44
+\T1/lmr/m/n/12 mento en-tre as
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 47--47
+[]|\T1/lmr/m/n/12 Exposição Pú-
+ []
+
+
+Underfull \hbox (badness 2653) in paragraph at lines 47--48
+[]|\T1/lmr/m/n/12 Localizar uso ex-ces-
+ []
+
+
+Underfull \hbox (badness 7522) in paragraph at lines 50--51
+[]| []\T1/lmr/m/n/12 Menor Aco-pla-
+ []
+
+
+Underfull \hbox (badness 1028) in paragraph at lines 50--51
+\T1/lmr/m/n/12 mento en-tre as
+ []
+
+)
+Overfull \hbox (21.79129pt too wide) in paragraph at lines 1--233
+ [][] 
+ []
+
+[32
+
+] [33] (./tabelas/tabelasNilton/cenarios.ltx
+Underfull \hbox (badness 5893) in paragraph at lines 3--3
+[]|\T1/lmr/m/n/12 Forma de De-tec-ção
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3--3
+\T1/lmr/m/n/12 pe-las Mé-tri-cas de
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 6--6
+[]|\T1/lmr/m/n/12 Classe Pouco
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 6--6
+\T1/lmr/m/n/12 gru-pos de mé-to-dos
+ []
+
+
+Underfull \hbox (badness 1527) in paragraph at lines 6--6
+[]|\T1/lmr/m/n/12 Reduzir a subd-vi-são
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 6--6
+[]|\T1/lmr/m/n/12 Intervalos Re-gu-la-res
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 6--6
+\T1/lmr/m/it/12 bi-li-ties, Me-di-a-tor,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 9--9
+[]|\T1/lmr/m/n/12 Interface dos
+ []
+
+
+Underfull \hbox (badness 2478) in paragraph at lines 9--9
+[]|\T1/lmr/m/n/12 Objetos como Pa-râ-
+ []
+
+
+Underfull \hbox (badness 7759) in paragraph at lines 9--9
+\T1/lmr/m/n/12 me-tro e Pa-râ-me-tro
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 9--9
+\T1/lmr/m/n/12 râ-me-tros re-pas-sa-dos
+ []
+
+
+Underfull \hbox (badness 1365) in paragraph at lines 9--9
+[]|\T1/lmr/m/n/12 Minimizar o nú-mero
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 9--9
+[]|\T1/lmr/m/it/12 Facade, Tem-plate
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 9--9
+\T1/lmr/m/it/12 Method, Stra-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 9--9
+\T1/lmr/m/it/12 tegy, Com-mand,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 12--12
+[]|\T1/lmr/m/n/12 Classes com
+ []
+
+
+Underfull \hbox (badness 5711) in paragraph at lines 12--12
+[]|\T1/lmr/m/n/12 Muitas So-bre-es-cri-tas
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 12--12
+[]|\T1/lmr/m/it/12 Composite, Pro-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 12--12
+\T1/lmr/m/it/12 totype, De-co-ra-tor,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 15--15
+\T1/lmr/m/n/12 to-dos gran-des
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 15--15
+\T1/lmr/m/n/12 e/ou mui-tos
+ []
+
+
+Underfull \hbox (badness 3701) in paragraph at lines 15--15
+\T1/lmr/m/n/12 En-ca-de-a-das Com-ple-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 15--15
+[]|\T1/lmr/m/n/12 Reduzir LOC da
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 15--15
+\T1/lmr/m/n/12 Classe e de seus
+ []
+
+
+Underfull \hbox (badness 4595) in paragraph at lines 15--15
+\T1/lmr/m/n/12 mé-to-dos, Re-du-zir a
+ []
+
+
+Underfull \hbox (badness 4713) in paragraph at lines 15--15
+\T1/lmr/m/n/12 Com-ple-xi-dade Ci-clo-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 15--15
+[]|\T1/lmr/m/n/12 Intervalos Re-gu-la-res
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 15--15
+\T1/lmr/m/it/12 bi-li-ties, Me-di-a-tor,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 18--18
+[]|\T1/lmr/m/n/12 Classe com
+ []
+
+
+Underfull \hbox (badness 6173) in paragraph at lines 18--18
+[]|\T1/lmr/m/n/12 Grande Nú-mero de
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 21--21
+[]|\T1/lmr/m/n/12 Complexidade
+ []
+
+
+Underfull \hbox (badness 1708) in paragraph at lines 21--21
+[]|\T1/lmr/m/n/12 Grande Aco-pla-mento
+ []
+
+
+Underfull \hbox (badness 1286) in paragraph at lines 21--21
+[]|\T1/lmr/m/n/12 Reduzir a a quan-ti-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 21--21
+[]|\T1/lmr/m/n/12 Intervalos Re-gu-la-res
+ []
+
+
+Underfull \hbox (badness 1852) in paragraph at lines 21--21
+\T1/lmr/m/n/12 e Ruins de CBO e
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 21--21
+\T1/lmr/m/it/12 bi-li-ties, Me-di-a-tor,
+ []
+
+)
+Overfull \hbox (6.98694pt too wide) in paragraph at lines 1--248
+ [][] 
+ []
+
+[34] [35]) (./capitulos/3-contratacao-fornecedores-desenvolvimento-software.tex
+[36]) (./capitulos/4-dwing.tex [37
 
 ]
 LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <24.88> not available
@@ -1667,7 +2494,7 @@ LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <17.28> not available
 LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <14.4> not available
 (Font)              Font shape `T1/lmss/m/sl' tried instead on input line 9.
 ) (./capitulos/5-projeto-estudo-de-caso.tex
-[31
+[38
 
 ]
 File: figuras/figuras_nilton/EscopoEstudoCaso.eps Graphic file (type eps)
@@ -1675,7 +2502,7 @@ File: figuras/figuras_nilton/EscopoEstudoCaso.eps Graphic file (type eps)
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[32
+[39
 
 ]
 File: figuras/figuras_nilton/EstruturaEstudoCaso.eps Graphic file (type eps)
@@ -1683,7 +2510,7 @@ File: figuras/figuras_nilton/EstruturaEstudoCaso.eps Graphic file (type eps)
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[33]
+[40]
 Overfull \hbox (0.65685pt too wide) in paragraph at lines 56--57
 []\T1/lmr/m/n/12 Para aten-der a ques-tão de pes-quisa foi uti-li-zado o me-ca-
 nismo \T1/lmr/m/it/12 goal-question-metrics\T1/lmr/m/n/12 .
@@ -1694,7 +2521,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 58--59
 
  []
 
-[34]
+[41]
 Underfull \hbox (badness 10000) in paragraph at lines 67--68
 
  []
@@ -1730,7 +2557,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 114--115
 
  []
 
-[35]
+[42]
 Underfull \hbox (badness 10000) in paragraph at lines 124--125
 
  []
@@ -1740,47 +2567,47 @@ Underfull \hbox (badness 10000) in paragraph at lines 133--134
 
  []
 
-[36] [37]
+[43] [44]
 
-LaTeX Warning: Reference `chap:arquitetura' on page 38 undefined on input line 
+LaTeX Warning: Reference `chap:arquitetura' on page 45 undefined on input line 
 181.
 
-) (./capitulos/6-conclusao.tex [38] [39]) (./tcc.bbl (./tcc.brf)
+) (./capitulos/6-conclusao.tex [45] [46]) (./tcc.bbl (./tcc.brf)
 \tf@brf=\write6
 \openout6 = `tcc.brf'.
 
- [40
+ [47
 
 ]
 bibitemlist
 
-Underfull \hbox (badness 1107) in paragraph at lines 28--28
+Underfull \hbox (badness 1107) in paragraph at lines 33--33
 []\T1/lmr/m/n/12 BRASIL. \T1/lmr/m/it/12 Acórdão-381/2011-TCU-Plenário\T1/lmr/m
 /n/12 . [S.l.], 2011. Dis- 
  []
 
 
-Underfull \hbox (badness 1383) in paragraph at lines 28--28
+Underfull \hbox (badness 1383) in paragraph at lines 33--33
 \T1/lmr/m/n/12 po-ní-vel em: [][][][][][][][][][][][][][][][][][][][][][][][][]
 [][][][][][][][][][][] 
  []
 
 
-Overfull \hbox (515.53125pt too wide) in paragraph at lines 28--28
+Overfull \hbox (515.53125pt too wide) in paragraph at lines 33--33
 [][][][][] 
  []
 
 
-Underfull \hbox (badness 3354) in paragraph at lines 28--28
+Underfull \hbox (badness 3354) in paragraph at lines 33--33
 [][][][][][][][][][][][][][][] 
  []
 
-[41
+[48
 
-]) (./apendices/apendices.tex [42]) (./editaveis/anexos.tex) (./tcc.ind)
+]) (./apendices/apendices.tex [49]) (./editaveis/anexos.tex) (./tcc.ind)
 
 AED: lastpage setting LastPage
-[43
+[50
 
 ]
 \tf@lof=\write7
@@ -1801,7 +2628,7 @@ Package atveryend Info: Executing hook `AfterLastShipout' on input line 45.
 Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 45.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 45.
 Package rerunfilecheck Info: File `tcc.brf' has not changed.
-(rerunfilecheck)             Checksum: 6DCFB403DFF039653E4C009D971E9522;4205.
+(rerunfilecheck)             Checksum: 44409FF1627971D30485E6BB0E0B6A81;6267.
 
 
 LaTeX Warning: There were undefined references.
@@ -1812,12 +2639,12 @@ LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 45.
  ) 
 Here is how much of TeX's memory you used:
- 25130 strings out of 493305
- 418205 string characters out of 6139898
- 547242 words of memory out of 5000000
- 27978 multiletter control sequences out of 15000+600000
+ 25199 strings out of 493305
+ 420107 string characters out of 6139898
+ 556600 words of memory out of 5000000
+ 28032 multiletter control sequences out of 15000+600000
  106278 words of font info for 81 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
- 63i,13n,75p,932b,645s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 63i,14n,75p,932b,645s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on tcc.dvi (44 pages, 232304 bytes).
+Output written on tcc.dvi (51 pages, 294220 bytes).

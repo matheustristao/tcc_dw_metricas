@@ -1,0 +1,57 @@
+\begin{tabular}{|p{3.0cm}|p{4.0cm}|p{4.0cm}|p{4.0cm}|}
+    \hline
+    Técnicas de Limpeza  & Descrição  & Contribuições & Consequências  \\ \hline
+    
+ Delegação de Tarefa & Transferir um método que utiliza dados de uma classe "B" para a "B".
+    &
+ 	\begin{easylist}
+    & Redução do acoplamento entre classes.
+    & Proximidade dos métodos e dados sobre os quais trabalham.    
+    \end{easylist}
+&
+ 	\begin{easylist}
+    & Menos métodos na classe inicial. 
+    & Mais métodos na classe que recebe o novo método. 
+    \end{easylist}
+    \\ \hline
+    Objeto Centralizador & Criar uma classe que encapsule uma operação com alta dependência entre classes.
+    &
+ 	\begin{easylist}
+    & Simplificação da classe cliente.
+    & Redução do acoplamento da classe cliente com as demais.
+    & Nova classe poderá receber testes e melhorias independentes.    
+    \end{easylist}
+&
+ 	\begin{easylist}
+    & Menos operações no método cliente. 
+    & Menos responsabilidades da classe cliente.
+    & Mais classes.
+    & Mais acoplamento da classe cliente com a nova classe.
+     
+    \end{easylist}
+    \\ \hline
+    
+    Uso Excessivo de Herança & Localizar uso excessivo de herança e transformá-lo em agregação simples.  
+	&
+	\begin{easylist}
+    & Redução do do acoplamento entre as classes.  
+    \end{easylist}
+    & 
+
+    \begin{easylist}
+    & Maior Flexibilidade de Adição de Novas Classes.
+    & Menor Acoplamento entre as classes.    
+    \end{easylist}
+    \\ \hline
+    
+    Exposição Pública Excessiva  & Localizar uso excessivo de parâmetros públicos e transformá-lo em parâmetros privados. 
+    &
+    \begin{easylist}
+    & Menor Acoplamento entre as classes.   
+    \end{easylist}
+    
+    & 
+    \begin{easylist}
+    & Maior Encapsulamento de Parâmetros.   
+    \end{easylist} \\ \hline
+\end{tabular}
