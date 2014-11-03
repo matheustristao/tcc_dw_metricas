@@ -1,112 +1,137 @@
-\backcite {ISO:9126}{{9}{(document)}{Doc-Start}}
-\backcite {Meirelles2013}{{10}{(document)}{Doc-Start}}
-\backcite {rego_monitoramento_2014}{{10}{(document)}{Doc-Start}}
-\backcite {rego_monitoramento_2014}{{10}{(document)}{Doc-Start}}
-\backcite {Machini2010}{{10}{(document)}{Doc-Start}}
-\backcite {rego_monitoramento_2014}{{10}{(document)}{Doc-Start}}
-\backcite {Machini2010}{{10}{(document)}{Doc-Start}}
-\backcite {rego_monitoramento_2014}{{10}{(document)}{Doc-Start}}
-\backcite {Machini2010}{{10}{(document)}{Doc-Start}}
-\backcite {rego_monitoramento_2014}{{10}{(document)}{Doc-Start}}
-\backcite {Machini2010}{{10}{(document)}{Doc-Start}}
-\backcite {rego_monitoramento_2014}{{10}{(document)}{Doc-Start}}
-\backcite {rego_monitoramento_2014}{{10}{(document)}{Doc-Start}}
-\backcite {WillcocksTercerizacao}{{15}{1.1}{section.1.1}}
-\backcite {leite_terceirizacao}{{15}{1.1}{section.1.1}}
-\backcite {WillcocksTercerizacao}{{15}{1.1}{section.1.1}}
-\backcite {GuiaAquisicao}{{15}{1.1}{section.1.1}}
-\backcite {Normativa4}{{15}{1.1}{section.1.1}}
-\backcite {beck1999}{{15}{1.2}{section.1.2}}
-\backcite {fowler1999refactoring}{{15}{1.2}{section.1.2}}
-\backcite {ISO:15939}{{15}{1.2}{section.1.2}}
-\backcite {rego_monitoramento_2014}{{15}{1.2}{section.1.2}}
-\backcite {rego_monitoramento_2014}{{16}{1.2}{section.1.2}}
-\backcite {Acordao381_2011}{{16}{1.3}{section.1.3}}
-\backcite {Acordao381_2011}{{16}{1.3}{section.1.3}}
-\backcite {Acordao381_2011}{{16}{1.3}{section.1.3}}
-\backcite {rego_monitoramento_2014}{{16}{1.3}{section.1.3}}
-\backcite {yin2001estudo}{{17}{1.5}{figure.caption.11}}
-\backcite {wohlin2012experimentation}{{18}{1.5}{figure.caption.11}}
-\backcite {wohlin2012experimentation}{{18}{1.5}{figure.caption.11}}
-\backcite {wohlin2012experimentation}{{18}{1.5}{figure.caption.11}}
-\backcite {Guiaimplementacao}{{21}{2.1}{section.2.1}}
-\backcite {ISO:12207}{{21}{2.1}{section.2.1}}
-\backcite {Guiaimplementacao}{{21}{2.1}{section.2.1}}
-\backcite {Meirelles2013}{{21}{(document)}{Doc-Start}}
-\backcite {Meirelles2013}{{21}{(document)}{Doc-Start}}
-\backcite {Meirelles2013}{{21}{(document)}{Doc-Start}}
-\backcite {Meirelles2013}{{21}{(document)}{Doc-Start}}
-\backcite {ISO:15939}{{21}{2.1}{section.2.1}}
-\backcite {Mills:1999}{{22}{2.2}{section.2.2}}
-\backcite {Mills:1999}{{22}{2.2}{section.2.2}}
-\backcite {ISO:9126}{{22}{3}{figure.caption.13}}
-\backcite {ISO:9126}{{22}{2.2}{figure.caption.13}}
-\backcite {harman}{{23}{2.3}{section.2.3}}
-\backcite {Mills:1999}{{23}{2.3}{section.2.3}}
-\backcite {Fenton98}{{23}{2.3.1}{subsection.2.3.1}}
-\backcite {honglei_research_2009}{{23}{2.3.1}{subsection.2.3.1}}
-\backcite {metricsandmodels}{{23}{(document)}{Doc-Start}}
-\backcite {McCabe76}{{24}{(document)}{Doc-Start}}
-\backcite {Meirelles2013}{{24}{(document)}{Doc-Start}}
-\backcite {budd_introduction_2002}{{24}{2.3.2}{subsection.2.3.2}}
-\backcite {budd_introduction_2002}{{24}{2.3.2}{subsection.2.3.2}}
-\backcite {Meirelles2013}{{24}{(document)}{Doc-Start}}
-\backcite {Basili1987}{{24}{(document)}{Doc-Start}}
-\backcite {softwaremeasurementandestimation}{{24}{(document)}{Doc-Start}}
-\backcite {softwaremeasurementandestimation}{{25}{(document)}{Doc-Start}}
-\backcite {Meirelles2013}{{25}{(document)}{Doc-Start}}
-\backcite {metricsandmodels}{{25}{(document)}{Doc-Start}}
-\backcite {Meirelles2013}{{25}{(document)}{Doc-Start}}
-\backcite {softwaremeasurementandestimation}{{25}{(document)}{Doc-Start}}
-\backcite {Meirelles2013}{{25}{(document)}{Doc-Start}}
-\backcite {Meirelles2013}{{25}{(document)}{Doc-Start}}
-\backcite {metricsandmodels}{{25}{(document)}{Doc-Start}}
-\backcite {Meirelles2013}{{25}{2.4}{section.2.4}}
-\backcite {Meirelles2013}{{25}{2.4}{section.2.4}}
-\backcite {Meirelles2013}{{26}{2.4}{section.2.4}}
-\backcite {Meirelles2013}{{26}{2.4}{section.2.4}}
-\backcite {Meirelles2013}{{26}{2.4}{section.2.4}}
-\backcite {Meirelles2013}{{26}{1}{table.caption.14}}
-\backcite {Meirelles2013}{{26}{2.4}{table.caption.14}}
-\backcite {Meirelles2013}{{27}{2.4}{table.caption.14}}
-\backcite {rego_monitoramento_2014}{{27}{2.4}{table.caption.14}}
-\backcite {Meirelles2013}{{27}{2.4}{table.caption.14}}
-\backcite {rego_monitoramento_2014}{{27}{2.4}{table.caption.14}}
-\backcite {Meirelles2013}{{27}{2.4}{table.caption.14}}
-\backcite {rego_monitoramento_2014}{{27}{2}{table.caption.15}}
-\backcite {rego_monitoramento_2014}{{27}{2.4}{table.caption.15}}
-\backcite {rego_monitoramento_2014}{{28}{3}{table.caption.16}}
-\backcite {Machini2010}{{29}{2.5}{section.2.5}}
-\backcite {Machini2010}{{29}{2.5}{section.2.5}}
-\backcite {Martin2008}{{29}{2.5}{section.2.5}}
-\backcite {Beck2007}{{29}{2.5}{section.2.5}}
-\backcite {Beck2007}{{29}{2.5}{section.2.5}}
-\backcite {Beck2007}{{29}{(document)}{Doc-Start}}
-\backcite {Machini2010}{{29}{2.5}{section.2.5}}
-\backcite {Machini2010}{{30}{4}{table.caption.17}}
-\backcite {rego_monitoramento_2014}{{30}{4}{table.caption.17}}
-\backcite {Machini2010}{{31}{5}{table.caption.18}}
-\backcite {rego_monitoramento_2014}{{31}{5}{table.caption.18}}
-\backcite {Machini2010}{{32}{6}{table.caption.19}}
-\backcite {rego_monitoramento_2014}{{32}{6}{table.caption.19}}
-\backcite {Machini2010}{{33}{7}{table.caption.20}}
-\backcite {rego_monitoramento_2014}{{33}{7}{table.caption.20}}
-\backcite {Machini2010}{{33}{2.5}{table.caption.20}}
-\backcite {Machini2010}{{34}{2.5}{table.caption.20}}
-\backcite {rego_monitoramento_2014}{{34}{2.5}{table.caption.20}}
-\backcite {Machini2010}{{34}{2.5}{table.caption.20}}
-\backcite {Machini2010}{{34}{2.5}{table.caption.20}}
-\backcite {rego_monitoramento_2014}{{34}{2.5}{table.caption.20}}
-\backcite {rego_monitoramento_2014}{{35}{8}{table.caption.22}}
-\backcite {yin2001estudo}{{39}{5.1}{section.5.1}}
-\backcite {rego_monitoramento_2014}{{40}{5.1}{figure.caption.23}}
-\backcite {Basili96b}{{41}{5.1.2}{subsection.5.1.2}}
-\backcite {Basili96b}{{41}{5.1.2}{subsection.5.1.2}}
-\backcite {rego_monitoramento_2014}{{43}{5.2}{section.5.2}}
-\backcite {novello_uma_2006}{{43}{5.2}{section.5.2}}
-\backcite {rego_monitoramento_2014}{{44}{5.2}{section.5.2}}
-\backcite {yin2001estudo}{{44}{5.5}{section.5.5}}
-\backcite {yin2001estudo}{{45}{(document)}{Doc-Start}}
-\backcite {yin2001estudo}{{45}{(document)}{Doc-Start}}
-\backcite {yin2001estudo}{{45}{(document)}{Doc-Start}}
-\backcite {yin2001estudo}{{45}{(document)}{Doc-Start}}
+\backcite {ISO25023}{{7}{Page 7}{page.7}}
+\backcite {WillcocksTercerizacao}{{15}{Page 15}{page.15}}
+\backcite {leite_terceirizacao}{{15}{Page 15}{page.15}}
+\backcite {WillcocksTercerizacao}{{15}{Page 15}{page.15}}
+\backcite {GuiaAquisicao}{{15}{Page 15}{page.15}}
+\backcite {Normativa4}{{15}{Page 15}{page.15}}
+\backcite {beck1999}{{15}{Page 15}{page.15}}
+\backcite {fowler1999refactoring}{{15}{Page 15}{page.15}}
+\backcite {ISO:15939}{{15}{Page 15}{page.15}}
+\backcite {rego_monitoramento_2014}{{15}{Page 15}{page.15}}
+\backcite {rego_monitoramento_2014}{{16}{Page 16}{page.16}}
+\backcite {Acordao381_2011}{{16}{Page 16}{page.16}}
+\backcite {Acordao381_2011}{{16}{Page 16}{page.16}}
+\backcite {Acordao381_2011}{{16}{Page 16}{page.16}}
+\backcite {rego_monitoramento_2014}{{16}{Page 16}{page.16}}
+\backcite {yin2001estudo}{{17}{Page 17}{page.17}}
+\backcite {wohlin2012experimentation}{{18}{Page 18}{page.18}}
+\backcite {wohlin2012experimentation}{{18}{Page 18}{page.18}}
+\backcite {wohlin2012experimentation}{{18}{Page 18}{page.18}}
+\backcite {Guiaimplementacao}{{21}{Page 21}{page.21}}
+\backcite {ISO:12207}{{21}{Page 21}{page.21}}
+\backcite {Guiaimplementacao}{{21}{Page 21}{page.21}}
+\backcite {Meirelles2013}{{21}{Page 21}{page.21}}
+\backcite {Meirelles2013}{{21}{Page 21}{page.21}}
+\backcite {Meirelles2013}{{21}{Page 21}{page.21}}
+\backcite {Meirelles2013}{{21}{Page 21}{page.21}}
+\backcite {ISO:15939}{{21}{Page 21}{page.21}}
+\backcite {Mills:1999}{{22}{Page 22}{page.22}}
+\backcite {Mills:1999}{{22}{Page 22}{page.22}}
+\backcite {ISO:9126}{{22}{Page 22}{page.22}}
+\backcite {ISO:9126}{{22}{Page 22}{page.22}}
+\backcite {harman}{{23}{Page 23}{page.23}}
+\backcite {Mills:1999}{{23}{Page 23}{page.23}}
+\backcite {Fenton98}{{23}{Page 23}{page.23}}
+\backcite {honglei_research_2009}{{23}{Page 23}{page.23}}
+\backcite {metricsandmodels}{{23}{Page 23}{page.23}}
+\backcite {McCabe76}{{24}{Page 24}{page.24}}
+\backcite {Meirelles2013}{{24}{Page 24}{page.24}}
+\backcite {budd_introduction_2002}{{24}{Page 24}{page.24}}
+\backcite {budd_introduction_2002}{{24}{Page 24}{page.24}}
+\backcite {Meirelles2013}{{24}{Page 24}{page.24}}
+\backcite {Basili1987}{{24}{Page 24}{page.24}}
+\backcite {softwaremeasurementandestimation}{{24}{Page 24}{page.24}}
+\backcite {softwaremeasurementandestimation}{{25}{Page 25}{page.25}}
+\backcite {Meirelles2013}{{25}{Page 25}{page.25}}
+\backcite {metricsandmodels}{{25}{Page 25}{page.25}}
+\backcite {Meirelles2013}{{25}{Page 25}{page.25}}
+\backcite {softwaremeasurementandestimation}{{25}{Page 25}{page.25}}
+\backcite {Meirelles2013}{{25}{Page 25}{page.25}}
+\backcite {Meirelles2013}{{25}{Page 25}{page.25}}
+\backcite {metricsandmodels}{{25}{Page 25}{page.25}}
+\backcite {Meirelles2013}{{25}{Page 25}{page.25}}
+\backcite {Meirelles2013}{{25}{Page 25}{page.25}}
+\backcite {Meirelles2013}{{26}{Page 26}{page.26}}
+\backcite {Meirelles2013}{{26}{Page 26}{page.26}}
+\backcite {Meirelles2013}{{26}{Page 26}{page.26}}
+\backcite {Meirelles2013}{{26}{Page 26}{page.26}}
+\backcite {Meirelles2013}{{26}{Page 26}{page.26}}
+\backcite {Meirelles2013}{{27}{Page 27}{page.27}}
+\backcite {rego_monitoramento_2014}{{27}{Page 27}{page.27}}
+\backcite {Meirelles2013}{{27}{Page 27}{page.27}}
+\backcite {rego_monitoramento_2014}{{27}{Page 27}{page.27}}
+\backcite {Meirelles2013}{{27}{Page 27}{page.27}}
+\backcite {rego_monitoramento_2014}{{27}{Page 27}{page.27}}
+\backcite {rego_monitoramento_2014}{{27}{Page 27}{page.27}}
+\backcite {rego_monitoramento_2014}{{28}{Page 28}{page.28}}
+\backcite {Machini2010}{{29}{Page 29}{page.29}}
+\backcite {Machini2010}{{29}{Page 29}{page.29}}
+\backcite {Martin2008}{{29}{Page 29}{page.29}}
+\backcite {Beck2007}{{29}{Page 29}{page.29}}
+\backcite {Beck2007}{{29}{Page 29}{page.29}}
+\backcite {Beck2007}{{29}{Page 29}{page.29}}
+\backcite {Machini2010}{{29}{Page 29}{page.29}}
+\backcite {Machini2010}{{30}{Page 30}{page.30}}
+\backcite {rego_monitoramento_2014}{{30}{Page 30}{page.30}}
+\backcite {Machini2010}{{31}{Page 31}{page.31}}
+\backcite {rego_monitoramento_2014}{{31}{Page 31}{page.31}}
+\backcite {Machini2010}{{32}{Page 32}{page.32}}
+\backcite {rego_monitoramento_2014}{{32}{Page 32}{page.32}}
+\backcite {Machini2010}{{33}{Page 33}{page.33}}
+\backcite {rego_monitoramento_2014}{{33}{Page 33}{page.33}}
+\backcite {Machini2010}{{33}{Page 33}{page.33}}
+\backcite {Machini2010}{{34}{Page 34}{page.34}}
+\backcite {rego_monitoramento_2014}{{34}{Page 34}{page.34}}
+\backcite {Machini2010}{{34}{Page 34}{page.34}}
+\backcite {Machini2010}{{34}{Page 34}{page.34}}
+\backcite {rego_monitoramento_2014}{{34}{Page 34}{page.34}}
+\backcite {rego_monitoramento_2014}{{35}{Page 35}{page.35}}
+\backcite {rego_monitoramento_2014}{{38}{Page 38}{page.38}}
+\backcite {neeraj_sharma_2011}{{38}{Page 38}{page.38}}
+\backcite {Inmon2002}{{38}{Page 38}{page.38}}
+\backcite {andre2000}{{38}{Page 38}{page.38}}
+\backcite {Kimball2002}{{39}{Page 39}{page.39}}
+\backcite {Kimball2002}{{39}{Page 39}{page.39}}
+\backcite {Kimball2002}{{40}{Page 40}{page.40}}
+\backcite {neeraj_sharma_2011}{{40}{Page 40}{page.40}}
+\backcite {Kimball2002}{{40}{Page 40}{page.40}}
+\backcite {Kimball2002}{{40}{Page 40}{page.40}}
+\backcite {Kimball2002}{{40}{Page 40}{page.40}}
+\backcite {valeria2012}{{41}{Page 41}{page.41}}
+\backcite {Kimball2002}{{41}{Page 41}{page.41}}
+\backcite {hilmer2002}{{41}{Page 41}{page.41}}
+\backcite {hilmer2002}{{41}{Page 41}{page.41}}
+\backcite {Kimball2002}{{41}{Page 41}{page.41}}
+\backcite {neeraj_sharma_2011}{{42}{Page 42}{page.42}}
+\backcite {neeraj_sharma_2011}{{42}{Page 42}{page.42}}
+\backcite {valeria2012}{{42}{Page 42}{page.42}}
+\backcite {hilmer2002}{{42}{Page 42}{page.42}}
+\backcite {kimball1998data}{{42}{Page 42}{page.42}}
+\backcite {hilmer2002}{{42}{Page 42}{page.42}}
+\backcite {neeraj_sharma_2011}{{42}{Page 42}{page.42}}
+\backcite {neeraj_sharma_2011}{{43}{Page 43}{page.43}}
+\backcite {rego_monitoramento_2014}{{43}{Page 43}{page.43}}
+\backcite {Kimball2002}{{44}{Page 44}{page.44}}
+\backcite {rego_monitoramento_2014}{{44}{Page 44}{page.44}}
+\backcite {rego_monitoramento_2014}{{45}{Page 45}{page.45}}
+\backcite {rego_monitoramento_2014}{{46}{Page 46}{page.46}}
+\backcite {rego_monitoramento_2014}{{46}{Page 46}{page.46}}
+\backcite {rego_monitoramento_2014}{{47}{Page 47}{page.47}}
+\backcite {rego_monitoramento_2014}{{47}{Page 47}{page.47}}
+\backcite {rego_monitoramento_2014}{{48}{Page 48}{page.48}}
+\backcite {rego_monitoramento_2014}{{48}{Page 48}{page.48}}
+\backcite {Kimball2002}{{48}{Page 48}{page.48}}
+\backcite {rego_monitoramento_2014}{{49}{Page 49}{page.49}}
+\backcite {rego_monitoramento_2014}{{49}{Page 49}{page.49}}
+\backcite {yin2001estudo}{{50}{Page 50}{page.50}}
+\backcite {rego_monitoramento_2014}{{51}{Page 51}{page.51}}
+\backcite {Basili96b}{{52}{Page 52}{page.52}}
+\backcite {Basili96b}{{52}{Page 52}{page.52}}
+\backcite {rego_monitoramento_2014}{{54}{Page 54}{page.54}}
+\backcite {novello_uma_2006}{{54}{Page 54}{page.54}}
+\backcite {rego_monitoramento_2014}{{55}{Page 55}{page.55}}
+\backcite {yin2001estudo}{{55}{Page 55}{page.55}}
+\backcite {yin2001estudo}{{56}{Page 56}{page.56}}
+\backcite {yin2001estudo}{{56}{Page 56}{page.56}}
+\backcite {yin2001estudo}{{56}{Page 56}{page.56}}
+\backcite {yin2001estudo}{{56}{Page 56}{page.56}}

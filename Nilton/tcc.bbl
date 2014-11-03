@@ -65,6 +65,11 @@ ISBN 0201760312.}
 ISBN 978-1-4244-5422-8, 978-0-7695-3930-0. Dispon{\'\i}vel em:
   \url{http://ieeexplore.ieee.org/lpdocs/epic03/wrapper.htm?arnumber=5385114}.}
 
+\bibitem[Inmon 2002]{Inmon2002}
+\abntrefinfo{Inmon}{INMON}{2002}
+{INMON, W.~H. \emph{Building the Data Warehouse}. 3rd. ed. New York, NY, USA:
+  John Wiley \& Sons, Inc., 2002.}
+
 \bibitem[{ISO/IEC 15939} 2002]{ISO:15939}
 \abntrefinfo{{ISO/IEC 15939}}{{ISO/IEC 15939}}{2002}
 {{ISO/IEC 15939}. \emph{{ISO/IEC} 15939: {S}oftware {E}ngineering - {S}oftware
@@ -77,6 +82,13 @@ ISBN 978-1-4244-5422-8, 978-0-7695-3930-0. Dispon{\'\i}vel em:
   - {S}oftware {L}ife {C}ycle {P}rocesses}.
 [S.l.], 2008.}
 
+\bibitem[{ISO/IEC 25023} 2011]{ISO25023}
+\abntrefinfo{{ISO/IEC 25023}}{{ISO/IEC 25023}}{2011}
+{{ISO/IEC 25023}. \emph{{ISO/IEC} 25023: Systems and software engineering -
+  Systems and software Quality Requirements and Evaluation (SQuaRE) -
+  Measurement of system and software product quality}.
+[S.l.], 2011.}
+
 \bibitem[{ISO/IEC 9126} 2001]{ISO:9126}
 \abntrefinfo{{ISO/IEC 9126}}{{ISO/IEC 9126}}{2001}
 {{ISO/IEC 9126}. \emph{{ISO/IEC} 9126-1: Software Engineering - Product
@@ -87,6 +99,19 @@ ISBN 978-1-4244-5422-8, 978-0-7695-3930-0. Dispon{\'\i}vel em:
 \abntrefinfo{Kan}{KAN}{2002}
 {KAN, S.~H. \emph{Metrics and models in software quality engineering}. [S.l.]:
   Addison Wesley, 2002.}
+
+\bibitem[Kimball 1998]{kimball1998data}
+\abntrefinfo{Kimball}{KIMBALL}{1998}
+{KIMBALL, R. \emph{The data warehouse lifecycle toolkit: expert methods for
+  designing, developing, and deploying data warehouses}. [S.l.]: Wiley. com,
+  1998.}
+
+\bibitem[Kimball e Ross 2002]{Kimball2002}
+\abntrefinfo{Kimball e Ross}{KIMBALL; ROSS}{2002}
+{KIMBALL, R.; ROSS, M. \emph{The Data Warehouse Toolkit: The Complete Guide to
+  Dimensional Modeling}. 2nd. ed. New York, NY, USA: John Wiley \& Sons, Inc.,
+  2002.
+ISBN 0471200247, 9780471200246.}
 
 \bibitem[Laird 2006]{softwaremeasurementandestimation}
 \abntrefinfo{Laird}{LAIRD}{2006}
@@ -134,6 +159,12 @@ Tese (Doutorado) --- Instituto de Matemática e Estátistica -- Universidade de
   USA, v.~6, n.~1-4, abr. 1999.
 ISSN 1022-7091.}
 
+\bibitem[Neri 2002]{hilmer2002}
+\abntrefinfo{Neri}{NERI}{2002}
+{NERI, H.~R. \emph{Análise, Projeto e Implementação de um Esquema MOLAP de
+  Data Warehouse utilizando SGBD-OR Oracle 8.1}. Universidade Federal da
+  Paraíba - UFPB: [s.n.], 2002.}
+
 \bibitem[Novello 2006]{novello_uma_2006}
 \abntrefinfo{Novello}{NOVELLO}{2006}
 {NOVELLO, T.~C.
@@ -150,6 +181,17 @@ Dispon{\'\i}vel em: \url{http://tardis.pucrs.br/dspace/handle/10923/1570}.}
 2014.
 Dispon{\'\i}vel em: \url{http://bdm.unb.br/handle/10483/8069}.}
 
+\bibitem[Rocha 2000]{andre2000}
+\abntrefinfo{Rocha}{ROCHA}{2000}
+{ROCHA, A.~B. \emph{Guardando Históricos de Dimensões em Data Warehouses}.
+  Universidade Federal da Paraíba - Centro de Ciências e Tecnologia: [s.n.],
+  2000.}
+
+\bibitem[Sharma 2011]{neeraj_sharma_2011}
+\abntrefinfo{Sharma}{SHARMA}{2011}
+{SHARMA, N. \emph{Getting started with data warehousing}. [S.l.]: {IBM}
+  Redbooks, 2011.}
+
 \bibitem[SOFTEX 2013]{GuiaAquisicao}
 \abntrefinfo{SOFTEX}{SOFTEX}{2013a}
 {SOFTEX. \emph{{MPS}. {BR}-Guia de Aquisição}.
@@ -161,6 +203,11 @@ Dispon{\'\i}vel em: \url{http://bdm.unb.br/handle/10483/8069}.}
 {SOFTEX. {MPS} {BR}-guia de implementação – parte 2: Fundamentação para
   implementação do nível f do mr-mps-sv:2012.
 2013.}
+
+\bibitem[Times 2012]{valeria2012}
+\abntrefinfo{Times}{TIMES}{2012}
+{TIMES, V.~C. \emph{Sistemas de DW}. 2012. Universidade Federal de Pernambuco -
+  UFPE. Dispon{\'\i}vel em: \url{www.cin.ufpe.br/~if695/bda\_dw.pdf}.}
 
 \bibitem[WILLCOCKS e LACITY 2001]{WillcocksTercerizacao}
 \abntrefinfo{WILLCOCKS e LACITY}{WILLCOCKS; LACITY}{2001}
