@@ -52,6 +52,12 @@ ISBN 0201760312.}
 {FOWLER, M. \emph{Refactoring: improving the design of existing code}. [S.l.]:
   Addison-Wesley Professional, 1999.}
 
+\bibitem[Guti\'{e}rrez e Marotta 2000]{marotta2000}
+\abntrefinfo{Guti\'{e}rrez e Marotta}{GUTI\'{e}RREZ; MAROTTA}{2000}
+{GUTI\'{e}RREZ, A.; MAROTTA, A. An overview of data warehouse design approaches
+  and techniques.
+2000.}
+
 \bibitem[Harman 2010]{harman}
 \abntrefinfo{Harman}{HARMAN}{2010}
 {HARMAN, M. Why source code analysis and manipulation will always be important.
@@ -183,9 +189,10 @@ Dispon{\'\i}vel em: \url{http://bdm.unb.br/handle/10483/8069}.}
 
 \bibitem[Rocha 2000]{andre2000}
 \abntrefinfo{Rocha}{ROCHA}{2000}
-{ROCHA, A.~B. \emph{Guardando Históricos de Dimensões em Data Warehouses}.
-  Universidade Federal da Paraíba - Centro de Ciências e Tecnologia: [s.n.],
-  2000.}
+{ROCHA, A.~B.
+\emph{Guardando Históricos de Dimensões em Data Warehouses}.
+Disserta\c{c}\~{a}o (Mestrado), Universidade Federal da Paraíba - Centro de
+  Ciências e Tecnologia, 2000.}
 
 \bibitem[Sharma 2011]{neeraj_sharma_2011}
 \abntrefinfo{Sharma}{SHARMA}{2011}

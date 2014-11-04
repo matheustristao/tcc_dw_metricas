@@ -22,7 +22,7 @@ Segundo \cite{andre2000}  \textit{data warehousing} é a infra-estrutura tecnol�
 
 \section{\textit{Extraction-Transformation-Load}}
 
-A \textit{Staging Area} é uma área de armazenamento e onde acontece o processo de ETL. Na Figura \ref{fig:etl} as etapas 1- Extração, 2- Transformação e 3- Carga formam o processo de \textit{Extraction-Transformation-Load} (ETL). Cada uma das etapas recebe a seguinte descrição:
+A \textit{Staging Area} é uma área de armazenamento onde acontece o processo de ETL. Na Figura \ref{fig:etl} as etapas 1- Extração, 2- Transformação e 3- Carga formam o processo de \textit{Extraction-Transformation-Load} (ETL). Cada uma das etapas recebe a seguinte descrição:
 
 \begin{easylist}[itemize]
 
@@ -34,13 +34,20 @@ A \textit{Staging Area} é uma área de armazenamento e onde acontece o processo
 
 \section{Modelagem Dimensional}
 
-\citeonline{Kimball2002} afirma que a habilidade de visualizar algo tão abstrato como um conjunto de dados  de maneira concreta e tangível é o segredo da compreensibilidade, de modo que um modelo de dados que se inicia de forma simples tende a ser simples até o final da modelagem, ao contrário de um modelo que já se inicia de forma complicada. Nesse contexto, o modelo dimensional difere em muitos aspectos do modelo normalizado em sua terceira forma normal, também conhecido como modelo entidade-relacionamento. O modelo normalizado contém seus dados divididos em muitas entidades, cada qual identificada como uma tabela, buscando assim evitar redundância entre os dados, sendo eles armazenados em tempo real na medida que forem atualizados. O problema associado a essa solução é a tamanha complexidade adquirida pelos modelos, uma vez que são criadas um número grande de tabelas dificultando assim sua navegação. Em um sentido oposto, a modelagem dimensional resolve esse problema associado à complexidade, uma vez que, mesmo possuindo as mesmas informações que um modelo normalizado, elas estão modeladas de forma que estejam em sintonia com o entendimento do usuário e ao alto desempenho de consultas. 
+Modelagem dimensional é um novo nome para uma velha técnica para deixar os bancos de dados simples e compreensível. No início dos anos 70 as organizações de TI , consultores, usuários finais e fornecedores tiveram que migrar para uma estrutura dimensional simples que combinasse com a necessidade humana pela simplicidade \cite{Kimball2002}. 
 
-Um modelo dimensional é composto por tabelas fatos e tabelas dimensões, que quando juntas formam o esquema estrela. A tabela fato é a tabela primária no modelo dimensional. O termo \textit{fato} está associado à maneira como ela representa uma medida de negócio \cite{Kimball2002}. Já a tabela dimensão contém descrições textuais dos negócios envolvidos, o que a torna a chave para que o modelo seja utilizável e de fácil entendimento. \citeonline{Kimball2002} faz uma relação direta entre a qualidade do Data Warehouse como um todo e a qualidade e profundidade dos atributos das tabelas dimensão. O esquema estrela, já definido como a união entre tabelas fato e dimensão, pode ser representado da forma como o exemplo da figura \ref{fig:estrela} descreve:
+Segundo \cite{Kimball2002} a modelagem dimensional tem sido amplamente aceita como a técnica dominante para a apresentação do \textit{data warehouse}. Os profissionais e especialistas de \textit{data warehouse} reconhecem que a apresentação do \textit{data warehouse} deve ser fundamentado na simplicidade. A simplicidade é a chave fundamental que permite que os usuários entendam facilmente as bases de dados e naveguem de forma eficiente no bancos de dados do \textit{software}. 
+
+Para facilitar na difusão do conceito de modelagem dimensional \citeonline{Kimball2002} utiliza como exemplo um diretor geral que descreve seus negócios  como "Nós vendemos produtos em várias áreas de negócio e medimos nossa desempenho ao longo do tempo". Assim designers dimensionais colocariam em ênfase o produto, as áreas de negócio e o tempo, pensando intuitivamente neste negócio como um cubo de dados, onde as bordas estariam marcadas como produto, negócio e tempo. Pontos dentro do cubo são onde as medições que combinam produtos, áreas de negócio e tempo são salvas. A capacidade de visualizar algo tão abstrato como um conjunto de dados de uma forma concreta e tangível é o segredo da compreensão.
+
+Os conceitos básicos da modelagem dimensional são: fatos, dimensões e medidas. Um fato é uma coleção de itens de dados relacionados, que consiste em medidas e dados de contexto. Ele representa tipicamente itens de negócios ou transações de negócio. A dimensão é uma coleção de dados que descrevem uma dimensão negócio. Dimensões determinam o contextual a fundo para os fatos; eles são os parâmetros cujo queremos realizar a \textit{On-Line Analytic Processing (OLAP)}. A medida é um atributo numérico de um fato, que representa o desempenho ou comportamento do negócio em relação às dimensões \cite{marotta2000}.
+
+Considerando o contexto relacional, existem dois modelos básicos que são utilizados na modelagem dimensional: modelo de estrela e modelo de floco de neve. O modelo estrela é a estrutura básica de um modelo dimensional. Ele tem uma grande tabela central (tabelas fato) e um conjunto de pequenas tabelas (tabelas dimensão) dispostos em um padrão radial 
+ao redor da tabela central, como é mostrado na Figura \ref{fig:estrela}. O modelo de floco de neve é o resultado da decomposição de uma ou mais das dimensões \cite{marotta2000}.
  
 \begin{figure}[h!]
 \centering
-\includegraphics[keepaspectratio=false,scale=0.50]{figuras/figuras_matheus/star.eps}
+\includegraphics[keepaspectratio=false,scale=0.50]{figuras/figuras_nilton/star.eps}
 \caption{Esquema estrela extraído de \citeonline{valeria2012}}
 \label{fig:estrela}
 \end{figure}
@@ -48,52 +55,40 @@ Um modelo dimensional é composto por tabelas fatos e tabelas dimensões, que qu
  
 \subsection{OLAP \textit{(On-Line Analytic Processing)}}
 
-A atividade que consiste em buscar e apresentar os dados de um \textit{Data Warehouse}, sendo essa busca quase sempre baseada em um cubo multidimensional de dados, é chamada de \textit{On-Line Analytic Processing} (OLAP) \cite{Kimball2002}. A consulta OLAP difere da consulta do tipo \textit{On-Line Transaction Processing} (OLTP) pelo fato dos seus dados terem passado por um processo de ETL, de modo que sua performance foi melhorada para uma análise mais fácil e rápida, enquanto na consulta do tipo OLTP o sistema foi modelo de modo a capacitar inserções, atualizações e remoções de dados obedecendo regras de normalização. A tabela \ref{tab:hilmer} evidencia as diferenças entre aplicações OLTP e OLAP extraídas do trabalho de \citeonline{hilmer2002}: 
+A atividade que consiste em buscar e apresentar os dados de um \textit{Data Warehouse}, sendo essa busca quase sempre baseada em um cubo multidimensional de dados, é chamada de \textit{On-Line Analytic Processing} (OLAP) \cite{Kimball2002}. Segundo \cite{neeraj_sharma_2011} \textit{On-Line Analytic Processing(OLAP)} refere-se a cargas onde grandes quantidades de históricos de dados são processados para gerar relatórios e executar análise de dados. Normalmente, bancos de dados que utilizam OLAP são alimentados a partir de bancos de dados \textit{On-Line Transaction Processing} (OLTP) que são alterados para gerir cargas OLAP. Um banco de dados OLAP armazena um grande volume com os mesmos dados transacionais que um banco de dados OLTP, mas estes dados são transformados pelo processo de ETL para permitir um melhor desempenho para geração de relatórios e para facilitar as análises. Geralmente sistemas OLTP são ajustados para inserções, atualizações e exclusões bem rápidas, enquanto os sistemas OLAP estão ajustados para consultas rápidas.
+
+A tabela \ref{tab:hilmer} evidencia as diferenças entre aplicações OLTP e OLAP extraídas do trabalho de \citeonline{hilmer2002}: 
 
 \begin{table}[!ht]
 	\begin{center}
 	
-	\input{tabelas/tabelasMatheus/hilmer_olap_oltp.ltx} 
+	\input{tabelas/tabelasNilton/hilmer_olap_oltp.ltx} 
 	\caption{Diferenças entre OLTP e OLAP extraídas de \citeonline{hilmer2002}}
 	\label{tab:hilmer}
 	\end{center}
 	\end{table}	
-	\FloatBarrier	
+	\FloatBarrier
+	
+	
+No modelo multidimensional, os dados são organizados em múltiplas dimensões, e cada dimensão contém vários níveis de abstração definidos pelas hierarquias. Esta organização fornece aos usuários a flexibilidade para visualizar os dados a partir de diferentes perspectivas. Existe uma série de operações de cubo de dados OLAP para materializar esses diferentes pontos de vista, permitindo consultas interativas e análises de dados. Assim, OLAP fornece um ambiente amigável para análise de dados interativos.
 
-A modelagem multidimensional adotada pelo OLAP é associada de maneira metafórica na literatura a um cubo de dados, cujas arestas definem as dimensões dos dados e as células do cubo contém valores de medida \cite{Kimball2002}. Os cubos de dados têm um foco nas necessidades de negócio e podem ser exemplificados como na figura \ref{fig:cubo}:
+Entre as operações OLAP estão:	
 
-\begin{figure}[h!]
-\centering
-\includegraphics[keepaspectratio=false,scale=0.50]{figuras/figuras_matheus/cubo.eps}
-\caption{Cubo de dados com o fato Venda e dimensões Produto, Funcionário e Tempo}
-\label{fig:cubo}
-\end{figure}
-\FloatBarrier
-
-A figura \ref{fig:cubo} reflete uma análise em um cubo de dados para o esquema estrela da figura \ref{fig:estrela}. Essas análises podem ser divididas em alguns tipos diferentes, entre eles:
 
 \begin{easylist}[itemize]
 
 	& \textbf{\textit{Drill Down:}} Busca aumentar o nível de detalhamento, partindo de um certo nível de dados para um nível mais detalhado \cite{neeraj_sharma_2011}.  
+	
 	& \textbf{\textit{Drill Up:}} Ao contrário da operação \textit{Drill Down}, a \textit{Roll Up} parte de um nível mais detalhado para um nível menos detalhado  \cite{neeraj_sharma_2011}.
+	
 	& \textbf{\textit{Slice and Dice:}} Técnica com filosofia parecida à cláusula \textit{where} usada em \textit{SQL}. Permite que sejam criadas restrições na análise dos dados. \cite{valeria2012} 
+	
 	& \textbf{\textit{Drill Across:}} Permite que diferentes cubos sejam concatenados \cite{hilmer2002}. Uma operação do tipo \textit{Drill Across} irá simplesmente unir diferentes tabelas fato através de dimensões correspondentes \cite{kimball1998data}. 
+	
 	& \textbf{\textit{Pivoting:}} Metaforicamente, significa rotacionar o cubo. Essa técnica altera a ordenação das tabelas dimensionais \cite{hilmer2002}. 
 	
-
 	\end{easylist}
 	
-
-A figura \ref{fig:drill}, extraída de \citeonline{neeraj_sharma_2011}, mostra o fluxo percorrido pelo \textit{Drill Down} e pelo \textit{Drill Up} nas consultas OLAP:
-
-\begin{figure}[h!]
-\centering
-\includegraphics[keepaspectratio=false,scale=0.70]{figuras/figuras_matheus/drill.eps}
-\caption{Diferença entre o fluxo seguido pelo Drill Up e pelo Drill Down, extraída de \cite{neeraj_sharma_2011}}
-\label{fig:drill}
-\end{figure}
-\FloatBarrier
-
 \section{Ambiente de \textit{Data Warehousing} para Métricas de Código-Fonte}
 
 A figura \ref{fig:etl} descreve a arquitetura de um ambiente de \textit{Data Warehousing}. O nível mais baixo, de onde se faz a extração, foi chamado de fonte externa de dados. Para fazer uso de um ambiente de \textit{Data Warehousing} para armazenamento de métricas, \citeonline{rego_monitoramento_2014} modelou a arquitura da solução de modo que a fonte externa de dados seriam arquivos contendo métricas de software, como pode ser visto na figura \ref{fig:arquitetura_solucao}:

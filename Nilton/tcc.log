@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=latex 2014.9.6)  2 NOV 2014 21:05
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=latex 2014.9.6)  4 NOV 2014 01:26
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1640,34 +1640,24 @@ Package hypdvips Warning: Nested link discarded: dest = `cite.valeria2012'
 (hypdvips)                 on input line 6.
 
 
-Package hypdvips Warning: Nested link discarded: dest = `cite.neeraj_sharma_201
-1'
-(hypdvips)                 on input line 8.
-
-
-Package hypdvips Warning: Nested link discarded: dest = `cite.neeraj_sharma_201
-1'
+Package hypdvips Warning: Nested link discarded: dest = `cite.rego_monitorament
+o_2014'
 (hypdvips)                 on input line 8.
 
 
 Package hypdvips Warning: Nested link discarded: dest = `cite.rego_monitorament
 o_2014'
-(hypdvips)                 on input line 10.
+(hypdvips)                 on input line 8.
 
 
 Package hypdvips Warning: Nested link discarded: dest = `cite.rego_monitorament
 o_2014'
-(hypdvips)                 on input line 10.
+(hypdvips)                 on input line 9.
 
 
 Package hypdvips Warning: Nested link discarded: dest = `cite.rego_monitorament
 o_2014'
-(hypdvips)                 on input line 11.
-
-
-Package hypdvips Warning: Nested link discarded: dest = `cite.rego_monitorament
-o_2014'
-(hypdvips)                 on input line 11.
+(hypdvips)                 on input line 9.
 
 ) [9
 
@@ -2692,53 +2682,44 @@ File: figuras/figuras_nilton/etl.eps Graphic file (type eps)
 LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <17.28> not available
 (Font)              Font shape `T1/lmss/m/sl' tried instead on input line 23.
 
-[39]
-File: figuras/figuras_matheus/star.eps Graphic file (type eps)
- <figuras/figuras_matheus/star.eps>
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[40]
+[39] [40]
+File: figuras/figuras_nilton/star.eps Graphic file (type eps)
+ <figuras/figuras_nilton/star.eps>
 LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <14.4> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 52.
- (./tabelas/tabelasMatheus/hilmer_olap_oltp.ltx)
-File: figuras/figuras_matheus/cubo.eps Graphic file (type eps)
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 56.
 
-<figuras/figuras_matheus/cubo.eps>
+Overfull \hbox (25.17436pt too wide) in paragraph at lines 58--59
+\T1/lmr/m/n/12 mada de \T1/lmr/m/it/12 On-Line Analy-tic Pro-ces-sing \T1/lmr/m
+/n/12 (OLAP) ([][][][][][]KIM-BALL; ROSS[][][][][], [][][][][][]2002[][][][][][
+]). Se-gundo ([][][][][][]SHARMA[][][][][],
+ []
 
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[41]
-File: figuras/figuras_matheus/drill.eps Graphic file (type eps)
- <figuras/figuras_matheus/drill.eps>
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[42]
+(./tabelas/tabelasNilton/hilmer_olap_oltp.ltx) [41]
 File: figuras/figuras_matheus/arquitetura_solucao.eps Graphic file (type eps)
- <figuras/figuras_matheus/arquitetura_solucao.eps>
+
+<figuras/figuras_matheus/arquitetura_solucao.eps>
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[43] [44] (./tabelas/tabelasMatheus/fatos-dimensoes.ltx) [45]
-(./tabelas/tabelasMatheus/tabelas-fatos-tabelas-dimensoes.ltx) [46]
+[42] [43] (./tabelas/tabelasMatheus/fatos-dimensoes.ltx) [44]
+(./tabelas/tabelasMatheus/tabelas-fatos-tabelas-dimensoes.ltx) [45]
 File: figuras/figuras_matheus/modelo-dw-baufaker.eps Graphic file (type eps)
 
 <figuras/figuras_matheus/modelo-dw-baufaker.eps>
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[47] [48]
+[46] [47]
 File: figuras/figuras_matheus/metadados-baufaker.eps Graphic file (type eps)
  <figuras/figuras_matheus/metadados-baufaker.eps>)
-(./capitulos/5-projeto-estudo-de-caso.tex [49]
+(./capitulos/5-projeto-estudo-de-caso.tex [48]
 File: figuras/figuras_nilton/EscopoEstudoCaso.eps Graphic file (type eps)
 
 <figuras/figuras_nilton/EscopoEstudoCaso.eps>
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[50
+[49
 
 ]
 File: figuras/figuras_nilton/EstruturaEstudoCaso.eps Graphic file (type eps)
@@ -2746,7 +2727,7 @@ File: figuras/figuras_nilton/EstruturaEstudoCaso.eps Graphic file (type eps)
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[51]
+[50]
 Overfull \hbox (0.65685pt too wide) in paragraph at lines 56--57
 []\T1/lmr/m/n/12 Para aten-der a ques-tão de pes-quisa foi uti-li-zado o me-ca-
 nismo \T1/lmr/m/it/12 goal-question-metrics\T1/lmr/m/n/12 .
@@ -2757,7 +2738,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 58--59
 
  []
 
-[52]
+[51]
 Underfull \hbox (badness 10000) in paragraph at lines 67--68
 
  []
@@ -2793,7 +2774,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 114--115
 
  []
 
-[53]
+[52]
 Underfull \hbox (badness 10000) in paragraph at lines 124--125
 
  []
@@ -2803,12 +2784,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 133--134
 
  []
 
-[54] [55]) (./capitulos/6-conclusao.tex [56] [57]) (./tcc.bbl (./tcc.brf)
+[53] [54]) (./capitulos/6-conclusao.tex [55] [56]) (./tcc.bbl (./tcc.brf)
 \tf@brf=\write6
 \openout6 = `tcc.brf'.
 
 
-[58
+[57
 
 ]
 bibitemlist
@@ -2838,11 +2819,11 @@ Underfull \hbox (badness 3354) in paragraph at lines 33--33
 [][][]$SIDOC;$[][] 
  []
 
-[59
+[58
 
-] [60]) (./apendices/apendices.tex [61]) (./editaveis/anexos.tex) (./tcc.ind) 
+] [59]) (./apendices/apendices.tex [60]) (./editaveis/anexos.tex) (./tcc.ind) 
 AED: lastpage setting LastPage
-[62
+[61
 
 ]
 \tf@lof=\write7
@@ -2863,7 +2844,7 @@ Package atveryend Info: Executing hook `AfterLastShipout' on input line 45.
 Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 45.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 45.
 Package rerunfilecheck Info: File `tcc.brf' has not changed.
-(rerunfilecheck)             Checksum: BA90CBB5BE5BF4D380A42FE86EEDEB5F;7198.
+(rerunfilecheck)             Checksum: B60A2533F017EB933E012A2D1FE20EB8;7191.
 
 
 LaTeX Warning: There were multiply-defined labels.
@@ -2871,12 +2852,12 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 45.
  ) 
 Here is how much of TeX's memory you used:
- 25961 strings out of 493305
- 434393 string characters out of 6139898
- 617281 words of memory out of 5000000
- 28772 multiletter control sequences out of 15000+600000
+ 25964 strings out of 493305
+ 434435 string characters out of 6139898
+ 616810 words of memory out of 5000000
+ 28777 multiletter control sequences out of 15000+600000
  110549 words of font info for 82 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
- 63i,14n,75p,1580b,707s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 63i,14n,75p,1608b,708s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on tcc.dvi (63 pages, 639080 bytes).
+Output written on tcc.dvi (62 pages, 633780 bytes).
