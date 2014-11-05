@@ -52,6 +52,12 @@ ISBN 0201760312.}
 {FOWLER, M. \emph{Refactoring: improving the design of existing code}. [S.l.]:
   Addison-Wesley Professional, 1999.}
 
+\bibitem[Golfarelli 2009]{golfarelli_data_2009}
+\abntrefinfo{Golfarelli}{GOLFARELLI}{2009}
+{GOLFARELLI, M. \emph{Data warehouse design: modern principles and
+  methodologies}. New York: {McGraw}-Hill, 2009.
+ISBN 9780071610391.}
+
 \bibitem[Guti\'{e}rrez e Marotta 2000]{marotta2000}
 \abntrefinfo{Guti\'{e}rrez e Marotta}{GUTI\'{e}RREZ; MAROTTA}{2000}
 {GUTI\'{e}RREZ, A.; MAROTTA, A. An overview of data warehouse design approaches
