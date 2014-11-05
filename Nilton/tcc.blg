@@ -14,7 +14,7 @@ Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
 Database file #1: abntex2-options.bib
 Database file #2: bibliografia.bib
 Warning--entry type for "hilmer2002" isn't style-file defined
---line 404 of file bibliografia.bib
+--line 421 of file bibliografia.bib
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated glb_str_ptr (elt_size=4) to 20 items from 10.
 Reallocated global_strs (elt_size=20001) to 20 items from 10.
@@ -25,45 +25,45 @@ Warning--faltando school em andre2000
 | Em caso de dúvidas ou problemas com este estilo procure |
 | http://abntex2.googlecode.com                           |
 +---------------------------------------------------------+
-You've used 40 entries,
+You've used 42 entries,
             6711 wiz_defined-function locations,
-            1413 strings with 15246 characters,
-and the built_in function-call counts, 38598 in all, are:
-= -- 3982
-> -- 802
-< -- 690
-+ -- 1007
-- -- 254
-* -- 2374
-:= -- 5117
-add.period$ -- 143
-call.type$ -- 40
-change.case$ -- 303
-chr.to.int$ -- 63
-cite$ -- 40
-duplicate$ -- 3301
-empty$ -- 2204
-format.name$ -- 1187
-if$ -- 8129
+            1424 strings with 15591 characters,
+and the built_in function-call counts, 41957 in all, are:
+= -- 4399
+> -- 849
+< -- 797
++ -- 1131
+- -- 269
+* -- 2569
+:= -- 5523
+add.period$ -- 151
+call.type$ -- 42
+change.case$ -- 320
+chr.to.int$ -- 65
+cite$ -- 42
+duplicate$ -- 3689
+empty$ -- 2313
+format.name$ -- 1257
+if$ -- 8762
 int.to.chr$ -- 1
 int.to.str$ -- 0
-missing$ -- 692
-newline$ -- 193
-num.names$ -- 195
-pop$ -- 867
+missing$ -- 728
+newline$ -- 204
+num.names$ -- 205
+pop$ -- 925
 preamble$ -- 1
-purify$ -- 133
+purify$ -- 140
 quote$ -- 0
-skip$ -- 3421
+skip$ -- 3800
 stack$ -- 1
-substring$ -- 1412
-swap$ -- 1187
-text.length$ -- 16
+substring$ -- 1554
+swap$ -- 1318
+text.length$ -- 17
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 11
 warning$ -- 1
-while$ -- 245
+while$ -- 258
 width$ -- 0
-write$ -- 586
+write$ -- 615
 (There were 2 warnings)

@@ -52,6 +52,11 @@ ISBN 0201760312.}
 {FOWLER, M. \emph{Refactoring: improving the design of existing code}. [S.l.]:
   Addison-Wesley Professional, 1999.}
 
+\bibitem[Gil 2002]{gil_como_2002}
+\abntrefinfo{Gil}{GIL}{2002}
+{GIL, A.~C. \emph{Como elaborar projetos de pesquisa}. [S.l.]: Atlas, 2002.
+ISBN 9788522431694 8522431698.}
+
 \bibitem[Golfarelli 2009]{golfarelli_data_2009}
 \abntrefinfo{Golfarelli}{GOLFARELLI}{2009}
 {GOLFARELLI, M. \emph{Data warehouse design: modern principles and
@@ -204,6 +209,14 @@ Disserta\c{c}\~{a}o (Mestrado), Universidade Federal da Paraíba - Centro de
 \abntrefinfo{Sharma}{SHARMA}{2011}
 {SHARMA, N. \emph{Getting started with data warehousing}. [S.l.]: {IBM}
   Redbooks, 2011.}
+
+\bibitem[Silva e Menezes 2005]{metodologia_edna}
+\abntrefinfo{Silva e Menezes}{SILVA; MENEZES}{2005}
+{SILVA, E.; MENEZES, E. Metodologia da pesquisa e elaboração de
+  dissertação.
+2005.
+Dispon{\'\i}vel em:
+  \url{https://projetos.inf.ufsc.br/arquivos/Metodologia\_de\_pesquisa\_e\_elaboracao\_de\_teses\_e\_dissertacoes\_4ed.pdf}.}
 
 \bibitem[SOFTEX 2013]{GuiaAquisicao}
 \abntrefinfo{SOFTEX}{SOFTEX}{2013a}

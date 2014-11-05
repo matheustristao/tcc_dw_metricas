@@ -1,15 +1,15 @@
 \select@language {brazil}
 \contentsline {figure}{\numberline {1}{\ignorespaces Metodologia de Pesquisa\relax }}{17}{figure.caption.14}
-\contentsline {figure}{\numberline {2}{\ignorespaces Passos do Estudo de Caso\relax }}{18}{figure.caption.15}
-\contentsline {figure}{\numberline {3}{\ignorespaces Modelo de Qualidade do Produto da \citeonline {ISO:9126}\relax }}{22}{figure.caption.16}
-\contentsline {figure}{\numberline {4}{\ignorespaces Arquitetura de um ambiente de Data Warehousing\relax }}{39}{figure.caption.26}
-\contentsline {figure}{\numberline {5}{\ignorespaces Esquema estrela extra\IeC {\'\i }do de \citeonline {valeria2012}\relax }}{41}{figure.caption.27}
-\contentsline {figure}{\numberline {6}{\ignorespaces Exemplo de opera\IeC {\c c}\IeC {\~o}es \textit {Drill Down}(direita) e \textit {Drill up}(esquerda) extra\IeC {\'\i }dos de \citeonline {golfarelli_data_2009}\relax }}{42}{figure.caption.29}
-\contentsline {figure}{\numberline {7}{\ignorespaces Exemplo de opera\IeC {\c c}\IeC {\~o}es \textit {Slice}(acima) e \textit {Dice}(embaixo) extra\IeC {\'\i }dos de \citeonline {golfarelli_data_2009}\relax }}{43}{figure.caption.30}
-\contentsline {figure}{\numberline {8}{\ignorespaces Exemplo da opera\IeC {\c c}\IeC {\~a}o \textit {Drill Across} extra\IeC {\'\i }do de \citeonline {golfarelli_data_2009}\relax }}{43}{figure.caption.31}
-\contentsline {figure}{\numberline {9}{\ignorespaces Exemplo da opera\IeC {\c c}\IeC {\~a}o \textit {Pivoting} extra\IeC {\'\i }do de \citeonline {golfarelli_data_2009}\relax }}{44}{figure.caption.32}
-\contentsline {figure}{\numberline {10}{\ignorespaces Metodologia de Projeto de \textit {Data Warehouse} proposta por \citeonline {Kimball2002} extra\IeC {\'\i }da de \citeonline {rego_monitoramento_2014} \relax }}{45}{figure.caption.33}
-\contentsline {figure}{\numberline {11}{\ignorespaces Projeto f\IeC {\'\i }sico do \textit {Data Warehouse} extra\IeC {\'\i }do de \citeonline {rego_monitoramento_2014}\relax }}{47}{figure.caption.35}
-\contentsline {figure}{\numberline {12}{\ignorespaces Projeto f\IeC {\'\i }sico do \textit {Data Warehouse} extra\IeC {\'\i }do de \citeonline {rego_monitoramento_2014}\relax }}{49}{figure.caption.37}
-\contentsline {figure}{\numberline {13}{\ignorespaces Escopo do Estudo de Caso\relax }}{52}{figure.caption.39}
-\contentsline {figure}{\numberline {14}{\ignorespaces Estrutura do Estudo de Caso\relax }}{53}{figure.caption.40}
+\contentsline {figure}{\numberline {2}{\ignorespaces Passos do Estudo de Caso\relax }}{19}{figure.caption.16}
+\contentsline {figure}{\numberline {3}{\ignorespaces Modelo de Qualidade do Produto da \citeonline {ISO:9126}\relax }}{23}{figure.caption.17}
+\contentsline {figure}{\numberline {4}{\ignorespaces Arquitetura de um ambiente de Data Warehousing\relax }}{40}{figure.caption.27}
+\contentsline {figure}{\numberline {5}{\ignorespaces Esquema estrela extra\IeC {\'\i }do de \citeonline {valeria2012}\relax }}{42}{figure.caption.28}
+\contentsline {figure}{\numberline {6}{\ignorespaces Exemplo de opera\IeC {\c c}\IeC {\~o}es \textit {Drill Down}(direita) e \textit {Drill up}(esquerda) extra\IeC {\'\i }dos de \citeonline {golfarelli_data_2009}\relax }}{43}{figure.caption.30}
+\contentsline {figure}{\numberline {7}{\ignorespaces Exemplo de opera\IeC {\c c}\IeC {\~o}es \textit {Slice}(acima) e \textit {Dice}(embaixo) extra\IeC {\'\i }dos de \citeonline {golfarelli_data_2009}\relax }}{44}{figure.caption.31}
+\contentsline {figure}{\numberline {8}{\ignorespaces Exemplo da opera\IeC {\c c}\IeC {\~a}o \textit {Drill Across} extra\IeC {\'\i }do de \citeonline {golfarelli_data_2009}\relax }}{44}{figure.caption.32}
+\contentsline {figure}{\numberline {9}{\ignorespaces Exemplo da opera\IeC {\c c}\IeC {\~a}o \textit {Pivoting} extra\IeC {\'\i }do de \citeonline {golfarelli_data_2009}\relax }}{45}{figure.caption.33}
+\contentsline {figure}{\numberline {10}{\ignorespaces Metodologia de Projeto de \textit {Data Warehouse} proposta por \citeonline {Kimball2002} extra\IeC {\'\i }da de \citeonline {rego_monitoramento_2014} \relax }}{46}{figure.caption.34}
+\contentsline {figure}{\numberline {11}{\ignorespaces Projeto f\IeC {\'\i }sico do \textit {Data Warehouse} extra\IeC {\'\i }do de \citeonline {rego_monitoramento_2014}\relax }}{48}{figure.caption.36}
+\contentsline {figure}{\numberline {12}{\ignorespaces Projeto f\IeC {\'\i }sico do \textit {Data Warehouse} extra\IeC {\'\i }do de \citeonline {rego_monitoramento_2014}\relax }}{50}{figure.caption.38}
+\contentsline {figure}{\numberline {13}{\ignorespaces Escopo do Estudo de Caso\relax }}{53}{figure.caption.40}
+\contentsline {figure}{\numberline {14}{\ignorespaces Estrutura do Estudo de Caso\relax }}{54}{figure.caption.41}
