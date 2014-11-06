@@ -2,8 +2,32 @@ This is BibTeX, Version 0.99dThe top-level auxiliary file: tcc.aux
 The style file: abntex2-alf.bst
 Database file #1: abntex2-options.bib
 Database file #2: bibliografia.bib
+I was expecting a `{' or a `('---line 2 of file bibliografia.bib
+ : % @estudo 
+ :           de Caso
+I'm skipping whatever remains of this entry
+I was expecting a `{' or a `('---line 66 of file bibliografia.bib
+ : 
+ : @book{elmasri_sistemas_2011,
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+Warning--entry type for "hilmer2002" isn't style-file defined
+--line 128 of file bibliografia.bib
+Repeated entry---line 223 of file bibliografia.bib
+ : @article{rego_monitoramento_2014
+ :                                 ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 262 of file bibliografia.bib
+ : @masterthesis{hilmer2002
+ :                         ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 597 of file bibliografia.bib
+ : @book{Basili96b
+ :                ,
+I'm skipping whatever remains of this entry
 +---------------------------------------------------------+
 | Estilo bibliográfico abntex2-alf.bst versão v-1.9.2           |
 | Em caso de dúvidas ou problemas com este estilo procure |
 | http://abntex2.googlecode.com                           |
 +---------------------------------------------------------+
+(There were 5 error messages)

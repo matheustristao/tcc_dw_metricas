@@ -1,2 +1,9 @@
 \select@language {brazil}
-\contentsline {figure}{\numberline {1}{\ignorespaces Legenda \relax }}{17}{figure.caption.11}
+\contentsline {figure}{\numberline {1}{\ignorespaces Elementos b\IeC {\'a}sicos de um data warehouse\relax }}{19}{figure.caption.11}
+\contentsline {figure}{\numberline {2}{\ignorespaces Uma matriz bidimensional\relax }}{21}{figure.caption.12}
+\contentsline {figure}{\numberline {3}{\ignorespaces Um cubo de dados tridimensional\relax }}{21}{figure.caption.13}
+\contentsline {figure}{\numberline {4}{\ignorespaces Um esquema estrela\relax }}{23}{figure.caption.14}
+\contentsline {figure}{\numberline {5}{\ignorespaces Um esquema floco de neve\relax }}{23}{figure.caption.15}
+\contentsline {figure}{\numberline {6}{\ignorespaces Projeto F\IeC {\'\i }sico do \textit {Data Warehouse} por \citeonline {rego_monitoramento_2014}\relax }}{26}{figure.caption.17}
+\contentsline {figure}{\numberline {7}{\ignorespaces Metadados do Data Warehouse por \citeonline {rego_monitoramento_2014}\relax }}{27}{figure.caption.18}
+\contentsline {figure}{\numberline {8}{\ignorespaces Estrutura do Estudo de Caso\relax }}{30}{figure.caption.19}
