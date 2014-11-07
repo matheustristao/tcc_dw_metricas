@@ -231,7 +231,29 @@ Visando facilitar o processo de ETL principalmente na etapa da transformação, 
 	\end{table}	
 	\FloatBarrier
 
+\subsection{Ferramentas de \textit{Data Warehousing}}
 
+Entre as alternativas de código aberto que suportam um modelo dimensional, \citeonline{rego_monitoramento_2014}  utilizou o \textit{Pentaho Business Analytics Community Edition}. Esta altiva livre apresenta soluções que cobrem as áreas de ETL, \textit{reporting}, \textit{OLAP} e mineração de dados. A Figura \ref{fig:arquiteturaAmbiente}, apresenta o modo como cada uma das ferramentas está disposta na arquitetura do ambiente de \textit{Data Warehousing} para Métricas de Código-Fonte.
+
+Segue abaixo as ferramentas utilizadas em cada etapa do \textit{Data Warehouse}:
+
+\begin{easylist}[itemize]
+
+	& \textbf{ETL:} Pentaho Data Integration Community Edition ou Kettle.
+	 
+	& \textbf{Implementação das Consultas OLAP e Visualização de Dados:} \textit{Pentaho BI Platform 8}, provê de uma arquitetura e a infraestrutura para soluções de \textit{Business Inteligence}, \textit{Data Mining} e a camada de visualização de dados do \textit{Data Warehouse}. Junto ao \textit{Pentaho BI Platform 8} foi utilizado o \textit{plugin Saiku Analytics} que oferece serviços de apoio a operações OLAP e à visualização de dados, na arquitetura do \textit{Saiku Analytics}, está incorporado outro software livre que realiza consulta e é chamado de \textit{Mondrian OLAP}. 
+	
+	& \textbf{Análise estática de código-fonte:}\textit{Analizo}, possibilita emitir saídas das métricas em CSV que detalham nome da classe e as suas respectivas métrica.
+
+	\end{easylist}
+	
+	\begin{figure}[h!]
+\centering
+\includegraphics[keepaspectratio=false,scale=0.2]{figuras/figuras_nilton/pentaho-tools.eps}
+\caption{Arquitetura Ambiente de \textit{Data Warehousing} para Métricas de Código-Fonte extraído de \citeonline{rego_monitoramento_2014}}
+\label{fig:arquiteturaAmbiente}
+\end{figure}
+\FloatBarrier
 
 \section{Considerações finais do capítulo}
 
