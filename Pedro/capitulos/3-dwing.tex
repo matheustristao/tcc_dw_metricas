@@ -1,7 +1,7 @@
 \chapter{\textit{Data Warehousing}} 
 \label{chap:dw}
 
-	Este capítulo apresenta algumas definições necessárias para que se obtenha uma visão geral de data warehousing e OLAP. Primeiramente é definido o que é um data warehouse e quais são as terminologias relacionadas ao assunto. Em seguida é mostrado as características específicas de um data warehouse, procurando compara-lo aos banco de dados relacionais. Os componentes de um dw são definidos e apresentados e subsequentemente a modelagem que se aplica a um dw é explicitada. Ao final é apresentado a solução de data warehousing para métricas de código-fonte e como ela foi pensada segundo os fundamentos explicados nos tópicos anteriores.
+	Este capítulo apresenta algumas definições necessárias para que se obtenha uma visão geral de data warehousing e OLAP. Primeiramente é definido o que é um data warehouse e quais são as terminologias relacionadas ao assunto. Em seguida é mostrado as características específicas de um data warehouse, procurando compara-lo aos banco de dados relacionais. Os componentes de um DW são definidos e apresentados e subsequentemente a modelagem que se aplica a um dw é explicitada. Ao final é apresentado a solução de data warehousing para métricas de código-fonte e como ela foi pensada segundo os fundamentos explicados nos tópicos anteriores.
 
 \section{Definições e terminologia}\label{sec:intro}
 
@@ -12,14 +12,14 @@
 Os Data Warehouses oferecem armazenamento, funcionalidade e responsividade às consultas além das capacidades dos bancos de dados orientados à transação \cite{elmasri_sistemas_2011}. São vários os tipos de aplicação aceitos para um data warehouse. Algumas delas serão definidas a seguir.
 
 
-\textbf{OLAP (online analytical processing — processamento analítico on-line)}
-É um conjunto de princípios que fornecem uma estrutura dimensional de apoio à decisão \cite{Kimball2002}. As ferramentas OLAP empregam as capacidades de computação distribuída para análises que requerem mais armazenamento e poder de processamento do que pode estar localizado econômica e eficientemente em um desktop individual \cite{elmasri_sistemas_2011}. Nestas aplicações dados sumariados e históricos são mais importantes que dados atômicos \cite{hilmer2002}.
+\textbf{OLAP (online analytical processing — processamento analítico on-line)}:
+é um conjunto de princípios que fornecem uma estrutura dimensional de apoio à decisão \cite{Kimball2002}. As ferramentas OLAP empregam as capacidades de computação distribuída para análises que requerem mais armazenamento e poder de processamento do que pode estar localizado econômica e eficientemente em um desktop individual \cite{elmasri_sistemas_2011}. Nestas aplicações dados sumariados e históricos são mais importantes que dados atômicos \cite{hilmer2002}.
 
-\textbf{DSS (decision-support systems — sistemas de apoio à decisão)}
-São sistemas que ajudam os principais tomadores de decisões de uma organização com dados de nível mais alto em decisões complexas e importantes \cite{elmasri_sistemas_2011}. Segundo \citeonline{kimball_data_2008}  os DSSs têm como objetivo tornar a informação de uma organização acessível e consistente, prover uma fonte adaptável e resiliente de informações, e garantir a segurança aos dados para assim ser um sistema base para a tomada de decisão.
+\textbf{DSS (decision-support systems — sistemas de apoio à decisão)}:
+são sistemas que ajudam os principais tomadores de decisões de uma organização com dados de nível mais alto em decisões complexas e importantes \cite{elmasri_sistemas_2011}. Segundo \citeonline{kimball_data_2008}  os DSSs têm como objetivo tornar a informação de uma organização acessível e consistente, prover uma fonte adaptável e resiliente de informações, e garantir a segurança aos dados para assim ser um sistema base para a tomada de decisão.
 
-\textbf{OLTP (online transaction processing) — processamento on-line de transações }
-Bancos de dados tradicionais têm suporte para o OLTP, com suas operações de inserção, atualização e exclusão e também à consulta de dados. \citeonline{neeraj_sharma_2011} explica que sistemas OLTP usam tabelas simples para armazenar dados, estes que são normalizados, para se reduzir a redundância ou até mesmo eliminá-los, buscando sempre a garantia de sua consistência.
+\textbf{OLTP (online transaction processing) — processamento on-line de transações}:
+bancos de dados tradicionais têm suporte para o OLTP, com suas operações de inserção, atualização e exclusão e também à consulta de dados. \citeonline{neeraj_sharma_2011} explica que sistemas OLTP usam tabelas simples para armazenar dados, estes que são normalizados, para se reduzir a redundância ou até mesmo eliminá-los, buscando sempre a garantia de sua consistência.
 
 
 \section{Características dos data warehouses}\label{sec:caract-dw}
@@ -68,9 +68,7 @@ Segundo \citeonline{elmasri_sistemas_2011} data warehouses são otimizados para 
 
 \end{easylist}
 
-
 % @Componentes de um DW
-
 
 \subsection{Componentes Básicos de um Data Warehouse}
 
@@ -85,11 +83,8 @@ A figura \ref{fig:elem-bas-dw} representa a estrutura básica de um DW segundo \
 \end{figure}
 \FloatBarrier
 
-
-
 \textbf{Sistemas de Fonte de Dados Operacionais (OSS - \textit{Operational Source Systems})}:
 Representa os sistemas que irão prover informações para o DW. Seus dados podem ser provenientes de outros sistemas OLTPs, planilhas e etc, que compoêm o negócio a ser tratado. Devem ser pensados como fora do data warehouse porque, temos pouco ou nenhum controle sobre o conteúdo e formato dos dados presentes nestes tipos de sistemas legados \cite{Kimball2002}.
-
 
 \textbf{Área de Preparação dos Dados (DSA - \textit{Data Staging Area})}:
 É onde irá ocorrer a possível limpeza e reformatação dos dados antes que sejam carregados no \textit{data warehouse} \cite{elmasri_sistemas_2011}, processo esse conhecido como extração transformação e carga (ETL).
@@ -138,7 +133,7 @@ Uma planilha simples contendo uma matriz bidimensional poderia representar as ve
 \begin{figure}[h!]
 \centering
 \includegraphics[keepaspectratio=false,scale=0.65]{figuras/figuras_pedro/cubo.eps}
-\caption{Um cubo de dados tridimensional}
+\caption{Um cubo de dados tridimensiona adaptado de \citeonline{elmasri_sistemas_2011}}
 \label{fig:cubo-dw}
 \end{figure}
 \FloatBarrier
@@ -191,8 +186,6 @@ Dois esquemas comuns são o esquema estrela e o esquema floco de neve. O esquema
 \FloatBarrier
 
 \section{Solução de \textit{Data Warehousing} para Métricas de Código-Fonte}
-
-
 
 Seguindo a metodologia de \citeonline{Kimball2002} para projetar um data warehouse, \citeonline{rego_monitoramento_2014} projetou uma solução de data warehousing para métricas de código-fonte seguindo quatro passos da metodologia, definidos em cada sub-seção a seguir.
 
@@ -281,4 +274,4 @@ Assim \citeonline{rego_monitoramento_2014} elaborou o modelo físico para o data
 % @sec:Considerações Finais do Capítulo
 \section{Considerações finais do Capítulo}
 
-----Considerações finais do Capítulo
+Nesse capítulo foi apresentado os conceitos de \textit{data warehousing} que foram a base teórica para a elaboração da solução de DW de \citeonline{rego_monitoramento_2014}. No próximo capítulo será apresentado o projeto de estudo de caso com seu protocolo, apresentando a questão de pesquisa motivadora do estudo.

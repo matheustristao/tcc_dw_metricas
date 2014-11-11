@@ -9,43 +9,46 @@
 \contentsline {chapter}{\chapternumberline {1}\MakeTextUppercase {Introdu\IeC {\c c}\IeC {\~a}o}}{15}{chapter.1}
 \contentsline {section}{\numberline {1.1}Contexto}{15}{section.1.1}
 \contentsline {section}{\numberline {1.2}Problema}{15}{section.1.2}
-\contentsline {section}{\numberline {1.3}Quest\IeC {\~a}o de Pesquisa}{15}{section.1.3}
-\contentsline {section}{\numberline {1.4}Objetivos}{15}{section.1.4}
-\contentsline {section}{\numberline {1.5}Hip\IeC {\'o}tese}{15}{section.1.5}
-\contentsline {section}{\numberline {1.6}Organiza\IeC {\c c}\IeC {\~a}o do Trabalho}{15}{section.1.6}
+\contentsline {section}{\numberline {1.3}Objetivos}{15}{section.1.3}
+\contentsline {section}{\numberline {1.4}Metodologia de Pesquisa}{16}{section.1.4}
+\contentsline {section}{\numberline {1.5}Organiza\IeC {\c c}\IeC {\~a}o do Trabalho}{17}{section.1.5}
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {2}\MakeTextUppercase {M\IeC {\'e}tricas de Software}}{16}{chapter.2}
+\contentsline {chapter}{\chapternumberline {2}\MakeTextUppercase {M\IeC {\'e}tricas de Software}}{19}{chapter.2}
+\contentsline {section}{\numberline {2.1}Classifica\IeC {\c c}\IeC {\~a}o das m\IeC {\'e}tricas de software}{19}{section.2.1}
+\contentsline {section}{\numberline {2.2}M\IeC {\'e}tricas de c\IeC {\'o}digo-fonte}{19}{section.2.2}
+\contentsline {subsection}{\numberline {2.2.1}M\IeC {\'e}trica de Tamanho e Complexidade}{19}{subsection.2.2.1}
+\contentsline {subsection}{\numberline {2.2.2}M\IeC {\'e}tricas de orienta\IeC {\c c}\IeC {\~a}o a objeto}{20}{subsection.2.2.2}
+\contentsline {section}{\numberline {2.3}Configura\IeC {\c c}\IeC {\~o}es de Qualidade para M\IeC {\'e}tricas de C\IeC {\'o}digo-Fonte}{21}{section.2.3}
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {3}\MakeTextUppercase {\textit {Data Warehousing}}}{17}{chapter.3}
-\contentsline {section}{\numberline {3.1}Defini\IeC {\c c}\IeC {\~o}es e terminologia}{17}{section.3.1}
-\contentsline {section}{\numberline {3.2}Caracter\IeC {\'\i }sticas dos data warehouses}{18}{section.3.2}
-\contentsline {subsection}{\numberline {3.2.1}Componentes B\IeC {\'a}sicos de um Data Warehouse}{19}{subsection.3.2.1}
-\contentsline {section}{\numberline {3.3}Modelagem de dados para data warehouses}{20}{section.3.3}
-\contentsline {subsection}{\numberline {3.3.1}Tipos de tabelas do modelo multidimensional}{22}{subsection.3.3.1}
-\contentsline {subsection}{\numberline {3.3.2}Esquemas multidimensionais}{22}{subsection.3.3.2}
-\contentsline {section}{\numberline {3.4}Solu\IeC {\c c}\IeC {\~a}o de \textit {Data Warehousing} para M\IeC {\'e}tricas de C\IeC {\'o}digo-Fonte}{23}{section.3.4}
-\contentsline {subsection}{\numberline {3.4.1}Sele\IeC {\c c}\IeC {\~a}o do processo de neg\IeC {\'o}cio}{24}{subsection.3.4.1}
-\contentsline {subsection}{\numberline {3.4.2}Verifica\IeC {\c c}\IeC {\~a}o da periodicidade de coleta de dados}{25}{subsection.3.4.2}
-\contentsline {subsection}{\numberline {3.4.3}Identifica\IeC {\c c}\IeC {\~a}o dos fatos e das dimens\IeC {\~o}es}{25}{subsection.3.4.3}
-\contentsline {section}{\numberline {3.5}Considera\IeC {\c c}\IeC {\~o}es finais do Cap\IeC {\'\i }tulo}{27}{section.3.5}
+\contentsline {chapter}{\chapternumberline {3}\MakeTextUppercase {\textit {Data Warehousing}}}{22}{chapter.3}
+\contentsline {section}{\numberline {3.1}Defini\IeC {\c c}\IeC {\~o}es e terminologia}{22}{section.3.1}
+\contentsline {section}{\numberline {3.2}Caracter\IeC {\'\i }sticas dos data warehouses}{23}{section.3.2}
+\contentsline {subsection}{\numberline {3.2.1}Componentes B\IeC {\'a}sicos de um Data Warehouse}{24}{subsection.3.2.1}
+\contentsline {section}{\numberline {3.3}Modelagem de dados para data warehouses}{25}{section.3.3}
+\contentsline {subsection}{\numberline {3.3.1}Tipos de tabelas do modelo multidimensional}{27}{subsection.3.3.1}
+\contentsline {subsection}{\numberline {3.3.2}Esquemas multidimensionais}{27}{subsection.3.3.2}
+\contentsline {section}{\numberline {3.4}Solu\IeC {\c c}\IeC {\~a}o de \textit {Data Warehousing} para M\IeC {\'e}tricas de C\IeC {\'o}digo-Fonte}{28}{section.3.4}
+\contentsline {subsection}{\numberline {3.4.1}Sele\IeC {\c c}\IeC {\~a}o do processo de neg\IeC {\'o}cio}{29}{subsection.3.4.1}
+\contentsline {subsection}{\numberline {3.4.2}Verifica\IeC {\c c}\IeC {\~a}o da periodicidade de coleta de dados}{30}{subsection.3.4.2}
+\contentsline {subsection}{\numberline {3.4.3}Identifica\IeC {\c c}\IeC {\~a}o dos fatos e das dimens\IeC {\~o}es}{30}{subsection.3.4.3}
+\contentsline {section}{\numberline {3.5}Considera\IeC {\c c}\IeC {\~o}es finais do Cap\IeC {\'\i }tulo}{32}{section.3.5}
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {4}\MakeTextUppercase {Projeto de Estudo de Caso}}{28}{chapter.4}
-\contentsline {section}{\numberline {4.1}Defini\IeC {\c c}\IeC {\~a}o}{28}{section.4.1}
-\contentsline {section}{\numberline {4.2}Background}{29}{section.4.2}
-\contentsline {subsection}{\numberline {4.2.1}Outros Trabalhos}{29}{subsection.4.2.1}
-\contentsline {subsection}{\numberline {4.2.2}Problema}{29}{subsection.4.2.2}
-\contentsline {subsection}{\numberline {4.2.3}Quest\IeC {\~a}o de Pesquisa}{29}{subsection.4.2.3}
-\contentsline {section}{\numberline {4.3}Design}{32}{section.4.3}
-\contentsline {section}{\numberline {4.4}Sele\IeC {\c c}\IeC {\~a}o}{32}{section.4.4}
-\contentsline {section}{\numberline {4.5}Fonte e M\IeC {\'e}todo de Coleta de Dados}{33}{section.4.5}
-\contentsline {section}{\numberline {4.6}An\IeC {\'a}lise}{33}{section.4.6}
-\contentsline {section}{\numberline {4.7}Validade}{33}{section.4.7}
-\contentsline {section}{\numberline {4.8}Considera\IeC {\c c}\IeC {\~o}es finais do Cap\IeC {\'\i }tulo}{34}{section.4.8}
+\contentsline {chapter}{\chapternumberline {4}\MakeTextUppercase {Projeto de Estudo de Caso}}{33}{chapter.4}
+\contentsline {section}{\numberline {4.1}Defini\IeC {\c c}\IeC {\~a}o}{33}{section.4.1}
+\contentsline {section}{\numberline {4.2}Background}{34}{section.4.2}
+\contentsline {subsection}{\numberline {4.2.1}Outros Trabalhos}{34}{subsection.4.2.1}
+\contentsline {subsection}{\numberline {4.2.2}Quest\IeC {\~a}o de Pesquisa}{34}{subsection.4.2.2}
+\contentsline {section}{\numberline {4.3}Design}{37}{section.4.3}
+\contentsline {section}{\numberline {4.4}Sele\IeC {\c c}\IeC {\~a}o}{37}{section.4.4}
+\contentsline {section}{\numberline {4.5}Fonte e M\IeC {\'e}todo de Coleta de Dados}{37}{section.4.5}
+\contentsline {section}{\numberline {4.6}An\IeC {\'a}lise}{37}{section.4.6}
+\contentsline {section}{\numberline {4.7}Validade}{38}{section.4.7}
+\contentsline {section}{\numberline {4.8}Considera\IeC {\c c}\IeC {\~o}es finais do Cap\IeC {\'\i }tulo}{39}{section.4.8}
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {5}\MakeTextUppercase {Conclus\IeC {\~a}o}}{35}{chapter.5}
+\contentsline {chapter}{\chapternumberline {5}\MakeTextUppercase {Conclus\IeC {\~a}o}}{40}{chapter.5}
 \vspace {\cftbeforechapterskip }
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
-\contentsline {chapter}{Refer\^encias}{36}{section*.22}
+\contentsline {chapter}{Refer\^encias}{41}{section*.24}
 \renewcommand *{\cftappendixname }{AP\^ENDICE \space }
 \cftinsert {AAA}
 \renewcommand *{\cftappendixname }{ANEXO \space }

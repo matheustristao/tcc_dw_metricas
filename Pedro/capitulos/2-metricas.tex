@@ -1,2 +1,78 @@
 \chapter{Métricas de Software}
 \label{chap:metricas}
+
+\section {Classificação das métricas de software}
+
+\begin{easylist}[itemize]
+
+& \textbf{Nominal:} São empregadas expressões semânticas para representar objetos para fins de identificação \cite{pandian_software_2004}. Na interpretação dos valores de cada atributo, a ordem não possui significado \cite{Meirelles2013}.
+
+& \textbf{Ordinal:} os valores podem ser comparados em ordem, é possível agrupar valores em categorias também podem ser ordenadas. Porém esta escala não oferece informações sobre a maginitude da diferença entre os elementos \cite{metricsandmodels}.
+
+
+& \textbf{Intervalo:} A ordem dos reultados é importante, assim como o tamanho dos intervalos que separam os pontos, mas a proporções não são necessariamente válidas \cite{Meirelles2013}. Operações matemáticas como adição e subtração podem ser aplicadas a este tipo de intervalo \cite{metricsandmodels}.
+
+& \textbf{Racional:} possui a mesma definição da escala de intervalo, a diferença é que a proporção é preservada \cite{Meirelles2013}. Ou seja, é possível definir um unidade zero para um tamanho de unidade previamente estabelecido pela escala \cite{metricsandmodels}.
+
+
+\end{easylist}
+
+\section {Métricas de código-fonte}
+
+\subsection{Métrica de Tamanho e Complexidade}
+
+\begin{easylist}[itemize]
+
+& \textbf{LOC} (\textit{Lines of Code} - Número de Linhas de Código): São contadas linhas de programa que não são um comentário ou uma linha em branco \cite{metricsandmodels}.
+
+& \textbf{ACCM} (\textit{Average Cyclomatic Complexity per Method} - Média da Complexidade): 
+Mede a complexidade do programa, podendo ser representado através de um grafo de fluxo de controle \cite{McCabe76}.
+
+& \textbf{AMLOC} (\textit{Average Method Lines of Code} - Média do número de linhas de código por método): Indica a distribuição das linhas de código entre os métodos. Quanto maior o valor, menor a distribuição. É preferível ter muitas operações pequenas e de fácil entendimento que poucas operações grandes e complexas \cite{Meirelles2013}.
+
+\end{easylist}
+
+\subsection{Métricas de orientação a objeto}
+
+\citeonline{rego_monitoramento_2014} selecionou o seguinte conjunto de métricas de orientação a objeto para a sua solução de DW:
+
+\begin{easylist}[itemize]
+
+& \textbf{ACC} (\textit{Afferent Connections per Class} - Conexões Aferentes por Classe): Mede a conectividade de uma classe. A manuntenção de uma classe que apresente um grande valor para esta métrica, será mais difícil e possuirá um potencial mais alto de causar efeitos colaterais nela e em outras classes \cite{Meirelles2013}.
+
+& \textbf{ANPM} (\textit{Average Number of Parameters per Method} - Média do Número de Parâmetros por Método): calcula a média do número de parâmetros dos métodos de uma classe.
+ 
+
+& \textbf{CBO} (\textit{Coupling Between Objects} - Acoplamento entre Objetos): Calcula para uma classe o número outras classes que estão acopladas a ela \cite{Chidamber-1994}. Segundo \citeonline{pressman_engenharia_2010} é provavél que a reusabilidade de uma classe diminua à medida que o CBO aumenta, pois valores altos complicam as modificações e os testes.
+
+& \textbf{DIT} (\textit{Depth of Inheritance Tree} - Profundidade da Árvore de Herança): 
+Calcula quantas ancestrais da hierarquia de uma classe pode potencialmente afeta-la. Quanto mais profunda for a árvore, maior será a complexidade de seu design, pois estarão envolvidos um número grande de métodos e classes. Observa-se também que uma classe mais abaixo da hierarquia terá um maior potencia de reuso dos métodos herdados \cite{Chidamber-1994}.
+
+& \textbf{LCOM4} (\textit{Lack of Cohesion in Methods} - Falta de Coesão entre Métodos): Proposta inicialmente por \citeonline{Chidamber-1994}, LCOM calcula o número de métodos que têm acesso a um ou mais atributos de uma dada classe \cite{pressman_engenharia_2010}. Por ter recebido diversas críticas, várias alternativas foram criadas. \citeonline{LCOM4} definiu uma revisão desta métrica e assim elaborou uma outra versão conhecida como LCOM4. Para calcular LCOM4 de um módulo, é necessário construir um gráfico não-orientado em que os nós são os métodos e atribuos de uma classe. Para cada método, deve haver uma areste entre ele e um outro método ou variável que ele usa. O valor da LCOM4 é o número de componentes fracamente conectados nesse gráfico \cite{Meirelles2013}.
+
+& \textbf{NOC} (\textit{Number of Children} - Número de Filhos): Filhos são subclasses imediatamente subordinadas a uma classes. À medida que o número de filhos cresce, o reuso também cresce, porém à medida que NOC aumenta, a abstração representada pela classe pai pode ser diluída, fazendo com que alguns dos filhos não necessariamente sejam membros adequados da classe pai \cite{pressman_engenharia_2010}.
+
+
+& \textbf{NOM} (\textit{Number of Methods} - Número de Métodos): mede a quantidade de métodos presentes em uma classe. Segundo \citeonline{Meirelles2013} muitos métodos em uma classe podem significar um baixo nível de reuso para ela devido a propensão de casos assim apresentarem uma menor coesão.
+
+
+& \textbf{NPA} (\textit{Number of Public Attributes} - Número de Atributos Públicos): mede o encapsulamento. O número ideal para essa métrica é zero \cite{Meirelles2013}.
+
+
+& \textbf{RFC} (\textit{Response For a Class} - Respostas para uma Classe): mede o número de métodos que podem ser executadas em resposta a uma mensagem recebida por um objeto da classe medida \cite{metricsandmodels}.
+
+\end{easylist}
+
+
+\section {Configurações de Qualidade para Métricas de Código-Fonte}
+
+\citeonline{Meirelles2013} em seu estudo avaliou a distribuição e correlação dos valores das métricas de 38 projetos de software livre, um dos critérios da escola foi o número de contribuidores ativos em seus repositórios.
+
+% @tab:percentil-lcom4
+\begin{table}[h]
+\centering
+\input{tabelas/tabelas-pedro/percentis.ltx}
+\caption{Percentis para métrica NOM para projetos em java extraídos de \citeonline{Meirelles2013}}
+\label{tab:dimensoes-fato}
+\end{table}
+

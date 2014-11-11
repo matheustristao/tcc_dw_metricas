@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.9.22)  6 NOV 2014 20:50
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.9.22)  11 NOV 2014 07:34
 entering extended mode
 **C:/Users/Pedrones/Desktop/tcc_git/tcc_dw_metricas/Pedro/tcc.tex
 (C:/Users/Pedrones/Desktop/tcc_git/tcc_dw_metricas/Pedro/tcc.tex
@@ -1464,7 +1464,11 @@ Package hyperref Info: Option `colorlinks' set `true' on input line 15.
 \tcc@idxfile=\write6
 
 Writing index file tcc.idx 
-(C:\Users\Pedrones\Desktop\tcc_git\tcc_dw_metricas\Pedro\tcc.aux)
+(C:\Users\Pedrones\Desktop\tcc_git\tcc_dw_metricas\Pedro\tcc.aux
+
+LaTeX Warning: Label `tab:dimensoes-fato' multiply defined.
+
+)
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 9.
 LaTeX Font Info:    ... okay on input line 9.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 9.
@@ -1480,8 +1484,7 @@ LaTeX Font Info:    ... okay on input line 9.
 LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 9.
 LaTeX Font Info:    ... okay on input line 9.
 LaTeX Font Info:    Try loading font information for T1+lmr on input line 9.
-
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\lm\t1lmr.fd"
+ ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\lm\t1lmr.fd"
 File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 \AtBeginShipoutBox=\box55
@@ -1698,160 +1701,201 @@ s.tex (C:\Users\Pedrones\Desktop\tcc_git\tcc_dw_metricas\Pedro\tcc.lof)
 (C:\Users\Pedrones\Desktop\tcc_git\tcc_dw_metricas\Pedro\fixos/indiceAutomatico
 .tex (C:\Users\Pedrones\Desktop\tcc_git\tcc_dw_metricas\Pedro\tcc.toc
 LaTeX Font Info:    Font shape `T1/lmss/bx/it' in size <12> not available
-(Font)              Font shape `T1/lmss/bx/sl' tried instead on input line 19.
+(Font)              Font shape `T1/lmss/bx/sl' tried instead on input line 23.
  [13
 
 ])
 [14])
 (C:\Users\Pedrones\Desktop\tcc_git\tcc_dw_metricas\Pedro\capitulos/1-introducao
 .tex
-LaTeX Font Info:    Try loading font information for OMS+lmr on input line 20.
+LaTeX Font Info:    Try loading font information for OMS+lmr on input line 33.
  ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\lm\omslmr.fd"
 File: omslmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Font shape `OMS/lmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 20.
-)
-(C:\Users\Pedrones\Desktop\tcc_git\tcc_dw_metricas\Pedro\capitulos/2-metricas.t
-ex [15
+(Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 33.
+ [15
 
-
-])
-(C:\Users\Pedrones\Desktop\tcc_git\tcc_dw_metricas\Pedro\capitulos/3-dwing.tex
-[16
 
 ]
+Underfull \hbox (badness 10000) in paragraph at lines 47--48
+
+ []
+
+Package epstopdf Info: Source file: <figuras/figuras_pedro/projeto-pesq.eps>
+(epstopdf)                    date: 2014-11-11 07:32:07
+(epstopdf)                    size: 69736 bytes
+(epstopdf)             Output file: <figuras/figuras_pedro/projeto-pesq-eps-con
+verted-to.pdf>
+(epstopdf)                    date: 2014-11-11 07:32:13
+(epstopdf)                    size: 26768 bytes
+(epstopdf)             Command: <epstopdf --outfile=figuras/figuras_pedro/proje
+to-pesq-eps-converted-to.pdf figuras/figuras_pedro/projeto-pesq.eps>
+(epstopdf)             \includegraphics on input line 68.
+Package epstopdf Info: Output file is already uptodate.
+
+<figuras/figuras_pedro/projeto-pesq-eps-converted-to.pdf, id=246, 600.2425pt x 
+450.68375pt>
+File: figuras/figuras_pedro/projeto-pesq-eps-converted-to.pdf Graphic file (typ
+e pdf)
+ <use figuras/figuras_pedro/projeto-pesq-eps-converted-to.pdf>
+Package pdftex.def Info: figuras/figuras_pedro/projeto-pesq-eps-converted-to.pd
+f used on input line 68.
+(pdftex.def)             Requested size: 318.127pt x 238.86124pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[16])
+(C:\Users\Pedrones\Desktop\tcc_git\tcc_dw_metricas\Pedro\capitulos/2-metricas.t
+ex [17 <C:/Users/Pedrones/Desktop/tcc_git/tcc_dw_metricas/Pedro/figuras/figuras
+_pedro/projeto-pesq-eps-converted-to.pdf>] [18] [19
+
+]
+Overfull \hbox (0.11092pt too wide) in paragraph at lines 48--50
+\T1/lmr/m/n/12 quan-tas an-ces-trais da hi-e-rar-quia de uma classe pode po-ten
+-ci-al-mente afeta-la. Quanto
+ []
+
+[20]
+(C:\Users\Pedrones\Desktop\tcc_git\tcc_dw_metricas\Pedro\tabelas/tabelas-pedro/
+percentis.ltx
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <9> on input line 2.
+))
+(C:\Users\Pedrones\Desktop\tcc_git\tcc_dw_metricas\Pedro\capitulos/3-dwing.tex
+[21]
 LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <24.88> not available
 (Font)              Font shape `T1/lmss/m/sl' tried instead on input line 1.
- [17
+ [22
 
-] [18]
+] [23]
 Package epstopdf Info: Source file: <figuras/figuras_pedro/elem-bas-dw.eps>
-(epstopdf)                    date: 2014-11-05 17:46:46
+(epstopdf)                    date: 2014-11-11 07:32:07
 (epstopdf)                    size: 59591 bytes
 (epstopdf)             Output file: <figuras/figuras_pedro/elem-bas-dw-eps-conv
 erted-to.pdf>
-(epstopdf)                    date: 2014-11-05 17:47:12
+(epstopdf)                    date: 2014-11-11 07:32:13
 (epstopdf)                    size: 45080 bytes
 (epstopdf)             Command: <epstopdf --outfile=figuras/figuras_pedro/elem-
 bas-dw-eps-converted-to.pdf figuras/figuras_pedro/elem-bas-dw.eps>
-(epstopdf)             \includegraphics on input line 82.
+(epstopdf)             \includegraphics on input line 80.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/figuras_pedro/elem-bas-dw-eps-converted-to.pdf, id=271, 638.385pt x 28
+<figuras/figuras_pedro/elem-bas-dw-eps-converted-to.pdf, id=392, 638.385pt x 28
 7.0725pt>
 File: figuras/figuras_pedro/elem-bas-dw-eps-converted-to.pdf Graphic file (type
  pdf)
  <use figuras/figuras_pedro/elem-bas-dw-eps-converted-to.pdf>
 Package pdftex.def Info: figuras/figuras_pedro/elem-bas-dw-eps-converted-to.pdf
- used on input line 82.
+ used on input line 80.
 (pdftex.def)             Requested size: 338.34242pt x 152.14769pt.
- [19 <C:/Users/Pedrones/Desktop/tcc_git/tcc_dw_metricas/Pedro/figuras/figuras_p
+ [24 <C:/Users/Pedrones/Desktop/tcc_git/tcc_dw_metricas/Pedro/figuras/figuras_p
 edro/elem-bas-dw-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <figuras/figuras_pedro/bidimensional.eps>
-(epstopdf)                    date: 2014-11-05 17:46:46
+(epstopdf)                    date: 2014-11-11 07:32:07
 (epstopdf)                    size: 6018 bytes
 (epstopdf)             Output file: <figuras/figuras_pedro/bidimensional-eps-co
 nverted-to.pdf>
-(epstopdf)                    date: 2014-11-05 17:47:13
+(epstopdf)                    date: 2014-11-11 07:32:14
 (epstopdf)                    size: 6426 bytes
 (epstopdf)             Command: <epstopdf --outfile=figuras/figuras_pedro/bidim
 ensional-eps-converted-to.pdf figuras/figuras_pedro/bidimensional.eps>
-(epstopdf)             \includegraphics on input line 130.
+(epstopdf)             \includegraphics on input line 125.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/figuras_pedro/bidimensional-eps-converted-to.pdf, id=296, 326.21875pt 
+<figuras/figuras_pedro/bidimensional-eps-converted-to.pdf, id=418, 326.21875pt 
 x 143.53625pt>
 File: figuras/figuras_pedro/bidimensional-eps-converted-to.pdf Graphic file (ty
 pe pdf)
  <use figuras/figuras_pedro/bidimensional-eps-converted-to.pdf>
 Package pdftex.def Info: figuras/figuras_pedro/bidimensional-eps-converted-to.p
-df used on input line 130.
+df used on input line 125.
 (pdftex.def)             Requested size: 212.03966pt x 93.29744pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[20]
+[25]
 Package epstopdf Info: Source file: <figuras/figuras_pedro/cubo.eps>
-(epstopdf)                    date: 2014-11-05 17:46:46
+(epstopdf)                    date: 2014-11-11 07:32:07
 (epstopdf)                    size: 37302 bytes
 (epstopdf)             Output file: <figuras/figuras_pedro/cubo-eps-converted-t
 o.pdf>
-(epstopdf)                    date: 2014-11-05 17:47:13
+(epstopdf)                    date: 2014-11-11 07:32:14
 (epstopdf)                    size: 32795 bytes
 (epstopdf)             Command: <epstopdf --outfile=figuras/figuras_pedro/cubo-
 eps-converted-to.pdf figuras/figuras_pedro/cubo.eps>
-(epstopdf)             \includegraphics on input line 140.
+(epstopdf)             \includegraphics on input line 135.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/figuras_pedro/cubo-eps-converted-to.pdf, id=302, 449.68pt x 358.33875p
+<figuras/figuras_pedro/cubo-eps-converted-to.pdf, id=424, 449.68pt x 358.33875p
 t>
 File: figuras/figuras_pedro/cubo-eps-converted-to.pdf Graphic file (type pdf)
  <use figuras/figuras_pedro/cubo-eps-converted-to.pdf>
 Package pdftex.def Info: figuras/figuras_pedro/cubo-eps-converted-to.pdf used o
-n input line 140.
+n input line 135.
 (pdftex.def)             Requested size: 292.28853pt x 232.91742pt.
- [21 <C:/Users/Pedrones/Desktop/tcc_git/tcc_dw_metricas/Pedro/figuras/figuras_p
+ [26 <C:/Users/Pedrones/Desktop/tcc_git/tcc_dw_metricas/Pedro/figuras/figuras_p
 edro/bidimensional-eps-converted-to.pdf> <C:/Users/Pedrones/Desktop/tcc_git/tcc
 _dw_metricas/Pedro/figuras/figuras_pedro/cubo-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <figuras/figuras_pedro/star-schema.eps>
-(epstopdf)                    date: 2014-11-05 17:46:46
+(epstopdf)                    date: 2014-11-11 07:32:07
 (epstopdf)                    size: 26951 bytes
 (epstopdf)             Output file: <figuras/figuras_pedro/star-schema-eps-conv
 erted-to.pdf>
-(epstopdf)                    date: 2014-11-05 17:47:14
+(epstopdf)                    date: 2014-11-11 07:32:14
 (epstopdf)                    size: 24217 bytes
 (epstopdf)             Command: <epstopdf --outfile=figuras/figuras_pedro/star-
 schema-eps-converted-to.pdf figuras/figuras_pedro/star-schema.eps>
-(epstopdf)             \includegraphics on input line 178.
+(epstopdf)             \includegraphics on input line 173.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/figuras_pedro/star-schema-eps-converted-to.pdf, id=340, 718.685pt x 39
+<figuras/figuras_pedro/star-schema-eps-converted-to.pdf, id=466, 718.685pt x 39
 6.48125pt>
 File: figuras/figuras_pedro/star-schema-eps-converted-to.pdf Graphic file (type
  pdf)
  <use figuras/figuras_pedro/star-schema-eps-converted-to.pdf>
 Package pdftex.def Info: figuras/figuras_pedro/star-schema-eps-converted-to.pdf
- used on input line 178.
+ used on input line 173.
 (pdftex.def)             Requested size: 467.13971pt x 257.70975pt.
 
-Overfull \hbox (12.13971pt too wide) in paragraph at lines 178--179
+Overfull \hbox (12.13971pt too wide) in paragraph at lines 173--174
  [][] 
  []
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[22]
+[27]
 Package epstopdf Info: Source file: <figuras/figuras_pedro/snowflake.eps>
-(epstopdf)                    date: 2014-11-05 17:46:46
+(epstopdf)                    date: 2014-11-11 07:32:07
 (epstopdf)                    size: 37264 bytes
 (epstopdf)             Output file: <figuras/figuras_pedro/snowflake-eps-conver
 ted-to.pdf>
-(epstopdf)                    date: 2014-11-05 17:47:14
+(epstopdf)                    date: 2014-11-11 07:32:15
 (epstopdf)                    size: 29977 bytes
 (epstopdf)             Command: <epstopdf --outfile=figuras/figuras_pedro/snowf
 lake-eps-converted-to.pdf figuras/figuras_pedro/snowflake.eps>
-(epstopdf)             \includegraphics on input line 187.
+(epstopdf)             \includegraphics on input line 182.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/figuras_pedro/snowflake-eps-converted-to.pdf, id=348, 908.39375pt x 38
+<figuras/figuras_pedro/snowflake-eps-converted-to.pdf, id=474, 908.39375pt x 38
 6.44376pt>
 File: figuras/figuras_pedro/snowflake-eps-converted-to.pdf Graphic file (type p
 df)
  <use figuras/figuras_pedro/snowflake-eps-converted-to.pdf>
 Package pdftex.def Info: figuras/figuras_pedro/snowflake-eps-converted-to.pdf u
-sed on input line 187.
+sed on input line 182.
 (pdftex.def)             Requested size: 454.19577pt x 193.2214pt.
 LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <17.28> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 193.
- [23 <C:/Users/Pedrones/Desktop/tcc_git/tcc_dw_metricas/Pedro/figuras/figuras_p
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 188.
+ [28 <C:/Users/Pedrones/Desktop/tcc_git/tcc_dw_metricas/Pedro/figuras/figuras_p
 edro/star-schema-eps-converted-to.pdf> <C:/Users/Pedrones/Desktop/tcc_git/tcc_d
-w_metricas/Pedro/figuras/figuras_pedro/snowflake-eps-converted-to.pdf>] [24]
+w_metricas/Pedro/figuras/figuras_pedro/snowflake-eps-converted-to.pdf>] [29]
 (C:\Users\Pedrones\Desktop\tcc_git\tcc_dw_metricas\Pedro\tabelas/tabelas-pedro/
 dimensoes-fato.ltx)
-Overfull \hbox (9.39131pt too wide) in paragraph at lines 1--250
+Overfull \hbox (9.39131pt too wide) in paragraph at lines 1--243
  [][] 
  []
 
@@ -1864,22 +1908,22 @@ ted-to.pdf>
 (epstopdf)                    size: 84452 bytes
 (epstopdf)             Command: <epstopdf --outfile=figuras/figuras_pedro/model
 o-dw-eps-converted-to.pdf figuras/figuras_pedro/modelo-dw.eps>
-(epstopdf)             \includegraphics on input line 260.
+(epstopdf)             \includegraphics on input line 253.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/figuras_pedro/modelo-dw-eps-converted-to.pdf, id=383, 906.38625pt x 93
+<figuras/figuras_pedro/modelo-dw-eps-converted-to.pdf, id=508, 906.38625pt x 93
 4.49126pt>
 File: figuras/figuras_pedro/modelo-dw-eps-converted-to.pdf Graphic file (type p
 df)
  <use figuras/figuras_pedro/modelo-dw-eps-converted-to.pdf>
 Package pdftex.def Info: figuras/figuras_pedro/modelo-dw-eps-converted-to.pdf u
-sed on input line 260.
+sed on input line 253.
 (pdftex.def)             Requested size: 444.13315pt x 457.90472pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[25]
+[30]
 Package epstopdf Info: Source file: <figuras/figuras_pedro/metadados.eps>
 (epstopdf)                    date: 2014-09-22 23:33:55
 (epstopdf)                    size: 2294782 bytes
@@ -1889,106 +1933,102 @@ ted-to.pdf>
 (epstopdf)                    size: 26588 bytes
 (epstopdf)             Command: <epstopdf --outfile=figuras/figuras_pedro/metad
 ados-eps-converted-to.pdf figuras/figuras_pedro/metadados.eps>
-(epstopdf)             \includegraphics on input line 275.
+(epstopdf)             \includegraphics on input line 268.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/figuras_pedro/metadados-eps-converted-to.pdf, id=397, 677.53125pt x 55
+<figuras/figuras_pedro/metadados-eps-converted-to.pdf, id=523, 677.53125pt x 55
 3.06625pt>
 File: figuras/figuras_pedro/metadados-eps-converted-to.pdf Graphic file (type p
 df)
  <use figuras/figuras_pedro/metadados-eps-converted-to.pdf>
 Package pdftex.def Info: figuras/figuras_pedro/metadados-eps-converted-to.pdf u
-sed on input line 275.
+sed on input line 268.
 (pdftex.def)             Requested size: 440.39009pt x 359.4888pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[26 <C:/Users/Pedrones/Desktop/tcc_git/tcc_dw_metricas/Pedro/figuras/figuras_pe
+[31 <C:/Users/Pedrones/Desktop/tcc_git/tcc_dw_metricas/Pedro/figuras/figuras_pe
 dro/modelo-dw-eps-converted-to.pdf>])
 (C:\Users\Pedrones\Desktop\tcc_git\tcc_dw_metricas\Pedro\capitulos/4-estudo-de-
-caso.tex [27 <C:/Users/Pedrones/Desktop/tcc_git/tcc_dw_metricas/Pedro/figuras/f
-iguras_pedro/metadados-eps-converted-to.pdf>] [28
+caso.tex [32 <C:/Users/Pedrones/Desktop/tcc_git/tcc_dw_metricas/Pedro/figuras/f
+iguras_pedro/metadados-eps-converted-to.pdf>] [33
 
 ]
 Package epstopdf Info: Source file: <figuras/figuras_pedro/estrut-estudo-caso.e
 ps>
-(epstopdf)                    date: 2014-11-05 17:46:46
+(epstopdf)                    date: 2014-11-11 07:32:07
 (epstopdf)                    size: 134374 bytes
 (epstopdf)             Output file: <figuras/figuras_pedro/estrut-estudo-caso-e
 ps-converted-to.pdf>
-(epstopdf)                    date: 2014-11-05 17:47:15
+(epstopdf)                    date: 2014-11-11 07:32:15
 (epstopdf)                    size: 83570 bytes
 (epstopdf)             Command: <epstopdf --outfile=figuras/figuras_pedro/estru
 t-estudo-caso-eps-converted-to.pdf figuras/figuras_pedro/estrut-estudo-caso.eps
 >
-(epstopdf)             \includegraphics on input line 70.
+(epstopdf)             \includegraphics on input line 62.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/figuras_pedro/estrut-estudo-caso-eps-converted-to.pdf, id=448, 816.048
+<figuras/figuras_pedro/estrut-estudo-caso-eps-converted-to.pdf, id=573, 816.048
 75pt x 571.13374pt>
 File: figuras/figuras_pedro/estrut-estudo-caso-eps-converted-to.pdf Graphic fil
 e (type pdf)
 
 <use figuras/figuras_pedro/estrut-estudo-caso-eps-converted-to.pdf>
 Package pdftex.def Info: figuras/figuras_pedro/estrut-estudo-caso-eps-converted
--to.pdf used on input line 70.
+-to.pdf used on input line 62.
 (pdftex.def)             Requested size: 432.50378pt x 302.69945pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[29]
-Underfull \hbox (badness 10000) in paragraph at lines 78--79
+ [34 <C:/Users/Pedrones/Desktop/tcc_git/tcc_dw_metricas/Pedro/figuras/figuras_p
+edro/estrut-estudo-caso-eps-converted-to.pdf>]
+Underfull \hbox (badness 10000) in paragraph at lines 74--75
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 85--86
+Underfull \hbox (badness 10000) in paragraph at lines 81--82
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 91--92
-
- []
-
-[30 <C:/Users/Pedrones/Desktop/tcc_git/tcc_dw_metricas/Pedro/figuras/figuras_pe
-dro/estrut-estudo-caso-eps-converted-to.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 98--99
+Underfull \hbox (badness 10000) in paragraph at lines 87--88
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 105--106
+Underfull \hbox (badness 10000) in paragraph at lines 94--95
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 114--115
+Underfull \hbox (badness 10000) in paragraph at lines 101--102
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 129--130
+Underfull \hbox (badness 10000) in paragraph at lines 110--111
+
+ []
+
+[35]
+Underfull \hbox (badness 10000) in paragraph at lines 125--126
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 137--138
+Underfull \hbox (badness 10000) in paragraph at lines 133--134
 
  []
 
-[31] [32] [33])
+[36] [37])
 (C:\Users\Pedrones\Desktop\tcc_git\tcc_dw_metricas\Pedro\capitulos/5-conclusao.
-tex [34]) (C:\Users\Pedrones\Desktop\tcc_git\tcc_dw_metricas\Pedro\tcc.bbl
+tex [38] [39]) (C:\Users\Pedrones\Desktop\tcc_git\tcc_dw_metricas\Pedro\tcc.bbl
 (C:\Users\Pedrones\Desktop\tcc_git\tcc_dw_metricas\Pedro\tcc.brf)
 \tf@brf=\write7
- [35
+ [40
 
 ]
 bibitemlist
-[36
+[41
 
 ])
 (C:\Users\Pedrones\Desktop\tcc_git\tcc_dw_metricas\Pedro\apendices/apendices.te
@@ -1997,7 +2037,7 @@ x)
 No file tcc.ind.
 
 AED: lastpage setting LastPage
-[37]
+[42]
 \tf@lof=\write8
 \tf@lot=\write9
 \tf@toc=\write10
@@ -2007,43 +2047,43 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 44.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 44.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 44.
 Package rerunfilecheck Info: File `tcc.brf' has not changed.
-(rerunfilecheck)             Checksum: 90C291940EBAB6F134228539B1AF8892;3932.
+(rerunfilecheck)             Checksum: EC645DBEF5A67DC499502F11459879A6;6082.
 
 
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+LaTeX Warning: There were multiply-defined labels.
 
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 44.
  ) 
 Here is how much of TeX's memory you used:
- 27176 strings out of 493921
- 482188 string characters out of 3144867
- 572377 words of memory out of 3000000
- 29684 multiletter control sequences out of 15000+200000
- 91922 words of font info for 72 fonts, out of 3000000 for 9000
+ 27296 strings out of 493921
+ 484644 string characters out of 3144867
+ 577845 words of memory out of 3000000
+ 29772 multiletter control sequences out of 15000+200000
+ 101929 words of font info for 79 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 68i,13n,75p,785b,614s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 68i,13n,75p,931b,614s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/lm/lm-rm.enc}{C:/Program F
 iles (x86)/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathex.enc}{C:/Program Files (x86)/
 MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathit.enc}{C:/Program Files (x86)/MiKTeX 2.9/
 fonts/enc/dvips/lm/lm-ec.enc}{C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips
 /lm/lm-mathsy.enc}<C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmbx
-12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmbxi10.pfb><C:
-/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmex10.pfb><C:/Program Fi
-les (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmmi12.pfb><C:/Program Files (x86)/M
-iKTeX 2.9/fonts/type1/public/lm/lmmi8.pfb><C:/Program Files (x86)/MiKTeX 2.9/fo
-nts/type1/public/lm/lmr10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/pu
-blic/lm/lmr12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmr8
-.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmri10.pfb><C:/Pr
-ogram Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmri12.pfb><C:/Program Files
- (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmss12.pfb><C:/Program Files (x86)/MiKT
-eX 2.9/fonts/type1/public/lm/lmss17.pfb><C:/Program Files (x86)/MiKTeX 2.9/font
-s/type1/public/lm/lmssbo10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/p
-ublic/lm/lmssbx10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/
-lmsso17.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmsy10.pfb
->
-Output written on tcc.pdf (38 pages, 894873 bytes).
+12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmbx9.pfb><C:/P
+rogram Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmbxi10.pfb><C:/Program Fil
+es (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmex10.pfb><C:/Program Files (x86)/Mi
+KTeX 2.9/fonts/type1/public/lm/lmmi12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fo
+nts/type1/public/lm/lmmi8.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/pu
+blic/lm/lmr10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmr1
+2.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmr8.pfb><C:/Pro
+gram Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmri10.pfb><C:/Program Files 
+(x86)/MiKTeX 2.9/fonts/type1/public/lm/lmri12.pfb><C:/Program Files (x86)/MiKTe
+X 2.9/fonts/type1/public/lm/lmss12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts
+/type1/public/lm/lmss17.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/publ
+ic/lm/lmssbo10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lms
+sbx10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmsso17.pfb>
+<C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmsy10.pfb>
+Output written on tcc.pdf (43 pages, 989964 bytes).
 PDF statistics:
- 778 PDF objects out of 1000 (max. 8388607)
- 121 named destinations out of 1000 (max. 500000)
- 438 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 937 PDF objects out of 1000 (max. 8388607)
+ 138 named destinations out of 1000 (max. 500000)
+ 467 words of extra memory for PDF output out of 10000 (max. 10000000)
 

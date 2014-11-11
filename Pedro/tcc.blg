@@ -13,15 +13,23 @@ I was expecting a `{' or a `('---line 66 of file bibliografia.bib
 I'm skipping whatever remains of this entry
 Warning--entry type for "hilmer2002" isn't style-file defined
 --line 128 of file bibliografia.bib
-Repeated entry---line 223 of file bibliografia.bib
+"�" immediately follows an entry type---line 174 of file bibliografia.bib
+ : % @m
+ :     étricas
+I'm skipping whatever remains of this entry
+Repeated entry---line 325 of file bibliografia.bib
  : @article{rego_monitoramento_2014
  :                                 ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 262 of file bibliografia.bib
+Repeated entry---line 342 of file bibliografia.bib
+ : @book{metricsandmodels
+ :                       ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 364 of file bibliografia.bib
  : @masterthesis{hilmer2002
  :                         ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 597 of file bibliografia.bib
+Repeated entry---line 699 of file bibliografia.bib
  : @book{Basili96b
  :                ,
 I'm skipping whatever remains of this entry
@@ -30,4 +38,4 @@ I'm skipping whatever remains of this entry
 | Em caso de dúvidas ou problemas com este estilo procure |
 | http://abntex2.googlecode.com                           |
 +---------------------------------------------------------+
-(There were 5 error messages)
+(There were 7 error messages)

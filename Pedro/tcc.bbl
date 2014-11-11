@@ -23,6 +23,14 @@ ISBN 0738496448.}
   study planning. In:  \emph{Proceedings of EASE 2008}. [S.l.]: BCS-eWiC,
   2008.}
 
+\bibitem[Chidamber e Kemerer 1994]{Chidamber-1994}
+\abntrefinfo{Chidamber e Kemerer}{CHIDAMBER; KEMERER}{1994}
+{CHIDAMBER, S.~R.; KEMERER, C.~F. A metrics suite for object oriented design.
+\emph{IEEE Trans. Softw. Eng.}, IEEE Press, Piscataway, NJ, USA, v.~20, n.~6,
+  p. 476--493, jun. 1994.
+ISSN 0098-5589.
+Dispon{\'\i}vel em: \url{http://dx.doi.org/10.1109/32.295895}.}
+
 \bibitem[Codd, Codd e Salley 1993]{codd1993providing}
 \abntrefinfo{Codd, Codd e Salley}{CODD; CODD; SALLEY}{1993}
 {CODD, E.; CODD, S.; SALLEY, C. \emph{Providing OLAP (On-line Analytical
@@ -38,6 +46,12 @@ ISBN 0738496448.}
 \abntrefinfo{Gil}{GIL}{2008}
 {GIL, A.~C. \emph{Como elaborar projetos de pesquisa}. Sao Paulo: Atlas, 2008.}
 
+\bibitem[Hitz e Montazeri 1995]{LCOM4}
+\abntrefinfo{Hitz e Montazeri}{HITZ; MONTAZERI}{1995}
+{HITZ, M.; MONTAZERI, B. {Measuring Coupling and Cohesion in Object-Oriented
+  Systems}. In:  \emph{{Proceedings of International Symposium on Applied
+  Corporate Computing}}. [S.l.: s.n.], 1995.}
+
 \bibitem[Hobbs et al. 2011]{hobbs2011oracle}
 \abntrefinfo{Hobbs et al.}{HOBBS et al.}{2011}
 {HOBBS, L. et al. \emph{Oracle 10g Data Warehousing}. Elsevier Science, 2011.
@@ -48,6 +62,11 @@ ISBN 0738496448.}
 \abntrefinfo{Inmon}{INMON}{1992}
 {INMON, W.~H. \emph{Building the Data Warehouse}. New York, NY, USA: John Wiley
   \& Sons, Inc., 1992.}
+
+\bibitem[Kan 2002]{metricsandmodels}
+\abntrefinfo{Kan}{KAN}{2002}
+{KAN, S.~H. \emph{Metrics and models in software quality engineering}. [S.l.]:
+  Addison Wesley, 2002.}
 
 \bibitem[Kimball 1998]{kimball1998data}
 \abntrefinfo{Kimball}{KIMBALL}{1998}
@@ -66,11 +85,36 @@ ISBN 0738496448.}
   Dimensional Modeling}. 2nd. ed. New York, NY, USA: John Wiley \& Sons, Inc.,
   2002.}
 
+\bibitem[McCabe 1976]{McCabe76}
+\abntrefinfo{McCabe}{MCCABE}{1976}
+{MCCABE, T.~J. {A Complexity Measure}.
+\emph{IEEE Transactions Software Engineering}, v.~2, n.~4, p. 308--320,
+  December 1976.}
+
+\bibitem[Meirelles 2013]{Meirelles2013}
+\abntrefinfo{Meirelles}{MEIRELLES}{2013}
+{MEIRELLES, P. R.~M.
+\emph{Monitoramento de métricas de código-fonte em projetos de software
+  livre}.
+Tese (Doutorado) --- Instituto de Matemática e Estátistica -- Universidade de
+  São Paulo (IME/USP), 2013.}
+
 \bibitem[Neri 2002]{hilmer2002}
 \abntrefinfo{Neri}{NERI}{2002}
 {NERI, H.~R. \emph{Análise, Projeto e Implementação de um Esquema MOLAP de
   Data Warehouse utilizando SGBD-OR Oracle 8.1}. Universidade Federal da
   Paraíba - UFPB: [s.n.], 2002.}
+
+\bibitem[Pandian 2004]{pandian_software_2004}
+\abntrefinfo{Pandian}{PANDIAN}{2004}
+{PANDIAN, C.~R. \emph{Software metrics: a guide to planning, analysis, and
+  application}. Boca Raton, Fla: Auerbach Publications, 2004.
+ISBN 0849316618.}
+
+\bibitem[Pressman 2010]{pressman_engenharia_2010}
+\abntrefinfo{Pressman}{PRESSMAN}{2010}
+{PRESSMAN, R.~S. \emph{Engenharia de software}. Porto Alegre ({RS}): {AMGH},
+  2010.}
 
 \bibitem[Rêgo 2014]{rego_monitoramento_2014}
 \abntrefinfo{Rêgo}{RêGO}{2014}
