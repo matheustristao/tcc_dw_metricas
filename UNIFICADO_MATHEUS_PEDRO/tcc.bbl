@@ -24,6 +24,12 @@ Dispon{\'\i}vel em: \url{http://drum.lib.umd.edu//handle/1903/7517}.}
 {BECK, K. \emph{{Implementation Patterns}}. 1. ed. [S.l.]: Addison-Wesley
   Professional, 2007.}
 
+\bibitem[Brereton, Kitchenham e Budgen 2008]{case-study-template-2008}
+\abntrefinfo{Brereton, Kitchenham e Budgen}{BRERETON; KITCHENHAM; BUDGEN}{2008}
+{BRERETON, P.; KITCHENHAM, B.; BUDGEN, D. Using a protocol template for case
+  study planning. In:  \emph{Proceedings of EASE 2008}. [S.l.]: BCS-eWiC,
+  2008.}
+
 \bibitem[Caldiera e Rombach 1994]{caldiera_goal_1994}
 \abntrefinfo{Caldiera e Rombach}{CALDIERA; ROMBACH}{1994}
 {CALDIERA, V.; ROMBACH, H.~D. The goal question metric approach.
@@ -162,11 +168,6 @@ Dispon{\'\i}vel em:
 \abntrefinfo{Times}{TIMES}{2012}
 {TIMES, V.~C. \emph{Sistemas de DW}. 2012. Universidade Federal de Pernambuco -
   UFPE. Dispon{\'\i}vel em: \url{www.cin.ufpe.br/~if695/bda\_dw.pdf}.}
-
-\bibitem[Wohlin et al. 2012]{wohlin2012experimentation}
-\abntrefinfo{Wohlin et al.}{WOHLIN et al.}{2012}
-{WOHLIN, C. et al. \emph{Experimentation in software engineering}. [S.l.]:
-  Springer, 2012.}
 
 \bibitem[Yin 2001]{yin2001estudo}
 \abntrefinfo{Yin}{YIN}{2001}
