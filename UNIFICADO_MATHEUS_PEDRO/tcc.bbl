@@ -126,6 +126,11 @@ Tese (Doutorado) --- Instituto de Matemática e Estátistica -- Universidade de
 phdthesis, 2006.
 Dispon{\'\i}vel em: \url{http://tardis.pucrs.br/dspace/handle/10923/1570}.}
 
+\bibitem[Pressman 2010]{pressman_engenharia_2010}
+\abntrefinfo{Pressman}{PRESSMAN}{2010}
+{PRESSMAN, R.~S. \emph{Engenharia de software}. Porto Alegre ({RS}): {AMGH},
+  2010.}
+
 \bibitem[R\^{e}go 2014]{rego_monitoramento_2014}
 \abntrefinfo{R\^{e}go}{R\^{e}GO}{2014}
 {R\^{e}GO, G.~B. Monitoramento de métricas de código-fonte com suporte de um

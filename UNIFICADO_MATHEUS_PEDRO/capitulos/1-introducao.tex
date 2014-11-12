@@ -4,21 +4,19 @@
 
 Medir a qualidade do código-fonte  de um software é um processo fundamental no seu desenvolvimento, pois daí surgem indicadores sobre os efeitos que uma alteração no código irá causar ou sobre os efeitos gerados na qualidade do software após a adesão de uma nova prática na equipe de desenvolvimento \cite{Fenton98}. 
 
-Através do processo de medição da qualidade interna do software é possível não só entender e controlar o que está se passando no seu desenvolvimento, como também ser encorajado a tomar decisões que visem a sua melhoria \cite{Fenton98}. Como a qualidade do código fonte está relacionada à qualidade interna do produto de software \cite{ISO25023}, sua medição, e consequentemente as melhorias implantadas nele melhoram a qualidade do produto como um todo. 
+Como a qualidade do código fonte está relacionada à qualidade interna do produto de software \cite{ISO25023}, sua medição, e consequentemente as melhorias implantadas nele afetam a qualidade do produto como um todo. Do ponto de vista da engenharia de software, métricas de código fonte de um software fornecem uma maneira quantitativa de avaliar a qualidade de atributos internos do produto, habilitando assim a avaliação da qualidade antes do produto ser concluído \cite{pressman_engenharia_2010}.
+
+Além disso, o processo de medição da qualidade interna do software possibilita também não só entender e controlar o que está se passando no seu desenvolvimento, como também ser encorajado a tomar decisões que visem a sua melhoria \cite{Fenton98}.
  
-
-\section{Justificativa}
-
-Buscando facilitar a interpretação das métricas de código fonte, bem como apoiar as decisões de refatoração a serem tomadas, \citeonline{rego_monitoramento_2014} elaborou um ambiente de \textit{Data Warehouse} para armazenamento de métricas, sobre o qual este trabalho irá analisar sua eficácia e eficiência no monitoramento da qualidade interna do software, sendo essa sua maior contribuição. Essa análise poderá ajudar equipes de desenvolvimento de software na escolha de uma maneira de aferir a qualidade interna do seu produto e tomar as decisões corretas sobre o que refatorar.
-
 \section{Problema}
 \label{intro_problema}
 
-Apesar de métricas de código fonte serem coletadas facilmente através de ferramentas como o \textit{Sonar} e o \textit{Analizo}, sua interpretação ainda pode ser um desafio que se não for superado pode tornar essa coleta algo sem muito valor significativo. Ferramentas de análise de métricas frequentemente exportam seu resultado como valores numéricos isolados \cite{Meirelles2013} e números isolados a respeito do código não trazem consigo definições sobre o que deve ser refatorado. Surge a partir desse fato a necessidade de uma solução que apoie a tomada de decisão, associando esses valores numéricos a elementos mais fáceis de serem interpretados, como cenários de limpeza. 
+Apesar de métricas de código fonte serem coletadas facilmente através de ferramentas como o \textit{Sonar} e o \textit{Analizo}, sua interpretação ainda pode ser um desafio que se não for superado pode tornar essa coleta algo sem muito valor significativo. Ferramentas de análise de métricas frequentemente exportam seu resultado como valores numéricos isolados \cite{Meirelles2013} e isso gera uma dificuldade em interpretar os dados disponibilizados por tais ferramentas, afetando a avaliação de projetos de software onde são um fator essencial para a tomada de decisão à nível de gerenciamento de projeto, de processo, de engenharia de software e de outros processos de apoio \cite{pandian_software_2004}. Surge a partir desse fato a necessidade de uma solução que apoie a tomada de decisão, associando esses valores numéricos a elementos mais fáceis de serem interpretados, como cenários de limpeza. 
 
-Baseando-se no problema descrito e aproveitando a solução já desenvolvida, que utiliza um ambiente de \textit{Data Warehousing} para o monitoramento de métricas de código fonte, foi criada a seguinte questão geral de pesquisa:
+Buscando facilitar a interpretação das métricas de código fonte, bem como apoiar as decisões de refatoração a serem tomadas, \citeonline{rego_monitoramento_2014} elaborou um ambiente de DW para armazenamento de métricas. Dá-se então a necessidade de investigar, por meio de estudo de caso, a eficácia e eficiência da solução de DW proposta no contexto do problema descrito. Assim foi criada a seguinte questão geral de pesquisa:
 
-\textbf{\textit{O uso de \textit{Data Warehousing} é eficaz e eficiente no monitoramento de métricas de código fonte, facilitando a interpretação dos resultados da análise estática e apoiando decisões de refatoração?} }
+\textit{O uso de um ambiente de Data Warehousing para aferição e monitoramento da qualidade interna do código-fonte é eficaz e eficiente do ponto de vista da equipe de qualidade?}
+
 
 \section{Objetivos}
 

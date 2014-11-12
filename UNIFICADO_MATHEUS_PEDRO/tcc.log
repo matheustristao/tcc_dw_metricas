@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.9.14)  12 NOV 2014 01:04
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.9.14)  12 NOV 2014 09:51
 entering extended mode
 **tcc.tex
 
@@ -1726,24 +1726,28 @@ s/indiceAutomatico.tex
 (C:\Users\Matheus\Documents\GitHub\tcc_dw_metricas\UNIFICADO_MATHEUS_PEDRO\tcc.
 toc
 LaTeX Font Info:    Font shape `T1/lmss/bx/it' in size <12> not available
-(Font)              Font shape `T1/lmss/bx/sl' tried instead on input line 28.
+(Font)              Font shape `T1/lmss/bx/sl' tried instead on input line 27.
 LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <12> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 32.
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 31.
  [15
 
 ]) [16])
 (C:\Users\Matheus\Documents\GitHub\tcc_dw_metricas\UNIFICADO_MATHEUS_PEDRO\capi
-tulos/1-introducao.tex [17
+tulos/1-introducao.tex
+
+LaTeX Warning: Citation `pandian_software_2004' on page 17 undefined on input l
+ine 14.
+
+[17
 
 
 ]
-LaTeX Font Info:    Try loading font information for OMS+lmr on input line 29.
-
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\lm\omslmr.fd"
+LaTeX Font Info:    Try loading font information for OMS+lmr on input line 27.
+ ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\lm\omslmr.fd"
 File: omslmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Font shape `OMS/lmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 29.
+(Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 27.
 Package epstopdf Info: Source file: <figuras/figuras_matheus/metodologia_da_peq
 uisa.eps>
 (epstopdf)                    date: 2014-10-28 15:19:27
@@ -1755,17 +1759,17 @@ uisa-eps-converted-to.pdf>
 (epstopdf)             Command: <epstopdf --outfile=figuras/figuras_matheus/met
 odologia_da_pequisa-eps-converted-to.pdf figuras/figuras_matheus/metodologia_da
 _pequisa.eps>
-(epstopdf)             \includegraphics on input line 51.
+(epstopdf)             \includegraphics on input line 49.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/figuras_matheus/metodologia_da_pequisa-eps-converted-to.pdf, id=291, 6
+<figuras/figuras_matheus/metodologia_da_pequisa-eps-converted-to.pdf, id=293, 6
 85.56125pt x 1103.12125pt>
 File: figuras/figuras_matheus/metodologia_da_pequisa-eps-converted-to.pdf Graph
 ic file (type pdf)
 
 <use figuras/figuras_matheus/metodologia_da_pequisa-eps-converted-to.pdf>
 Package pdftex.def Info: figuras/figuras_matheus/metodologia_da_pequisa-eps-con
-verted-to.pdf used on input line 51.
+verted-to.pdf used on input line 49.
 (pdftex.def)             Requested size: 274.21964pt x 441.24068pt.
 
 
@@ -1782,16 +1786,16 @@ onverted-to.pdf>
 (epstopdf)                    size: 20441 bytes
 (epstopdf)             Command: <epstopdf --outfile=figuras/figuras_matheus/est
 udodecaso-eps-converted-to.pdf figuras/figuras_matheus/estudodecaso.eps>
-(epstopdf)             \includegraphics on input line 69.
+(epstopdf)             \includegraphics on input line 67.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/figuras_matheus/estudodecaso-eps-converted-to.pdf, id=315, 506.89375pt
+<figuras/figuras_matheus/estudodecaso-eps-converted-to.pdf, id=316, 506.89375pt
  x 327.2225pt>
 File: figuras/figuras_matheus/estudodecaso-eps-converted-to.pdf Graphic file (t
 ype pdf)
  <use figuras/figuras_matheus/estudodecaso-eps-converted-to.pdf>
 Package pdftex.def Info: figuras/figuras_matheus/estudodecaso-eps-converted-to.
-pdf used on input line 69.
+pdf used on input line 67.
 (pdftex.def)             Requested size: 405.51555pt x 261.77835pt.
 
 [20 <C:/Users/Matheus/Documents/GitHub/tcc_dw_metricas/UNIFICADO_MATHEUS_PEDRO/
@@ -1814,7 +1818,7 @@ GLES.eps>
 (epstopdf)             \includegraphics on input line 50.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/figuras_matheus/tipos_medidas_INGLES-eps-converted-to.pdf, id=364, 499
+<figuras/figuras_matheus/tipos_medidas_INGLES-eps-converted-to.pdf, id=365, 499
 .8675pt x 174.6525pt>
 File: figuras/figuras_matheus/tipos_medidas_INGLES-eps-converted-to.pdf Graphic
  file (type pdf)
@@ -2160,7 +2164,7 @@ to.pdf>
 (epstopdf)             \includegraphics on input line 28.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/figuras_matheus/etl-eps-converted-to.pdf, id=545, 732.7375pt x 846.161
+<figuras/figuras_matheus/etl-eps-converted-to.pdf, id=546, 732.7375pt x 846.161
 25pt>
 File: figuras/figuras_matheus/etl-eps-converted-to.pdf Graphic file (type pdf)
  <use figuras/figuras_matheus/etl-eps-converted-to.pdf>
@@ -2185,7 +2189,7 @@ r-eps-converted-to.pdf figuras/figuras_matheus/star.eps>
 (epstopdf)             \includegraphics on input line 43.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/figuras_matheus/star-eps-converted-to.pdf, id=567, 593.21625pt x 378.4
+<figuras/figuras_matheus/star-eps-converted-to.pdf, id=568, 593.21625pt x 378.4
 1376pt>
 File: figuras/figuras_matheus/star-eps-converted-to.pdf Graphic file (type pdf)
 
@@ -2212,7 +2216,7 @@ o-eps-converted-to.pdf figuras/figuras_matheus/cubo.eps>
 (epstopdf)             \includegraphics on input line 67.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/figuras_matheus/cubo-eps-converted-to.pdf, id=591, 748.7975pt x 378.41
+<figuras/figuras_matheus/cubo-eps-converted-to.pdf, id=592, 748.7975pt x 378.41
 376pt>
 File: figuras/figuras_matheus/cubo-eps-converted-to.pdf Graphic file (type pdf)
 
@@ -2234,7 +2238,7 @@ ll-eps-converted-to.pdf figuras/figuras_matheus/drill.eps>
 (epstopdf)             \includegraphics on input line 91.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/figuras_matheus/drill-eps-converted-to.pdf, id=617, 608.2725pt x 166.6
+<figuras/figuras_matheus/drill-eps-converted-to.pdf, id=619, 608.2725pt x 166.6
 225pt>
 File: figuras/figuras_matheus/drill-eps-converted-to.pdf Graphic file (type pdf
 )
@@ -2256,7 +2260,7 @@ ao.eps>
 (epstopdf)             \includegraphics on input line 103.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/figuras_matheus/arquitetura_solucao-eps-converted-to.pdf, id=626, 722.
+<figuras/figuras_matheus/arquitetura_solucao-eps-converted-to.pdf, id=628, 722.
 7pt x 842.14626pt>
 File: figuras/figuras_matheus/arquitetura_solucao-eps-converted-to.pdf Graphic 
 file (type pdf)
@@ -2291,7 +2295,7 @@ elo-dw-baufaker-eps-converted-to.pdf figuras/figuras_matheus/modelo-dw-baufaker
 (epstopdf)             \includegraphics on input line 175.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/figuras_matheus/modelo-dw-baufaker-eps-converted-to.pdf, id=670, 906.3
+<figuras/figuras_matheus/modelo-dw-baufaker-eps-converted-to.pdf, id=672, 906.3
 8625pt x 934.49126pt>
 File: figuras/figuras_matheus/modelo-dw-baufaker-eps-converted-to.pdf Graphic f
 ile (type pdf)
@@ -2320,7 +2324,7 @@ adados-baufaker-eps-converted-to.pdf figuras/figuras_matheus/metadados-baufaker
 (epstopdf)             \includegraphics on input line 195.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/figuras_matheus/metadados-baufaker-eps-converted-to.pdf, id=692, 677.5
+<figuras/figuras_matheus/metadados-baufaker-eps-converted-to.pdf, id=694, 677.5
 3125pt x 553.06625pt>
 File: figuras/figuras_matheus/metadados-baufaker-eps-converted-to.pdf Graphic f
 ile (type pdf)
@@ -2348,7 +2352,7 @@ sa.eps>
 (epstopdf)             \includegraphics on input line 26.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/figuras_matheus/projeto_de_pesquisa-eps-converted-to.pdf, id=712, 1272
+<figuras/figuras_matheus/projeto_de_pesquisa-eps-converted-to.pdf, id=714, 1272
 .755pt x 948.54375pt>
 File: figuras/figuras_matheus/projeto_de_pesquisa-eps-converted-to.pdf Graphic 
 file (type pdf)
@@ -2449,7 +2453,10 @@ aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 46.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 46.
 Package rerunfilecheck Info: File `tcc.brf' has not changed.
-(rerunfilecheck)             Checksum: 3B7323B25F1C474B0A4EA9DEA7D5A90D;7427.
+(rerunfilecheck)             Checksum: 6D34BB72C2ECEB9A175F6F2F6678BE9C;7548.
+
+
+LaTeX Warning: There were undefined references.
 
 
 LaTeX Warning: There were multiply-defined labels.
@@ -2457,10 +2464,10 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 46.
  ) 
 Here is how much of TeX's memory you used:
- 27399 strings out of 493921
- 486709 string characters out of 3144870
- 594312 words of memory out of 3000000
- 29823 multiletter control sequences out of 15000+200000
+ 27415 strings out of 493921
+ 487203 string characters out of 3144870
+ 594522 words of memory out of 3000000
+ 29839 multiletter control sequences out of 15000+200000
  107557 words of font info for 81 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
  68i,14n,75p,1284b,617s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -2484,9 +2491,9 @@ ic/lm/lmssbo10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lms
 sbx10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmsso12.pfb>
 <C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmsso17.pfb><C:/Progra
 m Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmsy10.pfb>
-Output written on tcc.pdf (56 pages, 1236309 bytes).
+Output written on tcc.pdf (56 pages, 1237464 bytes).
 PDF statistics:
  1134 PDF objects out of 1200 (max. 8388607)
  166 named destinations out of 1000 (max. 500000)
- 477 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 469 words of extra memory for PDF output out of 10000 (max. 10000000)
 
