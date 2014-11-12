@@ -1,0 +1,11 @@
+\begin{tabular}{|l|l|}
+\hline
+		OLTP & OLAP \\ \hline
+		Controle operacional & Tomada de decisão \\ \hline
+		Atualização de dados       & Análise de dados  \\ \hline
+		Pequena complexidade das operações  & Grande complexidade das operações \\ \hline
+		Não armazena dados históricos   & Armazena dados históricos     \\ \hline
+		Voltada ao pessoal operacional  & Voltada aos gestores do negócio    \\ \hline
+
+\end{tabular}
+ 

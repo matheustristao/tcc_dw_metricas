@@ -1,0 +1,49 @@
+\changetocdepth {4}
+\select@language {brazil}
+\setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
+\setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
+\setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
+\setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
+\setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
+\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
+\contentsline {chapter}{\chapternumberline {1}\MakeTextUppercase {Introdu\IeC {\c c}\IeC {\~a}o}}{15}{chapter.1}
+\contentsline {section}{\numberline {1.1}Contexto}{15}{section.1.1}
+\contentsline {section}{\numberline {1.2}Justificativa}{15}{section.1.2}
+\contentsline {section}{\numberline {1.3}Problema}{15}{section.1.3}
+\contentsline {section}{\numberline {1.4}Objetivos}{16}{section.1.4}
+\contentsline {section}{\numberline {1.5}Metodologia de pesquisa}{16}{section.1.5}
+\contentsline {section}{\numberline {1.6}Organiza\IeC {\c c}\IeC {\~a}o do Trabalho}{19}{section.1.6}
+\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
+\contentsline {chapter}{\chapternumberline {2}\MakeTextUppercase {M\IeC {\'e}tricas de Software}}{20}{chapter.2}
+\contentsline {section}{\numberline {2.1}Processo de Medi\IeC {\c c}\IeC {\~a}o}{20}{section.2.1}
+\contentsline {section}{\numberline {2.2}Defini\IeC {\c c}\IeC {\~a}o das M\IeC {\'e}tricas de Software}{21}{section.2.2}
+\contentsline {section}{\numberline {2.3}M\IeC {\'e}tricas de C\IeC {\'o}digo Fonte}{22}{section.2.3}
+\contentsline {subsection}{\numberline {2.3.1}M\IeC {\'e}tricas de Tamanho e Complexidade}{22}{subsection.2.3.1}
+\contentsline {subsection}{\numberline {2.3.2}M\IeC {\'e}tricas de Orienta\IeC {\c c}\IeC {\~a}o a Objetos}{23}{subsection.2.3.2}
+\contentsline {section}{\numberline {2.4}Configura\IeC {\c c}\IeC {\~o}es de Qualidade para M\IeC {\'e}tricas de C\IeC {\'o}digo Fonte}{24}{section.2.4}
+\contentsline {section}{\numberline {2.5}Cen\IeC {\'a}rios de Limpeza}{27}{section.2.5}
+\contentsline {section}{\numberline {2.6}Considera\IeC {\c c}\IeC {\~o}es Finais do Cap\IeC {\'\i }tulo}{31}{section.2.6}
+\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
+\contentsline {chapter}{\chapternumberline {3}\MakeTextUppercase {\textit {Data Warehouse}}}{32}{chapter.3}
+\contentsline {section}{\numberline {3.1}Defini\IeC {\c c}\IeC {\~a}o}{32}{section.3.1}
+\contentsline {section}{\numberline {3.2}\textit {Extraction-Transformation-Load}}{32}{section.3.2}
+\contentsline {section}{\numberline {3.3}Modelagem Dimensional}{34}{section.3.3}
+\contentsline {subsection}{\numberline {3.3.1}OLAP \textit {(On-Line Analytic Processing)}}{35}{subsection.3.3.1}
+\contentsline {section}{\numberline {3.4}Ambiente de \textit {Data Warehousing} para M\IeC {\'e}tricas de C\IeC {\'o}digo-Fonte}{37}{section.3.4}
+\contentsline {section}{\numberline {3.5}Considera\IeC {\c c}\IeC {\~o}es finais do cap\IeC {\'\i }tulo}{43}{section.3.5}
+\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
+\contentsline {chapter}{\chapternumberline {4}\MakeTextUppercase {Projeto de estudo de Caso}}{44}{chapter.4}
+\contentsline {section}{\numberline {4.1}Defini\IeC {\c c}\IeC {\~a}o sobre estudo de caso}{44}{section.4.1}
+\contentsline {subsection}{\numberline {4.1.1}Problema}{45}{subsection.4.1.1}
+\contentsline {subsection}{\numberline {4.1.2}Quest\IeC {\~a}o de Pesquisa}{45}{subsection.4.1.2}
+\contentsline {section}{\numberline {4.2}\textit {Background}}{48}{section.4.2}
+\contentsline {section}{\numberline {4.3}Sele\IeC {\c c}\IeC {\~a}o}{48}{section.4.3}
+\contentsline {section}{\numberline {4.4}Fonte dos dados coletados e m\IeC {\'e}todo de coleta}{48}{section.4.4}
+\contentsline {section}{\numberline {4.5}Amea\IeC {\c c}as a validade do estudo de caso}{49}{section.4.5}
+\contentsline {section}{\numberline {4.6}Processo de an\IeC {\'a}lise dos dados}{49}{section.4.6}
+\contentsline {section}{\numberline {4.7}Considera\IeC {\c c}\IeC {\~o}es finais do cap\IeC {\'\i }tulo}{50}{section.4.7}
+\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
+\contentsline {chapter}{\chapternumberline {5}\MakeTextUppercase {Conclus\IeC {\~a}o}}{51}{chapter.5}
+\vspace {\cftbeforechapterskip }
+\setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
+\contentsline {chapter}{Refer\^encias}{52}{section*.33}
