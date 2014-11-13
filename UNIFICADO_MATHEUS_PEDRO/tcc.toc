@@ -11,7 +11,7 @@
 \contentsline {section}{\numberline {1.1}Contexto}{16}{section.1.1}
 \contentsline {section}{\numberline {1.2}Problema}{16}{section.1.2}
 \contentsline {section}{\numberline {1.3}Objetivos}{17}{section.1.3}
-\contentsline {section}{\numberline {1.4}Metodologia de pesquisa}{17}{section.1.4}
+\contentsline {section}{\numberline {1.4}Metodologia de Pesquisa}{17}{section.1.4}
 \contentsline {section}{\numberline {1.5}Organiza\IeC {\c c}\IeC {\~a}o do Trabalho}{20}{section.1.5}
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
 \contentsline {chapter}{\chapternumberline {2}\MakeTextUppercase {M\IeC {\'e}tricas de Software}}{21}{chapter.2}
@@ -30,19 +30,19 @@
 \contentsline {section}{\numberline {3.3}Modelagem Dimensional}{35}{section.3.3}
 \contentsline {subsection}{\numberline {3.3.1}OLAP \textit {(On-Line Analytic Processing)}}{36}{subsection.3.3.1}
 \contentsline {section}{\numberline {3.4}Ambiente de \textit {Data Warehousing} para M\IeC {\'e}tricas de C\IeC {\'o}digo-Fonte}{38}{section.3.4}
-\contentsline {section}{\numberline {3.5}Considera\IeC {\c c}\IeC {\~o}es finais do cap\IeC {\'\i }tulo}{44}{section.3.5}
+\contentsline {section}{\numberline {3.5}Considera\IeC {\c c}\IeC {\~o}es Finais do Cap\IeC {\'\i }tulo}{44}{section.3.5}
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {4}\MakeTextUppercase {Projeto de estudo de Caso}}{45}{chapter.4}
-\contentsline {section}{\numberline {4.1}Defini\IeC {\c c}\IeC {\~a}o sobre estudo de caso}{45}{section.4.1}
+\contentsline {chapter}{\chapternumberline {4}\MakeTextUppercase {Projeto de Estudo de Caso}}{45}{chapter.4}
+\contentsline {section}{\numberline {4.1}Defini\IeC {\c c}\IeC {\~a}o Sobre Estudo de Caso}{45}{section.4.1}
 \contentsline {section}{\numberline {4.2}Background}{46}{section.4.2}
-\contentsline {subsection}{\numberline {4.2.1}Trabalhos antecedentes}{46}{subsection.4.2.1}
+\contentsline {subsection}{\numberline {4.2.1}Trabalhos Antecedentes}{46}{subsection.4.2.1}
 \contentsline {subsection}{\numberline {4.2.2}Quest\IeC {\~a}o de Pesquisa}{46}{subsection.4.2.2}
 \contentsline {section}{\numberline {4.3}Design}{49}{section.4.3}
 \contentsline {section}{\numberline {4.4}Sele\IeC {\c c}\IeC {\~a}o}{50}{section.4.4}
-\contentsline {section}{\numberline {4.5}Fonte dos dados coletados e m\IeC {\'e}todo de coleta}{50}{section.4.5}
+\contentsline {section}{\numberline {4.5}Fonte dos Dados Coletados e M\IeC {\'e}todo de Coleta}{50}{section.4.5}
 \contentsline {section}{\numberline {4.6}Processo de An\IeC {\'a}lise dos Dados}{50}{section.4.6}
 \contentsline {section}{\numberline {4.7}Amea\IeC {\c c}as a Validade do Estudo de Caso}{51}{section.4.7}
-\contentsline {section}{\numberline {4.8}Considera\IeC {\c c}\IeC {\~o}es finais do cap\IeC {\'\i }tulo}{51}{section.4.8}
+\contentsline {section}{\numberline {4.8}Considera\IeC {\c c}\IeC {\~o}es Finais do Cap\IeC {\'\i }tulo}{51}{section.4.8}
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
 \contentsline {chapter}{\chapternumberline {5}\MakeTextUppercase {Conclus\IeC {\~a}o}}{52}{chapter.5}
 \vspace {\cftbeforechapterskip }
