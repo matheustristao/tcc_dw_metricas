@@ -7,19 +7,43 @@ Este capítulo irá apresentar a estratégia de pesquisa adotada durante o traba
 
 O estudo de caso é uma estratégia de pesquisa utilizada para investigar um tópico de manira empírica através de um conjunto de procedimentos pré-especificados \cite{yin2001estudo}. Buscando diferenciar o estudo de caso de outras estratégias de pesquisa, \citeonline{yin2001estudo} esclarece que um estudo de caso deve focalizar acontecimentos contemporâneos, não havendo assim exigência quanto ao controle sobre os eventos comportamentais. Dessa forma, o estudo de caso difere de um experimento pelo motivo que neste há controle e manipulação sobre os eventos, diferentemente do estudo de caso, que não os manipula. Em suma, a essência de qualquer estudo de caso reside em esclarecer uma decisão ou um conjunto de decisões, considerando o motivo pelo qual elas foram tomadas e qual os resultados das suas implementações \cite{schramm_notes_1971}. 
 
-Buscando maior entendimento a respeito do estudo de caso proposto por esse trabalho, foram criadas algumas perguntas que são fundamentais para o seu entendimento:
+Uma vantagem dos estudos de caso é que eles são mais fáceis de planejar e são mais realistas, mas as desvantagens são que os resultados são difíceis de generalizar e mais difícil de interpretar , ou seja, é possível mostrar os efeitos de uma situação típica, mas requer mais análise para que se possa generalizar a outras situações \cite{wohlin2012experimentation}.
 
-\begin{easylist}[itemize]	
-	
-	& Qual o problema a ser tratado?
-	& Qual a questão de pesquisa relacionada a esse problema?
-	& Quais são os objetivos a serem alcançados nessa pesquisa?	
-	& Como foi a seleção do estudo de caso?
-	& Qual fonte dos dados coletados nessa pesquisa e qual o método de coleta?
-	
-	\end{easylist}	
-	
-As perguntas acima serão respondidas nas próximas seções, de modo que o estudo de caso possa ser compreendido como um projeto de pesquisa e então ser executado. Para tanto a seguinte estrutura será adotada no projeto de pesquisa:
+
+A estrutura do protocolo de estudo de caso proposta se baseia em \citeonline{case-study-template-2008} e se apresenta dividida nos seguintes tópicos, cada um com seu objetivo específico:
+
+\begin{easylist}[itemize]
+
+& \textbf{Background - Seção \ref{sec:Background}}: Identificar outros estudos acerca do tópico, definir a questão de pesquisa principal e suas proposições derivadas que serão abordado por este estudo.
+
+& \textbf{Design - Seção \ref{sec:Design}}: Identificar se o projeto de pesquisa é um caso único ou múltiplo bem como seu propósito geral.
+
+& \textbf{Seleção - Seção \ref{sec:Seleção}}: Apresentar critérios para a seleção do caso e descrição do objeto de estudo a ser analisado.
+
+& \textbf{Fonte e Método de Coleta de Dados - Seção \ref{sec:Fonte e Método de Coleta de Dados}}: Identificar os dados que serão coletados, definindo um plano para a coleta e como a informação será armazenada.
+
+& \textbf{Processo de Análise dos Dados - Seção \ref{sec:Análise}}: Identificar os critérios para interpretação dos resultados do estudo de caso, relacionar os dados com a questão de pesquisa e elaborar a explicação do encontrado.
+
+& \textbf{Ameaças a validade do estudo de caso - Seção \ref{sec:Validade}}: Elicitar tipos de validades aplicáveis a um estudo de caso baseando-se no trabalho desenvolvido por \citeonline{yin2001estudo}, sendo elas: constructo, interna, externa e confiabiliade.
+
+\end{easylist}
+
+
+\section{Background}\label{sec:Background}
+
+Esta seção contém referências sobre os trabalhos que antecederam esse estudo de caso dentro de um contexto similar ao que foi apresentado, assim como a própria questão geral de pesquisa a ser respondida com todos os elementos necessários para respondê-la.
+
+\subsection{Trabalhos antecedentes}
+
+O principal trabalho que antecede essa ideia foi desenvolvido por \citeonline{rego_monitoramento_2014}, no qual a solução para monitoramento de métricas de código fonte utilizando \textit{Data Warehouse} foi desenvolvida. \citeonline{novello_uma_2006} utilizou \textit{Data Warehouse} para monitoramento de métricas no processo de desenvolvimento de software, porém não essas métricas não eram de código fonte. Não foram encontrados outros trabalhos que usassem \textit{Data Warehouse} para aferir qualidade do que está sendo desenvolvido relacionando métricas de código fonte a cenários de limpeza, tal qual foi feito por \citeonline{rego_monitoramento_2014}.
+
+\subsection{Questão de Pesquisa}
+
+Toda pesquisa se inicia com algum tipo de problema, porém nem todo problema é passível de tratamento científico. Para que um problema seja de natureza científica ele deve estar envolvido a variáveis que podem ser testadas \cite{gil_como_2002}. Por causa disso, \citeonline{gil_como_2002} ainda define que todo problema deve ser empírico e suscetível de solução, além de ser delimitado a uma dimensão viável.
+
+A questão de pesquisa deriva do problema identificado e busca definir o propósito da medição e o objeto que será medido, seja ele produto, processo ou recurso. Além disso deve caracterizar o assunto a ser tratado e o ponto de vista que se delimita o escopo \cite{Basili96b} \cite{caldiera_goal_1994}.
+
+Para atender a questão de pesquisa foi utilizado o mecanismo goal-question-metrics (GQM). O GQM combina em si muitas das técnicas de medição e as generaliza para incorporar processos, produtos ou recursos, o que torna seu uso adaptável a ambientes diferentes \cite{caldiera_goal_1994}. O GQM possui objetivos específicos para a questão de pesquisa, cada um contendo questões específicas que buscam responder através da coleta de métricas a questão geral de pesquisa e assim atender o problema do estudo de caso \cite{Basili96b}. A estrutura do estudo de caso englobando o GQM utilizado é apresentada da seguinte maneira:  
 
 \begin{figure}[h!]
 \centering
@@ -29,21 +53,11 @@ As perguntas acima serão respondidas nas próximas seções, de modo que o estu
 \end{figure}
 \FloatBarrier
 
-\subsection{Problema}
+Aplicando o modelo estrutural adotado e levando em conta a análise do problema identificado na seção \ref{intro_problema} foi elaborada a seguinte questão de pesquisa:
 
-Toda pesquisa se inicia com algum tipo de problema, porém nem todo problema é passível de tratamento científico. Para que um problema seja de natureza científica ele deve estar envolvido a variáveis que podem ser testadas \cite{gil_como_2002}. Por causa disso, \citeonline{gil_como_2002} ainda define que todo problema deve ser empírico e suscetível de solução, além de ser delimitado a uma dimensão viável.
+\textbf{Questão de Pesquisa: \textit{O uso de um ambiente de Data Warehousing para aferição e monitoramento da qualidade interna do código-fonte é eficaz e eficiente do ponto de vista da equipe de qualidade?}}
 
-Buscando obedecer os requisitos já citados sobre como um problema deve ser, bem como os fatos citados na seção \ref{intro_problema} o seguinte problema foi formulado:
-
-\textbf{\textit{Dificuldade em interpretar dados numéricos a respeito da qualidade do código fonte, fator essencial na tomada de decisão quanto a refatoração.}}
-
-\subsection{Questão de Pesquisa}
-
-Segundo \citeonline{caldiera_goal_1994}, a questão de pesquisa deve ser capaz de caracterizar o objeto que está sendo medido, seja ele produto, processo ou recurso. Sob essa lógica, e levando em conta a análise do problema identificado, a seguinte questão de pesquisa relacionada ao processo de monitoramento de métricas de código fonte foi criada:
-
-\textbf{\textit{O uso de \textit{Data Warehousing} é eficaz e eficiente no monitoramento de métricas de código fonte, facilitando a interpretação dos resultados da análise estática e apoiando decisões de refatoração?}}
-
-Para atender a questão de pesquisa foi utilizado o mecanismo goal-question-metrics (GQM), usado para definir e interpretar um software operacional e mensurável. O GQM combina em si muitas das técnicas de medição e as generaliza para incorporar processos, produtos ou recursos, o que torna seu uso adaptável a ambientes diferentes \cite{caldiera_goal_1994}.
+Os objetivos identificados para responder a questão geral de pesquisa, bem como suas questões específicas e as métricas levantadas para cada questão serão apresentadas a seguir.
 
 \textbf{Objetivo 01:} Avaliar a eficácia e eficiência do uso de \textit{Data Warehouse} para monitoramento de métricas de código fonte. \newline
 
@@ -123,23 +137,19 @@ Para atender a questão de pesquisa foi utilizado o mecanismo goal-question-metr
 
 \textbf{Métrica:} Taxa de oportunidade de melhoria de código: $$ T_r =   \frac{{\sum_{i=1}^{n}{Ce_i}}}{\sum_{i=1}^{n}{Cl_i}} $$ $ Ce $ é o total de cenários de limpezas identificados e $ Cl $  é o total de classes em um intervalo de tempo (sprint, release).
 
-\textbf{Interpretação da métrica: } 
+\textbf{Interpretação da métrica:} O intervalo qualitativo que definirá a interpretação desta será desenvolvido a partir de uma análise estatística a ser realizada na segunda parte desse trabalho, analisando valores coletados na aferição dessa métrica em projetos de software livre previamente selecionados para servirem de referência. 
 
-\begin{easylist}[itemize]	
-	& Número de classes crescente e constante, Número de oportunidade de melhoria estável: Projeto cresceu mais dos 	que o cenários, cenários podem ou não estar sendo tratados.
-	& Número de classes crescente e constante, Número de oportunidade de melhoria crescendo: Projeto cresce junto 		com cenários que não são tratados com eficiência ou não são tratados
-	& Número de classes crescente ou não, mas constante, número de oportunidade de melhoria diminuindo: Projeto 		cresce e cenários são tratados com eficiência.	
-	\end{easylist}	
+\section{Design} \label{sec:Design}
 
-\section{\textit{Background}}
+\citeonline{stake_art_1995} identifica três modalidades de estudo de caso: intrínseco, instrumental e coletivo. Dentre essas definições, este estudo de caso se caracteriza como instrumental, pois se busca um entendimento geral sobre o problema de pesquisa a partir do estudo de um caso particular. Tal característica se assemelha ao tipo de estudo de caso definido como exploratório por \citeonline{yin2001estudo}, onde a visão acurada de um caso particular poderá fornecer uma visão geral do problema considerado.
 
-No que se refere ao contexto desse trabalho, o principal \textit{background} é o trabalho desenvolvido por \citeonline{rego_monitoramento_2014}, no qual a solução para monitoramento de métricas de código fonte utilizando \textit{Data Warehouse} foi desenvolvida. \citeonline{novello_uma_2006} utilizou \textit{Data Warehouse} para monitoramento de métricas no processo de desenvolvimento de software, porém não essas métricas não eram de código fonte. Não foram encontrados outros trabalhos que usassem \textit{Data Warehouse} para aferir qualidade do que está sendo desenvolvido relacionando métricas de código fonte a cenários de limpeza, tal qual foi feito por \citeonline{rego_monitoramento_2014}.
+A justificativa para este estudo de um caso particular se dá pelo motivo de que o tema abordado foi pouco explorado até o momento. Assim espera-se que este caso único componha um estudo de múltiplos casos, pois segundo \citeonline{gil_como_2002} esta abordagem pode inserir as evidências coletadas nesse trabalho em diferentes contextos, com o intuito de elaborar uma pesquisa de melhor qualidade.
 
-\section{Seleção}
+\section{Seleção} \label{sec:Seleção}
 
-?????????????????????????????????
+FALAR DO ERIC e do TCU
 
-\section{Fonte dos dados coletados e método de coleta}
+\section{Fonte dos dados coletados e método de coleta} \label{sec:Fonte e Método de Coleta de Dados}
 
 Nesse estudo de caso, os dados foram coletados através de registros de observações em campo, questionários e resultados gerados pela própria solução após análise direta do código fonte.
 
@@ -149,7 +159,20 @@ A adoção de questionários foi utilizada tanto para dados qualitativos quanto 
 
 Dados resultantes da própria ferramenta, como gráficos automaticamente gerados, serão coletados a medida que a ferramenta for utilizada ao longo do tempo.
 
-\section{Ameaças a validade do estudo de caso}
+\section{Processo de Análise dos Dados} \label{sec:Análise}
+
+Análise dos dados coletados durante o estudo de caso a ser realizado no órgão público federal será realizado através de 4 etapas:
+
+\begin{easylist}[itemize]	
+	
+	& \textbf{Categorização: } Organização dos dados em duas categorias - qualitativos e quantitativos. Os 		dados qualitativos referem-se aos questionários realizados. Os dados quantitativos, por sua vez, 			referem-se aos valores numéricos da solução de DW para monitoramento de métricas. 
+	& \textbf{Exibição: } Consiste na organização dos dados coletados para serem exibidos através de 				gráficos, tabelas e texto para poderem ser analisados. 
+	& \textbf{Verificação: } Atestar padrões, tendências e aspectos específicos dos significados dos 				dados. Procurando assim gerar uma discussão e interpretação de cada dado exibido.
+	& \textbf{Conclusão: } Agrupamento dos resultados mais relevantes das discussões e interpretações dos 			dados anteriormente apresentados.
+	
+	\end{easylist}
+
+\section{Ameaças a Validade do Estudo de Caso} \label{sec:Validade}
 
 \citeonline{yin2001estudo} descreve como principais ameaças relacionadas à validade do estudo de caso as ameaças relacionadas à validade do constructo, à validade interna, à validade externa e à confiabilidade. As quatro ameaças definidas por ele, bem como a forma usada nesse trabalho para preveni-las, são descritas da seguinte maneira: 
 
@@ -167,21 +190,7 @@ A triangulação de dados se deu pelo resultado da solução de \textit{Data War
 \end{easylist}	
 
 
-\section{Processo de análise dos dados}
-
-Análise dos dados coletados durante o estudo de caso a ser realizado no órgão público federal será realizado através de 4 etapas:
-
-\begin{easylist}[itemize]	
-	
-	& \textbf{Categorização: } Organização dos dados em duas categorias - qualitativos e quantitativos. Os 		dados qualitativos referem-se aos questionários realizados. Os dados quantitativos, por sua vez, 			referem-se aos valores numéricos da solução de DW para monitoramento de métricas. 
-	& \textbf{Exibição: } Consiste na organização dos dados coletados para serem exibidos através de 				gráficos, tabelas e texto para poderem ser analisados. 
-	& \textbf{Verificação: } Atestar padrões, tendências e aspectos específicos dos significados dos 				dados. Procurando assim gerar uma discussão e interpretação de cada dado exibido.
-	& \textbf{Conclusão: } Agrupamento dos resultados mais relevantes das discussões e interpretações dos 			dados anteriormente apresentados.
-	
-	\end{easylist}	
-
-
-\section{Considerações finais do capítulo}
+\section{Considerações finais do capítulo} 
 
 Esse capítulo teve como objetivo apresentar o protocolo de estudo de caso que será adotado na continuação desse trabalho. A coleta e análise dos dados coletados seguindo esse protocolo ocorrerão no próximo semestre próximo semestre.
 

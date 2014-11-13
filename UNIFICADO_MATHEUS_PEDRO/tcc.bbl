@@ -13,6 +13,11 @@
 Dispon{\'\i}vel em:
   \url{http://ccsl.ime.usp.br/pt-br/system/files/relatorio-codigo-limpo.pdf}.}
 
+\bibitem[Basili, Caldiera e Rombach 1996]{Basili96b}
+\abntrefinfo{Basili, Caldiera e Rombach}{BASILI; CALDIERA; ROMBACH}{1996}
+{BASILI, V.~R.; CALDIERA, G.; ROMBACH, H.~D. \emph{{The Goal Question Metric
+  Approach}}. [S.l.]: Encyclopedia of Software Engineering, 1996.}
+
 \bibitem[Basili e Rombach 1987]{Basili1987}
 \abntrefinfo{Basili e Rombach}{BASILI; ROMBACH}{1987}
 {BASILI, V.~R.; ROMBACH, H.~D. \emph{{TAME: Integrating Measurement into
@@ -164,10 +169,21 @@ Dispon{\'\i}vel em: \url{http://eric.ed.gov/?id=ED092145}.}
 Dispon{\'\i}vel em:
   \url{https://projetos.inf.ufsc.br/arquivos/Metodologia\_de\_pesquisa\_e\_elaboracao\_de\_teses\_e\_dissertacoes\_4ed.pdf}.}
 
+\bibitem[Stake 1995]{stake_art_1995}
+\abntrefinfo{Stake}{STAKE}{1995}
+{STAKE, R.~E. \emph{The art of case study research}. Thousand Oaks: Sage
+  Publications, 1995.
+ISBN 0803957661.}
+
 \bibitem[Times 2012]{valeria2012}
 \abntrefinfo{Times}{TIMES}{2012}
 {TIMES, V.~C. \emph{Sistemas de DW}. 2012. Universidade Federal de Pernambuco -
   UFPE. Dispon{\'\i}vel em: \url{www.cin.ufpe.br/~if695/bda\_dw.pdf}.}
+
+\bibitem[Wohlin et al. 2012]{wohlin2012experimentation}
+\abntrefinfo{Wohlin et al.}{WOHLIN et al.}{2012}
+{WOHLIN, C. et al. \emph{Experimentation in software engineering}. [S.l.]:
+  Springer, 2012.}
 
 \bibitem[Yin 2001]{yin2001estudo}
 \abntrefinfo{Yin}{YIN}{2001}

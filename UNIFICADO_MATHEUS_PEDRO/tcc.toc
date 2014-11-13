@@ -34,14 +34,15 @@
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
 \contentsline {chapter}{\chapternumberline {4}\MakeTextUppercase {Projeto de estudo de Caso}}{46}{chapter.4}
 \contentsline {section}{\numberline {4.1}Defini\IeC {\c c}\IeC {\~a}o sobre estudo de caso}{46}{section.4.1}
-\contentsline {subsection}{\numberline {4.1.1}Problema}{47}{subsection.4.1.1}
-\contentsline {subsection}{\numberline {4.1.2}Quest\IeC {\~a}o de Pesquisa}{47}{subsection.4.1.2}
-\contentsline {section}{\numberline {4.2}\textit {Background}}{50}{section.4.2}
-\contentsline {section}{\numberline {4.3}Sele\IeC {\c c}\IeC {\~a}o}{50}{section.4.3}
-\contentsline {section}{\numberline {4.4}Fonte dos dados coletados e m\IeC {\'e}todo de coleta}{50}{section.4.4}
-\contentsline {section}{\numberline {4.5}Amea\IeC {\c c}as a validade do estudo de caso}{51}{section.4.5}
-\contentsline {section}{\numberline {4.6}Processo de an\IeC {\'a}lise dos dados}{51}{section.4.6}
-\contentsline {section}{\numberline {4.7}Considera\IeC {\c c}\IeC {\~o}es finais do cap\IeC {\'\i }tulo}{52}{section.4.7}
+\contentsline {section}{\numberline {4.2}Background}{47}{section.4.2}
+\contentsline {subsection}{\numberline {4.2.1}Trabalhos antecedentes}{47}{subsection.4.2.1}
+\contentsline {subsection}{\numberline {4.2.2}Quest\IeC {\~a}o de Pesquisa}{47}{subsection.4.2.2}
+\contentsline {section}{\numberline {4.3}Design}{50}{section.4.3}
+\contentsline {section}{\numberline {4.4}Sele\IeC {\c c}\IeC {\~a}o}{51}{section.4.4}
+\contentsline {section}{\numberline {4.5}Fonte dos dados coletados e m\IeC {\'e}todo de coleta}{51}{section.4.5}
+\contentsline {section}{\numberline {4.6}Processo de An\IeC {\'a}lise dos Dados}{51}{section.4.6}
+\contentsline {section}{\numberline {4.7}Amea\IeC {\c c}as a Validade do Estudo de Caso}{52}{section.4.7}
+\contentsline {section}{\numberline {4.8}Considera\IeC {\c c}\IeC {\~o}es finais do cap\IeC {\'\i }tulo}{52}{section.4.8}
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
 \contentsline {chapter}{\chapternumberline {5}\MakeTextUppercase {Conclus\IeC {\~a}o}}{53}{chapter.5}
 \vspace {\cftbeforechapterskip }
