@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.10.11)  12 NOV 2014 23:51
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.10.11)  13 NOV 2014 00:14
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1672,21 +1672,21 @@ Underfull \hbox (badness 10000) in paragraph at lines 3--4
 ]) (./editaveis/abreviaturas.tex [13
 
 
-] [14])
+])
 (./fixos/indiceAutomatico.tex (./tcc.toc
 LaTeX Font Info:    Font shape `T1/lmss/bx/it' in size <12> not available
 (Font)              Font shape `T1/lmss/bx/sl' tried instead on input line 27.
 LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <12> not available
 (Font)              Font shape `T1/lmss/m/sl' tried instead on input line 31.
- [15
+ [14
 
-]) [16])
+]) [15])
 (./capitulos/1-introducao.tex
 
-LaTeX Warning: Citation `pandian_software_2004' on page 17 undefined on input l
+LaTeX Warning: Citation `pandian_software_2004' on page 16 undefined on input l
 ine 14.
 
-[17
+[16
 
 
 ]
@@ -1710,7 +1710,7 @@ a_pequisa.eps>
 (epstopdf)             \includegraphics on input line 51.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/figuras_matheus/metodologia_da_pequisa-eps-converted-to.pdf, id=297, 6
+<figuras/figuras_matheus/metodologia_da_pequisa-eps-converted-to.pdf, id=293, 6
 85.56125pt x 1103.12125pt>
 File: figuras/figuras_matheus/metodologia_da_pequisa-eps-converted-to.pdf Graph
 ic file (type pdf)
@@ -1723,7 +1723,7 @@ verted-to.pdf used on input line 51.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[18] [19 <./figuras/figuras_matheus/metodologia_da_pequisa-eps-converted-to.pdf
+[17] [18 <./figuras/figuras_matheus/metodologia_da_pequisa-eps-converted-to.pdf
 >]
 Package epstopdf Info: Source file: <figuras/figuras_pedro/projeto-pesq.eps>
 (epstopdf)                    date: 2014-11-12 20:59:55
@@ -1737,7 +1737,7 @@ eto-pesq-eps-converted-to.pdf figuras/figuras_pedro/projeto-pesq.eps>
 (epstopdf)             \includegraphics on input line 71.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/figuras_pedro/projeto-pesq-eps-converted-to.pdf, id=325, 600.2425pt x 
+<figuras/figuras_pedro/projeto-pesq-eps-converted-to.pdf, id=321, 600.2425pt x 
 450.68375pt>
 File: figuras/figuras_pedro/projeto-pesq-eps-converted-to.pdf Graphic file (typ
 e pdf)
@@ -1746,8 +1746,8 @@ Package pdftex.def Info: figuras/figuras_pedro/projeto-pesq-eps-converted-to.pd
 f used on input line 71.
 (pdftex.def)             Requested size: 390.153pt x 292.94095pt.
 
-[20 <./figuras/figuras_pedro/projeto-pesq-eps-converted-to.pdf>])
-(./capitulos/2-metricas.tex [21] [22
+[19 <./figuras/figuras_pedro/projeto-pesq-eps-converted-to.pdf>])
+(./capitulos/2-metricas.tex [20] [21
 
 ]
 Package epstopdf Info: Source file: <figuras/figuras_matheus/tipos_medidas_INGL
@@ -1764,7 +1764,7 @@ NGLES.eps>
 (epstopdf)             \includegraphics on input line 50.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/figuras_matheus/tipos_medidas_INGLES-eps-converted-to.pdf, id=377, 499
+<figuras/figuras_matheus/tipos_medidas_INGLES-eps-converted-to.pdf, id=373, 499
 .8675pt x 174.6525pt>
 File: figuras/figuras_matheus/tipos_medidas_INGLES-eps-converted-to.pdf Graphic
  file (type pdf)
@@ -1777,8 +1777,8 @@ rted-to.pdf used on input line 50.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[23] [24 <./figuras/figuras_matheus/tipos_medidas_INGLES-eps-converted-to.pdf>]
-[25] (./tabelas/tabelasMatheus/percentis.ltx
+[22] [23 <./figuras/figuras_matheus/tipos_medidas_INGLES-eps-converted-to.pdf>]
+[24] (./tabelas/tabelasMatheus/percentis.ltx
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <9> on input line 3.
 )
@@ -1786,12 +1786,12 @@ Overfull \hbox (9.37761pt too wide) in paragraph at lines 3--141
  [] 
  []
 
-[26] (./tabelas/tabelasMatheus/intervalos.ltx)
+[25] (./tabelas/tabelasMatheus/intervalos.ltx)
 (./tabelas/tabelasMatheus/metricas.ltx)
 
 LaTeX Warning: Float too large for page by 59.66628pt on input line 167.
 
-[27] [28] (./tabelas/tabelasMatheus/conceitos-limpeza.ltx
+[26] [27] (./tabelas/tabelasMatheus/conceitos-limpeza.ltx
 Underfull \hbox (badness 1762) in paragraph at lines 9--10
 []| []\T1/lmr/m/n/12 Menos Ope-ra-ções por
  []
@@ -1889,9 +1889,9 @@ Overfull \hbox (3.70084pt too wide) in paragraph at lines 1--192
 
 LaTeX Warning: Float too large for page by 32.4995pt on input line 194.
 
-[29
+[28
 
-] [30] (./tabelas/tabelasMatheus/cenarios.ltx
+] [29] (./tabelas/tabelasMatheus/cenarios.ltx
 Underfull \hbox (badness 5893) in paragraph at lines 3--3
 []|\T1/lmr/m/n/12 Forma de De-tec-ção
  []
@@ -2076,14 +2076,14 @@ Overfull \hbox (6.98694pt too wide) in paragraph at lines 1--205
  [][] 
  []
 
-[31
+[30
 
-] [32]) (./capitulos/3-dwing.tex [33]
+] [31]) (./capitulos/3-dwing.tex [32]
 LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <24.88> not available
 (Font)              Font shape `T1/lmss/m/sl' tried instead on input line 1.
 LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <17.28> not available
 (Font)              Font shape `T1/lmss/m/sl' tried instead on input line 12.
- [34
+ [33
 
 ]
 Package epstopdf Info: Source file: <figuras/figuras_matheus/etl.eps>
@@ -2098,7 +2098,7 @@ l-eps-converted-to.pdf figuras/figuras_matheus/etl.eps>
 (epstopdf)             \includegraphics on input line 28.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/figuras_matheus/etl-eps-converted-to.pdf, id=560, 732.7375pt x 846.161
+<figuras/figuras_matheus/etl-eps-converted-to.pdf, id=556, 732.7375pt x 846.161
 25pt>
 File: figuras/figuras_matheus/etl-eps-converted-to.pdf Graphic file (type pdf)
  <use figuras/figuras_matheus/etl-eps-converted-to.pdf>
@@ -2109,7 +2109,7 @@ on input line 28.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[35] [36 <./figuras/figuras_matheus/etl-eps-converted-to.pdf>]
+[34] [35 <./figuras/figuras_matheus/etl-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <figuras/figuras_matheus/star.eps>
 (epstopdf)                    date: 2014-11-12 20:59:55
 (epstopdf)                    size: 2409751 bytes
@@ -2122,7 +2122,7 @@ ar-eps-converted-to.pdf figuras/figuras_matheus/star.eps>
 (epstopdf)             \includegraphics on input line 43.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/figuras_matheus/star-eps-converted-to.pdf, id=582, 593.21625pt x 378.4
+<figuras/figuras_matheus/star-eps-converted-to.pdf, id=577, 593.21625pt x 378.4
 1376pt>
 File: figuras/figuras_matheus/star-eps-converted-to.pdf Graphic file (type pdf)
 
@@ -2133,7 +2133,7 @@ Package pdftex.def Info: figuras/figuras_matheus/star-eps-converted-to.pdf used
 LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <14.4> not available
 (Font)              Font shape `T1/lmss/m/sl' tried instead on input line 49.
 
-(./tabelas/tabelasMatheus/hilmer_olap_oltp.ltx) [37 <./figuras/figuras_matheus/
+(./tabelas/tabelasMatheus/hilmer_olap_oltp.ltx) [36 <./figuras/figuras_matheus/
 star-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <figuras/figuras_matheus/cubo.eps>
 (epstopdf)                    date: 2014-11-12 20:59:55
@@ -2147,7 +2147,7 @@ bo-eps-converted-to.pdf figuras/figuras_matheus/cubo.eps>
 (epstopdf)             \includegraphics on input line 67.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/figuras_matheus/cubo-eps-converted-to.pdf, id=606, 748.7975pt x 378.41
+<figuras/figuras_matheus/cubo-eps-converted-to.pdf, id=602, 748.7975pt x 378.41
 376pt>
 File: figuras/figuras_matheus/cubo-eps-converted-to.pdf Graphic file (type pdf)
 
@@ -2155,7 +2155,7 @@ File: figuras/figuras_matheus/cubo-eps-converted-to.pdf Graphic file (type pdf)
 Package pdftex.def Info: figuras/figuras_matheus/cubo-eps-converted-to.pdf used
  on input line 67.
 (pdftex.def)             Requested size: 374.39783pt x 189.2064pt.
- [38 <./figuras/figuras_matheus/cubo-eps-converted-to.pdf>]
+ [37 <./figuras/figuras_matheus/cubo-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <figuras/figuras_matheus/drill.eps>
 (epstopdf)                    date: 2014-11-12 20:59:55
 (epstopdf)                    size: 1095921 bytes
@@ -2168,7 +2168,7 @@ ill-eps-converted-to.pdf figuras/figuras_matheus/drill.eps>
 (epstopdf)             \includegraphics on input line 91.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/figuras_matheus/drill-eps-converted-to.pdf, id=633, 608.2725pt x 166.6
+<figuras/figuras_matheus/drill-eps-converted-to.pdf, id=629, 608.2725pt x 166.6
 225pt>
 File: figuras/figuras_matheus/drill-eps-converted-to.pdf Graphic file (type pdf
 )
@@ -2190,7 +2190,7 @@ cao.eps>
 (epstopdf)             \includegraphics on input line 103.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/figuras_matheus/arquitetura_solucao-eps-converted-to.pdf, id=642, 722.
+<figuras/figuras_matheus/arquitetura_solucao-eps-converted-to.pdf, id=638, 722.
 7pt x 842.14626pt>
 File: figuras/figuras_matheus/arquitetura_solucao-eps-converted-to.pdf Graphic 
 file (type pdf)
@@ -2203,10 +2203,10 @@ ted-to.pdf used on input line 103.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[39 <./figuras/figuras_matheus/drill-eps-converted-to.pdf>] [40 <./figuras/figu
+[38 <./figuras/figuras_matheus/drill-eps-converted-to.pdf>] [39 <./figuras/figu
 ras_matheus/arquitetura_solucao-eps-converted-to.pdf>]
-(./tabelas/tabelasMatheus/fatos-dimensoes.ltx) [41]
-(./tabelas/tabelasMatheus/tabelas-fatos-tabelas-dimensoes.ltx) [42]
+(./tabelas/tabelasMatheus/fatos-dimensoes.ltx) [40]
+(./tabelas/tabelasMatheus/tabelas-fatos-tabelas-dimensoes.ltx) [41]
 Package epstopdf Info: Source file: <figuras/figuras_matheus/modelo-dw-baufaker
 .eps>
 (epstopdf)                    date: 2014-11-12 20:59:55
@@ -2221,7 +2221,7 @@ r.eps>
 (epstopdf)             \includegraphics on input line 175.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/figuras_matheus/modelo-dw-baufaker-eps-converted-to.pdf, id=687, 906.3
+<figuras/figuras_matheus/modelo-dw-baufaker-eps-converted-to.pdf, id=682, 906.3
 8625pt x 934.49126pt>
 File: figuras/figuras_matheus/modelo-dw-baufaker-eps-converted-to.pdf Graphic f
 ile (type pdf)
@@ -2234,7 +2234,7 @@ ed-to.pdf used on input line 175.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[43] [44 <./figuras/figuras_matheus/modelo-dw-baufaker-eps-converted-to.pdf>]
+[42] [43 <./figuras/figuras_matheus/modelo-dw-baufaker-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <figuras/figuras_matheus/metadados-baufaker
 .eps>
 (epstopdf)                    date: 2014-11-12 20:59:55
@@ -2249,7 +2249,7 @@ r.eps>
 (epstopdf)             \includegraphics on input line 195.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/figuras_matheus/metadados-baufaker-eps-converted-to.pdf, id=709, 677.5
+<figuras/figuras_matheus/metadados-baufaker-eps-converted-to.pdf, id=705, 677.5
 3125pt x 553.06625pt>
 File: figuras/figuras_matheus/metadados-baufaker-eps-converted-to.pdf Graphic f
 ile (type pdf)
@@ -2259,10 +2259,10 @@ Package pdftex.def Info: figuras/figuras_matheus/metadados-baufaker-eps-convert
 ed-to.pdf used on input line 195.
 (pdftex.def)             Requested size: 406.52188pt x 331.8423pt.
 )
-(./capitulos/4-projeto-de-estudo-de-caso.tex [45 <./figuras/figuras_matheus/met
-adados-baufaker-eps-converted-to.pdf>] [46
+(./capitulos/4-projeto-de-estudo-de-caso.tex [44 <./figuras/figuras_matheus/met
+adados-baufaker-eps-converted-to.pdf>] [45
 
-] [47]
+] [46]
 Package epstopdf Info: Source file: <figuras/figuras_matheus/projeto_de_pesquis
 a.eps>
 (epstopdf)                    date: 2014-11-12 20:59:55
@@ -2277,7 +2277,7 @@ isa.eps>
 (epstopdf)             \includegraphics on input line 50.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/figuras_matheus/projeto_de_pesquisa-eps-converted-to.pdf, id=773, 1272
+<figuras/figuras_matheus/projeto_de_pesquisa-eps-converted-to.pdf, id=769, 1272
 .755pt x 948.54375pt>
 File: figuras/figuras_matheus/projeto_de_pesquisa-eps-converted-to.pdf Graphic 
 file (type pdf)
@@ -2296,7 +2296,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 62--63
 
  []
 
-[48 <./figuras/figuras_matheus/projeto_de_pesquisa-eps-converted-to.pdf>]
+[47 <./figuras/figuras_matheus/projeto_de_pesquisa-eps-converted-to.pdf>]
 Underfull \hbox (badness 10000) in paragraph at lines 70--71
 
  []
@@ -2332,7 +2332,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 113--114
 
  []
 
-[49]
+[48]
 Underfull \hbox (badness 10000) in paragraph at lines 122--123
 
  []
@@ -2342,21 +2342,21 @@ Underfull \hbox (badness 10000) in paragraph at lines 130--131
 
  []
 
-[50] [51]) (./capitulos/5-conclusao.tex [52]) (./tcc.bbl (./tcc.brf)
+[49] [50]) (./capitulos/5-conclusao.tex [51]) (./tcc.bbl (./tcc.brf)
 \tf@brf=\write6
 \openout6 = `tcc.brf'.
 
- [53
+ [52
 
 ]
 bibitemlist
-[54
+[53
 
-] [55])
+] [54])
 No file tcc.ind.
 
 AED: lastpage setting LastPage
-[56]
+[55]
 \tf@lof=\write7
 \openout7 = `tcc.lof'.
 
@@ -2372,7 +2372,7 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 46.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 46.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 46.
 Package rerunfilecheck Info: File `tcc.brf' has not changed.
-(rerunfilecheck)             Checksum: 8F02C3792987E3F63B6B337143E5B0FF;7983.
+(rerunfilecheck)             Checksum: DBA1E7E93F4714AF4E972D81826A7B69;7983.
 
 
 LaTeX Warning: There were undefined references.
@@ -2383,9 +2383,9 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 46.
  ) 
 Here is how much of TeX's memory you used:
- 27673 strings out of 493117
- 482731 string characters out of 6135432
- 603006 words of memory out of 5000000
+ 27672 strings out of 493117
+ 482724 string characters out of 6135432
+ 603007 words of memory out of 5000000
  30259 multiletter control sequences out of 15000+600000
  107557 words of font info for 81 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -2411,10 +2411,10 @@ st/fonts/type1/public/lm/lmssbo10.pfb></usr/local/texlive/2014/texmf-dist/fonts
 ublic/lm/lmsso12.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/lm/
 lmsso17.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/lm/lmsy10.pf
 b>
-Output written on tcc.pdf (57 pages, 1112330 bytes).
+Output written on tcc.pdf (56 pages, 1110944 bytes).
 PDF statistics:
- 1196 PDF objects out of 1200 (max. 8388607)
- 1051 compressed objects within 11 object streams
- 171 named destinations out of 1000 (max. 500000)
+ 1192 PDF objects out of 1200 (max. 8388607)
+ 1048 compressed objects within 11 object streams
+ 170 named destinations out of 1000 (max. 500000)
  477 words of extra memory for PDF output out of 10000 (max. 10000000)
 
