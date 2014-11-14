@@ -28,28 +28,28 @@
 \contentsline {section}{\numberline {3.1}Defini\IeC {\c c}\IeC {\~o}es e terminologia}{33}{section.3.1}
 \contentsline {section}{\numberline {3.2}Caracter\IeC {\'\i }sticas dos \textit {Data Warehouses}}{34}{section.3.2}
 \contentsline {subsection}{\numberline {3.2.1}Componentes B\IeC {\'a}sicos de um Data Warehouse}{35}{subsection.3.2.1}
-\contentsline {section}{\numberline {3.3}Modelagem Dimensional}{38}{section.3.3}
-\contentsline {subsection}{\numberline {3.3.1}Tipos de Tabelas do Modelo Multidimensional}{40}{subsection.3.3.1}
-\contentsline {subsection}{\numberline {3.3.2}Esquemas Multidimensionais}{40}{subsection.3.3.2}
-\contentsline {section}{\numberline {3.4}Ambiente de \textit {Data Warehousing} para M\IeC {\'e}tricas de C\IeC {\'o}digo-Fonte}{41}{section.3.4}
-\contentsline {subsection}{\numberline {3.4.1}Sele\IeC {\c c}\IeC {\~a}o do Processo de Neg\IeC {\'o}cio}{42}{subsection.3.4.1}
-\contentsline {subsection}{\numberline {3.4.2}Verifica\IeC {\c c}\IeC {\~a}o da Periodicidade de Coleta de Dados}{44}{subsection.3.4.2}
-\contentsline {subsection}{\numberline {3.4.3}Identifica\IeC {\c c}\IeC {\~a}o dos Fatos e das Dimens\IeC {\~o}es}{44}{subsection.3.4.3}
-\contentsline {section}{\numberline {3.5}Considera\IeC {\c c}\IeC {\~o}es Finais do Cap\IeC {\'\i }tulo}{47}{section.3.5}
+\contentsline {section}{\numberline {3.3}Modelagem Dimensional}{37}{section.3.3}
+\contentsline {subsection}{\numberline {3.3.1}Tipos de Tabelas do Modelo Multidimensional}{39}{subsection.3.3.1}
+\contentsline {subsection}{\numberline {3.3.2}Esquemas Multidimensionais}{39}{subsection.3.3.2}
+\contentsline {section}{\numberline {3.4}Ambiente de \textit {Data Warehousing} para M\IeC {\'e}tricas de C\IeC {\'o}digo-Fonte}{40}{section.3.4}
+\contentsline {subsection}{\numberline {3.4.1}Sele\IeC {\c c}\IeC {\~a}o do Processo de Neg\IeC {\'o}cio}{41}{subsection.3.4.1}
+\contentsline {subsection}{\numberline {3.4.2}Verifica\IeC {\c c}\IeC {\~a}o da Periodicidade de Coleta de Dados}{43}{subsection.3.4.2}
+\contentsline {subsection}{\numberline {3.4.3}Identifica\IeC {\c c}\IeC {\~a}o dos Fatos e das Dimens\IeC {\~o}es}{43}{subsection.3.4.3}
+\contentsline {section}{\numberline {3.5}Considera\IeC {\c c}\IeC {\~o}es Finais do Cap\IeC {\'\i }tulo}{46}{section.3.5}
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {4}\MakeTextUppercase {Projeto de Estudo de Caso}}{48}{chapter.4}
-\contentsline {section}{\numberline {4.1}Defini\IeC {\c c}\IeC {\~a}o Sobre Estudo de Caso}{48}{section.4.1}
-\contentsline {section}{\numberline {4.2}Background}{49}{section.4.2}
-\contentsline {subsection}{\numberline {4.2.1}Trabalhos Antecedentes}{49}{subsection.4.2.1}
-\contentsline {subsection}{\numberline {4.2.2}Quest\IeC {\~a}o de Pesquisa}{49}{subsection.4.2.2}
-\contentsline {section}{\numberline {4.3}Design}{52}{section.4.3}
-\contentsline {section}{\numberline {4.4}Sele\IeC {\c c}\IeC {\~a}o}{53}{section.4.4}
-\contentsline {section}{\numberline {4.5}Fonte dos Dados Coletados e M\IeC {\'e}todo de Coleta}{53}{section.4.5}
-\contentsline {section}{\numberline {4.6}Processo de An\IeC {\'a}lise dos Dados}{54}{section.4.6}
-\contentsline {section}{\numberline {4.7}Amea\IeC {\c c}as a Validade do Estudo de Caso}{54}{section.4.7}
-\contentsline {section}{\numberline {4.8}Considera\IeC {\c c}\IeC {\~o}es Finais do Cap\IeC {\'\i }tulo}{55}{section.4.8}
+\contentsline {chapter}{\chapternumberline {4}\MakeTextUppercase {Projeto de Estudo de Caso}}{47}{chapter.4}
+\contentsline {section}{\numberline {4.1}Defini\IeC {\c c}\IeC {\~a}o Sobre Estudo de Caso}{47}{section.4.1}
+\contentsline {section}{\numberline {4.2}Background}{48}{section.4.2}
+\contentsline {subsection}{\numberline {4.2.1}Trabalhos Antecedentes}{48}{subsection.4.2.1}
+\contentsline {subsection}{\numberline {4.2.2}Quest\IeC {\~a}o de Pesquisa}{48}{subsection.4.2.2}
+\contentsline {section}{\numberline {4.3}Design}{51}{section.4.3}
+\contentsline {section}{\numberline {4.4}Sele\IeC {\c c}\IeC {\~a}o}{52}{section.4.4}
+\contentsline {section}{\numberline {4.5}Fonte dos Dados Coletados e M\IeC {\'e}todo de Coleta}{52}{section.4.5}
+\contentsline {section}{\numberline {4.6}Processo de An\IeC {\'a}lise dos Dados}{53}{section.4.6}
+\contentsline {section}{\numberline {4.7}Amea\IeC {\c c}as a Validade do Estudo de Caso}{53}{section.4.7}
+\contentsline {section}{\numberline {4.8}Considera\IeC {\c c}\IeC {\~o}es Finais do Cap\IeC {\'\i }tulo}{54}{section.4.8}
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {5}\MakeTextUppercase {Conclus\IeC {\~a}o}}{56}{chapter.5}
+\contentsline {chapter}{\chapternumberline {5}\MakeTextUppercase {Conclus\IeC {\~a}o}}{55}{chapter.5}
 \vspace {\cftbeforechapterskip }
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
-\contentsline {chapter}{Refer\^encias}{57}{section*.37}
+\contentsline {chapter}{Refer\^encias}{56}{section*.36}

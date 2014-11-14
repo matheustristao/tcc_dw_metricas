@@ -7,7 +7,9 @@ Neste capítulo será apresentada a maneira como foi desenvolvido o ambiente de 
 
 \textit{Data Warehouse} é uma base de dados que armazena suas informações de maneira orientada a satisfazer solicitações de tomadas de decisão \cite{chaudhuri1997}. A diferença entre um típico banco de dados transacional e um  \textit{Data Warehouse}, porém, consiste na maneira como esses dados são armazenados. Em vez de existirem múltiplos ambientes de decisão operando de forma independente, o que com frequência traz informações conflituosas, um \textit{Data Warehouse} unifica as fontes de informações relevantes, de maneira que a integridade  qualidade dos dados são garantidas. \cite{neeraj_sharma_2011}. Dessa forma,\citeonline{chaudhuri1997} afirma que o ambiente de \textit{Data Warehousing} possibilita que seu usuário realize buscas complexas de maneira mais amigável diretamente em um só ambiente, em vez de acessar informações através de relatórios gerados por especialistas. 
 
-\citeonline{Inmon2002} descreve que o \textit{Data Warehouse} é uma coleção de dados que tem como característica ser orientada a assunto, integrada, não volátil e temporal. Por orientação a assunto, podemos entender como um foco em algum aspecto específico da organização, como por exemplo as vendas de uma loja. O fato do ambiente ser integrado remete ao fato dele ser alimentado com dados que têm como origem de múltiplas fontes, integrando esses dados de maneira a construir uma única orientação. Como um conjunto não volátil e temporal de dados, é entendido que a informação carregada remete a um determinado momento da aplicação, possibilitando assim acesso a diferentes intervalos de tempo, não havendo como modificá-los atualizando em tempo real. São vários os tipos de aplicação aceitos para um data warehouse. Algumas delas serão definidas a seguir.
+\citeonline{Inmon2002} descreve que o \textit{Data Warehouse} é uma coleção de dados que tem como característica ser orientada a assunto, integrada, não volátil e temporal. Por orientação a assunto, podemos entender como um foco em algum aspecto específico da organização, como por exemplo as vendas de uma loja. O fato do ambiente ser integrado remete ao fato dele ser alimentado com dados que têm como origem de múltiplas fontes, integrando esses dados de maneira a construir uma única orientação. Como um conjunto não volátil e temporal de dados, é entendido que a informação carregada remete a um determinado momento da aplicação, possibilitando assim acesso a diferentes intervalos de tempo, não havendo como modificá-los atualizando em tempo real. 
+
+São vários os tipos de aplicação aceitos para um data warehouse. Algumas delas serão definidas a seguir.
 
 
 \textbf{OLAP (online analytical processing — processamento analítico on-line)}:
@@ -71,10 +73,6 @@ A tabela \ref{tab:hilmer} evidencia as principais diferenças entre aplicações
 	\FloatBarrier	
 
 
-
-
-
-
 \subsection{Componentes Básicos de um Data Warehouse}
 
 A Figura \ref{fig:elem-bas-dw} representa a estrutura básica de um DW segundo \citeonline{Kimball2002}, os componentes serão definidos a seguir.
@@ -82,7 +80,7 @@ A Figura \ref{fig:elem-bas-dw} representa a estrutura básica de um DW segundo \
 % @Figure elem-bas-dw
 \begin{figure}[h!]
 \centering
-\includegraphics[keepaspectratio=false,scale=0.67]{figuras/figuras_pedro/elem-bas-dw.eps}
+\includegraphics[keepaspectratio=false,scale=0.71]{figuras/figuras_pedro/elem-bas-dw.eps}
 \caption{Elementos básicos de um data warehouse}
 \label{fig:elem-bas-dw}
 \end{figure}
@@ -113,19 +111,6 @@ Representa a área onde os dados são organizados, armazenados e disponibilizado
 \textbf{Metadados}: Definido como toda a informação no ambiente de data warehouse que não são os dados em si \cite{Kimball2002}. Os metadados num ambiente DW podem apontar para dados sobre tabelas do sistema, índices, relacionamentos, e etc. \citeonline{kimball1998data} recomenda que a arquitetura de um DW seja orientada a metadados, devido a seu papel crítico de prover informações e parâmetros que permitem que as aplicações executarem suas tarefas com um controle maior sobre os dados provenientes das fontes de dados e outros elementos fundamentais para sua execução.
 
 
-
-
-A Figura \ref{fig:etl} descreve a arquitetura de um ambiente de \textit{Data Warehousing}, envolvendo os três processos citados anteriormente:
-
-\begin{figure}[h!]
-\centering
-\includegraphics[keepaspectratio=false,scale=0.50]{figuras/figuras_matheus/etl.eps}
-\caption{Arquitetura de um ambiente de Data Warehousing}
-\label{fig:etl}
-\end{figure}
-\FloatBarrier
-
-
 \section{Modelagem Dimensional}
 
 \citeonline{Kimball2002} afirma que a habilidade de visualizar algo tão abstrato como um conjunto de dados  de maneira concreta e tangível é o segredo da compreensibilidade, de modo que um modelo de dados que se inicia de forma simples tende a ser simples até o final da modelagem, ao contrário de um modelo que já se inicia de forma complicada. Nesse contexto, o modelo dimensional difere em muitos aspectos do modelo normalizado em sua terceira forma normal, também conhecido como modelo entidade-relacionamento. O modelo normalizado contém seus dados divididos em muitas entidades, cada qual identificada como uma tabela, buscando assim evitar redundância entre os dados, sendo eles armazenados em tempo real na medida que forem atualizados. O problema associado a essa solução é a tamanha complexidade adquirida pelos modelos, uma vez que são criadas um número grande de tabelas dificultando assim sua navegação. Em um sentido oposto, a modelagem dimensional resolve esse problema associado à complexidade, uma vez que, mesmo possuindo as mesmas informações que um modelo normalizado, elas estão modeladas de forma que estejam em sintonia com o entendimento do usuário e ao alto desempenho de consultas. 
@@ -135,13 +120,13 @@ A modelagem multidimensional adotada pelo OLAP é associada de maneira metafóri
 
 \begin{figure}[h!]
 \centering
-\includegraphics[keepaspectratio=false,scale=0.50]{figuras/figuras_matheus/cubo.eps}
+\includegraphics[keepaspectratio=false,scale=0.60]{figuras/figuras_matheus/cubo.eps}
 \caption{Cubo de dados com o fato Venda e dimensões Produto, Funcionário e Tempo}
 \label{fig:cubo}
 \end{figure}
 \FloatBarrier
 
-A Figura \ref{fig:cubo} reflete uma análise em um cubo de dados para o esquema estrela da Figura \ref{fig:estrela}. Essas análises podem ser divididas em alguns tipos diferentes, entre eles:
+A Figura \ref{fig:cubo} reflete uma análise em um cubo de dados. As operações possíveis de serem aplicadas a um cubo OLAP são categorizadas a seguir.
 
 \begin{easylist}[itemize]
 
