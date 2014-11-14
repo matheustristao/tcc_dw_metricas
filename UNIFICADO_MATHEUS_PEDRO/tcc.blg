@@ -14,8 +14,8 @@ Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
 Database file #1: abntex2-options.bib
 Database file #2: bibliografia.bib
 Warning--entry type for "hilmer2002" isn't style-file defined
---line 182 of file bibliografia.bib
-Repeated entry---line 650 of file bibliografia.bib
+--line 202 of file bibliografia.bib
+Repeated entry---line 670 of file bibliografia.bib
  : @inproceedings{LCOM4
  :                     ,
 I'm skipping whatever remains of this entry
@@ -29,45 +29,45 @@ Warning--faltando school em novello_uma_2006
 | Em caso de dúvidas ou problemas com este estilo procure |
 | http://abntex2.googlecode.com                           |
 +---------------------------------------------------------+
-You've used 37 entries,
+You've used 39 entries,
             6711 wiz_defined-function locations,
-            1407 strings with 14694 characters,
-and the built_in function-call counts, 34278 in all, are:
-= -- 3379
-> -- 817
-< -- 489
-+ -- 810
-- -- 257
-* -- 2164
-:= -- 4552
-add.period$ -- 131
-call.type$ -- 37
-change.case$ -- 298
-chr.to.int$ -- 64
-cite$ -- 37
-duplicate$ -- 2669
-empty$ -- 2113
-format.name$ -- 1200
-if$ -- 7436
+            1420 strings with 15048 characters,
+and the built_in function-call counts, 35912 in all, are:
+= -- 3500
+> -- 884
+< -- 490
++ -- 834
+- -- 277
+* -- 2285
+:= -- 4767
+add.period$ -- 140
+call.type$ -- 39
+change.case$ -- 319
+chr.to.int$ -- 69
+cite$ -- 39
+duplicate$ -- 2752
+empty$ -- 2247
+format.name$ -- 1293
+if$ -- 7833
 int.to.chr$ -- 0
 int.to.str$ -- 0
-missing$ -- 660
-newline$ -- 180
-num.names$ -- 180
-pop$ -- 859
+missing$ -- 702
+newline$ -- 189
+num.names$ -- 190
+pop$ -- 915
 preamble$ -- 1
-purify$ -- 127
+purify$ -- 135
 quote$ -- 0
-skip$ -- 2761
+skip$ -- 2838
 stack$ -- 1
-substring$ -- 1245
-swap$ -- 1001
+substring$ -- 1280
+swap$ -- 1040
 text.length$ -- 21
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 8
 warning$ -- 1
-while$ -- 236
+while$ -- 248
 width$ -- 0
-write$ -- 544
+write$ -- 575
 (There was 1 error message)

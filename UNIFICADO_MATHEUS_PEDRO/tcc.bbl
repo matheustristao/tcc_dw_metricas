@@ -13,6 +13,13 @@
 Dispon{\'\i}vel em:
   \url{http://ccsl.ime.usp.br/pt-br/system/files/relatorio-codigo-limpo.pdf}.}
 
+\bibitem[Ballard 2006]{ballard_dimensional_2006}
+\abntrefinfo{Ballard}{BALLARD}{2006}
+{BALLARD, C. (Ed.). \emph{Dimensional modeling: in a business intelligence
+  environment}. 1st ed. ed. San Jose, Calif.?: {IBM} International Technical
+  Support Organization, 2006.  ({IBM} redbooks).
+ISBN 0738496448.}
+
 \bibitem[Basili, Caldiera e Rombach 1996]{Basili96b}
 \abntrefinfo{Basili, Caldiera e Rombach}{BASILI; CALDIERA; ROMBACH}{1996}
 {BASILI, V.~R.; CALDIERA, G.; ROMBACH, H.~D. \emph{{The Goal Question Metric
@@ -54,6 +61,12 @@ Dispon{\'\i}vel em:
   p. 476--493, jun. 1994.
 ISSN 0098-5589.
 Dispon{\'\i}vel em: \url{http://dx.doi.org/10.1109/32.295895}.}
+
+\bibitem[Codd, Codd e Salley 1993]{codd1993providing}
+\abntrefinfo{Codd, Codd e Salley}{CODD; CODD; SALLEY}{1993}
+{CODD, E.; CODD, S.; SALLEY, C. \emph{Providing OLAP (On-line Analytical
+  Processing) to User-analysts: An IT Mandate}. [S.l.]: Codd \& Associates,
+  1993.}
 
 \bibitem[Elmasri e Navathe 2011]{elmasri_sistemas_2011}
 \abntrefinfo{Elmasri e Navathe}{ELMASRI; NAVATHE}{2011}

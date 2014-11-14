@@ -19,6 +19,61 @@ são sistemas que ajudam os principais tomadores de decisões de uma organizaç�
 \textbf{OLTP (online transaction processing) — processamento on-line de transações}:
 bancos de dados tradicionais têm suporte para o OLTP, com suas operações de inserção, atualização e exclusão e também à consulta de dados. \citeonline{neeraj_sharma_2011} explica que sistemas OLTP usam tabelas simples para armazenar dados, estes que são normalizados, para se reduzir a redundância ou até mesmo eliminá-los, buscando sempre a garantia de sua consistência.
 
+\section{Características dos \textit{Data Warehouses}}\label{sec:caract-dw}
+
+
+\citeonline{elmasri_sistemas_2011} diferencia um Data warehouse de uma estratégia de multibancos de dados afirmando que o primeiro possui um armazenanento em um modelo multidimensional, assim dados de múltiplas fontes são integrados e processados para tal e sendo assim contrário ao segundo, que oferece acesso a bancos de dados disjuntos e normalmente heterogêneos. A vantagem se nota pela adoção de um padrão de design mais conciso, que pode levar a uma menor complexidade de implantação.
+
+Diferentemente da maioria dos banco de dados transacionais, data warehouses costumam apoiar a análise de série temporal e tendência, ambas exigindo mais dados históricos do que geralmente é mantido nos bancos de dados transacionais. É importante notar também que os data warehouses são não-voláteis. Sendo assim, suas informações possuem a característica de mudarem de uma forma muito menos frequente, portanto dificilmente seria enquadrada como uma informação em tempo real, e sim como uma de atualização periódica \cite{elmasri_sistemas_2011}.
+
+\citeonline{elmasri_sistemas_2011} ordena as seguintes características diferenciadoras de data warehouses, proveniente da lista original de \citeonline{codd1993providing} sobre OLAP:
+
+\begin{easylist}[itemize]
+
+& Visão conceitual multidimensional.
+
+& Dimensionalidade genérica.
+
+& Dimensões e níveis de agregação ilimitados.
+
+& Operações irrestritas entre dimensões.
+
+& Tratamento dinâmico de matriz esparsa.
+
+& Arquitetura de cliente-servidor.
+
+& Suporte para múltiplos usuários.
+
+& Acessibilidade.
+
+& Transparência.
+
+& Manipulação de dados intuitiva.
+
+& Desempenho de relatório consistente.
+
+& Recurso de relatório flexível.
+
+\end{easylist}
+
+A consulta OLAP difere da consulta do tipo \textit{On-Line Transaction Processing} (OLTP) pelo fato dos seus dados terem passado por um processo de ETL, de modo que sua performance foi melhorada para uma análise mais fácil e rápida, enquanto na consulta do tipo OLTP o sistema foi modelo de modo a capacitar inserções, atualizações e remoções de dados obedecendo regras de normalização. 
+
+A tabela \ref{tab:hilmer} evidencia as principais diferenças entre aplicações OLTP e OLAP extraídas do trabalho de \citeonline{hilmer2002}: 
+
+\begin{table}[!ht]
+	\begin{center}
+	
+	\input{tabelas/tabelasMatheus/hilmer_olap_oltp.ltx} 
+	\caption{Diferenças entre OLTP e OLAP extraídas de \citeonline{hilmer2002}}
+	\label{tab:hilmer}
+	\end{center}
+	\end{table}	
+	\FloatBarrier	
+
+
+
+
+
 
 \subsection{Componentes Básicos de um Data Warehouse}
 
@@ -85,19 +140,6 @@ Um modelo dimensional é composto por tabelas fatos e tabelas dimensões, que qu
 \end{figure}
 \FloatBarrier
  
-\subsection{OLAP \textit{(On-Line Analytic Processing)}}
-
-A atividade que consiste em buscar e apresentar os dados de um \textit{Data Warehouse}, sendo essa busca quase sempre baseada em um cubo multidimensional de dados, é chamada de \textit{On-Line Analytic Processing} (OLAP) \cite{Kimball2002}. A consulta OLAP difere da consulta do tipo \textit{On-Line Transaction Processing} (OLTP) pelo fato dos seus dados terem passado por um processo de ETL, de modo que sua performance foi melhorada para uma análise mais fácil e rápida, enquanto na consulta do tipo OLTP o sistema foi modelo de modo a capacitar inserções, atualizações e remoções de dados obedecendo regras de normalização. A tabela \ref{tab:hilmer} evidencia as diferenças entre aplicações OLTP e OLAP extraídas do trabalho de \citeonline{hilmer2002}: 
-
-\begin{table}[!ht]
-	\begin{center}
-	
-	\input{tabelas/tabelasMatheus/hilmer_olap_oltp.ltx} 
-	\caption{Diferenças entre OLTP e OLAP extraídas de \citeonline{hilmer2002}}
-	\label{tab:hilmer}
-	\end{center}
-	\end{table}	
-	\FloatBarrier	
 
 A modelagem multidimensional adotada pelo OLAP é associada de maneira metafórica na literatura a um cubo de dados, cujas arestas definem as dimensões dos dados e as células do cubo contém valores de medida \cite{Kimball2002}. Os cubos de dados têm um foco nas necessidades de negócio e podem ser exemplificados como na Figura \ref{fig:cubo}:
 
@@ -113,7 +155,7 @@ A Figura \ref{fig:cubo} reflete uma análise em um cubo de dados para o esquema 
 
 \begin{easylist}[itemize]
 
-	& \textbf{\textit{Drill Down:}} Busca aumentar o nível de detalhamento, partindo de um certo nível de dados para um nível mais detalhado \cite{neeraj_sharma_2011}.  
+	& \textbf{\textit{Drill Down:}} \textit{Drilling} em modelagem multidimensional significa ir de um nível hierárquico a outro \cite{ballard_dimensional_2006}. Portanto,  \textit{Drill Down} busca aumentar o nível de detalhamento, partindo de um certo nível de dados para um nível mais detalhado \cite{neeraj_sharma_2011}.  
 	& \textbf{\textit{Drill Up:}} Ao contrário da operação \textit{Drill Down}, a \textit{Roll Up} parte de um nível mais detalhado para um nível menos detalhado  \cite{neeraj_sharma_2011}.
 	& \textbf{\textit{Slice and Dice:}} Técnica com filosofia parecida à cláusula \textit{where} usada em \textit{SQL}. Permite que sejam criadas restrições na análise dos dados. \cite{valeria2012} 
 	& \textbf{\textit{Drill Across:}} Permite que diferentes cubos sejam concatenados \cite{hilmer2002}. Uma operação do tipo \textit{Drill Across} irá simplesmente unir diferentes tabelas fato através de dimensões correspondentes \cite{kimball1998data}. 
