@@ -27,7 +27,7 @@ A Figura \ref{fig:elem-bas-dw} representa a estrutura básica de um DW segundo \
 % @Figure elem-bas-dw
 \begin{figure}[h!]
 \centering
-\includegraphics[keepaspectratio=false,scale=0.53]{figuras/figuras_pedro/elem-bas-dw.eps}
+\includegraphics[keepaspectratio=false,scale=0.67]{figuras/figuras_pedro/elem-bas-dw.eps}
 \caption{Elementos básicos de um data warehouse}
 \label{fig:elem-bas-dw}
 \end{figure}
@@ -37,20 +37,16 @@ A Figura \ref{fig:elem-bas-dw} representa a estrutura básica de um DW segundo \
 Representa os sistemas que irão prover informações para o DW. Seus dados podem ser provenientes de outros sistemas OLTPs, planilhas e etc, que compoêm o negócio a ser tratado. Devem ser pensados como fora do data warehouse porque, temos pouco ou nenhum controle sobre o conteúdo e formato dos dados presentes nestes tipos de sistemas legados \cite{Kimball2002}.
 
 \textbf{Área de Preparação dos Dados (DSA - \textit{Data Staging Area})}:
-É onde irá ocorrer a possível limpeza e reformatação dos dados antes que sejam carregados no \textit{data warehouse} \cite{elmasri_sistemas_2011}, processo esse conhecido como extração transformação e carga (ETL).
+É onde irá ocorrer a possível limpeza e reformatação dos dados antes que sejam carregados no \textit{data warehouse} \cite{elmasri_sistemas_2011}, essas tarefas caracterizam os passos do processo que consiste na extração, transformação e carga dos dados, conhecido como \textit{Extraction-Transformation-Load} (ETL). Cada um dos passos recebe a seguinte descrição:
 
-O passo de extração consiste em ler os dados das 
-% @termo
-fontes operacionais
-e copiar o que for necessário para o DW na área de preparação dos dados.
+\begin{easylist}[itemize]
 
-Transformação é o passo que irá tratar os dados agora presente na área de preparação dos dados. Segundo \citeonline{Kimball2002} 
-existem diversos tipos de transformações que podem ocorrer, como a limpeza dos dados (correção de erros ortográficos, resolução de dados conflitantes com o domínio, tratamento de dados que estão em falto, ou o 
-% @termo
-\textit{parse}
-de dados para um certo padrão), e também ações como combinar dados de várias fontes, e por fim pode-se atribuir chaves para os dados que irão para o DW.
+	& \textbf{Extração: } Primeira etapa do processo de ETL, consiste na leitura e entendimento da fonte 		dos dados, copiando os que são necessário para futuros trabalhos \cite{Kimball2002}.  
+	& \textbf{Transformação: } Após a etapa de extração ter sido feita, os dados podem receber diversos tipos de transformações, que incluem correções de conflitos, conversão de formatos, remoção de campos que não são úteis, combinação entre dados de diversas fontes, entre outros \cite{Kimball2002}.
+	& \textbf{Carga: } Após ter sido realizado o processo de transformação, os dados já estão prontos para serem carregados no \textit{Data Warehouse}, tornando possível que todos os dados visualizados após esse processo reflitam a informação que passou pelos processos de extração e transformação \cite{neeraj_sharma_2011}.  
 
-O terceiro passo do processo de ETL, a carga, é onde os dados que foram tratados, limpo, transformados e padronizados dentro da área de preparação dos dados serão carregados nas tabelas do data warehouse.
+	\end{easylist}
+
 
 \textbf{Área de Apresentação dos dados (DPA - \textit{Data Presentation Area})}:
 Representa a área onde os dados são organizados, armazenados e disponibilizados para consulta direta pelos usuários, autores de relatórios, e outras aplicações. Os dados da área de apresentação devem ser dimensionais e atômicos e devem estar de acordo com a arquitetura do DW \cite{Kimball2002}.
@@ -63,17 +59,6 @@ Representa a área onde os dados são organizados, armazenados e disponibilizado
 
 
 
-\section{\textit{Extraction-Transformation-Load}}
-
- Para alcançar as características descritas na definição, o ambiente de Data Warehousing segue o processo que consiste na extração, transformação e carga dos dados, conhecido como \textit{Extraction-Transformation-Load} (ETL). Cada um dos passos recebe a seguinte descrição:
-
-\begin{easylist}[itemize]
-
-	& \textbf{Extração: } Primeira etapa do processo de ETL, consiste na leitura e entendimento da fonte 		dos dados, copiando os que são necessário para futuros trabalhos \cite{Kimball2002}.  
-	& \textbf{Transformação: } Após a etapa de extração ter sido feita, os dados podem receber diversos tipos de transformações, que incluem correções de conflitos, conversão de formatos, remoção de campos que não são úteis, combinação entre dados de diversas fontes, entre outros \cite{Kimball2002}.
-	& \textbf{Carga: } Após ter sido realizado o processo de transformação, os dados já estão prontos para serem carregados no \textit{Data Warehouse}, tornando possível que todos os dados visualizados após esse processo reflitam a informação que passou pelos processos de extração e transformação \cite{neeraj_sharma_2011}.  
-
-	\end{easylist}
 
 A Figura \ref{fig:etl} descreve a arquitetura de um ambiente de \textit{Data Warehousing}, envolvendo os três processos citados anteriormente:
 
