@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.9.14)  13 NOV 2014 22:52
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.9.14)  14 NOV 2014 02:29
 entering extended mode
 **tcc.tex
 
@@ -2416,25 +2416,25 @@ Underfull \hbox (badness 10000) in paragraph at lines 130--131
 
  []
 
-[49] [50])
+[49] [50] [51])
 (C:\Users\Matheus\Documents\GitHub\tcc_dw_metricas\UNIFICADO_MATHEUS_PEDRO\capi
-tulos/5-conclusao.tex [51])
+tulos/5-conclusao.tex [52])
 (C:\Users\Matheus\Documents\GitHub\tcc_dw_metricas\UNIFICADO_MATHEUS_PEDRO\tcc.
 bbl
 (C:\Users\Matheus\Documents\GitHub\tcc_dw_metricas\UNIFICADO_MATHEUS_PEDRO\tcc.
 brf)
 \tf@brf=\write7
- [52
+ [53
 
 ]
 bibitemlist
-[53
+[54
 
-] [54])
+] [55])
 No file tcc.ind.
 
 AED: lastpage setting LastPage
-[55]
+[56]
 \tf@lof=\write8
 \tf@lot=\write9
 \tf@toc=\write10
@@ -2446,7 +2446,7 @@ aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 46.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 46.
 Package rerunfilecheck Info: File `tcc.brf' has not changed.
-(rerunfilecheck)             Checksum: 81C87124530D2B129BCA2F77AB7C9204;8827.
+(rerunfilecheck)             Checksum: 10F2F79C1DEF06C6DFA0CD2831DBB383;8827.
 
 
 LaTeX Warning: There were multiply-defined labels.
@@ -2454,13 +2454,13 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 46.
  ) 
 Here is how much of TeX's memory you used:
- 27489 strings out of 493921
- 488558 string characters out of 3144870
- 596398 words of memory out of 3000000
+ 27490 strings out of 493921
+ 488565 string characters out of 3144870
+ 596458 words of memory out of 3000000
  29902 multiletter control sequences out of 15000+200000
  107557 words of font info for 81 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 68i,14n,75p,1284b,631s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 68i,14n,75p,1317b,631s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/lm/lm-rm.enc}{C:/Program F
 iles (x86)/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathex.enc}{C:/Program Files (x86)/
 MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathit.enc}{C:/Program Files (x86)/MiKTeX 2.9/
@@ -2481,9 +2481,9 @@ ic/lm/lmssbo10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lms
 sbx10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmsso12.pfb>
 <C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmsso17.pfb><C:/Progra
 m Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmsy10.pfb>
-Output written on tcc.pdf (56 pages, 1267337 bytes).
+Output written on tcc.pdf (57 pages, 1269812 bytes).
 PDF statistics:
- 1232 PDF objects out of 1440 (max. 8388607)
- 176 named destinations out of 1000 (max. 500000)
+ 1237 PDF objects out of 1440 (max. 8388607)
+ 177 named destinations out of 1000 (max. 500000)
  501 words of extra memory for PDF output out of 10000 (max. 10000000)
 

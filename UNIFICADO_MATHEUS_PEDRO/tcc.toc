@@ -43,11 +43,11 @@
 \contentsline {section}{\numberline {4.3}Design}{49}{section.4.3}
 \contentsline {section}{\numberline {4.4}Sele\IeC {\c c}\IeC {\~a}o}{50}{section.4.4}
 \contentsline {section}{\numberline {4.5}Fonte dos Dados Coletados e M\IeC {\'e}todo de Coleta}{50}{section.4.5}
-\contentsline {section}{\numberline {4.6}Processo de An\IeC {\'a}lise dos Dados}{50}{section.4.6}
+\contentsline {section}{\numberline {4.6}Processo de An\IeC {\'a}lise dos Dados}{51}{section.4.6}
 \contentsline {section}{\numberline {4.7}Amea\IeC {\c c}as a Validade do Estudo de Caso}{51}{section.4.7}
-\contentsline {section}{\numberline {4.8}Considera\IeC {\c c}\IeC {\~o}es Finais do Cap\IeC {\'\i }tulo}{51}{section.4.8}
+\contentsline {section}{\numberline {4.8}Considera\IeC {\c c}\IeC {\~o}es Finais do Cap\IeC {\'\i }tulo}{52}{section.4.8}
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {5}\MakeTextUppercase {Conclus\IeC {\~a}o}}{52}{chapter.5}
+\contentsline {chapter}{\chapternumberline {5}\MakeTextUppercase {Conclus\IeC {\~a}o}}{53}{chapter.5}
 \vspace {\cftbeforechapterskip }
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
-\contentsline {chapter}{Refer\^encias}{53}{section*.36}
+\contentsline {chapter}{Refer\^encias}{54}{section*.36}
