@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.9.14)  14 NOV 2014 12:11
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.9.14)  14 NOV 2014 12:17
 entering extended mode
 **tcc.tex
 
@@ -1657,14 +1657,6 @@ s/folhaDeAprovacao.tex [2] [3
 
 ])
 (C:\Users\Matheus\Documents\GitHub\tcc_dw_metricas\UNIFICADO_MATHEUS_PEDRO\edit
-aveis/dedicatoria_matheus.tex [4
-
-])
-(C:\Users\Matheus\Documents\GitHub\tcc_dw_metricas\UNIFICADO_MATHEUS_PEDRO\edit
-aveis/dedicatoria_pedro.tex [5
-
-])
-(C:\Users\Matheus\Documents\GitHub\tcc_dw_metricas\UNIFICADO_MATHEUS_PEDRO\edit
 aveis/agradecimentos_matheus.tex
 Underfull \hbox (badness 10000) in paragraph at lines 3--4
 
@@ -1675,7 +1667,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 3--4
 
  []
 
-[6
+[4
 
 
 ])
@@ -1690,34 +1682,34 @@ Underfull \hbox (badness 10000) in paragraph at lines 3--4
 
  []
 
-[7
+[5
 
 
 ])
 (C:\Users\Matheus\Documents\GitHub\tcc_dw_metricas\UNIFICADO_MATHEUS_PEDRO\edit
-aveis/epigrafe.tex [8
+aveis/epigrafe.tex [6
 
 ])
 (C:\Users\Matheus\Documents\GitHub\tcc_dw_metricas\UNIFICADO_MATHEUS_PEDRO\edit
-aveis/resumo.tex [9
+aveis/resumo.tex [7
 
 ])
 (C:\Users\Matheus\Documents\GitHub\tcc_dw_metricas\UNIFICADO_MATHEUS_PEDRO\edit
-aveis/abstract.tex [10
+aveis/abstract.tex [8
 
 ])
 (C:\Users\Matheus\Documents\GitHub\tcc_dw_metricas\UNIFICADO_MATHEUS_PEDRO\fixo
 s/listasAutomaticas.tex
 (C:\Users\Matheus\Documents\GitHub\tcc_dw_metricas\UNIFICADO_MATHEUS_PEDRO\tcc.
-lof) [11
+lof) [9
 
 ]
 (C:\Users\Matheus\Documents\GitHub\tcc_dw_metricas\UNIFICADO_MATHEUS_PEDRO\tcc.
-lot) [12
+lot) [10
 
 ])
 (C:\Users\Matheus\Documents\GitHub\tcc_dw_metricas\UNIFICADO_MATHEUS_PEDRO\edit
-aveis/abreviaturas.tex [13
+aveis/abreviaturas.tex [11
 
 
 ])
@@ -1727,11 +1719,11 @@ s/indiceAutomatico.tex
 toc
 LaTeX Font Info:    Font shape `T1/lmss/bx/it' in size <12> not available
 (Font)              Font shape `T1/lmss/bx/sl' tried instead on input line 27.
- [14
+ [12
 
-]) [15])
+]) [13])
 (C:\Users\Matheus\Documents\GitHub\tcc_dw_metricas\UNIFICADO_MATHEUS_PEDRO\capi
-tulos/1-introducao.tex [16
+tulos/1-introducao.tex [14
 
 
 ]
@@ -1756,7 +1748,7 @@ _pequisa.eps>
 (epstopdf)             \includegraphics on input line 51.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/figuras_matheus/metodologia_da_pequisa-eps-converted-to.pdf, id=307, 6
+<figuras/figuras_matheus/metodologia_da_pequisa-eps-converted-to.pdf, id=295, 6
 85.56125pt x 1103.12125pt>
 File: figuras/figuras_matheus/metodologia_da_pequisa-eps-converted-to.pdf Graph
 ic file (type pdf)
@@ -1769,7 +1761,7 @@ verted-to.pdf used on input line 51.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[17] [18 <C:/Users/Matheus/Documents/GitHub/tcc_dw_metricas/UNIFICADO_MATHEUS_P
+[15] [16 <C:/Users/Matheus/Documents/GitHub/tcc_dw_metricas/UNIFICADO_MATHEUS_P
 EDRO/figuras/figuras_matheus/metodologia_da_pequisa-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <figuras/figuras_pedro/projeto-pesq.eps>
 (epstopdf)                    date: 2014-11-11 20:33:50
@@ -1783,7 +1775,7 @@ to-pesq-eps-converted-to.pdf figuras/figuras_pedro/projeto-pesq.eps>
 (epstopdf)             \includegraphics on input line 71.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/figuras_pedro/projeto-pesq-eps-converted-to.pdf, id=334, 600.2425pt x 
+<figuras/figuras_pedro/projeto-pesq-eps-converted-to.pdf, id=322, 600.2425pt x 
 450.68375pt>
 File: figuras/figuras_pedro/projeto-pesq-eps-converted-to.pdf Graphic file (typ
 e pdf)
@@ -1792,10 +1784,10 @@ Package pdftex.def Info: figuras/figuras_pedro/projeto-pesq-eps-converted-to.pd
 f used on input line 71.
 (pdftex.def)             Requested size: 390.153pt x 292.94095pt.
 
-[19 <C:/Users/Matheus/Documents/GitHub/tcc_dw_metricas/UNIFICADO_MATHEUS_PEDRO/
+[17 <C:/Users/Matheus/Documents/GitHub/tcc_dw_metricas/UNIFICADO_MATHEUS_PEDRO/
 figuras/figuras_pedro/projeto-pesq-eps-converted-to.pdf>])
 (C:\Users\Matheus\Documents\GitHub\tcc_dw_metricas\UNIFICADO_MATHEUS_PEDRO\capi
-tulos/2-metricas.tex [20] [21
+tulos/2-metricas.tex [18] [19
 
 ]
 Package epstopdf Info: Source file: <figuras/figuras_matheus/tipos_medidas_INGL
@@ -1812,7 +1804,7 @@ GLES.eps>
 (epstopdf)             \includegraphics on input line 55.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/figuras_matheus/tipos_medidas_INGLES-eps-converted-to.pdf, id=392, 499
+<figuras/figuras_matheus/tipos_medidas_INGLES-eps-converted-to.pdf, id=382, 499
 .8675pt x 174.6525pt>
 File: figuras/figuras_matheus/tipos_medidas_INGLES-eps-converted-to.pdf Graphic
  file (type pdf)
@@ -1825,9 +1817,9 @@ rted-to.pdf used on input line 55.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[22] [23 <C:/Users/Matheus/Documents/GitHub/tcc_dw_metricas/UNIFICADO_MATHEUS_P
+[20] [21 <C:/Users/Matheus/Documents/GitHub/tcc_dw_metricas/UNIFICADO_MATHEUS_P
 EDRO/figuras/figuras_matheus/tipos_medidas_INGLES-eps-converted-to.pdf>]
-[24]
+[22]
 (C:\Users\Matheus\Documents\GitHub\tcc_dw_metricas\UNIFICADO_MATHEUS_PEDRO\tabe
 las/tabelasMatheus/percentis.ltx
 LaTeX Font Info:    External font `lmex10' loaded for size
@@ -1837,7 +1829,7 @@ Overfull \hbox (9.37761pt too wide) in paragraph at lines 3--146
  [] 
  []
 
-[25]
+[23]
 (C:\Users\Matheus\Documents\GitHub\tcc_dw_metricas\UNIFICADO_MATHEUS_PEDRO\tabe
 las/tabelasMatheus/intervalos.ltx)
 (C:\Users\Matheus\Documents\GitHub\tcc_dw_metricas\UNIFICADO_MATHEUS_PEDRO\tabe
@@ -1845,7 +1837,7 @@ las/tabelasMatheus/metricas.ltx)
 
 LaTeX Warning: Float too large for page by 59.66628pt on input line 172.
 
-[26] [27]
+[24] [25]
 (C:\Users\Matheus\Documents\GitHub\tcc_dw_metricas\UNIFICADO_MATHEUS_PEDRO\tabe
 las/tabelasMatheus/conceitos-limpeza.ltx
 Underfull \hbox (badness 1762) in paragraph at lines 9--10
@@ -1945,9 +1937,9 @@ Overfull \hbox (3.70084pt too wide) in paragraph at lines 1--197
 
 LaTeX Warning: Float too large for page by 32.4995pt on input line 199.
 
-[28
+[26
 
-] [29]
+] [27]
 (C:\Users\Matheus\Documents\GitHub\tcc_dw_metricas\UNIFICADO_MATHEUS_PEDRO\tabe
 las/tabelasMatheus/cenarios.ltx
 Underfull \hbox (badness 5893) in paragraph at lines 3--3
@@ -2134,19 +2126,19 @@ Overfull \hbox (6.98694pt too wide) in paragraph at lines 1--210
  [][] 
  []
 
-[30
+[28
 
-] [31])
+] [29])
 (C:\Users\Matheus\Documents\GitHub\tcc_dw_metricas\UNIFICADO_MATHEUS_PEDRO\capi
-tulos/3-dwing.tex [32]
+tulos/3-dwing.tex [30]
 LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <24.88> not available
 (Font)              Font shape `T1/lmss/m/sl' tried instead on input line 1.
- [33
+ [31
 
 ]
 LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <17.28> not available
 (Font)              Font shape `T1/lmss/m/sl' tried instead on input line 24.
- [34]
+ [32]
 (C:\Users\Matheus\Documents\GitHub\tcc_dw_metricas\UNIFICADO_MATHEUS_PEDRO\tabe
 las/tabelasMatheus/hilmer_olap_oltp.ltx)
 Package epstopdf Info: Source file: <figuras/figuras_pedro/elem-bas-dw.eps>
@@ -2161,7 +2153,7 @@ bas-dw-eps-converted-to.pdf figuras/figuras_pedro/elem-bas-dw.eps>
 (epstopdf)             \includegraphics on input line 83.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/figuras_pedro/elem-bas-dw-eps-converted-to.pdf, id=620, 638.385pt x 28
+<figuras/figuras_pedro/elem-bas-dw-eps-converted-to.pdf, id=611, 638.385pt x 28
 7.0725pt>
 File: figuras/figuras_pedro/elem-bas-dw-eps-converted-to.pdf Graphic file (type
  pdf)
@@ -2173,7 +2165,7 @@ Package pdftex.def Info: figuras/figuras_pedro/elem-bas-dw-eps-converted-to.pdf
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[35] [36 <C:/Users/Matheus/Documents/GitHub/tcc_dw_metricas/UNIFICADO_MATHEUS_P
+[33] [34 <C:/Users/Matheus/Documents/GitHub/tcc_dw_metricas/UNIFICADO_MATHEUS_P
 EDRO/figuras/figuras_pedro/elem-bas-dw-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <figuras/figuras_matheus/cubo.eps>
 (epstopdf)                    date: 2014-10-17 01:16:39
@@ -2187,7 +2179,7 @@ o-eps-converted-to.pdf figuras/figuras_matheus/cubo.eps>
 (epstopdf)             \includegraphics on input line 123.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/figuras_matheus/cubo-eps-converted-to.pdf, id=661, 748.7975pt x 378.41
+<figuras/figuras_matheus/cubo-eps-converted-to.pdf, id=653, 748.7975pt x 378.41
 376pt>
 File: figuras/figuras_matheus/cubo-eps-converted-to.pdf Graphic file (type pdf)
 
@@ -2199,7 +2191,7 @@ Package pdftex.def Info: figuras/figuras_matheus/cubo-eps-converted-to.pdf used
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[37]
+[35]
 Package epstopdf Info: Source file: <figuras/figuras_matheus/drill.eps>
 (epstopdf)                    date: 2014-10-17 02:53:10
 (epstopdf)                    size: 1095921 bytes
@@ -2212,7 +2204,7 @@ ll-eps-converted-to.pdf figuras/figuras_matheus/drill.eps>
 (epstopdf)             \includegraphics on input line 147.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/figuras_matheus/drill-eps-converted-to.pdf, id=685, 608.2725pt x 166.6
+<figuras/figuras_matheus/drill-eps-converted-to.pdf, id=677, 608.2725pt x 166.6
 225pt>
 File: figuras/figuras_matheus/drill-eps-converted-to.pdf Graphic file (type pdf
 )
@@ -2224,7 +2216,7 @@ d on input line 147.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[38 <C:/Users/Matheus/Documents/GitHub/tcc_dw_metricas/UNIFICADO_MATHEUS_PEDRO/
+[36 <C:/Users/Matheus/Documents/GitHub/tcc_dw_metricas/UNIFICADO_MATHEUS_PEDRO/
 figuras/figuras_matheus/cubo-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <figuras/figuras_matheus/star.eps>
 (epstopdf)                    date: 2014-10-15 04:33:14
@@ -2238,7 +2230,7 @@ r-eps-converted-to.pdf figuras/figuras_matheus/star.eps>
 (epstopdf)             \includegraphics on input line 165.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/figuras_matheus/star-eps-converted-to.pdf, id=709, 593.21625pt x 378.4
+<figuras/figuras_matheus/star-eps-converted-to.pdf, id=703, 593.21625pt x 378.4
 1376pt>
 File: figuras/figuras_matheus/star-eps-converted-to.pdf Graphic file (type pdf)
 
@@ -2250,10 +2242,10 @@ Package pdftex.def Info: figuras/figuras_matheus/star-eps-converted-to.pdf used
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[39 <C:/Users/Matheus/Documents/GitHub/tcc_dw_metricas/UNIFICADO_MATHEUS_PEDRO/
+[37 <C:/Users/Matheus/Documents/GitHub/tcc_dw_metricas/UNIFICADO_MATHEUS_PEDRO/
 figuras/figuras_matheus/drill-eps-converted-to.pdf>]
 
-LaTeX Warning: Reference `fig:etl' on page 40 undefined on input line 174.
+LaTeX Warning: Reference `fig:etl' on page 38 undefined on input line 174.
 
 Package epstopdf Info: Source file: <figuras/figuras_matheus/arquitetura_soluca
 o.eps>
@@ -2269,7 +2261,7 @@ ao.eps>
 (epstopdf)             \includegraphics on input line 178.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/figuras_matheus/arquitetura_solucao-eps-converted-to.pdf, id=724, 722.
+<figuras/figuras_matheus/arquitetura_solucao-eps-converted-to.pdf, id=718, 722.
 7pt x 842.14626pt>
 File: figuras/figuras_matheus/arquitetura_solucao-eps-converted-to.pdf Graphic 
 file (type pdf)
@@ -2282,14 +2274,14 @@ ted-to.pdf used on input line 178.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[40 <C:/Users/Matheus/Documents/GitHub/tcc_dw_metricas/UNIFICADO_MATHEUS_PEDRO/
-figuras/figuras_matheus/star-eps-converted-to.pdf>] [41 <C:/Users/Matheus/Docum
+[38 <C:/Users/Matheus/Documents/GitHub/tcc_dw_metricas/UNIFICADO_MATHEUS_PEDRO/
+figuras/figuras_matheus/star-eps-converted-to.pdf>] [39 <C:/Users/Matheus/Docum
 ents/GitHub/tcc_dw_metricas/UNIFICADO_MATHEUS_PEDRO/figuras/figuras_matheus/arq
-uitetura_solucao-eps-converted-to.pdf>] [42]
+uitetura_solucao-eps-converted-to.pdf>] [40]
 (C:\Users\Matheus\Documents\GitHub\tcc_dw_metricas\UNIFICADO_MATHEUS_PEDRO\tabe
 las/tabelasMatheus/fatos-dimensoes.ltx)
 (C:\Users\Matheus\Documents\GitHub\tcc_dw_metricas\UNIFICADO_MATHEUS_PEDRO\tabe
-las/tabelasMatheus/tabelas-fatos-tabelas-dimensoes.ltx) [43]
+las/tabelasMatheus/tabelas-fatos-tabelas-dimensoes.ltx) [41]
 Package epstopdf Info: Source file: <figuras/figuras_matheus/modelo-dw-baufaker
 .eps>
 (epstopdf)                    date: 2014-09-24 22:24:24
@@ -2304,7 +2296,7 @@ elo-dw-baufaker-eps-converted-to.pdf figuras/figuras_matheus/modelo-dw-baufaker
 (epstopdf)             \includegraphics on input line 263.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/figuras_matheus/modelo-dw-baufaker-eps-converted-to.pdf, id=774, 906.3
+<figuras/figuras_matheus/modelo-dw-baufaker-eps-converted-to.pdf, id=768, 906.3
 8625pt x 934.49126pt>
 File: figuras/figuras_matheus/modelo-dw-baufaker-eps-converted-to.pdf Graphic f
 ile (type pdf)
@@ -2317,7 +2309,7 @@ ed-to.pdf used on input line 263.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[44] [45 <C:/Users/Matheus/Documents/GitHub/tcc_dw_metricas/UNIFICADO_MATHEUS_P
+[42] [43 <C:/Users/Matheus/Documents/GitHub/tcc_dw_metricas/UNIFICADO_MATHEUS_P
 EDRO/figuras/figuras_matheus/modelo-dw-baufaker-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <figuras/figuras_matheus/metadados-baufaker
 .eps>
@@ -2333,7 +2325,7 @@ adados-baufaker-eps-converted-to.pdf figuras/figuras_matheus/metadados-baufaker
 (epstopdf)             \includegraphics on input line 283.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/figuras_matheus/metadados-baufaker-eps-converted-to.pdf, id=796, 677.5
+<figuras/figuras_matheus/metadados-baufaker-eps-converted-to.pdf, id=793, 677.5
 3125pt x 553.06625pt>
 File: figuras/figuras_matheus/metadados-baufaker-eps-converted-to.pdf Graphic f
 ile (type pdf)
@@ -2344,11 +2336,11 @@ ed-to.pdf used on input line 283.
 (pdftex.def)             Requested size: 406.52188pt x 331.8423pt.
 )
 (C:\Users\Matheus\Documents\GitHub\tcc_dw_metricas\UNIFICADO_MATHEUS_PEDRO\capi
-tulos/4-projeto-de-estudo-de-caso.tex [46 <C:/Users/Matheus/Documents/GitHub/tc
+tulos/4-projeto-de-estudo-de-caso.tex [44 <C:/Users/Matheus/Documents/GitHub/tc
 c_dw_metricas/UNIFICADO_MATHEUS_PEDRO/figuras/figuras_matheus/metadados-baufake
-r-eps-converted-to.pdf>] [47
+r-eps-converted-to.pdf>] [45
 
-] [48]
+] [46]
 Package epstopdf Info: Source file: <figuras/figuras_matheus/projeto_de_pesquis
 a.eps>
 (epstopdf)                    date: 2014-10-18 14:43:48
@@ -2363,7 +2355,7 @@ sa.eps>
 (epstopdf)             \includegraphics on input line 50.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/figuras_matheus/projeto_de_pesquisa-eps-converted-to.pdf, id=861, 1272
+<figuras/figuras_matheus/projeto_de_pesquisa-eps-converted-to.pdf, id=858, 1272
 .755pt x 948.54375pt>
 File: figuras/figuras_matheus/projeto_de_pesquisa-eps-converted-to.pdf Graphic 
 file (type pdf)
@@ -2382,7 +2374,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 62--63
 
  []
 
-[49 <C:/Users/Matheus/Documents/GitHub/tcc_dw_metricas/UNIFICADO_MATHEUS_PEDRO/
+[47 <C:/Users/Matheus/Documents/GitHub/tcc_dw_metricas/UNIFICADO_MATHEUS_PEDRO/
 figuras/figuras_matheus/projeto_de_pesquisa-eps-converted-to.pdf>]
 Underfull \hbox (badness 10000) in paragraph at lines 70--71
 
@@ -2419,7 +2411,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 113--114
 
  []
 
-[50]
+[48]
 Underfull \hbox (badness 10000) in paragraph at lines 122--123
 
  []
@@ -2429,25 +2421,25 @@ Underfull \hbox (badness 10000) in paragraph at lines 130--131
 
  []
 
-[51] [52] [53])
+[49] [50] [51])
 (C:\Users\Matheus\Documents\GitHub\tcc_dw_metricas\UNIFICADO_MATHEUS_PEDRO\capi
-tulos/5-conclusao.tex [54])
+tulos/5-conclusao.tex [52])
 (C:\Users\Matheus\Documents\GitHub\tcc_dw_metricas\UNIFICADO_MATHEUS_PEDRO\tcc.
 bbl
 (C:\Users\Matheus\Documents\GitHub\tcc_dw_metricas\UNIFICADO_MATHEUS_PEDRO\tcc.
 brf)
 \tf@brf=\write7
- [55
+ [53
 
 ]
 bibitemlist
-[56
+[54
 
-] [57])
+] [55])
 No file tcc.ind.
 
 AED: lastpage setting LastPage
-[58]
+[56]
 \tf@lof=\write8
 \tf@lot=\write9
 \tf@toc=\write10
@@ -2458,9 +2450,14 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 46.
 aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 46.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 46.
-Package rerunfilecheck Info: File `tcc.brf' has not changed.
-(rerunfilecheck)             Checksum: 5A5CB1E1E6860933C0B2E352D38B19B7;10047.
 
+
+Package rerunfilecheck Warning: File `tcc.brf' has changed.
+(rerunfilecheck)                Rerun to get bibliographical references right.
+
+Package rerunfilecheck Info: Checksums for `tcc.brf':
+(rerunfilecheck)             Before: 5A5CB1E1E6860933C0B2E352D38B19B7;10047
+(rerunfilecheck)             After:  FE6EB20B53802259B69FD96AFAB94B6D;10041.
 
 LaTeX Warning: There were undefined references.
 
@@ -2470,35 +2467,71 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 46.
  ) 
 Here is how much of TeX's memory you used:
- 27535 strings out of 493921
- 489702 string characters out of 3144870
- 600001 words of memory out of 3000000
- 29942 multiletter control sequences out of 15000+200000
+ 27529 strings out of 493921
+ 489218 string characters out of 3144870
+ 599987 words of memory out of 3000000
+ 29936 multiletter control sequences out of 15000+200000
  101929 words of font info for 79 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
  68i,14n,75p,1317b,629s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/lm/lm-rm.enc}{C:/Program F
-iles (x86)/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathex.enc}{C:/Program Files (x86)/
-MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathit.enc}{C:/Program Files (x86)/MiKTeX 2.9/
-fonts/enc/dvips/lm/lm-ec.enc}{C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips
-/lm/lm-mathsy.enc}<C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmbx
-12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmbx9.pfb><C:/P
-rogram Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmbxi10.pfb><C:/Program Fil
-es (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmex10.pfb><C:/Program Files (x86)/Mi
-KTeX 2.9/fonts/type1/public/lm/lmmi12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fo
-nts/type1/public/lm/lmmi8.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/pu
-blic/lm/lmr10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmr1
-2.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmr8.pfb><C:/Pro
-gram Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmri10.pfb><C:/Program Files 
-(x86)/MiKTeX 2.9/fonts/type1/public/lm/lmri12.pfb><C:/Program Files (x86)/MiKTe
-X 2.9/fonts/type1/public/lm/lmss12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts
-/type1/public/lm/lmss17.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/publ
-ic/lm/lmssbo10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lms
-sbx10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmsso17.pfb>
-<C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmsy10.pfb>
-Output written on tcc.pdf (59 pages, 1266066 bytes).
+pdfTeX warning (dest): name{section*.36} has been referenced but does not exi
+st, replaced by a fixed one
+
+pdfTeX warning (dest): name{table.caption.30} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{table.caption.29} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{table.caption.23} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{table.caption.22} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{figure.caption.33} has been referenced but does not
+ exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{figure.caption.32} has been referenced but does not
+ exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{figure.caption.28} has been referenced but does not
+ exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{figure.caption.27} has been referenced but does not
+ exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{figure.caption.16} has been referenced but does not
+ exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{figure.caption.15} has been referenced but does not
+ exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{page.58} has been referenced but does not exist, re
+placed by a fixed one
+
+{C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/lm/lm-rm.enc}{C:/Program Fil
+es (x86)/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathex.enc}{C:/Program Files (x86)/Mi
+KTeX 2.9/fonts/enc/dvips/lm/lm-mathit.enc}{C:/Program Files (x86)/MiKTeX 2.9/fo
+nts/enc/dvips/lm/lm-ec.enc}{C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/l
+m/lm-mathsy.enc}<C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmbx12
+.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmbx9.pfb><C:/Pro
+gram Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmbxi10.pfb><C:/Program Files
+ (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmex10.pfb><C:/Program Files (x86)/MiKT
+eX 2.9/fonts/type1/public/lm/lmmi12.pfb><C:/Program Files (x86)/MiKTeX 2.9/font
+s/type1/public/lm/lmmi8.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/publ
+ic/lm/lmr10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmr12.
+pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmr8.pfb><C:/Progr
+am Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmri10.pfb><C:/Program Files (x
+86)/MiKTeX 2.9/fonts/type1/public/lm/lmri12.pfb><C:/Program Files (x86)/MiKTeX 
+2.9/fonts/type1/public/lm/lmss12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/t
+ype1/public/lm/lmss17.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public
+/lm/lmssbo10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmssb
+x10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmsso17.pfb><C
+:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmsy10.pfb>
+Output written on tcc.pdf (57 pages, 1264806 bytes).
 PDF statistics:
- 1318 PDF objects out of 1440 (max. 8388607)
- 185 named destinations out of 1000 (max. 500000)
- 517 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1313 PDF objects out of 1440 (max. 8388607)
+ 191 named destinations out of 1000 (max. 500000)
+ 501 words of extra memory for PDF output out of 10000 (max. 10000000)
 
