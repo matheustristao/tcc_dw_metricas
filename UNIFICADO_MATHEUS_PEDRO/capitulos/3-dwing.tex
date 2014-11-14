@@ -21,7 +21,7 @@ Neste capítulo será apresentada a maneira como foi desenvolvido o ambiente de 
 
 	\end{easylist}
 
-A figura \ref{fig:etl} descreve a arquitetura de um ambiente de \textit{Data Warehousing}, envolvendo os três processos citados anteriormente:
+A Figura \ref{fig:etl} descreve a arquitetura de um ambiente de \textit{Data Warehousing}, envolvendo os três processos citados anteriormente:
 
 \begin{figure}[h!]
 \centering
@@ -36,7 +36,7 @@ A figura \ref{fig:etl} descreve a arquitetura de um ambiente de \textit{Data War
 
 \citeonline{Kimball2002} afirma que a habilidade de visualizar algo tão abstrato como um conjunto de dados  de maneira concreta e tangível é o segredo da compreensibilidade, de modo que um modelo de dados que se inicia de forma simples tende a ser simples até o final da modelagem, ao contrário de um modelo que já se inicia de forma complicada. Nesse contexto, o modelo dimensional difere em muitos aspectos do modelo normalizado em sua terceira forma normal, também conhecido como modelo entidade-relacionamento. O modelo normalizado contém seus dados divididos em muitas entidades, cada qual identificada como uma tabela, buscando assim evitar redundância entre os dados, sendo eles armazenados em tempo real na medida que forem atualizados. O problema associado a essa solução é a tamanha complexidade adquirida pelos modelos, uma vez que são criadas um número grande de tabelas dificultando assim sua navegação. Em um sentido oposto, a modelagem dimensional resolve esse problema associado à complexidade, uma vez que, mesmo possuindo as mesmas informações que um modelo normalizado, elas estão modeladas de forma que estejam em sintonia com o entendimento do usuário e ao alto desempenho de consultas. 
 
-Um modelo dimensional é composto por tabelas fatos e tabelas dimensões, que quando juntas formam o esquema estrela. A tabela fato é a tabela primária no modelo dimensional. O termo \textit{fato} está associado à maneira como ela representa uma medida de negócio \cite{Kimball2002}. Já a tabela dimensão contém descrições textuais dos negócios envolvidos, o que a torna a chave para que o modelo seja utilizável e de fácil entendimento. \citeonline{Kimball2002} faz uma relação direta entre a qualidade do Data Warehouse como um todo e a qualidade e profundidade dos atributos das tabelas dimensão. O esquema estrela, já definido como a união entre tabelas fato e dimensão, pode ser representado da forma como o exemplo da figura \ref{fig:estrela} descreve:
+Um modelo dimensional é composto por tabelas fatos e tabelas dimensões, que quando juntas formam o esquema estrela. A tabela fato é a tabela primária no modelo dimensional. O termo \textit{fato} está associado à maneira como ela representa uma medida de negócio \cite{Kimball2002}. Já a tabela dimensão contém descrições textuais dos negócios envolvidos, o que a torna a chave para que o modelo seja utilizável e de fácil entendimento. \citeonline{Kimball2002} faz uma relação direta entre a qualidade do Data Warehouse como um todo e a qualidade e profundidade dos atributos das tabelas dimensão. O esquema estrela, já definido como a união entre tabelas fato e dimensão, pode ser representado da forma como o exemplo da Figura \ref{fig:estrela} descreve:
  
 \begin{figure}[h!]
 \centering
@@ -60,7 +60,7 @@ A atividade que consiste em buscar e apresentar os dados de um \textit{Data Ware
 	\end{table}	
 	\FloatBarrier	
 
-A modelagem multidimensional adotada pelo OLAP é associada de maneira metafórica na literatura a um cubo de dados, cujas arestas definem as dimensões dos dados e as células do cubo contém valores de medida \cite{Kimball2002}. Os cubos de dados têm um foco nas necessidades de negócio e podem ser exemplificados como na figura \ref{fig:cubo}:
+A modelagem multidimensional adotada pelo OLAP é associada de maneira metafórica na literatura a um cubo de dados, cujas arestas definem as dimensões dos dados e as células do cubo contém valores de medida \cite{Kimball2002}. Os cubos de dados têm um foco nas necessidades de negócio e podem ser exemplificados como na Figura \ref{fig:cubo}:
 
 \begin{figure}[h!]
 \centering
@@ -70,7 +70,7 @@ A modelagem multidimensional adotada pelo OLAP é associada de maneira metafóri
 \end{figure}
 \FloatBarrier
 
-A figura \ref{fig:cubo} reflete uma análise em um cubo de dados para o esquema estrela da figura \ref{fig:estrela}. Essas análises podem ser divididas em alguns tipos diferentes, entre eles:
+A Figura \ref{fig:cubo} reflete uma análise em um cubo de dados para o esquema estrela da Figura \ref{fig:estrela}. Essas análises podem ser divididas em alguns tipos diferentes, entre eles:
 
 \begin{easylist}[itemize]
 
@@ -84,7 +84,7 @@ A figura \ref{fig:cubo} reflete uma análise em um cubo de dados para o esquema 
 	\end{easylist}
 	
 
-A figura \ref{fig:drill}, extraída de \citeonline{neeraj_sharma_2011}, mostra o fluxo percorrido pelo \textit{Drill Down} e pelo \textit{Drill Up} nas consultas OLAP:
+A Figura \ref{fig:drill}, extraída de \citeonline{neeraj_sharma_2011}, mostra o fluxo percorrido pelo \textit{Drill Down} e pelo \textit{Drill Up} nas consultas OLAP:
 
 \begin{figure}[h!]
 \centering
@@ -96,7 +96,7 @@ A figura \ref{fig:drill}, extraída de \citeonline{neeraj_sharma_2011}, mostra o
 
 \section{Ambiente de \textit{Data Warehousing} para Métricas de Código-Fonte}
 
-A figura \ref{fig:etl} descreve a arquitetura de um ambiente de \textit{Data Warehousing}. O nível mais baixo, de onde se faz a extração, foi chamado de fonte externa de dados. Para fazer uso de um ambiente de \textit{Data Warehousing} para armazenamento de métricas, \citeonline{rego_monitoramento_2014} modelou a arquitura da solução de modo que a fonte externa de dados seriam arquivos contendo métricas de software, como pode ser visto na figura \ref{fig:arquitetura_solucao}:
+A Figura \ref{fig:etl} descreve a arquitetura de um ambiente de \textit{Data Warehousing}. O nível mais baixo, de onde se faz a extração, foi chamado de fonte externa de dados. Para fazer uso de um ambiente de \textit{Data Warehousing} para armazenamento de métricas, \citeonline{rego_monitoramento_2014} modelou a arquitura da solução de modo que a fonte externa de dados seriam arquivos contendo métricas de software, como pode ser visto na Figura \ref{fig:arquitetura_solucao}:
 
 \begin{figure}[h!]
 \centering
@@ -106,7 +106,11 @@ A figura \ref{fig:etl} descreve a arquitetura de um ambiente de \textit{Data War
 \end{figure}
 \FloatBarrier
 
-Seguindo a metodologia apresentada por \citeonline{Kimball2002}, \citeonline{rego_monitoramento_2014} definiu os seguintes requisitos de negócios que a sua solução deveria suportar:
+Seguindo a metodologia de \citeonline{Kimball2002} para projetar um data warehouse,  o projeto de \citeonline{rego_monitoramento_2014} para a solução de \textit{data warehousing} para métricas de código-fonte seguiu os passos da metodologia, definidos em cada sub-seção a seguir.
+
+\subsection{Seleção do Processo de Negócio}
+
+\citeonline{rego_monitoramento_2014} buscou indentificar os processos de negócio e seus respectivos requisitos. Assim foram levantados 15 requisitos de negócio, sendo que os 8 primeiros se referem a avaliação dos valores percentis das métricas de código-fonte e o restante a avaliação de cenários de limpeza e taxa de aproveitamento de oportunidades de melhoria de código-fonte. Os requisitos levantados por \citeonline{rego_monitoramento_2014} foram os seguintes:
 
 \begin{easylist}[itemize]
 
@@ -141,6 +145,15 @@ Seguindo a metodologia apresentada por \citeonline{Kimball2002}, \citeonline{reg
 	& \textbf{Requisito 15:} Acompanhar a Taxa de Aproveitamento de Oportunidades de Melhoria de Código-Fonte que é a divisão do total de cenários de limpeza identificados em uma release e o o número total de classes da mesma release de um projeto
 
 	\end{easylist}
+
+
+\subsection{Verificação da Periodicidade de Coleta de Dados}
+
+A identificação da periodicidade de coleta dos dados é essencial para que esta seja
+realizada de maneira correta, além de viabilizar a agregação dos dados em níveis ou
+hierarquias \cite{rego_monitoramento_2014}. Assim a peridicidade foi identificada como as \textit{releases} do software.
+
+\subsection{Identificação dos Fatos e das Dimensões}
 	
 Para alcançar os requisitos definidos, \citeonline{rego_monitoramento_2014} identificou os seguintes fatos e dimensões no contexto de monitoramento de métricas:
 
@@ -155,7 +168,7 @@ Para alcançar os requisitos definidos, \citeonline{rego_monitoramento_2014} ide
 	\FloatBarrier
 
 
-A partir da identificação de fatos e dimensões expostos na tabela \ref{tab:fatos-dimensoes},  \citeonline{rego_monitoramento_2014} traduziu esses elementos em tabelas fato e tabelas dimensão. O resultado disso pode ser verificado na tabela \ref{tab:tabelas-fatos-dimensoes}:
+A partir da identificação de fatos e dimensões expostos na Tabela \ref{tab:fatos-dimensoes},  \citeonline{rego_monitoramento_2014} traduziu esses elementos em tabelas fato e tabelas dimensão. O resultado disso pode ser verificado na tabela \ref{tab:tabelas-fatos-dimensoes}:
 
 \begin{table}[!ht]
 	\begin{center}
@@ -188,7 +201,7 @@ Com o intuito de representar os dados que representam os próprios dados dos pro
 	
 	\end{easylist}
 
-A figura \ref{fig:metadados} retrata o ambiente de metadados criado:
+A Figura \ref{fig:metadados} retrata o ambiente de metadados criado:
 
 \begin{figure}[h!]
 \centering
