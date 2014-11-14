@@ -1,16 +1,5 @@
-This is BibTeX, Version 0.99d (TeX Live 2014)
-Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
-The top-level auxiliary file: tcc.aux
+This is BibTeX, Version 0.99dThe top-level auxiliary file: tcc.aux
 The style file: abntex2-alf.bst
-Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
-Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
 Database file #1: abntex2-options.bib
 Database file #2: bibliografia.bib
 Warning--entry type for "hilmer2002" isn't style-file defined
@@ -19,55 +8,10 @@ Repeated entry---line 670 of file bibliografia.bib
  : @inproceedings{LCOM4
  :                     ,
 I'm skipping whatever remains of this entry
-Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated glb_str_ptr (elt_size=4) to 20 items from 10.
-Reallocated global_strs (elt_size=20001) to 20 items from 10.
-Reallocated glb_str_end (elt_size=4) to 20 items from 10.
 Warning--faltando school em novello_uma_2006
 +---------------------------------------------------------+
 | Estilo bibliográfico abntex2-alf.bst versão v-1.9.2           |
 | Em caso de dúvidas ou problemas com este estilo procure |
 | http://abntex2.googlecode.com                           |
 +---------------------------------------------------------+
-You've used 39 entries,
-            6711 wiz_defined-function locations,
-            1420 strings with 15048 characters,
-and the built_in function-call counts, 35912 in all, are:
-= -- 3500
-> -- 884
-< -- 490
-+ -- 834
-- -- 277
-* -- 2285
-:= -- 4767
-add.period$ -- 140
-call.type$ -- 39
-change.case$ -- 319
-chr.to.int$ -- 69
-cite$ -- 39
-duplicate$ -- 2752
-empty$ -- 2247
-format.name$ -- 1293
-if$ -- 7833
-int.to.chr$ -- 0
-int.to.str$ -- 0
-missing$ -- 702
-newline$ -- 189
-num.names$ -- 190
-pop$ -- 915
-preamble$ -- 1
-purify$ -- 135
-quote$ -- 0
-skip$ -- 2838
-stack$ -- 1
-substring$ -- 1280
-swap$ -- 1040
-text.length$ -- 21
-text.prefix$ -- 0
-top$ -- 0
-type$ -- 8
-warning$ -- 1
-while$ -- 248
-width$ -- 0
-write$ -- 575
 (There was 1 error message)

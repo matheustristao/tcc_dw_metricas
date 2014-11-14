@@ -1,19 +1,19 @@
 \chapter{\textit{Data Warehouse}} 
 \label{chap:arquitetura}
 
-Neste capítulo será apresentada a maneira como foi desenvolvido o ambiente de \textit{Data Warehouse} para armazenamento de métricas de código fonte, sobre o qual esse trabalho busca analisar a eficácia e eficiência no monitoramento de métricas. Serão apresentados anteriormente conceitos teóricos sobre \textit{Data Warehouse}, para então relacionar seu uso dentro do contexto de métricas. 
+Neste capítulo será apresentada a maneira como foi desenvolvido o ambiente de \textit{data warehouse} para armazenamento de métricas de código fonte, sobre o qual esse trabalho busca analisar a eficácia e eficiência no monitoramento de métricas. Serão apresentados anteriormente conceitos teóricos sobre \textit{data warehouse}, para então relacionar seu uso dentro do contexto de métricas. 
 
 \section{Definições e terminologia}
 
-\textit{Data Warehouse} é uma base de dados que armazena suas informações de maneira orientada a satisfazer solicitações de tomadas de decisão \cite{chaudhuri1997}. A diferença entre um típico banco de dados transacional e um  \textit{Data Warehouse}, porém, consiste na maneira como esses dados são armazenados. Em vez de existirem múltiplos ambientes de decisão operando de forma independente, o que com frequência traz informações conflituosas, um \textit{Data Warehouse} unifica as fontes de informações relevantes, de maneira que a integridade  qualidade dos dados são garantidas. \cite{neeraj_sharma_2011}. Dessa forma,\citeonline{chaudhuri1997} afirma que o ambiente de \textit{Data Warehousing} possibilita que seu usuário realize buscas complexas de maneira mais amigável diretamente em um só ambiente, em vez de acessar informações através de relatórios gerados por especialistas. 
+\textit{Data warehouse} é uma base de dados que armazena suas informações de maneira orientada a satisfazer solicitações de tomadas de decisão \cite{chaudhuri1997}. A diferença entre um típico banco de dados transacional e um  \textit{data warehouse}, porém, consiste na maneira como esses dados são armazenados. Em vez de existirem múltiplos ambientes de decisão operando de forma independente, o que com frequência traz informações conflituosas, um \textit{data warehouse} unifica as fontes de informações relevantes, de maneira que a integridade  qualidade dos dados são garantidas. \cite{neeraj_sharma_2011}. Dessa forma, \citeonline{chaudhuri1997} afirma que o ambiente de \textit{Data Warehousing} possibilita que seu usuário realize buscas complexas de maneira mais amigável diretamente em um só ambiente, em vez de acessar informações através de relatórios gerados por especialistas. 
 
-\citeonline{Inmon2002} descreve que o \textit{Data Warehouse} é uma coleção de dados que tem como característica ser orientada a assunto, integrada, não volátil e temporal. Por orientação a assunto, podemos entender como um foco em algum aspecto específico da organização, como por exemplo as vendas de uma loja. O fato do ambiente ser integrado remete ao fato dele ser alimentado com dados que têm como origem de múltiplas fontes, integrando esses dados de maneira a construir uma única orientação. Como um conjunto não volátil e temporal de dados, é entendido que a informação carregada remete a um determinado momento da aplicação, possibilitando assim acesso a diferentes intervalos de tempo, não havendo como modificá-los atualizando em tempo real. 
+\citeonline{Inmon2002} descreve que o \textit{data warehouse} é uma coleção de dados que tem como característica ser orientada a assunto, integrada, não volátil e temporal. Por orientação a assunto, podemos entender como um foco em algum aspecto específico da organização, como por exemplo as vendas de uma loja. O fato do ambiente ser integrado remete ao fato dele ser alimentado com dados que têm como origem de múltiplas fontes, integrando esses dados de maneira a construir uma única orientação. Como um conjunto não volátil e temporal de dados, é entendido que a informação carregada remete a um determinado momento da aplicação, possibilitando assim acesso a diferentes intervalos de tempo, não havendo como modificá-los atualizando em tempo real. 
 
-São vários os tipos de aplicação aceitos para um data warehouse. Algumas delas serão definidas a seguir.
+São vários os tipos de aplicação aceitos para um \textit{data warehouse}. Algumas delas serão definidas a seguir.
 
 
 \textbf{OLAP (online analytical processing — processamento analítico on-line)}:
-é um conjunto de princípios que fornecem uma estrutura dimensional de apoio à decisão \cite{Kimball2002}. As ferramentas OLAP empregam as capacidades de computação distribuída para análises que requerem mais armazenamento e poder de processamento do que pode estar localizado econômica e eficientemente em um desktop individual \cite{elmasri_sistemas_2011}. Nestas aplicações dados sumariados e históricos são mais importantes que dados atômicos \cite{hilmer2002}.
+Conjunto de princípios que fornecem uma estrutura dimensional de apoio à decisão \cite{Kimball2002}. As ferramentas OLAP empregam as capacidades de computação distribuída para análises que requerem mais armazenamento e poder de processamento do que pode estar localizado econômica e eficientemente em um \textit{desktop} individual \cite{elmasri_sistemas_2011}. Nestas aplicações dados sumariados e históricos são mais importantes que dados atômicos \cite{hilmer2002}.
 
 \textbf{DSS (decision-support systems — sistemas de apoio à decisão)}:
 são sistemas que ajudam os principais tomadores de decisões de uma organização com dados de nível mais alto em decisões complexas e importantes \cite{elmasri_sistemas_2011}. Segundo \citeonline{kimball_data_2008}  os DSSs têm como objetivo tornar a informação de uma organização acessível e consistente, prover uma fonte adaptável e resiliente de informações, e garantir a segurança aos dados para assim ser um sistema base para a tomada de decisão.
@@ -24,9 +24,9 @@ bancos de dados tradicionais têm suporte para o OLTP, com suas operações de i
 \section{Características dos \textit{Data Warehouses}}\label{sec:caract-dw}
 
 
-\citeonline{elmasri_sistemas_2011} diferencia um Data warehouse de uma estratégia de multibancos de dados afirmando que o primeiro possui um armazenanento em um modelo multidimensional, assim dados de múltiplas fontes são integrados e processados para tal e sendo assim contrário ao segundo, que oferece acesso a bancos de dados disjuntos e normalmente heterogêneos. A vantagem se nota pela adoção de um padrão de design mais conciso, que pode levar a uma menor complexidade de implantação.
+\citeonline{elmasri_sistemas_2011} diferencia um \textit{data warehouse} de uma estratégia de multibancos de dados afirmando que o primeiro possui um armazenamento em um modelo multidimensional, assim dados de múltiplas fontes são integrados e processados para tal e sendo assim contrário ao segundo, que oferece acesso a bancos de dados disjuntos e normalmente heterogêneos. A vantagem se nota pela adoção de um padrão de design mais conciso, que pode levar a uma menor complexidade de implantação.
 
-Diferentemente da maioria dos banco de dados transacionais, data warehouses costumam apoiar a análise de série temporal e tendência, ambas exigindo mais dados históricos do que geralmente é mantido nos bancos de dados transacionais. É importante notar também que os data warehouses são não-voláteis. Sendo assim, suas informações possuem a característica de mudarem de uma forma muito menos frequente, portanto dificilmente seria enquadrada como uma informação em tempo real, e sim como uma de atualização periódica \cite{elmasri_sistemas_2011}.
+Diferentemente da maioria dos banco de dados transacionais, \textit{data warehouses} costumam apoiar a análise de série temporal e tendência, ambas exigindo mais dados históricos do que geralmente é mantido nos bancos de dados transacionais. É importante notar também que os \textit{data warehouses} são não-voláteis. Sendo assim, suas informações possuem a característica de mudarem de uma forma muito menos frequente, portanto dificilmente seria enquadrada como uma informação em tempo real, e sim como uma de atualização periódica \cite{elmasri_sistemas_2011}.
 
 \citeonline{elmasri_sistemas_2011} ordena as seguintes características diferenciadoras de data warehouses, proveniente da lista original de \citeonline{codd1993providing} sobre OLAP:
 
@@ -75,40 +75,40 @@ A tabela \ref{tab:hilmer} evidencia as principais diferenças entre aplicações
 
 \subsection{Componentes Básicos de um Data Warehouse}
 
-A Figura \ref{fig:elem-bas-dw} representa a estrutura básica de um DW segundo \citeonline{Kimball2002}, os componentes serão definidos a seguir.
+A Figura \ref{fig:elem-bas-dw} representa a estrutura básica de um \textit{data warehouse} segundo \citeonline{Kimball2002}. Os componentes apresentados serão definidos em seguida.
 
 % @Figure elem-bas-dw
 \begin{figure}[h!]
 \centering
 \includegraphics[keepaspectratio=false,scale=0.71]{figuras/figuras_pedro/elem-bas-dw.eps}
-\caption{Elementos básicos de um data warehouse}
+\caption{Elementos básicos de um \textit{data warehouse} extraídos de \citeonline{Kimball2002}}
 \label{fig:elem-bas-dw}
 \end{figure}
 \FloatBarrier
 
 \textbf{Sistemas de Fonte de Dados Operacionais (OSS - \textit{Operational Source Systems})}:
-Representa os sistemas que irão prover informações para o DW. Seus dados podem ser provenientes de outros sistemas OLTPs, planilhas e etc, que compoêm o negócio a ser tratado. Devem ser pensados como fora do data warehouse porque, temos pouco ou nenhum controle sobre o conteúdo e formato dos dados presentes nestes tipos de sistemas legados \cite{Kimball2002}.
+Representa os sistemas que irão prover informações para o \textit{data warehouse}. Seus dados podem ser provenientes de outros sistemas OLTPs, planilhas e etc, que compõem o negócio a ser tratado. Devem ser pensados como fora do \textit{data warehouse} porque há pouco ou nenhum controle sobre o conteúdo e formato dos dados presentes nestes tipos de sistemas legados \cite{Kimball2002}.
 
 \textbf{Área de Preparação dos Dados (DSA - \textit{Data Staging Area})}:
-É onde irá ocorrer a possível limpeza e reformatação dos dados antes que sejam carregados no \textit{data warehouse} \cite{elmasri_sistemas_2011}, essas tarefas caracterizam os passos do processo que consiste na extração, transformação e carga dos dados, conhecido como \textit{Extraction-Transformation-Load} (ETL). Cada um dos passos recebe a seguinte descrição:
+É onde irá ocorrer a possível limpeza e reformatação dos dados antes que sejam carregados no \textit{data warehouse} \cite{elmasri_sistemas_2011}. Essas tarefas caracterizam os passos do processo que consistem na extração, transformação e carga dos dados, conhecido como \textit{Extraction-Transformation-Load} (ETL). Cada um dos passos recebe a seguinte descrição:
 
 \begin{easylist}[itemize]
 
 	& \textbf{Extração: } Primeira etapa do processo de ETL, consiste na leitura e entendimento da fonte 		dos dados, copiando os que são necessário para futuros trabalhos \cite{Kimball2002}.  
 	& \textbf{Transformação: } Após a etapa de extração ter sido feita, os dados podem receber diversos tipos de transformações, que incluem correções de conflitos, conversão de formatos, remoção de campos que não são úteis, combinação entre dados de diversas fontes, entre outros \cite{Kimball2002}.
-	& \textbf{Carga: } Após ter sido realizado o processo de transformação, os dados já estão prontos para serem carregados no \textit{Data Warehouse}, tornando possível que todos os dados visualizados após esse processo reflitam a informação que passou pelos processos de extração e transformação \cite{neeraj_sharma_2011}.  
+	& \textbf{Carga: } Após ter sido realizado o processo de transformação, os dados já estão prontos para serem carregados no \textit{data warehouse}, tornando possível que todos os dados visualizados após esse processo reflitam a informação que passou pelos processos de extração e transformação \cite{neeraj_sharma_2011}.  
 
 	\end{easylist}
 
 
 \textbf{Área de Apresentação dos dados (DPA - \textit{Data Presentation Area})}:
-Representa a área onde os dados são organizados, armazenados e disponibilizados para consulta direta pelos usuários, autores de relatórios, e outras aplicações. Os dados da área de apresentação devem ser dimensionais e atômicos e devem estar de acordo com a arquitetura do DW \cite{Kimball2002}.
+Representa a área onde os dados são organizados, armazenados e disponibilizados para consulta direta pelos usuários, autores de relatórios e outras aplicações. Os dados da área de apresentação devem ser dimensionais e atômicos e devem estar de acordo com a arquitetura do \textit{data warehouse} \cite{Kimball2002}.
 
 % @todo explicar Ferramentas de Acesso de dados 
 
 \textbf{Ferramentas de Acesso de dados (DAT - \textit{Data Access Tools})}:
 
-\textbf{Metadados}: Definido como toda a informação no ambiente de data warehouse que não são os dados em si \cite{Kimball2002}. Os metadados num ambiente DW podem apontar para dados sobre tabelas do sistema, índices, relacionamentos, e etc. \citeonline{kimball1998data} recomenda que a arquitetura de um DW seja orientada a metadados, devido a seu papel crítico de prover informações e parâmetros que permitem que as aplicações executarem suas tarefas com um controle maior sobre os dados provenientes das fontes de dados e outros elementos fundamentais para sua execução.
+\textbf{Metadados}: Definido como toda a informação no ambiente de \textit{data warehouse} que não são os dados em si \cite{Kimball2002}. Os metadados num ambiente \textit{data warehouse} podem apontar para dados sobre tabelas do sistema, índices, relacionamentos, e etc. \citeonline{kimball1998data} recomenda que a arquitetura de um DW seja orientada a metadados, devido a seu papel crítico de prover informações e parâmetros que permitem que as aplicações executarem suas tarefas com um controle maior sobre os dados provenientes das fontes de dados e outros elementos fundamentais para sua execução.
 
 
 \section{Modelagem Dimensional}
@@ -152,11 +152,11 @@ A Figura \ref{fig:drill}, extraída de \citeonline{neeraj_sharma_2011}, mostra o
 
 \subsection{Tipos de Tabelas do Modelo Multidimensional}
 
-Um modelo dimensional é composto por tabelas fatos e tabelas dimensões, que quando juntas formam o esquema estrela. A tabela fato é a tabela primária no modelo dimensional. O termo \textit{fato} está associado à maneira como ela representa uma medida de negócio \cite{Kimball2002}. Já a tabela dimensão contém descrições textuais dos negócios envolvidos, o que a torna a chave para que o modelo seja utilizável e de fácil entendimento. \citeonline{Kimball2002} faz uma relação direta entre a qualidade do Data Warehouse como um todo e a qualidade e profundidade dos atributos das tabelas dimensão.
+Um modelo dimensional é composto por tabelas fatos e tabelas dimensões, que quando juntas formam o esquema estrela. A tabela fato é a tabela primária no modelo dimensional. O termo \textit{fato} está associado à maneira como ela representa uma medida de negócio \cite{Kimball2002}. Já a tabela dimensão contém descrições textuais dos negócios envolvidos, o que a torna a chave para que o modelo seja utilizável e de fácil entendimento. \citeonline{Kimball2002} faz uma relação direta entre a qualidade do \textit{data warehouse} como um todo e a qualidade e profundidade dos atributos das tabelas dimensão.
 
 \subsection{Esquemas Multidimensionais}
 
-Dois esquemas comuns são o esquema estrela e o esquema floco de neve. O esquema estrela consiste em uma tabela de fatos com uma única tabela para cada dimensão (Figura \ref{fig:estrela}) \cite{elmasri_sistemas_2011}. O esquema floco de neve é resultado da normalização e expansão das tabelas de dimensão do esquema estrela \cite{ballard_dimensional_2006}. Segundo \citeonline{Kimball2002} o floco de neve não é recomendado em uma ambiente de data warehouse, pois quase sempre faz com que a apresentação dos dados ao usuário seja mais complexa, além do impacto negativo que causa sobre o desempenho da navegação.
+Dois esquemas comuns são o esquema estrela e o esquema floco de neve. O esquema estrela consiste em uma tabela de fatos com uma única tabela para cada dimensão, como pode ser visto na Figura \ref{fig:estrela} \cite{elmasri_sistemas_2011}. O esquema floco de neve é resultado da normalização e expansão das tabelas de dimensão do esquema estrela \cite{ballard_dimensional_2006}. Segundo \citeonline{Kimball2002} o floco de neve não é recomendado em uma ambiente de \textit{data warehouse}, pois quase sempre faz com que a apresentação dos dados ao usuário seja mais complexa, além do impacto negativo que causa sobre o desempenho da navegação.
 
 % O esquema estrela, já definido como a união entre tabelas fato e dimensão, pode ser representado da forma como o exemplo da Figura \ref{fig:estrela} descreve:
  
@@ -171,7 +171,7 @@ Dois esquemas comuns são o esquema estrela e o esquema floco de neve. O esquema
 
 \section{Ambiente de \textit{Data Warehousing} para Métricas de Código-Fonte}
 
-A Figura \ref{fig:etl} descreve a arquitetura de um ambiente de \textit{Data Warehousing}. O nível mais baixo, de onde se faz a extração, foi chamado de fonte externa de dados. Para fazer uso de um ambiente de \textit{Data Warehousing} para armazenamento de métricas, \citeonline{rego_monitoramento_2014} modelou a arquitura da solução de modo que a fonte externa de dados seriam arquivos contendo métricas de software, como pode ser visto na Figura \ref{fig:arquitetura_solucao}:
+A Figura \ref{fig:etl} descreve a arquitetura de um ambiente de \textit{Data Warehousing}. O nível mais baixo, de onde se faz a extração, foi chamado de fonte externa de dados. Para fazer uso de um ambiente de \textit{data warehousing} para armazenamento de métricas, \citeonline{rego_monitoramento_2014} modelou a arquitetura da solução de modo que a fonte externa de dados seriam arquivos contendo métricas de software, como pode ser visto na Figura \ref{fig:arquitetura_solucao}:
 
 \begin{figure}[h!]
 \centering
@@ -181,11 +181,11 @@ A Figura \ref{fig:etl} descreve a arquitetura de um ambiente de \textit{Data War
 \end{figure}
 \FloatBarrier
 
-Seguindo a metodologia de \citeonline{Kimball2002} para projetar um data warehouse,  o projeto de \citeonline{rego_monitoramento_2014} para a solução de \textit{data warehousing} para métricas de código-fonte seguiu os passos da metodologia, definidos em cada sub-seção a seguir.
+Seguindo a metodologia de \citeonline{Kimball2002} para projetar um \textit{data warehouse}, o projeto de \citeonline{rego_monitoramento_2014} para a solução de \textit{data warehousing} para métricas de código-fonte seguiu os passos da metodologia, definidos em cada sub-seção a seguir.
 
 \subsection{Seleção do Processo de Negócio}
 
-\citeonline{rego_monitoramento_2014} buscou indentificar os processos de negócio e seus respectivos requisitos. Assim foram levantados 15 requisitos de negócio, sendo que os 8 primeiros se referem a avaliação dos valores percentis das métricas de código-fonte e o restante a avaliação de cenários de limpeza e taxa de aproveitamento de oportunidades de melhoria de código-fonte. Os requisitos levantados por \citeonline{rego_monitoramento_2014} foram os seguintes:
+\citeonline{rego_monitoramento_2014} buscou identificar os processos de negócio e seus respectivos requisitos. Assim foram levantados 15 requisitos de negócio, sendo que os oito primeiros se referem a avaliação dos valores percentis das métricas de código-fonte e o restante a avaliação de cenários de limpeza e taxa de aproveitamento de oportunidades de melhoria de código-fonte. Os requisitos levantados por \citeonline{rego_monitoramento_2014} foram os seguintes:
 
 \begin{easylist}[itemize]
 
@@ -217,7 +217,7 @@ Seguindo a metodologia de \citeonline{Kimball2002} para projetar um data warehou
 	
 	& \textbf{Requisito 14:} Visualizar as 10 classes de um projeto com maior número de cenários de limpeza identificados.
 	
-	& \textbf{Requisito 15:} Acompanhar a Taxa de Aproveitamento de Oportunidades de Melhoria de Código-Fonte que é a divisão do total de cenários de limpeza identificados em uma release e o o número total de classes da mesma release de um projeto
+	& \textbf{Requisito 15:} Acompanhar a Taxa de Aproveitamento de Oportunidades de Melhoria de Código-Fonte que é a divisão do total de cenários de limpeza identificados em uma release e o o número total de classes da mesma release de um projeto.
 
 	\end{easylist}
 
@@ -226,7 +226,7 @@ Seguindo a metodologia de \citeonline{Kimball2002} para projetar um data warehou
 
 A identificação da periodicidade de coleta dos dados é essencial para que esta seja
 realizada de maneira correta, além de viabilizar a agregação dos dados em níveis ou
-hierarquias \cite{rego_monitoramento_2014}. Assim a peridicidade foi identificada como as \textit{releases} do software.
+hierarquias \cite{rego_monitoramento_2014}. Assim a periodicidade foi identificada como as \textit{releases} do software.
 
 \subsection{Identificação dos Fatos e das Dimensões}
 	
@@ -256,7 +256,7 @@ A partir da identificação de fatos e dimensões expostos na Tabela \ref{tab:fa
 	\FloatBarrier
 
 
-Utilizando a ferramenta MySql Workbench, \citeonline{rego_monitoramento_2014} elaborou o seguinte modelo físico baseado nos fatos e dimensões já identificados:
+Utilizando a ferramenta \textit{MySql Workbench}, \citeonline{rego_monitoramento_2014} elaborou o seguinte modelo físico baseado nos fatos e dimensões já identificados:
 
 \begin{figure}[h!]
 \centering
