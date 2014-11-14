@@ -130,17 +130,7 @@ A Figura \ref{fig:etl} descreve a arquitetura de um ambiente de \textit{Data War
 
 \citeonline{Kimball2002} afirma que a habilidade de visualizar algo tão abstrato como um conjunto de dados  de maneira concreta e tangível é o segredo da compreensibilidade, de modo que um modelo de dados que se inicia de forma simples tende a ser simples até o final da modelagem, ao contrário de um modelo que já se inicia de forma complicada. Nesse contexto, o modelo dimensional difere em muitos aspectos do modelo normalizado em sua terceira forma normal, também conhecido como modelo entidade-relacionamento. O modelo normalizado contém seus dados divididos em muitas entidades, cada qual identificada como uma tabela, buscando assim evitar redundância entre os dados, sendo eles armazenados em tempo real na medida que forem atualizados. O problema associado a essa solução é a tamanha complexidade adquirida pelos modelos, uma vez que são criadas um número grande de tabelas dificultando assim sua navegação. Em um sentido oposto, a modelagem dimensional resolve esse problema associado à complexidade, uma vez que, mesmo possuindo as mesmas informações que um modelo normalizado, elas estão modeladas de forma que estejam em sintonia com o entendimento do usuário e ao alto desempenho de consultas. 
 
-Um modelo dimensional é composto por tabelas fatos e tabelas dimensões, que quando juntas formam o esquema estrela. A tabela fato é a tabela primária no modelo dimensional. O termo \textit{fato} está associado à maneira como ela representa uma medida de negócio \cite{Kimball2002}. Já a tabela dimensão contém descrições textuais dos negócios envolvidos, o que a torna a chave para que o modelo seja utilizável e de fácil entendimento. \citeonline{Kimball2002} faz uma relação direta entre a qualidade do Data Warehouse como um todo e a qualidade e profundidade dos atributos das tabelas dimensão. O esquema estrela, já definido como a união entre tabelas fato e dimensão, pode ser representado da forma como o exemplo da Figura \ref{fig:estrela} descreve:
  
-\begin{figure}[h!]
-\centering
-\includegraphics[keepaspectratio=false,scale=0.50]{figuras/figuras_matheus/star.eps}
-\caption{Esquema estrela extraído de \citeonline{valeria2012}}
-\label{fig:estrela}
-\end{figure}
-\FloatBarrier
- 
-
 A modelagem multidimensional adotada pelo OLAP é associada de maneira metafórica na literatura a um cubo de dados, cujas arestas definem as dimensões dos dados e as células do cubo contém valores de medida \cite{Kimball2002}. Os cubos de dados têm um foco nas necessidades de negócio e podem ser exemplificados como na Figura \ref{fig:cubo}:
 
 \begin{figure}[h!]
@@ -174,6 +164,25 @@ A Figura \ref{fig:drill}, extraída de \citeonline{neeraj_sharma_2011}, mostra o
 \label{fig:drill}
 \end{figure}
 \FloatBarrier
+
+\subsection{Tipos de Tabelas do Modelo Multidimensional}
+
+Um modelo dimensional é composto por tabelas fatos e tabelas dimensões, que quando juntas formam o esquema estrela. A tabela fato é a tabela primária no modelo dimensional. O termo \textit{fato} está associado à maneira como ela representa uma medida de negócio \cite{Kimball2002}. Já a tabela dimensão contém descrições textuais dos negócios envolvidos, o que a torna a chave para que o modelo seja utilizável e de fácil entendimento. \citeonline{Kimball2002} faz uma relação direta entre a qualidade do Data Warehouse como um todo e a qualidade e profundidade dos atributos das tabelas dimensão.
+
+\subsection{Esquemas Multidimensionais}
+
+Dois esquemas comuns são o esquema estrela e o esquema floco de neve. O esquema estrela consiste em uma tabela de fatos com uma única tabela para cada dimensão (Figura \ref{fig:estrela}) \cite{elmasri_sistemas_2011}. O esquema floco de neve é resultado da normalização e expansão das tabelas de dimensão do esquema estrela \cite{ballard_dimensional_2006}. Segundo \citeonline{Kimball2002} o floco de neve não é recomendado em uma ambiente de data warehouse, pois quase sempre faz com que a apresentação dos dados ao usuário seja mais complexa, além do impacto negativo que causa sobre o desempenho da navegação.
+
+% O esquema estrela, já definido como a união entre tabelas fato e dimensão, pode ser representado da forma como o exemplo da Figura \ref{fig:estrela} descreve:
+ 
+\begin{figure}[h!]
+\centering
+\includegraphics[keepaspectratio=false,scale=0.50]{figuras/figuras_matheus/star.eps}
+\caption{Esquema estrela extraído de \citeonline{valeria2012}}
+\label{fig:estrela}
+\end{figure}
+\FloatBarrier
+
 
 \section{Ambiente de \textit{Data Warehousing} para Métricas de Código-Fonte}
 

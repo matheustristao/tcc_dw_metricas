@@ -29,6 +29,8 @@
 \contentsline {section}{\numberline {3.2}Caracter\IeC {\'\i }sticas dos \textit {Data Warehouses}}{34}{section.3.2}
 \contentsline {subsection}{\numberline {3.2.1}Componentes B\IeC {\'a}sicos de um Data Warehouse}{35}{subsection.3.2.1}
 \contentsline {section}{\numberline {3.3}Modelagem Dimensional}{38}{section.3.3}
+\contentsline {subsection}{\numberline {3.3.1}Tipos de Tabelas do Modelo Multidimensional}{40}{subsection.3.3.1}
+\contentsline {subsection}{\numberline {3.3.2}Esquemas Multidimensionais}{40}{subsection.3.3.2}
 \contentsline {section}{\numberline {3.4}Ambiente de \textit {Data Warehousing} para M\IeC {\'e}tricas de C\IeC {\'o}digo-Fonte}{41}{section.3.4}
 \contentsline {subsection}{\numberline {3.4.1}Sele\IeC {\c c}\IeC {\~a}o do Processo de Neg\IeC {\'o}cio}{42}{subsection.3.4.1}
 \contentsline {subsection}{\numberline {3.4.2}Verifica\IeC {\c c}\IeC {\~a}o da Periodicidade de Coleta de Dados}{44}{subsection.3.4.2}
