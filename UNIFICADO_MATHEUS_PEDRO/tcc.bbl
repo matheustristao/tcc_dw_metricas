@@ -55,6 +55,11 @@ Dispon{\'\i}vel em:
 ISSN 0098-5589.
 Dispon{\'\i}vel em: \url{http://dx.doi.org/10.1109/32.295895}.}
 
+\bibitem[Elmasri e Navathe 2011]{elmasri_sistemas_2011}
+\abntrefinfo{Elmasri e Navathe}{ELMASRI; NAVATHE}{2011}
+{ELMASRI, R.; NAVATHE, S.~B. \emph{Sistemas de banco de dados}. Sao Paulo
+  ({SP}): Pearson Addison Wesley, 2011.}
+
 \bibitem[Fenton e Pfleeger 1998]{Fenton98}
 \abntrefinfo{Fenton e Pfleeger}{FENTON; PFLEEGER}{1998}
 {FENTON, N.~E.; PFLEEGER, S.~L. \emph{{Software Metrics: A Rigorous and
@@ -110,6 +115,11 @@ ISBN 9788522431694 8522431698.}
 {KIMBALL, R. \emph{The data warehouse lifecycle toolkit: expert methods for
   designing, developing, and deploying data warehouses}. [S.l.]: Wiley. com,
   1998.}
+
+\bibitem[Kimball 2008]{kimball_data_2008}
+\abntrefinfo{Kimball}{KIMBALL}{2008}
+{KIMBALL, R. (Ed.). \emph{The data warehouse lifecycle toolkit}. 2nd ed. ed.
+  Indianapolis, {IN}: Wiley Pub, 2008.}
 
 \bibitem[Kimball e Ross 2002]{Kimball2002}
 \abntrefinfo{Kimball e Ross}{KIMBALL; ROSS}{2002}

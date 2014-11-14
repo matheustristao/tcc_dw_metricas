@@ -3,11 +3,65 @@
 
 Neste capítulo será apresentada a maneira como foi desenvolvido o ambiente de \textit{Data Warehouse} para armazenamento de métricas de código fonte, sobre o qual esse trabalho busca analisar a eficácia e eficiência no monitoramento de métricas. Serão apresentados anteriormente conceitos teóricos sobre \textit{Data Warehouse}, para então relacionar seu uso dentro do contexto de métricas. 
 
-\section{Definição}
+\section{Definições e terminologia}
 
 \textit{Data Warehouse} é uma base de dados que armazena suas informações de maneira orientada a satisfazer solicitações de tomadas de decisão \cite{chaudhuri1997}. A diferença entre um típico banco de dados transacional e um  \textit{Data Warehouse}, porém, consiste na maneira como esses dados são armazenados. Em vez de existirem múltiplos ambientes de decisão operando de forma independente, o que com frequência traz informações conflituosas, um \textit{Data Warehouse} unifica as fontes de informações relevantes, de maneira que a integridade  qualidade dos dados são garantidas. \cite{neeraj_sharma_2011}. Dessa forma,\citeonline{chaudhuri1997} afirma que o ambiente de \textit{Data Warehousing} possibilita que seu usuário realize buscas complexas de maneira mais amigável diretamente em um só ambiente, em vez de acessar informações através de relatórios gerados por especialistas. 
 
-\citeonline{Inmon2002} descreve que o \textit{Data Warehouse} é uma coleção de dados que tem como característica ser orientada a assunto, integrada, não volátil e temporal. Por orientação a assunto, podemos entender como um foco em algum aspecto específico da organização, como por exemplo as vendas de uma loja. O fato do ambiente ser integrado remete ao fato dele ser alimentado com dados que têm como origem de múltiplas fontes, integrando esses dados de maneira a construir uma única orientação. Como um conjunto não volátil e temporal de dados, é entendido que a informação carregada remete a um determinado momento da aplicação, possibilitando assim acesso a diferentes intervalos de tempo, não havendo como modificá-los atualizando em tempo real.
+\citeonline{Inmon2002} descreve que o \textit{Data Warehouse} é uma coleção de dados que tem como característica ser orientada a assunto, integrada, não volátil e temporal. Por orientação a assunto, podemos entender como um foco em algum aspecto específico da organização, como por exemplo as vendas de uma loja. O fato do ambiente ser integrado remete ao fato dele ser alimentado com dados que têm como origem de múltiplas fontes, integrando esses dados de maneira a construir uma única orientação. Como um conjunto não volátil e temporal de dados, é entendido que a informação carregada remete a um determinado momento da aplicação, possibilitando assim acesso a diferentes intervalos de tempo, não havendo como modificá-los atualizando em tempo real. São vários os tipos de aplicação aceitos para um data warehouse. Algumas delas serão definidas a seguir.
+
+
+\textbf{OLAP (online analytical processing — processamento analítico on-line)}:
+é um conjunto de princípios que fornecem uma estrutura dimensional de apoio à decisão \cite{Kimball2002}. As ferramentas OLAP empregam as capacidades de computação distribuída para análises que requerem mais armazenamento e poder de processamento do que pode estar localizado econômica e eficientemente em um desktop individual \cite{elmasri_sistemas_2011}. Nestas aplicações dados sumariados e históricos são mais importantes que dados atômicos \cite{hilmer2002}.
+
+\textbf{DSS (decision-support systems — sistemas de apoio à decisão)}:
+são sistemas que ajudam os principais tomadores de decisões de uma organização com dados de nível mais alto em decisões complexas e importantes \cite{elmasri_sistemas_2011}. Segundo \citeonline{kimball_data_2008}  os DSSs têm como objetivo tornar a informação de uma organização acessível e consistente, prover uma fonte adaptável e resiliente de informações, e garantir a segurança aos dados para assim ser um sistema base para a tomada de decisão.
+
+\textbf{OLTP (online transaction processing) — processamento on-line de transações}:
+bancos de dados tradicionais têm suporte para o OLTP, com suas operações de inserção, atualização e exclusão e também à consulta de dados. \citeonline{neeraj_sharma_2011} explica que sistemas OLTP usam tabelas simples para armazenar dados, estes que são normalizados, para se reduzir a redundância ou até mesmo eliminá-los, buscando sempre a garantia de sua consistência.
+
+
+\subsection{Componentes Básicos de um Data Warehouse}
+
+A Figura \ref{fig:elem-bas-dw} representa a estrutura básica de um DW segundo \citeonline{Kimball2002}, os componentes serão definidos a seguir.
+
+% @Figure elem-bas-dw
+\begin{figure}[h!]
+\centering
+\includegraphics[keepaspectratio=false,scale=0.53]{figuras/figuras_pedro/elem-bas-dw.eps}
+\caption{Elementos básicos de um data warehouse}
+\label{fig:elem-bas-dw}
+\end{figure}
+\FloatBarrier
+
+\textbf{Sistemas de Fonte de Dados Operacionais (OSS - \textit{Operational Source Systems})}:
+Representa os sistemas que irão prover informações para o DW. Seus dados podem ser provenientes de outros sistemas OLTPs, planilhas e etc, que compoêm o negócio a ser tratado. Devem ser pensados como fora do data warehouse porque, temos pouco ou nenhum controle sobre o conteúdo e formato dos dados presentes nestes tipos de sistemas legados \cite{Kimball2002}.
+
+\textbf{Área de Preparação dos Dados (DSA - \textit{Data Staging Area})}:
+É onde irá ocorrer a possível limpeza e reformatação dos dados antes que sejam carregados no \textit{data warehouse} \cite{elmasri_sistemas_2011}, processo esse conhecido como extração transformação e carga (ETL).
+
+O passo de extração consiste em ler os dados das 
+% @termo
+fontes operacionais
+e copiar o que for necessário para o DW na área de preparação dos dados.
+
+Transformação é o passo que irá tratar os dados agora presente na área de preparação dos dados. Segundo \citeonline{Kimball2002} 
+existem diversos tipos de transformações que podem ocorrer, como a limpeza dos dados (correção de erros ortográficos, resolução de dados conflitantes com o domínio, tratamento de dados que estão em falto, ou o 
+% @termo
+\textit{parse}
+de dados para um certo padrão), e também ações como combinar dados de várias fontes, e por fim pode-se atribuir chaves para os dados que irão para o DW.
+
+O terceiro passo do processo de ETL, a carga, é onde os dados que foram tratados, limpo, transformados e padronizados dentro da área de preparação dos dados serão carregados nas tabelas do data warehouse.
+
+\textbf{Área de Apresentação dos dados (DPA - \textit{Data Presentation Area})}:
+Representa a área onde os dados são organizados, armazenados e disponibilizados para consulta direta pelos usuários, autores de relatórios, e outras aplicações. Os dados da área de apresentação devem ser dimensionais e atômicos e devem estar de acordo com a arquitetura do DW \cite{Kimball2002}.
+
+% @todo explicar Ferramentas de Acesso de dados 
+
+\textbf{Ferramentas de Acesso de dados (DAT - \textit{Data Access Tools})}:
+
+\textbf{Metadados}: Definido como toda a informação no ambiente de data warehouse que não são os dados em si \cite{Kimball2002}. Os metadados num ambiente DW podem apontar para dados sobre tabelas do sistema, índices, relacionamentos, e etc. \citeonline{kimball1998data} recomenda que a arquitetura de um DW seja orientada a metadados, devido a seu papel crítico de prover informações e parâmetros que permitem que as aplicações executarem suas tarefas com um controle maior sobre os dados provenientes das fontes de dados e outros elementos fundamentais para sua execução.
+
+
 
 \section{\textit{Extraction-Transformation-Load}}
 
