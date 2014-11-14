@@ -30,6 +30,9 @@
 \contentsline {section}{\numberline {3.3}Modelagem Dimensional}{35}{section.3.3}
 \contentsline {subsection}{\numberline {3.3.1}OLAP \textit {(On-Line Analytic Processing)}}{36}{subsection.3.3.1}
 \contentsline {section}{\numberline {3.4}Ambiente de \textit {Data Warehousing} para M\IeC {\'e}tricas de C\IeC {\'o}digo-Fonte}{38}{section.3.4}
+\contentsline {subsection}{\numberline {3.4.1}Sele\IeC {\c c}\IeC {\~a}o do Processo de Neg\IeC {\'o}cio}{39}{subsection.3.4.1}
+\contentsline {subsection}{\numberline {3.4.2}Verifica\IeC {\c c}\IeC {\~a}o da Periodicidade de Coleta de Dados}{41}{subsection.3.4.2}
+\contentsline {subsection}{\numberline {3.4.3}Identifica\IeC {\c c}\IeC {\~a}o dos Fatos e das Dimens\IeC {\~o}es}{41}{subsection.3.4.3}
 \contentsline {section}{\numberline {3.5}Considera\IeC {\c c}\IeC {\~o}es Finais do Cap\IeC {\'\i }tulo}{44}{section.3.5}
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
 \contentsline {chapter}{\chapternumberline {4}\MakeTextUppercase {Projeto de Estudo de Caso}}{45}{chapter.4}
