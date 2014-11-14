@@ -13,12 +13,12 @@ A \citeonline{ISO:15939} define medição como a união de operações cujo obje
 
 & \textbf{Nominal:} São empregadas expressões semânticas para representar objetos para fins de identificação \cite{pandian_software_2004}. Na interpretação dos valores de cada atributo, a ordem não possui significado \cite{Meirelles2013}.
 
-& \textbf{Ordinal:} os valores podem ser comparados em ordem, é possível agrupar valores em categorias também podem ser ordenadas. Porém esta escala não oferece informações sobre a maginitude da diferença entre os elementos \cite{metricsandmodels}.
+& \textbf{Ordinal:} os valores podem ser comparados em ordem, é possível agrupar valores em categorias também podem ser ordenadas. Porém esta escala não oferece informações sobre a magnitude da diferença entre os elementos \cite{metricsandmodels}.
 
 
-& \textbf{Intervalo:} A ordem dos reultados é importante, assim como o tamanho dos intervalos que separam os pontos, mas a proporções não são necessariamente válidas \cite{Meirelles2013}. Operações matemáticas como adição e subtração podem ser aplicadas a este tipo de intervalo \cite{metricsandmodels}.
+& \textbf{Intervalo:} A ordem dos resultados é importante, assim como o tamanho dos intervalos que separam os pontos, mas a proporções não são necessariamente válidas \cite{Meirelles2013}. Operações matemáticas como adição e subtração podem ser aplicadas a este tipo de intervalo \cite{metricsandmodels}.
 
-& \textbf{Racional:} possui a mesma definição da escala de intervalo, a diferença é que a proporção é preservada \cite{Meirelles2013}. Ou seja, é possível definir um unidade zero para um tamanho de unidade previamente estabelecido pela escala \cite{metricsandmodels}.
+& \textbf{Racional:} Possui a mesma definição da escala de intervalo, a diferença está no fato da proporção ser preservada \cite{Meirelles2013}. Ou seja, é possível definir um unidade zero para um tamanho de unidade previamente estabelecido pela escala \cite{metricsandmodels}.
 
 
 \end{easylist}
@@ -95,18 +95,18 @@ Métricas de orientação a objetos foram adotadas devido à grande utilização
 	& \textbf{ANPM} (\textit{Average Number of Parameters per Method} - Média do Número de Parâmetros por Método): Indica a média de parâmetros que os métodos possuem. Um valor muito alto para quantidade de parâmetros pode indicar que o método está tendo mais de uma responsabilidade. \cite{Basili1987}
 
 	%--------------------------
-	& \textbf{CBO} (\textit{Coupling Between Objects} - Acoplamento entre Objetos): Essa é uma métrica que diz respeito a quantas outras classes dependem de uma classe. É a conta das classes às quais uma classe está acoplada. 		Duas classes estão acopladas quando métodos de uma delas utilizam métodos ou variáveis de outra. Altos 			valores dessa métrica aumentam a complexidade e diminuem a manutenibilidade.  \cite{softwaremeasurementandestimation}.
+	& \textbf{CBO} (\textit{Coupling Between Objects} - Acoplamento entre Objetos): Essa é uma métrica que diz respeito a quantas outras classes dependem de uma classe. É a conta das classes às quais uma classe está acoplada. 		Duas classes estão acopladas quando métodos de uma delas utilizam métodos ou variáveis de outra. Altos 			valores dessa métrica aumentam a complexidade e diminuem a manutenibilidade.  \cite{softwaremeasurementandestimation}. Segundo \citeonline{pressman_engenharia_2010} é provavél que a reusabilidade de uma classe diminua à medida que o CBO aumenta, pois valores altos complicam as modificações e os testes.
   		 
 	%-----------------------------
 	& \textbf{DIT} (\textit{Depth of Inheritance Tree} - Profundidade da 
-	Árvore de Herança): Responsável por medir quantas camadas de herança compõem uma determinada hierarquia 		de classes \cite{softwaremeasurementandestimation}. Segundo \citeonline{Meirelles2013}, quanto maior o valor de DIT, maior o número de métodos e atributos herdados, portanto maior a complexidade.
+	Árvore de Herança): Responsável por medir quantas camadas de herança compõem uma determinada hierarquia 		de classes \cite{softwaremeasurementandestimation}. Quanto mais profunda for a árvore, maior será o número de classes envolvidas \cite{Chidamber-1994}, consequentemente haverá um número maior de métodos e atributos herdados, aumentando assim a complexidade da classe \citeonline{Meirelles2013}.
 
 	%--------------------------
 	& \textbf{LCOM4} (\textit{Lack of Cohesion in Methods} - Falta de Coesão
-	entre Métodos): A coesão de uma classe é indicada por quão próximas as variáveis locais estão relacionadas com variáveis de instância locais. Alta coesão indica uma boa subdivisão de classes. A LCOM mede a falta de coesão através dissimilaridade dos métodos de uma classe pelo emprego de variáveis de instância.\cite{metricsandmodels}. A métrica LCOM foi revista e passou a ser conhecida como LCOM4, sendo necessário para seu cálculo a construção de um gráfico não-orientado em que os nós são os atributos e métodos de uma classe. Para cada método deve haver uma aresta entre ele e outro método ou variável. O valor da LCOM4 é o número de componentes fracamente conectados a esse gráfico \cite{Meirelles2013}
+	entre Métodos):Falta de Coesão entre Métodos): Proposta inicialmente por \citeonline{Chidamber-1994}, LCOM calcula o número de métodos que têm acesso a um ou mais atributos de uma dada classe \cite{pressman_engenharia_2010}. Por ter recebido diversas críticas, várias alternativas foram criadas. \citeonline{LCOM4} definiu uma revisão desta métrica e assim elaborou uma outra versão conhecida como LCOM4. Para calcular LCOM4 de um módulo, é necessário construir um gráfico não-orientado em que os nós são os métodos e atribuos de uma classe. Para cada método, deve haver uma areste entre ele e um outro método ou variável que ele usa. O valor da LCOM4 é o número de componentes fracamente conectados nesse gráfico \cite{Meirelles2013}.
 
 	%--------------------------
-	& \textbf{NOC} (\textit{Number of Children} - Número de Filhos): É o número de sucessores imediatos,  (portanto filhos) de uma classe. Segundo \citeonline{softwaremeasurementandestimation}, altos valores indicam que a abstração da super classe foi diluída e uma reorganização da arquitetura deve ser considerada.
+	& \textbf{NOC} (\textit{Number of Children} - Número de Filhos): É o número de sucessores imediatos (portanto filhos), de uma classe. Segundo \citeonline{softwaremeasurementandestimation}, altos valores indicam que a abstração da super classe foi diluída e uma reorganização da arquitetura deve ser considerada. \citeonline{pressman_engenharia_2010} justifica esse fato afirmando que à medida que o número de filhos cresce, alguns deles não são necessariamente membros adequados da super classe.
 	
 	%-----------------------------
 	& \textbf{NOM} (\textit{Number of Methods} - Número de Métodos): Indica a quantidade de métodos de uma classe, medindo seu tamanho. Classes com muitos métodos são mais difíceis de serem reutilizadas pois são propensas a serem menos coesas. \cite{Meirelles2013}  

@@ -3,11 +3,15 @@ The style file: abntex2-alf.bst
 Database file #1: abntex2-options.bib
 Database file #2: bibliografia.bib
 Warning--entry type for "hilmer2002" isn't style-file defined
---line 132 of file bibliografia.bib
+--line 160 of file bibliografia.bib
+Repeated entry---line 628 of file bibliografia.bib
+ : @inproceedings{LCOM4
+ :                     ,
+I'm skipping whatever remains of this entry
 Warning--faltando school em novello_uma_2006
 +---------------------------------------------------------+
 | Estilo bibliográfico abntex2-alf.bst versão v-1.9.2           |
 | Em caso de dúvidas ou problemas com este estilo procure |
 | http://abntex2.googlecode.com                           |
 +---------------------------------------------------------+
-(There were 2 warnings)
+(There was 1 error message)

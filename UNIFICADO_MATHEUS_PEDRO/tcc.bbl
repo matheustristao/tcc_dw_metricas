@@ -47,6 +47,14 @@ Dispon{\'\i}vel em:
 {CHAUDHURI, S.; DAYAL, U. An overview of data warehousing and olap technology.
 \emph{ACM Sigmod record}, ACM, v.~26, n.~1, p. 65--74, 1997.}
 
+\bibitem[Chidamber e Kemerer 1994]{Chidamber-1994}
+\abntrefinfo{Chidamber e Kemerer}{CHIDAMBER; KEMERER}{1994}
+{CHIDAMBER, S.~R.; KEMERER, C.~F. A metrics suite for object oriented design.
+\emph{IEEE Trans. Softw. Eng.}, IEEE Press, Piscataway, NJ, USA, v.~20, n.~6,
+  p. 476--493, jun. 1994.
+ISSN 0098-5589.
+Dispon{\'\i}vel em: \url{http://dx.doi.org/10.1109/32.295895}.}
+
 \bibitem[Fenton e Pfleeger 1998]{Fenton98}
 \abntrefinfo{Fenton e Pfleeger}{FENTON; PFLEEGER}{1998}
 {FENTON, N.~E.; PFLEEGER, S.~L. \emph{{Software Metrics: A Rigorous and
@@ -61,6 +69,12 @@ ISBN 9788522431694 8522431698.}
 \abntrefinfo{Gilmore}{GILMORE}{2008}
 {GILMORE, W.~J. \emph{Dominando PHP e MySql}. [S.l.]: STARLIN ALTA CONSULT,
   2008.}
+
+\bibitem[Hitz e Montazeri 1995]{LCOM4}
+\abntrefinfo{Hitz e Montazeri}{HITZ; MONTAZERI}{1995}
+{HITZ, M.; MONTAZERI, B. {Measuring Coupling and Cohesion in Object-Oriented
+  Systems}. In:  \emph{{Proceedings of International Symposium on Applied
+  Corporate Computing}}. [S.l.: s.n.], 1995.}
 
 \bibitem[Inmon 2002]{Inmon2002}
 \abntrefinfo{Inmon}{INMON}{2002}
