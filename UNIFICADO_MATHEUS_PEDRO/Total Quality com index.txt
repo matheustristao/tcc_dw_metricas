@@ -1,0 +1,110 @@
+Total Quality com index
+	O que tinha mais importante das métricas foi escolhido do total quality
+
+	Código duplicado do sonar
+
+
+	Parte Arquitetural
+
+
+
+	Como definiu: Olhando vários projetos viu que 80 era um valor bom.
+
+
+
+
+
+
+Muitos problemas software - Um número não definido para as métricas na literatura era um problema pois nao se achava um valor bom
+
+
+métricas depreciadas dão valor de 100
+
+só o complexidade ficou valendo 
+
+
+
+arquitetura package index
+
+teste somente unitário pois o de integridade
+
+a partir do total quality 
+se baseou no BACEN
+
+e criou o tcu total quality
+
+
+-Frequencia de medicao
+	Depende da equipe
+	Nao existe politica pra indicadores
+
+
+	Como era:
+		Monitorava para nao ter alerta no valor agregado/
+		Tinha como objetivo rankear os projetos
+		Colocar um indicador motiva as pessoas
+		
+	Motivacao é o dashboard 
+		Indica para um leigo com numero a situacao do código
+
+		Poucos indicadores é pouco representativo, muito é irrelevante 
+
+
+	Escolha das métricas
+		O que é mais dificil de se manter.
+		Afferent coupling - Algo que depende de muitos objetos, mostra que a classe é ruim
+		Coesão foi uma das primeiras escolhas
+		complexidade logo depois. Ajuda a manutenabilidade
+
+		RFC 
+			Gera distorcoes, 
+
+		Simplicidade, busca de classes pequenas
+
+
+Foco não era a qualidade
+
+Reclamacoes vinham de equipes internas e externas que se reuniam e discutia os valores, se são bons ou ruins.
+
+Plano para montar um grupo de qualidade para que se defina valores paras as métricas.
+
+Falsos positivos geram problemas na interpretacao das métricas
+
+
+--Cobranca das fábricas
+
+As metricas se tornam critérios de aceitacao dos sistemas
+
+TCU Quality profile
+
+via chefe 
+
+Pode-ser justificar um nao cumprimnto de algum desses indicadores
+
+70% de unitário na parte de negócio
+
+-----
+
+Revisão de valores 
+
+Alguns Literatura - Os que conseguiram
+
+outros são de consenso, observacao do comportamento
+
+Teste unitário se tem origem do clean code do robert martin
+
+----
+
+
+As métricas foram pensados em valores acima do que era inicialmente propostos para melhorar a adocao das equipes nos projetos, com o tempo foi abaixando
+
+
+Blocker ----- 
+
+Algumas métricas com valor aceitável 0 se referem a métricas que são pouco prováveis de se achar
+
+
+ 
+
+
+

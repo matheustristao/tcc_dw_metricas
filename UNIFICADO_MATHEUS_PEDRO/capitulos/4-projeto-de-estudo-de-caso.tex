@@ -5,7 +5,7 @@ Este capítulo irá apresentar a estratégia de pesquisa adotada durante o traba
 
 \section{Definição Sobre Estudo de Caso}
 
-O estudo de caso é uma estratégia de pesquisa utilizada para investigar um tópico de manira empírica através de um conjunto de procedimentos pré-especificados \cite{yin2001estudo}. Buscando diferenciar o estudo de caso de outras estratégias de pesquisa, \citeonline{yin2001estudo} esclarece que um estudo de caso deve focalizar acontecimentos contemporâneos, não havendo assim exigência quanto ao controle sobre os eventos comportamentais. Dessa forma, o estudo de caso difere de um experimento pelo motivo que neste há controle e manipulação sobre os eventos, diferentemente do estudo de caso, que não os manipula. Em suma, a essência de qualquer estudo de caso reside em esclarecer uma decisão ou um conjunto de decisões, considerando o motivo pelo qual elas foram tomadas e qual os resultados das suas implementações \cite{schramm_notes_1971}. 
+O estudo de caso é uma estratégia de pesquisa utilizada para investigar um tópico de maneira empírica através de um conjunto de procedimentos pré-especificados \cite{yin2001estudo}. Buscando diferenciar o estudo de caso de outras estratégias de pesquisa, \citeonline{yin2001estudo} esclarece que um estudo de caso deve focalizar acontecimentos contemporâneos, não havendo assim exigência quanto ao controle sobre os eventos comportamentais. Dessa forma, o estudo de caso difere de um experimento pelo motivo que neste há controle e manipulação sobre os eventos, diferentemente do estudo de caso, que não os manipula. Em suma, a essência de qualquer estudo de caso reside em esclarecer uma decisão ou um conjunto de decisões, considerando o motivo pelo qual elas foram tomadas e qual os resultados das suas implementações \cite{schramm_notes_1971}. 
 
 Uma vantagem dos estudos de caso encontra-se no fato deles serem mais fáceis de serem planejados, além de possuírem maior caráter realista, porém as desvantagens esbarram no fato dos resultados serem mais difíceis de serem interpretados e generalizados, ou seja, é possível mostrar os efeitos de uma situação típica, porém é necessária maior análise para que se possa generalizar a outras situações \cite{wohlin2012experimentation}.
 
@@ -18,7 +18,7 @@ A estrutura do protocolo de estudo de caso proposta se baseia em \citeonline{cas
 
 & \textbf{Design - Seção \ref{sec:Design}}: Identificar se o projeto de pesquisa é um caso único ou múltiplo bem como seu propósito geral.
 
-& \textbf{Seleção - Seção \ref{sec:Seleção}}: Apresentar critérios para a seleção do caso e descrição do objeto de estudo a ser analisado.
+& \textbf{Seleção - Seção \ref{sec:Seleção}}: Apresentar critérios para a seleção do caso e letcdescrição do objeto de estudo a ser analisado.
 
 & \textbf{Fonte e Método de Coleta de Dados - Seção \ref{sec:Fonte e Método de Coleta de Dados}}: Identificar os dados que serão coletados, definindo um plano para a coleta e como a informação será armazenada.
 
@@ -147,14 +147,17 @@ A justificativa para este estudo de um caso particular se dá pelo motivo de que
 
 \section{Seleção} \label{sec:Seleção}
 
-A instituição selecionada para este estudo de caso foi o Tribunal de Contas da União. Para aferir a qualidade de sistemas desenvolvidos internamento no TCU, a equipe responsável pela qualidade estipulou intervalos qualitativos para métricas exportadas pelo Sonar de acordo com pesquisas bibliográficas e pelo próprio consenso entre as equipes de desenvolvimento, analisando tanto projetos antigos, quando ainda não havia tamanha necessidade em aumentar a qualidade interna do código, como em projetos mais recentes, quando essa necessidade passou a existir com maior intensidade. A interpretação e visualização de dados extraídos do \textit{Sonar} são feitas através do \textit{plugin Total Quality}, tendo sido esse \textit{plugin} responsável pelos cálculos cujos resultados apresentados em um \textit{dashboard} indicam valores para métricas de diferentes formas, entre elas destacam-se rankings e acompanhamento histórico. A aferição da qualidade do código fonte no TCU não é feita com uma frequência já definida, sendo colocada em execução de maneira relativa para cada equipe, normalmente quando essa questão é apresentada em reunião como algo negativo, não havendo uma política já estabelecida para isso.
+A instituição selecionada para este estudo de caso foi o Tribunal de Contas da União. Para aferir a qualidade de sistemas desenvolvidos internamento no TCU, a equipe responsável pela qualidade estipulou valores para os indicadores das métricas exportadas pelo Sonar de acordo com pesquisas bibliográficas e pelo próprio consenso entre as equipes de desenvolvimento, analisando tanto projetos antigos, quando ainda não havia tamanha necessidade em aumentar a qualidade interna do código, como em projetos mais recentes, quando essa necessidade passou a existir com maior intensidade. A interpretação e visualização de dados extraídos do \textit{Sonar} são feitas através do \textit{plugin Total Quality}, tendo sido esse \textit{plugin} responsável pelos cálculos cujos resultados apresentados em um \textit{dashboard} indicam valores para métricas de diferentes formas, entre elas destacam-se rankings e acompanhamento histórico. A aferição da qualidade do código fonte no TCU não é feita com uma frequência já definida, sendo colocada em execução de maneira relativa para cada equipe, normalmente quando essa questão é apresentada em reunião como algo negativo, não havendo uma política já estabelecida para isso.
 
-As dificuldades encontradas pelas equipes de desenvolvimento no TCU estão concentradas no fato de não haver consenso em relação a atualização dos intervalos qualitativos das métricas. Além disso, após atualizações na ferramenta de análise estática \textit{Sonar}, algumas métricas deixaram de ser medidas, o que tem causado inconsistências na apresentação dos dados relacionados à qualidade do código fonte no \textit{dashboard}.
+As dificuldades encontradas pelas equipes de desenvolvimento no TCU estão concentradas no fato de não haver consenso em relação a atualização dos indicadores das métricas. Além disso, após atualizações na ferramenta de análise estática \textit{Sonar}, algumas métricas deixaram de ser medidas, o que tem causado inconsistências na apresentação dos dados relacionados à qualidade do código fonte no \textit{dashboard}.
+
+Portanto a seleção justifica-se pelo fato do TCU possuir um ambiente onde o estudo da eficácia e eficiência da solução de \textit{data warehousing} pode complementar o monitoramento de métricas de código-fonte já realizado no local.
+
 
 
 \section{Fonte dos Dados Coletados e Método de Coleta} \label{sec:Fonte e Método de Coleta de Dados}
 
-Nesse estudo de caso, os dados foram coletados através de registros de observações em campo, questionários e resultados gerados pela própria solução após análise direta do código fonte.
+Nesse estudo de caso, os dados serão coletados através de registros de observações em campo, questionários e resultados gerados pela própria solução após análise direta do código fonte.
 
 Os registros oriundos de observações em campo são coletados durante encontros realizados no próprio TCU com a equipe responsável pela tomada de decisões de qualidade de código fonte. Nesses encontros, a solução proposta é utilizada e qualquer atitude relacionada ao seu uso pela equipe é registrado.
 
