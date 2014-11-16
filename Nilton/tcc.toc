@@ -42,18 +42,20 @@
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
 \contentsline {chapter}{\chapternumberline {5}\MakeTextUppercase {Projeto de estudo de Caso}}{57}{chapter.5}
 \contentsline {section}{\numberline {5.1}Defini\IeC {\c c}\IeC {\~a}o}{57}{section.5.1}
-\contentsline {subsection}{\numberline {5.1.1}Problema}{58}{subsection.5.1.1}
-\contentsline {subsection}{\numberline {5.1.2}Quest\IeC {\~a}o de Pesquisa}{58}{subsection.5.1.2}
-\contentsline {section}{\numberline {5.2}\textit {Background}}{61}{section.5.2}
-\contentsline {section}{\numberline {5.3}Fonte dos dados coletados e m\IeC {\'e}todo de coleta}{62}{section.5.3}
-\contentsline {section}{\numberline {5.4}Amea\IeC {\c c}as a validade do estudo de caso}{62}{section.5.4}
-\contentsline {section}{\numberline {5.5}Processo de an\IeC {\'a}lise dos dados}{63}{section.5.5}
-\contentsline {section}{\numberline {5.6}Considera\IeC {\c c}\IeC {\~o}es finais do cap\IeC {\'\i }tulo}{64}{section.5.6}
+\contentsline {section}{\numberline {5.2}Background}{59}{section.5.2}
+\contentsline {subsection}{\numberline {5.2.1}Trabalhos Antecedentes}{59}{subsection.5.2.1}
+\contentsline {subsection}{\numberline {5.2.2}Quest\IeC {\~a}o de Pesquisa}{59}{subsection.5.2.2}
+\contentsline {section}{\numberline {5.3}Design}{62}{section.5.3}
+\contentsline {section}{\numberline {5.4}Sele\IeC {\c c}\IeC {\~a}o}{63}{section.5.4}
+\contentsline {section}{\numberline {5.5}Fonte dos Dados Coletados e M\IeC {\'e}todo de Coleta}{65}{section.5.5}
+\contentsline {section}{\numberline {5.6}Processo de an\IeC {\'a}lise dos dados}{66}{section.5.6}
+\contentsline {section}{\numberline {5.7}Amea\IeC {\c c}as a validade do estudo de caso}{66}{section.5.7}
+\contentsline {section}{\numberline {5.8}Considera\IeC {\c c}\IeC {\~o}es finais do cap\IeC {\'\i }tulo}{67}{section.5.8}
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {6}\MakeTextUppercase {Conclus\IeC {\~a}o}}{65}{chapter.6}
+\contentsline {chapter}{\chapternumberline {6}\MakeTextUppercase {Conclus\IeC {\~a}o}}{68}{chapter.6}
 \vspace {\cftbeforechapterskip }
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
-\contentsline {chapter}{Refer\^encias}{66}{section*.46}
+\contentsline {chapter}{Refer\^encias}{69}{section*.48}
 \renewcommand *{\cftappendixname }{AP\^ENDICE \space }
 \cftinsert {AAA}
 \renewcommand *{\cftappendixname }{ANEXO \space }

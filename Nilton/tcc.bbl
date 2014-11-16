@@ -36,6 +36,12 @@ Dispon{\'\i}vel em: \url{http://drum.lib.umd.edu//handle/1903/7517}.}
 {BRASIL. Instrução normativa número 4.
 2014.}
 
+\bibitem[Brereton, Kitchenham e Budgen 2008]{case-study-template-2008}
+\abntrefinfo{Brereton, Kitchenham e Budgen}{BRERETON; KITCHENHAM; BUDGEN}{2008}
+{BRERETON, P.; KITCHENHAM, B.; BUDGEN, D. Using a protocol template for case
+  study planning. In:  \emph{Proceedings of EASE 2008}. [S.l.]: BCS-eWiC,
+  2008.}
+
 \bibitem[Budd 2002]{budd_introduction_2002}
 \abntrefinfo{Budd}{BUDD}{2002}
 {BUDD, T. \emph{An introduction to object-oriented programming}. 3rd ed. ed.
@@ -235,6 +241,12 @@ Dispon{\'\i}vel em:
 {SOFTEX. {MPS} {BR}-guia de implementação – parte 2: Fundamentação para
   implementação do nível f do mr-mps-sv:2012.
 2013.}
+
+\bibitem[Stake 1995]{stake_art_1995}
+\abntrefinfo{Stake}{STAKE}{1995}
+{STAKE, R.~E. \emph{The art of case study research}. Thousand Oaks: Sage
+  Publications, 1995.
+ISBN 0803957661.}
 
 \bibitem[Times 2012]{valeria2012}
 \abntrefinfo{Times}{TIMES}{2012}

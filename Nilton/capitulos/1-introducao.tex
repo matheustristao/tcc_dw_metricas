@@ -1,4 +1,5 @@
 \chapter{Introdução}
+\label{chap:introdução} 
 
 \section{Contexto}
 
@@ -16,6 +17,7 @@ Segundo \cite{beck1999}\cite{fowler1999refactoring} a qualidade de \textit{softw
 \cite{rego_monitoramento_2014} propôs uma solução para o monitoramento de métricas de código-fonte com suporte de um ambiente de \textit{Data Warehousing} que será explicada no capítulo 5. Uma das principais contribuições desse trabalho será evidenciar a eficácia e a eficiência da proposta por \citeonline{rego_monitoramento_2014} no aferimento de qualidade do software adquirido de uma empresa terceirizada para equipe responsável do Órgão público e seus demais envolvidos.
 
 \section{Problema}
+\label{sec:problema} 
 
 Com foco na avaliação de controles gerais de Tecnologia da Informação nos órgãos públicos, em 2011, o TCU detectou, por meio de auditorias de governança de TI, em diversos órgãos uma considerável frequência de irregularidades relacionadas à inexistência, deficiências e a falhas de processos de \textit{software} que comprometem a eficácia e eficiência das contratações de desenvolvimento de sistemas \cite{Acordao381_2011}. 
 
@@ -32,11 +34,27 @@ O objetivo geral deste trabalho é realizar um estudo de caso onde será analisa
 a eficácia e a eficiência no uso de DW para o monitoramento de métricas de código fonte para assistir ao processo de aferição de qualidade interna dos produtos de software desenvolvido por uma empresa terceirizada para uma organização pública brasileira a partir das métricas e cenários de limpeza coletados pelo código-fonte do \textit{software} desenvolvido, de questionário aos principais envolvidos no processo de verificação de qualidade e da observação em campo. Dentre os objetivos específicos deste trabalho estão:
 
 \begin{easylist}[itemize]
-& Avaliar a eficácia e eficiência da Solução de DW no processo de aferição de qualidade interna dos produtos de software desenvolvido por terceirizadas.
-& Definir, projetar e caracterizar o estudo de caso.
-& Coletar métricas e cenários de limpeza a partir código-fonte do \textit{software} adquirido pela organização selecionada;
+& Levantar fundamentação teórica que servirá de base para todo o trabalho.
+
+& Apresentar solução desenvolvida por \citeonline{rego_monitoramento_2014} para monitoramento de métricas através de \textit{Data Warehousing}. 
+
+& Definir, projetar e caracterizar o do estudo de caso.
+
+& Realizar uma análise estatística para desenvolver um intervalo qualitativo para taxa de oportunidade de melhoria de código apresentada na solução.
+
+& Criar novos cenários de limpeza que agreguem valor para o órgão no qual será realizado o estudo de caso.  
+
+& Construir um \textit{dashboard}, com auxílio das ferramentas descritas no capítulo \ref{chap:arquitetura},  para dar maior visibilidade para as métricas e cenários de limpeza. 
+
+& Coletar os dados que surgirão como respostas das questões específicas elaboradas para o estudo de caso, como por exemplo o nível de satisfação quanto ao uso da solução ou qual a taxa de oportunidade de melhoria de código em um determinado intervalo de tempo.
+
+& Coletar métricas e cenários de limpeza a partir código-fonte do \textit{software} adquirido pela organização selecionada.
+
 & Realizar análise dos dados coletados.
-& Relatar os resultados obtidos.
+
+& Relatar resultados obtidos.
+	
+
 \end{easylist}
 
 \section{Metodologia de pesquisa}
@@ -114,7 +132,7 @@ Esse trabalho está dividido em 5 capítulos:
 	
 	& \textbf{Capítulo 1 - Introdução:} Esse capítulo tem como objetivo apresentar o contexto que esse trabalho está inserido, o problema sobre o qual ele buscará resolver, qual a justificativa, os objetivos da sua realização e metodologia de pesquisa adotada.
 	& \textbf{Capítulo 2 - Métricas de Software:} Capítulo responsável pela explicação teórica a respeito do que são métricas de código e como elas foram utilizadas no desenvolvimento da solução que esse trabalho busca analisar.
-	& \textbf{Capítulo 3 - Contratações de Fornecedores de Desenvolvimento de Software:} apresenta-se as principais informações referentes à Contratação de Fornecedores de Desenvolvimento de Software. Para isso, o capítulo é iniciado com uma visão geral sobre a importância das contratações e suas principais características. Posteriormente, é apresentado um resumo das legislações relacionadas à Contratação de Soluções de Tecnologia da Informação.
+	& \textbf{Capítulo 3 - Contratações de Fornecedores de Desenvolvimento de Software:} apresenta-se as principais informações referentes à Contratação de Fornecedores de Desenvolvimento de Software. Para isso, o capítulo é iniciado com uma visão geral sobre a importância das contratações e suas principais características. Posteriormente, é apresentado um resumo da Instrução Normativa 04.
 	& \textbf{Capítulo 4 - Data Warehouse:} Nesse capítulo serão apresentados conceitos teóricos sobre \textit{Data Warehousing}, assim como a maneira como foi desenvolvido e como funciona o ambiente de \textit{Data Warehouse} para armazenamento de métricas de código fonte.
 	& \textbf{Capítulo 5 - Projeto de estudo de caso:} é apresentado o projeto do estudo de caso resultante do passo planejar Estudo de Caso, buscando demonstrar o escopo e elaborar um protocolo para o estudo de caso que será realizado. Elementos de pesquisa serão identificados e explicados como o problema a ser resolvido, os objetivos a serem alcançados no estudo de caso, quais os métodos de coleta e a análise dos dados.
 	& \textbf{Capítulo 6 - Conclusão:} Além das considerações finais dessa primeira parte do trabalho, serão descritos objetivos para o trabalho de conclusão de curso dois.
