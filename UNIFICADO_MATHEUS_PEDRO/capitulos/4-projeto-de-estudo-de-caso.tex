@@ -1,13 +1,13 @@
 \chapter{Projeto de Estudo de Caso}
 
-Este capítulo irá apresentar a estratégia de pesquisa adotada durante o trabalho, buscando elaborar um protocolo para o estudo de caso que será realizado. Elementos de pesquisa como o problema a ser resolvido e quais são os objetivos a serem alcançados serão identificados e explicados. Também será apresentado o método para coleta dos dados e como eles serão analisados.
+Neste capítulo será apresentada a estratégia de pesquisa adotada durante o trabalho, onde será descrito o protocolo para o estudo de caso que será realizado. Elementos de pesquisa como o problema a ser resolvido e quais são os objetivos a serem alcançados serão identificados e explicados. Também será apresentado o método para coleta dos dados e como eles serão analisados.
 
 
 \section{Definição Sobre Estudo de Caso}
 
-O estudo de caso é uma estratégia de pesquisa utilizada para investigar um tópico de maneira empírica através de um conjunto de procedimentos pré-especificados \cite{yin2001estudo}. Buscando diferenciar o estudo de caso de outras estratégias de pesquisa, \citeonline{yin2001estudo} esclarece que um estudo de caso deve focalizar acontecimentos contemporâneos, não havendo assim exigência quanto ao controle sobre os eventos comportamentais. Dessa forma, o estudo de caso difere de um experimento pelo motivo que neste há controle e manipulação sobre os eventos, diferentemente do estudo de caso, que não os manipula. Em suma, a essência de qualquer estudo de caso reside em esclarecer uma decisão ou um conjunto de decisões, considerando o motivo pelo qual elas foram tomadas e qual os resultados das suas implementações \cite{schramm_notes_1971}. 
+O estudo de caso é uma estratégia de pesquisa utilizada para investigar um tópico de maneira empírica através de um conjunto de procedimentos pré-especificados \cite{yin2001estudo}. Buscando diferenciar o estudo de caso de outras estratégias de pesquisa, \citeonline{yin2001estudo} esclarece que um estudo de caso deve focar em acontecimentos contemporâneos, não havendo assim exigência quanto ao controle sobre os eventos comportamentais. Dessa forma, o estudo de caso difere de um experimento pelo motivo que neste há controle e manipulação sobre as variáveis observadas, diferentemente do estudo de caso, que não os manipula. Em suma, a essência de qualquer estudo de caso reside em esclarecer uma decisão ou um conjunto de decisões, considerando o motivo pelo qual elas foram tomadas e qual os resultados das suas implementações \cite{schramm_notes_1971}. 
 
-Uma vantagem dos estudos de caso encontra-se no fato deles serem mais fáceis de serem planejados, além de possuírem maior caráter realista, porém as desvantagens esbarram no fato dos resultados serem mais difíceis de serem interpretados e generalizados, ou seja, é possível mostrar os efeitos de uma situação típica, porém é necessária maior análise para que se possa generalizar a outras situações \cite{wohlin2012experimentation}.
+Uma vantagem dos estudos de caso encontra-se no fato deles serem mais fáceis de serem planejados, além de possuírem maior caráter realista. Porém, as desvantagens esbarram no fato dos resultados serem mais difíceis de ser generalizados, ou seja, é possível mostrar os efeitos de uma situação típica, porém é necessária maior análise para que se possa generalizar a outras situações \cite{wohlin2012experimentation}.
 
 
 A estrutura do protocolo de estudo de caso proposta se baseia em \citeonline{case-study-template-2008} e se apresenta dividida nos seguintes tópicos, cada um com seu objetivo específico:
@@ -37,11 +37,15 @@ Esta seção contém referências sobre os trabalhos que antecederam esse estudo
 
 O principal trabalho que antecede essa ideia foi desenvolvido por \citeonline{rego_monitoramento_2014}, no qual a solução para monitoramento de métricas de código fonte utilizando \textit{Data Warehouse} foi desenvolvida. \citeonline{novello_uma_2006} utilizou \textit{Data Warehouse} para monitoramento de métricas no processo de desenvolvimento de software, porém não essas métricas não eram de código fonte. Não foram encontrados outros trabalhos que usassem \textit{Data Warehouse} para aferir qualidade do que está sendo desenvolvido relacionando métricas de código fonte a cenários de limpeza, tal qual foi feito por \citeonline{rego_monitoramento_2014}.
 
+
+\textcolor{red}{\todo[inline, color=yellow!20]{Cuidado com essa afirmação. Ela não é verdadeira! O trabalho que realizei com o Baufaker trata de um estudo preliminar e se baseia em uma série de outros trabalhos. Conferir e citar tanto os trabalhos de Marinescu (interpretação de métricas) e seu grupo. O trabalho do Paulo Meirelles; Os trabalhos da turma que usou DW para coletar métricas... O trabalho do Baufaker tem essas citações, mas elas precisarão ser atualizadas/investigadas ao longo do TCC2. Evoluiremos o trabalho iniciado com o Baufaker sim, mas trata-se de uma pesquisa inicial}}
+
+
 \subsection{Questão de Pesquisa}
 
 Toda pesquisa se inicia com algum tipo de problema, porém nem todo problema é passível de tratamento científico. Para que um problema seja de natureza científica ele deve estar envolvido a variáveis que podem ser testadas \cite{gil_como_2002}. Por causa disso, \citeonline{gil_como_2002} ainda define que todo problema deve ser empírico e suscetível de solução, além de ser delimitado a uma dimensão viável.
 
-A questão de pesquisa deriva do problema identificado e busca definir o propósito da medição e o objeto que será medido, seja ele produto, processo ou recurso. Além disso deve caracterizar o assunto a ser tratado e o ponto de vista que se delimita o escopo \cite{Basili96b} \cite{caldiera_goal_1994}.
+A questão de pesquisa deriva do problema identificado e busca definir o propósito da medição e o objeto que será medido, seja ele produto, processo ou recurso. Além disso, deve caracterizar o assunto a ser tratado e o ponto de vista que se delimita o escopo \cite{Basili96b} \cite{caldiera_goal_1994}.
 
 Para atender a questão de pesquisa foi utilizado o mecanismo goal-question-metrics (GQM). O GQM combina em si muitas das técnicas de medição e as generaliza para incorporar processos, produtos ou recursos, o que torna seu uso adaptável a ambientes diferentes \cite{caldiera_goal_1994}. O GQM possui objetivos específicos para a questão de pesquisa, cada um contendo questões específicas que buscam responder através da coleta de métricas a questão geral de pesquisa e assim atender o problema do estudo de caso \cite{Basili96b}. A estrutura do estudo de caso englobando o GQM utilizado é apresentada da seguinte maneira:  
 
@@ -55,7 +59,7 @@ Para atender a questão de pesquisa foi utilizado o mecanismo goal-question-metr
 
 Aplicando o modelo estrutural adotado e levando em conta a análise do problema identificado na seção \ref{intro_problema} foi elaborada a seguinte questão de pesquisa:
 
-\textbf{Questão de Pesquisa: \textit{O uso de um ambiente de Data Warehousing para aferição e monitoramento da qualidade interna do código-fonte é eficaz e eficiente do ponto de vista da equipe de qualidade?}}
+\textbf{Questão de Pesquisa: \textit{O uso de um ambiente de Data Warehousing para aferição e monitoramento da qualidade interna do código-fonte é eficaz e eficiente do ponto de vista da equipe de qualidade, no contexto do desenvolvimento de projetos internos do TCU?}}
 
 Os objetivos identificados para responder a questão geral de pesquisa, bem como suas questões específicas e as métricas levantadas para cada questão serão apresentadas a seguir.
 
@@ -147,23 +151,22 @@ A justificativa para este estudo de um caso particular se dá pelo motivo de que
 
 \section{Seleção} \label{sec:Seleção}
 
-A instituição selecionada para este estudo de caso foi o Tribunal de Contas da União. Para aferir a qualidade de sistemas desenvolvidos internamento no TCU, a equipe responsável pela qualidade estipulou valores para os indicadores das métricas exportadas pelo Sonar de acordo com pesquisas bibliográficas e pelo próprio consenso entre as equipes de desenvolvimento, analisando tanto projetos antigos, quando ainda não havia tamanha necessidade em aumentar a qualidade interna do código, como em projetos mais recentes, quando essa necessidade passou a existir com maior intensidade. A interpretação e visualização de dados extraídos do \textit{Sonar} são feitas através do \textit{plugin Total Quality}, tendo sido esse \textit{plugin} responsável pelos cálculos cujos resultados apresentados em um \textit{dashboard} indicam valores para métricas de diferentes formas, entre elas destacam-se rankings e acompanhamento histórico. A aferição da qualidade do código fonte no TCU não é feita com uma frequência já definida, sendo colocada em execução de maneira relativa para cada equipe, normalmente quando essa questão é apresentada em reunião como algo negativo, não havendo uma política já estabelecida para isso.
-
+A organização selecionada para este estudo de caso foi, o órgão público, Tribunal de Contas da União-TCU. Para aferir a qualidade de sistemas desenvolvidos internamente no TCU, ou seja, aquele que não é contratado, a equipe responsável pela qualidade estipulou valores para os indicadores das métricas exportadas pela ferramenta Sonar de acordo com pesquisas bibliográficas e pelo próprio consenso entre as equipes de desenvolvimento. Para tanto, essa equipe analisou tanto projetos desenvolvidos anteriores ao uso da prática de monitoramento e melhoria contínua da qualidade interna do código-fonte, quanto os projetos mais recentes, que passaram a fazer uso dessa prática no seu ciclo de desenvolvimento. A interpretação e visualização de dados extraídos da ferramenta  \textit{Sonar} são feitas por meio do \textit{plugin Total Quality}. Esse indicador é composto por diferentes tipos de medida/cálculos, sendo os resultados apresentados em um \textit{dashboard} que permite visualizar os valores para as métricas de diferentes formas, entre elas destacam-se rankings e acompanhamento histórico. Cabe ressaltar que, a prática de monitoramento da qualidade do código-fonte no TCU ainda não pode ser considerada institucionalizada, uma vez que, esta prática não é realizada de forma sistemática por todas as equipe de desenvolvimento interno do referido órgão.
 As dificuldades encontradas pelas equipes de desenvolvimento no TCU estão concentradas no fato de não haver consenso em relação a atualização dos indicadores das métricas. Além disso, após atualizações na ferramenta de análise estática \textit{Sonar}, algumas métricas deixaram de ser medidas, o que tem causado inconsistências na apresentação dos dados relacionados à qualidade do código fonte no \textit{dashboard}.
 
-Portanto a seleção justifica-se pelo fato do TCU possuir um ambiente onde o estudo da eficácia e eficiência da solução de \textit{data warehousing} pode complementar o monitoramento de métricas de código-fonte já realizado no local.
+Portanto, a seleção justifica-se pelo fato do TCU possuir um ambiente onde o estudo da eficácia e eficiência da solução de \textit{data warehousing} pode complementar o monitoramento de métricas de código-fonte já realizado no local.
 
 
 
 \section{Fonte dos Dados Coletados e Método de Coleta} \label{sec:Fonte e Método de Coleta de Dados}
 
-Nesse estudo de caso, os dados serão coletados através de registros de observações em campo, questionários e resultados gerados pela própria solução após análise direta do código fonte.
+Neste estudo de caso, os dados serão coletados através de registros de observações em campo, questionários e resultados gerados pela própria solução a ser investigada, após análise direta do código fonte.
 
-Os registros oriundos de observações em campo são coletados durante encontros realizados no próprio TCU com a equipe responsável pela tomada de decisões de qualidade de código fonte. Nesses encontros, a solução proposta é utilizada e qualquer atitude relacionada ao seu uso pela equipe é registrado.
+Os registros oriundos de observações em campo são coletados durante encontros realizados no próprio TCU com a equipe responsável pela tomada de decisões de qualidade de código fonte. Nesses encontros, a solução proposta será utilizada e qualquer atitude relacionada ao seu uso pela equipe será registrado para analises posteriores.
 
 A adoção de questionários foi utilizada tanto para dados qualitativos quanto para dados quantitativos. Um exemplo disso é a questão específica 06, em que se busca saber a proporção de decisões tomadas influenciadas pela solução via questionário com a empresa. O uso de questionário na questão 06 é quantitativo, enquanto na questão 08 é feito um questionário para saber o nível de satisfação da empresa quanto ao uso da solução, sendo esse um tipo de dado qualitativo.
 
-Dados resultantes da própria ferramenta, como gráficos automaticamente gerados, serão coletados a medida que a ferramenta for utilizada ao longo do tempo.
+Dados resultantes da própria solução em análise, como gráficos automaticamente gerados, serão coletados a medida que a ferramenta for utilizada ao longo do tempo.
 
 \section{Processo de Análise dos Dados} \label{sec:Análise}
 
@@ -184,14 +187,14 @@ Análise dos dados coletados durante o estudo de caso a ser realizado no TCU ser
 
 \begin{easylist}[itemize]	
 
-& \textbf{Validade do constructo: } A validade de construção está presente na fase de coleta de dados, quando deve ser evidenciado as múltiplas fontes de evidência e a coleta de um conjunto de métricas para que se possa saber exatamente o que medir e quais dados são relevantes para o estudo, de forma a responder as questões de pesquisa \cite{yin2001estudo}. Buscou-se garantir a validade de construção ao definir objetivos com evidências diferentes. Estas, por sua vez, estão diretamente relacionadas com os objetivos do estudo de caso e os objetivos do trabalho. 
+& \textbf{Validade do constructo: } A validade de construção está presente na fase de coleta de dados, quando deve ser evidenciado as múltiplas fontes de evidência e a coleta de um conjunto de métricas para que se possa saber exatamente o que medir e quais dados são relevantes para o estudo, de forma a responder as questões de pesquisa \cite{yin2001estudo}. Buscou-se garantir a validade de construção ao definir objetivos com evidências diferentes. \textcolor{red}{quais? ..., como por exemplo,...} Estas, por sua vez, estão diretamente relacionadas com os objetivos do estudo de caso e os objetivos do trabalho. \textcolor{red}{O uso do GQM também mitiga a validade de connstrução, uma vez que estabelece uma lógica entre a questão de pesquisa e as métricas que serão analisadas para respondê-la}
 
 & \textbf{Validade interna: } Para \citeonline{yin2001estudo} o uso de várias fontes de dados e métodos de coleta permite a triangulação, uma técnica para confirmar se os resultados de diversas fontes e de diversos métodos convergem. Dessa forma é possível aumentar a validade interna do estudo e aumentar a força das conclusões.
-A triangulação de dados se deu pelo resultado da solução de \textit{Data Warehouse} que utiliza o código-fonte (explicada no capítulo \ref{chap:arquitetura} ) , pela análise de questionários e pelos dados coletados através de entrevistas.
+A triangulação de dados se dará pelos medidas extraídas do código-fonte por meio da solução de \textit{DWing} (explicada no capítulo \ref{chap:arquitetura} ), pela análise de questionários e pelos dados coletados através de entrevistas com as equipes de desenvolvimento de de qualidade do órgão.
 
-& \textbf{Validade externa: } Por este ser um caso único, a generalização do estudo de caso se dá de maneira pobre \cite{yin2001estudo}. Assim é necessária a utilização do estudo em múltiplos casos para que se comprove a generalidade dos resultados. Como este trabalho é o primeiro a verificar a eficácia e eficiência da solução para o estudo de caso no TCU, não há como correlacionar os resultados obtidos a nenhum outro estudo.
+& \textbf{Validade externa: } Por este ser um caso único, a generalização não poderá ser alcançada \cite{yin2001estudo}. Assim, é necessária a utilização do estudo em múltiplos casos para que se comprove a generalidade dos resultados. Como este trabalho é o primeiro a verificar a eficácia e eficiência da solução para o estudo de caso no TCU, não há como correlacionar os resultados obtidos a nenhum outro estudo.
 
-& \textbf{Confiabilidade: } Com relação a confiabilidade, \citeonline{yin2001estudo} associa à repetibilidade, desde que seja usada a mesma fonte de dados. Nesse trabalho o protocolo de estudo de caso apresentado nessa seção garantem a repetibilidade desse trabalho e consequentemente a validade relacionada à confiabilidade.
+& \textbf{Confiabilidade: } Com relação a confiabilidade, \citeonline{yin2001estudo} associa à repetibilidade, desde que seja usada a mesma fonte de dados. Nesse trabalho o protocolo de estudo de caso, além da base de dados coletados permitirá a repetibilidade deste estudo e consequentemente alcançará validade relacionada à confiabilidade.
 
 \end{easylist}	
 

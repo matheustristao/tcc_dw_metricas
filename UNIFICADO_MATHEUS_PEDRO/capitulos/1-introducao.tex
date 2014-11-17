@@ -11,22 +11,22 @@ Além disso, o processo de medição da qualidade interna do software possibilit
 \section{Problema}
 \label{intro_problema}
 
-Apesar de métricas de código fonte serem coletadas facilmente através de ferramentas como o \textit{Sonar} e o \textit{Analizo}, sua interpretação ainda pode ser um desafio que se não for superado pode tornar essa coleta algo sem muito valor significativo. Ferramentas de análise de métricas frequentemente exportam seu resultado como valores numéricos isolados \cite{Meirelles2013} e isso gera uma dificuldade em interpretar os dados disponibilizados por tais ferramentas, afetando a avaliação de projetos de software onde são um fator essencial para a tomada de decisão à nível de gerenciamento de projeto, de processo, de engenharia de software e de outros processos de apoio \cite{pandian_software_2004}. Surge a partir desse fato a necessidade de uma solução que apoie a tomada de decisão, associando esses valores numéricos a elementos mais fáceis de serem interpretados, como cenários de limpeza. 
+Apesar de métricas de código-fonte serem coletadas facilmente com o auxílio de ferramentas de análise estática de código, como, por exemplo, por meio do \textit{Sonar} e o \textit{Analizo}, sua interpretação ainda pode ser um desafio que se não for superado pode tornar essa coleta algo sem muito valor observável. Ferramentas de análise de métricas frequentemente exportam seu resultado como valores numéricos isolados \cite{Meirelles2013} e isso gera uma dificuldade em interpretar os dados disponibilizados por tais ferramentas, afetando a avaliação de projetos de software onde são um fator essencial para a tomada de decisão à nível de gerenciamento de projeto, de processo, de engenharia de software e de outros processos de apoio \cite{pandian_software_2004}. Surge a partir desse fato a necessidade de uma solução que apoie a tomada de decisão, associando esses valores numéricos à uma semântica de interpretação, como cenários de limpeza. \textcolor{red}{INSERIR REFERENCIAS: CODESMELLS, MARINESCU, MACHINI,...}
 
-Buscando facilitar a interpretação das métricas de código fonte, bem como apoiar as decisões de refatoração a serem tomadas, \citeonline{rego_monitoramento_2014} elaborou um ambiente de DW para armazenamento de métricas. Dá-se então a necessidade de investigar, por meio de estudo de caso, a eficácia e eficiência da solução de DW proposta no contexto do problema descrito. Assim foi criada a seguinte questão geral de pesquisa:
+Buscando facilitar a interpretação das métricas de código fonte, bem como apoiar as decisões de refatoração a serem tomadas, \citeonline{rego_monitoramento_2014} construiu uma solução que faz uso de um ambiente de DW para armazenamento e monitoramento de métricas. Dá-se então a necessidade de investigar, por meio de estudo de caso, a eficácia e eficiência da solução de DW proposta no contexto do problema descrito. Assim foi criada a seguinte questão geral de pesquisa:
 
 \textit{O uso de um ambiente de Data Warehousing para aferição e monitoramento da qualidade interna do código-fonte é eficaz e eficiente do ponto de vista da equipe de qualidade?}
 
 
 \section{Objetivos}
 
-O objetivo geral deste trabalho consiste na análise da eficácia e eficiência do uso de \textit{Data Warehousing} no monitoramento de métricas de código fonte. Como este trabalho é dividido em duas partes, seus objetivos também foram divididos dessa forma, sendo os objetivos da primeira parte:
+O objetivo geral deste trabalho consiste na análise da eficácia e eficiência do uso de \textit{Data Warehousing} no monitoramento de métricas de código fonte. Como este trabalho é dividido em duas partes, seus objetivos também foram divididos dessa forma, sendo os objetivos da primeira parte, são:
 
 \begin{easylist}[itemize]	
 	
-	& Levantar fundamentação teórica que servirá de base para todo o trabalho.
-	& Apresentar solução desenvolvida por \citeonline{rego_monitoramento_2014} para monitoramento de métricas através de \textit{Data Warehousing}. 
-	& Definir, projetar e caracterizar o do estudo de caso.
+	& levantar fundamentação teórica que servirá de base para todo o trabalho;
+	& analisar solução desenvolvida por \citeonline{rego_monitoramento_2014} para monitoramento de métricas por meio de um ambiente de \textit{Data Warehousing}; e
+	& definir, projetar e caracterizar o do estudo de caso.
 	
 	
 	\end{easylist}	
@@ -35,10 +35,11 @@ A segunda parte deste trabalho, a ser desenvolvida no primeiro semestre de 2015,
 
 \begin{easylist}[itemize]	
 	
-	& Realizar uma análise estatística para desenvolver um intervalo qualitativo para taxa de oportunidade de melhoria de código apresentada na solução.
-	& Coletar os dados que surgirão como respostas das questões específicas elaboradas para o estudo de caso, como por exemplo o nível de satisfação quanto ao uso da solução ou qual a taxa de oportunidade de melhoria de código em um determinado intervalo de tempo.
-	& Realizar análise dos dados coletados.
-	& Relatar resultados obtidos.
+	& realizar um estudo com uso de estatística descritiva para analisar o comportamento da taxa de oportunidade de melhoria de código-fobte, apresentada na solução. Espera-se identificar com esse estudo, padrões, tendências e possivelmente, valores de referência para interpretação desse indicador;
+	& coletar os dados que surgirão como respostas das questões específicas elaboradas para o estudo de caso, como por exemplo o nível de satisfação quanto ao uso da solução ou qual a taxa de oportunidade de melhoria de código em um determinado intervalo de tempo.
+	& coletar dados de um projeto em desenvolvimento na organização selecionada;
+	& realizar análise dos dados coletados.
+	& relatar resultados obtidos.
 	
 	\end{easylist}
 
@@ -75,7 +76,7 @@ As etapas necessárias para o desenvolvimento do projeto de estudo de caso se ba
 \FloatBarrier
 
 
-Os passos específicos do estudo de caso são apresentados após a identificação do tipo de pesquisa. Assim a partir do passo de determinação do plano até o passo de seleção da amostra são apresentados o projeto de estudo de caso onde serão identificados elementos como o problema a ser resolvido, a questão de pesquisa e demais tópicos definidos no protocolo de estudo de caso. Em seguida, a coleta de dados é feita através de questionários, entrevistas informais, observações em campo e resultados provenientes da solução de DW. A etapa de análise e interpretação dos dados  refere-se às atividades de categorização, exibição, verificação e conclusão de dados de natureza qualitativa e quantitava. Por fim, a redação do relatório de pesquisa apresenta a redação dos resultados de forma adequada para o leitor alvo.
+Os passos específicos do estudo de caso são apresentados após a identificação do tipo de pesquisa. Assim a partir do passo de determinação do plano até o passo de seleção da amostra são apresentados o projeto de estudo de caso onde serão identificados elementos como o problema a ser resolvido, a questão de pesquisa e demais tópicos definidos no protocolo de estudo de caso. Em seguida, a coleta de dados é feita através de questionários, entrevistas informais, observações em campo e resultados provenientes da solução de DWing que será utilizada. A etapa de análise e interpretação dos dados  refere-se às atividades de categorização, exibição, verificação e conclusão de dados de natureza qualitativa e quantitava. Por fim, a redação do relatório de pesquisa apresenta a redação dos resultados de forma adequada para o leitor alvo.
 
 
 
