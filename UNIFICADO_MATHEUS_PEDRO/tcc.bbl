@@ -150,6 +150,13 @@ ISBN 0471200247, 9780471200246.}
   \emph{Software Maintenance, 2005. ICSM'05. Proceedings of the 21st IEEE
   International Conference on}. [S.l.], 2005. p. 701--704.}
 
+\bibitem[Martin 2008]{Martin2008}
+\abntrefinfo{Martin}{MARTIN}{2008}
+{MARTIN, R.~C. \emph{Clean Code: A Handbook of Agile Software Craftsmanship}.
+  [s.n.], 2008. 464~p.
+ISBN 9780132350884. Dispon{\'\i}vel em:
+  \url{http://portal.acm.org/citation.cfm?id=1388398}.}
+
 \bibitem[McCabe 1976]{McCabe76}
 \abntrefinfo{McCabe}{MCCABE}{1976}
 {MCCABE, T.~J. {A Complexity Measure}.
