@@ -3,35 +3,37 @@
 
 \section{Contexto}
 
-Segundo\cite{WillcocksTercerizacao} a terceirização é uma prática cada vez mais adotada por organizações. A terceirização de atividades, ou seja, o ato de transferir para fora da organização uma parte do seu processo produtivo, não é uma prática recente, desde há muitos anos que as atividades e processos que eram muito específicos dentro de uma organização foram transferidos, de uma forma parcial ou total, para outras organizações ou agentes externo \cite{leite_terceirizacao}.
+Segundo\cite{WillcocksTercerizacao} a terceirização do desenvolvimento de software é uma prática cada vez mais adotada por organizações. A terceirização de atividades, ou seja, o ato de transferir para fora da organização uma parte do seu processo produtivo, não é uma prática recente. Atividades e processos que eram muito específicos dentro de uma organização foram transferidos, de forma parcial ou total, para outras organizações ou agentes externos \cite{leite_terceirizacao}.
 
-Uma das motivações para a terceirização é a qualidade do serviço prometida pelas empresas fornecedoras. No entanto, existem vários riscos associados à decisão pela terceirização, que podem comprometer a qualidade esperada, como: as expectativas de serviço e a resposta rápida não serem atendidas adequadamente; o serviço prestado apresentar qualidade inferior ao existente anteriormente; e as tecnologias utilizadas não corresponderem ao esperado\cite{WillcocksTercerizacao}. Segundo o \cite{GuiaAquisicao} a aquisição de um \textit {software} é um processo complexo, principalmente no que diz respeito à caracterização dos requisitos necessários ao \textit {software} e às condições envolvidas na contratação como a qualidade esperada. 
+Uma das motivações para a terceirização é a qualidade do serviço prometida pelas empresas fornecedoras. No entanto, existem vários riscos associados à decisão pela terceirização, que podem comprometer a qualidade esperada, como por exemplo: as expectativas de serviço e a resposta rápida não serem atendidas adequadamente; o serviço prestado apresentar qualidade inferior ao existente anteriormente; e as tecnologias utilizadas não corresponderem ao esperado\cite{WillcocksTercerizacao}. Segundo\citeonline{GuiaAquisicao} a aquisição de um \textit {software} é um processo complexo, principalmente no que diz respeito à caracterização dos requisitos necessários ao \textit {software} e às condições envolvidas na contratação como a qualidade esperada. 
  
-Acompanhando o ritmo da terceirização o cenário com empresas terceirizadas contratadas para o desenvolvimento de \textit {software} está cada vez maior em organizações públicas. Tais organizações não são diretamente responsáveis pelo desenvolvimento do \textit {software} mas são responsáveis  pelo processo de verificação de sua qualidade conforme a norma \citeonline{Normativa4} que será explicada no capítulo \ref{chap:contratos} deste trabalho.
+Acompanhando o ritmo da terceirização o cenário com empresas terceirizadas contratadas para o desenvolvimento de \textit {software} está cada vez maior em organizações públicas. Tais organizações não são diretamente responsáveis pelo desenvolvimento do \textit {software} mas são responsáveis  pelo processo de verificação de sua qualidade conforme a norma \citeonline{Normativa4} que será explicada no capítulo \ref{chap:contratos} deste trabalho. \textcolor{red}{Arrumar essa referência no BBTec. Deveria aparecer IN4/2008 e nao Brasil}
+
+
 
 
 \section{Justificativa}
 
 Segundo \cite{beck1999}\cite{fowler1999refactoring} a qualidade de \textit{software} é medida pela qualidade de seu código-fonte. Conforme a \cite{ISO:15939} medição é uma ferramenta primordial para avaliar a qualidade dos produtos e a capacidade de processos organizacionais, portanto o Órgão Público contratante pode fazer uso do monitoramento de métricas de código-fonte para assistir ao processo de aferição de qualidade do \textit{software} desenvolvido pela contratada.
 
-\cite{rego_monitoramento_2014} propôs uma solução para o monitoramento de métricas de código-fonte com suporte de um ambiente de \textit{Data Warehousing} que será explicada no capítulo 5. Uma das principais contribuições desse trabalho será evidenciar a eficácia e a eficiência da proposta por \citeonline{rego_monitoramento_2014} no aferimento de qualidade do software adquirido de uma empresa terceirizada para equipe responsável do Órgão público e seus demais envolvidos.
+\cite{rego_monitoramento_2014} propôs uma solução para o monitoramento de métricas de código-fonte com suporte de um ambiente de \textit{Data Warehousing} que será explicada no capítulo 5. Uma das principais contribuições deste trabalho será evidenciar a eficácia e a eficiência da proposta por \citeonline{rego_monitoramento_2014} na aferição da qualidade do software adquirido de uma empresa terceirizada para equipe responsável da organização pública e seus demais envolvidos.
 
 \section{Problema}
 \label{sec:problema} 
 
-Com foco na avaliação de controles gerais de Tecnologia da Informação nos órgãos públicos, em 2011, o TCU detectou, por meio de auditorias de governança de TI, em diversos órgãos uma considerável frequência de irregularidades relacionadas à inexistência, deficiências e a falhas de processos de \textit{software} que comprometem a eficácia e eficiência das contratações de desenvolvimento de sistemas \cite{Acordao381_2011}. 
+Com foco na avaliação de controles gerais de Tecnologia da Informação nos órgãos públicos, em 2011, o Tribunal de Contas da União-TCU detectou, por meio de auditorias de governança de TI, em diversos órgãos uma considerável frequência de irregularidades relacionadas à inexistência, deficiências e a falhas de processos de \textit{software} que comprometem a eficácia e eficiência das contratações de desenvolvimento de sistemas \cite{Acordao381_2011}. 
 
 A inexistência de parâmetros de aferição de qualidade para contratação de desenvolvimento de sistemas e a deficiência no processo de contratação, decorrente da inexistência de metodologia que assegure boa contratação de desenvolvimento de sistemas foram listados nas auditorias como consequências da inexistência e falha de processos de \textit{software} nos órgãos públicos. Os critérios indicados pelo TCU no acórdão \cite{Acordao381_2011} foram:Constituição Federal, art. 37, caput; Instrução Normativa 4/2008, SLTI/MPOG, art. 12, inciso II; Lei 8666/1993, art. 6º, inciso IX; Norma Técnica - ITGI - Cobit 4.1, PO8.3 - Padrões de desenvolvimento e de aquisições; Norma Técnica - NBR ISO/IEC - 12.207 e 15.504;e Resolução 90/2009, CNJ, art. 10. 
 
-A auditoria do acordão \cite{Acordao381_2011} reforça o problema da falta de capacidade da administração pública de aferir a qualidade interna dos produtos de software desenvolvido por terceirizadas. A partir desse problema e da solução para monitoramento de métricas de código-fonte com suporte de um ambiente de \textit{Data Warehousing} proposta por \citeonline{rego_monitoramento_2014} , foi formulada a questão de pesquisa geral deste trabalho que é:
+A auditoria do acordão \cite{Acordao381_2011} reforça o problema da falta de capacidade da administração pública de aferir a qualidade interna dos produtos de software desenvolvido por terceirizadas. A partir desse problema e da solução para monitoramento de métricas de código-fonte com suporte de um ambiente de \textit{Data Warehousing-DWing} proposta por \citeonline{rego_monitoramento_2014} , foi formulada a questão de pesquisa geral deste trabalho que é:
 
-\textbf{O uso de DW para o monitoramento de métricas de código fonte para assistir ao processo de aferição de qualidade interna dos produtos de software desenvolvido por terceirizadas, do ponto de vista da equipe de qualidade software de um órgão público, é eficaz e eficiente?}
+\textbf{O uso de DW para o monitoramento de métricas de código fonte para assistir ao processo de aferição de qualidade interna dos produtos de software desenvolvido por terceirizadas, do ponto de vista da equipe de qualidade software de uma empresa pública, é eficaz e eficiente?}
 
 
 \section{Objetivos}
 
-O objetivo geral deste trabalho é realizar um estudo de caso onde será analisado
-a eficácia e a eficiência no uso de DW para o monitoramento de métricas de código fonte para assistir ao processo de aferição de qualidade interna dos produtos de software desenvolvido por uma empresa terceirizada para uma organização pública brasileira a partir das métricas e cenários de limpeza coletados pelo código-fonte do \textit{software} desenvolvido, de questionário aos principais envolvidos no processo de verificação de qualidade e da observação em campo. Dentre os objetivos específicos deste trabalho estão:
+O objetivo geral deste trabalho é realizar um estudo de caso onde será analisada
+a eficácia e a eficiência do uso de um ambiente de DWing para o monitoramento de métricas de código fonte de forma a assistir ao processo de aferição de qualidade interna dos produtos de software desenvolvidos por uma organização terceirizada, por parte de uma organização pública. Dentre os objetivos específicos deste trabalho estão:
 
 \begin{easylist}[itemize]
 & Levantar fundamentação teórica que servirá de base para todo o trabalho.
@@ -40,9 +42,7 @@ a eficácia e a eficiência no uso de DW para o monitoramento de métricas de c�
 
 & Definir, projetar e caracterizar o do estudo de caso.
 
-& Realizar uma análise estatística para desenvolver um intervalo qualitativo para taxa de oportunidade de melhoria de código apresentada na solução.
-
-& Criar novos cenários de limpeza que agreguem valor para o órgão no qual será realizado o estudo de caso.  
+& Criar novos cenários de limpeza de código-fonte, em estensão a solução proposta por \citeonline{rego_monitoramento_2014}.  
 
 & Construir um \textit{dashboard}, com auxílio das ferramentas descritas no capítulo \ref{chap:arquitetura},  para dar maior visibilidade para as métricas e cenários de limpeza. 
 
@@ -88,8 +88,6 @@ entrevistas, questionários e registro de observação na vida real. A seleção
 
 Segundo \cite{yin2001estudo} o estudo de caso é um conjunto de procedimentos pré-especificados para se obter uma investigação empírica que investiga um fenômeno contemporâneo dentro de seu contexto da vida real, especialmente quando os limites entre o fenômeno e o contexto não estão claramente definidos. Uma grande vantagem do estudo de caso é a sua capacidade de lidar com uma ampla variedade de evidências - documentos, artefatos, entrevistas e observações - além do que pode estar disponível no estudo histórico convencional. Além disso, em algumas situações, como na observação participante, pode ocorrer manipulação informal.
 
-A engenharia de \textit{software} envolve o processo, desenvolvimento, operação e manutenção  de \textit{software} e artefatos relacionados. A maior parte da pesquisas na engenharia de software teve como objetivo investigar como o processo, desenvolvimento, operação e manutenção são conduzidos por engenheiros de \textit{software} e outras partes interessadas em diferentes condições. Indivíduos, grupos e organizações, questões sociais e políticas são importantes para esse desenvolvimento. Isto é, a engenharia \textit{software } é uma disciplina multidisciplinar que envolve áreas onde os estudos de caso são realizadas, como na psicologia, sociologia, ciência política, serviço social. Isto significa que muitas questões de pesquisa na engenharia de software são adequados para estudo de caso.\cite{wohlin2012experimentation}.
-
 \cite{wohlin2012experimentation} fraciona o estudo de caso em cinco passos. Nesta pesquisa, o estudo de caso compreende os passos: Planejar o Estudo de Caso; Coletar Dados; Analisar Dados Coletados e Compartilhar os Resultados. Portanto, os passos Projetar o Estudo de Caso e Preparar a Coleta de Dados definidas por \citeonline{wohlin2012experimentation} foram agrupadas no passo Planejar o estudo de caso como na Figura \ref{passo Estudo de Caso}.
 
 \begin{figure}[h!]
@@ -118,9 +116,9 @@ No passo Coletar Dados são executados os procedimentos de pesquisa e as técnic
 
 \end{easylist}
 
-O passo Analizar Dados Coletados d é onde os dados coletados serão analisados e interpretados. A análise compreende tanto a análise quantitativa quanto a análise qualitativa.
+O passo Analizar Dados Coletados é onde os dados coletados serão analisados e interpretados. A análise compreende tanto a análise quantitativa quanto a análise qualitativa.
 
-Por fim o passo Compartilhar os resultados diz respeito expor os resultados de forma adequada para o leitor alvo.
+Por fim, o passo Compartilhar os resultados diz respeito expor os resultados de forma adequada para o leitor alvo.
 
 
 
