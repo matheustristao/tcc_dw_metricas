@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.9.14)  17 NOV 2014 18:05
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.9.14)  17 NOV 2014 18:46
 entering extended mode
 **tcc.tex
 
@@ -2346,75 +2346,72 @@ a-eps-converted-to.pdf>
 (epstopdf)             Command: <epstopdf --outfile=figuras/figuras_matheus/pro
 jeto_de_pesquisa-eps-converted-to.pdf figuras/figuras_matheus/projeto_de_pesqui
 sa.eps>
-(epstopdf)             \includegraphics on input line 67.
+(epstopdf)             \includegraphics on input line 73.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/figuras_matheus/projeto_de_pesquisa-eps-converted-to.pdf, id=869, 1272
+<figuras/figuras_matheus/projeto_de_pesquisa-eps-converted-to.pdf, id=871, 1272
 .755pt x 948.54375pt>
 File: figuras/figuras_matheus/projeto_de_pesquisa-eps-converted-to.pdf Graphic 
 file (type pdf)
 
 <use figuras/figuras_matheus/projeto_de_pesquisa-eps-converted-to.pdf>
 Package pdftex.def Info: figuras/figuras_matheus/projeto_de_pesquisa-eps-conver
-ted-to.pdf used on input line 67.
+ted-to.pdf used on input line 73.
 (pdftex.def)             Requested size: 509.09299pt x 379.41077pt.
 
-Overfull \hbox (54.09299pt too wide) in paragraph at lines 67--68
+Overfull \hbox (54.09299pt too wide) in paragraph at lines 73--74
  [][] 
  []
 
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
 [48]
-Underfull \hbox (badness 10000) in paragraph at lines 79--80
+Underfull \hbox (badness 10000) in paragraph at lines 85--86
 
  []
 
 [49 <C:/Users/Matheus/Documents/GitHub/tcc_dw_metricas/UNIFICADO_MATHEUS_PEDRO/
 figuras/figuras_matheus/projeto_de_pesquisa-eps-converted-to.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 87--88
+Underfull \hbox (badness 10000) in paragraph at lines 93--94
 
  []
 
 
-Overfull \hbox (4.74597pt too wide) in paragraph at lines 91--92
+Overfull \hbox (4.74597pt too wide) in paragraph at lines 97--98
 []\T1/lmr/bx/n/12 QE02:  \T1/lmr/m/n/12 Quan-tas to-ma-das de de-ci-são ao todo
  fo-ram re-a-li-za-das pela equipe baseando-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 95--96
+Underfull \hbox (badness 10000) in paragraph at lines 101--102
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 104--105
+Underfull \hbox (badness 10000) in paragraph at lines 110--111
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 114--115
+Underfull \hbox (badness 10000) in paragraph at lines 120--121
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 122--123
+Underfull \hbox (badness 10000) in paragraph at lines 128--129
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 130--131
+Underfull \hbox (badness 10000) in paragraph at lines 136--137
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 139--140
+Underfull \hbox (badness 10000) in paragraph at lines 145--146
 
  []
 
 [50]
-Underfull \hbox (badness 10000) in paragraph at lines 147--148
+Underfull \hbox (badness 10000) in paragraph at lines 153--154
 
  []
 
@@ -2453,8 +2450,8 @@ Package rerunfilecheck Warning: File `tcc.brf' has changed.
 (rerunfilecheck)                Rerun to get bibliographical references right.
 
 Package rerunfilecheck Info: Checksums for `tcc.brf':
-(rerunfilecheck)             Before: 46BBDE86C8032422F8A4352882010BD4;10500
-(rerunfilecheck)             After:  1CEFACCC8D80855145C0A8AEA8DEC80A;10549.
+(rerunfilecheck)             Before: 1CEFACCC8D80855145C0A8AEA8DEC80A;10549
+(rerunfilecheck)             After:  89636E9F708B6E0EA799A78A69969F73;10607.
 
 LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
@@ -2463,7 +2460,7 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 46.
 Here is how much of TeX's memory you used:
  27541 strings out of 493921
  489518 string characters out of 3144870
- 600506 words of memory out of 3000000
+ 600582 words of memory out of 3000000
  29956 multiletter control sequences out of 15000+200000
  101929 words of font info for 79 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
@@ -2487,9 +2484,9 @@ X 2.9/fonts/type1/public/lm/lmss12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts
 ic/lm/lmssbo10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lms
 sbx10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmsso17.pfb>
 <C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmsy10.pfb>
-Output written on tcc.pdf (59 pages, 1273750 bytes).
+Output written on tcc.pdf (59 pages, 1274594 bytes).
 PDF statistics:
- 1328 PDF objects out of 1440 (max. 8388607)
+ 1331 PDF objects out of 1440 (max. 8388607)
  183 named destinations out of 1000 (max. 500000)
  501 words of extra memory for PDF output out of 10000 (max. 10000000)
 

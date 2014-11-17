@@ -40,7 +40,7 @@
 \contentsline {chapter}{\chapternumberline {4}\MakeTextUppercase {Projeto de Estudo de Caso}}{46}{chapter.4}
 \contentsline {section}{\numberline {4.1}Defini\IeC {\c c}\IeC {\~a}o Sobre Estudo de Caso}{46}{section.4.1}
 \contentsline {section}{\numberline {4.2}Background}{47}{section.4.2}
-\contentsline {subsection}{\numberline {4.2.1}Trabalhos Relacionados}{47}{subsection.4.2.1}
+\contentsline {subsection}{\numberline {4.2.1}Trabalhos antecedentes que se relacionam a este estudo de caso}{47}{subsection.4.2.1}
 \contentsline {subsection}{\numberline {4.2.2}Quest\IeC {\~a}o de Pesquisa}{48}{subsection.4.2.2}
 \contentsline {section}{\numberline {4.3}Design}{51}{section.4.3}
 \contentsline {section}{\numberline {4.4}Sele\IeC {\c c}\IeC {\~a}o}{51}{section.4.4}
