@@ -25,7 +25,7 @@
 \contentsline {section}{\numberline {2.6}Considera\IeC {\c c}\IeC {\~o}es Finais do Cap\IeC {\'\i }tulo}{31}{section.2.6}
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
 \contentsline {chapter}{\chapternumberline {3}\MakeTextUppercase {\textit {Data Warehouse}}}{32}{chapter.3}
-\contentsline {section}{\numberline {3.1}Defini\IeC {\c c}\IeC {\~o}es e terminologia}{32}{section.3.1}
+\contentsline {section}{\numberline {3.1}Defini\IeC {\c c}\IeC {\~o}es e Terminologia}{32}{section.3.1}
 \contentsline {section}{\numberline {3.2}Caracter\IeC {\'\i }sticas dos \textit {Data Warehouses}}{33}{section.3.2}
 \contentsline {subsection}{\numberline {3.2.1}Componentes B\IeC {\'a}sicos de um Data Warehouse}{34}{subsection.3.2.1}
 \contentsline {section}{\numberline {3.3}Modelagem Dimensional}{36}{section.3.3}
