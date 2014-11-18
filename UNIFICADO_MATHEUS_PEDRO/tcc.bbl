@@ -231,6 +231,12 @@ Dispon{\'\i}vel em: \url{http://eric.ed.gov/?id=ED092145}.}
 Dispon{\'\i}vel em:
   \url{https://projetos.inf.ufsc.br/arquivos/Metodologia\_de\_pesquisa\_e\_elaboracao\_de\_teses\_e\_dissertacoes\_4ed.pdf}.}
 
+\bibitem[Sommerville 2010]{Sommerville10}
+\abntrefinfo{Sommerville}{SOMMERVILLE}{2010}
+{SOMMERVILLE, I. \emph{Software Engineering}. 9. ed. Harlow, England:
+  Addison-Wesley, 2010.
+ISBN 978-0-13-703515-1.}
+
 \bibitem[Stake 1995]{stake_art_1995}
 \abntrefinfo{Stake}{STAKE}{1995}
 {STAKE, R.~E. \emph{The art of case study research}. Thousand Oaks: Sage

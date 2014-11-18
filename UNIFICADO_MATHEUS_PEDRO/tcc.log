@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.9.14)  17 NOV 2014 22:33
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.9.14)  17 NOV 2014 23:04
 entering extended mode
 **tcc.tex
 
@@ -2334,7 +2334,7 @@ tulos/4-projeto-de-estudo-de-caso.tex [45 <C:/Users/Matheus/Documents/GitHub/tc
 c_dw_metricas/UNIFICADO_MATHEUS_PEDRO/figuras/figuras_matheus/metadados-baufake
 r-eps-converted-to.pdf>] [46
 
-] [47]
+] [47] [48]
 Package epstopdf Info: Source file: <figuras/figuras_matheus/projeto_de_pesquis
 a.eps>
 (epstopdf)                    date: 2014-10-18 14:43:48
@@ -2349,7 +2349,7 @@ sa.eps>
 (epstopdf)             \includegraphics on input line 73.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/figuras_matheus/projeto_de_pesquisa-eps-converted-to.pdf, id=876, 1272
+<figuras/figuras_matheus/projeto_de_pesquisa-eps-converted-to.pdf, id=904, 1272
 .755pt x 948.54375pt>
 File: figuras/figuras_matheus/projeto_de_pesquisa-eps-converted-to.pdf Graphic 
 file (type pdf)
@@ -2363,7 +2363,7 @@ Overfull \hbox (54.09299pt too wide) in paragraph at lines 73--74
  [][] 
  []
 
-[48]
+
 Underfull \hbox (badness 10000) in paragraph at lines 85--86
 
  []
@@ -2405,12 +2405,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 136--137
 
  []
 
-
+[50]
 Underfull \hbox (badness 10000) in paragraph at lines 145--146
 
  []
 
-[50]
+
 Underfull \hbox (badness 10000) in paragraph at lines 153--154
 
  []
@@ -2445,7 +2445,7 @@ aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 46.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 46.
 Package rerunfilecheck Info: File `tcc.brf' has not changed.
-(rerunfilecheck)             Checksum: 9B3FD6193A088957A50CB804D783CC94;10701.
+(rerunfilecheck)             Checksum: 42EF52AD6B36EC749C4E6FCA04742264;11229.
 
 
 LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
@@ -2453,13 +2453,13 @@ LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 46.
  ) 
 Here is how much of TeX's memory you used:
- 27552 strings out of 493921
- 489691 string characters out of 3144870
- 601027 words of memory out of 3000000
- 29966 multiletter control sequences out of 15000+200000
+ 27563 strings out of 493921
+ 489897 string characters out of 3144870
+ 602413 words of memory out of 3000000
+ 29976 multiletter control sequences out of 15000+200000
  101929 words of font info for 79 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 68i,14n,75p,1467b,631s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 68i,14n,75p,1467b,630s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/lm/lm-rm.enc}{C:/Program F
 iles (x86)/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathex.enc}{C:/Program Files (x86)/
 MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathit.enc}{C:/Program Files (x86)/MiKTeX 2.9/
@@ -2479,9 +2479,9 @@ X 2.9/fonts/type1/public/lm/lmss12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts
 ic/lm/lmssbo10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lms
 sbx10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmsso17.pfb>
 <C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmsy10.pfb>
-Output written on tcc.pdf (59 pages, 1276350 bytes).
+Output written on tcc.pdf (59 pages, 1282397 bytes).
 PDF statistics:
- 1341 PDF objects out of 1440 (max. 8388607)
- 184 named destinations out of 1000 (max. 500000)
+ 1371 PDF objects out of 1440 (max. 8388607)
+ 185 named destinations out of 1000 (max. 500000)
  501 words of extra memory for PDF output out of 10000 (max. 10000000)
 
