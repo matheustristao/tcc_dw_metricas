@@ -1,9 +1,8 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.9.22)  17 NOV 2014 23:51
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.9.14)  18 NOV 2014 00:14
 entering extended mode
-**C:/Users/Pedrones/Desktop/tcc_git/tcc_dw_metricas/UNIFICADO_MATHEUS_PEDRO/tcc
-.tex
+**tcc.tex
 
-(C:/Users/Pedrones/Desktop/tcc_git/tcc_dw_metricas/UNIFICADO_MATHEUS_PEDRO/tcc.
+(C:\Users\Matheus\Documents\GitHub\tcc_dw_metricas\UNIFICADO_MATHEUS_PEDRO\tcc.
 tex
 LaTeX2e <2011/06/27>
 Babel <v3.8m> and hyphenation patterns for english, afrikaans, ancientgreek, ar
@@ -17,14 +16,14 @@ ian, russian, sanskrit, serbian, slovak, slovenian, spanish, swedish, swissgerm
 an, tamil, telugu, turkish, turkmen, ukenglish, ukrainian, uppersorbian, usengl
 ishmax, welsh, loaded.
 
-(C:\Users\Pedrones\Desktop\tcc_git\tcc_dw_metricas\UNIFICADO_MATHEUS_PEDRO\fixo
-s/pacotes.tex
-(C:\Users\Pedrones\AppData\Roaming\MiKTeX\2.9\tex\latex\abntex2\abntex2.cls
+(C:\Users\Matheus\Documents\GitHub\tcc_dw_metricas\UNIFICADO_MATHEUS_PEDRO\fixo
+s/pacotes.tex ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\abntex2\abntex2.cls
+"
 Document Class: abntex2 2014/01/26 v1.9.2 abnTeX2
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\ifthen.sty"
 Package: ifthen 2001/05/26 v1.1c Standard LaTeX ifthen package (DPC)
 )
-(C:\Users\Pedrones\AppData\Roaming\MiKTeX\2.9\tex\latex\memoir\memoir.cls
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\memoir\memoir.cls"
 Document Class: memoir 2013/05/30 v3.7b configurable book, report, article docu
 ment class
 \onelineskip=\skip41
@@ -37,10 +36,10 @@ ment class
 Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
 Package ifpdf Info: pdfTeX in PDF mode is detected.
 )
-(C:\Users\Pedrones\AppData\Roaming\MiKTeX\2.9\tex\latex\ifetex\ifetex.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\ifetex\ifetex.sty"
 Package: ifetex 2011/12/15 v1.2 ifetex
 
-(C:\Users\Pedrones\AppData\Roaming\MiKTeX\2.9\tex\plain\ifetex\ifetex.tex))
+("C:\Program Files (x86)\MiKTeX 2.9\tex\plain\ifetex\ifetex.tex"))
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\ifxetex\ifxetex.sty"
 Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 )
@@ -57,7 +56,7 @@ Package ifluatex Info: LuaTeX not detected.
 Package: etex 1998/03/26 v2.0 eTeX basic definition package (PEB)
 \et@xins=\count81
 )
-(C:\Users\Pedrones\AppData\Roaming\MiKTeX\2.9\tex\latex\memoir\mem12.clo
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\memoir\mem12.clo"
 File: mem12.clo 2010/10/19 v0.4b memoir class 12pt size option
 )
 \binding=\skip48
@@ -356,10 +355,10 @@ Package tocvsec2 [2008/07/23] emulated by memoir.
 Package verbatim [2008/07/23] emulated by memoir.
 Package verse [2008/07/23] emulated by memoir.
 
-(C:\Users\Pedrones\AppData\Roaming\MiKTeX\2.9\tex\latex\memoir\mempatch.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\memoir\mempatch.sty"
 Package: mempatch 2009/07/24 v6.0f Patches for memoir class v1.6180339
 ))
-(C:\Users\Pedrones\AppData\Roaming\MiKTeX\2.9\tex\latex\textcase\textcase.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\textcase\textcase.sty"
 Package: textcase 2004/10/07 v0.07 Text only upper/lower case changing (DPC)
 LaTeX Info: Redefining \MakeTextUppercase on input line 47.
 LaTeX Info: Redefining \MakeTextLowercase on input line 50.
@@ -441,7 +440,7 @@ Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4688.
 \c@Hy@tempcnt=\count141
 
-(C:\Users\Pedrones\AppData\Roaming\MiKTeX\2.9\tex\latex\url\url.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\url\url.sty"
 \Urlmuskip=\muskip10
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
@@ -463,7 +462,7 @@ LaTeX Info: Redefining \pageref on input line 6369.
 \c@Item=\count144
 \c@Hfootnote=\count145
 )
-(C:\Users\Pedrones\AppData\Roaming\MiKTeX\2.9\tex\latex\memoir\memhfixc.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\memoir\memhfixc.sty"
 Package: memhfixc 2013/05/30 v1.17 nameref/hyperref package fixes for memoir cl
 ass
 \c@memhycontfloat=\count146
@@ -543,7 +542,7 @@ Language: portuges 2008/03/18 v1.2q Portuguese support from the babel system
 Package babel Info: Making " an active character on input line 145.
 ))
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\carlisle\scalefnt.sty")
-(C:\Users\Pedrones\AppData\Roaming\MiKTeX\2.9\tex\latex\enumitem\enumitem.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\enumitem\enumitem.sty"
 Package: enumitem 2011/09/28 v3.5.2 Customized lists
 \labelindent=\skip186
 \enit@outerparindent=\dimen154
@@ -598,7 +597,7 @@ Sidefootvsep and sidefootheight: 14.5pt and 590.14995pt
 \ABNTEXsignwidth=\skip193
 \ABNTEXsignthickness=\skip194
 \ABNTEXsignskip=\skip195
-) (C:\Users\Pedrones\AppData\Roaming\MiKTeX\2.9\tex\latex\cmap\cmap.sty
+) ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\cmap\cmap.sty"
 Package: cmap 2008/03/06 v1.0h CMap support: searchable PDF
 )
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\lm\lmodern.sty"
@@ -862,13 +861,13 @@ Now handling font encoding PD1 ...
    defining Unicode char U+2122 (decimal 8482)
    defining Unicode char U+2423 (decimal 9251)
 ))
-(C:\Users\Pedrones\AppData\Roaming\MiKTeX\2.9\tex\latex\lastpage\lastpage.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\lastpage\lastpage.sty"
 Package: lastpage 2013/01/28 v1.2l Refers to last page's name (HMM; JPG)
 )
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\tools\indentfirst.sty"
 Package: indentfirst 1995/11/23 v1.03 Indent first paragraph (DPC)
 )
-(C:\Users\Pedrones\AppData\Roaming\MiKTeX\2.9\tex\latex\xcolor\xcolor.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\xcolor\xcolor.sty"
 Package: xcolor 2007/01/21 v2.11 LaTeX color extensions (UK)
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\00miktex\color.cfg"
@@ -894,18 +893,16 @@ Package xcolor Info: Model `wave' substituted by `hsb' on input line 1360.
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\dvipsnam.def"
 File: dvipsnam.def 1999/02/16 v3.0i Driver-dependant file (DPC,SPQR)
 ))
-(C:\Users\Pedrones\AppData\Roaming\MiKTeX\2.9\tex\latex\csvsimple\csvsimple.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\csvsimple\csvsimple.sty"
 Package: csvsimple 2014/07/14 version 1.12 LaTeX CSV file processing
 
-(C:\Users\Pedrones\AppData\Roaming\MiKTeX\2.9\tex\latex\pgf\utilities\pgfkeys.s
-ty
-(C:\Users\Pedrones\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\utilities\pgfkeys
-.code.tex
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\pgf\utilities\pgfkeys.sty"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\utilities\pgfkeys.code.tex"
 \pgfkeys@pathtoks=\toks27
 \pgfkeys@temptoks=\toks28
 
-(C:\Users\Pedrones\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\utilities\pgfkeys
-filtered.code.tex
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\utilities\pgfkeysfiltered.c
+ode.tex"
 \pgfkeys@tmptoks=\toks29
 )))
 \csv@file=\read2
@@ -913,16 +910,14 @@ filtered.code.tex
 \c@csvrow=\count170
 \c@csvcol=\count171
 \csv@out=\write4
-)
-(C:\Users\Pedrones\AppData\Roaming\MiKTeX\2.9\tex\latex\mdwtools\footnote.sty
+) ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\mdwtools\footnote.sty"
 Package: footnote 1997/01/28 1.13 Save footnotes around boxes
 \fn@notes=\box30
 \fn@width=\dimen157
-)
-(C:\Users\Pedrones\AppData\Roaming\MiKTeX\2.9\tex\latex\units\units.sty
+) ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\units\units.sty"
 Package: units 1998/08/04 v0.9b Typesetting units
 
-(C:\Users\Pedrones\AppData\Roaming\MiKTeX\2.9\tex\latex\units\nicefrac.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\units\nicefrac.sty"
 Package: nicefrac 1998/08/04 v0.9b Nice fractions
 \L@UnitsRaiseDisplaystyle=\skip196
 \L@UnitsRaiseTextstyle=\skip197
@@ -948,7 +943,7 @@ Package graphics Info: Driver file: pdftex.def on input line 91.
 \Gin@req@height=\dimen158
 \Gin@req@width=\dimen159
 )
-(C:\Users\Pedrones\AppData\Roaming\MiKTeX\2.9\tex\latex\caption\subcaption.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\caption\subcaption.sty"
 Package: subcaption 2013/02/03 v1.1-62 Sub-captions (AR)
 
 
@@ -957,10 +952,10 @@ To prepare we will now reset all captioning macros and configurations to kernel
  defaults, and then let the caption package take over. Please remember to use t
 he caption package interfaces in order to configure your captions. .
 
-(C:\Users\Pedrones\AppData\Roaming\MiKTeX\2.9\tex\latex\caption\caption.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\caption\caption.sty"
 Package: caption 2013/05/02 v3.3-89 Customizing captions (AR)
 
-(C:\Users\Pedrones\AppData\Roaming\MiKTeX\2.9\tex\latex\caption\caption3.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\caption\caption3.sty"
 Package: caption3 2013/05/02 v1.6-88 caption3 kernel (AR)
 Package caption3 Info: TeX engine: e-TeX on input line 57.
 \captionmargin=\dimen160
@@ -977,16 +972,16 @@ Package caption Info: hyperref package is loaded.
 \c@subfigure=\count173
 \c@subtable=\count174
 )
-(C:\Users\Pedrones\AppData\Roaming\MiKTeX\2.9\tex\latex\abntex2\abntex2cite.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\abntex2\abntex2cite.sty"
 Package: abntex2cite 2014/01/26 v1.9.2 abnTeX2
 
-(C:\Users\Pedrones\AppData\Roaming\MiKTeX\2.9\tex\latex\abntex2\abntex2abrev.st
-y)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\abntex2\abntex2abrev.sty")
 \minimumbiblabelwidth=\skip199
 \ABCIauxlen=\skip200
 \c@ABCIaux=\count175
 \c@ABCImax=\count176
- ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\ltxmisc\relsize.sty"
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\ltxmisc\relsize.sty"
 Package: relsize 2003/07/04 ver 3.1
 )
 \biblabelsep=\skip201
@@ -994,11 +989,10 @@ LaTeX Info: Redefining \newblock on input line 675.
 LaTeX Info: Redefining \cite on input line 702.
 \ABCItoken=\toks30
 )
-(C:\Users\Pedrones\AppData\Roaming\MiKTeX\2.9\tex\latex\bold-extra\bold-extra.s
-ty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\bold-extra\bold-extra.sty"
 Package: bold-extra 2001/11/13 v0.1 Use fonts from cm/mf-extra/bold
 )
-(C:\Users\Pedrones\AppData\Roaming\MiKTeX\2.9\tex\latex\listings\listings.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\listings\listings.sty"
 \lst@mode=\count177
 \lst@gtempboxa=\box31
 \lst@token=\toks31
@@ -1012,17 +1006,18 @@ Package: bold-extra 2001/11/13 v0.1 Use fonts from cm/mf-extra/bold
 \lst@lineno=\count182
 \lst@maxwidth=\dimen170
 
-(C:\Users\Pedrones\AppData\Roaming\MiKTeX\2.9\tex\latex\listings\lstmisc.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\listings\lstmisc.sty"
 File: lstmisc.sty 2014/09/06 1.5e (Carsten Heinz)
 \c@lstnumber=\count183
 \lst@skipnumbers=\count184
 \lst@framebox=\box32
 )
-(C:\Users\Pedrones\AppData\Roaming\MiKTeX\2.9\tex\latex\listings\listings.cfg
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\listings\listings.cfg"
 File: listings.cfg 2014/09/06 1.5e listings configuration
 ))
 Package: listings 2014/09/06 1.5e (Carsten Heinz)
-(C:\Users\Pedrones\AppData\Roaming\MiKTeX\2.9\tex\latex\eso-pic\eso-pic.sty
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\eso-pic\eso-pic.sty"
 Package: eso-pic 2013/10/06 v2.0d eso-pic (RN)
 )
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\amssymb.sty"
@@ -1036,7 +1031,7 @@ Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
 ))
-(C:\Users\Pedrones\AppData\Roaming\MiKTeX\2.9\tex\latex\soul\soul.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\soul\soul.sty"
 Package: soul 2003/11/17 v2.4 letterspacing/underlining (mf)
 \SOUL@word=\toks33
 \SOUL@lasttoken=\toks34
@@ -1092,9 +1087,10 @@ Package: longtable 2004/02/01 v4.11 Multi-page Table package (DPC)
 \c@LT@chunks=\count189
 \LT@p@ftn=\toks38
 )
-(C:\Users\Pedrones\AppData\Roaming\MiKTeX\2.9\tex\latex\todonotes\todonotes.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\todonotes\todonotes.sty"
 Package: todonotes 2012/07/25 .dtx Todonotes source and documentation.
 Package: todonotes 2012/07/25
+
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\xkeyval\xkeyval.sty"
 Package: xkeyval 2012/10/14 v2.6b package option processing (HA)
 
@@ -1104,42 +1100,34 @@ Package: xkeyval 2012/10/14 v2.6b package option processing (HA)
 \XKV@depth=\count190
 File: xkeyval.tex 2012/10/14 v2.6b key=value parser (HA)
 ))
-(C:\Users\Pedrones\AppData\Roaming\MiKTeX\2.9\tex\latex\pgf\frontendlayer\tikz.
-sty
-(C:\Users\Pedrones\AppData\Roaming\MiKTeX\2.9\tex\latex\pgf\basiclayer\pgf.sty
-(C:\Users\Pedrones\AppData\Roaming\MiKTeX\2.9\tex\latex\pgf\utilities\pgfrcs.st
-y
-(C:\Users\Pedrones\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\utilities\pgfutil
--common.tex
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\pgf\frontendlayer\tikz.sty"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\pgf\basiclayer\pgf.sty"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\pgf\utilities\pgfrcs.sty"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\utilities\pgfutil-common.te
+x"
 \pgfutil@everybye=\toks41
 \pgfutil@tempdima=\dimen175
 \pgfutil@tempdimb=\dimen176
 
-(C:\Users\Pedrones\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\utilities\pgfutil
--common-lists.tex))
-(C:\Users\Pedrones\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\utilities\pgfutil
--latex.def
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\utilities\pgfutil-common-li
+sts.tex"))
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\utilities\pgfutil-latex.def
+"
 \pgfutil@abb=\box37
-
-(C:\Users\Pedrones\AppData\Roaming\MiKTeX\2.9\tex\latex\ms\everyshi.sty
+ ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\ms\everyshi.sty"
 Package: everyshi 2001/05/15 v3.00 EveryShipout Package (MS)
 ))
-(C:\Users\Pedrones\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\utilities\pgfrcs.
-code.tex
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\utilities\pgfrcs.code.tex"
 Package: pgfrcs 2013/12/20 v3.0.0 (rcs-revision 1.28)
 ))
 Package: pgf 2013/12/18 v3.0.0 (rcs-revision 1.14)
-
-(C:\Users\Pedrones\AppData\Roaming\MiKTeX\2.9\tex\latex\pgf\basiclayer\pgfcore.
-sty
-(C:\Users\Pedrones\AppData\Roaming\MiKTeX\2.9\tex\latex\pgf\systemlayer\pgfsys.
-sty
-(C:\Users\Pedrones\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\systemlayer\pgfsy
-s.code.tex
+ ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\pgf\basiclayer\pgfcore.sty"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\pgf\systemlayer\pgfsys.sty"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\systemlayer\pgfsys.code.tex
+"
 Package: pgfsys 2013/11/30 v3.0.0 (rcs-revision 1.47)
-
-(C:\Users\Pedrones\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\utilities\pgfkeys
-.code.tex)
+ ("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\utilities\pgfkeys.code.tex
+")
 \pgf@x=\dimen177
 \pgf@y=\dimen178
 \pgf@xa=\dimen179
@@ -1157,43 +1145,37 @@ Package: pgfsys 2013/11/30 v3.0.0 (rcs-revision 1.47)
 \t@pgf@toka=\toks42
 \t@pgf@tokb=\toks43
 \t@pgf@tokc=\toks44
-
-(C:\Users\Pedrones\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\systemlayer\pgf.c
-fg
+ ("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\systemlayer\pgf.cfg"
 File: pgf.cfg 2008/05/14  (rcs-revision 1.7)
 )
 Driver file for pgf: pgfsys-pdftex.def
 
-(C:\Users\Pedrones\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\systemlayer\pgfsy
-s-pdftex.def
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\systemlayer\pgfsys-pdftex.d
+ef"
 File: pgfsys-pdftex.def 2013/07/18  (rcs-revision 1.33)
 
-(C:\Users\Pedrones\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\systemlayer\pgfsy
-s-common-pdf.def
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\systemlayer\pgfsys-common-p
+df.def"
 File: pgfsys-common-pdf.def 2013/10/10  (rcs-revision 1.13)
 )))
-(C:\Users\Pedrones\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\systemlayer\pgfsy
-ssoftpath.code.tex
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\systemlayer\pgfsyssoftpath.
+code.tex"
 File: pgfsyssoftpath.code.tex 2013/09/09  (rcs-revision 1.9)
 \pgfsyssoftpath@smallbuffer@items=\count195
 \pgfsyssoftpath@bigbuffer@items=\count196
 )
-(C:\Users\Pedrones\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\systemlayer\pgfsy
-sprotocol.code.tex
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\systemlayer\pgfsysprotocol.
+code.tex"
 File: pgfsysprotocol.code.tex 2006/10/16  (rcs-revision 1.4)
 ))
-(C:\Users\Pedrones\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\basiclayer\pgfcor
-e.code.tex
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcore.code.tex
+"
 Package: pgfcore 2010/04/11 v3.0.0 (rcs-revision 1.7)
-
-(C:\Users\Pedrones\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\math\pgfmath.code
-.tex
-(C:\Users\Pedrones\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\math\pgfmathcalc.
-code.tex
-(C:\Users\Pedrones\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\math\pgfmathutil.
-code.tex)
-(C:\Users\Pedrones\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\math\pgfmathparse
-r.code.tex
+ ("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\math\pgfmath.code.tex"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\math\pgfmathcalc.code.tex"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\math\pgfmathutil.code.tex")
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\math\pgfmathparser.code.tex
+"
 \pgfmath@dimen=\dimen185
 \pgfmath@count=\count197
 \pgfmath@box=\box38
@@ -1201,30 +1183,29 @@ r.code.tex
 \pgfmath@stack@operand=\toks46
 \pgfmath@stack@operation=\toks47
 )
-(C:\Users\Pedrones\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\math\pgfmathfunct
-ions.code.tex
-(C:\Users\Pedrones\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\math\pgfmathfunct
-ions.basic.code.tex)
-(C:\Users\Pedrones\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\math\pgfmathfunct
-ions.trigonometric.code.tex)
-(C:\Users\Pedrones\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\math\pgfmathfunct
-ions.random.code.tex)
-(C:\Users\Pedrones\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\math\pgfmathfunct
-ions.comparison.code.tex)
-(C:\Users\Pedrones\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\math\pgfmathfunct
-ions.base.code.tex)
-(C:\Users\Pedrones\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\math\pgfmathfunct
-ions.round.code.tex)
-(C:\Users\Pedrones\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\math\pgfmathfunct
-ions.misc.code.tex)
-(C:\Users\Pedrones\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\math\pgfmathfunct
-ions.integerarithmetics.code.tex)))
-(C:\Users\Pedrones\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\math\pgfmathfloat
-.code.tex
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\math\pgfmathfunctions.code.
+tex"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\math\pgfmathfunctions.basic
+.code.tex")
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\math\pgfmathfunctions.trigo
+nometric.code.tex")
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\math\pgfmathfunctions.rando
+m.code.tex")
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\math\pgfmathfunctions.compa
+rison.code.tex")
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\math\pgfmathfunctions.base.
+code.tex")
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\math\pgfmathfunctions.round
+.code.tex")
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\math\pgfmathfunctions.misc.
+code.tex")
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\math\pgfmathfunctions.integ
+erarithmetics.code.tex")))
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\math\pgfmathfloat.code.tex"
 \c@pgfmathroundto@lastzeros=\count198
 ))
-(C:\Users\Pedrones\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\basiclayer\pgfcor
-epoints.code.tex
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcorepoints.co
+de.tex"
 File: pgfcorepoints.code.tex 2013/10/07  (rcs-revision 1.27)
 \pgf@picminx=\dimen186
 \pgf@picmaxx=\dimen187
@@ -1241,122 +1222,119 @@ File: pgfcorepoints.code.tex 2013/10/07  (rcs-revision 1.27)
 \pgf@zx=\dimen198
 \pgf@zy=\dimen199
 )
-(C:\Users\Pedrones\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\basiclayer\pgfcor
-epathconstruct.code.tex
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcorepathconst
+ruct.code.tex"
 File: pgfcorepathconstruct.code.tex 2013/10/07  (rcs-revision 1.29)
 \pgf@path@lastx=\dimen200
 \pgf@path@lasty=\dimen201
 )
-(C:\Users\Pedrones\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\basiclayer\pgfcor
-epathusage.code.tex
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcorepathusage
+.code.tex"
 File: pgfcorepathusage.code.tex 2013/12/13  (rcs-revision 1.23)
 \pgf@shorten@end@additional=\dimen202
 \pgf@shorten@start@additional=\dimen203
 )
-(C:\Users\Pedrones\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\basiclayer\pgfcor
-escopes.code.tex
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcorescopes.co
+de.tex"
 File: pgfcorescopes.code.tex 2013/10/09  (rcs-revision 1.44)
 \pgfpic=\box39
 \pgf@hbox=\box40
 \pgf@layerbox@main=\box41
 \pgf@picture@serial@count=\count199
 )
-(C:\Users\Pedrones\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\basiclayer\pgfcor
-egraphicstate.code.tex
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcoregraphicst
+ate.code.tex"
 File: pgfcoregraphicstate.code.tex 2013/09/19  (rcs-revision 1.11)
 \pgflinewidth=\dimen204
 )
-(C:\Users\Pedrones\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\basiclayer\pgfcor
-etransformations.code.tex
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcoretransform
+ations.code.tex"
 File: pgfcoretransformations.code.tex 2013/10/10  (rcs-revision 1.17)
 \pgf@pt@x=\dimen205
 \pgf@pt@y=\dimen206
 \pgf@pt@temp=\dimen207
 )
-(C:\Users\Pedrones\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\basiclayer\pgfcor
-equick.code.tex
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcorequick.cod
+e.tex"
 File: pgfcorequick.code.tex 2008/10/09  (rcs-revision 1.3)
 )
-(C:\Users\Pedrones\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\basiclayer\pgfcor
-eobjects.code.tex
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcoreobjects.c
+ode.tex"
 File: pgfcoreobjects.code.tex 2006/10/11  (rcs-revision 1.2)
 )
-(C:\Users\Pedrones\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\basiclayer\pgfcor
-epathprocessing.code.tex
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcorepathproce
+ssing.code.tex"
 File: pgfcorepathprocessing.code.tex 2013/09/09  (rcs-revision 1.9)
 )
-(C:\Users\Pedrones\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\basiclayer\pgfcor
-earrows.code.tex
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcorearrows.co
+de.tex"
 File: pgfcorearrows.code.tex 2013/11/07  (rcs-revision 1.40)
 \pgfarrowsep=\dimen208
 )
-(C:\Users\Pedrones\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\basiclayer\pgfcor
-eshade.code.tex
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcoreshade.cod
+e.tex"
 File: pgfcoreshade.code.tex 2013/07/15  (rcs-revision 1.15)
 \pgf@max=\dimen209
 \pgf@sys@shading@range@num=\count200
 )
-(C:\Users\Pedrones\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\basiclayer\pgfcor
-eimage.code.tex
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcoreimage.cod
+e.tex"
 File: pgfcoreimage.code.tex 2013/07/15  (rcs-revision 1.18)
 
-(C:\Users\Pedrones\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\basiclayer\pgfcor
-eexternal.code.tex
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcoreexternal.
+code.tex"
 File: pgfcoreexternal.code.tex 2013/07/15  (rcs-revision 1.20)
 \pgfexternal@startupbox=\box42
 ))
-(C:\Users\Pedrones\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\basiclayer\pgfcor
-elayers.code.tex
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcorelayers.co
+de.tex"
 File: pgfcorelayers.code.tex 2013/07/18  (rcs-revision 1.7)
 )
-(C:\Users\Pedrones\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\basiclayer\pgfcor
-etransparency.code.tex
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcoretranspare
+ncy.code.tex"
 File: pgfcoretransparency.code.tex 2013/09/30  (rcs-revision 1.5)
 )
-(C:\Users\Pedrones\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\basiclayer\pgfcor
-epatterns.code.tex
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcorepatterns.
+code.tex"
 File: pgfcorepatterns.code.tex 2013/11/07  (rcs-revision 1.5)
 )))
-(C:\Users\Pedrones\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\modules\pgfmodule
-shapes.code.tex
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\modules\pgfmoduleshapes.cod
+e.tex"
 File: pgfmoduleshapes.code.tex 2013/10/31  (rcs-revision 1.34)
 \pgfnodeparttextbox=\box43
 )
-(C:\Users\Pedrones\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\modules\pgfmodule
-plot.code.tex
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\modules\pgfmoduleplot.code.
+tex"
 File: pgfmoduleplot.code.tex 2013/07/31  (rcs-revision 1.12)
 )
-(C:\Users\Pedrones\AppData\Roaming\MiKTeX\2.9\tex\latex\pgf\compatibility\pgfco
-mp-version-0-65.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\pgf\compatibility\pgfcomp-version
+-0-65.sty"
 Package: pgfcomp-version-0-65 2007/07/03 v3.0.0 (rcs-revision 1.7)
 \pgf@nodesepstart=\dimen210
 \pgf@nodesepend=\dimen211
 )
-(C:\Users\Pedrones\AppData\Roaming\MiKTeX\2.9\tex\latex\pgf\compatibility\pgfco
-mp-version-1-18.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\pgf\compatibility\pgfcomp-version
+-1-18.sty"
 Package: pgfcomp-version-1-18 2007/07/23 v3.0.0 (rcs-revision 1.1)
 ))
-(C:\Users\Pedrones\AppData\Roaming\MiKTeX\2.9\tex\latex\pgf\utilities\pgffor.st
-y (C:\Users\Pedrones\AppData\Roaming\MiKTeX\2.9\tex\latex\pgf\math\pgfmath.sty
-(C:\Users\Pedrones\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\math\pgfmath.code
-.tex))
-(C:\Users\Pedrones\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\utilities\pgffor.
-code.tex
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\pgf\utilities\pgffor.sty"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\pgf\math\pgfmath.sty"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\math\pgfmath.code.tex"))
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\utilities\pgffor.code.tex"
 Package: pgffor 2013/12/13 v3.0.0 (rcs-revision 1.25)
 
-(C:\Users\Pedrones\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\math\pgfmath.code
-.tex)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\math\pgfmath.code.tex")
 \pgffor@iter=\dimen212
 \pgffor@skip=\dimen213
 \pgffor@stack=\toks48
 \pgffor@toks=\toks49
 ))
-(C:\Users\Pedrones\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\frontendlayer\tik
-z\tikz.code.tex
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\frontendlayer\tikz\tikz.cod
+e.tex"
 Package: tikz 2013/12/13 v3.0.0 (rcs-revision 1.142)
 
-(C:\Users\Pedrones\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\libraries\pgflibr
-aryplothandlers.code.tex
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\libraries\pgflibraryplothan
+dlers.code.tex"
 File: pgflibraryplothandlers.code.tex 2013/08/31 v3.0.0 (rcs-revision 1.20)
 \pgf@plot@mark@count=\count201
 \pgfplotmarksize=\dimen214
@@ -1376,8 +1354,8 @@ File: pgflibraryplothandlers.code.tex 2013/08/31 v3.0.0 (rcs-revision 1.20)
 \tikznumberofcurrentchild=\count204
 \tikz@fig@count=\count205
 
-(C:\Users\Pedrones\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\modules\pgfmodule
-matrix.code.tex
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\modules\pgfmodulematrix.cod
+e.tex"
 File: pgfmodulematrix.code.tex 2013/09/17  (rcs-revision 1.8)
 \pgfmatrixcurrentrow=\count206
 \pgfmatrixcurrentcolumn=\count207
@@ -1385,12 +1363,12 @@ File: pgfmodulematrix.code.tex 2013/09/17  (rcs-revision 1.8)
 )
 \tikz@expandcount=\count209
 
-(C:\Users\Pedrones\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\frontendlayer\tik
-z\libraries\tikzlibrarytopaths.code.tex
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\frontendlayer\tikz\librarie
+s\tikzlibrarytopaths.code.tex"
 File: tikzlibrarytopaths.code.tex 2008/06/17 v3.0.0 (rcs-revision 1.2)
 )))
-(C:\Users\Pedrones\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\frontendlayer\tik
-z\libraries\tikzlibrarypositioning.code.tex
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\frontendlayer\tikz\librarie
+s\tikzlibrarypositioning.code.tex"
 File: tikzlibrarypositioning.code.tex 2008/10/06 v3.0.0 (rcs-revision 1.7)
 )
 \c@@todonotes@numberoftodonotes=\count210
@@ -1398,7 +1376,7 @@ File: tikzlibrarypositioning.code.tex 2008/10/06 v3.0.0 (rcs-revision 1.7)
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\multirow\multirow.sty"
 \bigstrutjot=\dimen221
 )
-(C:\Users\Pedrones\AppData\Roaming\MiKTeX\2.9\tex\latex\easylist\easylist.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\easylist\easylist.sty"
 Package: easylist 2014/01/11 v.1.4 Numbered items with a single command.
 \el@CounterTotal=\count211
 \el@Scratch=\count212
@@ -1436,20 +1414,21 @@ Package: lscape 2000/10/22 v3.01 Landscape Pages (DPC)
 )
 Package pdflscape Info: Auto-detected driver: pdftex on input line 80.
 )
-(C:\Users\Pedrones\AppData\Roaming\MiKTeX\2.9\tex\latex\placeins\placeins.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\placeins\placeins.sty"
 Package: placeins 2005/04/18  v 2.2
 )
-(C:\Users\Pedrones\AppData\Roaming\MiKTeX\2.9\tex\latex\pdfpages\pdfpages.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\pdfpages\pdfpages.sty"
 Package: pdfpages 2013/08/25 v0.4v Insert pages of external PDF documents (AM)
 
-(C:\Users\Pedrones\AppData\Roaming\MiKTeX\2.9\tex\latex\pdfpages\pppdftex.def
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\pdfpages\pppdftex.def"
 File: pppdftex.def 2013/08/25 v0.4v Pdfpages driver for pdfTeX (AM)
 )
 \AM@pagebox=\box52
 \AM@toc@title=\toks52
 \c@AM@survey=\count226
 \AM@templatesizebox=\box53
-) (C:\Users\Pedrones\AppData\Roaming\MiKTeX\2.9\tex\latex\rotating\rotating.sty
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\rotating\rotating.sty"
 Package: rotating 2009/03/28 v2.16a rotated objects in LaTeX
 \c@r@tfl@t=\count227
 \rotFPtop=\skip207
@@ -1457,15 +1436,15 @@ Package: rotating 2009/03/28 v2.16a rotated objects in LaTeX
 \rot@float@box=\box54
 \rot@mess@toks=\toks53
 ))
-(C:\Users\Pedrones\Desktop\tcc_git\tcc_dw_metricas\UNIFICADO_MATHEUS_PEDRO\fixo
+(C:\Users\Matheus\Documents\GitHub\tcc_dw_metricas\UNIFICADO_MATHEUS_PEDRO\fixo
 s/comandos.tex)
-(C:\Users\Pedrones\Desktop\tcc_git\tcc_dw_metricas\UNIFICADO_MATHEUS_PEDRO\fixo
+(C:\Users\Matheus\Documents\GitHub\tcc_dw_metricas\UNIFICADO_MATHEUS_PEDRO\fixo
 s/novosComandos.tex)
-(C:\Users\Pedrones\Desktop\tcc_git\tcc_dw_metricas\UNIFICADO_MATHEUS_PEDRO\edit
+(C:\Users\Matheus\Documents\GitHub\tcc_dw_metricas\UNIFICADO_MATHEUS_PEDRO\edit
 aveis/informacoes.tex)
-(C:\Users\Pedrones\Desktop\tcc_git\tcc_dw_metricas\UNIFICADO_MATHEUS_PEDRO\fixo
+(C:\Users\Matheus\Documents\GitHub\tcc_dw_metricas\UNIFICADO_MATHEUS_PEDRO\fixo
 s/informacoes.tex)
-(C:\Users\Pedrones\Desktop\tcc_git\tcc_dw_metricas\UNIFICADO_MATHEUS_PEDRO\fixo
+(C:\Users\Matheus\Documents\GitHub\tcc_dw_metricas\UNIFICADO_MATHEUS_PEDRO\fixo
 s/setup.tex
 Package hyperref Info: Option `colorlinks' set `true' on input line 15.
 )
@@ -1473,7 +1452,7 @@ Package hyperref Info: Option `colorlinks' set `true' on input line 15.
 
 Writing index file tcc.idx 
 
-(C:\Users\Pedrones\Desktop\tcc_git\tcc_dw_metricas\UNIFICADO_MATHEUS_PEDRO\tcc.
+(C:\Users\Matheus\Documents\GitHub\tcc_dw_metricas\UNIFICADO_MATHEUS_PEDRO\tcc.
 aux)
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 9.
 LaTeX Font Info:    ... okay on input line 9.
@@ -1522,7 +1501,7 @@ Package lastpage Info: Please have a look at the pageslts package at
 (lastpage)             http://www.ctan.org/tex-archive/ 
 (lastpage)             install/macros/latex/contrib/pageslts.tds.zip
 (lastpage)             ! on input line 9.
-(C:\Users\Pedrones\AppData\Roaming\MiKTeX\2.9\tex\context\base\supp-pdf.mkii
+("C:\Program Files (x86)\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
 Normal \count register pool exhausted, switching to extended pool.
 \scratchcounter=\count277
@@ -1541,13 +1520,14 @@ Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: float package is loaded.
 Package caption Info: listings package is loaded.
 Package caption Info: longtable package is loaded.
- (C:\Users\Pedrones\AppData\Roaming\MiKTeX\2.9\tex\latex\caption\ltcaption.sty
+ ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\caption\ltcaption.sty"
 Package: ltcaption 2013/02/03 v1.3-62 longtable captions (AR)
 )
 Package caption Info: rotating package is loaded.
 Package caption Info: End \AtBeginDocument code.
 \c@lstlisting=\count283
- ABD: EveryShipout initializing macros
+
+ABD: EveryShipout initializing macros
 LaTeX Font Info:    Try loading font information for T1+lmss on input line 12.
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\lm\t1lmss.fd"
@@ -1556,10 +1536,10 @@ File: t1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
 LaTeX Font Info:    Font shape `T1/lmss/bx/it' in size <20.74> not available
 (Font)              Font shape `T1/lmss/bx/sl' tried instead on input line 12.
 Package epstopdf Info: Source file: <figuras/capa.eps>
-(epstopdf)                    date: 2014-11-12 01:25:24
+(epstopdf)                    date: 2014-09-14 12:45:25
 (epstopdf)                    size: 661293 bytes
 (epstopdf)             Output file: <figuras/capa-eps-converted-to.pdf>
-(epstopdf)                    date: 2014-11-12 01:25:24
+(epstopdf)                    date: 2014-09-14 12:45:25
 (epstopdf)                    size: 105957 bytes
 (epstopdf)             Command: <epstopdf --outfile=figuras/capa-eps-converted-
 to.pdf figuras/capa.eps>
@@ -1575,9 +1555,9 @@ Package pdftex.def Info: figuras/capa-eps-converted-to.pdf used on input line 1
 (pdftex.def)             Requested size: 597.52437pt x 844.34396pt.
  [1
 
-{C:/Users/Pedrones/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <C:/Users
-/Pedrones/Desktop/tcc_git/tcc_dw_metricas/UNIFICADO_MATHEUS_PEDRO/figuras/capa-
-eps-converted-to.pdf>]
+{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map} <C:/Users/Matheus/Document
+s/GitHub/tcc_dw_metricas/UNIFICADO_MATHEUS_PEDRO/figuras/capa-eps-converted-to.
+pdf>]
 LaTeX Font Info:    Font shape `T1/lmss/bx/it' in size <17.28> not available
 (Font)              Font shape `T1/lmss/bx/sl' tried instead on input line 14.
 LaTeX Font Info:    Try loading font information for OT1+lmr on input line 14.
@@ -1628,7 +1608,7 @@ l.14
 
 
 ]
-(C:\Users\Pedrones\Desktop\tcc_git\tcc_dw_metricas\UNIFICADO_MATHEUS_PEDRO\fixo
+(C:\Users\Matheus\Documents\GitHub\tcc_dw_metricas\UNIFICADO_MATHEUS_PEDRO\fixo
 s/fichaCatalografica.tex
 Underfull \hbox (badness 10000) in paragraph at lines 12--13
 
@@ -1666,13 +1646,13 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <5> on input line 30.
 )
-(C:\Users\Pedrones\Desktop\tcc_git\tcc_dw_metricas\UNIFICADO_MATHEUS_PEDRO\edit
+(C:\Users\Matheus\Documents\GitHub\tcc_dw_metricas\UNIFICADO_MATHEUS_PEDRO\edit
 aveis/errata.tex)
-(C:\Users\Pedrones\Desktop\tcc_git\tcc_dw_metricas\UNIFICADO_MATHEUS_PEDRO\fixo
+(C:\Users\Matheus\Documents\GitHub\tcc_dw_metricas\UNIFICADO_MATHEUS_PEDRO\fixo
 s/folhaDeAprovacao.tex [2] [3
 
 ])
-(C:\Users\Pedrones\Desktop\tcc_git\tcc_dw_metricas\UNIFICADO_MATHEUS_PEDRO\edit
+(C:\Users\Matheus\Documents\GitHub\tcc_dw_metricas\UNIFICADO_MATHEUS_PEDRO\edit
 aveis/agradecimentos_matheus.tex
 Underfull \hbox (badness 10000) in paragraph at lines 3--4
 
@@ -1687,7 +1667,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 3--4
 
 
 ])
-(C:\Users\Pedrones\Desktop\tcc_git\tcc_dw_metricas\UNIFICADO_MATHEUS_PEDRO\edit
+(C:\Users\Matheus\Documents\GitHub\tcc_dw_metricas\UNIFICADO_MATHEUS_PEDRO\edit
 aveis/agradecimentos_pedro.tex
 Underfull \hbox (badness 10000) in paragraph at lines 3--4
 
@@ -1702,43 +1682,43 @@ Underfull \hbox (badness 10000) in paragraph at lines 3--4
 
 
 ])
-(C:\Users\Pedrones\Desktop\tcc_git\tcc_dw_metricas\UNIFICADO_MATHEUS_PEDRO\edit
+(C:\Users\Matheus\Documents\GitHub\tcc_dw_metricas\UNIFICADO_MATHEUS_PEDRO\edit
 aveis/epigrafe.tex [6
 
 ])
-(C:\Users\Pedrones\Desktop\tcc_git\tcc_dw_metricas\UNIFICADO_MATHEUS_PEDRO\edit
+(C:\Users\Matheus\Documents\GitHub\tcc_dw_metricas\UNIFICADO_MATHEUS_PEDRO\edit
 aveis/resumo.tex [7
 
 ])
-(C:\Users\Pedrones\Desktop\tcc_git\tcc_dw_metricas\UNIFICADO_MATHEUS_PEDRO\edit
+(C:\Users\Matheus\Documents\GitHub\tcc_dw_metricas\UNIFICADO_MATHEUS_PEDRO\edit
 aveis/abstract.tex [8
 
 ])
-(C:\Users\Pedrones\Desktop\tcc_git\tcc_dw_metricas\UNIFICADO_MATHEUS_PEDRO\fixo
+(C:\Users\Matheus\Documents\GitHub\tcc_dw_metricas\UNIFICADO_MATHEUS_PEDRO\fixo
 s/listasAutomaticas.tex
-(C:\Users\Pedrones\Desktop\tcc_git\tcc_dw_metricas\UNIFICADO_MATHEUS_PEDRO\tcc.
+(C:\Users\Matheus\Documents\GitHub\tcc_dw_metricas\UNIFICADO_MATHEUS_PEDRO\tcc.
 lof) [9
 
 ]
-(C:\Users\Pedrones\Desktop\tcc_git\tcc_dw_metricas\UNIFICADO_MATHEUS_PEDRO\tcc.
+(C:\Users\Matheus\Documents\GitHub\tcc_dw_metricas\UNIFICADO_MATHEUS_PEDRO\tcc.
 lot) [10
 
 ])
-(C:\Users\Pedrones\Desktop\tcc_git\tcc_dw_metricas\UNIFICADO_MATHEUS_PEDRO\edit
+(C:\Users\Matheus\Documents\GitHub\tcc_dw_metricas\UNIFICADO_MATHEUS_PEDRO\edit
 aveis/abreviaturas.tex [11
 
 
 ])
-(C:\Users\Pedrones\Desktop\tcc_git\tcc_dw_metricas\UNIFICADO_MATHEUS_PEDRO\fixo
+(C:\Users\Matheus\Documents\GitHub\tcc_dw_metricas\UNIFICADO_MATHEUS_PEDRO\fixo
 s/indiceAutomatico.tex
-(C:\Users\Pedrones\Desktop\tcc_git\tcc_dw_metricas\UNIFICADO_MATHEUS_PEDRO\tcc.
+(C:\Users\Matheus\Documents\GitHub\tcc_dw_metricas\UNIFICADO_MATHEUS_PEDRO\tcc.
 toc
 LaTeX Font Info:    Font shape `T1/lmss/bx/it' in size <12> not available
 (Font)              Font shape `T1/lmss/bx/sl' tried instead on input line 27.
  [12
 
 ]) [13])
-(C:\Users\Pedrones\Desktop\tcc_git\tcc_dw_metricas\UNIFICADO_MATHEUS_PEDRO\capi
+(C:\Users\Matheus\Documents\GitHub\tcc_dw_metricas\UNIFICADO_MATHEUS_PEDRO\capi
 tulos/1-introducao.tex [14
 
 
@@ -1753,11 +1733,11 @@ LaTeX Font Info:    Font shape `OMS/lmr/m/n' in size <12> not available
  [15]
 Package epstopdf Info: Source file: <figuras/figuras_matheus/metodologia_da_peq
 uisa.eps>
-(epstopdf)                    date: 2014-11-12 01:25:25
-(epstopdf)                    size: 8219165 bytes
+(epstopdf)                    date: 2014-10-28 15:19:27
+(epstopdf)                    size: 8116223 bytes
 (epstopdf)             Output file: <figuras/figuras_matheus/metodologia_da_peq
 uisa-eps-converted-to.pdf>
-(epstopdf)                    date: 2014-11-17 11:57:04
+(epstopdf)                    date: 2014-11-17 12:08:54
 (epstopdf)                    size: 81377 bytes
 (epstopdf)             Command: <epstopdf --outfile=figuras/figuras_matheus/met
 odologia_da_pequisa-eps-converted-to.pdf figuras/figuras_matheus/metodologia_da
@@ -1775,14 +1755,14 @@ Package pdftex.def Info: figuras/figuras_matheus/metodologia_da_pequisa-eps-con
 verted-to.pdf used on input line 53.
 (pdftex.def)             Requested size: 274.21964pt x 441.24068pt.
 
-[16 <C:/Users/Pedrones/Desktop/tcc_git/tcc_dw_metricas/UNIFICADO_MATHEUS_PEDRO/
+[16 <C:/Users/Matheus/Documents/GitHub/tcc_dw_metricas/UNIFICADO_MATHEUS_PEDRO/
 figuras/figuras_matheus/metodologia_da_pequisa-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <figuras/figuras_pedro/projeto-pesq.eps>
-(epstopdf)                    date: 2014-11-12 11:40:34
+(epstopdf)                    date: 2014-11-11 20:33:50
 (epstopdf)                    size: 70633 bytes
 (epstopdf)             Output file: <figuras/figuras_pedro/projeto-pesq-eps-con
 verted-to.pdf>
-(epstopdf)                    date: 2014-11-12 11:40:34
+(epstopdf)                    date: 2014-11-11 20:33:50
 (epstopdf)                    size: 26768 bytes
 (epstopdf)             Command: <epstopdf --outfile=figuras/figuras_pedro/proje
 to-pesq-eps-converted-to.pdf figuras/figuras_pedro/projeto-pesq.eps>
@@ -1801,19 +1781,19 @@ f used on input line 73.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[17] [18 <C:/Users/Pedrones/Desktop/tcc_git/tcc_dw_metricas/UNIFICADO_MATHEUS_P
+[17] [18 <C:/Users/Matheus/Documents/GitHub/tcc_dw_metricas/UNIFICADO_MATHEUS_P
 EDRO/figuras/figuras_pedro/projeto-pesq-eps-converted-to.pdf>])
-(C:\Users\Pedrones\Desktop\tcc_git\tcc_dw_metricas\UNIFICADO_MATHEUS_PEDRO\capi
+(C:\Users\Matheus\Documents\GitHub\tcc_dw_metricas\UNIFICADO_MATHEUS_PEDRO\capi
 tulos/2-metricas.tex [19] [20
 
 ]
 Package epstopdf Info: Source file: <figuras/figuras_matheus/tipos_medidas_INGL
 ES.eps>
-(epstopdf)                    date: 2014-11-12 01:25:25
+(epstopdf)                    date: 2014-09-20 20:43:50
 (epstopdf)                    size: 954035 bytes
 (epstopdf)             Output file: <figuras/figuras_matheus/tipos_medidas_INGL
 ES-eps-converted-to.pdf>
-(epstopdf)                    date: 2014-11-12 01:25:25
+(epstopdf)                    date: 2014-09-20 20:43:50
 (epstopdf)                    size: 25481 bytes
 (epstopdf)             Command: <epstopdf --outfile=figuras/figuras_matheus/tip
 os_medidas_INGLES-eps-converted-to.pdf figuras/figuras_matheus/tipos_medidas_IN
@@ -1834,10 +1814,10 @@ rted-to.pdf used on input line 55.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[21] [22 <C:/Users/Pedrones/Desktop/tcc_git/tcc_dw_metricas/UNIFICADO_MATHEUS_P
+[21] [22 <C:/Users/Matheus/Documents/GitHub/tcc_dw_metricas/UNIFICADO_MATHEUS_P
 EDRO/figuras/figuras_matheus/tipos_medidas_INGLES-eps-converted-to.pdf>]
 [23]
-(C:\Users\Pedrones\Desktop\tcc_git\tcc_dw_metricas\UNIFICADO_MATHEUS_PEDRO\tabe
+(C:\Users\Matheus\Documents\GitHub\tcc_dw_metricas\UNIFICADO_MATHEUS_PEDRO\tabe
 las/tabelasMatheus/percentis.ltx
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <9> on input line 3.
@@ -1847,15 +1827,15 @@ Overfull \hbox (9.37761pt too wide) in paragraph at lines 3--146
  []
 
 [24]
-(C:\Users\Pedrones\Desktop\tcc_git\tcc_dw_metricas\UNIFICADO_MATHEUS_PEDRO\tabe
+(C:\Users\Matheus\Documents\GitHub\tcc_dw_metricas\UNIFICADO_MATHEUS_PEDRO\tabe
 las/tabelasMatheus/intervalos.ltx)
-(C:\Users\Pedrones\Desktop\tcc_git\tcc_dw_metricas\UNIFICADO_MATHEUS_PEDRO\tabe
+(C:\Users\Matheus\Documents\GitHub\tcc_dw_metricas\UNIFICADO_MATHEUS_PEDRO\tabe
 las/tabelasMatheus/metricas.ltx)
 
 LaTeX Warning: Float too large for page by 59.66628pt on input line 172.
 
 [25] [26]
-(C:\Users\Pedrones\Desktop\tcc_git\tcc_dw_metricas\UNIFICADO_MATHEUS_PEDRO\tabe
+(C:\Users\Matheus\Documents\GitHub\tcc_dw_metricas\UNIFICADO_MATHEUS_PEDRO\tabe
 las/tabelasMatheus/conceitos-limpeza.ltx
 Underfull \hbox (badness 1762) in paragraph at lines 9--10
 []| []\T1/lmr/m/n/12 Menos Ope-ra-ções por
@@ -1957,7 +1937,7 @@ LaTeX Warning: Float too large for page by 32.4995pt on input line 199.
 [27
 
 ] [28]
-(C:\Users\Pedrones\Desktop\tcc_git\tcc_dw_metricas\UNIFICADO_MATHEUS_PEDRO\tabe
+(C:\Users\Matheus\Documents\GitHub\tcc_dw_metricas\UNIFICADO_MATHEUS_PEDRO\tabe
 las/tabelasMatheus/cenarios.ltx
 Underfull \hbox (badness 5893) in paragraph at lines 3--3
 []|\T1/lmr/m/n/12 Forma de De-tec-ção
@@ -2146,7 +2126,7 @@ Overfull \hbox (6.98694pt too wide) in paragraph at lines 1--210
 [29
 
 ] [30])
-(C:\Users\Pedrones\Desktop\tcc_git\tcc_dw_metricas\UNIFICADO_MATHEUS_PEDRO\capi
+(C:\Users\Matheus\Documents\GitHub\tcc_dw_metricas\UNIFICADO_MATHEUS_PEDRO\capi
 tulos/3-dwing.tex [31]
 LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <24.88> not available
 (Font)              Font shape `T1/lmss/m/sl' tried instead on input line 1.
@@ -2156,14 +2136,14 @@ LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <24.88> not available
 LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <17.28> not available
 (Font)              Font shape `T1/lmss/m/sl' tried instead on input line 24.
  [33]
-(C:\Users\Pedrones\Desktop\tcc_git\tcc_dw_metricas\UNIFICADO_MATHEUS_PEDRO\tabe
+(C:\Users\Matheus\Documents\GitHub\tcc_dw_metricas\UNIFICADO_MATHEUS_PEDRO\tabe
 las/tabelasMatheus/hilmer_olap_oltp.ltx)
 Package epstopdf Info: Source file: <figuras/figuras_pedro/elem-bas-dw.eps>
-(epstopdf)                    date: 2014-11-12 11:40:34
+(epstopdf)                    date: 2014-11-11 20:33:49
 (epstopdf)                    size: 60360 bytes
 (epstopdf)             Output file: <figuras/figuras_pedro/elem-bas-dw-eps-conv
 erted-to.pdf>
-(epstopdf)                    date: 2014-11-12 11:40:34
+(epstopdf)                    date: 2014-11-11 20:33:49
 (epstopdf)                    size: 45080 bytes
 (epstopdf)             Command: <epstopdf --outfile=figuras/figuras_pedro/elem-
 bas-dw-eps-converted-to.pdf figuras/figuras_pedro/elem-bas-dw.eps>
@@ -2182,14 +2162,14 @@ Package pdftex.def Info: figuras/figuras_pedro/elem-bas-dw-eps-converted-to.pdf
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[34] [35 <C:/Users/Pedrones/Desktop/tcc_git/tcc_dw_metricas/UNIFICADO_MATHEUS_P
+[34] [35 <C:/Users/Matheus/Documents/GitHub/tcc_dw_metricas/UNIFICADO_MATHEUS_P
 EDRO/figuras/figuras_pedro/elem-bas-dw-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <figuras/figuras_matheus/cubo.eps>
-(epstopdf)                    date: 2014-11-12 01:25:25
-(epstopdf)                    size: 3086053 bytes
+(epstopdf)                    date: 2014-10-17 01:16:39
+(epstopdf)                    size: 3047275 bytes
 (epstopdf)             Output file: <figuras/figuras_matheus/cubo-eps-converted
 -to.pdf>
-(epstopdf)                    date: 2014-11-12 01:25:25
+(epstopdf)                    date: 2014-10-17 01:18:24
 (epstopdf)                    size: 41657 bytes
 (epstopdf)             Command: <epstopdf --outfile=figuras/figuras_matheus/cub
 o-eps-converted-to.pdf figuras/figuras_matheus/cubo.eps>
@@ -2210,11 +2190,11 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [36]
 Package epstopdf Info: Source file: <figuras/figuras_matheus/drill.eps>
-(epstopdf)                    date: 2014-11-12 01:25:25
-(epstopdf)                    size: 1109999 bytes
+(epstopdf)                    date: 2014-10-17 02:53:10
+(epstopdf)                    size: 1095921 bytes
 (epstopdf)             Output file: <figuras/figuras_matheus/drill-eps-converte
 d-to.pdf>
-(epstopdf)                    date: 2014-11-12 01:25:25
+(epstopdf)                    date: 2014-10-17 02:57:05
 (epstopdf)                    size: 19498 bytes
 (epstopdf)             Command: <epstopdf --outfile=figuras/figuras_matheus/dri
 ll-eps-converted-to.pdf figuras/figuras_matheus/drill.eps>
@@ -2233,14 +2213,14 @@ d on input line 148.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[37 <C:/Users/Pedrones/Desktop/tcc_git/tcc_dw_metricas/UNIFICADO_MATHEUS_PEDRO/
+[37 <C:/Users/Matheus/Documents/GitHub/tcc_dw_metricas/UNIFICADO_MATHEUS_PEDRO/
 figuras/figuras_matheus/cubo-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <figuras/figuras_matheus/star.eps>
-(epstopdf)                    date: 2014-11-12 01:25:25
-(epstopdf)                    size: 2440459 bytes
+(epstopdf)                    date: 2014-10-15 04:33:14
+(epstopdf)                    size: 2409751 bytes
 (epstopdf)             Output file: <figuras/figuras_matheus/star-eps-converted
 -to.pdf>
-(epstopdf)                    date: 2014-11-12 01:25:25
+(epstopdf)                    date: 2014-10-15 04:38:22
 (epstopdf)                    size: 43333 bytes
 (epstopdf)             Command: <epstopdf --outfile=figuras/figuras_matheus/sta
 r-eps-converted-to.pdf figuras/figuras_matheus/star.eps>
@@ -2259,15 +2239,15 @@ Package pdftex.def Info: figuras/figuras_matheus/star-eps-converted-to.pdf used
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[38 <C:/Users/Pedrones/Desktop/tcc_git/tcc_dw_metricas/UNIFICADO_MATHEUS_PEDRO/
+[38 <C:/Users/Matheus/Documents/GitHub/tcc_dw_metricas/UNIFICADO_MATHEUS_PEDRO/
 figuras/figuras_matheus/drill-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <figuras/figuras_matheus/arquitetura_soluca
 o.eps>
-(epstopdf)                    date: 2014-11-12 01:25:25
-(epstopdf)                    size: 6616854 bytes
+(epstopdf)                    date: 2014-10-18 21:56:16
+(epstopdf)                    size: 6533941 bytes
 (epstopdf)             Output file: <figuras/figuras_matheus/arquitetura_soluca
 o-eps-converted-to.pdf>
-(epstopdf)                    date: 2014-11-17 11:57:04
+(epstopdf)                    date: 2014-11-17 12:08:54
 (epstopdf)                    size: 76714 bytes
 (epstopdf)             Command: <epstopdf --outfile=figuras/figuras_matheus/arq
 uitetura_solucao-eps-converted-to.pdf figuras/figuras_matheus/arquitetura_soluc
@@ -2288,21 +2268,21 @@ ted-to.pdf used on input line 179.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[39 <C:/Users/Pedrones/Desktop/tcc_git/tcc_dw_metricas/UNIFICADO_MATHEUS_PEDRO/
-figuras/figuras_matheus/star-eps-converted-to.pdf>] [40 <C:/Users/Pedrones/Desk
-top/tcc_git/tcc_dw_metricas/UNIFICADO_MATHEUS_PEDRO/figuras/figuras_matheus/arq
+[39 <C:/Users/Matheus/Documents/GitHub/tcc_dw_metricas/UNIFICADO_MATHEUS_PEDRO/
+figuras/figuras_matheus/star-eps-converted-to.pdf>] [40 <C:/Users/Matheus/Docum
+ents/GitHub/tcc_dw_metricas/UNIFICADO_MATHEUS_PEDRO/figuras/figuras_matheus/arq
 uitetura_solucao-eps-converted-to.pdf>] [41]
-(C:\Users\Pedrones\Desktop\tcc_git\tcc_dw_metricas\UNIFICADO_MATHEUS_PEDRO\tabe
+(C:\Users\Matheus\Documents\GitHub\tcc_dw_metricas\UNIFICADO_MATHEUS_PEDRO\tabe
 las/tabelasMatheus/fatos-dimensoes.ltx)
-(C:\Users\Pedrones\Desktop\tcc_git\tcc_dw_metricas\UNIFICADO_MATHEUS_PEDRO\tabe
+(C:\Users\Matheus\Documents\GitHub\tcc_dw_metricas\UNIFICADO_MATHEUS_PEDRO\tabe
 las/tabelasMatheus/tabelas-fatos-tabelas-dimensoes.ltx) [42]
 Package epstopdf Info: Source file: <figuras/figuras_matheus/modelo-dw-baufaker
 .eps>
-(epstopdf)                    date: 2014-11-12 01:25:25
+(epstopdf)                    date: 2014-09-24 22:24:24
 (epstopdf)                    size: 5179508 bytes
 (epstopdf)             Output file: <figuras/figuras_matheus/modelo-dw-baufaker
 -eps-converted-to.pdf>
-(epstopdf)                    date: 2014-11-12 01:25:25
+(epstopdf)                    date: 2014-10-22 20:39:41
 (epstopdf)                    size: 84452 bytes
 (epstopdf)             Command: <epstopdf --outfile=figuras/figuras_matheus/mod
 elo-dw-baufaker-eps-converted-to.pdf figuras/figuras_matheus/modelo-dw-baufaker
@@ -2323,15 +2303,15 @@ ed-to.pdf used on input line 264.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[43] [44 <C:/Users/Pedrones/Desktop/tcc_git/tcc_dw_metricas/UNIFICADO_MATHEUS_P
+[43] [44 <C:/Users/Matheus/Documents/GitHub/tcc_dw_metricas/UNIFICADO_MATHEUS_P
 EDRO/figuras/figuras_matheus/modelo-dw-baufaker-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <figuras/figuras_matheus/metadados-baufaker
 .eps>
-(epstopdf)                    date: 2014-11-12 01:25:25
+(epstopdf)                    date: 2014-09-24 22:24:24
 (epstopdf)                    size: 2294782 bytes
 (epstopdf)             Output file: <figuras/figuras_matheus/metadados-baufaker
 -eps-converted-to.pdf>
-(epstopdf)                    date: 2014-11-12 01:25:25
+(epstopdf)                    date: 2014-10-22 20:45:40
 (epstopdf)                    size: 26588 bytes
 (epstopdf)             Command: <epstopdf --outfile=figuras/figuras_matheus/met
 adados-baufaker-eps-converted-to.pdf figuras/figuras_matheus/metadados-baufaker
@@ -2349,19 +2329,19 @@ Package pdftex.def Info: figuras/figuras_matheus/metadados-baufaker-eps-convert
 ed-to.pdf used on input line 284.
 (pdftex.def)             Requested size: 406.52188pt x 331.8423pt.
 )
-(C:\Users\Pedrones\Desktop\tcc_git\tcc_dw_metricas\UNIFICADO_MATHEUS_PEDRO\capi
-tulos/4-projeto-de-estudo-de-caso.tex [45 <C:/Users/Pedrones/Desktop/tcc_git/tc
+(C:\Users\Matheus\Documents\GitHub\tcc_dw_metricas\UNIFICADO_MATHEUS_PEDRO\capi
+tulos/4-projeto-de-estudo-de-caso.tex [45 <C:/Users/Matheus/Documents/GitHub/tc
 c_dw_metricas/UNIFICADO_MATHEUS_PEDRO/figuras/figuras_matheus/metadados-baufake
 r-eps-converted-to.pdf>] [46
 
 ] [47] [48]
 Package epstopdf Info: Source file: <figuras/figuras_matheus/projeto_de_pesquis
 a.eps>
-(epstopdf)                    date: 2014-11-12 01:25:25
-(epstopdf)                    size: 7380046 bytes
+(epstopdf)                    date: 2014-10-18 14:43:48
+(epstopdf)                    size: 7287593 bytes
 (epstopdf)             Output file: <figuras/figuras_matheus/projeto_de_pesquis
 a-eps-converted-to.pdf>
-(epstopdf)                    date: 2014-11-12 01:25:25
+(epstopdf)                    date: 2014-10-18 14:44:32
 (epstopdf)                    size: 68888 bytes
 (epstopdf)             Command: <epstopdf --outfile=figuras/figuras_matheus/pro
 jeto_de_pesquisa-eps-converted-to.pdf figuras/figuras_matheus/projeto_de_pesqui
@@ -2383,7 +2363,7 @@ Overfull \hbox (54.09299pt too wide) in paragraph at lines 75--76
  [][] 
  []
 
-[49 <C:/Users/Pedrones/Desktop/tcc_git/tcc_dw_metricas/UNIFICADO_MATHEUS_PEDRO/
+[49 <C:/Users/Matheus/Documents/GitHub/tcc_dw_metricas/UNIFICADO_MATHEUS_PEDRO/
 figuras/figuras_matheus/projeto_de_pesquisa-eps-converted-to.pdf>]
 Underfull \hbox (badness 10000) in paragraph at lines 87--88
 
@@ -2436,13 +2416,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 155--156
  []
 
 [51] [52] [53]
-(C:\Users\Pedrones\Desktop\tcc_git\tcc_dw_metricas\UNIFICADO_MATHEUS_PEDRO\tabe
+(C:\Users\Matheus\Documents\GitHub\tcc_dw_metricas\UNIFICADO_MATHEUS_PEDRO\tabe
 las/tabelasMatheus/cronograma.ltx) [54])
-(C:\Users\Pedrones\Desktop\tcc_git\tcc_dw_metricas\UNIFICADO_MATHEUS_PEDRO\capi
+(C:\Users\Matheus\Documents\GitHub\tcc_dw_metricas\UNIFICADO_MATHEUS_PEDRO\capi
 tulos/5-conclusao.tex [55])
-(C:\Users\Pedrones\Desktop\tcc_git\tcc_dw_metricas\UNIFICADO_MATHEUS_PEDRO\tcc.
+(C:\Users\Matheus\Documents\GitHub\tcc_dw_metricas\UNIFICADO_MATHEUS_PEDRO\tcc.
 bbl
-(C:\Users\Pedrones\Desktop\tcc_git\tcc_dw_metricas\UNIFICADO_MATHEUS_PEDRO\tcc.
+(C:\Users\Matheus\Documents\GitHub\tcc_dw_metricas\UNIFICADO_MATHEUS_PEDRO\tcc.
 brf)
 \tf@brf=\write7
  [56
@@ -2462,7 +2442,7 @@ AED: lastpage setting LastPage
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 46.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 46.
 
-(C:\Users\Pedrones\Desktop\tcc_git\tcc_dw_metricas\UNIFICADO_MATHEUS_PEDRO\tcc.
+(C:\Users\Matheus\Documents\GitHub\tcc_dw_metricas\UNIFICADO_MATHEUS_PEDRO\tcc.
 aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 46.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 46.
@@ -2476,12 +2456,12 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 46.
  ) 
 Here is how much of TeX's memory you used:
  27574 strings out of 493921
- 492938 string characters out of 3144867
- 602695 words of memory out of 3000000
+ 490287 string characters out of 3144870
+ 602693 words of memory out of 3000000
  29981 multiletter control sequences out of 15000+200000
  101929 words of font info for 79 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 68i,14n,75p,1541b,630s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 68i,14n,75p,1467b,630s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/lm/lm-rm.enc}{C:/Program F
 iles (x86)/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathex.enc}{C:/Program Files (x86)/
 MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathit.enc}{C:/Program Files (x86)/MiKTeX 2.9/
@@ -2501,7 +2481,7 @@ X 2.9/fonts/type1/public/lm/lmss12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts
 ic/lm/lmssbo10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lms
 sbx10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmsso17.pfb>
 <C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmsy10.pfb>
-Output written on tcc.pdf (60 pages, 1286801 bytes).
+Output written on tcc.pdf (60 pages, 1286913 bytes).
 PDF statistics:
  1384 PDF objects out of 1440 (max. 8388607)
  188 named destinations out of 1000 (max. 500000)
