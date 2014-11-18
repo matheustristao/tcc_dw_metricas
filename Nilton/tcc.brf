@@ -1,4 +1,3 @@
-\backcite {ISO25023}{{7}{Page 7}{page.7}}
 \backcite {WillcocksTercerizacao}{{15}{Page 15}{page.15}}
 \backcite {leite_terceirizacao}{{15}{Page 15}{page.15}}
 \backcite {WillcocksTercerizacao}{{15}{Page 15}{page.15}}
@@ -67,6 +66,7 @@
 \backcite {rego_monitoramento_2014}{{29}{Page 29}{page.29}}
 \backcite {rego_monitoramento_2014}{{29}{Page 29}{page.29}}
 \backcite {rego_monitoramento_2014}{{30}{Page 30}{page.30}}
+\backcite {marinescu2005measurement}{{31}{Page 31}{page.31}}
 \backcite {Machini2010}{{31}{Page 31}{page.31}}
 \backcite {Machini2010}{{31}{Page 31}{page.31}}
 \backcite {Martin2008}{{31}{Page 31}{page.31}}
@@ -156,13 +156,19 @@
 \backcite {Ruiz2005}{{59}{Page 59}{page.59}}
 \backcite {Ruiz2005}{{59}{Page 59}{page.59}}
 \backcite {novello_uma_2006}{{60}{Page 60}{page.60}}
+\backcite {Fenton98}{{60}{Page 60}{page.60}}
+\backcite {metricsandmodels}{{60}{Page 60}{page.60}}
+\backcite {McCabe76}{{60}{Page 60}{page.60}}
+\backcite {Inmon2002}{{60}{Page 60}{page.60}}
+\backcite {Kimball2002}{{60}{Page 60}{page.60}}
+\backcite {neeraj_sharma_2011}{{60}{Page 60}{page.60}}
 \backcite {Basili96b}{{60}{Page 60}{page.60}}
 \backcite {Basili96b}{{60}{Page 60}{page.60}}
 \backcite {stake_art_1995}{{63}{Page 63}{page.63}}
-\backcite {yin2001estudo}{{63}{Page 63}{page.63}}
-\backcite {stake_art_1995}{{63}{Page 63}{page.63}}
-\backcite {yin2001estudo}{{66}{Page 66}{page.66}}
-\backcite {yin2001estudo}{{66}{Page 66}{page.66}}
+\backcite {yin2001estudo}{{64}{Page 64}{page.64}}
+\backcite {stake_art_1995}{{64}{Page 64}{page.64}}
+\backcite {yin2001estudo}{{67}{Page 67}{page.67}}
+\backcite {yin2001estudo}{{67}{Page 67}{page.67}}
 \backcite {yin2001estudo}{{67}{Page 67}{page.67}}
 \backcite {yin2001estudo}{{67}{Page 67}{page.67}}
 \backcite {yin2001estudo}{{67}{Page 67}{page.67}}

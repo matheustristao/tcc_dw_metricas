@@ -5,7 +5,7 @@ Neste capítulo é apresentado o projeto do estudo de caso. Isso  consiste na el
 
 \section{Definição}
 
-Segundo \cite{yin2001estudo} o estudo de caso é um conjunto de procedimentos pré-especificados para se realizar um estudo empírico que investiga um fenômeno contemporâneo dentro de seu contexto da vida real, especialmente quando os limites entre o fenômeno e o contexto não estão claramente definidos. Uma grande vantagem do estudo de caso é a sua capacidade de lidar com uma ampla variedade de evidências - documentos, artefatos, entrevistas e observações. Além disso, em algumas situações, como na observação participante, pode ocorrer manipulação informal.
+Segundo \citeonline{yin2001estudo} o estudo de caso é um conjunto de procedimentos pré-especificados para se realizar um estudo empírico que investiga um fenômeno contemporâneo dentro de seu contexto da vida real, especialmente quando os limites entre o fenômeno e o contexto não estão claramente definidos. Uma grande vantagem do estudo de caso é a sua capacidade de lidar com uma ampla variedade de evidências, documentos, artefatos, entrevistas e observações. Além disso, em algumas situações, como na observação participante, pode ocorrer manipulação informal.
 
 Buscando maior entendimento a respeito do estudo de caso proposto, foram criadas algumas perguntas que são fundamentais para o seu entendimento:
 
@@ -22,12 +22,7 @@ Buscando maior entendimento a respeito do estudo de caso proposto, foram criadas
 	
 Com o objetivo da elucidação do escopo do estudo de caso proposto neste trabalho apresentado na Figura \ref{EscopoEstudoCaso}, foi apresentado nos capítulos antecedentes, um estudo teórico  relacionado à métricas de software, contratação de serviços de TI por parte da Administração Pública Federal brasileira e de Data \textit{Warehouse}. Também foi apresentado uma solução para o monitoramento de Métricas de Código-Fonte com suporte de um ambiente de Data \textit{Warehousing}.
 
-\begin{figure}[h!]
-\centering
-\includegraphics[keepaspectratio=false,scale=0.5]{figuras/figuras_nilton/EscopoEstudoCaso.eps}
-\caption{Escopo do Estudo de Caso}
-\label{EscopoEstudoCaso}
-\end{figure}
+
 
 Para  as demais perguntas serem respondidas, foi estruturado neste trabalho um protocolo de estudo de caso baseado em \citeonline{case-study-template-2008} que é dividido da seguinte maneira:
 
@@ -37,7 +32,7 @@ Para  as demais perguntas serem respondidas, foi estruturado neste trabalho um p
 
 & \textbf{Design - Seção \ref{sec:design}}: Identificar se o projeto de pesquisa é um caso único ou múltiplo bem como seu propósito geral.
 
-& \textbf{Seleção - Seção \ref{sec:selecao}}: Apresentar critérios para a seleção do caso e letcdescrição do objeto de estudo a ser analisado.
+& \textbf{Seleção - Seção \ref{sec:selecao}}: Apresentar critérios para a seleção do caso e descrição do objeto de estudo a ser analisado.
 
 & \textbf{Fonte e Método de Coleta de Dados - Seção \ref{sec:fonte}}: Identificar os dados que serão coletados, definindo um plano para a coleta e como a informação será armazenada.
 
@@ -45,8 +40,16 @@ Para  as demais perguntas serem respondidas, foi estruturado neste trabalho um p
 
 & \textbf{Ameaças a validade do estudo de caso - Seção \ref{sec:validade}}: Elicitar tipos de validades aplicáveis a um estudo de caso baseando-se no trabalho desenvolvido por \citeonline{yin2001estudo}, sendo elas: constructo, interna, externa e confiabilidade.
 
+& \textbf{Cronograma - Seção \ref{sec:cronograma}}: Cronograma com as estimativas de tempo para as atividades propostas.
+
 \end{easylist}
 
+\begin{figure}[h!]
+\centering
+\includegraphics[keepaspectratio=false,scale=0.5]{figuras/figuras_nilton/EscopoEstudoCaso.eps}
+\caption{Escopo do Estudo de Caso}
+\label{EscopoEstudoCaso}
+\end{figure}
 
 \section{Background}\label{sec:Background}
 
@@ -75,7 +78,7 @@ Já o trabalho de \citeonline{Ruiz2005} apresenta um ambiente de \textit{data wa
 
 \citeonline{novello_uma_2006} também utilizou \textit{data warehouse} para monitoramento de métricas no processo de desenvolvimento de software, porém essas métricas não eram de código fonte.
 
-Outros trabalhos relacionados a este são 
+Outros trabalhos relacionados ao conceito de métricas de software utilizados nessa revisão são  \citeonline{Fenton98}, \citeonline{metricsandmodels}, \citeonline{McCabe76}. Outros trabalhos que possuem como tema \textit{data warehousing} foram utilizados durante a revisão bibliográfica, entre eles estão  \citeonline{Inmon2002}, \citeonline{Kimball2002}, \citeonline{neeraj_sharma_2011}. 
 
 \subsection{Questão de Pesquisa}
 
@@ -83,7 +86,7 @@ A questão de pesquisa a seguir foi proveniente do problema da falta de capacida
 
 \textbf{O uso de DW para o monitoramento de métricas de código fonte para assistir ao processo de aferição de qualidade interna dos produtos de software desenvolvido por terceirizadas, do ponto de vista da equipe de qualidade no desenvolvimento de software no órgão público, é eficaz e eficiente?}
 
-Para estruturar a questão de pesquisa foi utilizado a técnica \textit{goal-question-metrics} conforme ilustrado na figura \ref{EstruturaEstudoCaso}. Segundo \cite{Basili96b} o resultado da aplicação do GQM é a especificação de um sistema de medida destinada a um conjunto especifico de questões e um conjunto de regras para a interpretação dos dados da medição. O GQM é uma estrutura hierárquica que começa com um objetivo que especifica o propósito da medição, objeto a ser medido, questão a ser medida e o ponto de vista de quem observa a. O objetivo é refinado em várias questões, onde para cada questão é definida uma métrica(objetiva ou subjetiva)\cite{Basili96b}. A estrutura do GQM está a seguir.
+Para estruturar a questão de pesquisa foi utilizado a técnica \textit{goal-question-metrics} conforme ilustrado na figura \ref{EstruturaEstudoCaso}. Segundo \cite{Basili96b} o resultado da aplicação do GQM é a especificação de um sistema de medida destinada a um conjunto especifico de questões e um conjunto de regras para a interpretação dos dados da medição. O GQM é uma estrutura hierárquica que começa com um objetivo que especifica o propósito da medição, objeto a ser medido, questão a ser medida e o ponto de vista de quem a observa. O objetivo é refinado em várias questões, onde para cada questão é definida uma métrica(objetiva ou subjetiva)\cite{Basili96b}. A estrutura do GQM está a seguir.
 
 \textbf{Objetivo 01:} Avaliar a eficácia e eficiência do uso de \textit{Data Warehouse} para monitoramento de métricas de código fonte.\\
 
@@ -182,7 +185,7 @@ Para estruturar a questão de pesquisa foi utilizado a técnica \textit{goal-que
 \section{Design}
 \label{sec:design} 
 
-\cite{stake_art_1995} identifica três modalidades de estudos de caso: intrínseco, instrumental e coletivo. 
+\citeonline{stake_art_1995} identifica três modalidades de estudos de caso: intrínseco, instrumental e coletivo. 
 
 \begin{easylist}[itemize]
 
@@ -196,7 +199,7 @@ ou na redefinição de determinado problema. O pesquisador não tem interesse es
 
 \end{easylist}
 
-Como a busca do entendimento geral sobre o problema de pesquisa será a partir do estudo de um caso particular, o estudo deste  trabalho se caracteriza como instrumental. Podemos observar que a definição de estudo de caso exploratório de \citeonline{yin2001estudo}, onde é elucidado a visão acurada de um caso particular que pode fornecer uma visão geral do problema considerado, se equivale a definição de estudo de caso instrumental na nomenclatura de \cite{stake_art_1995}. 
+Como a busca do entendimento geral sobre o problema de pesquisa será a partir do estudo de um caso particular, o estudo deste  trabalho se caracteriza como instrumental. Podemos observar que a definição de estudo de caso exploratório de \citeonline{yin2001estudo}, onde é elucidado a visão acurada de um caso particular que pode fornecer uma visão geral do problema considerado, que se equivale a definição de estudo de caso instrumental na nomenclatura de \cite{stake_art_1995}. 
 
 \section{Seleção}
 \label{sec:selecao} 
@@ -231,7 +234,9 @@ Atividades atribuídas à GITECBR:
 
 \end{easylist}
 
-Atualmente, na CETEC, a solução em homologação, que auxilia as unidades da CAIXA no processo de monitoração de métricas de código-fonte adquiridos por empresas terceirizadas utiliza a ferramenta SonarQube \footnote{http://www.sonarqube.org/}. Apesar do processo existente estar em fase de homologação, a definição de quais as métricas, indicadores e os seus valores de referência para interpretação, ainda não foi finalizado. Diante disso, as medidas que realmente são utilizadas para o ateste da qualidade interna do produto de \textit{software} entregue, estão relacionadas ao número de defeitos e ao índice aceitável de defeitos por ponto de função, conforme pode ser observado na figura \ref{formula}.
+A homologação dos serviços e a aceitação dos S\&SC será facultado à CAIXA, submetendo os programas produzidos pela CONTRATADA a testes em produtos (software especializados) para avaliação do desempenho dos mesmos. Atualmente, na CETEC, a solução em homologação, que auxilia as unidades da CAIXA no processo de monitoração de métricas de código-fonte adquiridos por empresas terceirizadas utiliza a ferramenta SonarQube \footnote{http://www.sonarqube.org/}. Apesar do processo existente estar em fase de homologação, a definição de quais as métricas, indicadores e os seus valores de referência para interpretação, ainda não foi finalizado. Diante disso, as medidas que realmente são utilizadas para o ateste da qualidade interna do produto de \textit{software} entregue, estão relacionadas ao número de defeitos e ao índice aceitável de defeitos por ponto de função, conforme pode ser observado na Figura \ref{formula}. O número de pontos de defeitos pode gerar multas para a CONTRATADA conforme o índice de defeitos referenciado na tabela \ref{tab:multa}, porém a multa não exime a CONTRATADA das obrigações de corrigir os erros encontrados, onde ainda as alterações propostas pela CONTRATADA deverão ser efetuadas sem qualquer tipo de ônus financeiro ou a outro projeto para a CAIXA.
+
+
 
 \begin{figure}[h!]
 \centering
@@ -240,24 +245,22 @@ Atualmente, na CETEC, a solução em homologação, que auxilia as unidades da C
 \label{formula}
 \end{figure}
 
-Regras relacionadas a Fórmula de Índice de Defeitos:
+\begin{table}[!ht]
+	\begin{center}
+
 
 \begin{easylist}[itemize]
 
+\begin{flushleft}
+Regras relacionadas a Fórmula de Índice de Defeitos:\linebreak[1] 
+\end{flushleft}
+
+
 & Para arredondamento do valor de “Pd” aplicar-se-á a seguinte regra: se o número constante na segunda casa decimal for superior ou igual a 5, o algarismo da primeira casa decimal será acrescido de 1. Caso contrário, o valor da primeira casa decimal permanece inalterado. (ex: se o resultado do cálculo for igual a 0,18, o valor passará a ser 0,2. Se o resultado do cálculo for igual a 0,13, o valor passará a ser 0,1).
 
-& Caso o índice de defeitos fique superior ao aceitável que é de 0,2 erro por ponto de função, sensibilizará o indicador de desempenho e aplicará o respectivo percentual de redução, conforme a tabela \ref{tab:multa}. 
-
-& O índice de defeitos referenciado na tabela \ref{tab:multa} não exime a CONTRATADA das obrigações de corrigi-lo, sem ônus para a CAIXA.
-
-& Para homologação dos serviços e emissão do Termo de Aceite dos Serviços Contratados será facultado à CAIXA submeter os programas produzidos pela CONTRATADA a testes em produtos (software especializados) para avaliação do desempenho dos mesmos.
-
-& As alterações propostas, baseadas nos dados obtidos pelo mencionado \textit{software} deverão ser efetuadas sem qualquer tipo de ônus financeiro ou a outro projeto para a CAIXA.
-
+& Caso o índice de defeitos fique superior ao aceitável que é de 0,2 erro por ponto de função, sensibilizará o indicador de desempenho e aplicará o respectivo percentual de redução, conforme a tabela \ref{tab:multa}.\linebreak[1]  
+ 
 \end{easylist}
-
-\begin{table}[!ht]
-	\begin{center}
 	
 	\input{tabelas/tabelasNilton/multasdefeitos.ltx} 
 	\caption{Multa por defeitos}
@@ -266,22 +269,20 @@ Regras relacionadas a Fórmula de Índice de Defeitos:
 	\end{table}	
 	\FloatBarrier
 	
+	
+Para o estudo de caso deste trabalho será analisado um ou dois sistemas do portfólio da filial GITECBR desenvolvido na linguagem java. Em cada \textit{release} de um determinado projeto a GITECBR recebe um pacote da contratada contendo o código-fonte do sistema. Antes da nova versão do sistema entregue ser implantada em ambiente de homologação de sistemas, ela deve passar pela solução disponibilizada pela CETEC que utiliza o sonarQube. O sonarQube apresenta os defeitos contidos no código-fonte. Com base nos defeitos e no índice aceitável de defeitos que é de 0,2 erro por ponto de função, o gestor define se a \textit{realease} deve ser rejeitada e se existe alguma multa aplicável conforme a tabela \ref{tab:multa}.    
 
-Para o estudo de caso deste trabalho será analisado um ou dois sistemas do portfólio da filial GITECBR desenvolvido na linguagem java. Em cada \textit{release} de um determinado projeto a GITECBR recebe um pacote da contratada contendo o código-fonte do sistema. Antes da nova versão do sistema entregue ser implantada em ambiente de homologação de sistemas, ela deve passar pela solução disponibilizada pela CETEC que utiliza o sonarQube. O sonarQube apresenta os defeitos contidos no código-fonte. Com base nos defeitos e no índice aceitável de defeitos o gestor define se a \textit{realease} deve ser rejeitada e se existe alguma multa aplicável conforme a tabela \ref{tab:multa} e os demais itens.    
-
-
-    
 
 \section{Fonte dos Dados Coletados e Método de Coleta}
 \label{sec:fonte} 
 
-Os dados deste estudo de caso,serão coletados através de registros de observações em campo, questionários, entrevistas e resultados gerados pela própria solução de DWing utilizando o código-fonte de um ou mais sistemas desenvolvidos por empresas contratadas pela CAIXA.
+Os dados deste estudo de caso, serão coletados através de registros de observações em campo, questionários, entrevistas e resultados gerados pela própria solução de \textit{Data Warehousing} utilizando o código-fonte de um ou mais sistemas desenvolvidos por empresas contratadas pela CAIXA.
 
 Os registros oriundos de observações em campo são gerados a partir da equipe responsável pela tomada de decisões de qualidade e são coletados durante as visitas realizadas em campo. Nessas visitas, a solução proposta será utilizada e qualquer atitude relacionada ao seu uso pela equipe será registrada. Tais registros são tanto do ponto de vista qualitativo quanto do ponto de vista quantitativo.
 
-A adoção de questionários também será utilizada principalmente para dados qualitativos. O questionário fará indagações a respeito da solução de DWing pelo ponto de vista da equipe responsável e dos demais envolvidos na área de qualidade de \textit{software} da CAIXA, no que diz respeito: à tomadas de decisões, detecção de cenários de limpeza de código, falhas relacionados à utilização da ferramenta adotada na solução de DW, ao nível de satisfação no uso da solução e as taxas de oportunidades de melhoria de código. 
+A adoção de questionários também será utilizada principalmente para dados qualitativos. O questionário fará indagações a respeito da solução de \textit{Data Warehousing} pelo ponto de vista da equipe responsável e dos demais envolvidos na área de qualidade de \textit{software} da CAIXA, no que diz respeito: à tomadas de decisões, detecção de cenários de limpeza de código, falhas relacionados à utilização da ferramenta adotada na solução de DW, ao nível de satisfação no uso da solução e as taxas de oportunidades de melhoria de código. 
 
-Dados quantitativos utilizados pela solução de DWing, serão coletados a medida em que esta for utilizada pela equipe de qualidade da CAIXA ao longo das \textit{releases} dos projetos adotados.
+Dados quantitativos utilizados pela solução de \textit{Data Warehousing}, serão coletados a medida em que esta for utilizada pela equipe de qualidade da CAIXA ao longo das \textit{releases} dos projetos adotados.
 
 \section{Processo de análise dos dados}
 \label{sec:analise} 
@@ -310,13 +311,14 @@ Análise dos dados coletados durante o estudo de caso a ser realizado na CAIXA s
 & \textbf{Validade interna: } Para \citeonline{yin2001estudo} o uso de várias fontes de dados e métodos de coleta permite a triangulação, uma técnica para confirmar se os resultados de diversas fontes e de diversos métodos convergem. Dessa forma é possível aumentar a validade interna do estudo e aumentar a força das conclusões.
 A triangulação de dados se dará pelas medidas extraídas do código-fonte por meio da solução de \textit{Data Warehousing}(explicada no capítulo \ref{chap:arquitetura}), pela análise de questionários e pelos dados coletados através de entrevistas.
 
-& \textbf{Validade externa: } \citeonline{yin2001estudo} recomenda a replicação do estudo em múltiplos casos, por este ser um caso único, a generalização não poderá ser alcançada. Este trabalho é o primeiro a verificar a eficácia e eficiência da solução para o estudo de caso no CAIXA, portanto não há como correlacionar os resultados obtidos a nenhum outro estudo.
+& \textbf{Validade externa: } \citeonline{yin2001estudo} recomenda a replicação do estudo em múltiplos casos, por este ser um caso único, a generalização não poderá ser alcançada. Este trabalho é o primeiro a verificar a eficácia e eficiência da solução para o estudo de caso na CAIXA, portanto não há como correlacionar os resultados obtidos a nenhum outro estudo.
 
 & \textbf{Confiabilidade: } Com relação a confiabilidade, \citeonline{yin2001estudo} associa à repetibilidade, desde que seja usada a mesma fonte de dados. Nesse trabalho o protocolo de estudo de caso apresentado nessa seção, além da disponibilização da base de dados a serem coletados e analisados, garantem a repetibilidade desse trabalho e consequentemente a validade relacionada à confiabilidade.
 
 \end{easylist}	
 
 \section{Cronograma}
+\label{sec:cronograma} 
 
 As atividades listadas na Tabela \ref{tab:cronograma} servirão de apoio para a execução do estudo de caso:
 
@@ -332,4 +334,4 @@ As atividades listadas na Tabela \ref{tab:cronograma} servirão de apoio para a 
 
 \section{Considerações finais do capítulo}
 
-Esse capítulo teve como objetivo apresentar o protocolo de estudo de caso que será adotado na continuação deste trabalho. No trabalho de conclusão de curso dois serão detalhados o órgão público onde será aplicado o projeto de estudo de caso desenhado neste trabalho, os termos do contrato do órgão e a empresa contratada referentes a qualidade de \textit{software} e serão apresentados os resultados obtidos para as questões específicas apresentadas neste capítulo assim como a interpretação dos mesmos possibilitando responder a questão de pesquisa abordada.  
+Esse capítulo teve como objetivo apresentar o protocolo de estudo de caso que será adotado na continuação deste trabalho. No trabalho de conclusão de curso dois serão apresentados os resultados obtidos para as questões específicas apresentadas neste capítulo, a coleta e a análise dos dados coletados assim como a interpretação dos mesmos possibilitando responder a questão de pesquisa abordada.  
