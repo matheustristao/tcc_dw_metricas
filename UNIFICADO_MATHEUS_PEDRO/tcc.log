@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.9.14)  18 NOV 2014 00:14
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.9.14)  18 NOV 2014 12:35
 entering extended mode
 **tcc.tex
 
@@ -2349,7 +2349,7 @@ sa.eps>
 (epstopdf)             \includegraphics on input line 75.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/figuras_matheus/projeto_de_pesquisa-eps-converted-to.pdf, id=909, 1272
+<figuras/figuras_matheus/projeto_de_pesquisa-eps-converted-to.pdf, id=908, 1272
 .755pt x 948.54375pt>
 File: figuras/figuras_matheus/projeto_de_pesquisa-eps-converted-to.pdf Graphic 
 file (type pdf)
@@ -2447,7 +2447,7 @@ aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 46.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 46.
 Package rerunfilecheck Info: File `tcc.brf' has not changed.
-(rerunfilecheck)             Checksum: 2242220D0D72CF7B2124B3CEE3116E8D;11229.
+(rerunfilecheck)             Checksum: 5A7A2F9C6272ACDA49461DAA67343102;11210.
 
 
 LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
@@ -2455,10 +2455,10 @@ LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 46.
  ) 
 Here is how much of TeX's memory you used:
- 27574 strings out of 493921
- 490287 string characters out of 3144870
- 602693 words of memory out of 3000000
- 29981 multiletter control sequences out of 15000+200000
+ 27573 strings out of 493921
+ 490271 string characters out of 3144870
+ 602810 words of memory out of 3000000
+ 29980 multiletter control sequences out of 15000+200000
  101929 words of font info for 79 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
  68i,14n,75p,1467b,630s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -2481,7 +2481,7 @@ X 2.9/fonts/type1/public/lm/lmss12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts
 ic/lm/lmssbo10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lms
 sbx10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmsso17.pfb>
 <C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmsy10.pfb>
-Output written on tcc.pdf (60 pages, 1286913 bytes).
+Output written on tcc.pdf (60 pages, 1286912 bytes).
 PDF statistics:
  1384 PDF objects out of 1440 (max. 8388607)
  188 named destinations out of 1000 (max. 500000)
