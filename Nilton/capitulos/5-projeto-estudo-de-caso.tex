@@ -52,13 +52,18 @@ Para  as demais perguntas serem respondidas, foi estruturado neste trabalho um p
 
 Esta seção contém referências sobre os trabalhos que antecederam esse estudo de caso dentro de um contexto similar ao que foi apresentado, assim como a própria questão geral de pesquisa a ser respondida com todos os elementos necessários para respondê-la.
 
-\subsection{Trabalhos Antecedentes}
+\subsection{Trabalhos Antecedentes e Relacionados}
 
-Referente ao contexto deste trabalho, o principal trabalho antecedente foi o desenvolvido por \citeonline{rego_monitoramento_2014}, no qual sua solução será utilizada para monitorar as métricas de código-fonte utilizando \textit{Data Warehouse}.
+O principal trabalho que antecede essa ideia foi desenvolvido por \citeonline{rego_monitoramento_2014}, no qual a solução para monitoramento de métricas de código fonte utilizando \textit{Data Warehouse} foi desenvolvida.
 
-Anteriormente ao trabalho realizado por \citeonline{rego_monitoramento_2014}, \citeonline{marinescu2005measurement} mostrou em seu trabalho que a utilização de métricas isoladas dificulta a interpretação de anomalias do código, reduzindo a aplicabilidade da medição feita. Além disso, o autor ainda afirma que a métrica por si só não contém informação o suficiente para motivar uma transformação no código que que melhore sua qualidade. Buscando trabalhar nesse contexto, \citeonline{marinescu2005measurement} apresenta o conceito de interpretação das métricas em um nível de abstração maior que o adquirido ao observar apenas o valor da métrica.
+Anteriormente ao trabalho realizado por \citeonline{rego_monitoramento_2014}, \citeonline{marinescu2005measurement} mostrou em seu trabalho que a utilização de métricas isoladas dificulta a interpretação de anomalias do código, reduzindo a aplicabilidade da medição feita. Além disso, o autor ainda afirma que a métrica por si só não contém informação o suficiente para motivar uma transformação no código que que melhore sua qualidade. Buscando trabalhar nesse contexto, \citeonline{marinescu2005measurement} apresentou o conceito de interpretação das métricas em um nível de abstração maior que o adquirido ao observar apenas o valor da métrica.
 
-Já no trabalho de \citeonline{Ruiz2005} foi apresentado um ambiente de \textit{Data Warehousing} para apoiar a implementação de um programa de medição em uma organização certificada como CMM Nível 2, também foi concebido um experimento que valida sua arquitetura, onde foi usado dados organizacionais reais. \citeonline{Ruiz2005} aborda três aspectos essenciais: 
+Outro trabalho antecedente a ser destacado é a tese desenvolvida por \citeonline{Meirelles2013}, em que se buscou responder como métricas de código-fonte podem influir na atratividade de projetos de software livre e quais métricas devem ser controladas ao longo do tempo. Além disso, \citeonline{Meirelles2013} também inseriu como questão de pesquisa se as métricas de código-fonte melhoram com o amadurecimento dos projetos. Durante a execução de seu trabalho, foi observado a partir dos resultados obtidos para cada métrica de
+código-fonte em uma análise realizada no código-fonte de trinta e oito projetos de software livre que, para uma determinada linguagem de programação, é possível definir um intervalo qualitativo a partir de um determinado percentil observando o conjunto de valores que são frequentemente observados.
+
+O trabalho de \citeonline{Machini2010} fortemente relaciona-se com este trabalho por ter como objetivo fazer com que as métricas de código-fonte sejam mais facilmente incorporadas no cotidiano dos programadores, apresentando uma maneira de interpretar os valores das métricas através de cenários problemáticos que ocorrem frequentemente durante o desenvolvimento.  
+
+Já o trabalho de \citeonline{Ruiz2005} apresenta um ambiente de \textit{data warehousing} para apoiar a implementação de um programa de medição em uma organização certificada como CMM Nível 2. Além disso foi concebido um experimento que valida sua arquitetura, onde foi usado dados organizacionais reais. \citeonline{Ruiz2005} aborda três aspectos essenciais: 
 
 \begin{easylist}[itemize]
 
@@ -68,7 +73,9 @@ Já no trabalho de \citeonline{Ruiz2005} foi apresentado um ambiente de \textit{
 
 \end{easylist}
 
-\citeonline{novello_uma_2006} utilizou \textit{Data Warehouse} para monitoramento de métricas no processo de desenvolvimento de software, porém são métricas voltadas para a qualidade do processo de desenvolvimento de software mas são diretamente relacionadas ao código-fonte. 
+\citeonline{novello_uma_2006} também utilizou \textit{data warehouse} para monitoramento de métricas no processo de desenvolvimento de software, porém essas métricas não eram de código fonte.
+
+Outros trabalhos relacionados a este são 
 
 \subsection{Questão de Pesquisa}
 
@@ -83,7 +90,7 @@ Para estruturar a questão de pesquisa foi utilizado a técnica \textit{goal-que
 
 % Questão 01
 
-\textbf{QE01:} Quantas tomadas de decisão foram realizadas pela equipe baseando-se no uso da solução desenvolvida em um <período de tempo>?
+\textbf{QE01:} Quantas tomadas de decisão foram realizadas pela equipe baseando-se no uso da solução desenvolvida em um período de tempo?
 
 \textbf{Fonte:} Registro de observação em campo.
 
@@ -298,23 +305,29 @@ Análise dos dados coletados durante o estudo de caso a ser realizado na CAIXA s
 
 \begin{easylist}[itemize]	
 
-& \textbf{Validade do Constructo: } A validade de construção está presente na fase de coleta de dados, quando deve ser evidenciado as múltiplas fontes de evidência e a coleta de um conjunto de métricas para que se possa saber exatamente o que medir e quais dados são relevantes para o estudo, de forma a responder as questões de pesquisa \cite{yin2001estudo}. Buscou-se garantir a validade de construção ao definir objetivos com evidências diferentes. Estas, por sua vez, estão diretamente relacionadas com os objetivos do estudo de caso e os objetivos do trabalho. 
-
-\textcolor{red}{\todo[inline, color=yellow!20]{Dê uma olhada nas considerações que fiz no trabalho do Matheus e Pedro. A descrição posta aqui não reflete bem os elementos da validade de construção. está um pouco confuso}}
-
+& \textbf{Validade do constructo: } A validade de construção está presente na fase de coleta de dados, quando deve ser evidenciado as múltiplas fontes de evidência e a coleta de um conjunto de métricas para que se possa saber exatamente o que medir e quais dados são relevantes para o estudo, de forma a responder as questões de pesquisa \cite{yin2001estudo}. O uso do GQM mitiga a validade de constructo, uma vez que estabelece uma lógica entre a questão de pesquisa e as métricas que serão analisadas para respondê-la.
 
 & \textbf{Validade interna: } Para \citeonline{yin2001estudo} o uso de várias fontes de dados e métodos de coleta permite a triangulação, uma técnica para confirmar se os resultados de diversas fontes e de diversos métodos convergem. Dessa forma é possível aumentar a validade interna do estudo e aumentar a força das conclusões.
 A triangulação de dados se dará pelas medidas extraídas do código-fonte por meio da solução de \textit{Data Warehousing}(explicada no capítulo \ref{chap:arquitetura}), pela análise de questionários e pelos dados coletados através de entrevistas.
 
-& \textbf{Validade externa: } Por este ser um caso único, a generalização não poderá ser
-alcançada \cite{yin2001estudo}. Assim é necessária a utilização do estudo em múltiplos casos para que se comprove a generalidade dos resultados. Como este trabalho é o primeiro a verificar a eficácia e eficiência da solução para o estudo de caso na CAIXA, não há como correlacionar os resultados obtidos a nenhum outro estudo.
-
-\textcolor{red}{\todo[inline, color=yellow!20]{Está igual a do Matheus e Pedro... Verificar também as considerações que fiz no deles.}}
-
+& \textbf{Validade externa: } \citeonline{yin2001estudo} recomenda a replicação do estudo em múltiplos casos, por este ser um caso único, a generalização não poderá ser alcançada. Este trabalho é o primeiro a verificar a eficácia e eficiência da solução para o estudo de caso no CAIXA, portanto não há como correlacionar os resultados obtidos a nenhum outro estudo.
 
 & \textbf{Confiabilidade: } Com relação a confiabilidade, \citeonline{yin2001estudo} associa à repetibilidade, desde que seja usada a mesma fonte de dados. Nesse trabalho o protocolo de estudo de caso apresentado nessa seção, além da disponibilização da base de dados a serem coletados e analisados, garantem a repetibilidade desse trabalho e consequentemente a validade relacionada à confiabilidade.
 
 \end{easylist}	
+
+\section{Cronograma}
+
+As atividades listadas na Tabela \ref{tab:cronograma} servirão de apoio para a execução do estudo de caso:
+
+\begin{table}[!ht]
+	\begin{center}
+	\input{tabelas/tabelasNilton/cronograma.ltx} 
+	\caption{Cronograma}
+	\label{tab:cronograma}
+	\end{center}
+	\end{table}	
+	\FloatBarrier
 
 
 \section{Considerações finais do capítulo}

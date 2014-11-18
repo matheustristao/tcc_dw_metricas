@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=latex 2014.9.6)  17 NOV 2014 18:55
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=latex 2014.9.6)  18 NOV 2014 00:03
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2926,90 +2926,77 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 [57
 
 ] [58] [59]
-Underfull \hbox (badness 10000) in paragraph at lines 81--82
+Underfull \hbox (badness 10000) in paragraph at lines 88--89
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 90--91
+Underfull \hbox (badness 10000) in paragraph at lines 97--98
 
  []
 
 
-Overfull \hbox (4.74597pt too wide) in paragraph at lines 95--96
+Overfull \hbox (4.74597pt too wide) in paragraph at lines 102--103
 []\T1/lmr/bx/n/12 QE02:  \T1/lmr/m/n/12 Quan-tas to-ma-das de de-ci-são ao todo
  fo-ram re-a-li-za-das pela equipe baseando-
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 99--100
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 108--109
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 119--120
-
- []
-
 [60]
-Underfull \hbox (badness 10000) in paragraph at lines 128--129
+Underfull \hbox (badness 10000) in paragraph at lines 106--107
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 137--138
+Underfull \hbox (badness 10000) in paragraph at lines 115--116
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 147--148
+Underfull \hbox (badness 10000) in paragraph at lines 126--127
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 156--157
+Underfull \hbox (badness 10000) in paragraph at lines 135--136
 
  []
 
+
+Underfull \hbox (badness 10000) in paragraph at lines 144--145
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 154--155
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 163--164
+
+ []
+
+[61]
 File: figuras/figuras_nilton/EstruturaEstudoCaso.eps Graphic file (type eps)
-<figuras/figuras_nilton/EstruturaEstudoCaso.eps>
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[61] [62]
+ <figuras/figuras_nilton/EstruturaEstudoCaso.eps> [62] [63]
 File: figuras/figuras_nilton/formula.eps Graphic file (type eps)
- <figuras/figuras_nilton/formula.eps>
 
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[63] (./tabelas/tabelasNilton/multasdefeitos.ltx
+<figuras/figuras_nilton/formula.eps> [64]
+(./tabelas/tabelasNilton/multasdefeitos.ltx
 Underfull \hbox (badness 1270) in paragraph at lines 8--9
 \T1/lmr/m/n/12 manda foi en-tre-gue no-va-mente
  []
 
-) [64] [65]
-Package hyperref Info: bookmark level for unknown todo defaults to 0 on input l
-ine 303.
-
-Overfull \hbox (28.99966pt too wide) in paragraph at lines 303--303
-[] 
+) [65] [66] (./tabelas/tabelasNilton/cronograma.ltx)
+Overfull \hbox (14.80244pt too wide) in paragraph at lines 1--326
+ [] 
  []
 
-[66]
-Overfull \hbox (28.99966pt too wide) in paragraph at lines 312--312
-[] 
- []
-
-) (./capitulos/6-conclusao.tex [67]) (./tcc.bbl (./tcc.brf)
+[67]) (./capitulos/6-conclusao.tex [68]) (./tcc.bbl (./tcc.brf)
 \tf@brf=\write6
 \openout6 = `tcc.brf'.
 
- [68
+ [69
 
 ]
 bibitemlist
@@ -3039,11 +3026,11 @@ Underfull \hbox (badness 3354) in paragraph at lines 33--33
 [][][]$SIDOC;$[][] 
  []
 
-[69
+[70
 
-] [70] [71]) (./apendices/apendices.tex) (./editaveis/anexos.tex) (./tcc.ind) 
+] [71] [72]) (./apendices/apendices.tex) (./editaveis/anexos.tex) (./tcc.ind) 
 AED: lastpage setting LastPage
-[72]
+[73]
 \tf@lof=\write7
 \openout7 = `tcc.lof'.
 
@@ -3062,7 +3049,7 @@ Package atveryend Info: Executing hook `AfterLastShipout' on input line 45.
 Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 45.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 45.
 Package rerunfilecheck Info: File `tcc.brf' has not changed.
-(rerunfilecheck)             Checksum: 05B882D5E67632C6876F5474764ED9C9;8724.
+(rerunfilecheck)             Checksum: ADAF880AD2AF2B6FEBBFF70ED5E30784;8872.
 
 
 LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
@@ -3070,12 +3057,12 @@ LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 45.
  ) 
 Here is how much of TeX's memory you used:
- 26161 strings out of 493305
- 439075 string characters out of 6139898
- 633365 words of memory out of 5000000
- 28958 multiletter control sequences out of 15000+600000
+ 26127 strings out of 493305
+ 438194 string characters out of 6139898
+ 632748 words of memory out of 5000000
+ 28921 multiletter control sequences out of 15000+600000
  120341 words of font info for 89 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
- 63i,14n,83p,1321b,768s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 63i,14n,75p,1321b,722s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on tcc.dvi (73 pages, 777064 bytes).
+Output written on tcc.dvi (74 pages, 787360 bytes).
