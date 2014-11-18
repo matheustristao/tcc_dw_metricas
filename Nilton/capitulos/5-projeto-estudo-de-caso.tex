@@ -56,8 +56,7 @@ Esta seção contém referências sobre os trabalhos que antecederam esse estudo
 
 Referente ao contexto deste trabalho, o principal trabalho antecedente foi o desenvolvido por \citeonline{rego_monitoramento_2014}, no qual sua solução será utilizada para monitorar as métricas de código-fonte utilizando \textit{Data Warehouse}.
 
-\citeonline{novello_uma_2006} utilizou \textit{Data Warehouse} para monitoramento de métricas no processo de desenvolvimento de software, porém são métricas voltadas para a qualidade do processo de desenvolvimento de software mas são diretamente relacionadas ao código-fonte. 
-
+Anteriormente ao trabalho realizado por \citeonline{rego_monitoramento_2014}, \citeonline{marinescu2005measurement} mostrou em seu trabalho que a utilização de métricas isoladas dificulta a interpretação de anomalias do código, reduzindo a aplicabilidade da medição feita. Além disso, o autor ainda afirma que a métrica por si só não contém informação o suficiente para motivar uma transformação no código que que melhore sua qualidade. Buscando trabalhar nesse contexto, \citeonline{marinescu2005measurement} apresenta o conceito de interpretação das métricas em um nível de abstração maior que o adquirido ao observar apenas o valor da métrica.
 
 Já no trabalho de \citeonline{Ruiz2005} foi apresentado um ambiente de \textit{Data Warehousing} para apoiar a implementação de um programa de medição em uma organização certificada como CMM Nível 2, também foi concebido um experimento que valida sua arquitetura, onde foi usado dados organizacionais reais. \citeonline{Ruiz2005} aborda três aspectos essenciais: 
 
@@ -69,9 +68,7 @@ Já no trabalho de \citeonline{Ruiz2005} foi apresentado um ambiente de \textit{
 
 \end{easylist}
 
-
-\textcolor{red}{\todo[inline, color=yellow!20]{ O trabalho que realizei com o Baufaker trata de um estudo preliminar e se baseia em uma série de outros trabalhos. Conferir e citar tanto os trabalhos de Marinescu (interpretação de métricas) e seu grupo. O trabalho do Paulo Meirelles; Os trabalhos da turma que usou DW para coletar métricas... O trabalho do Baufaker tem essas citações, mas elas precisarão ser atualizadas/investigadas ao longo do TCC2. Evoluiremos o trabalho iniciado com o Baufaker sim, mas trata-se de uma pesquisa inicial}}
-
+\citeonline{novello_uma_2006} utilizou \textit{Data Warehouse} para monitoramento de métricas no processo de desenvolvimento de software, porém são métricas voltadas para a qualidade do processo de desenvolvimento de software mas são diretamente relacionadas ao código-fonte. 
 
 \subsection{Questão de Pesquisa}
 
@@ -227,7 +224,7 @@ Atividades atribuídas à GITECBR:
 
 \end{easylist}
 
-Atualmente, na CETEC, a solução em homologação, que auxilia as unidades da CAIXA no processo de monitoração de métricas de código-fonte adquiridos por empresas terceirizadas utiliza a ferramenta SonarQube \textcolor{red}{Citar em nota de rodapé a url do SonarCube}. Apesar do processo existente estar em fase de homologação, a definição de quais as métricas, indicadores e os seus valores de referência para interpretação, ainda não foi finalizado. Diante disso, as medidas que realmente são utilizadas para o ateste da qualidade interna do produto de \textit{software} entregue, estão relacionadas o número de defeitos e o índice aceitável de defeitos por ponto de função, conforme pode ser observado na figura \ref{formula}.
+Atualmente, na CETEC, a solução em homologação, que auxilia as unidades da CAIXA no processo de monitoração de métricas de código-fonte adquiridos por empresas terceirizadas utiliza a ferramenta SonarQube \footnote{http://www.sonarqube.org/}. Apesar do processo existente estar em fase de homologação, a definição de quais as métricas, indicadores e os seus valores de referência para interpretação, ainda não foi finalizado. Diante disso, as medidas que realmente são utilizadas para o ateste da qualidade interna do produto de \textit{software} entregue, estão relacionadas ao número de defeitos e ao índice aceitável de defeitos por ponto de função, conforme pode ser observado na figura \ref{formula}.
 
 \begin{figure}[h!]
 \centering
@@ -236,20 +233,21 @@ Atualmente, na CETEC, a solução em homologação, que auxilia as unidades da C
 \label{formula}
 \end{figure}
 
+Regras relacionadas a Fórmula de Índice de Defeitos:
+
 \begin{easylist}[itemize]
-
-
-\textcolor{red}{ Introduzir em uma frase a explicação dos bullets}
 
 & Para arredondamento do valor de “Pd” aplicar-se-á a seguinte regra: se o número constante na segunda casa decimal for superior ou igual a 5, o algarismo da primeira casa decimal será acrescido de 1. Caso contrário, o valor da primeira casa decimal permanece inalterado. (ex: se o resultado do cálculo for igual a 0,18, o valor passará a ser 0,2. Se o resultado do cálculo for igual a 0,13, o valor passará a ser 0,1).
 
-& Caso o índice de defeitos fique superior ao aceitável, sensibilizará o indicador de desempenho e aplicará o respectivo percentual de redução. 
+& Caso o índice de defeitos fique superior ao aceitável que é de 0,2 erro por ponto de função, sensibilizará o indicador de desempenho e aplicará o respectivo percentual de redução, conforme a tabela \ref{tab:multa}. 
 
-\textcolor{red}{Qual é o valor aceitavel e por que?}
+& O índice de defeitos referenciado na tabela \ref{tab:multa} não exime a CONTRATADA das obrigações de corrigi-lo, sem ônus para a CAIXA.
+
+& Para homologação dos serviços e emissão do Termo de Aceite dos Serviços Contratados será facultado à CAIXA submeter os programas produzidos pela CONTRATADA a testes em produtos (software especializados) para avaliação do desempenho dos mesmos.
+
+& As alterações propostas, baseadas nos dados obtidos pelo mencionado \textit{software} deverão ser efetuadas sem qualquer tipo de ônus financeiro ou a outro projeto para a CAIXA.
 
 \end{easylist}
-
-Para o estudo de caso deste trabalho será analisado um ou dois sistemas do portfólio da filial GITECBR desenvolvido na linguagem java. Em cada \textit{release} de um determinado projeto a GITECBR recebe um pacote da contratada contendo o código-fonte do sistema. Antes da nova versão do sistema entregue ser implantada em ambiente de homologação de sistemas, ela deve passar pela solução disponibilizada pela CETEC que utiliza o sonarQube. O sonarQube apresenta os defeitos contidos no código-fonte. Com base nos defeitos e no índice aceitável de defeitos o gestor define se a \textit{realease} deve ser rejeitada e se existe alguma multa aplicável conforme a tabela \ref{tab:multa} e os demais itens.    
 
 \begin{table}[!ht]
 	\begin{center}
@@ -261,19 +259,10 @@ Para o estudo de caso deste trabalho será analisado um ou dois sistemas do port
 	\end{table}	
 	\FloatBarrier
 	
-\begin{easylist}[itemize]
 
-& O índice de defeitos acima referenciado não exime a CONTRATADA das obrigações de corrigi-lo, sem ônus para a CAIXA.
-
-& Para homologação dos serviços e emissão do Termo de Aceite dos Serviços Contratados será facultado à CAIXA submeter os programas produzidos pela CONTRATADA a testes em produtos (software especializados) para avaliação do desempenho dos mesmos.
-
-& As alterações propostas, baseadas nos dados obtidos pelo mencionado \textit{software} deverão ser efetuadas sem qualquer tipo de ônus financeiro ou a outro projeto para a CAIXA.
-
-\textcolor{red}{\todo[inline, color=yellow!20]{Ao ler o txto não fica claro a explicação da tabela 15 e dos bullets abaixo dela. Reescrever.}}
+Para o estudo de caso deste trabalho será analisado um ou dois sistemas do portfólio da filial GITECBR desenvolvido na linguagem java. Em cada \textit{release} de um determinado projeto a GITECBR recebe um pacote da contratada contendo o código-fonte do sistema. Antes da nova versão do sistema entregue ser implantada em ambiente de homologação de sistemas, ela deve passar pela solução disponibilizada pela CETEC que utiliza o sonarQube. O sonarQube apresenta os defeitos contidos no código-fonte. Com base nos defeitos e no índice aceitável de defeitos o gestor define se a \textit{realease} deve ser rejeitada e se existe alguma multa aplicável conforme a tabela \ref{tab:multa} e os demais itens.    
 
 
-
-\end{easylist}
     
 
 \section{Fonte dos Dados Coletados e Método de Coleta}
@@ -315,14 +304,15 @@ Análise dos dados coletados durante o estudo de caso a ser realizado na CAIXA s
 
 
 & \textbf{Validade interna: } Para \citeonline{yin2001estudo} o uso de várias fontes de dados e métodos de coleta permite a triangulação, uma técnica para confirmar se os resultados de diversas fontes e de diversos métodos convergem. Dessa forma é possível aumentar a validade interna do estudo e aumentar a força das conclusões.
-A triangulação de dados se dará pelo resultado da solução de \textit{Data Warehouse} que utiliza o código-fonte (explicada no capítulo \ref{chap:arquitetura} ), pela análise de questionários e pelos dados coletados através de entrevistas.
+A triangulação de dados se dará pelas medidas extraídas do código-fonte por meio da solução de \textit{Data Warehousing}(explicada no capítulo \ref{chap:arquitetura}), pela análise de questionários e pelos dados coletados através de entrevistas.
 
-& \textbf{Validade externa: } Por este ser um caso único, a generalização do estudo de caso se dá de maneira pobre \cite{yin2001estudo}. Assim é necessária a utilização do estudo em múltiplos casos para que se comprove a generalidade dos resultados. Como este trabalho é o primeiro a verificar a eficácia e eficiência da solução para o estudo de caso no órgão, não há como correlacionar os resultados obtidos a nenhum outro estudo.
+& \textbf{Validade externa: } Por este ser um caso único, a generalização não poderá ser
+alcançada \cite{yin2001estudo}. Assim é necessária a utilização do estudo em múltiplos casos para que se comprove a generalidade dos resultados. Como este trabalho é o primeiro a verificar a eficácia e eficiência da solução para o estudo de caso na CAIXA, não há como correlacionar os resultados obtidos a nenhum outro estudo.
 
 \textcolor{red}{\todo[inline, color=yellow!20]{Está igual a do Matheus e Pedro... Verificar também as considerações que fiz no deles.}}
 
 
-& \textbf{Confiabilidade: } Com relação a confiabilidade, \citeonline{yin2001estudo} associa à repetibilidade, desde que seja usada a mesma fonte de dados. Nesse trabalho o protocolo de estudo de caso apresentado nessa seção, além da disponibilização da base de dados a serem coletados e analisados garantem a repetibilidade desse trabalho e consequentemente a validade relacionada à confiabilidade.
+& \textbf{Confiabilidade: } Com relação a confiabilidade, \citeonline{yin2001estudo} associa à repetibilidade, desde que seja usada a mesma fonte de dados. Nesse trabalho o protocolo de estudo de caso apresentado nessa seção, além da disponibilização da base de dados a serem coletados e analisados, garantem a repetibilidade desse trabalho e consequentemente a validade relacionada à confiabilidade.
 
 \end{easylist}	
 

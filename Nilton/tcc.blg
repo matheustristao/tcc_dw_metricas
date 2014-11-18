@@ -14,7 +14,7 @@ Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
 Database file #1: abntex2-options.bib
 Database file #2: bibliografia.bib
 Warning--entry type for "hilmer2002" isn't style-file defined
---line 446 of file bibliografia.bib
+--line 462 of file bibliografia.bib
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated glb_str_ptr (elt_size=4) to 20 items from 10.
 Reallocated global_strs (elt_size=20001) to 20 items from 10.
@@ -25,45 +25,45 @@ Warning--faltando school em andre2000
 | Em caso de dúvidas ou problemas com este estilo procure |
 | http://abntex2.googlecode.com                           |
 +---------------------------------------------------------+
-You've used 45 entries,
+You've used 47 entries,
             6711 wiz_defined-function locations,
-            1441 strings with 16056 characters,
-and the built_in function-call counts, 44445 in all, are:
-= -- 4577
-> -- 966
-< -- 797
-+ -- 1175
-- -- 304
-* -- 2760
-:= -- 5853
-add.period$ -- 162
-call.type$ -- 45
-change.case$ -- 355
-chr.to.int$ -- 68
-cite$ -- 45
-duplicate$ -- 3804
-empty$ -- 2507
-format.name$ -- 1420
-if$ -- 9359
+            1454 strings with 16591 characters,
+and the built_in function-call counts, 46340 in all, are:
+= -- 4732
+> -- 1022
+< -- 799
++ -- 1197
+- -- 321
+* -- 2891
+:= -- 6095
+add.period$ -- 174
+call.type$ -- 47
+change.case$ -- 377
+chr.to.int$ -- 70
+cite$ -- 47
+duplicate$ -- 3896
+empty$ -- 2677
+format.name$ -- 1504
+if$ -- 9836
 int.to.chr$ -- 1
 int.to.str$ -- 0
-missing$ -- 786
-newline$ -- 217
-num.names$ -- 220
-pop$ -- 1008
+missing$ -- 821
+newline$ -- 226
+num.names$ -- 230
+pop$ -- 1051
 preamble$ -- 1
-purify$ -- 153
+purify$ -- 161
 quote$ -- 0
-skip$ -- 3922
+skip$ -- 4024
 stack$ -- 1
-substring$ -- 1606
-swap$ -- 1368
-text.length$ -- 17
+substring$ -- 1701
+swap$ -- 1419
+text.length$ -- 19
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 12
+type$ -- 13
 warning$ -- 1
-while$ -- 276
+while$ -- 293
 width$ -- 0
-write$ -- 659
+write$ -- 693
 (There were 2 warnings)

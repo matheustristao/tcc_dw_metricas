@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=latex 2014.9.6)  17 NOV 2014 15:04
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=latex 2014.9.6)  17 NOV 2014 18:55
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1904,17 +1904,20 @@ LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <12> not available
 
 
 ]
-LaTeX Font Info:    Try loading font information for OMS+lmr on input line 39.
+LaTeX Font Info:    Try loading font information for OMS+lmr on input line 37.
 
 (/usr/share/texmf/tex/latex/lm/omslmr.fd
 File: omslmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Font shape `OMS/lmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 39.
+(Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 37.
  [16]
 File: figuras/figuras_nilton/selecaoMetodologica.eps Graphic file (type eps)
 
-<figuras/figuras_nilton/selecaoMetodologica.eps> [17]
+<figuras/figuras_nilton/selecaoMetodologica.eps>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
 (./tabelas/tabelasNilton/tabelaDescricaoMetodologia.ltx
 Overfull \hbox (5.86185pt too wide) in paragraph at lines 3--3
 []|\T1/lmr/bx/n/12 Selecionada| 
@@ -1976,9 +1979,9 @@ Underfull \vbox (badness 10000) detected at line 20
 
 )
 
-LaTeX Warning: Float too large for page by 56.07498pt on input line 86.
+LaTeX Warning: Float too large for page by 56.07498pt on input line 84.
 
-[18] [19]
+[17] [18] [19]
 File: figuras/figuras_nilton/passosEstudoCaso.eps Graphic file (type eps)
  <figuras/figuras_nilton/passosEstudoCaso.eps> [20
 
@@ -2922,47 +2925,39 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [57
 
-] [58]
-Package hyperref Info: bookmark level for unknown todo defaults to 0 on input l
-ine 60.
- [59]
-Underfull \hbox (badness 10000) in paragraph at lines 71--72
+] [58] [59]
+Underfull \hbox (badness 10000) in paragraph at lines 81--82
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 80--81
+Underfull \hbox (badness 10000) in paragraph at lines 90--91
 
  []
 
 
-Overfull \hbox (4.74597pt too wide) in paragraph at lines 85--86
+Overfull \hbox (4.74597pt too wide) in paragraph at lines 95--96
 []\T1/lmr/bx/n/12 QE02:  \T1/lmr/m/n/12 Quan-tas to-ma-das de de-ci-são ao todo
  fo-ram re-a-li-za-das pela equipe baseando-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 89--90
+Underfull \hbox (badness 10000) in paragraph at lines 99--100
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 98--99
+Underfull \hbox (badness 10000) in paragraph at lines 108--109
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 109--110
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 118--119
+Underfull \hbox (badness 10000) in paragraph at lines 119--120
 
  []
 
 [60]
-Underfull \hbox (badness 10000) in paragraph at lines 127--128
+Underfull \hbox (badness 10000) in paragraph at lines 128--129
 
  []
 
@@ -2972,7 +2967,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 137--138
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 146--147
+Underfull \hbox (badness 10000) in paragraph at lines 147--148
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 156--157
 
  []
 
@@ -2992,18 +2992,16 @@ Underfull \hbox (badness 1270) in paragraph at lines 8--9
 \T1/lmr/m/n/12 manda foi en-tre-gue no-va-mente
  []
 
-) [64]
-Overfull \hbox (28.99966pt too wide) in paragraph at lines 259--259
+) [64] [65]
+Package hyperref Info: bookmark level for unknown todo defaults to 0 on input l
+ine 303.
+
+Overfull \hbox (28.99966pt too wide) in paragraph at lines 303--303
 [] 
  []
 
-[65] [66]
-Overfull \hbox (28.99966pt too wide) in paragraph at lines 301--301
-[] 
- []
-
-
-Overfull \hbox (28.99966pt too wide) in paragraph at lines 309--309
+[66]
+Overfull \hbox (28.99966pt too wide) in paragraph at lines 312--312
 [] 
  []
 
@@ -3043,10 +3041,9 @@ Underfull \hbox (badness 3354) in paragraph at lines 33--33
 
 [69
 
-] [70]) (./apendices/apendices.tex) (./editaveis/anexos.tex) (./tcc.ind)
-
+] [70] [71]) (./apendices/apendices.tex) (./editaveis/anexos.tex) (./tcc.ind) 
 AED: lastpage setting LastPage
-[71]
+[72]
 \tf@lof=\write7
 \openout7 = `tcc.lof'.
 
@@ -3065,7 +3062,7 @@ Package atveryend Info: Executing hook `AfterLastShipout' on input line 45.
 Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 45.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 45.
 Package rerunfilecheck Info: File `tcc.brf' has not changed.
-(rerunfilecheck)             Checksum: C3E48628FA555BE4DB2F730F4920AA8D;8512.
+(rerunfilecheck)             Checksum: 05B882D5E67632C6876F5474764ED9C9;8724.
 
 
 LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
@@ -3073,12 +3070,12 @@ LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 45.
  ) 
 Here is how much of TeX's memory you used:
- 26140 strings out of 493305
- 438662 string characters out of 6139898
- 627211 words of memory out of 5000000
- 28938 multiletter control sequences out of 15000+600000
- 117349 words of font info for 88 fonts, out of 8000000 for 9000
+ 26161 strings out of 493305
+ 439075 string characters out of 6139898
+ 633365 words of memory out of 5000000
+ 28958 multiletter control sequences out of 15000+600000
+ 120341 words of font info for 89 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
- 63i,14n,83p,1321b,764s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 63i,14n,83p,1321b,768s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on tcc.dvi (72 pages, 768536 bytes).
+Output written on tcc.dvi (73 pages, 777064 bytes).

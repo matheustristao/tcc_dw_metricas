@@ -160,6 +160,12 @@ Dispon{\'\i}vel em: \url{http://www.scielo.br/pdf/rae/v37n4/a08v37n4}.}
   M\'{e}tricas de C\'{o}digo-Fonte}}. [S.l.]: Universidade de S\~{a}o Paulo,
   2010.}
 
+\bibitem[Marinescu 2005]{marinescu2005measurement}
+\abntrefinfo{Marinescu}{MARINESCU}{2005}
+{MARINESCU, R. Measurement and quality in object-oriented design. In:  IEEE.
+  \emph{Software Maintenance, 2005. ICSM'05. Proceedings of the 21st IEEE
+  International Conference on}. [S.l.], 2005. p. 701--704.}
+
 \bibitem[Martin 2008]{Martin2008}
 \abntrefinfo{Martin}{MARTIN}{2008}
 {MARTIN, R.~C. \emph{Clean Code: A Handbook of Agile Software Craftsmanship}.
@@ -216,6 +222,14 @@ Dispon{\'\i}vel em: \url{http://bdm.unb.br/handle/10483/8069}.}
 \emph{Guardando Históricos de Dimensões em Data Warehouses}.
 Disserta\c{c}\~{a}o (Mestrado), Universidade Federal da Paraíba - Centro de
   Ciências e Tecnologia, 2000.}
+
+\bibitem[Ruiz et al. 2005]{Ruiz2005}
+\abntrefinfo{Ruiz et al.}{RUIZ et al.}{2005}
+{RUIZ, D. D.~A. et al. A data warehousing environment to monitor metrics in
+  software development processes. In:  \emph{16th International Workshop on
+  Database and Expert Systems Applications (DEXA 2005), 22-26 August 2005,
+  Copenhagen, Denmark}. [S.l.]: IEEE Computer Society, 2005. p. 936--940.
+ISBN 0-7695-2424-9.}
 
 \bibitem[Sharma 2011]{neeraj_sharma_2011}
 \abntrefinfo{Sharma}{SHARMA}{2011}
