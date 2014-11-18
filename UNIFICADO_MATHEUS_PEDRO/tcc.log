@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.9.14)  17 NOV 2014 21:52
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.9.14)  17 NOV 2014 22:33
 entering extended mode
 **tcc.tex
 
@@ -1723,13 +1723,13 @@ tulos/1-introducao.tex [14
 
 
 ]
-LaTeX Font Info:    Try loading font information for OMS+lmr on input line 29.
+LaTeX Font Info:    Try loading font information for OMS+lmr on input line 28.
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\lm\omslmr.fd"
 File: omslmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Font shape `OMS/lmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 29.
+(Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 28.
  [15]
 Package epstopdf Info: Source file: <figuras/figuras_matheus/metodologia_da_peq
 uisa.eps>
@@ -1742,7 +1742,7 @@ uisa-eps-converted-to.pdf>
 (epstopdf)             Command: <epstopdf --outfile=figuras/figuras_matheus/met
 odologia_da_pequisa-eps-converted-to.pdf figuras/figuras_matheus/metodologia_da
 _pequisa.eps>
-(epstopdf)             \includegraphics on input line 54.
+(epstopdf)             \includegraphics on input line 53.
 Package epstopdf Info: Output file is already uptodate.
 
 <figuras/figuras_matheus/metodologia_da_pequisa-eps-converted-to.pdf, id=311, 6
@@ -1752,7 +1752,7 @@ ic file (type pdf)
 
 <use figuras/figuras_matheus/metodologia_da_pequisa-eps-converted-to.pdf>
 Package pdftex.def Info: figuras/figuras_matheus/metodologia_da_pequisa-eps-con
-verted-to.pdf used on input line 54.
+verted-to.pdf used on input line 53.
 (pdftex.def)             Requested size: 274.21964pt x 441.24068pt.
 
 [16 <C:/Users/Matheus/Documents/GitHub/tcc_dw_metricas/UNIFICADO_MATHEUS_PEDRO/
@@ -1766,7 +1766,7 @@ verted-to.pdf>
 (epstopdf)                    size: 26768 bytes
 (epstopdf)             Command: <epstopdf --outfile=figuras/figuras_pedro/proje
 to-pesq-eps-converted-to.pdf figuras/figuras_pedro/projeto-pesq.eps>
-(epstopdf)             \includegraphics on input line 74.
+(epstopdf)             \includegraphics on input line 73.
 Package epstopdf Info: Output file is already uptodate.
 
 <figuras/figuras_pedro/projeto-pesq-eps-converted-to.pdf, id=332, 600.2425pt x 
@@ -1775,7 +1775,7 @@ File: figuras/figuras_pedro/projeto-pesq-eps-converted-to.pdf Graphic file (typ
 e pdf)
  <use figuras/figuras_pedro/projeto-pesq-eps-converted-to.pdf>
 Package pdftex.def Info: figuras/figuras_pedro/projeto-pesq-eps-converted-to.pd
-f used on input line 74.
+f used on input line 73.
 (pdftex.def)             Requested size: 390.153pt x 292.94095pt.
 
 
@@ -2479,7 +2479,7 @@ X 2.9/fonts/type1/public/lm/lmss12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts
 ic/lm/lmssbo10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lms
 sbx10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmsso17.pfb>
 <C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmsy10.pfb>
-Output written on tcc.pdf (59 pages, 1276645 bytes).
+Output written on tcc.pdf (59 pages, 1276350 bytes).
 PDF statistics:
  1341 PDF objects out of 1440 (max. 8388607)
  184 named destinations out of 1000 (max. 500000)
