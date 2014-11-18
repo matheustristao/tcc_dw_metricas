@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.9.22)  17 NOV 2014 23:31
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.9.22)  17 NOV 2014 23:51
 entering extended mode
 **C:/Users/Pedrones/Desktop/tcc_git/tcc_dw_metricas/UNIFICADO_MATHEUS_PEDRO/tcc
 .tex
@@ -1765,7 +1765,7 @@ _pequisa.eps>
 (epstopdf)             \includegraphics on input line 53.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/figuras_matheus/metodologia_da_pequisa-eps-converted-to.pdf, id=313, 6
+<figuras/figuras_matheus/metodologia_da_pequisa-eps-converted-to.pdf, id=315, 6
 85.56125pt x 1103.12125pt>
 File: figuras/figuras_matheus/metodologia_da_pequisa-eps-converted-to.pdf Graph
 ic file (type pdf)
@@ -1789,7 +1789,7 @@ to-pesq-eps-converted-to.pdf figuras/figuras_pedro/projeto-pesq.eps>
 (epstopdf)             \includegraphics on input line 73.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/figuras_pedro/projeto-pesq-eps-converted-to.pdf, id=334, 600.2425pt x 
+<figuras/figuras_pedro/projeto-pesq-eps-converted-to.pdf, id=336, 600.2425pt x 
 450.68375pt>
 File: figuras/figuras_pedro/projeto-pesq-eps-converted-to.pdf Graphic file (typ
 e pdf)
@@ -1821,7 +1821,7 @@ GLES.eps>
 (epstopdf)             \includegraphics on input line 55.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/figuras_matheus/tipos_medidas_INGLES-eps-converted-to.pdf, id=397, 499
+<figuras/figuras_matheus/tipos_medidas_INGLES-eps-converted-to.pdf, id=399, 499
 .8675pt x 174.6525pt>
 File: figuras/figuras_matheus/tipos_medidas_INGLES-eps-converted-to.pdf Graphic
  file (type pdf)
@@ -2170,7 +2170,7 @@ bas-dw-eps-converted-to.pdf figuras/figuras_pedro/elem-bas-dw.eps>
 (epstopdf)             \includegraphics on input line 83.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/figuras_pedro/elem-bas-dw-eps-converted-to.pdf, id=626, 638.385pt x 28
+<figuras/figuras_pedro/elem-bas-dw-eps-converted-to.pdf, id=628, 638.385pt x 28
 7.0725pt>
 File: figuras/figuras_pedro/elem-bas-dw-eps-converted-to.pdf Graphic file (type
  pdf)
@@ -2196,7 +2196,7 @@ o-eps-converted-to.pdf figuras/figuras_matheus/cubo.eps>
 (epstopdf)             \includegraphics on input line 124.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/figuras_matheus/cubo-eps-converted-to.pdf, id=667, 748.7975pt x 378.41
+<figuras/figuras_matheus/cubo-eps-converted-to.pdf, id=669, 748.7975pt x 378.41
 376pt>
 File: figuras/figuras_matheus/cubo-eps-converted-to.pdf Graphic file (type pdf)
 
@@ -2221,7 +2221,7 @@ ll-eps-converted-to.pdf figuras/figuras_matheus/drill.eps>
 (epstopdf)             \includegraphics on input line 148.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/figuras_matheus/drill-eps-converted-to.pdf, id=691, 608.2725pt x 166.6
+<figuras/figuras_matheus/drill-eps-converted-to.pdf, id=693, 608.2725pt x 166.6
 225pt>
 File: figuras/figuras_matheus/drill-eps-converted-to.pdf Graphic file (type pdf
 )
@@ -2247,7 +2247,7 @@ r-eps-converted-to.pdf figuras/figuras_matheus/star.eps>
 (epstopdf)             \includegraphics on input line 166.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/figuras_matheus/star-eps-converted-to.pdf, id=715, 593.21625pt x 378.4
+<figuras/figuras_matheus/star-eps-converted-to.pdf, id=717, 593.21625pt x 378.4
 1376pt>
 File: figuras/figuras_matheus/star-eps-converted-to.pdf Graphic file (type pdf)
 
@@ -2275,7 +2275,7 @@ ao.eps>
 (epstopdf)             \includegraphics on input line 179.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/figuras_matheus/arquitetura_solucao-eps-converted-to.pdf, id=731, 722.
+<figuras/figuras_matheus/arquitetura_solucao-eps-converted-to.pdf, id=733, 722.
 7pt x 842.14626pt>
 File: figuras/figuras_matheus/arquitetura_solucao-eps-converted-to.pdf Graphic 
 file (type pdf)
@@ -2310,7 +2310,7 @@ elo-dw-baufaker-eps-converted-to.pdf figuras/figuras_matheus/modelo-dw-baufaker
 (epstopdf)             \includegraphics on input line 264.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/figuras_matheus/modelo-dw-baufaker-eps-converted-to.pdf, id=781, 906.3
+<figuras/figuras_matheus/modelo-dw-baufaker-eps-converted-to.pdf, id=783, 906.3
 8625pt x 934.49126pt>
 File: figuras/figuras_matheus/modelo-dw-baufaker-eps-converted-to.pdf Graphic f
 ile (type pdf)
@@ -2339,7 +2339,7 @@ adados-baufaker-eps-converted-to.pdf figuras/figuras_matheus/metadados-baufaker
 (epstopdf)             \includegraphics on input line 284.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/figuras_matheus/metadados-baufaker-eps-converted-to.pdf, id=803, 677.5
+<figuras/figuras_matheus/metadados-baufaker-eps-converted-to.pdf, id=805, 677.5
 3125pt x 553.06625pt>
 File: figuras/figuras_matheus/metadados-baufaker-eps-converted-to.pdf Graphic f
 ile (type pdf)
@@ -2366,94 +2366,96 @@ a-eps-converted-to.pdf>
 (epstopdf)             Command: <epstopdf --outfile=figuras/figuras_matheus/pro
 jeto_de_pesquisa-eps-converted-to.pdf figuras/figuras_matheus/projeto_de_pesqui
 sa.eps>
-(epstopdf)             \includegraphics on input line 73.
+(epstopdf)             \includegraphics on input line 75.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/figuras_matheus/projeto_de_pesquisa-eps-converted-to.pdf, id=906, 1272
+<figuras/figuras_matheus/projeto_de_pesquisa-eps-converted-to.pdf, id=909, 1272
 .755pt x 948.54375pt>
 File: figuras/figuras_matheus/projeto_de_pesquisa-eps-converted-to.pdf Graphic 
 file (type pdf)
 
 <use figuras/figuras_matheus/projeto_de_pesquisa-eps-converted-to.pdf>
 Package pdftex.def Info: figuras/figuras_matheus/projeto_de_pesquisa-eps-conver
-ted-to.pdf used on input line 73.
+ted-to.pdf used on input line 75.
 (pdftex.def)             Requested size: 509.09299pt x 379.41077pt.
 
-Overfull \hbox (54.09299pt too wide) in paragraph at lines 73--74
+Overfull \hbox (54.09299pt too wide) in paragraph at lines 75--76
  [][] 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 85--86
-
  []
 
 [49 <C:/Users/Pedrones/Desktop/tcc_git/tcc_dw_metricas/UNIFICADO_MATHEUS_PEDRO/
 figuras/figuras_matheus/projeto_de_pesquisa-eps-converted-to.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 93--94
+Underfull \hbox (badness 10000) in paragraph at lines 87--88
 
  []
 
 
-Overfull \hbox (4.74597pt too wide) in paragraph at lines 97--98
+Underfull \hbox (badness 10000) in paragraph at lines 95--96
+
+ []
+
+
+Overfull \hbox (4.74597pt too wide) in paragraph at lines 99--100
 []\T1/lmr/bx/n/12 QE02:  \T1/lmr/m/n/12 Quan-tas to-ma-das de de-ci-são ao todo
  fo-ram re-a-li-za-das pela equipe baseando-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 101--102
+Underfull \hbox (badness 10000) in paragraph at lines 103--104
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 110--111
+Underfull \hbox (badness 10000) in paragraph at lines 112--113
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 120--121
+Underfull \hbox (badness 10000) in paragraph at lines 122--123
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 128--129
+Underfull \hbox (badness 10000) in paragraph at lines 130--131
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 136--137
+Underfull \hbox (badness 10000) in paragraph at lines 138--139
 
  []
 
 [50]
-Underfull \hbox (badness 10000) in paragraph at lines 145--146
+Underfull \hbox (badness 10000) in paragraph at lines 147--148
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 153--154
+Underfull \hbox (badness 10000) in paragraph at lines 155--156
 
  []
 
-[51] [52] [53])
+[51] [52] [53]
+(C:\Users\Pedrones\Desktop\tcc_git\tcc_dw_metricas\UNIFICADO_MATHEUS_PEDRO\tabe
+las/tabelasMatheus/cronograma.ltx) [54])
 (C:\Users\Pedrones\Desktop\tcc_git\tcc_dw_metricas\UNIFICADO_MATHEUS_PEDRO\capi
-tulos/5-conclusao.tex [54])
+tulos/5-conclusao.tex [55])
 (C:\Users\Pedrones\Desktop\tcc_git\tcc_dw_metricas\UNIFICADO_MATHEUS_PEDRO\tcc.
 bbl
 (C:\Users\Pedrones\Desktop\tcc_git\tcc_dw_metricas\UNIFICADO_MATHEUS_PEDRO\tcc.
 brf)
 \tf@brf=\write7
- [55
+ [56
 
 ]
 bibitemlist
-[56
+[57
 
-] [57])
+] [58])
 No file tcc.ind.
 
 AED: lastpage setting LastPage
-[58]
+[59]
 \tf@lof=\write8
 \tf@lot=\write9
 \tf@toc=\write10
@@ -2465,7 +2467,7 @@ aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 46.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 46.
 Package rerunfilecheck Info: File `tcc.brf' has not changed.
-(rerunfilecheck)             Checksum: 42EF52AD6B36EC749C4E6FCA04742264;11229.
+(rerunfilecheck)             Checksum: 2242220D0D72CF7B2124B3CEE3116E8D;11229.
 
 
 LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
@@ -2473,10 +2475,10 @@ LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 46.
  ) 
 Here is how much of TeX's memory you used:
- 27566 strings out of 493921
- 492581 string characters out of 3144867
- 602549 words of memory out of 3000000
- 29977 multiletter control sequences out of 15000+200000
+ 27574 strings out of 493921
+ 492938 string characters out of 3144867
+ 602695 words of memory out of 3000000
+ 29981 multiletter control sequences out of 15000+200000
  101929 words of font info for 79 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
  68i,14n,75p,1541b,630s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -2499,9 +2501,9 @@ X 2.9/fonts/type1/public/lm/lmss12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts
 ic/lm/lmssbo10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lms
 sbx10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmsso17.pfb>
 <C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmsy10.pfb>
-Output written on tcc.pdf (59 pages, 1285250 bytes).
+Output written on tcc.pdf (60 pages, 1286801 bytes).
 PDF statistics:
- 1378 PDF objects out of 1440 (max. 8388607)
- 187 named destinations out of 1000 (max. 500000)
+ 1384 PDF objects out of 1440 (max. 8388607)
+ 188 named destinations out of 1000 (max. 500000)
  509 words of extra memory for PDF output out of 10000 (max. 10000000)
 
