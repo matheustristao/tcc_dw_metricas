@@ -31,11 +31,6 @@ Dispon{\'\i}vel em: \url{http://drum.lib.umd.edu//handle/1903/7517}.}
 [S.l.], 2011. Dispon{\'\i}vel em:
   \url{https://contas.tcu.gov.br/juris/SvlHighLight?key=ACORDAO-LEGADO-89657&texto=2b4e554d41434f5244414f2533413338312b414e442b2b4e554d414e4f41434f5244414f25334132303131&sort=&ordem=&bases=ACORDAO-LEGADO;RELACAO-LEGADO;DECISAO-LEGADO;SIDOC;ACORDAO-RELACAO-LEGADO;}.}
 
-\bibitem[Brasil 2014]{Normativa4}
-\abntrefinfo{Brasil}{BRASIL}{2014}
-{BRASIL. Instrução normativa número 4.
-2014.}
-
 \bibitem[Brereton, Kitchenham e Budgen 2008]{case-study-template-2008}
 \abntrefinfo{Brereton, Kitchenham e Budgen}{BRERETON; KITCHENHAM; BUDGEN}{2008}
 {BRERETON, P.; KITCHENHAM, B.; BUDGEN, D. Using a protocol template for case
@@ -94,6 +89,11 @@ ISBN 9780071610391.}
 ISBN 978-1-4244-5422-8, 978-0-7695-3930-0. Dispon{\'\i}vel em:
   \url{http://ieeexplore.ieee.org/lpdocs/epic03/wrapper.htm?arnumber=5385114}.}
 
+\bibitem[IN4 2014]{Normativa4}
+\abntrefinfo{IN4}{IN4}{2014}
+{IN4. Instrução normativa número 4.
+2014.}
+
 \bibitem[Inmon 2002]{Inmon2002}
 \abntrefinfo{Inmon}{INMON}{2002}
 {INMON, W.~H. \emph{Building the Data Warehouse}. 3rd. ed. New York, NY, USA:
@@ -110,13 +110,6 @@ ISBN 978-1-4244-5422-8, 978-0-7695-3930-0. Dispon{\'\i}vel em:
 {{ISO/IEC 15939}. \emph{{ISO/IEC} 12207: {S}ystem and {S}oftware {E}ngineering
   - {S}oftware {L}ife {C}ycle {P}rocesses}.
 [S.l.], 2008.}
-
-\bibitem[{ISO/IEC 25023} 2011]{ISO25023}
-\abntrefinfo{{ISO/IEC 25023}}{{ISO/IEC 25023}}{2011}
-{{ISO/IEC 25023}. \emph{{ISO/IEC} 25023: Systems and software engineering -
-  Systems and software Quality Requirements and Evaluation (SQuaRE) -
-  Measurement of system and software product quality}.
-[S.l.], 2011.}
 
 \bibitem[{ISO/IEC 9126} 2001]{ISO:9126}
 \abntrefinfo{{ISO/IEC 9126}}{{ISO/IEC 9126}}{2001}
@@ -159,6 +152,12 @@ Dispon{\'\i}vel em: \url{http://www.scielo.br/pdf/rae/v37n4/a08v37n4}.}
 {MACHINI, J.~a. et al. \emph{{C\'{o}digo Limpo e seu Mapeamento para
   M\'{e}tricas de C\'{o}digo-Fonte}}. [S.l.]: Universidade de S\~{a}o Paulo,
   2010.}
+
+\bibitem[Marinescu 2005]{marinescu2005measurement}
+\abntrefinfo{Marinescu}{MARINESCU}{2005}
+{MARINESCU, R. Measurement and quality in object-oriented design. In:  IEEE.
+  \emph{Software Maintenance, 2005. ICSM'05. Proceedings of the 21st IEEE
+  International Conference on}. [S.l.], 2005. p. 701--704.}
 
 \bibitem[Martin 2008]{Martin2008}
 \abntrefinfo{Martin}{MARTIN}{2008}
@@ -216,6 +215,14 @@ Dispon{\'\i}vel em: \url{http://bdm.unb.br/handle/10483/8069}.}
 \emph{Guardando Históricos de Dimensões em Data Warehouses}.
 Disserta\c{c}\~{a}o (Mestrado), Universidade Federal da Paraíba - Centro de
   Ciências e Tecnologia, 2000.}
+
+\bibitem[Ruiz et al. 2005]{Ruiz2005}
+\abntrefinfo{Ruiz et al.}{RUIZ et al.}{2005}
+{RUIZ, D. D.~A. et al. A data warehousing environment to monitor metrics in
+  software development processes. In:  \emph{16th International Workshop on
+  Database and Expert Systems Applications (DEXA 2005), 22-26 August 2005,
+  Copenhagen, Denmark}. [S.l.]: IEEE Computer Society, 2005. p. 936--940.
+ISBN 0-7695-2424-9.}
 
 \bibitem[Sharma 2011]{neeraj_sharma_2011}
 \abntrefinfo{Sharma}{SHARMA}{2011}

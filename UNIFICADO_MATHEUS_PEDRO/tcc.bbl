@@ -5,14 +5,6 @@
 \providecommand{\abntbstabout}[1]{}
 \abntbstabout{v-1.9.2 }
 
-\bibitem[Almeida e Miranda 2010]{almeida_codigo}
-\abntrefinfo{Almeida e Miranda}{ALMEIDA; MIRANDA}{2010}
-{ALMEIDA, L.~T.; MIRANDA, J.~M. de. Código limpo e seu mapeamento para
-  métricas de código fonte.
-2010.
-Dispon{\'\i}vel em:
-  \url{http://ccsl.ime.usp.br/pt-br/system/files/relatorio-codigo-limpo.pdf}.}
-
 \bibitem[Ballard 2006]{ballard_dimensional_2006}
 \abntrefinfo{Ballard}{BALLARD}{2006}
 {BALLARD, C. (Ed.). \emph{Dimensional modeling: in a business intelligence
@@ -146,6 +138,25 @@ ISBN 0471200247, 9780471200246.}
 {LAIRD, M. C.~B. L.~M. \emph{Software measurement and estimation: A practical
   approach}. [S.l.]: Wiley-IEEE Computer Society Press, 2006.}
 
+\bibitem[Machini et al. 2010]{Machini2010}
+\abntrefinfo{Machini et al.}{MACHINI et al.}{2010}
+{MACHINI, J.~a. et al. \emph{{C\'{o}digo Limpo e seu Mapeamento para
+  M\'{e}tricas de C\'{o}digo-Fonte}}. [S.l.]: Universidade de S\~{a}o Paulo,
+  2010.}
+
+\bibitem[Marinescu 2005]{marinescu2005measurement}
+\abntrefinfo{Marinescu}{MARINESCU}{2005}
+{MARINESCU, R. Measurement and quality in object-oriented design. In:  IEEE.
+  \emph{Software Maintenance, 2005. ICSM'05. Proceedings of the 21st IEEE
+  International Conference on}. [S.l.], 2005. p. 701--704.}
+
+\bibitem[Martin 2008]{Martin2008}
+\abntrefinfo{Martin}{MARTIN}{2008}
+{MARTIN, R.~C. \emph{Clean Code: A Handbook of Agile Software Craftsmanship}.
+  [s.n.], 2008. 464~p.
+ISBN 9780132350884. Dispon{\'\i}vel em:
+  \url{http://portal.acm.org/citation.cfm?id=1388398}.}
+
 \bibitem[McCabe 1976]{McCabe76}
 \abntrefinfo{McCabe}{MCCABE}{1976}
 {MCCABE, T.~J. {A Complexity Measure}.
@@ -192,6 +203,14 @@ ISBN 0849316618.}
   administração pública federal.
 2014.
 Dispon{\'\i}vel em: \url{http://bdm.unb.br/handle/10483/8069}.}
+
+\bibitem[Ruiz et al. 2005]{Ruiz2005}
+\abntrefinfo{Ruiz et al.}{RUIZ et al.}{2005}
+{RUIZ, D. D.~A. et al. A data warehousing environment to monitor metrics in
+  software development processes. In:  \emph{16th International Workshop on
+  Database and Expert Systems Applications (DEXA 2005), 22-26 August 2005,
+  Copenhagen, Denmark}. [S.l.]: IEEE Computer Society, 2005. p. 936--940.
+ISBN 0-7695-2424-9.}
 
 \bibitem[Schramm 1971]{schramm_notes_1971}
 \abntrefinfo{Schramm}{SCHRAMM}{1971}
