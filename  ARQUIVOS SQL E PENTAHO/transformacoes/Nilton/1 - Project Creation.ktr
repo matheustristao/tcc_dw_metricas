@@ -284,8 +284,8 @@
       <last_update_field/>
      <cluster_schema/>
  <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
-      <xloc>370</xloc>
-      <yloc>40</yloc>
+      <xloc>371</xloc>
+      <yloc>38</yloc>
       <draw>Y</draw>
       </GUI>
     </step>

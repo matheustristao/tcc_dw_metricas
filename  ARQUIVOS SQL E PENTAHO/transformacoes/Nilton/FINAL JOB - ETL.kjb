@@ -51,8 +51,8 @@
       <parallel>N</parallel>
       <draw>Y</draw>
       <nr>0</nr>
-      <xloc>96</xloc>
-      <yloc>60</yloc>
+      <xloc>95</xloc>
+      <yloc>56</yloc>
       </entry>
     <entry>
       <name>An&#xe1;lise dos Valores Percentis</name>
@@ -60,7 +60,7 @@
       <type>TRANS</type>
       <specification_method>filename</specification_method>
       <trans_object_id/>
-      <filename>&#x2f;home&#x2f;baufaker&#x2f;Dropbox&#x2f;Unb&#x2f;TCC&#x2f;TCC-Baufaker&#x2f;pentaho-files&#x2f;Arquivos PDI&#x2f;Percentiles Analizo.ktr</filename>
+      <filename>&#x24;&#x7b;Internal.Job.Filename.Directory&#x7d;&#x2f;2 - Percentiles Analizo.ktr</filename>
       <transname/>
       <arg_from_previous>N</arg_from_previous>
       <params_from_previous>N</params_from_previous>
@@ -84,8 +84,8 @@
       </parameters>      <parallel>N</parallel>
       <draw>Y</draw>
       <nr>0</nr>
-      <xloc>462</xloc>
-      <yloc>55</yloc>
+      <xloc>463</xloc>
+      <yloc>51</yloc>
       </entry>
     <entry>
       <name>Dados do Projeto</name>
@@ -93,7 +93,7 @@
       <type>TRANS</type>
       <specification_method>filename</specification_method>
       <trans_object_id/>
-      <filename>&#x24;&#x7b;Internal.Job.Filename.Directory&#x7d;&#x2f;Project Creation 2.ktr</filename>
+      <filename>&#x24;&#x7b;Internal.Job.Filename.Directory&#x7d;&#x2f;1 - Project Creation.ktr</filename>
       <transname/>
       <arg_from_previous>N</arg_from_previous>
       <params_from_previous>N</params_from_previous>
@@ -117,8 +117,8 @@
       </parameters>      <parallel>N</parallel>
       <draw>Y</draw>
       <nr>0</nr>
-      <xloc>307</xloc>
-      <yloc>56</yloc>
+      <xloc>262</xloc>
+      <yloc>61</yloc>
       </entry>
     <entry>
       <name>Cubo das Classes</name>
@@ -159,7 +159,7 @@
       <type>TRANS</type>
       <specification_method>filename</specification_method>
       <trans_object_id/>
-      <filename>&#x24;&#x7b;Internal.Job.Filename.Directory&#x7d;&#x2f;Find Classes.ktr</filename>
+      <filename>&#x24;&#x7b;Internal.Job.Filename.Directory&#x7d;&#x2f;3 - Class Creation.ktr</filename>
       <transname/>
       <arg_from_previous>N</arg_from_previous>
       <params_from_previous>N</params_from_previous>
