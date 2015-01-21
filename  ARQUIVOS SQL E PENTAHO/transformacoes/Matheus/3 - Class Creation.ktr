@@ -81,7 +81,7 @@
     <database>source_info</database>
     <port>3306</port>
     <username>root</username>
-    <password>Encrypted 2be98afc86aa7f2e4cb79ce218cc1fb8f</password>
+    <password>Encrypted 2be98afc86aa7f2e4fb4aff218cc2ff8d</password>
     <servername/>
     <data_tablespace/>
     <index_tablespace/>
@@ -437,7 +437,7 @@
     <ignoreMissingPath>N</ignoreMissingPath>
     <rownum_field>tamanho</rownum_field>
     <file>
-      <name>&#x2f;home&#x2f;nilton&#x2f;tcc&#x2f;conversaocsvjson&#x2f;1.json</name>
+      <name>&#x2f;home&#x2f;matheus&#x2f;convert&#x2f;2.json</name>
       <filemask/>
       <exclude_filemask/>
       <file_required>N</file_required>
