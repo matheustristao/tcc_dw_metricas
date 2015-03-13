@@ -11,6 +11,11 @@
   <modified_user>-</modified_user>
   <modified_date>2014&#x2f;05&#x2f;05 12&#x3a;06&#x3a;57.762</modified_date>
     <parameters>
+        <parameter>
+            <name>JSON_FILE</name>
+            <default_value/>
+            <description>Fonte de dado para o ETL</description>
+        </parameter>
     </parameters>
     <slaveservers>
     </slaveservers>
@@ -51,8 +56,8 @@
       <parallel>N</parallel>
       <draw>Y</draw>
       <nr>0</nr>
-      <xloc>96</xloc>
-      <yloc>60</yloc>
+      <xloc>78</xloc>
+      <yloc>53</yloc>
       </entry>
     <entry>
       <name>An&#xe1;lise dos Valores Percentis</name>
@@ -60,7 +65,7 @@
       <type>TRANS</type>
       <specification_method>filename</specification_method>
       <trans_object_id/>
-      <filename>&#x2f;home&#x2f;baufaker&#x2f;Dropbox&#x2f;Unb&#x2f;TCC&#x2f;TCC-Baufaker&#x2f;pentaho-files&#x2f;Arquivos PDI&#x2f;Percentiles Analizo.ktr</filename>
+      <filename>&#x24;&#x7b;Internal.Job.Filename.Directory&#x7d;&#x2f;2 - Percentiles Analizo.ktr</filename>
       <transname/>
       <arg_from_previous>N</arg_from_previous>
       <params_from_previous>N</params_from_previous>
@@ -84,8 +89,8 @@
       </parameters>      <parallel>N</parallel>
       <draw>Y</draw>
       <nr>0</nr>
-      <xloc>462</xloc>
-      <yloc>55</yloc>
+      <xloc>531</xloc>
+      <yloc>57</yloc>
       </entry>
     <entry>
       <name>Dados do Projeto</name>
@@ -93,7 +98,7 @@
       <type>TRANS</type>
       <specification_method>filename</specification_method>
       <trans_object_id/>
-      <filename>&#x24;&#x7b;Internal.Job.Filename.Directory&#x7d;&#x2f;Project Creation 2.ktr</filename>
+      <filename>&#x24;&#x7b;Internal.Job.Filename.Directory&#x7d;&#x2f;1 - Project Creation.ktr</filename>
       <transname/>
       <arg_from_previous>N</arg_from_previous>
       <params_from_previous>N</params_from_previous>
@@ -117,8 +122,8 @@
       </parameters>      <parallel>N</parallel>
       <draw>Y</draw>
       <nr>0</nr>
-      <xloc>307</xloc>
-      <yloc>56</yloc>
+      <xloc>332</xloc>
+      <yloc>53</yloc>
       </entry>
     <entry>
       <name>Cubo das Classes</name>
@@ -150,8 +155,8 @@
       </parameters>      <parallel>N</parallel>
       <draw>N</draw>
       <nr>0</nr>
-      <xloc>549</xloc>
-      <yloc>72</yloc>
+      <xloc>586</xloc>
+      <yloc>53</yloc>
       </entry>
     <entry>
       <name>An&#xe1;lise dos Cen&#xe1;rios de Limpeza de C&#xf3;digo-Fonte</name>
@@ -159,7 +164,7 @@
       <type>TRANS</type>
       <specification_method>filename</specification_method>
       <trans_object_id/>
-      <filename>&#x24;&#x7b;Internal.Job.Filename.Directory&#x7d;&#x2f;Find Classes.ktr</filename>
+      <filename>&#x24;&#x7b;Internal.Job.Filename.Directory&#x7d;&#x2f;3 - Class Creation.ktr</filename>
       <transname/>
       <arg_from_previous>N</arg_from_previous>
       <params_from_previous>N</params_from_previous>
@@ -183,20 +188,31 @@
       </parameters>      <parallel>N</parallel>
       <draw>Y</draw>
       <nr>0</nr>
-      <xloc>713</xloc>
+      <xloc>813</xloc>
+      <yloc>53</yloc>
+      </entry>
+    <entry>
+      <name>Set variables</name>
+      <description/>
+      <type>SET_VARIABLES</type>
+      <replacevars>Y</replacevars>
+      <filename/>
+      <file_variable_type>JVM</file_variable_type>
+      <fields>
+        <field>
+          <variable_name>JSON_SOURCE</variable_name>
+          <variable_value>&#x24;&#x7b;JSON_FILE&#x7d;</variable_value>
+          <variable_type>JVM</variable_type>
+        </field>
+      </fields>
+      <parallel>N</parallel>
+      <draw>Y</draw>
+      <nr>0</nr>
+      <xloc>205</xloc>
       <yloc>53</yloc>
       </entry>
   </entries>
   <hops>
-    <hop>
-      <from>START</from>
-      <to>Dados do Projeto</to>
-      <from_nr>0</from_nr>
-      <to_nr>0</to_nr>
-      <enabled>Y</enabled>
-      <evaluation>Y</evaluation>
-      <unconditional>Y</unconditional>
-    </hop>
     <hop>
       <from>Dados do Projeto</from>
       <to>An&#xe1;lise dos Valores Percentis</to>
@@ -209,6 +225,24 @@
     <hop>
       <from>An&#xe1;lise dos Valores Percentis</from>
       <to>An&#xe1;lise dos Cen&#xe1;rios de Limpeza de C&#xf3;digo-Fonte</to>
+      <from_nr>0</from_nr>
+      <to_nr>0</to_nr>
+      <enabled>Y</enabled>
+      <evaluation>Y</evaluation>
+      <unconditional>N</unconditional>
+    </hop>
+    <hop>
+      <from>START</from>
+      <to>Set variables</to>
+      <from_nr>0</from_nr>
+      <to_nr>0</to_nr>
+      <enabled>Y</enabled>
+      <evaluation>Y</evaluation>
+      <unconditional>Y</unconditional>
+    </hop>
+    <hop>
+      <from>Set variables</from>
+      <to>Dados do Projeto</to>
       <from_nr>0</from_nr>
       <to_nr>0</to_nr>
       <enabled>Y</enabled>
