@@ -213,7 +213,7 @@
     <database>source_info</database>
     <port>3306</port>
     <username>root</username>
-    <password>Encrypted 2be98afc86aa7f2e4fb4aff218cc2ff8d</password>
+    <password>Encrypted 2be98afc86aa7f2e4cb79ce10cc9da0ce</password>
     <servername/>
     <data_tablespace/>
     <index_tablespace/>
@@ -263,7 +263,7 @@
           <lookup>project_name</lookup>
         </key>
         <key>
-          <name>sigl</name>
+          <name>sigla</name>
           <lookup>project_abbreviation</lookup>
         </key>
         <key>
@@ -285,7 +285,7 @@
      <cluster_schema/>
  <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
       <xloc>370</xloc>
-      <yloc>40</yloc>
+      <yloc>39</yloc>
       <draw>Y</draw>
       </GUI>
     </step>
@@ -401,7 +401,7 @@
     <ignoreMissingPath>N</ignoreMissingPath>
     <rownum_field/>
     <file>
-      <name>&#x2f;home&#x2f;matheus&#x2f;convert&#x2f;2.json</name>
+      <name>&#x2f;home&#x2f;matheus&#x2f;Downloads&#x2f;5.json</name>
       <filemask/>
       <exclude_filemask/>
       <file_required>N</file_required>
@@ -461,8 +461,8 @@
         <repeat>N</repeat>
       </field>
       <field>
-        <name>sigl</name>
-        <path>&#x24;..sigl</path>
+        <name>sigla</name>
+        <path>&#x24;..sigla</path>
         <type>String</type>
         <format/>
         <currency/>
@@ -527,8 +527,8 @@
     <sizeFieldName/>
      <cluster_schema/>
  <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
-      <xloc>115</xloc>
-      <yloc>36</yloc>
+      <xloc>113</xloc>
+      <yloc>34</yloc>
       <draw>Y</draw>
       </GUI>
     </step>
