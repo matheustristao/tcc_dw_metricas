@@ -152,7 +152,7 @@
       <last_update_field/>
      <cluster_schema/>
  <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
-      <xloc>370</xloc>
+      <xloc>369</xloc>
       <yloc>39</yloc>
       <draw>Y</draw>
       </GUI>
@@ -197,8 +197,8 @@
       <last_update_field/>
      <cluster_schema/>
  <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
-      <xloc>364</xloc>
-      <yloc>114</yloc>
+      <xloc>360</xloc>
+      <yloc>113</yloc>
       <draw>Y</draw>
       </GUI>
     </step>
@@ -242,7 +242,7 @@
       <last_update_field/>
      <cluster_schema/>
  <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
-      <xloc>361</xloc>
+      <xloc>360</xloc>
       <yloc>209</yloc>
       <draw>Y</draw>
       </GUI>
@@ -395,7 +395,7 @@
     <sizeFieldName/>
      <cluster_schema/>
  <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
-      <xloc>115</xloc>
+      <xloc>114</xloc>
       <yloc>33</yloc>
       <draw>Y</draw>
       </GUI>
