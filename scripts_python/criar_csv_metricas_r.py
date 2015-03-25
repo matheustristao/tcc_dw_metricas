@@ -3,9 +3,7 @@ import os
 import csv
 import linecache
 
-
-
-vetor_metricas = ['acc', 'rfc','da', 'sc', 'mlk', 'uaf', 'saigv', 'ua', 'mmloc', 'amloc', 'an', 'cbo', 'anpm', 'rsva', 'asom', 'osf', 'npm', 'auv', 'obaa', 'noa', 'lcom4', 'nom', 'dbz', 'pitfc', 'dnp', 'bd', 'dit', 'npa', 'fgbo', 'dupv', 'bf', 'noc', 'accm', 'loc', 'df', 'uav', 'rogu']
+vetor_metricas = ['acc','accm','amloc','an','anpm','asom','auv','bd','bf','cbo','da','dbz','df','dit','dnp','dupv','fgbo','lcom4','loc','mlk','mmloc','noa','noc','nom','npa','npm','obaa','osf','pitfc','rfc','rogu','rsva','saigv','sc','ua','uaf','uav']
 
 for metrica in vetor_metricas:
 
@@ -25,10 +23,7 @@ for metrica in vetor_metricas:
 		if name.find(".csv") <1:
 			project_names.append(name)
 
-	#Aqui eu crio uma linha na planilha para cada projeto
-	posicao_linha = 2
-
-	
+	# crio o arquvo csv	
 	myfile = open(metrica + '.csv', 'wb')
 	
 	wr = csv.writer(myfile, quoting=csv.QUOTE_MINIMAL, delimiter=';' )
@@ -39,11 +34,7 @@ for metrica in vetor_metricas:
 	for project_name in project_names:
 				
 		#Aqui eu abro a pasta do projeto e o arquivo de métrica que eu quero exatamente na segunda linha
-		linha = linecache.getline(PATH + project_name + "/" + metrica + '.txt', 2)	
-		linha = project_name  + ' ' + linha
-		#Aqui eu separo os valores da linha em variaveis separadas	
-		valores_linha = linha.split()			
-					
-		wr.writerow(valores_linha)
+		linha = project_name  + ' ' + linecache.getline(PATH + project_name + "/" + metrica + '.txt', 2)	
 
-	
+		#Aqui o split cria o vetor que vai ser tratado na funcao writerow(), que aplica os delimitadores para cada argumento do array
+		wr.writerow(linha.split())	
