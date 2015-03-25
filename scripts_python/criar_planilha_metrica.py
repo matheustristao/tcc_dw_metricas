@@ -45,11 +45,10 @@ for metrica in vetor_metricas:
 			project_names.append(name)
 
 	#Aqui eu crio uma linha na planilha para cada projeto
-	valor_nome_projeto = 2
 	posicao_linha = 2
 
 	for project_name in project_names:
-		cell = 'A' + str(valor_nome_projeto)
+		cell = 'A' + str(posicao_linha)
 		sheet[cell].set_value(project_name)
 
 		
@@ -67,7 +66,6 @@ for metrica in vetor_metricas:
 			
 			posicao_coluna = posicao_coluna + 1
 
-		posicao_linha = posicao_linha + 1	
-		valor_nome_projeto = valor_nome_projeto+1
+		posicao_linha = posicao_linha + 1
 
 	ods.save()

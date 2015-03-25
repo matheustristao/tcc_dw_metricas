@@ -14,5 +14,5 @@ for name in list_names:
 		new_list_names.append(name)
 		quantidade = quantidade+1
 
-print(set(new_list_names))		
+print(sorted(new_list_names))		
 print("\n" + str(quantidade))		
